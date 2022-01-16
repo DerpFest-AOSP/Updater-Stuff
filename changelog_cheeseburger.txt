@@ -1,0 +1,18 @@
+Device Changes:
+- Reverted two commits from lineage upstream which caused alert slider not working
+
+ROM:
+- Merge tag 'android-12.0.0_r27'
+- Fixed my derp from last build (status bar icons like network traffic and NFC working fine now again)
+- Extend Pulse to QS Panel
+- Pulse: Correctly stop it on screen OFF events
+- Add HeadsUp snooze function
+- Make seekbar background transparent
+- Change secondary label for DerpSpace QS tile
+- Improved status bar and QS margins and paddings
+- Allow udfps when strong auth is required
+- Show scrimmed bouncer from BiometricUnlockCtrl
+- Settings: Display auto rotate settings instead of toggle
+- Switched to own fragment for Long press power button to toggle flashlight
+- fsck.f2fs: Disable kernel checks by default
+- Imported some additional Chinese translations from exthmui
