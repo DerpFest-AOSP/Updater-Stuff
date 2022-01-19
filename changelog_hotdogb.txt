@@ -1,0 +1,5 @@
+Device Changes:
+- Pushed latest 1CE kernel changes and upstreamed it to .261
+
+ROM:
+- A few ones, take a look to find out
