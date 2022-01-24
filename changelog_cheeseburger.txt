@@ -1,18 +1,32 @@
-Device Changes:
-- Reverted two commits from lineage upstream which caused alert slider not working
-
-ROM:
-- Merge tag 'android-12.0.0_r27'
-- Fixed my derp from last build (status bar icons like network traffic and NFC working fine now again)
-- Extend Pulse to QS Panel
-- Pulse: Correctly stop it on screen OFF events
-- Add HeadsUp snooze function
-- Make seekbar background transparent
-- Change secondary label for DerpSpace QS tile
-- Improved status bar and QS margins and paddings
-- Allow udfps when strong auth is required
-- Show scrimmed bouncer from BiometricUnlockCtrl
-- Settings: Display auto rotate settings instead of toggle
-- Switched to own fragment for Long press power button to toggle flashlight
-- fsck.f2fs: Disable kernel checks by default
-- Imported some additional Chinese translations from exthmui
+- New DerpFest bootanimation
+- Add back colored statusbar icons switch
+- Implement cutout force full screen
+- Improve location privacy indicator toggle (don't need sysui restart anymore)
+- Allow toggling camera/mic privacy indicator
+- Reduce padding use by privacy indicator resources
+- Fix location privacy indicator getting stuck
+- QuickStatusBarHeader: Fix clickability issue with privacy indicator
+- Fix glitchy battery view in quick status bar header
+- Improve Black theme and move to DerpSpace
+- ThemeOverlayApplier: Apply wifi and signal icon styles last
+- Use color accent background for volume seekbar bg
+- Add HarmonySans and Tinkerbell font
+- Add Glove Mode QS Tile
+- Add Powershare QS tile
+- Allow toggling floating rotation button
+- Volume key music control: include remote streams
+- Fix volume toggle in status bar tuner
+- Fix method for disabling unlock ripple animation
+- QS customizer: Better string for 'reset' menu item
+- IdleManager: Update timeout and processes again
+- Fix navigation bar button hit testing
+- privapp-permissions: Grant missing TelephonyProvider perm
+- DarkMode Settings: Use List Preference rather ugly Drop Down
+- Add smart idle maintenance service
+- GameSpace: Add Screen for Per-app configuration
+- GameSpace: Add implementation for the GameMode ANGLE Intervention
+- GameSpace: Add config for disallowing ANGLE usage
+- GameSpace: Add German and Chinese translations
+- DerpLauncher: Switch to LawnIcons
+- DerpLauncher: Add Google Lens scan button to the recent apps
+- DerpLauncher: Add German translations
