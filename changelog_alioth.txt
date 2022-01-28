@@ -1,16 +1,47 @@
 Device Changes:
-- Update Optimus Drunk Kernel to v11.33
-- Update boot time error
-- Enable Miui Notch overlay
-- Disable proximity usage during doze
-- Enable QCRIL radio power saving
-- Update mediacodec props from sm6150
-- Update the transcoding operating rate
-- Tune zram performance
-- Enable zram writeback
-- Set 50% Zram size
-- Remove zram cold page writeback file
+- sm8250-common: props: Set ro.netflix.bsp_rev
+- sm8250-common: Regen FCM
+- alioth: Add new pocket mode
+- alioth: add German translation of battery-friendly pocket mode
+- alioth: fix pocket mode spanish translations
+- alioth: disable default source Pocketmode package
+- alioth: Drop liba2dpoffload prebuilts
+- alioth: overlays: Push 120 FPS for ScreenRecorder
 
 ROM:
-- Introduce coloured status bar icons
-- Misc changes, fixes and improvements
+- New DerpFest bootanimation
+- Add back colored statusbar icons switch
+- Implement cutout force full screen
+- Improve location privacy indicator toggle (don't need sysui restart anymore)
+- Allow toggling camera/mic privacy indicator
+- Reduce padding use by privacy indicator resources
+- Fix location privacy indicator getting stuck
+- QuickStatusBarHeader: Fix clickability issue with privacy indicator
+- Fix glitchy battery view in quick status bar header
+- Improve Black theme and move to DerpSpace
+- ThemeOverlayApplier: Apply wifi and signal icon styles last
+- Add HarmonySans and Tinkerbell font
+- Add Glove Mode QS Tile
+- Add Powershare QS tile
+- Fix scrolling lag in fod icon picker
+- Add additional FOD resources from @RedSkulMods
+- Add back screen off fod toggle
+- Improve FOD haptic feedback toggle
+- Allow toggling floating rotation button
+- Volume key music control: include remote streams
+- Fix volume toggle in status bar tuner
+- Fix method for disabling unlock ripple animation
+- QS customizer: Better string for 'reset' menu item
+- IdleManager: Update timeout and processes again
+- Fix navigation bar button hit testing
+- privapp-permissions: Grant missing TelephonyProvider perm
+- DarkMode Settings: Use List Preference rather ugly Drop Down
+- Add smart idle maintenance service
+- Rebranded Recovery and sideload UI
+- GameSpace: Add Screen for Per-app configuration
+- GameSpace: Add implementation for the GameMode ANGLE Intervention
+- GameSpace: Add config for disallowing ANGLE usage
+- GameSpace: Add German and Chinese translations
+- DerpLauncher: Switch to LawnIcons
+- DerpLauncher: Add Google Lens scan button to the recent apps
+- DerpLauncher: Add German translations
