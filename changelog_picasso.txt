@@ -1,5 +1,7 @@
 Device changelog:
-- Initial Derp12 Shino build
+- Add blur
+- More dex optimization
+- Disable Vulkan Render
 
 Source changelog:
 - Add back colored statusbar icons switch
