@@ -40,6 +40,7 @@ Rom side:
 Device Side:
 - Switch to Eureka R9.0 Kernel
 - Now Eureka dtbo & dtb is included in the ROM zip
+- Fix Deep sleep with DT2W on for A20
 - Fix Status bar padding
 - Enable SystemUI rro target
 - Change zram default compress method to zstd
