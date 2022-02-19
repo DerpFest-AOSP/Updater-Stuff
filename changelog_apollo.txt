@@ -1,7 +1,7 @@
 Device Changes:
 - source upstream
-- fix battery charging calculation
-- improvement under the hood
+- Switch to skiagl threaded 
+- Add missing SDM blobs 
 
 ROM :
 - Merge tag 'android-12.0.0_r29'
