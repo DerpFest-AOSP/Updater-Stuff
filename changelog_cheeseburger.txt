@@ -1,11 +1,30 @@
 Device Changes:
-- Attempt to fix audio volume getting low in video recording (thanks to Salvatore)
+- Sync with latest Lineage changes
 
 ROM Changes:
-- Merge February Security patch (android-12.0.0_r29)
-- Remove per-app volume for now as previously explained
-- DerpLauncher: Rework the PisselBar theming
-- Improve Weed wifi iconpack (thanks to RedSkulHYDRA)
-- Overlays: OOS: Import stock oos settings icons (thanks to RedSkulHYDRA)
-- Move HeadUp settings to DerpSpace
-- LawnIcons upstream
+- Merge android-12.0.0_r32
+- Add FaceUnlock implementation from PE
+- Add AppLock from KOSP
+- Add options to show and edit Ambient Icons on Lockscreen
+- Improve small clock switch behavior
+- Add Refresh Rate QS tile for supported devices
+- Add bootloader option to 'Reboot' tile
+- Respect require unlocking toggle to use Reboot tile
+- Allow to hide arrow for back gesture
+- Add option to change PowerUsage provider
+- Add back battery stats reset option for AOSP stats
+- Show battery temp on power summary
+- HeadsUpTile: Do not crash SystemUI on long click
+- Improve Secure QS tile toggle behaviour
+- Use wireless charging animation for wired charging too
+- Add VoLTE icon from Motorola
+- Fix carrier label being white on light wallpaper
+- Don't warn user about FC in Google TTS
+- Changelog: Use NestedScrollView instead of ScrollView
+- DerpLauncher: Removed protected apps in favor of system with applock
+- DerpLauncher: Remove overview scrolling animation
+- DerpLauncher: Refine quickspace icon shadow
+- DerpLauncher: Add toggle to make AppDrawer sizes independent
+- DerpLauncher: Allow changing max lines for app label
+- Update Russian and Chinese translations
+- Some more things maybe I can't remember more :P
