@@ -1,6 +1,10 @@
 Device Changes:
 - source upstream
-- Revert "sm8250-common: rootdir: Remove some camera-daemon commands"
+- kwenel upstweam
+- Revert "sm8250-common: Replace writepid with task_profiles command for cgroup migration",
+- update refresh rate config enabler
+- clean-up Refresh Rate QS tile from device side
+ 
 
 ROM :
 - Merge android-12.0.0_r32
