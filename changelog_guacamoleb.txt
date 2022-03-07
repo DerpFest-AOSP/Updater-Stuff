@@ -1,6 +1,7 @@
-- Switch to Neptune kernel
+
+
+* Hot Fix
+- Fix Proximity sensor
 - Update ardeno blobs from LA.UM.9.14.r1-18900-LAHAINA.QSSI12.0. 
     Fixes broken vulkan
 - Update RIL/IMS stack from LA.UM.9.14.r1-18900-LAHAINA.QSSI12.0.
-- Improved auto aod service
-- Some UDH changes
