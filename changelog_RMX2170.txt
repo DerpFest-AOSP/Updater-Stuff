@@ -1,0 +1,54 @@
+[DEVICE]
+Enforcing
+
+Upreved kernel version to v0.69 +9.2
+- Merged 4.14.270 linux patch
+- Fixed IO wait boost reset for schedutil
+- Enabled IO wait boost for schedutil
+- Smoothen WALT predicted load boosting for schedutil
+- Improved overall performance
+- Introduced schedtune assist v3
+- Use big cores for UX tasks
+- Use lesser time to enter sleep
+- Added and enabled srandom driver
+- Implemented early fingerprint wake up optimization
+- Added blu_schedutil governor
+- Reduce latency for better responsiveness
+- Reduce touch latency by 0.5-1ms
+- Gain 30% Linux Disk performance
+- Added nvs hibernate driver
+- Improvement upto 70% increase in Performance
+- Fix random jitter calculation
+- Many more improvements/fixes
+
+
+[SOURCE]
+- Merge android-12.0.0_r32
+- Add FaceUnlock implementation from PE
+- Add AppLock from KOSP
+- Add Refresh Rate QS tile for supported devices
+- Allow to hide arrow for back gesture
+- Add option to change PowerUsage provider
+- Show battery temp on power summary
+- HeadsUpTile: Do not crash SystemUI on long click
+- Improve Secure QS tile toggle behaviour
+- Use wireless charging animation for wired charging too
+- Add VoLTE icon from Motorola
+- Fix carrier label being white on light wallpaper
+- Don't warn user about FC in Google TTS
+- Changelog: Use NestedScrollView instead of ScrollView
+- DerpLauncher: Remove protected apps in favor of system with applock
+- DerpLauncher: Remove overview scrolling animation
+- DerpLauncher: Refine quickspace icon shadow
+- DerpLauncher: Add toggle to make AppDrawer sizes independent
+- DerpLauncher: Allow changing max lines for app label
+- Add Implement GMS killer
+- Add Google audio files from android12
+- Add keyboard sounds from osu!
+- Add UI tap sound from ACE AS0618
+- Add some UI sounds from Samsung S21 FE
+- Add Android 13 inspired Media Output Picker
+- Add Android 12L style Internet and Screenrecord dialogs
+- Add Show and edit Ambient Icons on Lockscreen
+- Add charging vibration settings
+- Update Russian and Chinese translations
