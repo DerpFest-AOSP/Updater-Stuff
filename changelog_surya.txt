@@ -1,19 +1,40 @@
 Device Changes:
-- kernel: merge linux-slatble 4.14.267
-- kernel: cpu_cooling: Fix a throttling bug
-- kernel: fs: Add aio iopriority support
-- kernel: printk: disable console suspend by default
-- surya: Compiled using latest aosp clang
-- surya: media: Update media_codecs_c2 from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-- surya: Update blobs from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-- surya: Update blobs from V12.5.5.0.RJGEUXM
-- surya: Update Firmware to V12.5.5.0.RJGEUXM
-- surya: overlay: Use vibrator configuration from Pixel 4 XL
-- Etc
+- surya: update blobs from V12.5.5.0.RJGINXM 
+- surya: audio: FIXED APTX ADAPTIVE
+- surya: audio: Update audio configs from LA.UM.9.1.r1-11700-SMxxx0.0
+- surya: Enable app launch prefetching
+- surya: Drop thermal-engine
+- surya: Drop soundtrigger (fix ok google)
+- surya: rootdir: switch to zstd for default zram comp
+- surya: rootdir: configure CAF CPU Boost
+- surya: kang sunfish props for display
+- surya: overlay: Add the customized max cached processes
+- surya: parts: Add More Dirac Presets
+- surya: parts: fixed ambient FC
+- surya: parts: Introduce haptic feedback level adjustment
+- surya: fix unlock animation not from correct side
+- surya: Enable quick tap supports 
+- surya: Use FUSE passthrough by default 
+- etc
+
+Kernel Changes:
+- Upstreamed to v4.14.271
+- Merged Latest CAF Tag
+- Switch to efficient freq
+- drivers: msm/dsi: add 75hz refresh rate support
+- Remove some VLA's
+- Merge kgsl, hrtimer, and tcp Patches
+- Switch to ZSTD for Zram Compression Algorithm
+- Enable ttl
+- dt-bindings: Add frame threshold property for dsi controller
+- techpack: asoc: Add supported formats for all cases
+- etc
 
 ROM Changelog:
 - Merge android-12.0.0_r32
 - Add FaceUnlock implementation from PE
+- Add AppLock from KOSP
+- Add Refresh Rate QS tile for supported devices
 - Allow to hide arrow for back gesture
 - Add option to change PowerUsage provider
 - Show battery temp on power summary
@@ -22,13 +43,20 @@ ROM Changelog:
 - Use wireless charging animation for wired charging too
 - Add VoLTE icon from Motorola
 - Fix carrier label being white on light wallpaper
-- Fix gboard translation issues
-- Fix f2fs regression on device w/ powerhal 1.3 and f2fs recess mode enabled
 - Don't warn user about FC in Google TTS
 - Changelog: Use NestedScrollView instead of ScrollView
+- DerpLauncher: Remove protected apps in favor of system with applock
 - DerpLauncher: Remove overview scrolling animation
 - DerpLauncher: Refine quickspace icon shadow
 - DerpLauncher: Add toggle to make AppDrawer sizes independent
 - DerpLauncher: Allow changing max lines for app label
-- GameSpace: Fix settings for multi-user scenario
 - Update Russian and Chinese translations
+- Add Implement GMS killer
+- Add Google audio files from android12
+- Add keyboard sounds from osu!
+- Add UI tap sound from ACE AS0618
+- Add some UI sounds from Samsung S21 FE
+- Add Android 13 inspired Media Output Picker
+- Add Android 12L style Internet and Screenrecord dialogs
+- Add Show and edit Ambient Icons on Lockscreen
+- Add charging vibration settings
