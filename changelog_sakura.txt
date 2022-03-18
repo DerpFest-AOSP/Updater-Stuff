@@ -1,84 +1,35 @@
----- 11 Feb 2022 ----
+-------------------
+  19 March 2022
+-------------------
+DerpFest Sakura Changelogs:
 
 Device Changelogs:
-Fixed privacy indicator dot
-Made hal switcher persistent across reboots
-Added ota support
-Misc fixes and improcements
+• Fixed wifi display 
+• Set wifi display resolution to 1280x720@30fps, cast should be smoother now
+• Added when to use info in hal switcher settings preference 
+• Fixed recovery stuck issue
+• Misc fixes and improvements
 
-Source changelogs:
-- Merge February Security patch (android-12.0.0_r29)
-- Add 3-button navbar styles
-- Add Gphotos unlimited storage switch
-- Add Outline iconpack
-- Add Weed wifi icons
-- CAF Bluetooth upstream from latest QSSI 12 tag
-- PixelPropsUtils: Whitelist ARCore
-- PixelPropsUtils: Add netflix to raven spoofing list
-- PixelPropsUtils: Do not spoof Play Store
-- Fix sound panel not showing alarm volume when "link ringtone and notif volume" is disabled
-- Fix crash caused by Heads-Up timeout
-- Fix issue where pill disappears in gestural mode
-- Proper fix for Wifi Manager NPE
-- Ignore timeout when taking partial screenshots
-- Import missing lottie swipe fingerprint from redfin
-- Rounded lines for DerpFest logo in about phone
-- Fix NFC preference in Settings not listening to changes from the NFC tile
-- Convert one-handed mode to a PrimarySwitchPreference
-- Add back LTE only setting
-- DerpSpace: Fix visibility issue with black theme
-- DerpLauncher: Update search icon to match Settings
-- DerpLauncher: Categorize settings
-- DerpLauncher: Implement hidden & protected apps
-- DerpLauncher: Add user-specified default home page shortcut
-- DerpLauncher: Use app opening animation for notification opening
-- DerpLauncher: Add show Date instead of Now Playing switch
-- QuickSpace: Make date and now playing clickable
-- Quickspace: Add contextual messages/greetings event
-- Quickspace: Use system font and remove dividers
-- Quickspace: Abbreviate the date format to be like Pixel
-- DerpLauncher: Fix NPE on Uninstall shortcut popup
-- DerpLauncher: Add toggle for desktop and drawer labels
-- System shortcut: Make shortcut ripple covered totally when click it
-- DerpLauncher: Rework the PisselBar theming
-- Quickstep: Add chinese translation
-- WallpaperPicker: Use Google Sans for lockscreen preview
-- Updater: Switch to rounded button layout
-- Updater: Fix Android version strings
-- Add Russian translation for DerpLauncher and additions in AOSP settings
-- New DerpFest bootanimation
-- Add back colored statusbar icons switch
-- Implement cutout force full screen
-- Improve location privacy indicator toggle (don't need sysui restart anymore)
-- Allow toggling camera/mic privacy indicator
-- Reduce padding use by privacy indicator resources
-- Fix location privacy indicator getting stuck
-- QuickStatusBarHeader: Fix clickability issue with privacy indicator
-- Fix glitchy battery view in quick status bar header
-- Improve Black theme and move to DerpSpace
-- ThemeOverlayApplier: Apply wifi and signal icon styles last
-- Add HarmonySans and Tinkerbell font
-- Add Glove Mode QS Tile
-- Add Powershare QS tile
-- Fix scrolling lag in fod icon picker
-- Add additional FOD resources from @RedSkulMods
-- Add back screen off fod toggle
-- Improve FOD haptic feedback toggle
-- Allow toggling floating rotation button
-- Volume key music control: include remote streams
-- Fix volume toggle in status bar tuner
-- Fix method for disabling unlock ripple animation
-- QS customizer: Better string for 'reset' menu item
-- IdleManager: Update timeout and processes again
-- Fix navigation bar button hit testing
-- privapp-permissions: Grant missing TelephonyProvider perm
-- DarkMode Settings: Use List Preference rather ugly Drop Down
-- Add smart idle maintenance service
-- Rebranded Recovery and sideload UI
-- GameSpace: Add Screen for Per-app configuration
-- GameSpace: Add implementation for the GameMode ANGLE Intervention
-- GameSpace: Add config for disallowing ANGLE usage
-- GameSpace: Add German and Chinese translations
-- DerpLauncher: Switch to LawnIcons
-- DerpLauncher: Add Google Lens scan button to the recent apps
-- DerpLauncher: Add German translations
+Source Changelogs:
+- Merge android-12.0.0_r32
+- Add FaceUnlock implementation from PE
+- Add AppLock from KOSP
+- Add Refresh Rate QS tile for supported devices
+- Allow to hide arrow for back gesture
+- Add option to change PowerUsage provider
+- Show battery temp on power summary
+- HeadsUpTile: Do not crash SystemUI on long click
+- Improve Secure QS tile toggle behaviour
+- Use wireless charging animation for wired charging too
+- Add VoLTE icon from Motorola
+- Fix carrier label being white on light wallpaper
+- Don't warn user about FC in Google TTS
+- Changelog: Use NestedScrollView instead of ScrollView
+- DerpLauncher: Remove protected apps in favor of system with applock
+- DerpLauncher: Remove overview scrolling animation
+- DerpLauncher: Refine quickspace icon shadow
+- DerpLauncher: Add toggle to make AppDrawer sizes independent
+- DerpLauncher: Allow changing max lines for app label
+- Update Russian and Chinese translations
+- Per app volume
+- Aosp battery stats switch
