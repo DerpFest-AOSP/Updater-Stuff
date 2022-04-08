@@ -1,43 +1,14 @@
 Device Changes:
-- Add Bluetooth Audio HAL for Hearing aid
-- Add needed libvpphcp.so libs
-- Allow system_app to read /proc/pagetypeinfo
-- Allow recovery to access /sys/fs/pstore/*
-- Attach vendor_property_type to properties
-- Build libminijail from source
-- Build needed WFD libs from source
-- Build vendor.display.config@2.0.so from source
-- Checkout CarrierConfig from LA.QSSI.12.0.r1-05800.01-qssi.0
-- Delete /data/system/package_cache after updates
-- Disable cdma and world phone bools
-- Disable partial FB excl rect
-- Don't warn user about FC in Google TTS
-- Enable QCRIL radio power saving
-- Enable Video Distribution Profile (VDP) on IMS
-- Fix cam interface on vilte calls
-- Fixup Mlipay blobs
-- IMS: Add whitelisted broadcast
-- Match QVA static overlay configs for BT
-- Remove obsolete debug.sf.disable_backpressure property
-- Set Bluetooth MAC address using persist property
-- Ship missing qti_whitelist_system_ext.xml
-- Ship VantomKernel 4.14.266
-- Split component-overrides to support pure AOSP/QTI BT stack
-- Tone down CamX and CHIUSECASE logging
-- UDFPS: Add interface info to .rc files
-- Update bluetooth from LA.UM.9.1.r1-10900-SMxxx0.0
-- Update IBluetoothAudioProvidersFactory HAL to v2.1
-- Update QtiRadio HAL to v2.6
-- Update system_ext blobs from LA.QSSI.12.0.r1-05800.01-qssi.0
-- Update vendor blobs from msmsteppe LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-- Update vendor QMI, Radio, WiFi blobs from miui_SWEETGlobal_V13.0.2.0.SKFMIXM_57fbf2e678_12.0.zip
-- Use WfdCommon and IFAA from seperated repo
+- Add MiSound scenes
+- Fix deepsleep with bluetooth on
+- Fix green screen on Wireless Display
+- Reduce screenshot delay to 0
+- Ship VantomKernel 4.14.273
+- Update audio_effects from MIUI V13.0.1.0
+- Update common blobs from sweet V13.0.4.0.SKFMIXM
+- Update GPS blobs from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+- Update system from LA.QSSI.12.0.r1-05800.02-qssi.0
+- Update WfdService.apk from LA.QSSI.12.0.r1-05800.02-qssi.0
 
 ROM:
-- Merge android-12.0.0_r32
-- Allow to hide arrow for back gesture
-- Show battery temp on power summary
-- DerpLauncher: Removed overview scrolling animation
-- DerpLauncher: Refine quickspace icon shadow
-- DerpLauncher: Add toggle to make AppDrawer sizes independent
-- DerpLauncher: Allow changing max lines for app label
+- Merge android-12.1.0_r4
