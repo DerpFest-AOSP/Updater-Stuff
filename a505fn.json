@@ -1,12 +1,12 @@
 {
   "response": [
     {
-     "datetime": 1649009644,
-     "filename": "DerpFest-12-Official-Shinju-a505fn-20220403-1954.zip",
-     "id": "4feab942e3496f1f32a2c63e98cb94b1aa91fe3810738424596ef01d35a241f5",
+     "datetime": 1649525058,
+     "filename": "DerpFest-12-Official-Shinju-a505fn-20220409.zip",
+     "id": "3f8567201af41c495a7e861a4441686fe4f8fc8f7ecc141f00d2c616ed6487f1",
      "romtype": "Official",
-     "size": 1481441445,
-     "url": "https://sourceforge.net/projects/derpfest/files/a505fn/DerpFest-12-Official-Shinju-a505fn-20220403-1954.zip/download",
+     "size": 1471984190,
+     "url": "https://github.com/victor4cris/Releases/releases/download/Release/DerpFest-12-Official-Shinju-a505fn-20220409.zip",
      "version": "12"
     }
   ]
