@@ -1,4 +1,4 @@
-*** Update 09/04/22 ***
+- Changed Kernel to Neptune
+- Fixed some minor stuff like: lockscreen charging and a few more
 
-- Lots of things were changed and removed since this is a 12L first build. Better Clean Flash it, but dirty is fine for some testers.
-- Kernel are updated to 4.14.275 and latest ASB was pushed.
+PS: you need to be on 20220311-1650 to be able to dirty
