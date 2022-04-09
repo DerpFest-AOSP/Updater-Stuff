@@ -1,7 +1,4 @@
+*** Update 09/04/22 ***
 
-
-* Hot Fix
-- Fix Proximity sensor
-- Update ardeno blobs from LA.UM.9.14.r1-18900-LAHAINA.QSSI12.0. 
-    Fixes broken vulkan
-- Update RIL/IMS stack from LA.UM.9.14.r1-18900-LAHAINA.QSSI12.0.
+- Lots of things were changed and removed since this is a 12L first build. Better Clean Flash it, but dirty is fine for some testers.
+- Kernel are updated to 4.14.275 and latest ASB was pushed.
