@@ -1,39 +1,28 @@
-Rom side:
-- Add back colored statusbar icons switch
-- Implement cutout force full screen
-- Improve location privacy indicator toggle (don't need sysui restart anymore)
-- Allow toggling camera/mic privacy indicator
-- Reduce padding use by privacy indicator resources
-- Fix location privacy indicator getting stuck
-- QuickStatusBarHeader: Fix clickability issue with privacy indicator
-- Fix glitchy battery view in quick status bar header
-- Improve Black theme and move to DerpSpace
-- ThemeOverlayApplier: Apply wifi and signal icon styles last
-- Add HarmonySans and Tinkerbell font
-- Add Glove Mode QS Tile
-- Add Powershare QS tile
-- Fix scrolling lag in fod icon picker
-- Add additional FOD resources from @RedSkulMods
-- Add back screen off fod toggle
-- Improve FOD haptic feedback toggle
-- Allow toggling floating rotation button
-- Volume key music control: include remote streams
-- Fix volume toggle in status bar tuner
-- Fix method for disabling unlock ripple animation
-- QS customizer: Better string for 'reset' menu item
-- IdleManager: Update timeout and processes again
-- Fix navigation bar button hit testing
-- privapp-permissions: Grant missing TelephonyProvider perm
-- DarkMode Settings: Use List Preference rather ugly Drop Down
-- Add smart idle maintenance service
-- Rebranded Recovery and sideload UI
-- GameSpace: Add Screen for Per-app configuration
-- GameSpace: Add implementation for the GameMode ANGLE Intervention
-- GameSpace: Add config for disallowing ANGLE usage
-- GameSpace: Add German and Chinese translations
-- DerpLauncher: Switch to LawnIcons
-- DerpLauncher: Add Google Lens scan button to the recent apps
-- DerpLauncher: Add German translations
+- Fix and make the volume dialog expandable
+- DerpSpace: Make use of AOSP small clock switch instead of using separate one
+- Settings: Add more trigger actions/app/activities to advanced gestures
+- NavigationGestures: Allow customizing gestural margin bottom
+- Settings: Rearrange and categorize gestures & keys fragment
+- Settings: Add Battery charge warning options
+- Lockscreen charging: Bring back Pie style of charging line where battery info is disp>
+- Lockscreen charging: Bring in °F/°C toggle
+- Remove heads up stoplist
+- Add back Less boring heads up option
+- Add HUN importance selector
+- Add option to disable notifications vibration
+- Remove Battery left text option
+- Add music QS tile title toggle
+- Move wallpaper zoom switch to DerpSpace
+- Add switch to hide status bar on lock screen
+- Add switch for kill button in notification guts
+- Add switch to force expanded notifications
+- Add switch to force expanded media player
+- Add switch to launch default music player on headset connect
+- DevSettings: Add Alarms and Wakelock Blocker
+- Started with barbones DerpLauncher
 
-Device Side:
-- Initial Official build.
+Device:
+- Add Dolby Atmos.
+- Uses Vulkan UI renderer.
+- Switched to new kernel.
+- Minor Improvements
