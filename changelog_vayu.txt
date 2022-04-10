@@ -1,38 +1,35 @@
 Device :
-- Add Dirac QS Tile
-- Add long-click action for HBM and CABC QS Tile
-- Enable FUSE Passthrough for better sdcard performance
-- Fix memory-leak problem on Dirac
-- Fix some VNDK related issues
-- Fix thermald inconsistency problem
-- Fix video encoding problem on GCam
-- GPS HAL Improvement
-- Improve raise-to-wake accuracy
-- Kernel: Add support for FUSE Passthrough
-- Kernel: Add support for WireGuard VPN
-- Kernel: Backport several binder changes
-- Kernel: Fix timing issues on power-supply's workqueues
-- Kernel: Merge Linux stable v4.14.267
-- Switch to QTI Bluetooth HAL
+- Migrate to Pixel thermal
+- Migrate to Kyrielight kernel
+- Update blobs from miui 13.0.1.0SJUIDXM
+- Several selinux denial fixes
+- Improve powerhal tuning
 
 ROM :
-- Merge android-12.0.0_r32
-- Add FaceUnlock implementation from PE
-- Allow to hide arrow for back gesture
-- Add option to change PowerUsage provider
-- Show battery temp on power summary
-- HeadsUpTile: Do not crash SystemUI on long click
-- Improve Secure QS tile toggle behaviour
-- Use wireless charging animation for wired charging too
-- Add VoLTE icon from Motorola
-- Fix carrier label being white on light wallpaper
-- Fix gboard translation issues
-- Fix f2fs regression on device w/ powerhal 1.3 and f2fs recess mode enabled
-- Don't warn user about FC in Google TTS
-- Changelog: Use NestedScrollView instead of ScrollView
-- DerpLauncher: Remove overview scrolling animation
-- DerpLauncher: Refine quickspace icon shadow
-- DerpLauncher: Add toggle to make AppDrawer sizes independent
-- DerpLauncher: Allow changing max lines for app label
-- GameSpace: Fix settings for multi-user scenario
-- Update Russian and Chinese translations
+- Rebase on android-12.1.0_r4
+- Switch to QS brightness slider customizations from Yaap
+- Switch to VoLTE/VoWifi icon customizations from Nitrogen
+- Switch to vibration intensity control implementation from AOSPA
+- Add Descendant's Reticker
+- Fix and make the volume dialog expandable
+- DerpSpace: Make use of AOSP small clock switch instead of using separate one
+- Settings: Add more trigger actions/app/activities to advanced gestures
+- NavigationGestures: Allow customizing gestural margin bottom
+- Settings: Rearrange and categorize gestures & keys fragment
+- Settings: Add Battery charge warning options
+- Lockscreen charging: Bring back Pie style of charging line where battery info is displayed in the second line if enabled
+- Lockscreen charging: Bring in °F/°C toggle
+- Remove heads up stoplist
+- Add back Less boring heads up option
+- Add HUN importance selector
+- Add option to disable notifications vibration
+- Remove Battery left text option
+- Add music QS tile title toggle
+- Move wallpaper zoom switch to DerpSpace
+- Add switch to hide status bar on lock screen
+- Add switch for kill button in notification guts
+- Add switch to force expanded notifications
+- Add switch to force expanded media player
+- Add switch to launch default music player on headset connect
+- DevSettings: Add Alarms and Wakelock Blocker
+- Started with new barbones DerpLauncher
