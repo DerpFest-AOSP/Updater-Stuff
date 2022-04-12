@@ -3,6 +3,7 @@ Device Changes:
 - kwenel upstweam
 - switch back to qti nxp nfc
 - swith to aosp wfd (display cast)
+- remove wfdhdcp from manifest (fixed DRM)
 - firmware use 12.5.x.x 
 
 ROM :
