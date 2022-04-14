@@ -1,9 +1,8 @@
 Device Changelog:
-- Merge latest als into kernel
-- Switched into QCOM nfc
-- switch to aosp wfd till qcom one will properly work on 12.1
-- switched to bluetooth blobs from sweet
-- Maybe something more which i don't remember now :P
+- Fix NFC issues
+- Add back Photos app into system
+- allow promixity usage on aod
+- update IFAA to S
 
 Rom Changelog:
 - Rebase on android-12.1.0_r4
