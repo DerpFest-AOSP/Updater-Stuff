@@ -1,47 +1,42 @@
-# WARNING: Don't use OTA for this update
-
 Device Changes:
-- Rebased from lineage tree
-- drop mi_thermald and thermal engine
-- switch to Pixel Thermal HAL 2.0
-- parts: bring all chris parts features ie. haptic, Dirac, etc.
-- parts: drop thermal and touch settings
-- parts: disable QS refresh rate tile (we using QS rr tile from source)
-- audio: fix aptx adaptive 
-- audio: mixer_paths: Tune TAS256X speaker volumes 
-- enable ZRAM by default
-- etc
+- surya: pixel-thermal: revise thermal engine 
+    1. Fixed wrong cluster limitation
+    2. Reduce charging speed in 42°+
+    3. Add GPU monitor
+    4. Reduce max freq for gpu, but increase thresholds
+    5. Bump CPU speed
+- surya: fstab: increase zram size to 3GB
+- surya: prop: add missing zram prop
+- surya: overlay: Add the customized max cached processes number for surya
+- surya: update media, gps, & wifi configs from stock
+- reduce vibrate duration when changing haptic feedback level
+- enable quicktap support
+- audio: fix volume can not be reduced on some apps
 
 Kernel Changes:
-- Upstreamed to v4.14.275
-- Merged Latest CLO Tag
+- kernel/irq: silence irq no longer affine to cpu logspam
+- Revert "rpmsg: glink: Enable irq wake for glink interrupt"
+- surya: configs: Disable profiling support
+- surya: configs: Remove the process reclaim feature
+- scsi: ufs: Scrap Qualcomm's PM QoS implementation
+- scsi: ufs: Add simple IRQ-affined PM QoS operations 
+- merge mm/vmalloc, mm/mremap, & arm/tlb patchset
+- remove VLA usage
+- drop caf boost
+- add devfreq boost
+- zstd: merge optimization from Samsung
 - etc. Check https://github.com/silont-project/kernel_xiaomi_surya/commits/8 for more details
 
 ROM Changelog:
-- Rebase on android-12.1.0_r4
-- Switch to QS brightness slider customizations from Yaap
-- Switch to VoLTE/VoWifi icon customizations from Nitrogen
-- Switch to vibration intensity control implementation from AOSPA
-- Add Descendant's Reticker
-- Fix and make the volume dialog expandable
-- DerpSpace: Make use of AOSP small clock switch instead of using separate one
-- Settings: Add more trigger actions/app/activities to advanced gestures
-- NavigationGestures: Allow customizing gestural margin bottom
-- Settings: Rearrange and categorize gestures & keys fragment
-- Settings: Add Battery charge warning options
-- Lockscreen charging: Bring back Pie style of charging line where battery info is displayed in the second line if enabled
-- Lockscreen charging: Bring in °F/°C toggle
-- Remove heads up stoplist
-- Add back Less boring heads up option
-- Add HUN importance selector
-- Add option to disable notifications vibration
-- Remove Battery left text option
-- Add music QS tile title toggle
-- Move wallpaper zoom switch to DerpSpace
-- Add switch to hide status bar on lock screen
-- Add switch for kill button in notification guts
-- Add switch to force expanded notifications
-- Add switch to force expanded media player
-- Add switch to launch default music player on headset connect
-- DevSettings: Add Alarms and Wakelock Blocker
-- Started with barbones DerpLauncher
+- Add back Columbus (quick tap)
+- Add back additional Brightness Slider options
+- Applock: intercept activity in a better way
+- Fix circle battery QS tinting
+- Battery: Add option for coloring circle battery styles
+- Add Mono audio tile (aka headphone in one ear only)
+- Make IME button space optional
+- Remove night light toggle and disable night light when fod kicks in
+- Improve screenshot window dismiss behavior
+- Settings: Add high touch sensitivity and touchscreen hovering toggles for supported devices
+- Settings: Display: Add High Touch Polling Rate Support
+- DerpLauncher: Add themed icons switch for app drawer
