@@ -1,0 +1,191 @@
+====================
+    04-20-2022     
+====================
+
+* frameworks/base
+9d07dbf  Merge pull request #5 from roynatech2544/patch-1  [Alexander Brunswig]
+
+
+====================
+    04-19-2022     
+====================
+
+* frameworks/base
+e453cf9  PixelPropsUtils: Correctly spoof pixel props  [Soo-Hwan Na]
+
+
+====================
+    04-18-2022     
+====================
+
+* frameworks/base
+8d43d79  base: Add Dora icon pack  [F5LAYD]
+f8f902c  SystemUI: Dismiss existing screenshot window on taking new screenshot  [LibXZR]
+0c0f70f  SystemUI: Dismiss screenshot window on touch outside  [LibXZR]
+a3bd6eb  fwb: [Bugfix] Fix the issue of transition animation splash screen in split screen mode.  [Cheng Shi]
+2bdb1bb  fix google widget timing issue  [Ruoyao Liu]
+1e5a4fb  udfps: Disable Night Light when showUdfpsOverlay  [LynnrinChan]
+59354e3  Revert "UDFPS: Night Light Disable [1/2]"  [NurKeinNeid]
+06b6726  Battery: Color coded battery indication [1/2]  [Trishiraj]
+620ecde  Battery Style Improvements  [Trishiraj]
+6c508b2  PixelPropUtils: Also override pixel fingerprint to Play Store  [EndCredits]
+81d70b7  PixelPropsUtils: Spoof Pixel props for Samsung apps too  [roynatech2544]
+cd552a3  Revert "PixelPropsUtils: Avoid spoofing for Pixel Buds"  [NurKeinNeid]
+c6c46cb  DeviceGroup: Check RSI data with filtered scan results  [Sumit Deshmukh]
+ff468d3  base: Add German translations for faceunlock [1/2]  [NurKeinNeid]
+77fc99c  Introduce high touch polling rate feature control  [Ramii Ahmed]
+bf90077  Move high touch sensitivity and hovering to InputService  [Danesh M]
+6131700  Columbus/SyberiaSystemUI: Make crosshatch is default model  [DennySPb]
+67688b9  SystemUI: update Google elmyra/columbus/assist assets to 12L  [Anay Wadhera]
+bc61e43  SystemUI: Add face related jar  [jhenrique09]
+ece4dd2  SystemUIDerpFest: Don't start FaceNotificationService if using custom face impl  [jhenrique09]
+6d92553  SystemUI: Introduce ColumbusCompatibilityHelper  [jhenrique09]
+8b85b63  SystemUI: Port elmyra (squeeze) from SQ1D  [jhenrique09]
+140cbbd  SystemUI: Fix CalledFromWrongThread exceptions  [jhenrique09]
+eafb6f3  SystemUI: Port columbus (quick tap) from SQ1D  [jhenrique09]
+e3746f1  base: Make IME button space optional [1/2]  [SKULSHADY]
+4297fd5  base: applock: intercept activity in a better way [1/2]  [jhonboy121]
+91e3fd3  MonoToggleTile: Use secondary label to indicate mode  [PainKiller3]
+34b92d7  Mono/Stereo QS tile: Add long click intent  [Alex]
+1b6f967  SystemUI: Add Mono audio tile (aka headphone in one ear only)  [ezio84]
+a10a890  TunerService: Add parseInteger failsafe method  [Pranav Vashi]
+8ac332f  QSPanel: Fix NPE in updateViewPositions()  [Pranav Vashi]
+9a298f6  Brightness slider: Fix issues with media mode  [Pranav Vashi]
+ddfac5c  Bring back QQS brightness slider  [Pranav Vashi]
+5435b02  Fixes and clean up for QS brightness slider customizations  [Pranav Vashi]
+3ecdf75  [SQUASH] SystemUI: Revert Brightness slider changes for QQS  [NurKeinNeid]
+3160c0f  PixelPropsUtils: Avoid spoofing for Pixel Buds  [Karan Parashar]
+97dea01  base: SystemUI: Fix circle battery QS tinting  [Ido Ben-Hur]
+941e07b  UIModeTile: Collapse after change UI mode  [Pranav Vashi]
+
+
+* packages/apps/DerpSpace
+edd91b6  DerpSpace: Update zh-rCN translation  [JerryWn]
+09245f2  Revert "DerpSpace: Allow user to disable night light on FOD [2/2]"  [NurKeinNeid]
+16a961f  DerpSpace: Color coded battery indication [2/2]  [Trishiraj]
+6cfe81a  DerpSpace: Add additional Brightness Slider options  [Josh Fox (XlxFoXxlX)]
+
+
+====================
+    04-17-2022     
+====================
+
+* packages/apps/Settings
+7f1106c  fixup! Settings: applock: intercept activity in a better way [2/2]  [jhonboy121]
+
+
+====================
+    04-16-2022     
+====================
+
+* bootable/recovery
+629797a  recovery: Correct touch position with overscan  [Alessandro Astone]
+
+
+* build/make
+a6cf3b3  releasetools: Unconditionally store recovery.img in non-A/B OTA  [LuK1337]
+
+
+* device/derp/sepolicy
+2d047b0  sepolicy: qcom: Fixing camera app not launching  [Max Bires]
+7b5b9a8  sepolicy: label IHighTouchPollingRate touch service  [Ramii Ahmed]
+
+
+* frameworks/base
+47cc966  Keyguard: Allow disabling fingerprint wake-and-unlock  [Steve Kondik]
+70effdc  Fix chip visibility in split shade header  [Pranav Vashi]
+0a4acc3  base: Allow toggling screen off FOD [1/2]  [jhonboy121]
+20e2572  NavigationBarInflaterView: Improve applying overlays  [Pranav Vashi]
+dd91e97  DisplayPowerController: Fix incall proximity not turning off display  [sooti]
+2da72f4  ShortcutPackage: do not spam logcat  [jhonboy121]
+4784224  Camera: Prevent crash with prebuilt camera metadata  [Pranav Vashi]
+0e9b7cf  Camera: Update HighFrameRate GPU flags  [Susmitha Gummalla]
+60da111  Camera: Update HighFrameRate GPU flags  [Susmitha Gummalla]
+1ddba18  StatusBar: Kill old privacy indicator icons completely  [Pranav Vashi]
+509057f  SystemUI: Make the volume dialog expandable  [Arian]
+a0470a9  [fixup] Runtime volume panel toggle  [DennySPb]
+97a05fc  VolumeDialogImpl: Don't hide the default stream when adjusting the music stream  [Arian]
+c93d627  VolumeDialogImpl: Respect multiple visible rows in landscape  [Arian]
+b82f72e  VolumeDialog: notifyVisible after the volume panel is fully hidden  [Jesse Chan]
+39bac38  Added changes to avoid Null Pointer Exception  [phaneendra Reddy]
+948470e  Handle BLE ON corner use cases with BLE APP concurrency  [Venkata Jagadeesh Garaga]
+0e3e41e  core: Wipe package cache on upgrade even on user build  [Albert I]
+07a41ef  Fix StageCoordinator unexpected onDisplayAreaVanished  [ot903107]
+cba0ef1  Gestures nav: Add hush mute action  [ezio84]
+1255e05  Gestures nav: Add Partial Screenshot action.  [spezi77]
+5ec3676  Gestures nav: Add Power menu action  [kdrag0n]
+d3a13bc  Gestures nav: Add Skip/Previous Song Function  [bigrushdog]
+b9a1cce  AudioDeviceInventory: launch default music player on headset connect [1/2]  [Danesh M]
+404f183  base: HUN importance selector (1/2)  [Ali B]
+ddce4d4  Udfps: adjust position if cutout is hidden  [Henrique Pereira]
+c51c8e5  CutoutUtils: Improve logic  [jhenrique09]
+17bb24b  base: Declare cutout utils  [jhenrique09]
+f3c0235  KeyStore: Add getApplicationContext method required for Asus Devices  [Jackeagle]
+4df92d7  Move binder latency data logging to a background thread to improve performance of the main thread.  [Siim Sammul]
+578b548  Fix the wrong of dismisssurface state under multi-threading  [hanfeng3]
+a139a57  Fix OOM cache app optimizer flaky test.  [Silvia Vinyes]
+68109ef  EasterEgg: Fix some warnings  [Michael W]
+1ab3509  Force Expanded Notifications [1/2]  [Jmz]
+fecf525  Add kill button to notification guts [1/2]  [Daniel Koman]
+d30bb8d  SystemUI: config to hide status bar on lock screen [1/2]  [maxwen]
+eb3ac9e  base: log spill when dragging  [maxwen]
+ca53be3  Fix: "Clear All" recent app screen loop bug  [vincent.cw_lee]
+b00b2a8  SystemUI: add option force media player expanded [1/2]  [703joko]
+e9869ee  Battery: make fill path rounded  [Evillium]
+fb5185b  Gestural: Improvement [1/2]  [703joko]
+3a2b73d  Gestural: Allow customizing gestural margin bottom [2/2]  [703joko]
+e6b3d6b  Battery charge warning [1/2]  [Nicolas Dhouailly]
+f85f0d6  DSU service: Show which partition is being installed in notification  [Yi-Yo Chiang]
+335e17b  DSU service: Weighted progress bar  [Yi-Yo Chiang]
+fcb8ec4  dynsystem.SparseInputStream: Implement read(buf, off, len)  [Yi-Yo Chiang]
+657fbdb  dynsystem: Enlarge default shared memory size and allow size override  [Yi-Yo Chiang]
+17265f21  DSU installation service: Add event log tags  [Yi-Yo Chiang]
+f28ff63  Fix unwanted sign-extention when converting byte -> int  [Yi-Yo Chiang]
+a546c5b  base: WpZoom: Reverse logic [1/2]  [NurKeinNeid]
+8a3b8e4  base: Make wallpaper zoom optional [1/2]  [spkal01]
+be8ca24  UI: Disable wallpaper zoom  [Andy CrossGate Yan]
+2642e24  SystemUI: inject WiredChargingRippleController  [jhonboy121]
+82c7547  Revert "StatusBar: Kill old privacy indicator icons completely"  [NurKeinNeid]
+581ac95  data: add new priv permission for launcher  [Ali B]
+337f079  SystemUI: AuthBiometricFaceView: Don't spam log  [Joey Huab]
+82b479a  Increase Zygote command buffer size to 32k.  [Martijn Coenen]
+ce8f947  Make smart idle maint's period changable  [Daeho Jeong]
+
+
+* hardware/derp/interfaces
+81970e2  Introduce IHighTouchPollingRate  [Ramii Ahmed]
+
+
+* manifest
+8c249a3  manifest: Track our own system/libhidl  [Kevin F. Haggerty]
+
+
+* packages/apps/DerpLauncher
+2a8611d  DerpLauncher: Ability to toggle themed icons for all apps  [Trishiraj]
+8d4267d  DerpLauncher: Display themed app icon all the time  [SakuraiLH]
+b9d3833  DerpLauncher: Improve desktop and drawer labels toggles strings  [Bartłomiej Rudecki]
+d373ddd  DerpLauncher: Skip suggestions on twoline labels  [George Zacharia]
+542c79a  DerpLauncher: Add German translations  [NurKeinNeid]
+
+
+* packages/apps/Settings
+1525843  AppLock: Make timeout strings translatable  [DennySPb]
+eb1ad32  Settings: fix the incorrect key value for high polling rate  [Chenyang Zhong]
+4f25475  Settings: Display: Add High Touch Polling Rate Support  [Ramii Ahmed]
+bc7afea  Settings: Add high touch sensitivity and touchscreen hovering toggles  [LuK1337]
+3a8ee57  Settings: Add German translations for faceunlock [2/2]  [NurKeinNeid]
+f6d6cb4  Settings: SystemNavigationGestureSettings: Add advanced gestures category  [NurKeinNeid]
+71b4b43  Settings: Add Columbus preference to gestures  [jhenrique09]
+1d597ea  Settings: Import columbus settings  [Anay Wadhera]
+a4c586c  Settings: Make IME button space optional [2/2]  [SKULSHADY]
+1ad4a54  applock: intercept activity in a better way [2/2]  [Alfred Mathew]
+
+
+* vendor/derp
+609901f  qcom: Drop unused media flags for UM 5.4 family  [Arian]
+aa36f1d  kernel: Document TARGET_KERNEL_RECOVERY_CONFIG usage  [Bruno Martins]
+0259b26  kernel: Fix building recovery images  [Bruno Martins]
+4ed1888  kernel: Fix kernel rebuilding  [Bruno Martins]
+63287be  derp: framework_manifest: declare support for IHighTouchPollingRate  [Cosmin Tanislav]
+
+
