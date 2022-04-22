@@ -1,14 +1,22 @@
 Device Changes:
-- Add MiSound scenes
-- Fix deepsleep with bluetooth on
-- Fix green screen on Wireless Display
-- Reduce screenshot delay to 0
-- Ship VantomKernel 4.14.273
-- Update audio_effects from MIUI V13.0.1.0
-- Update common blobs from sweet V13.0.4.0.SKFMIXM
-- Update GPS blobs from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-- Update system from LA.QSSI.12.0.r1-05800.02-qssi.0
-- Update WfdService.apk from LA.QSSI.12.0.r1-05800.02-qssi.0
+- Fixup libperfmgr crashes
+- Fixup MiSound scenes
+- Improve boot time
+- Optimize shutdown time
+- Ship VantomKernel 4.14.275
+- Switch DC dimming node to 'anti_flicker'
+- Switch to TheRagingBeast Clang 15 for kernel
 
 ROM:
-- Merge android-12.1.0_r4
+- Add back Columbus (quick tap)
+- Add back additional Brightness Slider options
+- Applock: intercept activity in a better way
+- Fix circle battery QS tinting
+- Battery: Add option for coloring circle battery styles
+- Add Mono audio tile (aka headphone in one ear only)
+- Make IME button space optional
+- Remove night light toggle and disable night light when fod kicks in
+- Improve screenshot window dismiss behavior
+- Settings: Add high touch sensitivity and touchscreen hovering toggles for supported devices
+- Settings: Display: Add High Touch Polling Rate Support
+- DerpLauncher: Add themed icons switch for app drawer
