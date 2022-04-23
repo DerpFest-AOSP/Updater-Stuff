@@ -1,20 +1,30 @@
 DEVICE Changelog:
+- Props add skip_refresh_rate_change
+- Disable config_displayBlanksAfterDoze
+- Increase audio HAL buffer size to 240
+- Set aaudio.mmap_policy into 1
+- Disable sdm rotator downscaler
+- Fix Video Calling
+- Audio Remove volume_listener from audio effects
+- Qcril fix MT SMS sent during power off
+- Disable EGL buffer_age extension support
+- Rootdir Add nodes to hide Magisk in banking apps
 - Fixed usb detection issue
 - Performance updates
 - DeviceExtras: Move to DerpSpace
-- Overlay: Enable haptic text cursor
+- Overlay Enable haptic text cursor
 - Dex2oat optimizations
 - Improve app start/launch
 - Fix sound issues on 9R
 - Audio improvements
 - DeviceExtras: fix icon color
-- Props: drop iop sysprops
+- Props drop iop sysprops
 - Fingerprint: some clean-ups for 12.1
-- Audio: Increase microphone gains in certain instances
-- Overlay: Update color modes
+- Audio Increase microphone gains in certain instances
+- Overlay Update color modes
 - Symlink libvndfwk_detect_jni.qti for CneApp
 - Dimension updates for 12.1
-- Overlay: some burn-in protection updates
+- Overlay some burn-in protection updates
 - Enable quick tap support
 ROM Changelog:
 - Rebase on android-12.1.0_r4
