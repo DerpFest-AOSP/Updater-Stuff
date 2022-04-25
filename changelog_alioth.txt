@@ -1,24 +1,31 @@
 Device Changes:
-- Implement SunlightEnhancement LiveDisplay HAL
-- Add Thermal Profiles
-- Report max frequency to miHoYo games
-- Better RAM Management
-- Enable config_avoidGfxAccel
-- Update public-libraries from V13.0.2.0.SKHMIXM
-- Fix display animation while AOD on/off screen
-- Enable Quick Tap
-- Label more camera props
-- Add virtual memory tunings for game space
+- Use media codecs from CAF
+- Update Wi-Fi to android.hardware.wifi@1.5
+- Set max active modem count
+- Add support for low power adaptive control feature
+- AAC frame control enabled for hal implementation
+- Disable gms components for better WiFi speeds
+- nfc: Apply Mifare fix with extract-files.sh
+- Update android.software.vulkan.deqp.level, version 2021-03-01
+- Build some missing telephony packages
+- Update android.hidl.manager to version @1.2
+- Update power profile for xiaomi SM8250-AC
+- Update PowerProfiles to Android 12.1
+- Update blobs from V13.0.4.0 EEA
 ROM:
-- Add back Columbus (quick tap)
-- Add back additional Brightness Slider options
-- Applock: intercept activity in a better way
-- Fix circle battery QS tinting
-- Battery: Add option for coloring circle battery styles
-- Add Mono audio tile (aka headphone in one ear only)
-- Make IME button space optional
-- Remove night light toggle and disable night light when fod kicks in
-- Improve screenshot window dismiss behavior
-- Settings: Add high touch sensitivity and touchscreen hovering toggles for supported devices
-- Settings: Display: Add High Touch Polling Rate Support
-- DerpLauncher: Add themed icons switch for app drawer
+- Add Dora icon pack
+- Add notification clear all button customizations
+- Use color seed generation algorithm from AOSP
+- Fixes and improvements for Black Theme
+- SoftAp: Add Hidden SSID preference
+- SoftAp: Add support for setting shutdown timeout
+- SoftAp: Add client manager
+- Split status bar icon controls for vibrate and mute
+- Fix alarm icon not showing after reboot
+- charger: Update Pixel charger animation from raven SP2A.220405.004
+- Remove QCOM FBE wrapped-key changes
+- DerpLauncher: Add support for third party icon packs
+- DerpLauncher: Add AppInfo Bottom Sheet from Shade Launcher
+- DerpSpace: Update Chinese translations
+- DerpSpace: Add lockscreen clock options
+
