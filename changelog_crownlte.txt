@@ -1,28 +1,28 @@
-- Fix and make the volume dialog expandable
-- DerpSpace: Make use of AOSP small clock switch instead of using separate one
-- Settings: Add more trigger actions/app/activities to advanced gestures
-- NavigationGestures: Allow customizing gestural margin bottom
-- Settings: Rearrange and categorize gestures & keys fragment
-- Settings: Add Battery charge warning options
-- Lockscreen charging: Bring back Pie style of charging line where battery info is disp>
-- Lockscreen charging: Bring in °F/°C toggle
-- Remove heads up stoplist
-- Add back Less boring heads up option
-- Add HUN importance selector
-- Add option to disable notifications vibration
-- Remove Battery left text option
-- Add music QS tile title toggle
-- Move wallpaper zoom switch to DerpSpace
-- Add switch to hide status bar on lock screen
-- Add switch for kill button in notification guts
-- Add switch to force expanded notifications
-- Add switch to force expanded media player
-- Add switch to launch default music player on headset connect
-- DevSettings: Add Alarms and Wakelock Blocker
-- Started with barbones DerpLauncher
+ROM:
+- Add Dora icon pack
+- Add notification clear all button customizations
+- Use color seed generation algorithm from AOSP
+- Fixes and improvements for Black Theme
+- SoftAp: Add Hidden SSID preference
+- SoftAp: Add support for setting shutdown timeout
+- SoftAp: Add client manager
+- Split status bar icon controls for vibrate and mute
+- Fix alarm icon not showing after reboot
+- charger: Update Pixel charger animation from raven SP2A.220405.004
+- Remove QCOM FBE wrapped-key changes
+- DerpLauncher: Add support for third party icon packs
+- DerpLauncher: Add AppInfo Bottom Sheet from Shade Launcher
+- DerpSpace: Update Chinese translations
 
 Device:
-- Add Dolby Atmos.
-- Uses Vulkan UI renderer.
-- Switched to new kernel.
+- Heating issues should be gone now
 - Minor Improvements
+- Disable content detection for refresh rate
+- Disable debug.sf.recomputecrop
+- Set iorap prefetch prop to mendel flags
+- Pixel-ify the Bixby button (Only works with Google App installed- can be downloaded from Play Store)
+- Enable iorapd prefetching
+- Avoid unnecessary graphics accelleration 
+- Silence graphics mapper log spam
+- Disable triple buffering 
+- Add back A12L AOD Animation
