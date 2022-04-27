@@ -1,0 +1,29 @@
+ROM:
+- Add Dora icon pack
+- Add notification clear all button customizations
+- Use color seed generation algorithm from AOSP
+- Fixes and improvements for Black Theme
+- SoftAp: Add Hidden SSID preference
+- SoftAp: Add support for setting shutdown timeout
+- SoftAp: Add client manager
+- Split status bar icon controls for vibrate and mute
+- Fix alarm icon not showing after reboot
+- charger: Update Pixel charger animation from raven SP2A.220405.004
+- Remove QCOM FBE wrapped-key changes
+- DerpLauncher: Add support for third party icon packs
+- DerpLauncher: Add AppInfo Bottom Sheet from Shade Launcher
+- DerpSpace: Update Chinese translations
+
+Device:
+- Heating issues should be gone now
+- Minor Improvements
+- Disable content detection for refresh rate
+- Disable debug.sf.recomputecrop
+- Set iorap prefetch prop to mendel flags
+- Pixel-ify the Bixby button (Only works with Google App installed- can be downloaded from Play Store)
+- Enable iorapd prefetching
+- Avoid unnecessary graphics accelleration 
+- Silence graphics mapper log spam
+- Disable triple buffering 
+- Add back A12L AOD Animation
+
