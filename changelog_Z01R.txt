@@ -1,30 +1,16 @@
-# Device
-- Switch to AOSP Charging Animation (Offline)
-
-# Source
-- Add Dora icon pack
-- Add notification clear all button customizations
-- Use color seed generation algorithm from AOSP
-- Fixes and improvements for Black Theme
-- SoftAp: Add Hidden SSID preference
-- SoftAp: Add support for setting shutdown timeout
-- SoftAp: Add client manager
-- Split status bar icon controls for vibrate and mute
-- Fix alarm icon not showing after reboot
-- charger: Update Pixel charger animation from raven SP2A.220405.004
-- Remove QCOM FBE wrapped-key changes
-- DerpLauncher: Add support for third party icon packs
-- DerpLauncher: Add AppInfo Bottom Sheet from Shade Launcher
-- DerpSpace: Update Chinese translations
-- Add back Columbus (quick tap)
-- Add back additional Brightness Slider options
-- Applock: intercept activity in a better way
-- Fix circle battery QS tinting
-- Battery: Add option for coloring circle battery styles
-- Add Mono audio tile (aka headphone in one ear only)
-- Make IME button space optional
-- Remove night light toggle and disable night light when fod kicks in
-- Improve screenshot window dismiss behavior
-- Settings: Add high touch sensitivity and touchscreen hovering toggles for supported devices
-- Settings: Display: Add High Touch Polling Rate Support
-- DerpLauncher: Add themed icons switch for app drawer
+- Add switch to enable daily data usage in QS footer
+- Add switch for overriding VoLTE icon with VoWiFi when available
+- Hide tuner icon in QS panel
+- Fix media art force expand without systemui restart
+- Use color accent for charging animation
+- Settings: Respect default vibration strength
+- Settings: Rework Alarm & Wakelock blocker fragments
+- ThemePicker: Reverse color section from Pixel stock
+- ThemePicker: Fix Acherus availability
+- PermissionController: Enable usage timeline for all permission groups
+- Recovery: Prevent showing this message in recovery:
+  E:recvmsg failed (No buffer space available)
+- Recovery: Add support for changing slots
+- DerpLauncher: Add support for enabling taskbar on phones
+- DerpLauncher: Allow enabling recents overview grid on phones
+- DerpLauncher: Import Russian translations from 12 branch
