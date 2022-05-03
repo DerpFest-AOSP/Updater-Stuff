@@ -1,4 +1,27 @@
-*** Update 09/04/22 ***
+Sourceside Changes:
 
-- Lots of things were changed and removed since this is a 12L first build. Better Clean Flash it, but dirty is fine for some testers.
-- Kernel are updated to 4.14.275 and latest ASB was pushed.
+- Add switch to enable daily data usage in QS footer
+- Add switch for overriding VoLTE icon with VoWiFi when available
+- Hide tuner icon in QS panel
+- Fix media art force expand without systemui restart
+- Use color accent for charging animation
+- Settings: Respect default vibration strength
+- Settings: Rework Alarm & Wakelock blocker fragments
+- ThemePicker: Reverse color section from Pixel stock
+- ThemePicker: Fix Acherus availability
+- PermissionController: Enable usage timeline for all permission groups
+- Recovery: Prevent showing this message in recovery:
+  E:recvmsg failed (No buffer space available)
+- Recovery: Add support for changing slots
+- DerpLauncher: Add support for enabling taskbar on phones
+- DerpLauncher: Allow enabling recents overview grid on phones
+- DerpLauncher: Import Russian translations from 12 branch
+
+Deviceside Changes:
+
+- Updated blobs from 11.0.7.1
+- Updated kernel to latest Dora
+- Added Notch hide support(Access from developer options)
+    * Applock dialogue will look misaligned when notch is hidden
+- Don't allow backup tool to run in non-debuggable builds.
+    * Fixes adb sideload KPostInstall error on OnePlus 7
