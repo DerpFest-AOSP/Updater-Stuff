@@ -1,45 +1,29 @@
 Device Changelog:
 
 * Latest Derpfest source upstream
-* Kernel upstream to 4.9.311
+* Kernel upstream to 4.9.312
 * Kernel built with latest Neutron-Clang 14
-* Fixed Google Photos Unlimited storage
-* Fixed volume panel on landscape mode
-* Blur enabled for some SystemUI backgrounds
-* Added Lockscreen clocks customizations
-* Added support for third party icon packs
-* Added themed icons switch for app drawer
-* Added notification clear all button customizations
-* Added option for coloring circle battery styles
-* OTA Pushed(Gapps only)
+* Updated DPM, IMS, RIL & WFD system blobs From LA.QSSI.12.0.r1-07000-qssi.0
+* Updated GPS blobs & configs from pnx_sprout
+* Removed unused blobs in Vendor
+* OTA Pushed(Gapps only) 
 * SafetyNet pass without root as usual
 * More improvements & fixes!
 
-
 Rom Changelog:
 
-- Add Dora icon pack
-- Add notification clear all button customizations
-- Use color seed generation algorithm from AOSP
-- Fixes and improvements for Black Theme
-- SoftAp: Add Hidden SSID preference
-- SoftAp: Add support for setting shutdown timeout
-- SoftAp: Add client manager
-- Split status bar icon controls for vibrate and mute
-- Fix alarm icon not showing after reboot
-- charger: Update Pixel charger animation from raven SP2A.220405.004
-- Remove QCOM FBE wrapped-key changes
-- DerpLauncher: Add support for third party icon packs
-- DerpLauncher: Add AppInfo Bottom Sheet from Shade Launcher
-- DerpSpace: Update Chinese translations
-- Add back additional Brightness Slider options
-- Applock: intercept activity in a better way
-- Fix circle battery QS tinting
-- Battery: Add option for coloring circle battery styles
-- Add Mono audio tile (aka headphone in one ear only)
-- Make IME button space optional
-- Remove night light toggle and disable night light when fod kicks in
-- Improve screenshot window dismiss behavior
-- Settings: Add high touch sensitivity and touchscreen hovering toggles for supported devices
-- Settings: Display: Add High Touch Polling Rate Support
-- DerpLauncher: Add themed icons switch for app drawer
+- Add switch to enable daily data usage in QS footer
+- Add switch for overriding VoLTE icon with VoWiFi when available
+- Fix media art force expand without systemui restart
+- Use color accent for charging animation
+- Settings: Respect default vibration strength
+- Settings: Rework Alarm & Wakelock blocker fragments
+- ThemePicker: Reverse color section from Pixel stock
+- ThemePicker: Fix Acherus availability
+- PermissionController: Enable usage timeline for all permission groups
+- Recovery: Prevent showing this message in recovery:
+  E:recvmsg failed (No buffer space available) 
+- Recovery: Add support for changing slots
+- DerpLauncher: Add support for enabling taskbar on phones
+- DerpLauncher: Allow enabling recents overview grid on phones
+- DerpLauncher: Import Russian translations from 12 branch
