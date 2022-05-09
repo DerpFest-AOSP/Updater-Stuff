@@ -1,35 +1,21 @@
 Device :
-- Migrate to Pixel thermal
-- Migrate to Kyrielight kernel
-- Update blobs from miui 13.0.1.0SJUIDXM
-- Several selinux denial fixes
-- Improve powerhal tuning
+- Kernel: Update to 4.14.277
 
 ROM :
-- Rebase on android-12.1.0_r4
-- Switch to QS brightness slider customizations from Yaap
-- Switch to VoLTE/VoWifi icon customizations from Nitrogen
-- Switch to vibration intensity control implementation from AOSPA
-- Add Descendant's Reticker
-- Fix and make the volume dialog expandable
-- DerpSpace: Make use of AOSP small clock switch instead of using separate one
-- Settings: Add more trigger actions/app/activities to advanced gestures
-- NavigationGestures: Allow customizing gestural margin bottom
-- Settings: Rearrange and categorize gestures & keys fragment
-- Settings: Add Battery charge warning options
-- Lockscreen charging: Bring back Pie style of charging line where battery info is displayed in the second line if enabled
-- Lockscreen charging: Bring in °F/°C toggle
-- Remove heads up stoplist
-- Add back Less boring heads up option
-- Add HUN importance selector
-- Add option to disable notifications vibration
-- Remove Battery left text option
-- Add music QS tile title toggle
-- Move wallpaper zoom switch to DerpSpace
-- Add switch to hide status bar on lock screen
-- Add switch for kill button in notification guts
-- Add switch to force expanded notifications
-- Add switch to force expanded media player
-- Add switch to launch default music player on headset connect
-- DevSettings: Add Alarms and Wakelock Blocker
-- Started with new barbones DerpLauncher
+- Merge May Security patch (android-12.1.0_r5)
+- Add switch to enable daily data usage in QS footer
+- Add switch for overriding VoLTE icon with VoWiFi when available
+- Hide tuner icon in QS panel
+- Fix media art force expand without systemui restart
+- Use color accent for charging animation
+- Settings: Respect default vibration strength
+- Settings: Rework Alarm & Wakelock blocker fragments
+- ThemePicker: Reverse color section from Pixel stock
+- ThemePicker: Fix Acherus availability
+- PermissionController: Enable usage timeline for all permission groups
+- Recovery: Prevent showing this message in recovery:
+  E:recvmsg failed (No buffer space available)
+- Recovery: Add support for changing slots
+- DerpLauncher: Add support for enabling taskbar on phones
+- DerpLauncher: Allow enabling recents overview grid on phones
+- DerpLauncher: Import Russian translations from 12 branch
