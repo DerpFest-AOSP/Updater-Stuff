@@ -1,6 +1,7 @@
 Device Changelog :
 - Update Fp to Raven May
 - OTA Pushed(Gapps only) 
+- Vanilla Built also available but prefer gapps built 
 - SafetyNet pass without root as usual
 
 ROM Changelog :
