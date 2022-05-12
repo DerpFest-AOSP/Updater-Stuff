@@ -1,46 +1,28 @@
 Device Changelog:
-- Initial build
-- Upstreamed QuicksilveR kernel v4.14.275
-- Relax WiFi re-association RSSI thresholds
-- Used pie chromatix libs for better camera quality
+- Update telephony from LA.QSSI.12.0.r1-06500 
+- Upgrade adreno stack to WAIPIO 12200 (OpenGL ES 3.2 V@0615.0)
+- Enlarge XiaomiParts settings icon to make it match with rest of the icons 
+- Enabled unspecialized app process pool
+- Disabled 48MP mode overlay in MIUI Camera
+- Upstreamed QuicksilveR kernel to v4.14.277
+- Merged 'LA.UM.9.11.r1-05600-NICOBAR.QSSI12.0' CodeLinaro OSS in kernel
+- Misc optimizations in kernel
 
 ROM Changelog:
-- Rebase on android-12.1.0_r4
-- Switch to QS brightness slider customizations from Yaap
-- Switch to VoLTE/VoWifi icon customizations from Nitrogen
-- Switch to vibration intensity control implementation from AOSPA
-- Add Descendant's Reticker
-- Fix and make the volume dialog expandable
-- DerpSpace: Make use of AOSP small clock switch instead of using separate one
-- Settings: Add more trigger actions/app/activities to advanced gestures
-- NavigationGestures: Allow customizing gestural margin bottom
-- Settings: Rearrange and categorize gestures & keys fragment
-- Settings: Add Battery charge warning options
-- Lockscreen charging: Bring back Pie style of charging line where battery info is displayed in the second line if enabled
-- Lockscreen charging: Bring in °F/°C toggle
-- Remove heads up stoplist
-- Add back Less boring heads up option
-- Add HUN importance selector
-- Add option to disable notifications vibration
-- Remove Battery left text option
-- Add music QS tile title toggle
-- Move wallpaper zoom switch to DerpSpace
-- Add switch to hide status bar on lock screen
-- Add switch for kill button in notification guts
-- Add switch to force expanded notifications
-- Add switch to force expanded media player
-- Add switch to launch default music player on headset connect
-- DevSettings: Add Alarms and Wakelock Blocker
-- Started with barbones DerpLauncher
-- Add back Columbus (quick tap)
-- Add back additional Brightness Slider options
-- Applock: intercept activity in a better way
-- Fix circle battery QS tinting
-- Battery: Add option for coloring circle battery styles
-- Add Mono audio tile (aka headphone in one ear only)
-- Make IME button space optional
-- Remove night light toggle and disable night light when fod kicks in
-- Improve screenshot window dismiss behavior
-- Settings: Add high touch sensitivity and touchscreen hovering toggles for supported devices
-- Settings: Display: Add High Touch Polling Rate Support
-- DerpLauncher: Add themed icons switch for app drawer
+- Merged May Security patch (android-12.1.0_r5)
+- Add switch to enable daily data usage in QS footer
+- Add switch for overriding VoLTE icon with VoWiFi when available
+- Hide tuner icon in QS panel
+- Fix media art force expand without systemui restart
+- Use color accent for charging animation
+- Settings: Respect default vibration strength
+- Settings: Rework Alarm & Wakelock blocker fragments
+- ThemePicker: Reverse color section from Pixel stock
+- ThemePicker: Fix Acherus availability
+- PermissionController: Enable usage timeline for all permission groups
+- Recovery: Prevent showing this message in recovery:
+  E:recvmsg failed (No buffer space available)
+- Recovery: Add support for changing slots
+- DerpLauncher: Add support for enabling taskbar on phones
+- DerpLauncher: Allow enabling recents overview grid on phones
+- DerpLauncher: Import Russian translations from 12 branch
