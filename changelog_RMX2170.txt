@@ -1,62 +1,47 @@
 [DEVICE]
-- Enable QPower and deep sleep together (amazing power savings)
-- Enable QCRIL radio power saving
-- Add night display color temperature calibration from Pixel devices
-- Built kernel with proton clang
-- Removed prebuilt youtube and youtube music
+- Added realme Dirac
+- Fixed FOD to work on AOD
+- Moved RealmeParts to settings->system
+- Enable the pre-rendering feature (smooth scrolling)
+- Fix status bar height for certain apps on 12L
+- Enable 24-bit for primary output
+- audio: Offload 24 bits playback supports mp3/aac format
+- Fix hyper orange night light
+- Add night display color temperature calibration from Pixels
+- Update GCamGo (now having aux cams)(WIP)
+- Added SuperDart Charging view
+- Set dalvik heap configuration (ram management) conditionally for 6gb and 8gb ram models
+- Fixed some app crash (for example: http injector)
+- Battery savings tweaks
+- SafetyNet workaround
 
 [KERNEL]
-New rebased kernel for battery savings
-Mello Oof Mega Omega Gawd Overlord v0.69
-- Improved charging speed (WIP)
-- Fixed the usb transfer bug present in previous kernel release
-- Added KCal (display calibration) support
-- Added boeffla wakelock blocker
-- Updated wakelock blocker list to block all possible wakelocks causing idle drains
-- Added and updated net wireguard
-- Enabled westwood tcp congestion for better internet speed
-- More tuned westwood tcp for more better internet speed
-- Added blu_schedutil governor (schedutil governor from Pixel devices)
-- Force applications to use TCP_NODELAY to improve network
-- Added and updated zen, maple anxiety, sio, sioplus, tripndroid, fiops IO scheduler
-- Optimized Console FrameBuffer for upto 70% increase in Performance
-- Added kernel space battery saver mode
-- Disable cpu boost, iowait boost and gpu boost if battery saver is on
-- Fixed the issue where settings -> battery section shows "Connected, not charging" even though it is not connected
-- alarmtimer: Minimize wakeup time
-- Fix slow charge while screen is on
-- Enter faster into deep sleep
-- schedutil: remove hispeed garbage added by CAF
-- schedutil: Remove CAF predicted load functionality
-- Many more changes for battery savings
+Battery oriented kernel version upreved to v0.69 +3
+- Merged latest linux patch v4.14.278
+- Don't let some some apps to run background (helps save power)
+- Improve charging speed
+- Enable power efficient workqueues by default
+- Set initial TCP window size to 64K (speed improvement)
+- Battery improvements
+- Smoothness improvements
 
-[SOURCE]
-- Rebase on android-12.1.0_r4
-- Switch to QS brightness slider customizations from Yaap
-- Added color coded battery indications
-- Switch to VoLTE/VoWifi icon customizations from Nitrogen
-- Switch to vibration intensity control implementation from AOSPA
-- Add Descendant's Reticker
-- Fix and make the volume dialog expandable
-- DerpSpace: Make use of AOSP small clock switch instead of using separate one
-- Settings: Add more trigger actions/app/activities to advanced gestures
-- NavigationGestures: Allow customizing gestural margin bottom
-- Settings: Rearrange and categorize gestures & keys fragment
-- Settings: Add Battery charge warning options
-- Lockscreen charging: Bring back Pie style of charging line where battery info is displayed in the second line if enabled
-- Lockscreen charging: Bring in °F/°C toggle
-- Remove heads up stoplist
-- Added High Touch Polling Rate Support
-- Add back Less boring heads up option
-- Add HUN importance selector
-- Add option to disable notifications vibration
-- Remove Battery left text option
-- Add music QS tile title toggle
-- Move wallpaper zoom switch to DerpSpace
-- Add switch to hide status bar on lock screen
-- Add switch for kill button in notification guts
-- Add switch to force expanded notifications
-- Add switch to force expanded media player
-- Add switch to launch default music player on headset connect
-- DevSettings: Add Alarms and Wakelock Blocker
-- DerpLauncher: Display themed app icon all the time
+[ROM]
+- Merged May security patch
+- Improved settings UI
+- Added function to allow take ss of protected apps
+- Add switch to enable daily data usage in QS footer
+- Add switch for overriding VoLTE icon with VoWiFi when available
+- Hide tuner icon in QS panel
+- Fix media art force expand without systemui restart
+- Use color accent for charging animation
+- Settings: Respect default vibration strength
+- Settings: Rework Alarm & Wakelock blocker fragments
+- ThemePicker: Reverse color section from Pixel stock
+- ThemePicker: Fix Acherus availability
+- PermissionController: Enable usage timeline for all permission groups
+- Recovery: Prevent showing this message in recovery:
+  E:recvmsg failed (No buffer space available)
+- Recovery: Add support for changing slots
+- DerpLauncher: Add support for enabling taskbar on phones
+- DerpLauncher: Allow enabling recents overview grid on phones
+- DerpLauncher: Import Russian translations from 12 branch
