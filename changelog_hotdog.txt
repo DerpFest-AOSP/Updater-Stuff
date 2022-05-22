@@ -1,10 +1,21 @@
-- Add back screen off fod toggle
-- Improve FOD haptic feedback toggle
-- Add few more Udfps icons
-- Use color accent background for volume seekbar bg
-- Implement cutout force full screen
-- GameSpace: Add Screen for Per-app configuration
-- GameSpace: Add implementation for the GameMode ANGLE Intervention
-- GameSpace: Add config for disallowing ANGLE usage
-- GameSpace: Add German and Chinese translations
-- Add smart idle maintenance service
+Device Changes:
+- Import GrapheneOS camera and replace AOSP camera
+- Disable HD notification for all carriers
+- Define power button location properly
+- Enable vibrate on icon animation of the shelf
+- Touch: Disable icon space reserve
+- Disable phantom process monitoring
+
+ROM Changes:
+- Use custom fonts for more UI elements
+- Set custom lockscreen clock font dynamically
+- Kang smartspace_card_flight layout from PE
+- Fix bilibili app crash
+- Allow to skip confirmation in biometric auth dialog
+- Settings: Improve hotspot manager strings
+- ThemePicker: Add font picker
+- ThemePicker: Add German and Russian translations
+- DerpLauncher: Allow hiding top shadow on statusbar
+- DerpLauncher: Add toggle to disable scroll vibration
+- DerpLauncher: Add toggle to use dark status bar on Home screen
+- DerpLauncher: Improve some strings
