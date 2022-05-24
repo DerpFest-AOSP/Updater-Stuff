@@ -1,18 +1,36 @@
 Device Changes:
-- Introducing built-in ANXCamera
-- Add 300Mhz minimum CPU scaling frequency
-- Build IFAAService from source
-- Import more camera blobs
-- Increase volume steps from 15 to 25
-- Update safe media volume index
-- Power HAL improvements
-- Switch to common Xiaomi light AIDL
-- Address more denials
-- VantomKernel v4.14.276 improvements
-- Disable wallpaper zooming
-- Switch to PlayGround clang
-- Wi-Fi HAL improvements
-- Switch to a custom QTI vibrator AIDL
+- Add missing seccomp policy
+- Add Moto Dolby audio
+- Address various seolicy denials
+- Allow more cached apps in the background
+- Configure burnin shift interval
+- Convert overlays into RRO_Overlays
+- Copy verified boot permissions
+- Drop all component overrides
+- Drop useless volume_listener
+- Enable screen-off udfps by default
+- Enable VoLTE and VoWIFI for all
+- Fix being stuck in bootanimation for users
+- Fix display animation while AOD on/off screen
+- Fix NFC denials
+- Import QTI Codec2 HAL
+- Improve haptic and vibe patterns
+- Include firmware by default
+- Include new gnss seccomp rules
+- Powersaving in charger mode
+- Set valid and supported channel mask for earpiece
+- Ship VantomKernel v4.14.278
+- Some performance improvements
+- Switch to full IWLAN mode
+- Tune for AOD
+- Update blobs from sweet V13.0.7.0.SKFMIXM
+- Update CarrierConfig overlay
+- Update GPS config for A12
+- Update Media configs from LA.UM.9.12.r1-13400.02-SMxx50.QSSI12.0
+- Update surfaceflinger props
+- Use QCOM implementation for audio effects
+- Use QTI health implementation
+- Wi-Fi improvements
 
 ROM:
 - May security patch level
