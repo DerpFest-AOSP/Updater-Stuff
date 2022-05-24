@@ -1,0 +1,20 @@
+Device Changes:
+- Sync with latest sauce
+- 4/64 fix
+- BT wakelock fix
+- DotNotch added
+- Rebased bengal tree with @jabiyeff21 tree. Huge thanks
+- When in doubt, ping me for buggos
+
+ROM Changes:
+- Use custom fonts for more UI elements
+- Set custom lockscreen clock font dynamically
+- Kang smartspace_card_flight layout from PE
+- Fix bilibili app crash
+- Settings: Improve hotspot manager strings
+- ThemePicker: Add font picker
+- ThemePicker: Add German and Russian translations
+- DerpLauncher: Allow hiding top shadow on statusbar
+- DerpLauncher: Add toggle to disable scroll vibration
+- DerpLauncher: Add toggle to use dark status bar on Home screen
+- DerpLauncher: Improve some strings
