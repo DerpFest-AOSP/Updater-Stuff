@@ -1,29 +1,21 @@
-Device Changelog:
+Device Changes:
 
 * Latest Derpfest source upstream
-* Kernel upstream to 4.9.312
-* Kernel built with latest Neutron-Clang 14
-* Updated DPM, IMS, RIL & WFD system blobs From LA.QSSI.12.0.r1-07000-qssi.0
-* Updated GPS blobs & configs from pnx_sprout
-* Removed unused blobs in Vendor
+* Kernel upstream to 4.9.315
+* Fixed Wallpapers & Themes crash
 * OTA Pushed(Gapps only) 
 * SafetyNet pass without root as usual
 * More improvements & fixes!
 
-Rom Changelog:
-
-- Add switch to enable daily data usage in QS footer
-- Add switch for overriding VoLTE icon with VoWiFi when available
-- Fix media art force expand without systemui restart
-- Use color accent for charging animation
-- Settings: Respect default vibration strength
-- Settings: Rework Alarm & Wakelock blocker fragments
-- ThemePicker: Reverse color section from Pixel stock
-- ThemePicker: Fix Acherus availability
-- PermissionController: Enable usage timeline for all permission groups
-- Recovery: Prevent showing this message in recovery:
-  E:recvmsg failed (No buffer space available) 
-- Recovery: Add support for changing slots
-- DerpLauncher: Add support for enabling taskbar on phones
-- DerpLauncher: Allow enabling recents overview grid on phones
-- DerpLauncher: Import Russian translations from 12 branch
+ROM Changes:
+- Use custom fonts for more UI elements
+- Set custom lockscreen clock font dynamically
+- Kang smartspace_card_flight layout from PE
+- Fix bilibili app crash
+- Settings: Improve hotspot manager strings
+- ThemePicker: Add font picker
+- ThemePicker: Add German and Russian translations
+- DerpLauncher: Allow hiding top shadow on statusbar
+- DerpLauncher: Add toggle to disable scroll vibration
+- DerpLauncher: Add toggle to use dark status bar on Home screen
+- DerpLauncher: Improve some strings
