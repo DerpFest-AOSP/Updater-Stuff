@@ -2,3 +2,8 @@ Device Changes:
 - Added some smol improvements :))
 - Proximity fix
 - Green camera on zoom fix
+- Fixed baseband (sorry guys!)
+- Added more awesome shit for fluidity
+- Added MotoDolby
+- Synced with latest derp
+- Sorry for the delay my guys <3
