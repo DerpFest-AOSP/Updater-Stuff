@@ -1,19 +1,10 @@
 Device Changes:
-- Switch to updated 1CE Kernel
-- Define slow brightness ramp animation rate
+- Fix refresh rate preferences after arter97's VRR changes
+- Fix reboot when trying to play videos on Netflix, HOOQ, etc.
+- Switch to dot product CPU variant to unlock some optimizations 
+- USB: Fix diag mode
+- Sepolicy: Fix a wakeup denial
 
 ROM Changes:
-- Implement new VRR from arter97
-- Support muting media volume on silent or vibrate mode
-- BatteryColorIndicator: Fix the last >85 battery percent being white instead of green
-- Fix secondary label being stuck while collapsing QS panel from non-first page
-- Fix QS clock overlapping on UI mode change
-- Re-evaluate system theme on UI mode change
-- Re-inflate keyguard statusbar on theme change
-- Show notification row when it's unlinked to ringer volume
-- Update API for disabling gestural navigation
-- Prevent overlay resources from loading on boot which lead to wrong navigation bar height when config_navBarInteractionMode is set to 2
-- Improve powershare strings
-- DerpLauncher: Fix few NPEs
-- Update zlib-ng port
-- Update Lawnicons with upstream changes
+- Calculate paged QS tiles height properly 
+- Settings: Fix loading iconpack-based Wellbeing icon
