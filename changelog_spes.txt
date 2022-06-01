@@ -1,9 +1,17 @@
 Device Changes:
-- Added some smol improvements :))
-- Proximity fix
-- Green camera on zoom fix
-- Fixed baseband (sorry guys!)
-- Added more awesome shit for fluidity
-- Added MotoDolby
-- Synced with latest derp
-- Sorry for the delay my guys <3
+- Finally @fuckimjhem fucking cleaned gapps on Derp. Just uninstall those bloat
+- Fixed something I derped in overlay. (glad no one noticed)
+- Synced trees with @Jabiyeff21 . Offline charging has been fixed and many more. Huge thanks to him
+- Fixed low volume on bluetooth earphones
+
+Changes from @Jabiyeff21 that are added here:
+- Updated WiFi configs for more battery efficient
+- Updated sensor service to 2.1 version
+- Switched gaming thermal profile by default (charging speed increased)
+- Enabled GL comp backpressure
+- Fixed offline charging issue
+- Fixed NFC issue (for spesn)
+- Removed ZRAM Writeback
+- Removed Xiaomi ACDB ID changes
+- Selinux: Address denials
+- Misc. Fixes and Improvements
