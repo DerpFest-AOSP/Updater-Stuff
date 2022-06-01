@@ -4,6 +4,10 @@ Device Changes:
 - Synced trees with @Jabiyeff21 . Offline charging has been fixed and many more. Huge thanks to him
 - Fixed low volume on bluetooth earphones
 
+June 02 Hotfix
+
+- Selinux: added denial for fingerprint.
+
 Changes from @Jabiyeff21 that are added here:
 - Updated WiFi configs for more battery efficient
 - Updated sensor service to 2.1 version
