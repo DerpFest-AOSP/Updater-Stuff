@@ -1,31 +1,21 @@
 Device Changes:
-- Use media codecs from CAF
-- Update Wi-Fi to android.hardware.wifi@1.5
-- Set max active modem count
-- Add support for low power adaptive control feature
-- AAC frame control enabled for hal implementation
-- Disable gms components for better WiFi speeds
-- nfc: Apply Mifare fix with extract-files.sh
-- Update android.software.vulkan.deqp.level, version 2021-03-01
-- Build some missing telephony packages
-- Update android.hidl.manager to version @1.2
-- Update power profile for xiaomi SM8250-AC
-- Update PowerProfiles to Android 12.1
-- Update blobs from V13.0.4.0 EEA
-ROM:
-- Add Dora icon pack
-- Add notification clear all button customizations
-- Use color seed generation algorithm from AOSP
-- Fixes and improvements for Black Theme
-- SoftAp: Add Hidden SSID preference
-- SoftAp: Add support for setting shutdown timeout
-- SoftAp: Add client manager
-- Split status bar icon controls for vibrate and mute
-- Fix alarm icon not showing after reboot
-- charger: Update Pixel charger animation from raven SP2A.220405.004
-- Remove QCOM FBE wrapped-key changes
-- DerpLauncher: Add support for third party icon packs
-- DerpLauncher: Add AppInfo Bottom Sheet from Shade Launcher
-- DerpSpace: Update Chinese translations
-- DerpSpace: Add lockscreen clock options
+- HotFix (Enabled NR for both slots)
+- Update carrier config from CAF
+- Merged Linux 4.19.245
 
+ROM Changes:
+- Support muting media volume on silent or vibrate mode
+- BatteryColorIndicator: Fix the last >85 battery percent being white instead of green
+- Fix secondary label being stuck while collapsing QS panel from non-first page
+- Fix QS clock overlapping on UI mode change
+- Re-evaluate system theme on UI mode change
+- Re-inflate keyguard statusbar on theme change
+- Show notification row when it's unlinked to ringer volume
+- Update API for disabling gestural navigation
+- Prevent overlay resources from loading on boot which lead to wrong navigation bar height when config_navBarInteractionMode is set to 2
+- Improve powershare strings
+- DerpLauncher: Fix few NPEs
+- Update zlib-ng port
+- Update Lawnicons with upstream changes
+- Calculate paged QS tiles height properly 
+- Settings: Fix loading iconpack-based Wellbeing icon
