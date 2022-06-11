@@ -1,211 +1,49 @@
 ====================
-    05-04-2022     
+    06-11-2022     
 ====================
-
-* build/make
-72e5213  Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/build into HEAD  [NurKeinNeid]
-
 
 * frameworks/base
-b0b0544  SystemUI: use system color accent for privacy indicators  [dlwlrma123]
-08f5032  PixelPropsUtils: Update fingerprints to May 2022  [NurKeinNeid]
-2c1fed4  Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/frameworks/base into HEAD  [NurKeinNeid]
-
-
-* manifest
-65f24cc  Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/manifest into HEAD  [NurKeinNeid]
-
-
-* packages/apps/DerpLauncher
-1c32787  DerpLauncher: Update Russian translations  [NurKeinNeid]
-acbfcc0  DerpLauncher: Make taskbar untouchable during transitions  [Pranav Vashi]
-d9825bf  DerpLauncher: Improve taskbar state controller for resume  [Pranav Vashi]
-
-
-* packages/apps/Settings
-8bf4ee8  Settings: Add AdGuard DNS as a private DNS Provider  [Adam Lawson]
-83a22d2  Settings: Add Cloudflare DNS as a private DNS provider  [Chirayu Desai]
-04f5090  Settings: Update some lottie animations  [PainKiller3]
-c5274da  Settings: Adapt xdUI base layout for our needs  [johnmart19]
-3817c25  Settings: xdUI: Redesign our toolbar  [xyzuan]
-bce2563  Settings: import xdroid-OSS settings base layout * all credits goes to xdroid-oss  [xyzuan]
-446df9f  Settings: Apply SUW button theming to WiFi page  [Erfan Abdi]
-8e06258  Settings: Network setup UI changes for SUW  [Michael Bestas]
-a8ce06b  Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD  [NurKeinNeid]
-
-
-* packages/services/Telecomm
-7336599  Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/packages/services/Telecomm into 12.1-bak  [NurKeinNeid]
-
-
-* system/bt
-89d8ba1  Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/system/bt into HEAD  [NurKeinNeid]
-
-
-====================
-    05-03-2022     
-====================
-
-* manifest
-2bc59ba  Manifest for Android 12.1.0 Release 5 (SP2A.220505.002)  [The Android Open Source Project]
-
-
-====================
-    05-02-2022     
-====================
-
-* device/derp/sepolicy
-3fd9832  sepolicy: Label skip unconfigure prop  [Pranav Vashi]
-a7a880f  Allow apps to access usap pool  [Pranav Vashi]
-2800c9a  Revert "Allow apps to access usap pool"  [Pranav Vashi]
-
-
-* frameworks/base
-45571ba  Add Mediatek IMS to location indicator whitelist  [Chiranth A J]
-50aa2bc  [SQUASH] SystemUI: Show daily data usage in QS footer [1/2]  [Adithya R]
-cae6887  Override VoLTE icon with VoWiFi when available [1/2]  [Pranav Vashi]
-9dc46ec  acherus: Add settings overlay  [Genkzsz11]
-b11595e  Fix IndexOutOfBoundsException in systemserver  [V S Ganga VaraPrasad (VARA) Adabala]
-eb8e62c  Improve compaction to abort when system changes to awake state  [V S Ganga VaraPrasad (VARA) Adabala]
-2042ddf  appcompaction: Enable system compaction at bootup  [Divyanand Rangu]
-757e37b  Improve compaction by skipping bad VMAs instead of fully bailing out  [Edgar Arriaga]
-1256702  Fix for compaction bailing out when MAX_RW_COUNT bytes are sent to compaction  [Edgar Arriaga]
-
-
-* manifest
-98d72e8  manifest: Track TelephonyProvider  [NurKeinNeid]
-
-
-* packages/apps/DerpLauncher
-5e32b6a  DerpLauncher: Round search bar in drawer  [Danny Lin]
-445f339  DerpLauncher: Fix NPE for QuickStep hotseat prediction controller  [Pranav Vashi]
-d551bd8  DerpLauncher: Do not attach cleanupScreenshot() to frame update event  [LibXZR]
+3c6b03d  use rounded corners in system UI  [Daniel Micay]
+3987dda  sounds: Import    * arcana UI sounds effects  [minarypenguin]
+4af11df  android: responsiveness optimizations  [dlwlrma123]
+f215a28  Add developer setting to set the default GPU renderer.  [Joe Maples]
+b621c5f  Init New Settings UI  [spkal01]
+f03397a  PPUTILS  [pri0818]
+1188b49  fw/base: Tons of optimzations from proton and corvus  [timjosten]
 
 
 * packages/apps/DerpSpace
-4fd8ccd  DerpSpace: Toggle data usage view on QS footer [2/2]  [travarilo]
-273a98b  DerpSpace: add VoLTE VoWiFi override switch  [Semavi Ulusoy]
-
-
-* packages/apps/ThemePicker
-a578b83  ThemePicker: Reverse color section from Pixel stock  [Anay Wadhera]
-
-
-* packages/providers/TelephonyProvider
-996d175  Add READ_PHONE_STATE to fix SERVICE_STATE warning  [Tari Bence]
-
-
-* system/core
-d01c0e7  init.rc: Don't enable f2fs iostat by default  [xNombre]
-
-
-* vendor/derp
-dcc755e  prebuilt: fix APN for Vodafone NL  [Chenyang Zhong]
-1af9f03  stub: Import color section resources  [ReallySnow]
-
-
-====================
-    05-01-2022     
-====================
-
-* bootable/recovery
-5911473  recovery: rewrite slot switch logic using bootcontrol APIs  [Anay Wadhera]
-fc9d2cb  recovery: add support for changing slots  [Ethan Yonker]
-5e6f9da  recovery: display current filesystem when going to format  [Anay Wadhera]
-25293f7  recovery: add the option to choose the filesystem for /data  [Anay Wadhera]
-a862ea4  Fix the fuse error that cannot handle the OTA package larger than 4 GiB  [luoqiangwei1]
-4ea4eba  updater: Don't fail when trying to run set_metadata  [jhenrique09]
-
-
-* build/make
-123629f  Installation script: Remove leading spaces  [NurKeinNeid]
-8c4919e  Display progress of system & vendor images when flashing  [Nicolas Dhouailly]
-5b02f4c  Clean up ROM flash and add DerpFest info  [beanstown106]
-
-
-* frameworks/base
-6fe4d39  SystemUI: Screenshot: Avoid NPE while getting app label  [Adithya R]
-91a288b  SystemUI: Use color accent for charging animation  [Genkzsz11]
-b9aa7b7  SystemUI: Fix media art force expand without systemui restart  [Genkzsz11]
-d13c662  SystemUI: Hide tuner icon in QS panel  [Danny Lin]
-bb91b30  dynsystem: Fix memory leak  [Yi-Yo Chiang]
-99b096f  DSU service: Log insufficient storage space error  [Yi-Yo Chiang]
-f1608fb  DSU service: Pipeline the installation task to improve performance  [Yi-Yo Chiang]
-e52e55e  NavigationBarController: Remove tablet check for enabling taskbar  [Pranav Vashi]
-
-
-* hardware/interfaces
-672bf2b  audio: Verify that hal implements get_audio_port before calling  [Aaron Kling]
-
-
-* libcore
-631ddc0  Backport fix to PriorityQueue.offer() for first element  [Sorin Basca]
-
-
-* packages/apps/DerpLauncher
-83cc723  DerpLauncher: Disable ENABLE_TASKBAR_EDU  [maxwen]
-8e53f7b  [SQUASH] DerpLauncher: Import Russian translations from 12 branch  [NurKeinNeid]
-84841e0  DerpLauncher: Allow enabling recents overview grid on phones  [Danny Lin]
-2e667e5  DerpLauncher: Fix occasional NPE  [Oliver Scott]
-
-
-* packages/apps/DerpSpace
-4372c6f  DerpSpace: Remove systemui restart strings for Reticker  [ariffjenong]
-
-
-* packages/apps/FaceUnlockService
-2d635cd  CameraUtil: Dont go frenzy when camera not found  [Pranav Vashi]
+5bc9799  Add game and photos spoof  [FireFly009]
+59219e6  DerpSpace: Settings Customization and features  [spkal01]
 
 
 * packages/apps/Settings
-0368832  Settings: Remove translations of sim_color_light and mark it untranslatable  [Col_or]
-0c536d1  Settings: Rework Alarm & Wakelock blocker fragments  [Anushek Prasal]
-cf14d04  Settings: Improve haptic feedback toggle summary  [Adithya R]
-7f6c108  Settings: Use ListPreference instead of DropDownPreference  [IacobIonut01]
-015eff2  Settings: Respect default vibration strength  [Anushek Prasal]
-95e93e0  Settings: Restyle that horrible sim select dialog  [maxwen]
+1673b82  Add developer setting to set the default GPU renderer.  [Joe Maples]
+cbe2ef8  Tons of changes from corvus  [Danny Lin]
+b061779  Init New Settings UI  [spkal01]
 
 
-* packages/modules/Permission
-4b756bc  PermissionController: Enable usage timeline for all permission groups  [Danny Lin]
+====================
+    06-10-2022     
+====================
+
+* tools/extract-utils
+58851a0  extract_utils: Add a script to reorder blobs list  [Sebastiano Barezzi]
 
 
-* system/core
-1e8da26  fs_mgr: Don't assume partitions replaced by DSU are logical already  [Tim Zimmermann]
-0f26df7  libutils: clearer abort on overflow.  [Elliott Hughes]
-d3c45fa  init: remove debug logging.  [Elliott Hughes]
-9055acf  libsysutils: Hide NetlinkListener error in recovery  [Michael Bestas]
+====================
+    06-09-2022     
+====================
 
-
-* system/vold
-a8c4bdb  vold: do not set gc sleep time with zero dirty segments  [Daeho Jeong]
-b90bc07  Don't abort fuse connections for virtiofs.  [Tao Wu]
-2c24eb0  vold: remove overprovision area from free segments  [Daeho Jeong]
-2fdf347  vold: switch f2fs gc_urgent_high to gc_urgent_mid  [Daeho Jeong]
-
+====================
+    06-08-2022     
+====================
 
 * vendor/derp
-286ba19  device_config: Save discrete app op history for more permissions  [Danny Lin]
-9f24964  derp: build: Update printed info to Android 12L  [NurKeinNeid]
-ba73c11  derp: add dsu_package target  [Anay Wadhera]
-
-
-* vendor/gms
-fe6ea2f  tools: Use double brackets  [Arian]
+fcbc620  prebuilt: Stop overriding Snap Camera  [Albert I]
 
 
 ====================
-    04-30-2022     
+    06-07-2022     
 ====================
-
-* frameworks/base
-feb5bb6  SystemUI: Add API for runtime taskbar config on phones  [Danny Lin]
-464d70a3  DSU: Only try to install on sdcard if the filesystem in use is vfat  [Tim Zimmermann]
-
-
-* packages/apps/DerpLauncher
-29cc9f8  DerpLauncher: Enable taskbar by default on tablet  [Pranav Vashi]
-085b87b  DerpLauncher: Add support for enabling taskbar on phones  [Danny Lin]
-037700a  DerpLauncher: Update German translations  [NurKeinNeid]
-
 
