@@ -1,115 +1,188 @@
 ====================
-    05-06-2022     
-====================
-
-====================
-    05-05-2022     
+    06-21-2022     
 ====================
 
 * frameworks/base
-a364007  base: Add ENABLE_TASKBAR setting  [LuK1337]
-20ab707  frameworks/base: Provide required permission for cellbroadcastreceiver  [johnmart19]
-cdecfb9  SystemUI: Let screenshot window ignore screen decorations  [LuK1337]
-be6fa61  add com.android.phone to indicator exemptions  [Daniel Micay]
-ef40f24  add com.android.bluetooth to indicator exemptions  [Daniel Micay]
-
-
-====================
-    05-04-2022     
-====================
-
-* build/make
-72e5213  Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/build into HEAD  [NurKeinNeid]
-
-
-* frameworks/base
-b0b0544  SystemUI: use system color accent for privacy indicators  [dlwlrma123]
-08f5032  PixelPropsUtils: Update fingerprints to May 2022  [NurKeinNeid]
-2c1fed4  Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/frameworks/base into HEAD  [NurKeinNeid]
-
-
-* manifest
-65f24cc  Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/manifest into HEAD  [NurKeinNeid]
-
-
-* packages/apps/DerpLauncher
-1c32787  DerpLauncher: Update Russian translations  [NurKeinNeid]
-acbfcc0  DerpLauncher: Make taskbar untouchable during transitions  [Pranav Vashi]
-d9825bf  DerpLauncher: Improve taskbar state controller for resume  [Pranav Vashi]
-
-
-* packages/apps/Settings
-df8eabc  Settings: Hide settings that don't work when taskbar is enabled  [LuK1337]
-a8ce06b  Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD  [NurKeinNeid]
-
-
-* packages/services/Telecomm
-7336599  Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/packages/services/Telecomm into 12.1-bak  [NurKeinNeid]
-
-
-* system/bt
-89d8ba1  Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/system/bt into HEAD  [NurKeinNeid]
-
-
-====================
-    05-03-2022     
-====================
-
-* manifest
-2bc59ba  Manifest for Android 12.1.0 Release 5 (SP2A.220505.002)  [The Android Open Source Project]
-
-
-====================
-    05-02-2022     
-====================
-
-* device/derp/sepolicy
-3fd9832  sepolicy: Label skip unconfigure prop  [Pranav Vashi]
-a7a880f  Allow apps to access usap pool  [Pranav Vashi]
-2800c9a  Revert "Allow apps to access usap pool"  [Pranav Vashi]
-
-
-* frameworks/base
-45571ba  Add Mediatek IMS to location indicator whitelist  [Chiranth A J]
-50aa2bc  [SQUASH] SystemUI: Show daily data usage in QS footer [1/2]  [Adithya R]
-cae6887  Override VoLTE icon with VoWiFi when available [1/2]  [Pranav Vashi]
-9dc46ec  acherus: Add settings overlay  [Genkzsz11]
-b11595e  Fix IndexOutOfBoundsException in systemserver  [V S Ganga VaraPrasad (VARA) Adabala]
-eb8e62c  Improve compaction to abort when system changes to awake state  [V S Ganga VaraPrasad (VARA) Adabala]
-2042ddf  appcompaction: Enable system compaction at bootup  [Divyanand Rangu]
-757e37b  Improve compaction by skipping bad VMAs instead of fully bailing out  [Edgar Arriaga]
-1256702  Fix for compaction bailing out when MAX_RW_COUNT bytes are sent to compaction  [Edgar Arriaga]
-
-
-* manifest
-98d72e8  manifest: Track TelephonyProvider  [NurKeinNeid]
-
-
-* packages/apps/DerpLauncher
-5e32b6a  DerpLauncher: Round search bar in drawer  [Danny Lin]
-445f339  DerpLauncher: Fix NPE for QuickStep hotseat prediction controller  [Pranav Vashi]
-d551bd8  DerpLauncher: Do not attach cleanupScreenshot() to frame update event  [LibXZR]
+c4c8061  SystemUI: Make popup menus more rounded  [Lucchetto]
+862b2ce  Custom Clock Support  [pri0818]
+f11c164  Misc changes  [minarypenguin]
+9133197  Keyguard: Use Doubleline clock for small clock  [minarypenguin]
+189cbe8  base: Add app downgrade, window ignore and qs transparency  [LibXZR]
+2b78e9f  Introduce Custom settings layout  [pri0818]
+b73fb99  VolumePanel: Design changes from Corvus  [Trishiraj]
+4ad37bf  PixelPropsUtils: Add game props  [pri0818]
 
 
 * packages/apps/DerpSpace
-4fd8ccd  DerpSpace: Toggle data usage view on QS footer [2/2]  [travarilo]
-273a98b  DerpSpace: add VoLTE VoWiFi override switch  [Semavi Ulusoy]
+e8e83bb  DerpSpace: Custom Clock Support  [pri0818]
+174126a  Settings dasboard customizations  [pri0818]
 
 
-* packages/apps/ThemePicker
-a578b83  ThemePicker: Reverse color section from Pixel stock  [Anay Wadhera]
+* packages/apps/Settings
+5b4e1ea  Init New Settings UI  [spkal01]
+2521d05  Tons of changes from corvus  [pri0818]
 
 
-* packages/providers/TelephonyProvider
-996d175  Add READ_PHONE_STATE to fix SERVICE_STATE warning  [Tari Bence]
-
-
-* system/core
-d01c0e7  init.rc: Don't enable f2fs iostat by default  [xNombre]
+* packages/modules/Permission
+b387dab  stop auto-granting location to system browsers  [Daniel Micay]
+0e0b800  PermissionController: Bring in the new icon  [Asher Simonds]
+4140b61  PermissionController: Redesign Permission grant dialog  [elluzion]
 
 
 * vendor/derp
-dcc755e  prebuilt: fix APN for Vodafone NL  [Chenyang Zhong]
-1af9f03  stub: Import color section resources  [ReallySnow]
+ccd29d8  Speed up  [pri0818]
+511078e  Revert "config: Disable remote keyguard animation until it's fixed"  [LuK1337]
 
+
+====================
+    06-20-2022     
+====================
+
+* build/make
+1a7a4c1  Add vendor-bootconfig.img to target-files-package  [Devin Moore]
+
+
+* frameworks/base
+5ea0384  Gestures nav: Add hush mute action  [ezio84]
+
+
+* packages/apps/Settings
+ad8c189  Settings: Add more trigger actions/app/activities  [ezio84]
+
+
+* packages/resources/devicesettings
+806a38f  Automatic translation import  [Michael Bestas]
+
+
+* system/core
+a2e4aae  Revert "core: healthd: Read charger voltage from the actual charger"  [NurKeinNeid]
+
+
+* system/sepolicy
+40fca42  sepolicy: allow recovery to operate devpts and kmsg  [xiaohuin]
+
+
+====================
+    06-19-2022     
+====================
+
+* packages/apps/DerpSpace
+6c32158  DerpSpace: Rework media artwork notification [2/2]  [minarypenguin]
+
+
+====================
+    06-18-2022     
+====================
+
+* bootable/recovery
+cb7f34c  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//bootable/recovery into HEAD  [NurKeinNeid]
+
+
+* build/soong
+f8ac01e  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//build/soong into HEAD  [NurKeinNeid]
+
+
+* frameworks/av
+1104554  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//frameworks/av into HEAD  [NurKeinNeid]
+
+
+* frameworks/native
+758fa77  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//frameworks/native into 12.1-next  [NurKeinNeid]
+
+
+* frameworks/opt/telephony
+797a603  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD  [NurKeinNeid]
+
+
+* hardware/interfaces
+df613a8  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//hardware/interfaces into HEAD  [NurKeinNeid]
+
+
+* hardware/libhardware
+f8e60a1  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//hardware/libhardware into HEAD  [NurKeinNeid]
+
+
+* manifest
+8c42696  manifest: Drop Lawnicons  [NurKeinNeid]
+
+
+* packages/apps/Bluetooth
+974e5a0  Bluetooth: Redesign BluetoothOppTransferHistory page  [Col_or]
+
+
+* packages/apps/DerpLauncher
+c2cab0c  DerpLauncher: Import some themed icons  [Sarthak Roy]
+
+
+* packages/apps/FaceUnlockService
+7db7ba1  Merge branch 'twelve' of https://github.com/PixelExperience/packages_apps_FaceUnlockService into HEAD  [NurKeinNeid]
+
+
+* packages/apps/Nfc
+e42441d  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/apps/Nfc into HEAD  [NurKeinNeid]
+
+
+* packages/apps/ThemePicker
+0561fac  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/apps/ThemePicker into HEAD  [NurKeinNeid]
+
+
+* packages/apps/WallpaperPicker2
+7313db4  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/apps/WallpaperPicker2 into HEAD  [NurKeinNeid]
+
+
+* packages/modules/Connectivity
+4d05ce5  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/modules/Connectivity into HEAD  [NurKeinNeid]
+
+
+* packages/modules/Permission
+5b1c3cc  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/modules/Permission into 12.1-next  [NurKeinNeid]
+
+
+* packages/modules/Wifi
+3a033e5  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/modules/Wifi into HEAD  [NurKeinNeid]
+
+
+* packages/modules/adb
+25d5c1e  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/modules/adb into HEAD  [NurKeinNeid]
+
+
+* packages/providers/DownloadProvider
+97e957a  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/providers/DownloadProvider into HEAD  [NurKeinNeid]
+
+
+* packages/providers/MediaProvider
+a21d889  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/providers/MediaProvider into HEAD  [NurKeinNeid]
+
+
+* packages/services/Telecomm
+35fb109  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/services/Telecomm into 12.1-bak  [NurKeinNeid]
+
+
+* packages/services/Telephony
+974517c  Telephony: Add ERI configuration for U.S. Cellular  [Arne Coucheron]
+
+
+* system/apex
+e144141  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/system/apex into HEAD  [NurKeinNeid]
+
+
+* system/bt
+9de8c18  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/system/bt into HEAD  [NurKeinNeid]
+
+
+* system/security
+ef645df  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//system/security into HEAD  [NurKeinNeid]
+
+
+* system/vold
+2890ff3  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/system/vold into HEAD  [NurKeinNeid]
+
+
+* vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+8014d49  Bluetooth: Redesign BluetoothOppTransferHistory page  [Col_or]
+
+
+====================
+    06-17-2022     
+====================
 
