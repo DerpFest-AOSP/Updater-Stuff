@@ -1,47 +1,30 @@
 [DEVICE]
-- Added realme Dirac
-- Fixed FOD to work on AOD
-- Moved RealmeParts to settings->system
-- Enable the pre-rendering feature (smooth scrolling)
-- Fix status bar height for certain apps on 12L
-- Enable 24-bit for primary output
-- audio: Offload 24 bits playback supports mp3/aac format
-- Fix hyper orange night light
-- Add night display color temperature calibration from Pixels
-- Update GCamGo (now having aux cams)(WIP)
-- Added SuperDart Charging view
-- Set dalvik heap configuration (ram management) conditionally for 6gb and 8gb ram models
-- Fixed some app crash (for example: http injector)
-- Battery savings tweaks
-- SafetyNet workaround
+- Implemented pixel powerhal (for more smoothness and responsiveness)
+- Fixed the init script that was always shifting to default cpu governor to schedutil
 
 [KERNEL]
-Battery oriented kernel version upreved to v0.69 +3
-- Merged latest linux patch v4.14.278
-- Don't let some some apps to run background (helps save power)
-- Improve charging speed
-- Enable power efficient workqueues by default
-- Set initial TCP window size to 64K (speed improvement)
-- Battery improvements
-- Smoothness improvements
+- Basic linux kernel
+- Merged latest linux patch v4.14.284
+
+[#MelloLab]
+- Added Qs transparency
+- More UDFPS icons
+- Redesigned Settings UI
+- Added support for window ignore secure
+- Redesigned seekbar
+- Use OOS brightnessbar icons
+- Added back custom clock support
+- Redesigned volume panel
+- Added statusbar clock background chip
+- Added haptic feedback on qs tiles
+- Redesigned DerpLauncher
+    • Improved recents overview buttons
+    • Added support to show RAM view in recents
+    • Redesigned Quickspace
+- Redesigned permission dialog and moved to bottom
+- Optimizations in blur
 
 [ROM]
-- Merged May security patch
-- Improved settings UI
-- Added function to allow take ss of protected apps
-- Add switch to enable daily data usage in QS footer
-- Add switch for overriding VoLTE icon with VoWiFi when available
-- Hide tuner icon in QS panel
-- Fix media art force expand without systemui restart
-- Use color accent for charging animation
-- Settings: Respect default vibration strength
-- Settings: Rework Alarm & Wakelock blocker fragments
-- ThemePicker: Reverse color section from Pixel stock
-- ThemePicker: Fix Acherus availability
-- PermissionController: Enable usage timeline for all permission groups
-- Recovery: Prevent showing this message in recovery:
-  E:recvmsg failed (No buffer space available)
-- Recovery: Add support for changing slots
-- DerpLauncher: Add support for enabling taskbar on phones
-- DerpLauncher: Allow enabling recents overview grid on phones
-- DerpLauncher: Import Russian translations from 12 branch
+- Merged June security patch
+- Rebased source
+- Many more things
