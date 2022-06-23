@@ -1,21 +1,12 @@
-Device Changes:
+Changelog:
 
 * Latest Derpfest source upstream
-* Kernel upstream to 4.9.315
-* Fixed Wallpapers & Themes crash
-* OTA Pushed(Gapps only) 
+* Merged June Security Patch
+* Kernel upstream to 4.9.319
+* Merged latest caf tag LA.UM.9.8.r1-05000-SDM710.0 in kernel
+* Merged qcacld-3.0, fw-api, qca-wifi-host-cmn wifi drivers from LA.UM.9.8.r1-05000-SDM710.0
+* Added Multiple Intensities Vibration Support
+* Fixed Live Wallpapers
+* OTA Pushed(Gapps only)
 * SafetyNet pass without root as usual
 * More improvements & fixes!
-
-ROM Changes:
-- Use custom fonts for more UI elements
-- Set custom lockscreen clock font dynamically
-- Kang smartspace_card_flight layout from PE
-- Fix bilibili app crash
-- Settings: Improve hotspot manager strings
-- ThemePicker: Add font picker
-- ThemePicker: Add German and Russian translations
-- DerpLauncher: Allow hiding top shadow on statusbar
-- DerpLauncher: Add toggle to disable scroll vibration
-- DerpLauncher: Add toggle to use dark status bar on Home screen
-- DerpLauncher: Improve some strings
