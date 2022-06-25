@@ -1,20 +1,9 @@
 Device Changelog:
 
-* Kernel upstream to LA.UM.9.1.r1-18000*
-* Enable IORap tracing and prefetching
-* Check Livedisplay Modes(and report) - THX @chematelegram
+* Kernel upstream to LA.UM.9.1.r1-12000*
+* Updated wlan driver to latest caf tag
+* many under the hood improvements
 
 Rom Changelog:
 
-- Add back Columbus (quick tap)
-- Add back additional Brightness Slider options
-- Applock: intercept activity in a better way
-- Fix circle battery QS tinting
-- Battery: Add option for coloring circle battery styles
-- Add Mono audio tile (aka headphone in one ear only)
-- Make IME button space optional
-- Remove night light toggle and disable night light when fod kicks in
-- Improve screenshot window dismiss behavior
-- Settings: Add high touch sensitivity and touchscreen hovering toggles for supported devices
-- Settings: Display: Add High Touch Polling Rate Support
-- DerpLauncher: Add themed icons switch for app drawer
+- June Security Patch
