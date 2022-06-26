@@ -1,10 +1,17 @@
-Device Changes:
-- Fix refresh rate preferences after arter97's VRR changes
-- Fix reboot when trying to play videos on Netflix, HOOQ, etc.
-- Switch to dot product CPU variant to unlock some optimizations 
-- USB: Fix diag mode
-- Sepolicy: Fix a wakeup denial
-
 ROM Changes:
-- Calculate paged QS tiles height properly 
-- Settings: Fix loading iconpack-based Wellbeing icon
+- Merge June Security patch (android-12.1.0_r8)
+- Back to GSans on lockscreen
+- Remove Custom lockscreen clocks and bring Smartspace inline with PE
+- Remove Pixel Navbar animation toggle 
+- Fix some edge cases with ElectronBeam screen-off animation
+- Fix partial screenshot action
+- Refactor how we display the VoLTE/VoWiFi icons and add more icons
+- Update caffeine tile icon from AOSPA
+- Disable Pixel spoof for recorder app
+- Fix AppLock resetting after app updates
+- Rework media artwork notification style & customizations
+- Settings: Update wallpaper dashboard summary to be inline with Pixels
+- DerpLauncher: Switch to Pixel themed icons from Arrow
+- DerpLauncher: default_workspace: Don't add AOSP Clock widget by default
+- Update various APNs
+- Update GrapheneOS Camera

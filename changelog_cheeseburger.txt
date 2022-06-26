@@ -1,17 +1,21 @@
 Device Changes:
-- Sync with latest Lineage changes (multi sim changes again)
-- Enable settings for multiple levels of vibration intensity
-- Disable phantom process monitoring
+- Sync with latest Lineage changes
+- fstab: Force encryption
 
 ROM Changes:
-- Use custom fonts for more UI elements
-- Set custom lockscreen clock font dynamically
-- Kang smartspace_card_flight layout from PE
-- Fix bilibili app crash
-- Settings: Improve hotspot manager strings
-- ThemePicker: Add font picker
-- ThemePicker: Add German and Russian translations
-- DerpLauncher: Allow hiding top shadow on statusbar
-- DerpLauncher: Add toggle to disable scroll vibration
-- DerpLauncher: Add toggle to use dark status bar on Home screen
-- DerpLauncher: Improve some strings
+- Merge June Security patch (android-12.1.0_r8)
+- Back to GSans on lockscreen
+- Remove Custom lockscreen clocks and bring Smartspace inline with PE
+- Remove Pixel Navbar animation toggle 
+- Fix some edge cases with ElectronBeam screen-off animation
+- Fix partial screenshot action
+- Refactor how we display the VoLTE/VoWiFi icons and add more icons
+- Update caffeine tile icon from AOSPA
+- Disable Pixel spoof for recorder app
+- Fix AppLock resetting after app updates
+- Rework media artwork notification style & customizations
+- Settings: Update wallpaper dashboard summary to be inline with Pixels
+- DerpLauncher: Switch to Pixel themed icons from Arrow
+- DerpLauncher: default_workspace: Don't add AOSP Clock widget by default
+- Update various APNs
+- Update GrapheneOS Camera
