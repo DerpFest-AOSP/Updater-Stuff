@@ -1,28 +1,23 @@
-ROM:
-- Add Dora icon pack
-- Add notification clear all button customizations
-- Use color seed generation algorithm from AOSP
-- Fixes and improvements for Black Theme
-- SoftAp: Add Hidden SSID preference
-- SoftAp: Add support for setting shutdown timeout
-- SoftAp: Add client manager
-- Split status bar icon controls for vibrate and mute
-- Fix alarm icon not showing after reboot
-- charger: Update Pixel charger animation from raven SP2A.220405.004
-- Remove QCOM FBE wrapped-key changes
-- DerpLauncher: Add support for third party icon packs
-- DerpLauncher: Add AppInfo Bottom Sheet from Shade Launcher
-- DerpSpace: Update Chinese translations
+===============================
+Devices:
+- Switched to new OSS base ( the EvoX OSS trees)
+- Initial release again after EOL of Derp 
 
-Device:
-- Heating issues should be gone now
-- Minor Improvements
-- Disable content detection for refresh rate
-- Disable debug.sf.recomputecrop
-- Set iorap prefetch prop to mendel flags
-- Pixel-ify the Bixby button (Only works with Google App installed- can be downloaded from Play Store)
-- Enable iorapd prefetching
-- Avoid unnecessary graphics accelleration 
-- Silence graphics mapper log spam
-- Disable triple buffering 
-- Add back A12L AOD Animation
+===============================
+ROM: 
+- Merge June Security patch (android-12.1.0_r8)
+- Back to GSans on lockscreen
+- Remove Custom lockscreen clocks and bring Smartspace inline with PE
+- Remove Pixel Navbar animation toggle 
+- Fix some edge cases with ElectronBeam screen-off animation
+- Fix partial screenshot action
+- Refactor how we display the VoLTE/VoWiFi icons and add more icons
+- Update caffeine tile icon from AOSPA
+- Disable Pixel spoof for recorder app
+- Fix AppLock resetting after app updates
+- Rework media artwork notification style & customizations
+- Settings: Update wallpaper dashboard summary to be inline with Pixels
+- DerpLauncher: Switch to Pixel themed icons from Arrow
+- DerpLauncher: default_workspace: Don't add AOSP Clock widget by default
+- Update various APNs
+- Update GrapheneOS Camera
