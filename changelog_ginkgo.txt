@@ -1,28 +1,24 @@
-Device Changelog:
-- Update telephony from LA.QSSI.12.0.r1-06500 
-- Upgrade adreno stack to WAIPIO 12200 (OpenGL ES 3.2 V@0615.0)
-- Enlarge XiaomiParts settings icon to make it match with rest of the icons 
-- Enabled unspecialized app process pool
-- Disabled 48MP mode overlay in MIUI Camera
-- Upstreamed QuicksilveR kernel to v4.14.277
-- Merged 'LA.UM.9.11.r1-05600-NICOBAR.QSSI12.0' CodeLinaro OSS in kernel
-- Misc optimizations in kernel
+Device Changes:
+- Upstreamed QS kernel to 4.14.282
+- Updated deprecated screen power items
+- Disable redir_party_num
+- Remove vendor RenderScript implementation
+- Address init denial
+- Finetuned statusbar padding
 
-ROM Changelog:
-- Merged May Security patch (android-12.1.0_r5)
-- Add switch to enable daily data usage in QS footer
-- Add switch for overriding VoLTE icon with VoWiFi when available
-- Hide tuner icon in QS panel
-- Fix media art force expand without systemui restart
-- Use color accent for charging animation
-- Settings: Respect default vibration strength
-- Settings: Rework Alarm & Wakelock blocker fragments
-- ThemePicker: Reverse color section from Pixel stock
-- ThemePicker: Fix Acherus availability
-- PermissionController: Enable usage timeline for all permission groups
-- Recovery: Prevent showing this message in recovery:
-  E:recvmsg failed (No buffer space available)
-- Recovery: Add support for changing slots
-- DerpLauncher: Add support for enabling taskbar on phones
-- DerpLauncher: Allow enabling recents overview grid on phones
-- DerpLauncher: Import Russian translations from 12 branch
+ROM Changes:
+- Merge June Security patch (android-12.1.0_r8)
+- Back to GSans on lockscreen
+- Remove Custom lockscreen clocks and bring Smartspace inline with PE
+- Remove Pixel Navbar animation toggle 
+- Fix some edge cases with ElectronBeam screen-off animation
+- Fix partial screenshot action
+- Refactor how we display the VoLTE/VoWiFi icons and add more icons
+- Update caffeine tile icon from AOSPA
+- Disable Pixel spoof for recorder app
+- Fix AppLock resetting after app updates
+- Rework media artwork notification style & customizations
+- Settings: Update wallpaper dashboard summary to be inline with Pixels
+- DerpLauncher: Switch to Pixel themed icons from Arrow
+- DerpLauncher: default_workspace: Don't add AOSP Clock widget by default
+- Update various APNs
