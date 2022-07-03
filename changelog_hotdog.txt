@@ -1,17 +1,16 @@
+Device Changes:
+- Fix status bar height after June patch
+- usb: new attributes implementation to enable/disable usb data
+- usb: dwc3-msm: Set usb_data_enabled initial value earlier
+
 ROM Changes:
-- Merge June Security patch (android-12.1.0_r8)
-- Back to GSans on lockscreen
-- Remove Custom lockscreen clocks and bring Smartspace inline with PE
-- Remove Pixel Navbar animation toggle 
-- Fix some edge cases with ElectronBeam screen-off animation
-- Fix partial screenshot action
-- Refactor how we display the VoLTE/VoWiFi icons and add more icons
-- Update caffeine tile icon from AOSPA
-- Disable Pixel spoof for recorder app
-- Fix AppLock resetting after app updates
-- Rework media artwork notification style & customizations
-- Settings: Update wallpaper dashboard summary to be inline with Pixels
-- DerpLauncher: Switch to Pixel themed icons from Arrow
-- DerpLauncher: default_workspace: Don't add AOSP Clock widget by default
-- Update various APNs
-- Update GrapheneOS Camera
+- Make Google Markup the default screenshot editor
+- Better partial screenshot UI from Lineage
+- Fix suspicious spaces around QS mobile icons
+- Fix QS mobile icon disappearing on theme switch
+- Inter: Overlay light and regular font family
+- Add NothingDot/Sans-serif font overlay package
+- DerpLauncher: Revise app-drawer's header layout
+- Hotseat background: Corner radius only at the top
+- DerpLauncher: Set hotseat icons to 4 for 4_by_5 grid
+- DerpLauncher: Add Italian translations
