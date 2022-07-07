@@ -1,8 +1,14 @@
-Sourceside Changes:
+Device Changes:
+- Update kernel to Neptune-Playground-V1.05 state
 
-- Merge June Scurity Patch
-- More underthehood improvements
-
-Deviceside Changes:
-
-- Sync NeptunePlayground with V1.02
+ROM Changes:
+- Make Google Markup the default screenshot editor
+- Better partial screenshot UI from Lineage
+- Fix suspicious spaces around QS mobile icons
+- Fix QS mobile icon disappearing on theme switch
+- Inter: Overlay light and regular font family
+- Add NothingDot/Sans-serif font overlay package
+- DerpLauncher: Revise app-drawer's header layout
+- Hotseat background: Corner radius only at the top
+- DerpLauncher: Set hotseat icons to 4 for 4_by_5 grid
+- DerpLauncher: Add Italian translations
