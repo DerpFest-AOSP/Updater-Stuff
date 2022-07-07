@@ -1,66 +1,65 @@
 Device Changes:
-- Add missing seccomp policy
-- Add Moto Dolby audio
-- Address various seolicy denials
-- Allow more cached apps in the background
-- Configure burnin shift interval
-- Convert overlays into RRO_Overlays
-- Copy verified boot permissions
-- Drop all component overrides
-- Drop useless volume_listener
-- Enable screen-off udfps by default
-- Enable VoLTE and VoWIFI for all
-- Fix being stuck in bootanimation for users
-- Fix display animation while AOD on/off screen
-- Fix NFC denials
-- Import QTI Codec2 HAL
-- Improve haptic and vibe patterns
-- Include firmware by default
-- Include new gnss seccomp rules
-- Powersaving in charger mode
-- Set valid and supported channel mask for earpiece
-- Ship VantomKernel v4.14.278
-- Some performance improvements
-- Switch to full IWLAN mode
-- Tune for AOD
-- Update blobs from sweet V13.0.7.0.SKFMIXM
-- Update CarrierConfig overlay
-- Update GPS config for A12
-- Update Media configs from LA.UM.9.12.r1-13400.02-SMxx50.QSSI12.0
-- Update surfaceflinger props
-- Use QCOM implementation for audio effects
-- Use QTI health implementation
-- Wi-Fi improvements
+- Add Attribute name for SW encoder
+- Add missing capabilities to hvdcp_opti
+- Add missing gps blob
+- Add missing status bar dimensions
+- Add telephony system-ext privapp permissions
+- Address elliptic denials
+- Address QCOM WFD denials
+- Allow platform app to find SoterService
+- Allow system_app to write thermal sysfs
+- Attach proper property_type into device_id
+- Disable zram writeback
+- Don't balance display-related irqs
+- Don't enable iostats
+- Don't tune sde partition on boot
+- Drop atrace HIDL
+- Drop broken ims-vt prop & overlay
+- Drop broken QCOM wfd HDCP support
+- Drop datastatusnotification.apk
+- Drop duplicated lib
+- Drop remaining QCOM thermal engine components
+- Drop updatable GPU drivers
+- Enable auto brightness while dozing
+- Finetune performance xml
+- Fix fingerprint labels
+- Fix fsmgr flag for F2FS Compression
+- Implement UDFPS handler
+- Import dolby codecs
+- Import lmkd props from google gki
+- Label fingerprint props as restricted vendor
+- Mount EROFS at init for /system
+- Move deviceid props to vendor
+- Move to common Xiaomi fingerprint HIDL
+- MPEG4 sw encoder only supports max 720p
+- Override odm_dlkm and vendor_dlkm props
+- Override display service to foreground cpuset
+- parts: Add dynamic thermal profile implementation
+- parts: Don't explicitly set android:theme for activities
+- parts: Handle more errors for dirac
+- parts: Use directBootAware
+- Rename ANXCamera to MiuiCamera
+- Remove org.lineageos.devicesettings app label
+- Remove unused hwservice label
+- Revoke system_server access to fingerprint prop
+- Set EROFS pcluster size
+- Specify LZ4 as F2FS Compression Algorithm
+- Support F2FS compressions and garbage collector
+- Switch SchedTune to UClamp
+- Switch to common surfaceflinger UDFPS extension
+- Switch to EROFS for relevant partitions
+- Switch to status_bar_height_portrait
+- Update blobs from LA.QSSI.12.0.r1-07100-qssi.0
+- Update build fp & desc to MIUI V13.0.2.0.SFNMIXM
+- Update display color compositions
+- Update fstab for TWRP decryption
+- Update system WFD blobs from 07100
+- Uprev radio config into 1.2
+- Use coral tuning for columbus feature
 
 ROM:
-- May security patch level
-- Add switch to enable daily data usage in QS footer
-- Add switch for overriding VoLTE icon with VoWiFi when available
-- Hide tuner icon in QS panel
-- Fix media art force expand without systemui restart
-- Use color accent for charging animation
-- Settings: Respect default vibration strength
-- Settings: Rework Alarm & Wakelock blocker fragments
-- ThemePicker: Reverse color section from Pixel stock
-- ThemePicker: Fix Acherus availability
-- PermissionController: Enable usage timeline for all permission groups
-- Recovery: Prevent showing this message in recovery:
-  E:recvmsg failed (No buffer space available)
-- Recovery: Add support for changing slots
-- DerpLauncher: Add support for enabling taskbar on phones
-- DerpLauncher: Allow enabling recents overview grid on phones
-- DerpLauncher: Import Russian translations from 12 branch
-- Add Dora icon pack
-- Add notification clear all button customizations
-- Use color seed generation algorithm from AOSP
-- Fixes and improvements for Black Theme
-- SoftAp: Add Hidden SSID preference
-- SoftAp: Add support for setting shutdown timeout
-- SoftAp: Add client manager
-- Split status bar icon controls for vibrate and mute
-- Fix alarm icon not showing after reboot
-- charger: Update Pixel charger animation from raven SP2A.220405.004
-- Remove QCOM FBE wrapped-key changes
-- DerpLauncher: Add support for third party icon packs
-- DerpLauncher: Add AppInfo Bottom Sheet from Shade Launcher
-- DerpSpace: Update Chinese translations
+- Merge July Security patch (android-12.1.0_r10)
+- Fix screen not turning off on some devices 
+- Settings: Add preference for resetting auto brightness adjustment
+- Bluetooth: Add support for showing battery level for AirPods series
+- Settings: DevicePicker: Adapt to S style
