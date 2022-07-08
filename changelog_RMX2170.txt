@@ -1,30 +1,32 @@
 [DEVICE]
-- Implemented pixel powerhal (for more smoothness and responsiveness)
-- Fixed the init script that was always shifting to default cpu governor to schedutil
+- Fixed camera in certain 3rd party apps (telegram, revolut)
+- Implemented minimum brightness what it should be
 
 [KERNEL]
 - Basic linux kernel
-- Merged latest linux patch v4.14.284
+- Merged latest linux patch v4.14.287
 
 [#MelloLab]
-- Added Qs transparency
-- More UDFPS icons
-- Redesigned Settings UI
-- Added support for window ignore secure
-- Redesigned seekbar
-- Use OOS brightnessbar icons
-- Added back custom clock support
-- Redesigned volume panel
-- Added statusbar clock background chip
-- Added haptic feedback on qs tiles
-- Redesigned DerpLauncher
-    • Improved recents overview buttons
-    • Added support to show RAM view in recents
-    • Redesigned Quickspace
-- Redesigned permission dialog and moved to bottom
-- Optimizations in blur
+- Added vivid monet shades in place lf black theme (black theme but in a colorful way)
+- Make QS Ripple animation more prominent and follow monet shades 
+- Redesigned QS clock
+- Use rounded corners in system UI
+- SettingsLib: make CollapsingToolbar like oneplus
+- Redesign lockscreen bottom shortcuts
+- SystemUI: Clean up and fix QQS Brightness slider padding
+- Screenshot: Speed up actions expansion animation
+- Make QS brightness slider animation more subtle
+- Remove VoLTE icon padding
+- Updates to Dolby Vision Levels
+- Add support for strict standby policy
+- Introduce force background freezer
+- Keyguard shortcuts: Follow light/dark settings
+-skia: Use kMirror shader instead of kClamp (faster and better)
+- Many more and more changes and fixes
 
 [ROM]
-- Merged June security patch
-- Rebased source
-- Many more things
+- Merged july security patch
+- SystemUI: Fix suspicious spaces around QS mobile icons
+- SystemUI: Fix QS mobile icon disappearing on theme switch
+- Many fixes related to brightness
+- More changes and fixes
