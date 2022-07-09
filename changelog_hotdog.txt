@@ -1,16 +1,9 @@
-Device Changes:
-- Fix status bar height after June patch
-- usb: new attributes implementation to enable/disable usb data
-- usb: dwc3-msm: Set usb_data_enabled initial value earlier
-
 ROM Changes:
-- Make Google Markup the default screenshot editor
-- Better partial screenshot UI from Lineage
-- Fix suspicious spaces around QS mobile icons
-- Fix QS mobile icon disappearing on theme switch
-- Inter: Overlay light and regular font family
-- Add NothingDot/Sans-serif font overlay package
-- DerpLauncher: Revise app-drawer's header layout
-- Hotseat background: Corner radius only at the top
-- DerpLauncher: Set hotseat icons to 4 for 4_by_5 grid
-- DerpLauncher: Add Italian translations
+- Merge July Security patch (android-12.1.0_r10)
+- Fix screen not turning off on some devices 
+- Settings: Add preference for resetting auto brightness adjustment
+- Bluetooth: Add support for showing battery level for AirPods series
+- Settings: DevicePicker: Adapt to S style
+- Update QCOM HALs to latest CAF tag
+- DerpSpace: Update Italian translations
+- Update German translations
