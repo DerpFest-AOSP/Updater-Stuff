@@ -1,23 +1,28 @@
 Device Changes:
-
-- Fucking fixed that video playback on 3rd party (facebook stories, tweets on twitter, pornhub premium reels)
-- Correct partition sizes
-- Remove deprecated flags
-- Added some slight improvements
+- switched to user / production build
 
 ROM Changes:
-- Support muting media volume on silent or vibrate mode
-- BatteryColorIndicator: Fix the last >85 battery percent being white instead of green
-- Fix secondary label being stuck while collapsing QS panel from non-first page
-- Fix QS clock overlapping on UI mode change
-- Re-evaluate system theme on UI mode change
-- Re-inflate keyguard statusbar on theme change
-- Show notification row when it's unlinked to ringer volume
-- Update API for disabling gestural navigation
-- Prevent overlay resources from loading on boot which lead to wrong navigation bar height when config_navBarInteractionMode is set to 2
-- Improve powershare strings
-- DerpLauncher: Fix few NPEs
-- Update zlib-ng port
-- Update Lawnicons with upstream changes
-- Calculate paged QS tiles height properly 
-- Settings: Fix loading iconpack-based Wellbeing icon
+June
+- Add switch to enable daily data usage in QS footer
+- Add switch for overriding VoLTE icon with VoWiFi when available
+- Hide tuner icon in QS panel
+- Fix media art force expand without systemui restart
+- Use color accent for charging animation
+- Settings: Respect default vibration strength
+- Settings: Rework Alarm & Wakelock blocker fragments
+- ThemePicker: Reverse color section from Pixel stock
+- ThemePicker: Fix Acherus availability
+- PermissionController: Enable usage timeline for all permission groups
+- Recovery: Prevent showing this message in recovery:
+  E:recvmsg failed (No buffer space available)
+- Recovery: Add support for changing slots
+- DerpLauncher: Add support for enabling taskbar on phones
+- DerpLauncher: Allow enabling recents overview grid on phones
+- DerpLauncher: Import Russian translations from 12 branch
+
+July
+- Merge July Security patch (android-12.1.0_r10)
+- Fix screen not turning off on some devices 
+- Settings: Add preference for resetting auto brightness adjustment
+- Bluetooth: Add support for showing battery level for AirPods series
+- Settings: DevicePicker: Adapt to S style
