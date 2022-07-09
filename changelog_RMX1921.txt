@@ -1,12 +1,14 @@
 Changelog:
 
+
 * Latest Derpfest source upstream
-* Merged June Security Patch
-* Kernel upstream to 4.9.319
+* Merged July Security Patch
+* Kernel upstream to 4.9.322
 * Merged latest caf tag LA.UM.9.8.r1-05000-SDM710.0 in kernel
 * Merged qcacld-3.0, fw-api, qca-wifi-host-cmn wifi drivers from LA.UM.9.8.r1-05000-SDM710.0
 * Added Multiple Intensities Vibration Support
 * Fixed Live Wallpapers
 * OTA Pushed(Gapps only)
 * SafetyNet pass without root as usual
+* cleanup unwanted stuffs from device tree
 * More improvements & fixes!
