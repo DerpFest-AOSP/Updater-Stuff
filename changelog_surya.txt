@@ -1,42 +1,28 @@
 Device Changes:
-- surya: pixel-thermal: revise thermal engine 
-    1. Fixed wrong cluster limitation
-    2. Reduce charging speed in 42°+
-    3. Add GPU monitor
-    4. Reduce max freq for gpu, but increase thresholds
-    5. Bump CPU speed
-- surya: fstab: increase zram size to 3GB
-- surya: prop: add missing zram prop
-- surya: overlay: Add the customized max cached processes number for surya
-- surya: update media, gps, & wifi configs from stock
-- reduce vibrate duration when changing haptic feedback level
-- enable quicktap support
-- audio: fix volume can not be reduced on some apps
+- surya: pixel-thermal: revise thermal config
+- surya: fstab: Specify LZ4 as F2FS Compression algorithm
+- surya: fstab: Support F2FS compressions and garbage collector
+- surya: parts: Switch to Mi Sound effect
+- surya: parts: Add support for hifi
+- surya: parts: Set default refresh rate to 120Hz
+- surya: Disable updatable apex
+- surya: kang ims.apk from LA.UM.9.12.r1-13300-SMxx50.QSSI12.0
+- surya: Update blobs from miui V12.5.8.0.RJGMIXM
+- Etc
 
 Kernel Changes:
-- kernel/irq: silence irq no longer affine to cpu logspam
-- Revert "rpmsg: glink: Enable irq wake for glink interrupt"
-- surya: configs: Disable profiling support
-- surya: configs: Remove the process reclaim feature
-- scsi: ufs: Scrap Qualcomm's PM QoS implementation
-- scsi: ufs: Add simple IRQ-affined PM QoS operations 
-- merge mm/vmalloc, mm/mremap, & arm/tlb patchset
-- remove VLA usage
-- drop caf boost
-- add devfreq boost
-- zstd: merge optimization from Samsung
-- etc. Check https://github.com/silont-project/kernel_xiaomi_surya/commits/8 for more details
+- msm: vidc: use kmem_cache pool for struct msm_vidc_buffer
+- msm: cam_sensor: Add I2C settings for camera sensor read/write registers
+- msm: camera: cam_isp: csid: Disable Interrupts while resetting CSID
+- Merge 4.14.287 into android-4.14-stable
+- Etc
 
 ROM Changelog:
-- Add back Columbus (quick tap)
-- Add back additional Brightness Slider options
-- Applock: intercept activity in a better way
-- Fix circle battery QS tinting
-- Battery: Add option for coloring circle battery styles
-- Add Mono audio tile (aka headphone in one ear only)
-- Make IME button space optional
-- Remove night light toggle and disable night light when fod kicks in
-- Improve screenshot window dismiss behavior
-- Settings: Add high touch sensitivity and touchscreen hovering toggles for supported devices
-- Settings: Display: Add High Touch Polling Rate Support
-- DerpLauncher: Add themed icons switch for app drawer
+- Merge July Security patch (android-12.1.0_r10)
+- Fix screen not turning off on some devices 
+- Settings: Add preference for resetting auto brightness adjustment
+- Bluetooth: Add support for showing battery level for AirPods series
+- Settings: DevicePicker: Adapt to S style
+- Update QCOM HALs to latest CAF tag
+- DerpSpace: Update Italian translations
+- Update German translations
