@@ -1,88 +1,93 @@
 ====================
-    07-03-2022     
+    07-10-2022     
 ====================
-\n* device/xiaomi/alioth\n3fa073e  alioth: FCM: Uprev some HALs  [dinosnore1]
-f705157  sm8250-common: Address QCOM WFD denials  [adi8900]
-eb63d17  sm8250-common: rootdir:Create directory used by powermodule  [zehugong]
-37d5fdf  Revert "sm8250-common: Disable NearbyMessagingService and DiscoveryService"  [dinosnore1]
-459df9c  sm8250-common: Sepolicy: Add Palm Sensor to TouchScreen GenFS  [johnmart19]
-aa91838  sm8250-common: touch: add IHighTouchPollingRate  [althafvly]
-8a9df55  sm8250-common: Sepolicy: Allow system_app to read /proc/pagetypeinfo  [Kevin F. Haggerty]
-b53dd1d  sm8250-common: Sepolicy: Allow Priv_app to find com.android.vndk.current.on_vendor.apex  [johnmart19]
-fcd1356  alioth: Update blobs from MIUI V13.0.3.0.SKHMIXM  [SahilSonar]
-0da2176  alioth sepolicy: Remove duplicated rule  [Sebastiano Barezzi]
-829e0a2  alioth: sepolicy: Drop DFPS props labelling  [Sebastiano Barezzi]\n
-\n* vendor/xiaomi/alioth\n7d10b9c  alioth: Update blobs to LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0  [dinosnore1]\n
+\n* device/xiaomi/alioth\n5b74c11  alioth: reorder device.mk  [dinosnore1]
+a4e7f87  sm8250-common: Update Display Targets from vendor_qcom_opensource_interfaces  [johnmart19]
+8a3f8ec  sm8250-common: Move NFC SKU permissions to NFC section  [Sebastiano Barezzi]
+024401d  sm8250-common: Enable Iorapd Readahead  [johnmart19]
+c605245  sm8250-common: Declare smart idle maint's period  [johnmart19]
+16bc1c0  sm8250-common: Move device config props to kona.mk  [johnmart19]
+b32fe9c  sm8250-common: Mediaconfigs: Remove not existing includes  [johnmart19]
+b59731b  sm8250-common: MediaConfigs: Import back to DT & import from CAF  [johnmart19]
+b28fe1f  alioth: Use DMIC instead of UNPROCESSED for recorder  [Adhitya Mohan]
+3f9a179  alioth: audio: Define acdb ids for voice recorder  [Dyneteve]
+77b0238  alioth: Import Enrire pack of configs from Miui 13.0.4.0  [johnmart19]
+a88f6bd  alioth: Update build fingerprint to SQ3A.220705.003.A1  [dinosnore1]
+f89e9d5  alioth: overlay: Update Applock white list - Removed some apps - We use Gcam as default camera, not Graphene  [Gustavo Mendes]
+f87a24e  alioth: overlay: Add system app whitelist overlay for AppLock  [jhonboy121]
+928ed55  alioth: move to erofs  [ディーノ]
+4fcf50d  alioth: Enable SSR for all subsytem types  [ディーノ]
+49150a5  alioth: overlay: allow suspending on AOD  [ディーノ]
+70091be  sm8250-common: Update radio props from alioth  [Sebastiano Barezzi]
+56c1dd9  sm8250-common: rro_overlays: Update wifi package name from Google  [Chenyang Zhong]
+9610b56  alioth: Import Xiaomiparts  [dinosnore1]
+851b860  alioth: overlay: Improve haptic and vibe patterns  [MB]
+d4a1399  alioth: audio: Fix mic issues in apps like WhatsApp  [Akash]
+d2dde87  alioth: nfc: Import configs from HOS  [Dyneteve]\n
+\n* vendor/xiaomi/alioth\n7739acf  Revert "Revert "sm8250-common: Update Graphics (Adreno firmware) from POCO F4 – EEA Stable V13.0.3.0.SLMEUXM""  [dinosnore1]
+a820bb7  alioth: Update blobs to V13.0.3.0.SKHMIXM  [dinosnore1]
+f5f793d  alioth: MediaConfigs: Move back to DT  [dinosnore1]\n
 
 ====================
-    07-02-2022     
+    07-09-2022     
 ====================
-\n* art\n417a6d8  art: add kryo785 architecture variant.  [Sungwook Jung]\n
-\n* device/xiaomi/alioth\nd4ce6a7  alioth: Update blobs to LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0  [SahilSonar]\n
-\n* kernel/xiaomi/sm8250\nfab2aa0  Merge branch 'android-4.19-stable' of https://android.googlesource.com/kernel/common into HEAD  [dinosnore1]
-27998ff  sm8250: Makefile: Adapt for compilation with SDClang 14.1.2 - Add proper flag to ignore unknown-warning-option - Remove all LDFlags, declare to compile with --lto-O3 Reference: https://github.com/ClangBuiltLinux/linux/issues/1578  [johnmart19]
-ddebd3f  ARM64: dts: apollo: update battery data * while having stock values battery full voltage goes to the overvolt region causing damage to cell itself. after some testing those values were the best to have stable non-overvolted full-charged battery  [ahmedtohamy1]
-cd11b2e  ARM64: configs: xiaomi: Enable ThinLTO in defconfig for all devices  [johnmart19]
-b84c3c5  dcache: increase DNAME_INLINE_LEN on ARM64 to 96 bytes  [Yaroslav Furman]
-2d4e9be  platform: msm: gsi: Fix symbol versioning failure for gsi_write_channel_scratch  [Nick Desaulniers]
-e4f8400  qcacmn: Demote unwanted logging to debug [2/2]  [Adam W. Willis]
-d4d025e  [1/2] qcacld: disable debugging bloat as much as possible  [Park Ju Hyung]
-9595f13  qcacld-3.0: Demote unwanted logging to debug [1/2]  [Adam W. Willis]
-887fafa  techpack: audio: Remove build timestamp injection  [Danny Lin]
-aaa914b  Suppress overly verbose log spam  [Danny Lin]
-4fe170c  Revert "kbuild: avoid unrecognized option error for DTC"  [dinosnore1]
-7b84fe0  msm: kgsl: adreno: Properly set GPU timeout  [celtare21]
-01c2a09  power: supply: Classify Battery Monitor Systems as batteries  [Danny Lin]
-7305175  techpack: audio: Remove build timestamp injection  [Danny Lin]
-c60b5c7  Suppress overly verbose log spam  [Danny Lin]
-381c9c3  Implement KCAL color calibration  [tbalden]
-afd8ba0  qcacld-3.0: Do not allow any wakelocks to be held  [Tyler Nijmeh]
-450dddd  sm8250: Remove dirty version  [dinosnore1]
-f67556c  setlocalversion: don't check for uncommitted changes  [Park Ju Hyung]
-0b442a4  kbuild: avoid unrecognized option error for DTC  [klozz]
-f7129ac  ARM64: configs: Move defconfigs to vendor/  [SahilSonar]
-1332f4e  net: Prevent useless userpace spam  [DennySPb]
-1e1a95e  xlogchar: Make it no-op  [Albert I]
-2205dcd  Revert "build: Initialization of IMMENSITY-X kernel build enviroment"  [SahilSonar]\n
-\n* vendor/xiaomi/alioth\n539e699  Revert "sm8250-common: Import VulkanAPI Layers from Google Pixel 5"  [dinosnore1]
-5074619  Revert "sm8250-common: Update Graphics (Adreno firmware) from POCO F4 – EEA Stable V13.0.3.0.SLMEUXM"  [dinosnore1]\n
 
 ====================
-    07-01-2022     
+    07-08-2022     
 ====================
-\n* kernel/xiaomi/sm8250\n2266d5f  Merge remote-tracking branch 'origin/android12-next' into android12-stable  [UtsavBalar1231]
-86e3738  Merge remote-tracking branch 'origin/android12-base' into android12-next  [UtsavBalar1231]
-59e54b2  Merge remote-tracking branch 'aosp/android-4.19-stable' into android12-base  [UtsavBalar1231]\n
+\n* device/derp/sepolicy\n34c62be  common: Allow camera HAL to read auxiliary camera properties  [Bruno Martins]\n
+\n* device/qcom/sepolicy\nd54cbd3  Merge branch 'lineage-19.1' of https://github.com/LineageOS/android_device_qcom_sepolicy into HEAD  [NurKeinNeid]\n
+\n* device/qcom/sepolicy-legacy-um\n5d193fc  Merge branch 'lineage-19.1-legacy-um' of https://github.com/LineageOS/android_device_qcom_sepolicy into HEAD  [NurKeinNeid]\n
+\n* device/qcom/sepolicy_vndr\n0da505e  Merge branch 'lineage-19.1' of https://github.com/LineageOS/android_device_qcom_sepolicy_vndr into HEAD  [NurKeinNeid]\n
+\n* frameworks/base\n67b2db5  SettingsLib: Update German translations  [NurKeinNeid]\n
+\n* hardware/qcom-caf/sm8350/audio\n2324146  Merge branch 'lineage-19.1-caf-sm8350' of https://github.com/LineageOS/android_hardware_qcom_audio into HEAD  [NurKeinNeid]\n
+\n* hardware/qcom-caf/sm8350/display\n3190322  Merge branch 'lineage-19.1-caf-sm8350' of https://github.com/LineageOS/android_hardware_qcom_display into HEAD  [NurKeinNeid]\n
+\n* hardware/qcom-caf/sm8350/media\nffe6eb0  Merge branch 'lineage-19.1-caf-sm8350' of https://github.com/LineageOS/android_hardware_qcom_media into HEAD  [NurKeinNeid]\n
+\n* packages/apps/DerpSpace\n7f161ca  DerpSpace: Fix typo  [NurKeinNeid]\n
+\n* packages/apps/ThemePicker\naf8aad1  ThemePicker: Update German translations  [NurKeinNeid]\n
+\n* vendor/nxp/opensource/commonsys/packages/apps/Nfc\nb1aea49  Merge branch 'lineage-19.1' of https://github.com/LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc into HEAD  [NurKeinNeid]\n
+\n* vendor/qcom/opensource/fm-commonsys\n2d67248  Revert "FM: adaptive icon"  [NurKeinNeid]
+9057343  Revert "FMApp2: Bring in the new icon"  [NurKeinNeid]
+e5375ba  Merge branch 'lineage-19.1' of https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys into HEAD  [NurKeinNeid]\n
 
 ====================
-    06-30-2022     
+    07-07-2022     
 ====================
-\n* build/make\n53f005b  Rework build_image.py to support legacy mount properties  [spkal01]\n
-\n* kernel/xiaomi/sm8250\nadabd7b  Merge 4.19.248 into android-4.19-stable  [Greg Kroah-Hartman]
-2dab331  UPSTREAM: ext4: verify dir block before splitting it  [Jan Kara]
-197078c  UPSTREAM: ext4: fix use-after-free in ext4_rename_dir_prepare  [Ye Bin]
-d9f7dd2  BACKPORT: ext4: Only advertise encrypted_casefold when encryption and unicode are enabled  [Daniel Rosenberg]
-ba11231  BACKPORT: ext4: fix no-key deletion for encrypt+casefold  [Daniel Rosenberg]
-209b0ed  BACKPORT: ext4: optimize match for casefolded encrypted dirs  [Daniel Rosenberg]
-5a7534b  BACKPORT: ext4: handle casefolding with encryption  [Daniel Rosenberg]
-34f40af  Revert "ANDROID: ext4: Handle casefolding with encryption"  [Daniel Rosenberg]
-bc93222  Revert "ANDROID: ext4: Optimize match for casefolded encrypted dirs"  [Daniel Rosenberg]
-5e6e03b  UPSTREAM: Revert "hwmon: Make chip parameter for with_info API mandatory"  [Greg Kroah-Hartman]
-926e3eb  ANDROID: extcon: fix allocation for edev->bnh  [Will McVicker]\n
+\n* build/make\n1c0f54c  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/build into HEAD  [NurKeinNeid]\n
+\n* device/qcom/sepolicy_vndr\n7847a98  sepolicy_vndr: generic: Fix compile after merge  [Alexander Koskovich]\n
+\n* device/xiaomi/alioth\n86e9757  alioth: audio: Fix ultrasound  [DarkAngelGR]
+837e9c4  alioth: Fix display animation while AOD on/off screen  [johnmart19]
+332770a  alioth: overlay: Set default hotspot SSID based on HWC property  [Albert I]
+1a86c30  alioth: Update Display calibration configs  - More pleasing to eye, without so much saturation  [Gustavo Mendes]
+53915ee  alioth: Drop QTI thermal services It's causing a lot of spam [1] and doesn't work as it should  [Gustavo Mendes]
+c047c69  alioth: Import prebuilt Mlipay and IFAA services - from MIUI V13.0.2.0.SKHMIXM - revert cb7e73b  [Gustavo Mendes]
+8e8832d  alioth: Build IFAA service  [Gustavo Mendes]\n
+\n* external/arm-optimized-routines\nb5020b9  string: Optimize string functions with shrn instruction  [Danila Kutenin]\n
+\n* frameworks/av\n84eb345  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/frameworks/av into HEAD  [NurKeinNeid]\n
+\n* frameworks/base\nd9ab78f  PixelPropsUtils: Update fingerprints to July 2022  [NurKeinNeid]
+ed6c72c  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/frameworks/base into HEAD  [NurKeinNeid]
+e06eed1  SystemUI: Fix signal bar icon overlay issue  [Weijie Wang]\n
+\n* frameworks/opt/telephony\n797c047  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD  [NurKeinNeid]\n
+\n* manifest\n6230607  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/manifest into HEAD  [NurKeinNeid]
+30145c3  Manifest for Android 12.1.0 Release 10  [The Android Open Source Project]
+57e8b85  Manifest for Android 12.1.0 Release 9  [The Android Open Source Project]\n
+\n* packages/apps/Bluetooth\n877b097  fixup! Bluetooth: Redesign BluetoothOppTransferHistory page  [Col_or]\n
+\n* packages/apps/DerpLauncher\nc418c9f  DerpLauncher: Set folder rows and columns to 4 for 4_by_5 grid  [NurKeinNeid]
+c9d0177  Hotseat background: Corner radius only at the top  [StarkDroid]\n
+\n* packages/apps/Settings\n820d72b  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD  [NurKeinNeid]
+233a392  Settings: DevicePicker: Adapt to S style  [ReallySnow]\n
+\n* packages/apps/ThemePicker\nb519d5b  Revert "ThemePicker: Don't setEnabledExclusiveInCategory for default icon pack"  [NurKeinNeid]\n
+\n* packages/modules/Permission\n06a19b1  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/packages/modules/Permission into 12.1-next  [NurKeinNeid]\n
+\n* packages/resources/devicesettings\n7488f60  DeviceSettings: Revert back to org.lineageos.settings.resources  [johnmart19]
+9335ca8  Automatic translation import  [PixelExperience Automation]\n
+\n* system/bt\n330a4a5  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/system/bt into HEAD  [NurKeinNeid]\n
+\n* vendor/nxp/opensource/commonsys/packages/apps/Nfc\n2116ef5  Merge pull request #1 from goodmeow/12.1  [Alexander Brunswig]\n
+\n* vendor/qcom/opensource/commonsys/packages/apps/Bluetooth\n19363fb  fixup! Bluetooth: Redesign BluetoothOppTransferHistory page  [Col_or]\n
+\n* vendor/qcom/opensource/commonsys/system/bt\n97d5c32  Security: Fix out of bound read in AT_SKIP_REST  [Josh Wu]
+5b262d5  Check Avrcp packet vendor length before extracting length  [William Escande]
+d905b1d  Security: Fix out of bound write in HFP client  [Chen Chen]\n
 
 ====================
-    06-29-2022     
+    07-06-2022     
 ====================
-\n* frameworks/base\n08fb57f  SystemUI: screenshot: close QS after launching long screenshot activity  [LuK1337]
-4dded0b  SystemUI: screenshot: disable magnification for partial screenshots  [Cosmin Tanislav]
-9db8270  SystemUI: screenshot: add extra crop boundaries  [Cosmin Tanislav]
-5d91e91  SystemUI: screenshot: remove duplicate clamping on move action  [Cosmin Tanislav]
-cc66b0b  SystemUI: screenshot: remove misplaced call to set crop view padding  [Cosmin Tanislav]
-00f6454  SystemUI: screenshot: open long screenshot activity for partial screenshots  [Cosmin Tanislav]
-6c77f47  core: Fix menu popup ripple  [timjosten]
-216d373  SystemUI: Avoid NPE in volume dialog  [Christian Hoffmann]\n
-\n* packages/apps/DerpLauncher\n718dcc4  DerpLauncher: Return if launcher is null in notifyRecentsOfOrientation  [Pranav Santhosh]
-0f57c2f  TaskViewUtils: Add valid check for SurfaceControl  [Col_or]
-2eb5383  RecentsView: Add null check for RemoteAnimationTargets and RemoteAnimationTargets.nonApps  [Kujou Yuko]
-a509f7d  DerpLauncher: Remove pokemon unite themed icon  [NurKeinNeid]\n
 
