@@ -1,16 +1,5 @@
-- Add switch to enable daily data usage in QS footer
-- Add switch for overriding VoLTE icon with VoWiFi when available
-- Hide tuner icon in QS panel
-- Fix media art force expand without systemui restart
-- Use color accent for charging animation
-- Settings: Respect default vibration strength
-- Settings: Rework Alarm & Wakelock blocker fragments
-- ThemePicker: Reverse color section from Pixel stock
-- ThemePicker: Fix Acherus availability
-- PermissionController: Enable usage timeline for all permission groups
-- Recovery: Prevent showing this message in recovery:
-  E:recvmsg failed (No buffer space available)
-- Recovery: Add support for changing slots
-- DerpLauncher: Add support for enabling taskbar on phones
-- DerpLauncher: Allow enabling recents overview grid on phones
-- DerpLauncher: Import Russian translations from 12 branch
+- Merge July Security patch (android-12.1.0_r10)
+- Fix screen not turning off on some devices 
+- Settings: Add preference for resetting auto brightness adjustment
+- Bluetooth: Add support for showing battery level for AirPods series
+- Settings: DevicePicker: Adapt to S style
