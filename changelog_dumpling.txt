@@ -1,12 +1,12 @@
 Device Changes:
-- Sync with latest Lineage changes
+- Revert few of recent Lineage changes which broke WiFi on first boot
 
 ROM Changes:
-- Merge July Security patch (android-12.1.0_r10)
-- Fix screen not turning off on some devices 
-- Settings: Add preference for resetting auto brightness adjustment
-- Bluetooth: Add support for showing battery level for AirPods series
-- Settings: DevicePicker: Adapt to S style
-- Update QCOM HALs to latest CAF tag
-- DerpSpace: Update Italian translations
-- Update German translations
+- Redesign lockscreen bottom shortcuts (inline with stock udfps icon style)
+- Bring back the ability for sensors to be proximity gated in software
+- PowerManager: Sync proximity check on wake code with Lineage
+- Follow rounded corners by split divider corner size
+- Fix validators for HeadsUp Notifications importance threshold
+- Settings: Add missing icon for adaptive connectivity in network and internet menu
+- Development: AlarmBlocker|WakelockBlocker: Remove some stray logging
+- Some APN updates
