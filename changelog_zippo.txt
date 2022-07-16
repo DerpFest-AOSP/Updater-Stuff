@@ -1,9 +1,11 @@
 Device Changelog:
 
-* Kernel upstream to LA.UM.9.1.r1-12000*
-* Updated wlan driver to latest caf tag
-* many under the hood improvements
+* Wireguard updated to latest Version
 
 Rom Changelog:
 
-- June Security Patch
+- Merge July Security patch (android-12.1.0_r10)
+- Fix screen not turning off on some devices 
+- Settings: Add preference for resetting auto brightness adjustment
+- Bluetooth: Add support for showing battery level for AirPods series
+- Settings: DevicePicker: Adapt to S style
