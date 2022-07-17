@@ -1,12 +1,12 @@
 Device Changes:
-- Revert few of recent Lineage changes which broke WiFi on first boot
+- Re-enable remote keyguard animation (Google fixed in June)
 
 ROM Changes:
-- Redesign lockscreen bottom shortcuts (inline with stock udfps icon style)
-- Bring back the ability for sensors to be proximity gated in software
-- PowerManager: Sync proximity check on wake code with Lineage
-- Follow rounded corners by split divider corner size
-- Fix validators for HeadsUp Notifications importance threshold
-- Settings: Add missing icon for adaptive connectivity in network and internet menu
-- Development: AlarmBlocker|WakelockBlocker: Remove some stray logging
-- Some APN updates
+- Upstream changes to media artwork notification customizations from Flamingo OS
+- Set lockscreen clock font dynamically again
+- DerpLauncher: Add alternative package names to some themed icons
+- Change the flashing and verified text in TWRP
+- Fix Italian AOSP translations for unlocking the phone
+- Add initial Arabic translations
+- Update Italian translations
+- Update German translations
