@@ -1,9 +1,9 @@
 ROM Changes:
-- Merge July Security patch (android-12.1.0_r10)
-- Fix screen not turning off on some devices 
-- Settings: Add preference for resetting auto brightness adjustment
-- Bluetooth: Add support for showing battery level for AirPods series
-- Settings: DevicePicker: Adapt to S style
-- Update QCOM HALs to latest CAF tag
-- DerpSpace: Update Italian translations
+- Upstream changes to media artwork notification customizations from Flamingo OS
+- Set lockscreen clock font dynamically again
+- DerpLauncher: Add alternative package names to some themed icons
+- Change the flashing and verified text in TWRP
+- Fix Italian AOSP translations for unlocking the phone
+- Add initial Arabic translations
+- Update Italian translations
 - Update German translations
