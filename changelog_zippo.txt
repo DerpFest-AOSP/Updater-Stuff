@@ -1,5 +1,7 @@
 Device Changelog:
 
+* HOTFiX: Fix Blue Tint on Videos
+
 * Wireguard updated to latest Version
 
 Rom Changelog:
