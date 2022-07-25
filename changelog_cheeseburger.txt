@@ -1,12 +1,21 @@
 Device Changes:
-- Re-enable remote keyguard animation (Google fixed in June)
+- Sync with Lineage
+- Removed Google Photos 
 
 ROM Changes:
-- Upstream changes to media artwork notification customizations from Flamingo OS
-- Set lockscreen clock font dynamically again
-- DerpLauncher: Add alternative package names to some themed icons
-- Change the flashing and verified text in TWRP
-- Fix Italian AOSP translations for unlocking the phone
-- Add initial Arabic translations
-- Update Italian translations
-- Update German translations
+- Update notification count overlay
+- reTicker: Allow to only show in Landscape mode
+- PixelPropsUtils: Use Pixel 5a model to GMS for all devicess
+- Add Settings to location indicator excludelist
+- Force fullscreen for Google Dialer
+- Make sure we are getting proper value for skip confirmation in biometric auth dialog switch
+- Grant INTERACT_ACROSS_USERS_FULL permission for smartspace
+- KernelCpuUidActiveTimeReader: Do not spam log with negative active time
+- Make sure to always trigger fullscreen type screenshot for three-fingers-swipe gesture
+- InCallController: use click & double click effect for connect and disconnect
+- Bluetooth: Redesign bluetooth transfer dialog layout
+- Settings: Battery: Add some missing summaries
+- Settings: Battery: Show unavailable instead of 0.0℃ for battery temp
+- DerpLauncher: Fix NPE on getRecentTasks
+- DerpLauncher: Map Oneplus Camera to Camera icon
+- Update GrapheneOS Camera
