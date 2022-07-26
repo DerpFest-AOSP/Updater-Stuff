@@ -1,117 +1,64 @@
 ====================
-    07-07-2022     
+    07-26-2022     
 ====================
 
-* build/make
-1c0f54c  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/build into HEAD  [NurKeinNeid]
-
-
-* external/arm-optimized-routines
-b5020b9  string: Optimize string functions with shrn instruction  [Danila Kutenin]
-
-
-* frameworks/av
-84eb345  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/frameworks/av into HEAD  [NurKeinNeid]
-
+====================
+    07-25-2022     
+====================
 
 * frameworks/base
-5a95d9b  Block animation transfer after surface animation finishes.  [fukaipeng]
-bcb907d9  TEMP: SettingsProvider: Hack  [cjh1249131356]
-2881f6b  fixup!: android.view: Speed things up!!  [Mazda]
-23bbb70  core: res: config: speed up animations  [Simao Gomes Viana]
-e1c57cb  Bad lock object.  [Kai Peng]
-269c282  Add the compile reason for the forceDexOpt method.  [heqiang1008 thundersoft]
-f150804  base: limit direct share targets to reduce lag  [Joey]
-fd38fa1  Improve scrolling cache  [Pawit Pornkitprasan]
-bb3b2bb  Scroll: modified velocitytracker  [PrimeDirective]
-5edd4b5  Optimize AbsListView to reduce click operation latency  [Jun Wang]
-c06d018  SystemUI: Use secondary tile label style for data usage  [minarypenguin]
-8ff0a39  base: Add support for window ignore secure  [LibXZR]
-fa72968  sounds: Import    * arcana UI sounds effects  [minarypenguin]
-b11608e  android: speed things up!  [Alex]
-3a8793e  base: set scrolling friction to 0.006f  [Jake Weinstein]
-8c047d0  android: responsiveness optimizations  [dlwlrma123]
-f16f49d  SystemUI: Use default letter spacing for QS tiles  [Danny Lin]
-73023db  SettingsLib: Design Preference category for corvus  [StarkDroid]
-12549b3  Update SysUI to be compatible with latest Jetpack libraries  [Alan Viverette]
-2738a61  SystemUI: Make popup menus more rounded  [Lucchetto]
-cccb370  BluetoothAdapter: disable logspew  [Alexander Martinz]
-00cd832  SystemUI: use google sans font for lockscreen clock  [Daniel J. Chittoor]
-ad00c62  colors: Switch to GrapheneOS blue color palette for Material You  [Danny Lin]
-a8f8af5  core: Use two-tone icon for default profile image  [IacobIonut01]
-a286380  SettingsLib: Apply Inter Dynamic Metrics to collapsing toolbar  [Danny Lin]
-1aa411d  base: SettiingsLib: Change collapse mode to scale  [Blaster4385]
-759ecd6  base: SettingsLib: Fix collapsed header color  [Blaster4385]
-a3b1880  UIModeTile: Collapse after change UI mode  [Pranav Vashi]
-8af2ebf  SettingsLib: make CollapsingToolbar like oneplus * use default spacing for dynamic metrics * reconfigure paddings and font size to make it somehow look like oneplus collapsingtoolbar * @ xyzuan for https://github.com/xdroid-oss/xd_packages_apps_Settings/commit/abb70ced8fe2193878dbab3081545436a893c561 * also update all back vector drawables to make it uniform  [dlwlrma123]
-d9ab78f  PixelPropsUtils: Update fingerprints to July 2022  [NurKeinNeid]
-
-
-* frameworks/opt/telephony
-797c047  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD  [NurKeinNeid]
-
-
-* manifest
-6230607  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/manifest into HEAD  [NurKeinNeid]
+6cdba43  SystemUI: Unregister observer in MobileSignalController  [cjh1249131356]
 
 
 * packages/apps/Bluetooth
-877b097  fixup! Bluetooth: Redesign BluetoothOppTransferHistory page  [Col_or]
+a9c1a74  Bluetooth: Redesign bluetooth transfer dialog layout  [Col_or]
 
 
 * packages/apps/DerpLauncher
-c418c9f  DerpLauncher: Set folder rows and columns to 4 for 4_by_5 grid  [NurKeinNeid]
-
-
-* packages/apps/Settings
-820d72b  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD  [NurKeinNeid]
-
-
-* packages/apps/ThemePicker
-b519d5b  Revert "ThemePicker: Don't setEnabledExclusiveInCategory for default icon pack"  [NurKeinNeid]
-
-
-* packages/modules/Permission
-06a19b1  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/packages/modules/Permission into 12.1-next  [NurKeinNeid]
-
-
-* system/bt
-330a4a5  Merge tag 'android-12.1.0_r10' of https://android.googlesource.com/platform/system/bt into HEAD  [NurKeinNeid]
+6d85a33  DerpLauncher: Map Oneplus Camera to Camera icon  [NurKeinNeid]
 
 
 * vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
-19363fb  fixup! Bluetooth: Redesign BluetoothOppTransferHistory page  [Col_or]
-
-
-* vendor/qcom/opensource/commonsys/system/bt
-97d5c32  Security: Fix out of bound read in AT_SKIP_REST  [Josh Wu]
+6a3b140  Bluetooth: Redesign bluetooth transfer dialog layout  [Col_or]
 
 
 ====================
-    07-06-2022     
+    07-24-2022     
 ====================
 
-====================
-    07-05-2022     
-====================
-
-* packages/apps/DerpSpace
-52fe682  DerpSpace: Update Italian translations  [downloaddrive2020]
+* packages/services/Telecomm
+7c1ed37  InCallController: use click & double click effect for connect and disconnect  [jhonboy121]
 
 
 ====================
-    07-04-2022     
+    07-23-2022     
 ====================
+
+* device/qcom/sepolicy_vndr
+0aa0211  Merge branch 'lineage-19.1' of https://github.com/LineageOS/android_device_qcom_sepolicy_vndr into HEAD  [NurKeinNeid]
+
+
+* frameworks/av
+de2916d  codec2: add smoothfactor when checking n-th work  [Jiajia Cong]
+
+
+* packages/apps/Settings
+7579b22  Settings: Update German translations  [NurKeinNeid]
+
+
+* system/core
+406a1b5  init.rc: disable watermark_boost feature  [Martin Liu]
+
 
 * vendor/derp
-38f0eec  apns: Add China Broadnet (CBN) support  [Col_or]
+1786dd6  Merge pull request #15 from amanrajOO7/12.1  [Alexander Brunswig]
 
 
-* vendor/overlay
-9b3fc1c  NothingDot: Update package and font-family names  [NurKeinNeid]
+* vendor/gms
+ac991a0  Update from oriole SQ3A.220705.003  [Arian]
 
 
 ====================
-    07-03-2022     
+    07-22-2022     
 ====================
 
