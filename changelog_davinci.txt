@@ -1,14 +1,6 @@
 Device Changelog:
-- Disable zram writeback(caused some issues with random kernel panics and sluggish perf after some time from boot)
-- Disable iorapd(useless and google disabled in A13 that)
-- Upstream kernel to 4.14.287
-- Reenable QCOM early_random driver
-- Don't start nfc for davinciin devices, shouldn't crash anymore in logs and shouldn't drain more battery because it was crashing
-
-DerpFest changelog:
-- Merge July Security patch (android-12.1.0_r10)
-- Fix screen not turning off on some devices
-- Settings: Add preference for resetting auto brightness adjustment
-- Bluetooth: Add support for showing battery level for AirPods series
-- Settings: DevicePicker: Adapt to S style
-- Maybe more changes with updated sources
+- fixed issue with mic in meta company apps
+- google recorder records audio now
+- upstream kernel to 4.14.290
+- Address some denials
+- fixed issue with wrong number parsing when calling with volte/vowifi on some carriers
