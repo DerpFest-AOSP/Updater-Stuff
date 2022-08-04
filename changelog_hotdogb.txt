@@ -1,4 +1,5 @@
-- Changed Kernel to Neptune
-- Fixed some minor stuff like: lockscreen charging and a few more
+- Changed Kernel to Neptune again
+- Added repainter stuff to make it work out of box
+- Switched to lawnchair instead of DerpLauncher
 
-PS: you need to be on 20220311-1650 to be able to dirty
+For more info, check the complete changelog under Settings/About Phone
