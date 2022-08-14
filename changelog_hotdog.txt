@@ -1,18 +1,28 @@
 Device Changes:
-- Fix audio issues with MS Teams
+- Improve pocket detection and UDFPS support on AoD
 
 ROM Changes:
-- reTicker: Allow to only show in Landscape mode
-- PixelPropsUtils: Use Pixel 5a model to GMS for all devicess
-- Add Settings to location indicator excludelist
-- Force fullscreen for Google Dialer
-- Make sure we are getting proper value for skip confirmation in biometric auth dialog switch
-- Grant INTERACT_ACROSS_USERS_FULL permission for smartspace
-- KernelCpuUidActiveTimeReader: Do not spam log with negative active time
-- Make sure to always trigger fullscreen type screenshot for three-fingers-swipe gesture
-- Bluetooth: Redesign bluetooth transfer dialog layout
-- Settings: Battery: Add some missing summaries
-- Settings: Battery: Show unavailable instead of 0.0℃ for battery temp
-- DerpLauncher: Fix NPE on getRecentTasks
-- DerpLauncher: Map Oneplus Camera to Camera icon
-- Update GrapheneOS Camera
+- Merge August Security patch (android-12.1.0_r22)
+- Nuke DOZE_DOUBLE_TAP_GESTURE and use DOUBLE_TAP_TO_WAKE on AoD
+- Restore old Statusbar brightness control behavior
+- Add option to apply vivid colors for black theme
+- Make per-app work with multi audio focus
+- Allow user configurable fingerprint wake-and-unlock
+- SystemUIDerpFest: Import Turbo based battery estimates
+- Improve Custom Fonts on Lockscreen clock
+- Add Secondary color for lockscreen clock toggle 
+- Improve Music QS Tile state and remove track title toggle 
+- VolumeDialog: Improve background tint for inactive rows
+- Switch notification background to monet on heads up
+- Fix invisible media output picker when blur is enabled
+- Fix user profile photo picker crash
+- Show the ripple on face auth if skip lockscreen enabled
+- IllustrationPreference: Hide illustration when we fail to play anim
+- Move option to control wallpaper zoom to DerpLauncher
+- DerpLauncher: Add pref to disable wallpaper scrolling
+- DerpLauncher: Add more double-tap actions
+- DerpLauncher: Link hotseat bg corner radius to dialogCornerRadius attribute
+- DerpLauncher: Add light/dark mode support for taskbar background
+- DerpLauncher: Add toggle for memory info view
+- DerpLauncher: Add pref to set app drawer row height
+- Update German and Italian translations
