@@ -1,126 +1,96 @@
 ====================
-    07-29-2022     
+    08-14-2022     
 ====================
-\n* device/xiaomi/alioth\ne29b4ab  alioth: Fix google voice recorder  [dinosnore1]
-94f9837  alioth: Update props  [dinosnore1]
-e672909  alioth: overlay: Update to LA.UM.9.12.r1-11000-SMxx50.0.  [Alexander Koskovich]
-11eaba8  alioth: audio: Add configuration for audio proxy input  [UtsavBalar1231]
-2c59a1b  alioth: nfc: Update NFC configuration from Gourami  [UtsavBalar1231]
-43fb068  alioth: camera: Disable logging from camx module  [UtsavBalar1231]
-224ea87  alioth: camera: Import camxoverride settings configuration  [UtsavBalar1231]\n
-\n* frameworks/base\n69f0a49  tools: -O3 everywhere  [Simao Gomes Viana]
-60f2e2f  cmds: bootanimation: -O3  [Simao Gomes Viana]
-bcb4792  Make 'No Notifications' small  [Simao Gomes Viana]
-4b03ab2  SystemUI: Fix QS expand lag when VoLTE/VoWiFi icons are enabled  [timjosten]\n
-\n* kernel/xiaomi/sm8250\n159b0c7  Merge branch 'android-4.19-stable' of https://android.googlesource.com/kernel/common into HEAD  [dinosnore1]
-a84be23  lrng: merge v45 from linux-5.15.y  [Juhyung Park]
-f47de0ad  disp: msm: Revert all panel power state modification changes  [UtsavBalar1231]\n
-\n* vendor/derp\ne15cce7  apns: Pull rest of Indonesian APN configs from iQOO 8 Pro  [Albert I]
-dd55ff5  apns: Update APN configuration for Indonesia  [Albert I]
-acd1f6e  derp: Allow Gboard padding properties to be overridden  [Albert I]
-3d5ed3a  tools: Get JSON generator script pass through shellcheck and shfmt  [Albert I]
-92ed3d7  tools: Use here-document instead of multiple echoes  [Albert I]
-75fe359  tools: Improve grabbing build time value  [Albert I]
-e689f09  tools: Use SHA-256 checksum obtained from `.sha256sum` file  [Albert I]
-c76b294  derp: Move OTA JSON URL override property to system  [Albert I]
-48af5f4  derp: Use the new `PRODUCT_SYSTEM_PROPERTIES` flag for system properties  [Albert I]
-e2f6703  derp: Use `DERP_RELEASE` flag to determine build date format  [Albert I]
-75757f4  derp: Allow backuptool files to be excluded from build  [Albert I]
-2e5f908  derp: Fix inclusion of `ro.ota.allow_downgrade` property  [Albert I]
-1a974c4  derp: Fix scripts for `$OUT_DIR` users  [Albert I]\n
+\n* device/xiaomi/sm8250-common\n7e2944d  sm8250-common: sepolicy: Address init.qcom.post.boot rules  [boedhack99]
+3e0fd13  sm8250-common: sepolicy: Allow ioctl to zram_swap for performance  [Jaegeuk Kim]
+bb980c1  sm8250-common: Use pixel atrace hal  [EmanuelCN]
+570acf7  sm8250-common: Bind mount Wifi Aware feature permissions.  [Adithya R]
+d506d8d  sm8250-common: Remove camera hints  [dinosnore1]
+9149f95  sm8250-common: Give proper permission to diag  [EmanuelCN]
+8094c73  sm8250-common: rootdir: start bootanimation on late-fs  [Noonlord]
+a472299  sm8250-common: Misc changes  [dinosnore1]\n
+\n* vendor/xiaomi\n57f92f3  alioth: Sync with DT changes  [dinosnore1]\n
 
 ====================
-    07-28-2022     
+    08-13-2022     
 ====================
-\n* device/xiaomi/alioth\nf379b23  alioth: Regen FCM  [dinosnore1]
-952ab54  alioth: Update QDCM display calibration Test: Verified by HW  [Dyneteve]
-b776734  alioth: display: Import QDCM configuration for Pixel 4XL  [UtsavBalar1231]
-aebf1a4  alioth: move storage-related parts to one place  [Juhyung Park]\n
-\n* packages/apps/DerpLauncher\ncdbfb0c  AndroidManifest: Add missing permission  [tejasvp25]\n
-\n* vendor/xiaomi/alioth\nbe6c7c1  alioth: Update blobs and sync with DT changes  [dinosnore1]\n
+dfc38f6  sm8250-common: sepolicy: label /proc/sys/vm/rswappiness  [Juhyung Park]
+c30517f  sm8250-common: rootdir: Replace writepid with task_profiles command for cgroup migration  [Suren Baghdasaryan]
+1afe183  sm8250-common: init: Fix memory parameters for non-QCOM targets  [dianlujitao]
+ec92729  sm8250-common: Update Parts  [dinosnore1]
+b60e338  sm8250-common: Update props  [dinosnore1]\n
+\n* kernel/xiaomi/sm8250\ne5699c4  Merge branch 'android-4.19-stable' of https://android.googlesource.com/kernel/common into HEAD  [dinosnore1]\n
+\n* packages/apps/Settings\n55b6f4e  Merge pull request #6 from M4rtox/patch-6  [Alexander Brunswig]
+cbb9a10  Update derp_strings.xml  [M4rtox]\n
 
 ====================
-    07-27-2022     
+    08-12-2022     
 ====================
-\n* frameworks/base\na958683  PackageManagerService: Load APKs from system_ext/framework  [Luca Stefani]
-267d155  add missing display cutout overlays  [Daniel Micay]
-5358c3e  overlays: Add notchbar killer for left-notch devices  [Jaida Wu]
-3bd200e  overlays: Add notch bar killer  [Josh Fox]
-cf6927f  LayoutInflater: remove less frequently used apps  [Simao Gomes Viana]
-698913c  SystemUI: Cleanup QS tile count settings  [minaripenguin]
-04f4318  Revert "GridLayoutManager: Dont throw exception if spans are not equal"  [minaripenguin]
-b28a9d4  SystemUI: Fix qs customizer corner radius  [minaripenguin]
-33fbaac  TileAdapter: Report 3 columns for qs customizer  [minaripenguin]
-660db2f  GridLayoutManager: Dont throw exception if spans are not equal  [minaripenguin]
-5f6ed9d  SystemUI: Fix wrong context for mNumColumns  [minaripenguin]
-cf89025  SystemUI: Adapt DotOs qs tile changes for qs tile count settings  [minaripenguin]
-8598f8d  QS tile count settings: Fixes and improvements for landscape settings  [minaripenguin]
-66172d6  BlurShader: Use kMirror shader instead of edge treatment  [minarypenguin]
-5860c374  HWUI: Use kMirror instead of kClamp  [minarypenguin]
-f4e4e7d  Use mContext directly  [Daniel Rosenberg]
-17be984  SystemUI: QS tile count settings code fixup  [minarypenguin]
-23a16c8  SystemUI: Improve QS tile count settings  [minarypenguin]
-4c937d9  SystemUI: Refactor qs tile count settings  [minarypenguin]
-5279849  SystemUI: Fix qs tile vertical layout scrolling  [minarypenguin]
-7834b74  [1/2] SystemUI: qs hide label setting  [maxwen]
-2ee2106  [1/2] SystemUI: qs columns count settings  [maxwen]
-e994c77  SystemUI: add OmniSettingService Hooks  [maxwen]
-e8fabe2  SystemUI: Set custom scrim alpha in ScrimState  [Pranav Vashi]
-432c8f6  SystemUI: Remove trace counter from ScrimState  [Pranav Vashi]
-6b8832e  ScrimController: User Tuner API to apply custom alpha  [Pranav Vashi]
-d2030c6  SystemUI: Transparent QS customization  [spkal01]\n
-\n* packages/apps/DerpSpace\n854d861  DerpSpace: Update QS tile count preference  [minaripenguin]
-13844b7  DerpSpace: Update qs column counts settings  [minaripenguin]
-cb2e14b  DerpSpace: Allow 5 qs tile columns for portrait  [minarypenguin]
-b44138d  DerpSpace: Drop qs columns count footer/instructions  [minarypenguin]
-7e35367  DerpSpace: QS Tiles/Layout customizations  [maxwen]
-84555ab  DerpSpace: Transparent QS customization [2/2]  [ShevT]\n
+\n* frameworks/base\ndbfd4f3  data: Add ACCESS_SURFACE_FLINGER permission for launcher  [tejasvp25]
+a32acbb  Extend splash screen exception list to SC-V2  [wilsonshih]
+5c3ee45  Allow shell uid without checking the package name.  [Sudheer Shanka]
+ee2e1a0  Allow apps receiving MediaSession callbacks to start FGS from BG.  [Sudheer Shanka]\n
+\n* hardware/qcom-caf/sm8250/display\n75b4c76  Revert "gralloc: Fix issue with mmap/munmap meta due to reserved size"  [dinosnore1]\n
+\n* kernel/xiaomi/sm8250\n0d7ce00  Merge 4.19.255 into android-4.19-stable  [Greg Kroah-Hartman]
+5c7ccbe  Linux 4.19.255  [Greg Kroah-Hartman]
+b1c9f47  x86/speculation: Add LFENCE to RSB fill sequence  [Pawan Gupta]
+b6c5011  x86/speculation: Add RSB VM Exit protections  [Daniel Sneddon]
+599f4c7  macintosh/adb: fix oob read in do_adb_query() function  [Ning Qiang]
+56d3612  ACPI: video: Shortening quirk list by identifying Clevo by board_name only  [Werner Sembach]
+9370d15  ACPI: video: Force backlight native for some TongFang devices  [Werner Sembach]
+0d971fb  scsi: core: Fix race between handling STS_RESOURCE and completion  [Ming Lei]
+7d562fb  mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.  [Wei Mingzhi]
+7db49f8  ARM: crypto: comment out gcc warning that breaks clang builds  [Greg Kroah-Hartman]
+897dd75  perf symbol: Correct address for bss symbols  [Leo Yan]
+f295d36  netfilter: nf_queue: do not allow packet truncation below transport header offset  [Florian Westphal]
+5bf4a38  sctp: fix sleep in atomic context bug in timer handlers  [Duoming Zhou]
+1eddfb0  i40e: Fix interface init with MSI interrupts (no MSI-X)  [Michal Maloszewski]
+37ef2ea  tcp: Fix a data-race around sysctl_tcp_comp_sack_nr.  [Kuniyuki Iwashima]
+32917d3  tcp: Fix a data-race around sysctl_tcp_comp_sack_delay_ns.  [Kuniyuki Iwashima]
+3210e07  Documentation: fix sctp_wmem in ip-sysctl.rst  [Xin Long]
+69eab4c  tcp: Fix a data-race around sysctl_tcp_invalid_ratelimit.  [Kuniyuki Iwashima]
+5e3d32b  tcp: Fix a data-race around sysctl_tcp_autocorking.  [Kuniyuki Iwashima]
+3a73df9  tcp: Fix a data-race around sysctl_tcp_min_rtt_wlen.  [Kuniyuki Iwashima]
+1508572  tcp: Fix a data-race around sysctl_tcp_min_tso_segs.  [Kuniyuki Iwashima]
+b20135f  net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()  [Liang He]
+9eeb3a7  igmp: Fix data-races around sysctl_igmp_qrv.  [Kuniyuki Iwashima]
+7cbb889  net: ping6: Fix memleak in ipv6_renew_options().  [Kuniyuki Iwashima]
+3bf8415  tcp: Fix a data-race around sysctl_tcp_challenge_ack_limit.  [Kuniyuki Iwashima]
+4de6634  scsi: ufs: host: Hold reference returned by of_parse_phandle()  [Liang He]
+5e08afb  tcp: Fix a data-race around sysctl_tcp_nometrics_save.  [Kuniyuki Iwashima]
+79ea5b5  tcp: Fix a data-race around sysctl_tcp_frto.  [Kuniyuki Iwashima]
+3e39da4  tcp: Fix a data-race around sysctl_tcp_adv_win_scale.  [Kuniyuki Iwashima]
+4b4d0f7  tcp: Fix a data-race around sysctl_tcp_app_win.  [Kuniyuki Iwashima]
+62acabe  tcp: Fix data-races around sysctl_tcp_dsack.  [Kuniyuki Iwashima]
+6e1b411  s390/archrandom: prevent CPACF trng invocations in interrupt context  [Harald Freudenberger]
+6c0355c  ntfs: fix use-after-free in ntfs_ucsncmp()  [ChenXiaoSong]
+bbd1fdb  Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put  [Luiz Augusto von Dentz]\n
+\n* packages/apps/DerpLauncher\n975fc5f  DerpLauncher: Add ACCESS_SURFACE_FLINGER permission to manifest  [tejasvp25]
+04117dc  DerpLauncher: Add option to control wallpaper zooming  [Nauval Rizky]
+88217b1  DerpLauncher: Add WallpaperManager check to support WSA  [Peter Njeim]
+d432f5d  DerpLauncher: Fix launcher crash during wallpaper change  [tejasvp25]
+6915802  DerpLauncher: Add pref to disable wallpaper scrolling  [Erwan Finot]
+0322b17  DerpLauncher: Reorder home screen preferences  [NurKeinNeid]
+c4c44c2  DerpLauncher: Improve German translation  [NurKeinNeid]
+736bffa  DerpLauncher: Update Italian translations  [M4rtox]\n
+\n* packages/apps/DerpSpace\ne71e997  DerpSpace: Update Italian translations  [M4rtox]\n
+\n* system/bt\nfbc27d8  VolumeControl is not interesting on S  [Jakub Pawlowski]\n
 
 ====================
-    07-26-2022     
+    08-11-2022     
 ====================
-\n* device/xiaomi/alioth\n708b632  sm8250-common: Wifi: Enable "Add another interface while driver load"  [johnmart19]
-0ca59c1  sm8250-common: sepolicy: Fix hardware denial  [chrisw444]
-727e041  alioth: Build with clang-15.0.1  [dinosnore1]
-23881c1  alioth: camera: Use randomly generated config  [althafvly]
-cd10e91  alioth: overlay: Reconfigure power profile for SM8250-AC  [UtsavBalar1231]
-a89d30d  Revert "alioth: switch audio HAL to V7"  [dinosnore1]\n
+\n* build/make\ne86c69e  Update build id to SQ3A.220705.004  [jhenrique09]\n
+\n* frameworks/base\nbd0ee6e  SystemUI: Show the ripple on face auth if skip lockscreen enabled  [xyzuan]
+56ebd2c  IllustrationPreference: Hide illustration when we fail to play anim  [LuK1337]
+f2b958b  DeviceInfoUtils: Read security patch from org.derpfest.build_security_patch  [jhenrique09]
+1f1dfe5  PixelPropsUtils: Update raven fingerprint  [jhenrique09]
+ed37ad2  KeyguardUpdateMonitor: Destroy our settings observer when necessary  [jhenrique09]
+ef15262  Keyguard: Allow user configurable fingerprint wake-and-unlock  [althafvly]\n
+\n* manifest\n898ec3f  manifest: android-12.1.0_r10 -> android-12.1.0_r22  [Michael Bestas]\n
+\n* packages/apps/Settings\nf29a4c4  Settings: Allow user configurable fingerprint wake-and-unlock  [althafvly]\n
+\n* vendor/derp\n109b156  derp: Add CUSTOM_SECURITY_PATCH prop  [jhenrique09]\n
 
 ====================
-    07-25-2022     
+    08-10-2022     
 ====================
-\n* device/xiaomi/alioth\nd08ebf4  alioth: Update build fingerprint  [dinosnore1]
-082e848  alioth: sepolicy: Allow zygote to access unix_stream_socket  [Ultra119]
-924a3e9  alioth: sepolicy: Address untrusted_app denials  [Eidoron1]\n
-\n* kernel/xiaomi/sm8250\n1ccb1cd  ARM64: dts: apollo: update battery data * while having stock values battery full voltage goes to the overvolt region causing damage to cell itself. after some testing those values were the best to have stable non-overvolted full-charged battery  [ahmedtohamy1]
-5641857  ARM64: configs: xiaomi: Enable ThinLTO in defconfig for all devices  [johnmart19]
-3938d1a  dcache: increase DNAME_INLINE_LEN on ARM64 to 96 bytes  [Yaroslav Furman]
-eee4124  platform: msm: gsi: Fix symbol versioning failure for gsi_write_channel_scratch  [Nick Desaulniers]
-30ad45a  qcacmn: Demote unwanted logging to debug [2/2]  [Adam W. Willis]
-6e42780  [1/2] qcacld: disable debugging bloat as much as possible  [Park Ju Hyung]
-b5b5ffa  qcacld-3.0: Demote unwanted logging to debug [1/2]  [Adam W. Willis]
-1460cac  techpack: audio: Remove build timestamp injection  [Danny Lin]
-0591fc2  Suppress overly verbose log spam  [Danny Lin]
-92a34f2  Revert "kbuild: avoid unrecognized option error for DTC"  [dinosnore1]
-6498595  msm: kgsl: adreno: Properly set GPU timeout  [celtare21]
-292ed01  power: supply: Classify Battery Monitor Systems as batteries  [Danny Lin]
-f9d9787  techpack: audio: Remove build timestamp injection  [Danny Lin]
-09d2126  Suppress overly verbose log spam  [Danny Lin]
-a0e72c6  Implement KCAL color calibration  [tbalden]
-8dad96f  qcacld-3.0: Do not allow any wakelocks to be held  [Tyler Nijmeh]
-3849cf7  sm8250: Remove dirty version  [dinosnore1]
-dd41dbd  setlocalversion: don't check for uncommitted changes  [Park Ju Hyung]
-cdae47c  kbuild: avoid unrecognized option error for DTC  [klozz]
-6536e5e  ARM64: configs: Move defconfigs to vendor/  [SahilSonar]
-9ccab4e  net: Prevent useless userpace spam  [DennySPb]
-e03641e  xlogchar: Make it no-op  [Albert I]
-2110876  Revert "build: Initialization of IMMENSITY-X kernel build enviroment"  [SahilSonar]\n
-\n* packages/apps/Bluetooth\na9c1a74  Bluetooth: Redesign bluetooth transfer dialog layout  [Col_or]
-4165d28  Bluetooth: Make theme dialog's parent to DeviceDefault  [Col_or]
-fc3b90b  Bluetooth: BluetoothOppIncomingFileConfirmActivity: Don't set theme in onCreate() method  [Col_or]\n
-\n* packages/apps/DerpLauncher\n6d85a33  DerpLauncher: Map Oneplus Camera to Camera icon  [NurKeinNeid]\n
-\n* vendor/qcom/opensource/commonsys/packages/apps/Bluetooth\n6a3b140  Bluetooth: Redesign bluetooth transfer dialog layout  [Col_or]
-2a4a204  Bluetooth: Make theme dialog's parent to DeviceDefault  [Col_or]
-48439ed  Bluetooth: BluetoothOppIncomingFileConfirmActivity: Don't set theme in onCreate() method  [Col_or]\n
-\n* vendor/xiaomi/alioth\n8c3bf18  alioth: Import MipayService and IFAAService  [dinosnore1]\n
 
