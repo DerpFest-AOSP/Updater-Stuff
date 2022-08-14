@@ -1,6 +1,13 @@
 Device Changes:
-- kwenel upstweam
-- fw eea 13070 
+- kernel arrowmix_r11
+- required to flash firmware V13.0.5.0.SJDMIXM GLOBAL
+- 2b36e58  apollon: Fixed status bar glitch for apps that access internal resource dimen  [shawnlin]
+- b941a6f  apollon: Remove resource overlays for system bar heights  [shawnlin]
+- 9ba99c2  apollon: adjust statusbar padding for keyguard  [Ramii Ahmed]
+- 97fe968  apollon: Adjust rounded corners padding  [ejbtrd]
+- 9fbc0df  apollon: overlay: Tune statusbar height  [ejbtrd]
+- 50a9f1e  apollo: Enable refresh rate toggle in Settings  [Danny Lin]
+- 43c800c  sm8250-common: update from V13.0.5.0.SJDMIXM  [goodmeow]
 
 ROM :
 - Merge July Security patch (android-12.1.0_r10)
