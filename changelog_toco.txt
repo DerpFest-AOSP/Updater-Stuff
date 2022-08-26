@@ -1,23 +1,5 @@
 Device Changes:
-- audio: Provide missing audio_tuning_mixer.txt
-- Drop remnant Snap stuff
-- parts: Drop support for zero brightness doze mode
-- parts: Update and polish vector drawables
-- perfd-client: Remove namespace declaration
-- perfd-client: Return a dummy value
-- prop: Fix mic volume in Apps
-- prop: Sync up /system_ext properties with QSSI 12
-- sepolicy: Address dolby denials
-- sepolicy: Address dpmd denial
-- sepolicy: Address mi_thermald-related denials
-- sepolicy: Address some duplicate
-- sepolicy: Address some wifi denials
-- sepolicy: Allow bluetooth to read incremental prop
-- sepolicy: Allow radio to connect to dpmd stream socket
-- Ship VantomKernel v4.14.290
-- Update adreno stack from from LA.UM.9.14.r1-19300.01-LAHAINA.QSSI12.0
-- Update blobs from sweet V13.0.8.12.SKFMIXM
-- WifiSM6150: Add & increase 5 GHz network signal tolerance
+- Fix incall loudspeaker volume stuck at max
 
 ROM:
 - Merge August Security patch (android-12.1.0_r22)
