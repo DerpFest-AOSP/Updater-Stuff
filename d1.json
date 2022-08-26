@@ -1,13 +1,13 @@
 {
   "response": [
     {
-     "datetime": 1652429240,
-     "filename": "DerpFest-12-Official-Shinju-d1-20220513-0808.zip",
-     "id": "44e9f884f6b716c6fef790079cea78d99df4b08010879fb65fd3c3497716b1f5",
-     "romtype": "Official",
-     "size": 1701432309,
-     "url": "https://github.com/victor4cris/OTA/releases/download/v2/DerpFest-12-Official-Shinju-d1-20220513-0808.zip",
-     "version": "12"
+      "datetime": 1661546820,
+      "filename": "DerpFest-12-Official-Shinju-d1-20220826-2247.zip",
+      "id": "f4b5f0472b14a112f7b9f06fe1ee2582c64d5a1c965f520bb1b38a372e389340",
+      "romtype": "Official",
+      "size": 1565777159,
+      "url": "https://github.com/no-leaks-inside/Releases/releases/download/DerpFest/DerpFest-12-Official-Shinju-d1-20220826-2247.zip",
+      "version": "12"
     }
   ]
 }

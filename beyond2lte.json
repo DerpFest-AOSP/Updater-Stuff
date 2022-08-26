@@ -1,13 +1,13 @@
 {
   "response": [
     {
-     "datetime": 1652426498,
-     "filename": "DerpFest-12-Official-Shinju-beyond2lte-20220513-0723.zip",
-     "id": "e87f4a356c7a48ecf8eaa01e88c6d66966fb06cf53cef9f2b807b072d7facf39",
-     "romtype": "Official",
-     "size": 1698561407,
-     "url": "https://github.com/victor4cris/OTA/releases/download/v2/DerpFest-12-Official-Shinju-beyond2lte-20220513-0723.zip",
-     "version": "12"
+      "datetime": 1661545565,
+      "filename": "DerpFest-12-Official-Shinju-beyond2lte-20220826-2228.zip",
+      "id": "230c10d2aac88776cad9a4f6f2537bd366fd2b3a8435b42a5ee7c1eb77b9bacd",
+      "romtype": "Official",
+      "size": 1562851207,
+      "url": "https://github.com/no-leaks-inside/Releases/releases/download/DerpFest/DerpFest-12-Official-Shinju-beyond2lte-20220826-2228.zip",
+      "version": "12"
     }
   ]
 }
