@@ -1,119 +1,20 @@
 ====================
-    08-07-2022     
+    09-11-2022     
 ====================
 
-* build/make
-d519138  Bump Security String to 2022-08-05  [Kevin F. Haggerty]
-
-
 ====================
-    08-06-2022     
+    09-10-2022     
 ====================
 
-* frameworks/base
-cb87f9e  Decrese blur radius  [pri0818]
-0de1a6b  Revert "Skip checking SystemUI's permission for observing sensor privacy"  [strwbrry143]
-d46c91b  Write permission synchronization for com.android.systemui.  [heqiang1008 thundersoft]
-2650f0a  SystemUI: VolumeDialogImpl: Fix inactive rows tint  [strwbrry143]
-0ddd2af  core: Add dark mode support for `colorAccentPrimary`  [strwbrry143]
-9bc8227  SettingsLib: Fix user profile photo picker crash  [timjosten]
-
-
-* packages/apps/DerpLauncher
-be54a9f  Recalculate scroll scale on layout  [LibXZR]
-47c872b  Fix discontinuous animation when dismissing taskcards on the right side  [LibXZR]
-18eb512  Introduce overview scrolling scale animation  [LibXZR]
-b5b7ec8  SushiLauncher: don't make ic_screenshot overlayable * it needs proper tint  [minarypenguin]
-b04b48f  SushiLauncher: update clear all icon  [minarypenguin]
-6e8e4f6  SushiLauncher: Add Dark mode support to appseat background  [minarypenguin]
-4edb94d  SushiLauncher: Overview improvements  [minaripenguin]
-ee0dc57  DerpLauncher: add rounded bg to overview buttons  [dlwlrma123]
-7def695  Launcher3: Update icons  [Pranav Vashi]
-7ca1dc9  Launcher3: Add WallpaperManager check to support WSA  [Peter Njeim]
-7fc8b14  Launcher3: Fix launcher crash during wallpaper change  [tejasvp25]
-6fca034  Launcher3: Use Mirror shader instead of CLAMP  [minarypenguin]
-
-
 ====================
-    08-05-2022     
+    09-09-2022     
 ====================
 
-* frameworks/base
-6ca6ac2  NotificationShade: Make blur crossfading more gradual  [Danny Lin]
-5e8d336  QS Tile: Make QS Ripple animation more prominent  [StarkDroid]
-6b4c5d5  QS Tile: Set ripple color to accent by default  [StarkDroid]
-8645a82  QSTile: More slower & Gradual QS Fade-in/out animation  [StarkDroid]
-0cb2e2f  SQUASH: Revert disable dialog animation, and use blur background  [Fiqri Ardyansyah]
-a79a148  SystemUI: VolumeDialogImpl: Change bg tint for inactive rows The secondary accent in light mode does not have a good contrast to the previously white icon.  [Arian]
-6cc4d0a  SystemUI: Switch notification background to monet on heads up  [DillerOFire]
-8d78d78  Revert "QSFooter: Launch DerpSpace when long clicking settings"  [Fiqri Ardyansyah]
-37eff92  PackageManagerService: Load APKs from system_ext/framework  [Luca Stefani]
-c6f1239  base: Relax rounded corners  [minaripenguin]
-51b0475  GlobalActions: Redesign Power Menu  [Elluzion]
-bef7e72  core: Link all corner radius dimens to config_dialogCornerRadius  [minaripenguin]
-aad7ba5  Keyguard: Apply color accent to shorcuts  [minaripenguin]
-ce6b904  VolumePanel: Design changes from Corvus  [Trishiraj]
-dd2bf14  QuickSettings: Redo clock and data usage text style  [dlwlrma123]
-55fa527  BlurShader: Use kMirror shader instead of edge treatment  [minarypenguin]
-486444a  HWUI: Use kMirror instead of kClamp  [minarypenguin]
-f2ea1d6  IllustrationPreference: Improve lottie view paddings  [minarypenguin]
-fc8557e  Keyguard: Use Doubleline clock for small clock  [minarypenguin]
-b024538  Screenshot: Speed up actions expansion animation  [Danny Lin]
-0eccccb  Redesign seekbar  [SagarMakhar]
-ea3a27c  (SQUASH)base: Add misc stuff from riceDroid  [minaripenguin]
-9a5816a  SystemUI: Transparent QS customization  [spkal01]
-1be9d0b  base: Add support for application downgrade and window ignore secure  [LibXZR]
-615542c  SystemUI: Adjust blur radius to less solid  [pri0818]
-9bfa2d9  Introduce Custom settings layout  [spkal01]
-c977f40  PixelPropsUtils: Refactor  [minaripenguin]
-
-
-* frameworks/native
-9c089fb  skia: blur: Downscale source FBO to 20% size  [Danny Lin]
-6810e9c  skia: Use kMirror shader instead of kClamp  [minarypenguin]
-
-
-* packages/apps/DerpSpace
-1def11e  DerpSpace: Tweak chroma factor and linear brightness values a bit  [pri0818]
-67edbec  DerpSpace: Add higher fps toggle and modify photos spofing a bit  [minaripenguin]
-5c5f203  DerpSpace: Qs Transparency Settings  [spkal01]
-50c785f  DerpSpace: Add application downgrade and window ignore secure feature  [LibXZR]
-c30bb42  DerpSpace: Custom Dashboard styles  [minaripenguin]
-
-
-* packages/apps/Settings
-ca3d326  Settings styles: Apply monet shades to icon bg  [minaripenguin]
-eb6c456  Settings styles: Fix palette and arc preference paddings  [minaripenguin]
-f712598  Settings: Add lottie animation in battery section  [minaripenguin]
-4f30a86  Settings: Import RenderingJitter test from FWB  [AnierinB]
-6f0daa1  settings: Revamp settings dashboard and about phone UI  [minarypenguin]
-
-
-* packages/modules/Permission
-06cc7fe  stop auto-granting location to system browsers  [Daniel Micay]
-e08fb8f  PermissionController: Redesign Permission grant dialog  [elluzion]
-
-
-* vendor/derp
-40f73ec  common: Add version props for new about phone layout  [minaripenguin]
-
-
-* vendor/overlay
-60605c0  Vivid theme  [minaripenguin]
-5b0672a  fonts: Apply customizations to fluid-sans font  [minaripenguin]
-b9dcf9e  fonts: Import Fluid sans font * all credits to    * fluid * font by AndroBuddy  [AndroBuddy]
-0067932  themes: fonts: Import Oneplus Sans 2.0  [atoriku]
-
-
 ====================
-    08-04-2022     
+    09-08-2022     
 ====================
 
-* packages/apps/DerpSpace
-0c86c1e  Merge pull request #6 from M4rtox/patch-7  [Alexander Brunswig]
-
-
 ====================
-    08-03-2022     
+    09-07-2022     
 ====================
 
