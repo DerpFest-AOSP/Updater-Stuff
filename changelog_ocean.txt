@@ -1,5 +1,10 @@
-- Merge July Security patch (android-12.1.0_r10)
-- Fix screen not turning off on some devices 
-- Settings: Add preference for resetting auto brightness adjustment
-- Bluetooth: Add support for showing battery level for AirPods series
-- Settings: DevicePicker: Adapt to S style
+Device changes:
+
+- Final build for Android 12.1 
+- Update GPS config for better accuracy 
+- Removes echo voice-from calls
+- Ok.. now netflix plays, lol
+- Kernel 4.9.304 now 
+- Android 13 soong... :)
+
+Enjoy!
