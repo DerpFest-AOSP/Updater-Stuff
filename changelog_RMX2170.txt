@@ -1,47 +1,28 @@
+Initial Android 13 DerpFest
+
 [DEVICE]
-- kernel: Merged latest linux patch v4.14.290
-- Replaced RealmeParts with realme Lab (coz what is parts?)
-- Fixed hand wave and pocket gesture under realme Lab (former RealmeParts)
-- Implemented QTI vibrator aidl hal
-- Implemented vibrator effects from QPNP haptics driver
-- Improved the double click effect
-- Speed profile services and wifi-service to reduce RAM and storage
-- Disable WLAN Firmware loggings
-- Disable RX wakelock feature
-- Add sf prop threshold of next vsync from Pixels (Google implemented this in source and in Pixels as well since Q, and I didn't  saw anybody implementing it. Fixes lags when scrolling in YT, Spotify & more)
-- Update sensor service to Multi-HAL 2.1
-- Removed virtual framebuffer (less overhead and more smoothness)
-- Disabled GMS intent operation service (more battery life when idle)
-- Tweaked some statusbar paddings
-- Uprev bluetooth audio HIDL impl to 2.1
-- Uprev IRadio HAL to 1.5
-- Enable LZ4 compression for ramdisks
+- Revamped and added antiflicker, high brightness mode and gaming mode to realme lab
+- Made the lockscreen keyguard text somewhat dynamic independent of screen dpi
 
 [#MelloLab]
-- Revamped About settings layout
-- Optimized upload/download animations
-- Exposed some customisations for settings ui
-- Prebuilt updated Lawnchair from Lawnchair official git repo
-- Prebuilt Lawnicons (Thanks to #TeamFiles)
-- Added application downgrade feature
-- Applied color accent to clear all button
-- Added toggle for  fluid ui QS tiles (the #MelloLab way)
-- Made clock chip to change color for white/dark theme
-- Fix QS expand lag when VoLTE/VoWiFi icons are enabled
-- [Bugfix] Fix the problem that the status bar is not displayed.
-- Add telephony stack to allowed service state packages
-- Cache least recently used output buffers
-- Catch IllegalStateException to avoid reboot
-- ResolveActivity scroll not Smooth
-- Implemented Samsung Dynamic Surface Scaling Solution
-- Added a toggle to enable secondary color for lock screen clock
-- More slower & Gradual QS Fade-in/out animation
-- NotificationShade: Make blur crossfading more gradual
-- Fixed wakeup event sent twice
-- Added a toggle to show Wi-Fi 4/5/6 standard on statusbar
-- Import OnePlus Sans 2.0 (aka OppoSans)
-- Import Fluid sans font (from Project Fluid)
+- Redesigned about phone page
+- Redesigned permission grant dialog and make it follow monet changes
+- Introduced quickspace to the derplauncher
+- Introduced at a glanace messages and greetings to quickspace
+- Introduced overview scrolling scale animation
+- Fixed fp for udfps realme devices
+- Added SuperDart charging support
+- Made ui corners rounded
+- Redesigned seekbar
+- Added vivid theme
+- Fixed paddings in qs and qqs
+- Redesigned battery and storage bars
+- Use app icon for per-app volume
+- Made the udfps background transparent
+- Redesigned volume panel
+- Added toggle to disable call strength icons
+- Optimizations to the qs clock style
+- Monet changes from kdrag0n
 
 [SOURCE]
-- August patch
-- Many more source side changes
+- Android 13 with some customizations.
