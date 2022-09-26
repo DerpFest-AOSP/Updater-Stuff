@@ -1,24 +1,107 @@
 Device Changes:
-- Fix incall loudspeaker volume stuck at max
+- Build libldacBT packages
+- Drop audio A2dp
+- Drop keylayout
+- Enable recovery updater lib
+- Move Xiaomi Doze to stock ambient display preference
+- overlay: Add support for screen off udfps
+- overlay: Checkout CarrierConfig from LA.QSSI.13.0.r1-05500-qssi.0
+- overlay: Drop dead hbm type overlay
+- overlay: Remove BT related configs
+- overlay: Update multiple vibration intensity levels config for T
+- parts: Avoid unsafe boot completed receiver
+- parts: Fix app mode layout height for Android 13
+- powerhint: Remove schedtune.prefer_high_cap boosting
+- prop: Add a system property for System UI compiler filter
+- prop: Add new vendors for Bluetooth config migration
+- prop: Disable LE audio related profiles
+- prop: Enable Audio Support for Hearing Aids central support
+- prop: Enable zygote critical window
+- prop: Import suspend properties from gs101
+- releasetools: Drop firmware inclusion
+- releasetools: Use unique version-baseband strings for different regions
+- Remove some packages at build time
+- rootdir: Drop wrappedkey
+- rootdir: Set readahead_size_kb=128 on fstab
+- sepolicy: Label qcom extcon sysfs
+- sepolicy: Remove debugfs related rules
+- Shim the GetPreviewImageData symbol on libpiex
+- Switch to AOSP BT stack
+- Switch to legacy sepolicy_vndr
+- udfps: Update handler methods
+- Update Adreno stack from LA.UM.9.14.r1-20200-LAHAINA.QSSI13.0.
+- Update common system blobs from T
+- Update wfdconfig from curtana
+- Uprev android.hardware.bluetooth.audio & add to fcm
+- Uprev audio hal to 7.1
 
 ROM:
-- Merge August Security patch (android-12.1.0_r22)
-- Allow user configurable fingerprint wake-and-unlock
-- SystemUIDerpFest: Import Turbo based battery estimates
-- Improve Custom Fonts on Lockscreen clock
-- Add Secondary color for lockscreen clock toggle 
-- Improve Music QS Tile state and remove track title toggle 
-- VolumeDialog: Improve background tint for inactive rows
-- Switch notification background to monet on heads up
-- Fix invisible media output picker when blur is enabled
-- Fix user profile photo picker crash
-- Show the ripple on face auth if skip lockscreen enabled
-- IllustrationPreference: Hide illustration when we fail to play anim
-- Move option to control wallpaper zoom to DerpLauncher
-- DerpLauncher: Add pref to disable wallpaper scrolling
-- DerpLauncher: Add more double-tap actions
-- DerpLauncher: Link hotseat bg corner radius to dialogCornerRadius attribute
-- DerpLauncher: Add light/dark mode support for taskbar background
-- DerpLauncher: Add toggle for memory info view
-- DerpLauncher: Add pref to set app drawer row height
-- Update German and Italian translations
+- Merge September Security patch (android-13.0.0_r4)
+- Add black theme switch for dark mode options
+- Add back all Icon Packs, Fonts, etc
+- Add back our GameSpace
+- Add PixelPropsUtils for unlimited photos
+- Add Smartspace port
+- Add Advanced reboot
+- Add Live-Display support
+- Add Swipe to screenshot
+- Enable Quick unlock by default 
+- Enable Color picker in ThemePicker
+- Make the volume dialog expandable
+- Add per-app volume
+- Allow to always show settings in volume dialog
+- Add reTicker options
+- Add Google Sound Search tile
+- Add dynamic VoLTE & VoWiFi icons
+- Allow using 4G icon instead LTE
+- Add Option to Display Data Disabled Indicator Icon
+- Add old style mobile data indicators switch
+- Allow disabling qs on secure lockscreen
+- Add Hide power menu on secure lockscreen switch
+- Add Screen off animations options
+- Implement burn-in protection for status/navbar
+- Allow to hide arrow for back gesture
+- Add Status network traffic options
+- Add toggle for Lockscreen Media Art
+- Add clock position options
+- Add clock AM/PM style options
+- Add clock seconds switch
+- Add battery icon options
+- Add brightness slider options
+- Add Live Volume Steps preference
+- Add Statusbar brightness control
+- Add Volume key cursor control
+- Add Flashlight blink on incoming calls options
+- Add Incall vibration options
+- Add Adaptive Playback aka Smart Pause
+- Add option to scramble pin layout when unlocking
+- Add Toast icon switch
+- Add Less boring heads up option
+- Add Option to add kill button to notification guts
+- Allow scheduling always on display
+- Add option to enable AOD on charging only
+- Add Volume Rocker Wake switch
+- Add Volume Long Press Skip Tracks switch
+- Allow to suppress notifications sound/vibration if screen is ON
+- Add notification counters switch 
+- Allow customizing footer text
+- Allow to disable qs footer warnings
+- Add Haptic Feedback to tiles switch
+- Add options for animations to quick settings tiles
+- Allow changing vibration duration
+- Show user's Google avatar on the settings homepage
+- DerpLauncher: Add DT2S toggle
+- DerpLauncher: Add Google Feed
+- DerpLauncher: Add optional Hotseat searchbar
+- DerpLauncher: Allow changing app suggestion settings
+- DerpLauncher: Allow disabling workspace edit
+- DerpLauncher: Add toggle for desktop and drawer labels
+- DerpLauncher: Add optional Google Lens scan button to recents
+- DerpLauncher: Add kill action to app shortcuts popup
+- DerpLauncher: Add uninstall button to system shortcuts
+- DerpLauncher: Ability to toggle themed icons for all apps
+- DerpLauncher: Implement LocalColorExtractor using monet theme engine
+- DerpLauncher: Enable local colors for popup menu items
+- DerpLauncher: Fix header protection height calculation
+- DerpLauncher: Fix all apps view not dismissing
+- DerpLauncher: Don't vibrate while scrolling
