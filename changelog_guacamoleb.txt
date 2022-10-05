@@ -1,28 +1,34 @@
 Device Changes:
-- HOTFIX for call drops on JIO SIM
-- Update kernel to Neptune-Playground-V1.09 state
-- Enable BLUR 
-- Fix some logspam
-- Drop atrace HIDL 
+- Enable proximity check on wake
+- Update kernel to Neptune-Playground-V2.5 state
+- Add and Enable SSR stack 
 
 ROM Changes:
-- Merge August Security patch (android-12.1.0_r22)
-- Allow user configurable fingerprint wake-and-unlock
-- SystemUIDerpFest: Import Turbo based battery estimates
-- Improve Custom Fonts on Lockscreen clock
-- Add Secondary color for lockscreen clock toggle 
-- Improve Music QS Tile state and remove track title toggle 
-- VolumeDialog: Improve background tint for inactive rows
-- Switch notification background to monet on heads up
-- Fix invisible media output picker when blur is enabled
-- Fix user profile photo picker crash
-- Show the ripple on face auth if skip lockscreen enabled
-- IllustrationPreference: Hide illustration when we fail to play anim
-- Move option to control wallpaper zoom to DerpLauncher
-- DerpLauncher: Add pref to disable wallpaper scrolling
-- DerpLauncher: Add more double-tap actions
-- DerpLauncher: Link hotseat bg corner radius to dialogCornerRadius attribute
-- DerpLauncher: Add light/dark mode support for taskbar background
-- DerpLauncher: Add toggle for memory info view
-- DerpLauncher: Add pref to set app drawer row height
-- Update German and Italian translations
+- Merge October 2022 Security patch (android-13.0.0_r7)
+- Add QS tiles layout customizations
+- Add status bar lyric ticker (needs app support)
+- Add notch bar killer
+- Fix play integrity and unlimited photos thingy
+- Allow toggling floating rotation button
+- Add support for window ignore secure
+- Enable Combined Statusbar Signal icons by default
+- Fix phantom spaces with center clock
+- Make volume toggle in statusbar tuner affect vibrate and mute icons on statusbar
+- Animate cutout padding for QS clock
+- Follow Monet and light/dark theme in user 1 icon
+- QSCustomizer: Fix QS tile reset text color
+- Require unlocking to use USB Tether QS tile
+- Add hotspot toggle in QS internet dialog
+- InternetDialog: Require unlocking to turn on hotspot
+- InternetDialog: Launch mobile network settings on long press
+- GlobalActionsDialog: Dismiss the dialog when restarting SystemUI
+- Reduce horizontal spacing around location icon
+- Fix footer actions faint background
+- Fix Xperia hotspot icon
+- Fix Theme picker color selection
+- Fix Screen off Udfps switch not sticking
+- Fix Glove mode switch
+- Fix incall vib options not showing up on new vib screen
+- Add back DerpFest Updater
+- Update GrapheneOS Camera
+- Update German translations
