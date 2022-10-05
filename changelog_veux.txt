@@ -1,3 +1,2 @@
 Device Changelogs:
--  Initial A13 official build
--  Included Mi Sound Enhancer (dirac) and clear speaker features
+-  Fixed ADB/MTP
