@@ -1,13 +1,10 @@
-- Merge Pixel 7 series tag (android-13.0.0_r11)
-- Add Pulse music visualizer options for Navbar, Lockscreen and Ambient screen
-- Bring back UDFPS icons and animations
-- Allow disabling screenshot shutter sound
-- Support muting media volume on silent or vibrate mode
-- Use red color for low bluetooth battery
-- Fix Volume control while screen off
-- Improve Lockscreen charging info
-- Add hotspot client manager
-- DerpLauncher: Implement Smartspace
-- DerpLauncher: Implement workspace unlock animation
-- DerpLauncher: Improve search bar header protection
+- Fix AOD on charging
+- Add ability to toggle bluetooth battery level
+- Fix tuner pref for bluetooth
+- Fix custom logo overlapping with carrier on Lockscreen
+- Add OOS style notification clear all button customizations
+- Pulse: Implement pulse color based album art
+- Use wireless charging animation for wired charging too
+- DerpLauncher: Add a toggle for smartspace
+- DerpLauncher: Map Aperture camera to camera icon
 - Some more things maybe I can't remember more :P
