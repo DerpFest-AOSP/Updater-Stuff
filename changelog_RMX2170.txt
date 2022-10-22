@@ -1,28 +1,64 @@
-Initial Android 13 DerpFest
-
 [DEVICE]
-- Revamped and added antiflicker, high brightness mode and gaming mode to realme lab
-- Made the lockscreen keyguard text somewhat dynamic independent of screen dpi
+- Merged latest linux patch v4.14.295 in kernel
+- Changed cache partition to f2fs
+- Tuned adaptive suspend parameters
 
 [#MelloLab]
-- Redesigned about phone page
-- Redesigned permission grant dialog and make it follow monet changes
-- Introduced quickspace to the derplauncher
-- Introduced at a glanace messages and greetings to quickspace
-- Introduced overview scrolling scale animation
-- Fixed fp for udfps realme devices
-- Added SuperDart charging support
-- Made ui corners rounded
-- Redesigned seekbar
-- Added vivid theme
-- Fixed paddings in qs and qqs
-- Redesigned battery and storage bars
-- Use app icon for per-app volume
-- Made the udfps background transparent
-- Redesigned volume panel
-- Added toggle to disable call strength icons
-- Optimizations to the qs clock style
-- Monet changes from kdrag0n
+- Introduced memory info in recent apps overview
+- Optimized padding for memory info
+- Introduced extra top & bottom margin for overview task cards
+- Added charging icon to the charging animation
+- Tuned brightness slider paddings
+- Blur the power menu
+- Added lockscreen bottom shortcuts
+- Implemented samsung dynamic surface scrolling solution
+- Speed up the style pruning
+- Fixed some monet palletes cannot be applied
+- SystemUI: Use ImsStateCallback instead of FeatureConnector
+- Fix for hybrid a2dp mode
+- Ported CLO'S memory optimization
+- Ported CLO's protection for renderthread top-app boosting
+- Ported CLO's service reschedule
+- Add developer setting to set the default GPU renderer
+- Add rounded corners to activity open/close animation
+- Skip screen-on animation in all scenarios
+- Disable blur wakeup animation
+- SettiingsLib: Change collapse mode to scale
+- Added chroma to light surface highlight color
+- Made all activities resizable
+- Fixed expand animation for left volume panel
+- Ported Code Linaro's memory compaction optimizations
+- ViewConfiguration: Update fling velocity for modern devices
+- ViewConfiguarion: Optimize ripple animation
 
 [SOURCE]
-- Android 13 with some customizations.
+- Merge October 2022 Security patch (android-13.0.0_r7)
+- Added udfps icon and animation customizations
+- Introduce OOS style notification clear all button
+- Add QS tiles layout customizations
+- Added pulse
+- Add status bar lyric ticker (needs app support)
+- Add notch bar killer
+- Fix play integrity and unlimited photos thingy
+- Allow toggling floating rotation button
+- Add support for window ignore secure
+- Enable Combined Statusbar Signal icons by default
+- Fix phantom spaces with center clock
+- Make volume toggle in statusbar tuner affect vibrate and mute icons on statusbar
+- Animate cutout padding for QS clock
+- Follow Monet and light/dark theme in user 1 icon
+- QSCustomizer: Fix QS tile reset text color
+- Require unlocking to use USB Tether QS tile
+- Add hotspot toggle in QS internet dialog
+- InternetDialog: Require unlocking to turn on hotspot
+- InternetDialog: Launch mobile network settings on long press
+- GlobalActionsDialog: Dismiss the dialog when restarting SystemUI
+- Reduce horizontal spacing around location icon
+- Fix footer actions faint background
+- Fix Xperia hotspot icon
+- Fix Theme picker color selection
+- Fix Screen off Udfps switch not sticking
+- Fix Glove mode switch
+- Fix incall vib options not showing up on new vib screen
+- Add back DerpFest Updater
+- Added Aperture camera
