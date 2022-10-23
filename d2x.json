@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1661547890,
-      "filename": "DerpFest-12-Official-Shinju-d2x-20220826-2305.zip",
-      "id": "b6dfaf01f7ca2da8f2a5a72ee3821c2b2b580a5d20be28f15fb28a56f86d35a2",
+      "datetime": 1666523201,
+      "filename": "DerpFest-13-Official-Tango-d2x-20221023.zip",
+      "id": "6f9763102ec2706006f953c683ee3d3629c1836c156f5a88ec23b5f5a224a171",
       "romtype": "Official",
-      "size": 1567980543,
-      "url": "https://github.com/no-leaks-inside/Releases/releases/download/DerpFest/DerpFest-12-Official-Shinju-d2x-20220826-2305.zip",
-      "version": "12"
+      "size": 1611726179,
+      "url": "https://github.com/glikched/Releases/releases/download/DerpFest_13-231022/DerpFest-13-Official-Tango-d2x-20221023.zip",
+      "version": "13"
     }
   ]
 }
