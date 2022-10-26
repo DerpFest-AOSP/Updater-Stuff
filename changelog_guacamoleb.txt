@@ -1,34 +1,14 @@
 Device Changes:
-- Enable proximity check on wake
-- Update kernel to Neptune-Playground-V2.5 state
-- Add and Enable SSR stack 
+- Fix AOD not updating regularly
+- Update kernel to Neptune-Playground-V2.7 state
 
 ROM Changes:
-- Merge October 2022 Security patch (android-13.0.0_r7)
-- Add QS tiles layout customizations
-- Add status bar lyric ticker (needs app support)
-- Add notch bar killer
-- Fix play integrity and unlimited photos thingy
-- Allow toggling floating rotation button
-- Add support for window ignore secure
-- Enable Combined Statusbar Signal icons by default
-- Fix phantom spaces with center clock
-- Make volume toggle in statusbar tuner affect vibrate and mute icons on statusbar
-- Animate cutout padding for QS clock
-- Follow Monet and light/dark theme in user 1 icon
-- QSCustomizer: Fix QS tile reset text color
-- Require unlocking to use USB Tether QS tile
-- Add hotspot toggle in QS internet dialog
-- InternetDialog: Require unlocking to turn on hotspot
-- InternetDialog: Launch mobile network settings on long press
-- GlobalActionsDialog: Dismiss the dialog when restarting SystemUI
-- Reduce horizontal spacing around location icon
-- Fix footer actions faint background
-- Fix Xperia hotspot icon
-- Fix Theme picker color selection
-- Fix Screen off Udfps switch not sticking
-- Fix Glove mode switch
-- Fix incall vib options not showing up on new vib screen
-- Add back DerpFest Updater
-- Update GrapheneOS Camera
-- Update German translations
+- Fix AOD on charging
+- Add ability to toggle bluetooth battery level
+- Fix tuner pref for bluetooth
+- Fix custom logo overlapping with carrier on Lockscreen
+- Add OOS style notification clear all button customizations
+- Pulse: Implement pulse color based album art
+- Use wireless charging animation for wired charging too
+- DerpLauncher: Add a toggle for smartspace
+- DerpLauncher: Map Aperture camera to camera icon
