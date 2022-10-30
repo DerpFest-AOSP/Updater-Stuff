@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1666521081,
-      "filename": "DerpFest-13-Official-Tango-beyond2lte-20221023.zip",
-      "id": "372ed690cfec7b8e2f962ed1057671914b3f1d56ee7bfee580f194927ee82e41",
+      "datetime": 1667079106,
+      "filename": "DerpFest-13-Official-Tango-beyond2lte-20221029.zip",
+      "id": "254cbecd4dc82039be48ed485dcb1e00a6c5209086d57aeb8c3c582bb2e04ce7",
       "romtype": "Official",
-      "size": 1594011878,
-      "url": "https://github.com/glikched/Releases/releases/download/DerpFest_13-231022/DerpFest-13-Official-Tango-beyond2lte-20221023.zip",
+      "size": 1593388768,
+      "url": "https://sourceforge.net/projects/derpfest/files/beyond2lte/DerpFest-13-Official-Tango-beyond2lte-20221029.zip/download",
       "version": "13"
     }
   ]

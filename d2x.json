@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1666523201,
-      "filename": "DerpFest-13-Official-Tango-d2x-20221023.zip",
-      "id": "6f9763102ec2706006f953c683ee3d3629c1836c156f5a88ec23b5f5a224a171",
+      "datetime": 1667081174,
+      "filename": "DerpFest-13-Official-Tango-d2x-20221029.zip",
+      "id": "ddc7aa4047294e8d3921e5224e0acbb79f00ac360025e0e3ba32aeb57a045152",
       "romtype": "Official",
-      "size": 1611726179,
-      "url": "https://github.com/glikched/Releases/releases/download/DerpFest_13-231022/DerpFest-13-Official-Tango-d2x-20221023.zip",
+      "size": 1611203130,
+      "url": "https://sourceforge.net/projects/derpfest/files/d2x/DerpFest-13-Official-Tango-d2x-20221029.zip/download",
       "version": "13"
     }
   ]
