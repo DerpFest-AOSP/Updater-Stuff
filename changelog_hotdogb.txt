@@ -1,5 +1,17 @@
-- Changed Kernel to Neptune again
-- Added repainter stuff to make it work out of box
-- Switched to lawnchair instead of DerpLauncher
+ROM
+- Initial import of Face Unlock from StagOS
+- Pulse: Add Custom gravity options 
+- Implement background process killer
+- Ambient Music Ticker - Allow to pulse on new tracks
+- Allow disabling clipboard overlay
+- Implement Bluetooth dialog
+- Make battery & clock clickable again in QS
+- Settings: Re-organize sound settings
+- DerpSpace: Use 0-100% values for Media art blur
+- DerpSpace: Move edge light to ambient ui category
+- DerpLauncher: Make google settings dependent on GSA/ASI and reload launcher when either of them are disabled/enabled
+- Aperture: Sync with Lineage
 
-For more info, check the complete changelog under Settings/About Phone
+Device
+- Enable refresh rate tile
+- Add Aperture config for aux cams
