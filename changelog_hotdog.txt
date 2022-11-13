@@ -1,10 +1,21 @@
-- Fix AOD on charging
-- Add ability to toggle bluetooth battery level
-- Fix tuner pref for bluetooth
-- Fix custom logo overlapping with carrier on Lockscreen
-- Add OOS style notification clear all button customizations
-- Pulse: Implement pulse color based album art
-- Use wireless charging animation for wired charging too
-- DerpLauncher: Add a toggle for smartspace
-- DerpLauncher: Map Aperture camera to camera icon
+- Introduce automated Sleep Mode
+- Introduce preferred network QS tile
+- Allow to skip confirmation in biometric auth dialog
+- Make combined signal icons configurable at runtime
+- Make IME space optional
+- Allow disabling ripple effect on unlock
+- Add Statusbar Clock background chip switch 
+- Add toggle to disable charging animation
+- Integrate Google Lens into Screenshot UI
+- Add Wi-Fi standard type icon switch
+- BatteryMeterView: Show a bolt ⚡when charging
+- Add Battery charge warning options
+- charging: Allow using vibration without sounds
+- Disable clock auto hide feature for QS
+- UdfpsResources: Add more resources from Realme RMX3392
+- DerpLauncher: Add toggle to use dark status bar on Home screen
+- DerpLauncher: Actually fix the all apps search bar
+- DerpLauncher: Do not add more space on hotseat with taskbar
+- packages: Build Repainter service by kdrag0n
+- Aperture: Sync with Lineage
 - Some more things maybe I can't remember more :P
