@@ -1,17 +1,25 @@
 Device Changes:
-- kernel arrowmix_r11
-- required to flash firmware V13.0.5.0.SJDMIXM GLOBAL
-- 2b36e58  apollon: Fixed status bar glitch for apps that access internal resource dimen  [shawnlin]
-- b941a6f  apollon: Remove resource overlays for system bar heights  [shawnlin]
-- 9ba99c2  apollon: adjust statusbar padding for keyguard  [Ramii Ahmed]
-- 97fe968  apollon: Adjust rounded corners padding  [ejbtrd]
-- 9fbc0df  apollon: overlay: Tune statusbar height  [ejbtrd]
-- 50a9f1e  apollo: Enable refresh rate toggle in Settings  [Danny Lin]
-- 43c800c  sm8250-common: update from V13.0.5.0.SJDMIXM  [goodmeow]
+- kernel arrowmix_r12
+- required to flash firmware V13.0.10.0.SJDEUXM GLOBAL
+- sm8250-common: update from V13.0.10.0.SJDEUMIXM  [goodmeow]
 
 ROM :
-- Merge July Security patch (android-12.1.0_r10)
-- Fix screen not turning off on some devices 
-- Settings: Add preference for resetting auto brightness adjustment
-- Bluetooth: Add support for showing battery level for AirPods series
-- Settings: DevicePicker: Adapt to S style
+- Introduce automated Sleep Mode
+- Introduce preferred network QS tile
+- Allow to skip confirmation in biometric auth dialog
+- Make IME space optional
+- Allow disabling ripple effect on unlock
+- Add Statusbar Clock background chip switch 
+- Add toggle to disable charging animation
+- Integrate Google Lens into Screenshot UI
+- Add Wi-Fi standard type icon switch
+- BatteryMeterView: Show a bolt ⚡️when charging
+- Add Battery charge warning options
+- charging: Allow using vibration without sounds
+- Disable clock auto hide feature for QS
+- UdfpsResources: Add more resources from Realme RMX3392
+- DerpLauncher: Add toggle to use dark status bar on Home screen
+- DerpLauncher: Actually fix the all apps search bar
+- DerpLauncher: Do not add more space on hotseat with taskbar
+- packages: Build Repainter service by kdrag0n
+- Aperture: Sync with Lineage
