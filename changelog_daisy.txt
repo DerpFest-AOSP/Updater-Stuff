@@ -1,3 +1,40 @@
+Android 13 begims
+17-11-2022 Changelog:
+- Merge android-13.0.0_r13
+- Add FaceUnlock implementation from PE
+- Pulse: Add Custom gravity options 
+- Implement background process killer
+- Ambient Music Ticker - Allow to pulse on new tracks
+- Allow disabling clipboard overlay
+- Implement Bluetooth dialog
+- Make battery & clock clickable again in QS
+- Settings: Re-organize sound settings
+- DerpSpace: Use 0-100% values for Media art blur
+- DerpSpace: Move edge light to ambient ui category
+- DerpLauncher: Make google settings dependent on GSA/ASI and reload launcher when either of them are disabled/enabled
+- Aperture: Sync with Lineage
+- Introduce automated Sleep Mode
+- Introduce preferred network QS tile
+- Allow to skip confirmation in biometric auth dialog
+- Make IME space optional
+- Allow disabling ripple effect on unlock
+- Add Statusbar Clock background chip switch 
+- Add toggle to disable charging animation
+- Integrate Google Lens into Screenshot UI
+- Add Wi-Fi standard type icon switch
+- BatteryMeterView: Show a bolt ⚡when charging
+- Add Battery charge warning options
+- charging: Allow using vibration without sounds
+- Disable clock auto hide feature for QS
+- UdfpsResources: Add more resources from Realme RMX3392
+- DerpLauncher: Add toggle to use dark status bar on Home screen
+- DerpLauncher: Actually fix the all apps search bar
+- DerpLauncher: Do not add more space on hotseat with taskbar
+- packages: Build Repainter service by kdrag0n
+- Aperture: Sync with Lineage
+
+
+
 23-08-2022 Changelog:
 - Merge August Security patch (android-12.1.0_r22)
 - Allow user configurable fingerprint wake-and-unlock
