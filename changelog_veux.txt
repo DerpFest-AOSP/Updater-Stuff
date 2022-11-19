@@ -1,2 +1,8 @@
-Device Changelogs:
+Changelogs for Redmi Note 11 Pro 5G/ Poco X4 Pro 5G
+
+Initial build:
 -  Fixed ADB/MTP
+
+Novermber 19th Update:
+- Fix NFC
+- Include Mi Sound Enhancer/ Clear speaker features
