@@ -1,18 +1,27 @@
 Device changelog:
-- cleanuped some props
-- merged 4.14.299 into kernel
+- merged 4.14.300 and LA.UM.9.1.r1-12900-SMxxx0.QSSI13.0 into kernel
 
 Derp changelog:
-- Merge android-13.0.0_r13
-- Add FaceUnlock implementation from PE
-- Pulse: Add Custom gravity options
-- Implement background process killer
-- Ambient Music Ticker - Allow to pulse on new tracks
-- Allow disabling clipboard overlay
-- Implement Bluetooth dialog
-- Make battery & clock clickable again in QS
-- Settings: Re-organize sound settings
-- DerpSpace: Use 0-100% values for Media art blur
-- DerpSpace: Move edge light to ambient ui category
-- DerpLauncher: Make google settings dependent on GSA/ASI and reload launcher when either of them are disabled/enabled
+ Introduce automated Sleep Mode
+- Introduce preferred network QS tile
+- Allow to skip confirmation in biometric auth dialog
+- Make IME space optional
+- Allow disabling ripple effect on unlock
+- Add Statusbar Clock background chip switch
+- Add toggle to disable charging animation
+- Integrate Google Lens into Screenshot UI
+- Add Wi-Fi standard type icon switch
+- BatteryMeterView: Show a bolt ⚡️when charging
+- Add Battery charge warning options
+- charging: Allow using vibration without sounds
+- Disable clock auto hide feature for QS
+- UdfpsResources: Add more resources from Realme RMX3392
+- DerpLauncher: Add toggle to use dark status bar on Home screen
+- DerpLauncher: Actually fix the all apps search bar
+- DerpLauncher: Do not add more space on hotseat with taskbar
+- packages: Build Repainter service by kdrag0n
 - Aperture: Sync with Lineage
+- Add theme styles from bootleggers
+- Add toggle for disable combined signals
+- Probably i missed something as well :p
+
