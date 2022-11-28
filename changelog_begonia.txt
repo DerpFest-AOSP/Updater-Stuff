@@ -1,47 +1,65 @@
 Device Changelogs:
-- Adding developer GSI keys
-- Clean up aosp interfaces build
-- Disable debug.sf.latch_unsignaled
-- Enable stune boost for top-app
-- Fixed charging current on lockscreen
-- Fixed chrome freeze
-- Fixed hotspot tethering
-- Fixed security DRM L1
-- Import Gcam buffer fix camera blobs
-- Import recommended pm dex props 
-- Reduce number of CPUs for system-background apps
-- Remove some google apps
-- Update blobs from MIUI V12.5.7.0.RGGMIXM
-- Update build fingerprint to SP2A.220405.003
-- Uprev bluetooth audio HIDL impl to 2.1
-- Use HintManager for HWUI
-- Misc fixes and improvement
 
-Rom Changelogs:
-- Rebase on android-12.1.0_r4
-- Switch to QS brightness slider customizations from Yaap
-- Switch to VoLTE/VoWifi icon customizations from Nitrogen
-- Switch to vibration intensity control implementation from AOSPA
-- Add Descendant's Reticker
-- Fix and make the volume dialog expandable
-- DerpSpace: Make use of AOSP small clock switch instead of using separate one
-- Settings: Add more trigger actions/app/activities to advanced gestures
-- NavigationGestures: Allow customizing gestural margin bottom
-- Settings: Rearrange and categorize gestures & keys fragment
-- Settings: Add Battery charge warning options
-- Lockscreen charging: Bring back Pie style of charging line where battery info is displayed in the second line if enabled
-- Lockscreen charging: Bring in °F/°C toggle
-- Remove heads up stoplist
-- Add back Less boring heads up option
-- Add HUN importance selector
-- Add option to disable notifications vibration
-- Remove Battery left text option
-- Add music QS tile title toggle
-- Move wallpaper zoom switch to DerpSpace
-- Add switch to hide status bar on lock screen
-- Add switch for kill button in notification guts
-- Add switch to force expanded notifications
-- Add switch to force expanded media player
-- Add switch to launch default music player on headset connect
-- DevSettings: Add Alarms and Wakelock Blocker
-- Started with barbones DerpLauncher
+28th November 2022.
+
+General:
+  • Synced with DerpFest Source Code.
+  • Updated device fingerprint to latest from Google Pixel 7 Pro.
+  • TWRP updated to (v3.6.2_12-4) By 7Soldier.
+  • Merged November Security Patch.
+
+Kernel:
+  • Upstreamed Kernel to Revision -299
+  • Fixed touchscreen for replaced displays
+  • Improved UI/UX smoothness
+  • Other miscellaneous changes.
+
+Connectivity and wireless interfaces:
+  • Updated network stack and IMS frameworks.
+  • Fixed network work after flashing MIUI kernel.
+  • Fixed slow speed of Wi-Fi caused by GMS services.
+  • Added optimizations for faster connectivity speed on TCP.
+  • Enabled icon and probably support for LTE+.
+
+Screen and graphics:
+  • Fixed YT green screen issues.
+  • Replaced some graphics services taken from Redmi Note 10S (MIUI 13).
+  • Updated dimension and rounded corners configuration.
+  • Fixed margins of status bar.
+  • Removed deprecated implementation of Render Script.
+
+Smoothness, performance, and battery backup:
+  • Improved smoothness by changing the layout strategy of HWC.
+  • Enabled back latching of unsignaled graphics buffers.
+  • Optimized CPU core booting for individual process groups.
+  • Increased preference of idle CPU cores for process groups.
+  • Increased SchedTune performance boosts for process groups.
+  • Disabled LMK low-ram profile config.
+  • Disabled SkiaGL render traces, improved smoothness.
+  • General improvements for smoothness, performance, and battery backup.
+
+Media and video:
+  • Enabled support for EIS and Camera HAL3.
+
+Security:
+  • Some changes and re-addressed domains in SEPolicy.
+
+Extra stuff:
+  • Added Xiaomi Parts (No doze implementation).
+  • Added missing flags for secured integrity of Java-classes in Xiaomi Parts.
+  • Fixed bug with scrolling Thermal Profiles to end in Xiaomi Parts.
+  • Updated icons for Thermal Profiles in Xiaomi Parts.
+  • Fixed Thermal Service dying log spams.
+  • Added CTS profile spoofing.
+
+System-side:  
+  • Show “Turbo charging” instead of “Charging rapidly” on lock screen.
+  • Fixed some paths loading for fingerprint in inits.
+  • Improved log-spam caused by glitchy system services.
+  • Added Mediatek Engineering Mode.
+  • Updated Media Volume Steps to 15 & Call Volume Steps to 7.
+  • Disabled Third Party Location Providers Support.
+  • Added option to show option for memory in app info settings.
+  • Added some more apps for dex-pre-opting.
+  • Pre-included chrome.
+  • Fixed Permission Controller force closed issue.
