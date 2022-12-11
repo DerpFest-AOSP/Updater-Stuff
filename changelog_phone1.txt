@@ -1,0 +1,5 @@
+Device Changelog:
+- Initial build 
+- SELinux Enforcing 
+- Nos cam included 
+- Twrp recovery inbuilt 
