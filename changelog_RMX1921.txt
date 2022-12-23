@@ -1,28 +1,12 @@
-Device Changelog:
+Changelog:
 
 * Latest Derpfest source upstream
-* Merged November security patch
-* Update system blobs from LA.QSSI.13.0.r1-06400-qssi.0
+* Merged December security patch
+* Update system blobs from LA.QSSI.13.0.r1-07400-qssi.0
 * Added fod icons & animations customizations
+- Added UI styles from bootleg
 * Bring back Face Unlock feature
 • Added new LineageOS camera app called Aperture with auxiliary lenses support.
 * Fixed call recording in Google Dialer
 * SafetyNet pass without root as usual
 * More improvements & bug fixes!
-
-Rom Changelog:
-
-- Merge android-13.0.0_r13
-- Add FaceUnlock implementation from PE
-- Pulse: Add Custom gravity options
-- Implement background process killer
-- Ambient Music Ticker
-- Allow to pulse on new tracks
-- Allow disabling clipboard overlay
-- Implement Bluetooth dialog
-- Make battery & clock clickable again in QS
-- Settings: Re-organize sound settings
-- DerpSpace: Use 0-100% values for Media art blur
-- DerpSpace: Move edge light to ambient ui category
-- DerpLauncher: Make google settings dependent on GSA/ASI and reload launcher when either of them are disabled/enabled
-- Aperture: Sync with Lineage
