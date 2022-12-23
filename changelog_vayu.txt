@@ -1,18 +1,7 @@
 Device :
-- Fix Play Certification for bhima (need to check more, since i dont have bhima)
-- kernel Upstreamed to 4.14.299
+- kernel: Upstreamed to 4.14.302
+- kernel: Merge CLO Tag to 'LA.UM.9.1.r1-12900-SMxxx0.0'
+- Chrome included for fix Permission Controller FC
 
 ROM :
-- Merge android-13.0.0_r13
-- Add FaceUnlock implementation from PE
-- Pulse: Add Custom gravity options
-- Implement background process killer
-- Ambient Music Ticker - Allow to pulse on new tracks
-- Allow disabling clipboard overlay
-- Implement Bluetooth dialog
-- Make battery & clock clickable again in QS
-- Settings: Re-organize sound settings
-- DerpSpace: Use 0-100% values for Media art blur
-- DerpSpace: Move edge light to ambient ui category
-- DerpLauncher: Make google settings dependent on GSA/ASI and reload launcher when either of them are disabled/enabled
-- Aperture: Sync with Lineage
+- Merge android-13.0.0_r16
