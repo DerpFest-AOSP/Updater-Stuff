@@ -1,9 +1,24 @@
 Device Changes:
-- Finetune height of the status bar
+- Fixed 48mp MiuiCamera
+- Upstreamed QS kernel to v4.14.302
+- Drop deprecated iorap stuff
+- Bring back the new AIDL QTI thermal HAL
+- Fixed low mic volume on voip
+- Increase In-call earpiece volume
+- Addressed some denials
+- Extend buffer size to 256kb for offload playback
+- Compile HWUI for performance
+- Tuning UFS clkgate and ah8 during boot time
+- Disable client composition cache
+- Increase active layer timeout to 1s
+- Enable GL comp backpressure
+- Misc optimizations and fixes
 
 ROM Changes:
-- Merge July Security patch (android-12.1.0_r10)
-- Fix screen not turning off on some devices
-- Settings: Add preference for resetting auto brightness adjustment
-- Bluetooth: Add support for showing battery level for AirPods series
-- Settings: DevicePicker: Adapt to S style
+- Rebase on December security patch (android_13.0.0.r16)
+- Switch to Lineage button settings implementation (some things can be only shown on hw key devices and I don't have one, invert layout was already reported to be not working on cheeseburger)
+- Add Power menu styles
+- Add Android P system animations switch
+- Add Screenshot QS tile
+- Add VPNTethering tile
+- Some more things maybe I can't remember more :P
