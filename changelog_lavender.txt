@@ -1,12 +1,15 @@
 Device changelogs;
 
-8th December 2022.
+25th December 2022.
 
-What's Fixed:
-• DT2W issue fixed.
-• Decryption issue fixed.
-• Bluetooth issue fixed.
-• GCam freezing issue fixed.
-• Synced with DerpFest Source Code.
-• Shipped kernel with Gasai Yuno V1 (Thanks @ImPrashantt for kernel source)
-• Improved smoothness.
+overlay:
+• lavender: overlay: SystemUI: Enable combined signal icons in status bar
+• lavender: adjust ROUNDED_CORNER_CONTENT_PADDING
+
+lavender (Generally):
+• lavender: Bump FP to sunfish Dec. '22
+• lavender: Remove non-existing targets
+• lavender: Initial Derp
+• lavender: Generate FCM
+• lavender: init: Drop no longer necessary libbase include dir
+• lavender: Allow ELF prebuilts in PRODUCT_COPY_FILES.
