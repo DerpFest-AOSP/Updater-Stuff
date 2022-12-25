@@ -1,7 +1,7 @@
 Device Changes:
 - kernel arrowmix_r12
-- required to flash firmware V13.0.10.0.SJDEUXM GLOBAL
-- sm8250-common: update from V13.0.10.0.SJDEUMIXM  [goodmeow]
+- required to flash firmware V13.0.8.0.SJDMIXM
+- sm8250-common: update from V13.0.8.0.SJDMIXM
 
 ROM :
 - Introduce automated Sleep Mode
