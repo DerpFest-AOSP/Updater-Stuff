@@ -1,7 +1,14 @@
 Device :
-- kernel: Upstreamed to 4.14.302
-- kernel: Merge CLO Tag to 'LA.UM.9.1.r1-12900-SMxxx0.0'
-- Chrome included for fix Permission Controller FC
+- update blobs from miui_VAYUIDGlobal_V13.0.4.0.SJUIDXM_fb9db432e2_12.0.zip
 
 ROM :
-- Merge android-13.0.0_r16
+- Rebase on December security patch (android_13.0.0.r16) aka QPR1
+- Switch to Lineage button settings implementation
+- Add Power menu styles
+- Add Android P system animations switch
+- Add Screenshot QS tile
+- Add VPNTethering tile
+- Add AppLock
+- Add ParallelSpace 
+- Add HideApps feature
+- DerpLauncher: Add opacity customizations
