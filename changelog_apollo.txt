@@ -1,4 +1,5 @@
 Device Changes:
+- under the hood fixes
 - kernel arrowmix_r12
 - implement usbv2 audio policy
 - required to flash firmware V13.0.8.0.SJDMIXM
