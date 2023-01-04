@@ -1,17 +1,28 @@
-ROM
-- Initial import of Face Unlock from StagOS
-- Pulse: Add Custom gravity options 
-- Implement background process killer
-- Ambient Music Ticker - Allow to pulse on new tracks
-- Allow disabling clipboard overlay
-- Implement Bluetooth dialog
-- Make battery & clock clickable again in QS
-- Settings: Re-organize sound settings
-- DerpSpace: Use 0-100% values for Media art blur
-- DerpSpace: Move edge light to ambient ui category
-- DerpLauncher: Make google settings dependent on GSA/ASI and reload launcher when either of them are disabled/enabled
-- Aperture: Sync with Lineage
+ROM:
+- Rebase on December security patch (android_13.0.0.r16) aka QPR1
+- Switch to Lineage button settings implementation
+- Add Power menu styles
+- Add Android P system animations switch
+- Add Screenshot QS tile
+- Add VPNTethering tile
+- Add AppLock
+- Add ParallelSpace
+- Add HideApps feature
+- DerpLauncher: Add opacity customizations
+- Add a panic trigger to Global actions
+- Fix power menu checkboxes not applying
+- Fix edge long swipe gesture
+- Enable new volume panel dialog 
+- Show the alarm icon in QS
+- Fix glitchy charging info on AOD
+- DerpSpace: Improve seekbar drawables
+- DerpLauncher: Implement hidden apps 
+- DerpLauncher: Fix glitch when closing apps from recents
+- DerpLauncher: Fix taskbar crash without QSB
+- DerpLauncher: Adjust suggestions row vertical padding
+- DerpLauncher: Do not limit the number of search results
+- DerpLauncher: Improve seekbar drawables
+- Sync Aperture with Lineage
 
-Device
-- Enable refresh rate tile
-- Add Aperture config for aux cams
+DEVICE:
+- Upstreamed kernel to 4.14.301
