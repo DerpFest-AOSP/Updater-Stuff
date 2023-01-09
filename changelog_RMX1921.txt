@@ -1,12 +1,69 @@
-Changelog:
+Device Changelog:
 
 * Latest Derpfest source upstream
-* Merged December security patch
-* Update system blobs from LA.QSSI.13.0.r1-07400-qssi.0
-* Added fod icons & animations customizations
-- Added UI styles from bootleg
-* Bring back Face Unlock feature
-• Added new LineageOS camera app called Aperture with auxiliary lenses support.
-* Fixed call recording in Google Dialer
+* Merged Jan security patch
+* Finally fixed old & most annoying bug/crash when you try to set custom notification tone per app.(Thanks to Lead dev Alex)
+* Update system blobs from LA.QSSI.13.0.r1-08200-qssi.0
+* Clean-up unnecessary ims system blobs
+* Added the missing ims blob vendor.qti.imsrtpservice@3.1
+* An attempt to fix carrier video calling(test & report)
+* An attempt to fix camera issues(test & report)
+* Fixed media playback stuck issue
+* Fixed Moto Dolby
+* Updated GcamGo with more features & removed Lineage Aperture camera
+- Forced to use front camera for faceunlock
+* Disallow aux cam usage for Telegram & its popular clients
+* Disallow aux cam usage for Zoom
+* Added Hotword Enrollment blobs from vayu
+* Fixed ok Google voice match
+* Removed unwanted permissions & addressed some denials
 * SafetyNet pass without root as usual
 * More improvements & bug fixes!
+
+Rom Changelog:
+
+- Merge January security patch (android-13.0.0_r23)
+- Add support for Lockscreen clock fonts (DerpSpace > Lockscreen UI)
+- Add Advanced Monet settings from Yaap
+- Add back toggle for quick qs pull down
+- Add Colored statusbar icons switch
+- Allow to show Wi-Fi standard icon next to WiFi signal indicator
+- Add custom screen resolution setting for supported devices
+- Switch to Lineage impl for notification and battery light settings
+- Fix VoLTE/VoWifi not showing on sim2
+- Shorten auth ripple animation duration by 50% by default and make it overlayable for maintainers
+- Add haptic feedback to long press power button torch option
+- Fix layout of old style mobile indicator
+- Fix launch of permision revoke activity from playstore
+- Fix battery graph disappearing when reaching 100%
+- telephony: Use case insensitive check for plmn-spn to avoid showing "JIO - Jio" or "O2 -o2" for example
+- device_config: Update AiAi configs for captions and translation
+- device_config: Globally enable the new photo picker
+- device_config: Enable smart actions in the clipboard overlay
+- device_config: Force enable one-search bar on Pixel Launcher
+- DerpLauncher: Keep hotseat bottom spacing for taskbar devices
+- DerpLauncher: Fix recents crash with parallel space
+- Sync Aperture with Lineage
+- Add a panic trigger to Global actions
+- Fix power menu checkboxes not applying
+- Fix edge long swipe gesture
+- Enable new volume panel dialog
+- Show the alarm icon in QS
+- Fix glitchy charging info on AOD 
+- DerpSpace: Improve seekbar drawables
+- DerpLauncher: Implement hidden apps
+- DerpLauncher: Fix glitch when closing apps from recents
+- DerpLauncher: Fix taskbar crash without QSB
+- DerpLauncher: Adjust suggestions row vertical padding
+- DerpLauncher: Do not limit the number of search results
+- DerpLauncher: Improve seekbar drawables
+- Rebase on December security patch (android_13.0.0.r16) aka QPR1
+- Switch to Lineage button settings implementation
+- Add Power menu styles
+- Add Android P system animations switch
+- Add Screenshot QS tile
+- Add VPNTethering tile
+- Add AppLock
+- Add ParallelSpace
+- Add HideApps feature
+- DerpLauncher: Add opacity customizations
