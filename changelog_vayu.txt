@@ -1,14 +1,23 @@
-Device :
-- update blobs from miui_VAYUIDGlobal_V13.0.4.0.SJUIDXM_fb9db432e2_12.0.zip
-
 ROM :
-- Rebase on December security patch (android_13.0.0.r16) aka QPR1
-- Switch to Lineage button settings implementation
-- Add Power menu styles
-- Add Android P system animations switch
-- Add Screenshot QS tile
-- Add VPNTethering tile
-- Add AppLock
-- Add ParallelSpace 
-- Add HideApps feature
-- DerpLauncher: Add opacity customizations
+- Merge January security patch (android-13.0.0_r23)
+- Add support for Lockscreen clock fonts (DerpSpace > Lockscreen UI)
+- Add Advanced Monet settings from Yaap
+- Add back toggle for quick qs pull down
+- Add Colored statusbar icons switch
+- Allow to show Wi-Fi standard icon next to WiFi signal indicator
+- Add custom screen resolution setting for supported devices
+- Switch to Lineage impl for notification and battery light settings 
+- Fix VoLTE/VoWifi not showing on sim2
+- Shorten auth ripple animation duration by 50% by default and make it overlayable for maintainers
+- Add haptic feedback to long press power button torch option
+- Fix layout of old style mobile indicator
+- Fix launch of permision revoke activity from playstore
+- Fix battery graph disappearing when reaching 100%
+- telephony: Use case insensitive check for plmn-spn to avoid showing "JIO - Jio" or "O2 -o2" for example 
+- device_config: Update AiAi configs for captions and translation
+- device_config: Globally enable the new photo picker
+- device_config: Enable smart actions in the clipboard overlay
+- device_config: Force enable one-search bar on Pixel Launcher
+- DerpLauncher: Keep hotseat bottom spacing for taskbar devices
+- DerpLauncher: Fix recents crash with parallel space 
+- Sync Aperture with Lineage
