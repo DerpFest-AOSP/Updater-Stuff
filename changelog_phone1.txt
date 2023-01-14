@@ -1,5 +1,5 @@
 Device Changelog:
-- Initial build 
-- SELinux Enforcing 
-- Nos cam included 
-- Twrp recovery inbuilt 
+- Added glyph lighting 
+- Fixed mic audio on call 
+- Fixed dual sim 
+- Nuked twrp prebuilt 
