@@ -1,2 +1,5 @@
+[15/01/23] - Removed Unwanted Packages From GAPPS (Can be installed back via Google Play)
+[15/01/23] - Monet Customization
+[15/01/23] - Ambient Display added
 [07/01/23] - January SPL Update
 [06/01/23] - Upstream Kernel to '4.14.302'
