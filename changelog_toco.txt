@@ -1,140 +1,58 @@
 Device Changes:
-- Add AOSP RCS packages
-- Add compilation of legacy audio
-- Add faceunlock package to aux cam list
-- Add missed overlay during RRO switch
-- Add permission for Xiaomiparts
-- Add xiaomi cit sensor service
-- Add xiaomi misys support
-- Build android.hardware.audio@7.1-util
-- Build libtinyxml2
-- Bump EROFS PCluster Size
-- configs: Update public.libraries.txt from stock
-- Drop tetheroffload packages
-- Drop unnecessary overlay configs
-- Drop vendor.qti.hardware.servicetracker@1.2 HIDL
-- Enable AIDL DRM HALs
-- Fixup Vulkan deQP permission copy 
-- Import Pixel thermal HAL
-- Import Xiaomi displayfeature
-- libinit: Add support of .mod_device hides
-- livedisplay: Fix racy init
-- media: Fix VTS issue
-- Move sm6150-idp-snd-card_Button_Jack.kl to correct path
-- Move to common Xiaomi displayfeature HIDL
-- overlay: Add default vibration intensites
-- overlay: Disable pocket lock support
-- overlay: Don't pin camera app in memory
-- overlay: Drop non-existent overlays
-- overlay: Offload WM shell to another thread
-- overlay: Restore COLOR_MODE_SATURATED
-- overlay: Set transparent udfps color
-- overlay: Update pinner list
-- overlay: Update vibration patterns from stock
-- parts: Add missing proguard.flags
-- parts: Add missing thermal profile permission
-- parts: Dirac fixes
-- parts: Drop support for Hi-Fi
-- parts: Import BootCompletedReceiver IntentFilter
-- parts: Move Thermal Profiles to system section
-- parts: Remove proximity sensor gestures
-- parts: Restore MiSound scene on boot complete
-- prop: Disable QCRIL power saving
-- prop: Disable Skia tracing by default
-- prop: Do not block binder thread on incoming calls
-- prop: Don't set to adaptive mode by default
-- prop: Enable DPM Connection Tracking (CT)
-- prop: Enable IncrementalFS support
-- prop: For smoother scrolling and better responsiveness
-- prop: Pull props for USB controller configuration
-- prop: Remove QTI BT stack bits
-- prop: Switch to AutoSingleLayer A13 setting
-- props: Move DPM feature props to /system_ext
-- Purge mi_thermald
-- Refactor camera blobs
-- Restore ims-vt prop & overlay
-- Restore PRODUCT_AAPT config
-- rootdir: Fix ueventd "Invalid section keyword found"
-- rootdir: Import oriole cpuctl tuning
-- rootdir: Set readahead_size_kb=128 to data
-- sepolicy: Add missing declarations of data/vendor/cit
-- sepolicy: Address more health denials
-- sepolicy: Address sensor denials
-- sepolicy: Fix faceunlock denial
-- sepolicy: Label UDFPS state node
-- Ship Leica MiuiCamera mod
-- Ship VantomKernel v4.14.300
-- Switch to common QTI vibrator HAL
-- Switch to lz4 erofs compression
-- udfps: Set fod status based on vendor acquired and cancel
-- Update blobs from sweet V13.0.14.0.SKFMIXM
-- Update blobs from sweet V13.0.15.0.SKFMIXM
-- Update build fp & desc to MIUI V13.0.4.0.SFNMIXM
-- Update from LA.QSSI.13.0.r1-06400-qssi.0
-- Update Moto dolby
-- Update panel info
-- Update system blobs from LA.QSSI.13.0.r1-05800-qssi.0
-- Update system from LA.QSSI.13.0.r1-07400-qssi.0
-- Use LZ4 compression for ramdisks
-- Use RSA4096 key also for vbmeta_system
-- WifiSM6150: Configure correct overlay configuration
+
+- configs: Update qdcm display calibration to MIUI V13.0.4.0
+- gps: Silence all warnings
+- gps: Update to LA.UM.9.1.r1-13000-SMxxx0.QSSI13.0
+- Inherit several Android Go configurations
+- Kill console parameters
+- libinit: Add support for .build_fingerprint info
+- overlay: Configure SQLite to operate in MEMORY mode
+- overlay: Set google autofill service as default
+- parts: Add Dirac logo
+- parts: Address services derp
+- parts: Fix compilation for QPR1 merge
+- powerhint: Fix undefined value in Node[PMQoSCpuDmaLatency]
+- powerhint: Import camera hints
+- powerhint: Restore EnergyAware node
+- powerhint: Set camera cpuset to little cores when unused
+- prop: Add touch improvements sysprops 
+- prop: Enable apk fs-verity
+- prop: Import more props for RIL powersaving
+- prop: RIL edits for battery life
+- rootdir: Add back UFS sysfs path
+- sepolicy: Address power hal denial
+- sepolicy: Update graphics_composer rules
+- Ship Leica camera mod
+- Speed profile services and wifi-service
+- Switch to OnePlus Dolby
+- Update system blobs from LA.QSSI.13.0.r1-08200-qssi.0
 
 ROM:
-- Merge android-13.0.0_r13
-- Add FaceUnlock implementation from PE
-- Pulse: Add Custom gravity options 
-- Implement background process killer
-- Ambient Music Ticker - Allow to pulse on new tracks
-- Allow disabling clipboard overlay
-- Implement Bluetooth dialog
-- Make battery & clock clickable again in QS
-- Settings: Re-organize sound settings
-- DerpSpace: Use 0-100% values for Media art blur
-- DerpSpace: Move edge light to ambient ui category
-- DerpLauncher: Make google settings dependent on GSA/ASI and reload launcher when either of them are disabled/enabled
-- Introduce automated Sleep Mode
-- Introduce preferred network QS tile
-- Allow to skip confirmation in biometric auth dialog
-- Make IME space optional
-- Allow disabling ripple effect on unlock
-- Add Statusbar Clock background chip switch 
-- Add toggle to disable charging animation
-- Integrate Google Lens into Screenshot UI
-- Add Wi-Fi standard type icon switch
-- BatteryMeterView: Show a bolt ⚡when charging
-- Add Battery charge warning options
-- charging: Allow using vibration without sounds
-- Disable clock auto hide feature for QS
-- UdfpsResources: Add more resources from Realme RMX3392
-- DerpLauncher: Add toggle to use dark status bar on Home screen
-- DerpLauncher: Actually fix the all apps search bar
-- DerpLauncher: Do not add more space on hotseat with taskbar
-- packages: Build Repainter service by kdrag0n
-- Aperture: Sync with Lineage
-- Introduce keyguard battery bar settings
-- Allow choosing a custom vibration pattern
-- Add support for clock auto-hiding
-- Add Wallpaper zooming switch
-- Add option to disable media player squiggle animation
-- Add DerpSpace QS tile
-- Add QS tile to show volume panel
-- LocationTile: Be affected by the secure tiles toggle
-- Enable Volume hush gesture settings 
-- UdfpsResources: Add one piece udfps icons
-- Adjust default three-button navbar layouts
-- Update Pixel charger animation from Pixel 7 Pro
-- ThemePicker: Introduce font picker
-- WallpaperPicker: Fix overlapping when scrolling
-- DerpLauncher: Add support for enabling taskbar on phones
-- DerpLauncher: Open google weather on tapping smartspace
-- DerpLauncher: Do not limit the number of search results
-- Reduce horizontal spacing around location icon
-- Fix footer actions faint background
-- Fix Xperia hotspot icon
-- Fix Theme picker color selection
-- Fix Screen off Udfps switch not sticking
-- Fix Glove mode switch
-- Fix incall vib options not showing up on new vib screen
-- Add back DerpFest Updater
-- Update GrapheneOS Camera
-- Update German translations
+- Merge January security patch (android-13.0.0_r23)
+- Add support for Lockscreen clock fonts (DerpSpace > Lockscreen UI)
+- Add Advanced Monet settings from Yaap
+- Add back toggle for quick qs pull down
+- Add Colored statusbar icons switch
+- Allow to show Wi-Fi standard icon next to WiFi signal indicator
+- Add custom screen resolution setting for supported devices
+- Switch to Lineage impl for notification and battery light settings 
+- Fix VoLTE/VoWifi not showing on sim2
+- Shorten auth ripple animation duration by 50% by default and make it overlayable for maintainers
+- Add haptic feedback to long press power button torch option
+- Fix layout of old style mobile indicator
+- Fix launch of permision revoke activity from playstore
+- Fix battery graph disappearing when reaching 100%
+- telephony: Use case insensitive check for plmn-spn to avoid showing "JIO - Jio" or "O2 -o2" for example 
+- device_config: Update AiAi configs for captions and translation
+- device_config: Globally enable the new photo picker
+- device_config: Enable smart actions in the clipboard overlay
+- device_config: Force enable one-search bar on Pixel Launcher
+- DerpLauncher: Keep hotseat bottom spacing for taskbar devices
+- DerpLauncher: Fix recents crash with parallel space 
+- Enable new qpr2 combined QS header layout
+- Add back separate signal icons switch
+- Add Transparent QS customization
+- Allow setting bottom keyguard shortcuts
+- Add restart systemui shortcut to power menu
+- Don't force small clock when media isn't allowed on keyguard
+- Sync Aperture with Lineage
