@@ -1,38 +1,74 @@
 [DEVICE]
-- Merged latest linux patch v4.14.299 to kernel
-- Fixed the play integrity thing
-- Enabled EIS for camera
-- Implemented qcom implementation for audio effects (better bassboost, virtual and reverb effects)
-- Optimized the shutdown time
-- Extend buffer size to 256kb for offload playback
-- Enabled aux camera for Aperture
-- Added ACDB IDs for voice recording
+- Enforcing
+- kernel: merged latest linux patch v4.14.304
+- Switch to AutoSingleLayer Android 13 Setting
+- Disable vsync for CPU rendered Apps
+- Fixup sb/qs height paddings
+- Set block_binder_thread_on_incoming_calls prop
+- Disable phantom process monitoring
+- Configured and increased volume steps for more precision
+    Media: 30
+    System: 20
+    Voice call: 15
+    Alarm: 15
 
 [#MelloLab]
-- Added toggle to enable toasts for Apps Cleared in launcher
-- Redesign reticker notification like OneUI's brief pop-up notif style
-- Fix freeform window resize not working on multiple displays
-- Remove unnecessary HashMap instantiation
-- Apply color accent to clear all button
-- Update battery info every second when device is charging
-- Services: Boost gesture flings
-- Improve fp ripple animation color
-- Add missing native audio formats
-- Add AUDIO_FORMAT_APTX_ADAPTIVE_{QLEA|R4}
-- Migrate deprecated getColor to one with Theme
-- Play all charging animator sets at the same time
-- Many more changes and fixes
+- Screenshot: Speed up actions expansion animation
+- Improved collapsing toolbar scrim color
+- Improved collapsing toolbar scrim animation
+- Increased collapsing toolbar height for better one hand management
+- Revamped power menu
+- Added systemui reboot
+- Redesigned, revamped like OOS13 and animated progress bar for battery and storage based on monet
+- Made the background in powermenu blur
+- CachedAppOptimizer : Fix cached & persistent apps compaction
+- Introduce AOSP boost and memory optimization framework API
+- ripple: Replace with Fluent Design-inspired animation
+- SystemUI: Fix black screen after DOZE
+- Guard in short-circuit evaluations for stringSplit methods
+- Sync anim durations with Nothing Phone 1
+- JobScheduler: Stop leaking user information
+- SystemUI: properly align Notification Icons
+- SystemUI: Optimize system statusbar icons
+- android: responsiveness optimizations
+- Removed QS footer text customisation
+- Added daily data usage toggle to QS footer
+- Fixed the UDFPS icon not aligned properly for some apps (gpay, hide apps, etc)
+- Allow double tap to wake on ambient display
+- SystemUI: Improve vertical QS tile layout & animation
+- SystemUI: Make lockscreen keyguard elements follow clock font
+- Added uninstall button to DerpLauncher shortcuts
+- Add background chip to memory info in recents view
+- Rework memory info
+- Enabled the live tile in recents view
+- So many fixes, improvements for daily usage and under-the-hood changes I cannot mention all (kindly check changelog section in rom)
 
 [SOURCE]
-- Merge android-13.0.0_r13
-- Add FaceUnlock implementation from PE
-- Pulse: Add Custom gravity options 
-- Implement background process killer
-- Allow disabling clipboard overlay
-- Implement Bluetooth dialog
-- Make battery & clock clickable again in QS
-- Settings: Re-organize sound settings
-- DerpSpace: Use 0-100% values for Media art blur
-- DerpSpace: Move edge light to ambient ui category
-- DerpLauncher: Make google settings dependent on GSA/ASI and reload launcher when either of them are disabled/enabled
-- Aperture: Sync with Lineage
+- Merge January security patch (android-13.0.0_r23)
+- Add support for Lockscreen clock fonts (DerpSpace > Lockscreen UI)
+- Add Advanced Monet settings from Yaap
+- Add back toggle for quick qs pull down
+- Add Colored statusbar icons switch
+- Allow to show Wi-Fi standard icon next to WiFi signal indicator
+- Add custom screen resolution setting for supported devices
+- Switch to Lineage impl for notification and battery light settings 
+- Fix VoLTE/VoWifi not showing on sim2
+- Shorten auth ripple animation duration by 50% by default and make it overlayable for maintainers
+- Add haptic feedback to long press power button torch option
+- Fix layout of old style mobile indicator
+- Fix launch of permision revoke activity from playstore
+- Fix battery graph disappearing when reaching 100%
+- telephony: Use case insensitive check for plmn-spn to avoid showing "JIO - Jio" or "O2 -o2" for example 
+- device_config: Update AiAi configs for captions and translation
+- device_config: Globally enable the new photo picker
+- device_config: Enable smart actions in the clipboard overlay
+- device_config: Force enable one-search bar on Pixel Launcher
+- DerpLauncher: Keep hotseat bottom spacing for taskbar devices
+- DerpLauncher: Fix recents crash with parallel space
+- Enable new qpr2 combined QS header layout
+- Add back separate signal icons switch
+- Add Transparent QS customization
+- Allow setting bottom keyguard shortcuts
+- Add restart systemui shortcut to power menu
+- Don't force small clock when media isn't allowed on keyguard
+- Sync Aperture with Lineage
