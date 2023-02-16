@@ -1,19 +1,15 @@
 Device Changelog:
 
 * Latest Derpfest source upstream
-* Merged Jan security patch
+* Merged Feb security patch
 * Finally fixed old & most annoying bug/crash when you try to set custom notification tone per app.(Thanks to Lead dev Alex)
-* Update system blobs from LA.QSSI.13.0.r1-08200-qssi.0
+* Updated system blobs from LA.QSSI.13.0.r1-09000-qssi.0
+* Updated CarrierConfigs from LA.QSSI.13.0.r1-08600-qssi.0
 * Clean-up unnecessary ims system blobs
 * Added the missing ims blob vendor.qti.imsrtpservice@3.1
-* An attempt to fix carrier video calling(test & report)
-* An attempt to fix camera issues(test & report)
-* Fixed media playback stuck issue
-* Fixed Moto Dolby
-* Updated GcamGo with more features & removed Lineage Aperture camera
-- Forced to use front camera for faceunlock
-* Disallow aux cam usage for Telegram & its popular clients
-* Disallow aux cam usage for Zoom
+* Removed Moto Dolby(Not working with Bluetooth headset)
+* Imported Dolby Atmos from OnePlus 9R (Updated one & working fine with Bluetooth headset)
+* Fixed carrier video calling(ViLTE)
 * Added Hotword Enrollment blobs from vayu
 * Fixed ok Google voice match
 * Removed unwanted permissions & addressed some denials
@@ -22,48 +18,32 @@ Device Changelog:
 
 Rom Changelog:
 
-- Merge January security patch (android-13.0.0_r23)
-- Add support for Lockscreen clock fonts (DerpSpace > Lockscreen UI)
-- Add Advanced Monet settings from Yaap
-- Add back toggle for quick qs pull down
-- Add Colored statusbar icons switch
-- Allow to show Wi-Fi standard icon next to WiFi signal indicator
-- Add custom screen resolution setting for supported devices
-- Switch to Lineage impl for notification and battery light settings
-- Fix VoLTE/VoWifi not showing on sim2
-- Shorten auth ripple animation duration by 50% by default and make it overlayable for maintainers
-- Add haptic feedback to long press power button torch option
-- Fix layout of old style mobile indicator
-- Fix launch of permision revoke activity from playstore
-- Fix battery graph disappearing when reaching 100%
-- telephony: Use case insensitive check for plmn-spn to avoid showing "JIO - Jio" or "O2 -o2" for example
-- device_config: Update AiAi configs for captions and translation
-- device_config: Globally enable the new photo picker
-- device_config: Enable smart actions in the clipboard overlay
-- device_config: Force enable one-search bar on Pixel Launcher
-- DerpLauncher: Keep hotseat bottom spacing for taskbar devices
-- DerpLauncher: Fix recents crash with parallel space
+- Merge February security patch (aka r30)
+- Switch to Lineage device settings for all devices
+- Complete HW key customizations
+- Move Parallel space to Apps category in aosp settings
+- Add more customization options to pulse edge light settings
+- Import new fonts from Bootleggers
+- Update Glide library used in some theming preferences in DerpSpace
+- Update smartspace to 13-QPR1
+- Allow disabling color inversion support for maintainers
+- Allow to set left volume panel and qs transparency defaults for maintainers
+- Add blur switch (affects qs and power menu)
+- Allow to disable blur support for maintainers
+- Add Google TV remote controls keyguard affordance
+- Allow disabling qs on secure lockscreen
+- Add icon shape option to themepicker
+- Add back app volume toggle
+- Add heads up switch to AOSP notification settings
+- Add pocket mode
+- Extend Sleep mode with extra dark, wake and alarm blocker
+- GameSpace: Remove dim layer from the panel view (as seen on OEMs)
+- DerpLauncher: Match dimens with Pixel Launcher
+- DerpLauncher: Allow widgets to have 1 row as minimum size
+- DerpLauncher: Port multiple work profile badge colors
+- DerpLauncher: Show work apps unless all work profiles are turned off
+- Translation import from Lineage
+- Automatic translation import for DerpSpace
+- Updated manual German translation
 - Sync Aperture with Lineage
-- Add a panic trigger to Global actions
-- Fix power menu checkboxes not applying
-- Fix edge long swipe gesture
-- Enable new volume panel dialog
-- Show the alarm icon in QS
-- Fix glitchy charging info on AOD 
-- DerpSpace: Improve seekbar drawables
-- DerpLauncher: Implement hidden apps
-- DerpLauncher: Fix glitch when closing apps from recents
-- DerpLauncher: Fix taskbar crash without QSB
-- DerpLauncher: Adjust suggestions row vertical padding
-- DerpLauncher: Do not limit the number of search results
-- DerpLauncher: Improve seekbar drawables
-- Rebase on December security patch (android_13.0.0.r16) aka QPR1
-- Switch to Lineage button settings implementation
-- Add Power menu styles
-- Add Android P system animations switch
-- Add Screenshot QS tile
-- Add VPNTethering tile
-- Add AppLock
-- Add ParallelSpace
-- Add HideApps feature
-- DerpLauncher: Add opacity customizations
+- Some more things maybe I can't remember more :P
