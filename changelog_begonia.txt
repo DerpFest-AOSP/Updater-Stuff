@@ -1,65 +1,78 @@
 Device Changelogs:
 
-28th November 2022.
+• Update ImsService
 
-General:
-  • Synced with DerpFest Source Code.
-  • Updated device fingerprint to latest from Google Pixel 7 Pro.
-  • TWRP updated to (v3.6.2_12-4) By 7Soldier.
-  • Merged November Security Patch.
+• Added back in-call service
 
-Kernel:
-  • Upstreamed Kernel to Revision -299
-  • Fixed touchscreen for replaced displays
-  • Improved UI/UX smoothness
-  • Other miscellaneous changes.
+• Drop build desc and fingerprint override
 
-Connectivity and wireless interfaces:
-  • Updated network stack and IMS frameworks.
-  • Fixed network work after flashing MIUI kernel.
-  • Fixed slow speed of Wi-Fi caused by GMS services.
-  • Added optimizations for faster connectivity speed on TCP.
-  • Enabled icon and probably support for LTE+.
+• Switch to pixel-libperfmgr power hal
 
-Screen and graphics:
-  • Fixed YT green screen issues.
-  • Replaced some graphics services taken from Redmi Note 10S (MIUI 13).
-  • Updated dimension and rounded corners configuration.
-  • Fixed margins of status bar.
-  • Removed deprecated implementation of Render Script.
+• Drop MediaTek PowerHAL 
 
-Smoothness, performance, and battery backup:
-  • Improved smoothness by changing the layout strategy of HWC.
-  • Enabled back latching of unsignaled graphics buffers.
-  • Optimized CPU core booting for individual process groups.
-  • Increased preference of idle CPU cores for process groups.
-  • Increased SchedTune performance boosts for process groups.
-  • Disabled LMK low-ram profile config.
-  • Disabled SkiaGL render traces, improved smoothness.
-  • General improvements for smoothness, performance, and battery backup.
+• configs: Kang powerhint from rosemary
 
-Media and video:
-  • Enabled support for EIS and Camera HAL3.
+• powerhint: Drop DefaultIndex from UClamp values
 
-Security:
-  • Some changes and re-addressed domains in SEPolicy.
+• props: Switch to display managed color mode
 
-Extra stuff:
-  • Added Xiaomi Parts (No doze implementation).
-  • Added missing flags for secured integrity of Java-classes in Xiaomi Parts.
-  • Fixed bug with scrolling Thermal Profiles to end in Xiaomi Parts.
-  • Updated icons for Thermal Profiles in Xiaomi Parts.
-  • Fixed Thermal Service dying log spams.
-  • Added CTS profile spoofing.
+• props: Disable oversharpening PQ effects
 
-System-side:  
-  • Show “Turbo charging” instead of “Charging rapidly” on lock screen.
-  • Fixed some paths loading for fingerprint in inits.
-  • Improved log-spam caused by glitchy system services.
-  • Added Mediatek Engineering Mode.
-  • Updated Media Volume Steps to 15 & Call Volume Steps to 7.
-  • Disabled Third Party Location Providers Support.
-  • Added option to show option for memory in app info settings.
-  • Added some more apps for dex-pre-opting.
-  • Pre-included chrome.
-  • Fixed Permission Controller force closed issue.
+• powerhint: Decrease launch boost to 3sec
+
+• Switch to common Vibrator AIDL
+
+• proprietary-files: Bring libfmjni as a module
+
+• InCallService: Map AOSP gain step range to MTK one
+
+• InCallService: Restore gain levels on boot and call initiation
+
+• powerhint: Remove SchedBoost configs.
+
+• powerhint: Drop PM QoS latency boosting.
+
+• Fixed VoLTE/VoWifi crashes.
+
+• Use correct cortex CPU variants.
+
+• Removed nonexistent files from PinnerService.
+
+• Address multiple sepolicy changes.
+
+• Increased number of system-background cpus.
+
+• Updated CarrierConfig from 12.5.15.0 RGGEUXM.
+
+• Fixed macro camera is not shown in Aperture camera.
+
+• Disallow aux camera usage for Telegram X and Nekogram.
+
+• Bring Back RenderScript Implementation.
+
+
+Kernel Changelogs:
+
+• Upstream kernel to 4.14.305
+
+• Optimized scheduler and load balancing on CPU cores.
+
+• Removed all warnings and fixed multiple verbose log spams.
+
+• Disable CPU partial caches.
+
+• Reduce Wakelocks and reduce their timeouts.
+
+• Fix Bluetooth drains by a small margin.
+
+• Affine hwcomposer to big CPUs.
+
+• Add GPU ged_ski (GPU INFO).
+
+• Fix cpufreq times memory leaks 
+
+• Add 32-bit vDSO.
+
+• Compiled with -O3, ThinLTO, LLD Flags
+
+• Remove check for ovl status.
