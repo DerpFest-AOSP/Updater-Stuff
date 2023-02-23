@@ -1,26 +1,32 @@
-ROM
-- Merge January security patch (android-13.0.0_r23)
-- Add support for Lockscreen clock fonts (DerpSpace > Lockscreen UI)
-- Add Advanced Monet settings from Yaap
-- Add back toggle for quick qs pull down
-- Add Colored statusbar icons switch
-- Allow to show Wi-Fi standard icon next to WiFi signal indicator
-- Add custom screen resolution setting for supported devices
-- Switch to Lineage impl for notification and battery light settings 
-- Fix VoLTE/VoWifi not showing on sim2
-- Shorten auth ripple animation duration by 50% by default and make it overlayable for maintainers
-- Add haptic feedback to long press power button torch option
-- Fix layout of old style mobile indicator
-- Fix launch of permision revoke activity from playstore
-- Fix battery graph disappearing when reaching 100%
-- telephony: Use case insensitive check for plmn-spn to avoid showing "JIO - Jio" or "O2 -o2" for example 
-- device_config: Update AiAi configs for captions and translation
-- device_config: Globally enable the new photo picker
-- device_config: Enable smart actions in the clipboard overlay
-- device_config: Force enable one-search bar on Pixel Launcher
-- DerpLauncher: Keep hotseat bottom spacing for taskbar devices
-- DerpLauncher: Fix recents crash with parallel space 
-- Sync Aperture with Lineage
+- Merge February security patch (aka r30)
+- Switch to Lineage device settings for all devices
+- Complete HW key customizations
+- Move Parallel space to Apps category in aosp settings
+- Add more customization options to pulse edge light settings
+- Import new fonts from Bootleggers
+- Update Glide library used in some theming preferences in DerpSpace
+- Update smartspace to 13-QPR1
+- Allow disabling color inversion support for maintainers
+- Allow to set left volume panel and qs transparency defaults for maintainers
+- Add blur switch (affects qs and power menu)
+- Allow to disable blur support for maintainers
+- Add Google TV remote controls keyguard affordance
+- Allow disabling qs on secure lockscreen
+- Add icon shape option to themepicker
+- Add back app volume toggle 
+- Add heads up switch to AOSP notification settings
+- Add pocket mode
+- Extend Sleep mode with extra dark, wake and alarm blocker
+- GameSpace: Remove dim layer from the panel view (as seen on OEMs)
+- DerpLauncher: Match dimens with Pixel Launcher
+- DerpLauncher: Allow widgets to have 1 row as minimum size
+- DerpLauncher: Port multiple work profile badge colors
+- DerpLauncher: Show work apps unless all work profiles are turned off
+- Translation import from Lineage
+- Automatic translation import for DerpSpace
+- Updated manual German translation
+- Sync Aperture with Lineage 
+- Some more things maybe I can't remember more :P
 
 DEVICE
-- None for now
+- Switch to legacy bootanimation
