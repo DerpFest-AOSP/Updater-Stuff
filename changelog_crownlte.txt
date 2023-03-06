@@ -1,12 +1,8 @@
-===============================
-Devices:
-- SM-N770F Wi-Fi blobs.
-- 4.9.322 Upstreamed.
+Device Changes:
++ Use f2fs for /data partition. Use OrangeFox recovery to flash. After flash, please change your /data partition into f2fs MANUALLY in OrangeFox or TWRP and reboot. Format data is required.
++ Rebuild SamsungDAP, LiveDisplay and High Touch Sensitivity from Lineage.
++ Added some overlay stuffs (Battery Light, Notifications Light, etc)
++ Improved kernel, upstream to 4.9.337 (EOL due to 4.9y LTS is EOL now.)
 
-===============================
 ROM: 
-- Merge July Security patch (android-12.1.0_r10)
-- Fix screen not turning off on some devices 
-- Settings: Add preference for resetting auto brightness adjustment
-- Bluetooth: Add support for showing battery level for AirPods series
-- Settings: DevicePicker: Adapt to S style
++ Merged February 2023 Security Patches.
