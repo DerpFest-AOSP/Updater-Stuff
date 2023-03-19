@@ -1,23 +1,35 @@
-Device Changes:
-- Update kernel to Neptune-Playground-V2.9 state
+====================
+    NOTE: Clean Flash Recommended    
+====================
 
-ROM Changes:
-- Introduce automated Sleep Mode
-- Introduce preferred network QS tile
-- Allow to skip confirmation in biometric auth dialog
-- Make IME space optional
-- Allow disabling ripple effect on unlock
-- Add Statusbar Clock background chip switch 
-- Add toggle to disable charging animation
-- Integrate Google Lens into Screenshot UI
-- Add Wi-Fi standard type icon switch
-- BatteryMeterView: Show a bolt ⚡️when charging
-- Add Battery charge warning options
-- charging: Allow using vibration without sounds
-- Disable clock auto hide feature for QS
-- UdfpsResources: Add more resources from Realme RMX3392
-- DerpLauncher: Add toggle to use dark status bar on Home screen
-- DerpLauncher: Actually fix the all apps search bar
-- DerpLauncher: Do not add more space on hotseat with taskbar
-- packages: Build Repainter service by kdrag0n
-- Aperture: Sync with Lineage
+
+====================
+    03-19-2023     
+====================
+
+* device/oneplus/sm8150-common
+4e0ab43  Revert "overlay-yaap: enable clo boostfwk"  [Harish]
+
+
+* kernel/oneplus/sm8150
+a40364f  Merge tag 'v4.14.309' of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into fod_onpress  [Harish]
+
+
+====================
+    03-18-2023     
+====================
+
+====================
+    03-17-2023     
+====================
+
+====================
+    03-16-2023     
+====================
+
+====================
+    03-15-2023     
+====================
+
+* frameworks/base
+a0f4c36  Partially revert udfps: Add support for udfps on aod without dedicated sensor https://github.com/Codecity001/frameworks_base-1/commit/126f4d7c7dee2174bc4cdee278360dc81333d1ea  [Harish]
