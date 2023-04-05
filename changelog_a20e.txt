@@ -10,4 +10,4 @@ Device Side:
 - Use 8MP for front camera resolution
 - Merged LineageOS SamsungDap for parts
 - Misc overlays, props for performance improvements
-
+- Source upstream for March
