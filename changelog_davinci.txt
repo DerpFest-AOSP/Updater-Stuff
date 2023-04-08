@@ -1,145 +1,34 @@
 Device Changelog:
-- Merge 4.14.307 into kernel
-- Merge 13100 caf tag into kernel
-- Update system blobs from 09000 qssi
-- Update vendor blobs from sweet T release
-- fix some logspam about wifi in logs
-- implement trust hal for usb restriction settings
+- Merged 4.14.312 upstream into kernel
+- Merged LA.UM.9.1.r1-13400-SMxxx0.QSSI12.0 caf tag into kernel
+- Updated most vendor blobs from LA.UM.9.1.r1-12900-SMxxx0.0
+- Updated system blobs from LA.QSSI.13.0.r1-09200-qssi.0
+- Dropped useless now aptx blobs
+- Address some sepolicy denials
+- Update ueventd from LA.UM.9.1.r1-12900-SMxxx0.0
+- Drop some duplicated props
 
 Rom changelog:
-====================
-    02-26-2023     
-====================
-\n* bionic\n17d1eca  libc: Do not nullify `__dtoa_locks`  [minaripenguin]
-9aa0e7a  Upstream openbsd & freebsd  [Elliott Hughes]
-32c2cb7  Adjust the calculation method of pc  [周至捷]\n
-\n* build/soong\n6c99fc6  check_boot_jars: Add DerpFest packages  [NurKeinNeid]\n
-\n* frameworks/base\n4a4d6fb  udfps: Forward port Boost framework hook  [Vishal Cj]
-fa276ee  CentralSurfacesImpl: Fix NPE in SystemUI  [Ashok Mutyala]
-2dbbae4  ClockRegistry: Remove clock id checks except default  [Jason Edson]
-c3acd00  Apply wakelock for notification sound  [WoongKi Min]
-0765d0d  Return no optmization info for package "android"  [Jiakai Zhang]
-39f0f9f  [Bugfix]fix NullPointException when PackageInfo's verifiers is null  [Wen Zhang]
-ef7302c  [Bugfix]fix NullPointException when pkg is null  [Sichen Liu]
-e85a8a9  [Bugfix]Switch back to the application on /system when UID and path changed  [Wen Zhang]
-e7c30c8  Intent firewall enhancement  [nift4]
-53cd76c  hwui: CanvasContext: Reduce the timeout for dequeueing buffers  [electimon]
-e0c9ee3  PixelPropsUtils: Don't declare propsToChange as static  [jhenrique09]\n
-\n* kernel/xiaomi/sm6150\n7e1a026  Merge branch 'android-4.14-stable' of https://android.googlesource.com/kernel/common into 13  [adi8900]
-8a685df  Merge 4.14.307 into android-4.14-stable  [Greg Kroah-Hartman]
-7878a41  Linux 4.14.307  [Greg Kroah-Hartman]
-ab77397  wifi: mwifiex: Add missing compatible string for SD8787  [Lukas Wunner]
-e0fbff1  uaccess: Add speculation barrier to copy_from_user()  [Dave Hansen]
-d21f4da  alarmtimer: Prevent starvation by small intervals and SIG_IGN  [Thomas Gleixner]
-6531756  powerpc: dts: t208x: Disable 10G on MAC1 and MAC2  [Sean Anderson]
-7cdfefb  random: always mix cycle counter in add_latent_entropy()  [Jason A. Donenfeld]
-2272c78  powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G  [Sean Anderson]
-0a1de95  wifi: rtl8xxxu: gen2: Turn on the rate control  [Bitterblue Smith]\n
-\n* packages/apps/Settings\n3f90b0a  Revert "Settings: Import reverse PowerUsage from Pixel stock"  [adi8900]
-14cf4d6  Revert "Settings: Fix battery usage chart irregular"  [adi8900]
-d2872ab  Revert "Settings: BatteryUsage: Drop unnecessary class"  [adi8900]
-09a5e9d  Settings: Add more derped summaries  [NurKeinNeid]
-c591961  Settings: Add summary to daily battery usage charge toggle  [minaripenguin]
-d036aae  Add toggle to switch between AOSP/Google battery graphs  [DennySPb]
-845373f  NetworkProviderSettings: Fixup uninitialized mWifiManager  [Jacob McSwain]
-31dab7d  Settings: Re-organize device info page  [PainKiller3]
-72438a3  Settings: Fix misspellings in German translation  [NurKeinNeid]
-35f47d8  Settings: Show SoC Model rather than value of ro.board.platform if available  [Tim Zimmermann]
-772a8ff  Settings: Align TotalRAMPreferenceController with MemoryUsagePreferenceController from dev settings  [Tim Zimmermann]
-bf8874c  Settings: Add platform and RAM to Model & Hardware  [Rashed Abdel-Tawab]
-c02f668  Settings: CustomScreenResolution: Update RESOLUTION_METRIC_SETTING_KEY  [AnierinB]
-50a991d  Settings: Allow disabling color inversion support [2/2]  [Ido Ben-Hur]
-fd33cd7  Settings: Change default Ambient Edge settings  [chandu078]
-326e310  fixup! Settings: Use SystemSettingSeekBarPreference instead of CustomSeekBarPreference  [NurKeinNeid]
-415d708  Settings: Use SystemSettingSeekBarPreference instead of CustomSeekBarPreference  [chandu078]
-59db9bd  Settings: Ambient Pulse Light: add layout style for top n bottom [2/2]  [SuperDroidBond]
-4c2942d  Settings: Add light width [2/2]  [Michele Bono]
-c699e70  Settings: Ambient Edge Pulse style [2/2]  [AnkitGourav]
-a7f0fbe  Settings: Add reverse animation direction [2/2]  [AnkitGourav]
-076bd9e  Settings: Pulse edge light for all doze triggers [2/2]  [Ido Ben-Hur]
-c09a2f5  Settings: Improve Ambient edge lightning toggle  [cjh1249131356]
-9baf159  Settings: Only allow edge lights on AOD when AOD is enabled [2/2]  [Ido Ben-Hur]
-bf3215b  Settings: Add ambient edge lightning settings [1/2]  [Ido Ben-Hur]
-3a690a8  Settings: Optional haptic feedback on back gesture [2/2]  [DennySPb]
-4595ae0  Settings: Follow Accent color on search button  [StarkDroid]
-45e1fa8  Settings: Add restart systemui shortcut to power menu [2/2]  [NurKeinNeid]\n
-\n* system/core\n4201120  Revert "libfs_avb: verifying vbmeta digest early"  [Md Abu Talha]
-7572c8e  hosts: Block OTA downloading from GMS  [jhenrique09]\n
-\n* vendor/derp\n29458ab  overlay: Partially disable gms chimera service  [Pulkit077]
-e85990f  overlay: Add google OTA to global disabledComponent  [Rajan Palaniya]\n
-
-====================
-    02-25-2023     
-====================
-
-====================
-    02-24-2023     
-====================
-\n* kernel/xiaomi/sm6150\n8740ee1  Merge branch 'android-4.14-stable' of https://android.googlesource.com/kernel/common into 13  [adi8900]\n
-
-====================
-    02-23-2023     
-====================
-\n* kernel/xiaomi/sm6150\n2897616  Merge 4.14.306 into android-4.14-stable  [Greg Kroah-Hartman]
-1e61bd2  Linux 4.14.306  [Greg Kroah-Hartman]
-2f7a113  nilfs2: fix underflow in second superblock position calculations  [Ryusuke Konishi]
-1d43de9  kvm: initialize all of the kvm_debugregs structure before sending it to userspace  [Greg Kroah-Hartman]
-c9aec73  i40e: Add checking for null for nlmsg_find_attr()  [Natalia Petrova]
-7fd4ff4  ipv6: Fix tcp socket connection with DSCP.  [Guillaume Nault]
-86c8d15  ipv6: Fix datagram socket connection with DSCP.  [Guillaume Nault]
-b89824a  net: mpls: fix stale pointer if allocation fails during device rename  [Jakub Kicinski]
-a724a63  net: stmmac: Restrict warning on disabling DMA store and fwd mode  [Cristian Ciocaltea]
-1b5de7d  net/usb: kalmia: Don't pass act_len in usb_bulk_msg error path  [Miko Larsson]
-3abda752  dccp/tcp: Avoid negative sk_forward_alloc by ipv6_pinfo.pktoptions.  [Kuniyuki Iwashima]
-3f975c6  net: bgmac: fix BCM5358 support by setting correct flags  [Rafał Miłecki]
-f375867  i40e: add double of VLAN header when computing the max MTU  [Jason Xing]
-ea09332  revert "squashfs: harden sanity check in squashfs_read_xattr_id_table"  [Andrew Morton]
-bb2f39a  hugetlb: check for undefined shift on 32 bit architectures  [Mike Kravetz]
-3ae2f24  ALSA: hda/conexant: add a new hda codec SN6180  [Bo Liu]
-92ff03c  mmc: sdio: fix possible resource leaks in some error paths  [Yang Yingliang]
-9d02708  Revert "x86/fpu: Use _Alignof to avoid undefined behavior in TYPE_ALIGN"  [Greg Kroah-Hartman]
-808f1e4  aio: fix mremap after fork null-deref  [Seth Jenkins]
-dc62f8f  nvme-fc: fix a missing queue put in nvmet_fc_ls_create_association  [Amit Engel]
-d044166  net/rose: Fix to not accept on connected socket  [Hyunwoo Kim]
-8775a0f  tools/virtio: fix the vringh test for virtio ring changes  [Shunsuke Mie]
-6981f0a  migrate: hugetlb: check for hugetlb shared PMD in node migration  [Mike Kravetz]
-1948dfd  usb: core: add quirk for Alcor Link AK9563 smartcard reader  [Mark Pearson]
-f0ad46e  net: USB: Fix wrong-direction WARNING in plusb.c  [Alan Stern]
-1177bda  pinctrl: single: fix potential NULL dereference  [Maxim Korotkov]
-ddfd0094  pinctrl: aspeed: Fix confusing types in return value  [Joel Stanley]
-c817d0c  ALSA: pci: lx6464es: fix a debug loop  [Dan Carpenter]
-45e37dc  ALSA: emux: Avoid potential array out-of-bound in snd_emux_xg_control()  [Artemii Karasev]
-fdbdbd2  btrfs: limit device extents to the device size  [Josef Bacik]
-5756452  serial: 8250_dma: Fix DMA Rx rearm race  [Ilpo Järvinen]
-8e66590  serial: 8250_dma: Fix DMA Rx completion race  [Ilpo Järvinen]
-7fe583c  Squashfs: fix handling and sanity checking of xattr_ids count  [Phillip Lougher]
-29f0349  mm/swapfile: add cond_resched() in get_swap_pages()  [Longlong Xia]
-30576df  mm: hugetlb: proc: check for hugetlb shared PMD in /proc/PID/smaps  [Mike Kravetz]
-4ebcbce  parisc: Wire up PTRACE_GETREGS/PTRACE_SETREGS for compat case  [Helge Deller]
-fbb304f  parisc: Fix return code of pdc_iodc_print()  [Helge Deller]
-3b845ca  iio:adc:twl6030: Enable measurements of VUSB, VBAT and others  [Andreas Kemnade]
-685d12a2  iio: adc: berlin2-adc: Add missing of_node_put() in error path  [Xiongfeng Wang]
-731d799  iio: hid: fix the retval in accel_3d_capture_sample  [Dmitry Perchanov]
-25cc8e8  efi: Accept version 2 of memory attributes table  [Ard Biesheuvel]
-13baa57  watchdog: diag288_wdt: fix __diag288() inline assembly  [Alexander Egorenkov]
-9737f8f  watchdog: diag288_wdt: do not use stack buffers for hardware data  [Alexander Egorenkov]
-7625513  fbcon: Check font dimension limits  [Samuel Thibault]
-4023c36  usb: gadget: f_fs: Fix unbalanced spinlock in __ffs_ep0_queue_wait  [Udipto Goswami]
-6186abd  net/x25: Fix to not accept on connected socket  [Hyunwoo Kim]
-496af9d  scsi: iscsi_tcp: Fix UAF during login when accessing the shost ipaddress  [Mike Christie]
-fd6eddb  scsi: target: core: Fix warning on RT kernels  [Maurizio Lombardi]
-1ac653c  net: openvswitch: fix flow memory leak in ovs_flow_cmd_new  [Fedor Pchelkin]
-75889b7  sctp: do not check hb_timer.expires when resetting hb_timer  [Xin Long]
-cf5d661  squashfs: harden sanity check in squashfs_read_xattr_id_table  [Fedor Pchelkin]
-35d5bb0  netrom: Fix use-after-free caused by accept on already connected socket  [Hyunwoo Kim]
-437e50e  ALSA: hda/via: Avoid potential array out-of-bound in add_secret_dac_path()  [Artemii Karasev]
-50005f7  bus: sunxi-rsb: Fix error handling in sunxi_rsb_init()  [Yuan Can]
-b2cd394  firewire: fix memory leak for payload of request subaction to IEC 61883-1 FCP region  [Takashi Sakamoto]\n
-- Restored aosp battery graph in settings
-====================
-    02-22-2023     
-====================
-\n* kernel/xiaomi/sm6150\nf857e3f  Merge tag 'LA.UM.9.1.r1-13100-SMxxx0.QSSI13.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api into 13  [adi8900]
-c9622ed  Merge tag 'LA.UM.9.1.r1-13100-SMxxx0.QSSI13.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into 13  [adi8900]
-4fbb983  Merge tag 'LA.UM.9.1.r1-13100-SMxxx0.QSSI13.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.14 into 13  [adi8900]\n
-
+- Merge March security patch (aka android-13.0.0_r35)
+- Rebase sources on Android QPR2 release
+- Move ambient edge lightning settings to display settings
+- Remove Google TV remote controls keyguard affordance
+- Remove recently added battery styles and customizations for battery icon in QS
+- Remove QS tiles count & vertical layout settings
+- Remove footer text customizations
+- Remove QS footer warning toggle
+- Remove togge for wallpaper zooming
+- Allow forcing a single bottom keyguard shortcut
+- LockscreenShortcuts: Add DND to the defaults
+- Reimplement brightness slider customizations
+- Allow to choose lockscreen or Ambient on wake gestures
+- DerpLauncher: Add Shake to clear all tasks switch
+- GameSpace: Reduce branding font size
+- GameSpace: Use relative-location on landscape
+- GameSpace: Trim expand button width
+- GameSpace: Update gradle config and dependencies
+- GameSpace: Update deprecated API usages
+- GameSpace: Fix layout jumps after dragging the bar
+- GameSpace: Remove duplicate drawables
+- GameSpace: Safely update rootBarView's LayoutParam
+- Some more things maybe I can't remember more :P
