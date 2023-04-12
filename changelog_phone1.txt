@@ -1,5 +1,6 @@
 Device Changelog:
-- Added glyph lighting 
-- Fixed mic audio on call 
-- Fixed dual sim 
-- Nuked twrp prebuilt 
+- Fixed video recording 
+- Updated blobs from 1.5.3 
+- Added glyph from aospa 
+- Fixed native video calling 
+- Enabled volte and vowifi by default 
