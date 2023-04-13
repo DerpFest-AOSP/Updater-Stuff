@@ -1,23 +1,601 @@
-- Merge March security patch (aka android-13.0.0_r35)
-- Rebase sources on Android QPR2 release
-- Move ambient edge lightning settings to display settings
-- Remove Google TV remote controls keyguard affordance
-- Remove recently added battery styles and customizations for battery icon in QS
-- Remove QS tiles count & vertical layout settings
-- Remove footer text customizations
-- Remove QS footer warning toggle
-- Remove togge for wallpaper zooming
-- Allow forcing a single bottom keyguard shortcut
-- LockscreenShortcuts: Add DND to the defaults
-- Reimplement brightness slider customizations
-- Allow to choose lockscreen or Ambient on wake gestures
-- DerpLauncher: Add Shake to clear all tasks switch 
-- GameSpace: Reduce branding font size
-- GameSpace: Use relative-location on landscape
-- GameSpace: Trim expand button width
-- GameSpace: Update gradle config and dependencies
-- GameSpace: Update deprecated API usages
-- GameSpace: Fix layout jumps after dragging the bar
-- GameSpace: Remove duplicate drawables
-- GameSpace: Safely update rootBarView's LayoutParam
-- Some more things maybe I can't remember more :P
+====================
+    04-13-2023     
+====================
+
+* frameworks/base
+45f235d  udfps: Implement framework dimming support  [cjybyjk]
+2b8d793  SystemUI: Allow toggling privacy indicators [1/2]  [Pranav Vashi]
+9e09ab2  SystemUI: Kill old privacy indicator icons completely  [Pranav Vashi]
+dc925fe  SystemUI: Scale mobile data type icon with font size  [Adithya R]
+bfdec93  SystemUI: Improve statusbar mobile type icons padding  [Adithya R]
+26459b9  SettingsLib: Update 5G+ icon to Silk design  [Adithya R]
+c5ebebc  Revert "Separate mute and vibrate icons in status bar"  [Adithya R]
+ad8e228  Revert "Add settings observing for vibrate icon to Keyguard"  [Adithya R]
+9ff4052  Revert "Sysui changes to support vibrate icon setting"  [Adithya R]
+4cec471  Revert "Add settings default handling for STATUS_BAR_SHOW_VIBRATE_ICON"  [Adithya R]
+eb95dd9  SystemUI: Remove vibrate/mute from status bar blocklist  [Adithya R]
+d03bdd5  Revert "fixup! Show the vibrate icon in the Status Bar by default"  [NurKeinNeid]
+a6e30fc  Revert "Show the vibrate icon in the Status Bar by default"  [NurKeinNeid]
+
+
+* frameworks/native
+c4adf5c  SF: Don't enable expensive rendering for unknown dataspace  [Adithya R]
+c61bd63  SF: Use lowest allowed refresh rate in doze mode  [Adithya R]
+aac4890  SF: Scheduler: set an expiration for heuristic layer's high refresh rate usages  [Adithya R]
+df01239  SF: Scheduler: opportunistically enter idle after touch  [Juhyung Park]
+d63cd68  SF: Scheduler: relax measurements for heuristic mode  [Juhyung Park]
+4a4dcfa  SF: Scheduler: remove presentTime check in calculateAverageFrameTime()  [Juhyung Park]
+27afd81  SF: Scheduler: maintain current refresh rate if no layers are detected  [Juhyung Park]
+6b927e4  SF: Scheduler: add more window types to consider NoVote  [Juhyung Park]
+
+
+* manifest
+0a149b4  manifest: April 2023 Security update  [Michael Bestas]
+
+
+* packages/apps/DerpLauncher
+18013b1  Revert "Revert "Fix Personal/Work profile tab colors in All Apps""  [NurKeinNeid]
+
+
+* packages/apps/DerpSpace
+8b9c2d4  DerpSpace: Allow toggling privacy indicators [2/2]  [Pranav Vashi]
+
+
+* packages/apps/Settings
+7d70256  Revert "Add setting for showing the vibrate icon in status bar"  [Adithya R]
+4e35b6c  Revert "Hide the "Show the vibrate icon in the Status Bar" setting"  [NurKeinNeid]
+
+
+* packages/modules/Wifi
+67b8bb2  Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/packages/modules/Wifi into HEAD  [NurKeinNeid]
+
+
+* packages/providers/MediaProvider
+03bb216  Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD  [NurKeinNeid]
+
+
+====================
+    04-12-2023     
+====================
+
+====================
+    04-11-2023     
+====================
+
+* build/make
+1999bc2  Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/build into HEAD  [NurKeinNeid]
+
+
+* frameworks/av
+70a8f41  Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into HEAD  [NurKeinNeid]
+
+
+* frameworks/base
+d0dbd15  PixelPropsUtils: Update fingerprints to April 2023  [NurKeinNeid]
+7587cdc  Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into HEAD  [NurKeinNeid]
+
+
+* frameworks/native
+0b95360  Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/frameworks/native into HEAD  [NurKeinNeid]
+
+
+* manifest
+67c8db9  Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/manifest into HEAD  [NurKeinNeid]
+97d9130  Manifest for Android 13.0.0 Release 41 (TQ2A.230405.003.E1)  [The Android Open Source Project]
+262f53d  Manifest for Android 13.0.0 Release 40 (TQ2A.230405.003.B2)  [The Android Open Source Project]
+5e59a04  Manifest for Android 13.0.0 Release 39 (TQ2A.230405.003.A2)  [The Android Open Source Project]
+52a5fcd  Manifest for Android 13.0.0 Release 38 (TQ2A.230405.003)  [The Android Open Source Project]
+
+
+* packages/apps/DerpLauncher
+5b43d30  Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Launcher3 into HEAD  [NurKeinNeid]
+
+
+* packages/apps/Settings
+d62e294  Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD  [NurKeinNeid]
+
+
+* packages/modules/Bluetooth
+68b4d1f  Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/packages/modules/Bluetooth into HEAD  [NurKeinNeid]
+
+
+* packages/services/Telecomm
+1cbaac3  Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD  [NurKeinNeid]
+
+
+* system/sepolicy
+6f86157  Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/system/sepolicy into HEAD  [NurKeinNeid]
+
+
+====================
+    04-10-2023     
+====================
+
+* build/make
+79e2381  Merge pull request #10 from GhostMaster69-dev/13  [Alexander Brunswig]
+51179d7  build: Remove "eng" from build number  [jhenrique09]
+
+
+* frameworks/base
+143c9c4  SystemUI: keyguard: preview: Catch InterruptedException  [SamarV-121]
+16a7fe7  SystemUI: Reconfigure bottom indication text paddings  [minaripenguin]
+199e2e2  CarrierConfigManager: Enable VoNR by default  [johnmart19]
+c944ab1  fwb: SystemUI: Set qs bottom drawable footer color to transparent  [Mohammad Hasan Keramat J]
+09bd441  SystemUI: Turn on UMO turbulence noise and surface ripple by default  [NurKeinNeid]
+2aba8cf  Fix the problem of slow exit of boot animation  [niuwenchao]
+12b9abb  Fingerprint authentication vibration [1/2]  [beanstown106]
+755e7e2  Improve Transition GC initiation by improving the Frameworks triggering signal  [Wessam Hassanein]
+740067e  ParallelSpace: Prevent system crash for blocking notification of blocked apps  [Pranav Vashi]
+8ca6b1e  services: Do not turn on multi user switch for new parallel space  [Pranav Vashi]
+56effcd  Fix an issue that the FoldStateListener induces a memory leak  [Kwangkyu Park]
+f06dda4  Add null pointer check to avoid system crash.  [Jessie Hao]
+b9124a9  CompanionDeviceManager: This uses the MANAGE_COMPANION_DEVICES permission  [Sourajit Karmakar]
+6507a2c  AppLock: Fix hidden apps reset after reboot  [Pranav Vashi]
+a2e35e1  AppLock: Update API  [Pranav Vashi]
+1a7d8518  AppLock: Allow locking all apps visible in launcher  [Pranav Vashi]
+ab9c25e  SystemUI: Adapt circle battery background to white/dark QS changes  [Ido Ben-Hur]
+69d94d3  SystemUI: screenrecord: Remember last used blinking dot position  [Ido Ben-Hur]
+99d785e  fixup! SystemUI: Make clock & battery clickable again^2  [Michael W]
+9ac8a25  fixup! SystemUI: Add VPN tile  [LuK1337]
+0b406ba  SystemUI: Make clock & battery clickable again^2  [Michael W]
+716f525  SystemUI: Apply dark theming to split shade  [minaripenguin]
+0e35de7  SystemUI: Fix clock text color on combined qs header  [Pranav Vashi]
+61af584  Remove wtf if no display nits mapping exists  [Alistair Delva]
+c4d696a  fixup! Keyguard: Add option to scramble pin layout when unlocking (2/2).  [Tommy Webb]
+b3c9893  [BugFix]Fix NPE when pip onAnimationEnd  [wangdongdong6]
+3141ca9  Fix the pip bounds error when entering pip mode.  [buwenjing]
+bc0eb76  Skype is not opening in full screen  [pioush.kumar-IN009423]
+e754a5f  System crash during dismissing split in multi-user scenario  [pioush.kumar-IN009423]
+6104d17  Camera: Fix null pointer access  [Kwangkyu Park]
+82872f9  Youtube application when moving to PIP animation was very bad  [pioush.kumar-IN009423]
+4e05e0f  Reduce the memory usage of the ProtoLogToFile  [haoyu.wang]
+31be06c  Pause is getting scheduled 2 times  [pioush.kumar-IN009423]
+9f7f794  AppOpsService: Don't log stack traces for isolated processes  [Svet Ganov]
+8ef7f34  Logspam: Properly handle optional app widgets service  [Svet Ganov]
+c3bea73  BatteryStatsService: limit logspam  [Svet Ganov]
+6ff3a12  SystemUI: Refactor notification reticker  [Trishiraj]
+e15bd3a  Ignore AGPS toggle during user-initiated emergency calls  [Chirayu Desai]
+70b839e  Remove sensitive info from SUPL requests  [Tommy Webb]
+f79024d  Fix secondary user crash with system user locked  [Tommy Webb]
+968258a  Fix profile provisioning check in secondary users  [Tommy Webb]
+161e5a7  Allow profile owner to set user_setup_complete secure setting  [Oliver Scott]
+f15e1ae  Make sure gc_urgent is normal mode, when no need GC  [Dylan Chang]
+f555990  SystemUI: Fix position and orientation of arrow keys in navbar  [Wolfram Liebchen]
+09fad337  SystemUI: Avoid unnecessary keyguard indication controller recreation  [LuK1337]
+ad60d56  PhoneWindowManager: Fix wakeup and long-press actions of assistant key  [kyasu]
+c211a09  JobScheduler: Respect allow-in-power-save perm  [Tommy Webb]
+0a4b124  Restore Somnambulator functionality  [nift4]
+6e4c278  InputMethodManager: Prevent unnecessary invocation of IME  [minaripenguin]
+3f96c2b  UI: Use SNAP_FIXED_RATIO for multi-window globally  [Andy CrossGate Yan]
+01ba9e2  Restore ZenMode setting in dialog like Oreo panel  [nift4]
+b882049  Revert "Impl basic window round corner with Outline"  [nift4]
+55ea0cd  Revert "DecorView: Force set renderShadowsInCompositor to false to fix shadows"  [nift4]
+41d4ae3  Revert "DecorView: Do not round corners in fullscreen"  [nift4]
+b0f5a18  DisplayWindowSettings: Don’t check for forceDesktopMode for freeform  [Erfan Abdi]
+e73302a  DecorView: Do not round corners in fullscreen  [luka177]
+7555f45  Impl basic window round corner with Outline  [utzcoz]
+8f184da  Add back button for freeform window  [utzcoz]
+730a993  Only show pip button if activity supports it  [utzcoz]
+610b24d  Add minimize & pip buttons to freeform windows  [Jon West]
+5e1b251  DecorView: Force set renderShadowsInCompositor to false to fix shadows  [luka177]
+0e4bf60  Fix freeform window resize not working on multiple displays  [nift4]
+ecaf38c  Always make mouse cursor show on external display if it exists  [nift4]
+e96bd67  InputManager: allow to force NULL cursor  [nift4]
+ffb0a5e  InputManager: add cursor change listener  [nift4]
+c5300a9  Disable Ambient on wake gesture when incall  [xyyx]
+fc15a56  Show Ambient instead of lockscreen on wake gestures [1/2]  [ezio84]
+c851f75  base: Add support for disabling fingerprint lockout [1/2]  [SamarV-121]
+4ad0be2  SystemUI: Hide wifi standard icon if not connected to wifi  [minaripenguin]
+65c7b04  Apply wakelock for notification sound  [WoongKi Min]
+93e7239  Return no optmization info for package "android"  [Jiakai Zhang]
+1906048  [Bugfix]fix NullPointException when PackageInfo's verifiers is null  [Wen Zhang]
+7ef7613  [Bugfix]fix NullPointException when pkg is null  [Sichen Liu]
+1be2c9b  [Bugfix]Switch back to the application on /system when UID and path changed  [Wen Zhang]
+c95b211  Intent firewall enhancement  [nift4]
+ee97c19  hwui: CanvasContext: Reduce the timeout for dequeueing buffers  [electimon]
+221f5dd  NotificationShade: Make blur crossfading more gradual  [Danny Lin]
+bab3a1d  SystemUI: Use better icon for camera keyguard affordance  [Adithya R]
+100ef37  SystemUI: Redesign lockscreen bottom buttons  [Adithya R]
+7ed3c08  SystemUI: keyguard: quickaffordance: Add DND to the defaults [1/2]  [Ido Ben-Hur]
+0fe21c61  base: Adapt custom lockscreen shortcuts to 13-QPR2 [1/2]  [Ido Ben-Hur]
+74243b9  Revert "SystemUI: Introduce camera & flashlight keyguard affordance"  [Ido Ben-Hur]
+8cacd3c  base: Allow setting bottom keyguard shortcuts [1/2]  [Ido Ben-Hur]
+429339b  SystemUI: Introduce camera & flashlight keyguard affordance  [Adithya R]
+7805331  SystemUI: Apply QS transparency to footer actions background  [Pranav Vashi]
+043e5c1  base: Fix corny blur rendering bug  [alibei]
+6fae84e  fixup! blur: Switch to glass blur effect  [Mohammad Hasan Keramat J]
+3310de7  SystemUI: make power menu lite translucent + floating  [nift4]
+422039e  blur: Switch to glass blur effect  [minaripenguin]
+851bd25  blur: Bump SystemUI blur radius to 175 px  [Danny Lin]
+e095603  SystemUI: Add Chinese translations for Bluetooth dialog  [AmeChanRain]
+d8bc729  base: Import Russian translations from DerpFest-12  [suiqa]
+0d80b7e  base: Import Italian translations from DerpFest-12  [M4rtox]
+de34ec1  SystemUI: Import Chinese translations from DerpFest-12  [HearnYuyuko]
+5a3af95  SystemUI: Update lyric ticker on post notification  [AmeChanRain]
+9300ec5  SystemUI: qs_security_footer_background: Restore the intended look  [Ido Ben-Hur]
+db76de1  Do not drop app permissions on hibernate  [Sergey Vasiliev]
+dd73da9  libs: PipTaskOrganizer: do not start fade out animation for pip if surfacecontrol leash is null  [jhonboy121]
+5ece387  Introduce trimMemory to AppIconCacheManager  [Shen Lin]
+e48c7a4  SystemUI: Improve fp ripple animation color  [minaripenguin37]
+05b361a  Apply monet to fingerprint authentication ripple animation  [SagarMakhar]
+be8db8c  keyguard: Actually kill Fancy Colon  [Joe Maples]
+b4e7ebb  Perf:Fix the issue that activity boost duration abnormal.  [Libo Jin]
+d96d591  CachedAppOptimizer : Pageout File pages during system compaction  [Divyanand Rangu]
+437dbcf  CachedAppOptimizer : Fix compaction configuration being ignored  [Divyanand Rangu]
+4eb33ce  SystemUI: Forward port QS fling animation boost to NotificationPanelViewController  [Jake Weinstein]
+96da05f  udfps: Forward port Boost framework hook.  [Vishal Cj]
+440cc13  BoostFramework: Kill logcat spam on devices without QPerformance  [xyyx]
+e7c5884  OverScroller: Import BoostFramework.ScrollOptimizer  [chrisl7]
+88c4b2e  Filter multi-layer cases for pre-rendering  [Jun Wang]
+9db69fe  perf: Add lock protection for initialization in ScrollOptimizer  [Jun Wang]
+77a768f  core: Port CLO's Framework Boost  [Akash Srivastava]
+d5916a3  camera2: Add non burst sizes to mandatory streams for ultra high resolution sensors  [Jayant Chowdhary]
+4f01cc7  Select the proper request list size  [Guruprasad Gaonkar]
+6e9fa31a  base: Grant OnePlus Gallery storage permissions  [cjh1249131356]
+6753294  base: Add mock oplus LinearmotorVibratorService  [cjh1249131356]
+66b7829  ServiceRecord: Don't post running notification for oplus camera  [cjh1249131356]
+2abc477  fixup - SystemUI: Make the volume dialog expandable  [Akash Srivastava]
+f33df30  SystemUI: Make Bluetooth dialog tile optional  [Karan Parashar]
+7561fab  SystemUI: Use secondary label for language QS tile  [Anushek Prasal]
+ab5636d  QS: Locale Tile  [SpiritCroc]
+206dce3  base: Allow disabling color inversion support [1/2]  [Ido Ben-Hur]
+0762e00c3  Fix disabling power menu completely on secured locscreen  [Pranav Vashi]
+19b6b22  SystemUI: Optional haptic feedback on back gesture [1/2]  [DennySPb]
+278c702  Toast app icon display is inconsistent for system apps  [Edward Savage-Jones]
+75629c7  [BugFixed][OOM_ADJ] use max_adj to control process final adj  [guolun Xue]
+9c7dda8  Do not ignore background vibrations from shell  [Tommy Webb]
+3a2d501  SystemUI: Blur the power menu  [Elluzion]
+86d26ed  SystemUI: Remove visibility check in setting QSCarrier color  [Adithya R]
+401cb8f  MobileSignalController: Do not duplicate SPN and PLMN  [Adithya R]
+87f9600  SystemUI: Fix keyguard user avatar margins  [strwbrry143]
+87424bc  SystemUI: Redraw display cutout on overlay changes  [Adithya R]
+1352900  SystemUI: Don't force small clock when media isn't allowed on keyguard  [Ido Ben-Hur]
+f011320  GlobalActionsDialogLite: Dismiss the dialog when restarting SystemUI  [ezio84]
+b066b92  frameworks: Add restart systemui shortcut to power menu [1/2]  [ezio84]
+6a10a49  SystemUI: Transparent QS customization [1/2]  [spkal01]
+
+
+* packages/apps/DerpLauncher
+29769d8  DerpLauncher: Hide scrollbar when searching All Apps  [Tommy Webb]
+d1ac7e9  DerpLauncher: Disable shake to clear tasks by default  [NurKeinNeid]
+
+
+* packages/apps/DerpSpace
+cf707b7  DerpSpace: Set default Transparent QS to 85%  [Mohammad Hasan Keramat J]
+8395dd3  DerpSpace: Update German translations  [NurKeinNeid]
+1ca747f  DerpSpace: Fix strings typo  [ezio84]
+
+
+* packages/apps/Settings
+ce60702  Import cm_strings translations from lineage  [Tim Zimmermann]
+
+
+====================
+    04-09-2023     
+====================
+
+* frameworks/base
+c65a615  AutoAODService: Better check for doze enablement  [Ido Ben-Hur]
+6b86278  SystemUI: write initial value of SHOW_QR_CODE_SCANNER_SETTING on first call  [maxwen]
+409de34  SystemUI: Show the alarm icon on QS as well  [Ido Ben-Hur]
+28ac176  SystemUI: Allow choosing a custom background color seed [1/2]  [Ido Ben-Hur]
+8a8b994  SystemUI: ColorScheme: Limit custom tinting to accent1  [Ido Ben-Hur]
+6fef77a  SystemUI: monet: Allow a more granular control over shades [1/2]  [Ido Ben-Hur]
+b8249cb  ThemeOverlayController: Don't enable neutral overlay on boot as well  [Ido Ben-Hur]
+fc687e6  ThemeOverlayController: Don't enable neutral overlay when we use dark bg  [Ido Ben-Hur]
+faa9650  base: Add support for Lockscreen clock fonts  [El Dainosor]
+2e29dbd  KeyguardIndication: Fix glitchy charging info on AOD  [Pranav Vashi]
+a18331f  SystemUI: cleanup bluetooth dialog impl  [jhonboy121]
+0b54d80  SystemUI: Fetch bluetooth battery level from any device  [jhonboy121]
+116a88b  BluetoothControllerImpl: Synchronize mConnectedDevices access  [jhonboy121]
+30139d6  BatteryStatsImpl: Guard against OOB  [Ido Ben-Hur]
+c059601  Add support for global cleartext penalties  [Oliver Scott]
+34e8497  Global VPN feature [1/2]  [Oliver Scott]
+250660a  SystemUI: Add support for timeout-reboot  [Luca Stefani]
+408971e  Fix stuck screen from display change timeout  [Tommy Webb]
+aa1bf85  Hidden Apps filter for use in the Settings app  [t-m-w]
+de202d5  Show hidden apps on secondary users' app lists  [Oliver Scott]
+785ee90  SystemUI: Fix up status bar end side content layout  [Pranav Vashi]
+0c69fb3  SystemUI: Fix up status bar start side content layout  [Pranav Vashi]
+9e21e3d  base: Android P system animation (1/2)  [Pzqqt]
+e06f40f  base: Added screenshot tile  [maxwen]
+af91320  QS: Add and use Mobile Data panel  [Joe Maples]
+ce3d902  SystemUI: Add back charging ripple  [aswin7469]
+b34a593  biometrics: Fix udfps races  [Andrzej Perczak]
+0bf5799  SystemUI: Allow UdfpsAnimations to work with multiple resolutions  [AnierinB]
+4ac5f01  [SQUASH] Bring back UDFPS icons and animations [1/3]  [SagarMakhar]
+229c347  SystemUI: Follow light/dark theme in new QS footer actions  [Tim Zimmermann]
+46ca75e  SystemUI: Follow light/dark theme in SplitShade Header  [ReallySnow]
+54ffa52  Slightly optimize less boring apps check for heads up  [Pranav Vashi]
+160e731  NotificationInterrupt: Clean up for isSnoozedPackage  [Pranav Vashi]
+405efd1  wm: Migrate deprecated getColor to one with Theme  [utzcoz]
+04bd3bb  SystemUI: Fix QS customizer corner radius  [Pranav Vashi]
+e0d7085  SystemUI: clock_default_large: Don't hardcode monospace font  [Ido Ben-Hur]
+4ee500a  SystemUI: DreamTile: Enable for everyone  [Ido Ben-Hur]
+a2b0102  AutoAODService: Properly handle reboots & fix some logic  [Ido Ben-Hur]
+0f6ef29  base: Add support for UI Styles  [El Dainosor]
+426c45b  base: modify the mundane  [El Dainosor]
+c038262  base: Declare a gradient end color  [ElDainosor]
+f1ad2bd  DerpSpaceTile: make us secure  [Ali B]
+d4d0b01  DerpSpaceTile: Make default state active  [NurKeinNeid]
+e7c03d3  overlays: outline: Add derpspace tile  [NurKeinNeid]
+83c4bfd  SystemUI: fix SliceView layout  [Anay Wadhera]
+7583135  overlays: {acherus,outline}: Add launcher and themepicker overlay  [Pranav]
+e6328a0  Add AlarmsBlocker [1/2]  [faust93]
+f656aa29  Add WakelockBlocker [1/2]  [maxwen]
+ee6519d  QS customizer: Better string for 'reset' menu item  [Alex Cruz]
+69efb76  Dont show vendor mismatch message by default  [00day0]
+3374082  base: Make vendor mismatch message optional  [Anushek Prasal]
+423eb38  Dynamically tell the user which vendor image is needed  [beanstown106]
+b0d3319  Show a more descriptive message when vendor.img is out of date  [beanstown106]
+e78818f  services: lineage: publish binder service only at onStart phase and use super class context  [jhonboy121]
+56e828a  SystemUI: Don't confuse rotation with orientation  [maxwen]
+e88e269  SystemUI: config to hide status bar on lock screen [1/2]  [maxwen]
+1e68a48  Change the default value of sync mode to NORMAL  [ot905302]
+a47bd9c  derpUtils: Import restart systemui api  [SpiritCroc]
+da9bcae  ImeFocusController: Prevent a rare NPE  [Ido Ben-Hur]
+3260a08  SystemUI: Retune clock paddings  [Pranav Vashi]
+2c9457f  [1/2] Statusbar Clock background chip  [StarkDroid]
+32041cf  core: Add dark mode support for `colorAccentPrimary`  [strwbrry143]
+36c1058  SettingsProvider: grant device config permissions  [Ali B]
+0bd3eb1  base: Make wired charging animation follow settings too  [cjh1249131356]
+999d64f  base: Add toggle to disable charging animation [1/2]  [Anushek Prasal]
+60c3399  base: add missing device config permissions for settings  [Ali B]
+b3ca906  fixup! SystemUI: Fix method for disabling unlock ripple animation  [palaych]
+dba68bfa  base: allow disabling ripple effect on unlock [1/2]  [Rishawn]
+88ba051  charging: Allow using vibration without sounds  [xyyx]
+6319376  Battery charge warning [1/2]  [Nicolas Dhouailly]
+12451a0  SystemUI: Make Lens work without independent package installed  [cjh1249131356]
+fee3586  SystemUI: Integrate Google Lens into Screenshot UI  [AshutoshSundresh]
+361fcb4  SystemUI: QS: SoundTile: Don't toggle DND  [AnkitGourav]
+35fa285  Update various corner radiuses to align with AOSP apps  [Edward Savage-Jones]
+8a6a108  Ambient Music Ticker - Allow to pulse on new tracks [1/2]  [ezio84]
+cdd89f1  Pulse: Vertical mirror [1/2]  [TikkiTikki]
+2822ddf  Pulse: Custom gravity and Center mirrored [1/2]  [TikkiTikki]
+a5b9423  SystemUI: Allow disabling clipboard overlay [1/2]  [Adithya R]
+e8c68d1  config: Enable QR scanner shortcut in lock screen  [Adithya R]
+ddae62b  Set callback before hal connection to avoid NPE on startup  [Christian Hoffmann]
+47e3e51  SystemUI: Make battery & clock clickable again in QS  [Marc K]
+5413258  SystemUI: Implement Bluetooth dialog  [Adithya R]
+d5a172c  SystemUI: Introduce preferred network tile  [cjh1249131356]
+2d4bb54  IdleManager: update packagelist  [dlwlrma123]
+8278bf2  IdleManager: CleanUp  [spkal01]
+fbe2dfd  base: Implement background process killer [1/2]  [Dil3mm4]
+410d4db  base: Fix scheduled AOD/Sleep mode  [cjh1249131356]
+659ca3f  SleepMode: Improve location mode logic  [cjh1249131356]
+751343d  base: Always turn on sensors when disabling sleep mode  [cjh1249131356]
+b719975  base: Introduce automated Sleep Mode [1/2]  [Anushek Prasal]
+69b9aef  Add api to get or kill foreground app  [ezio84]
+d7724b2  SystemUI: DerpSpaceTile: Don't support long press if Updater is not bundled  [George Zacharia]
+920bafe  SystemUI: Add DerpSpace Tile  [Ali B]
+c72abd2  derpUtils: Add isPackageAvailable method  [shivatejapeddi]
+b4ba7db  SystemUI: Disable all-caps for smart reply button text  [Adithya R]
+e64dae3  SystemUI: LocationTile: Be affected by the secure tiles toggle  [Ido Ben-Hur]
+8d97275  AudioService: Guard against OOB in ringer mode cycle  [Ido Ben-Hur]
+7610523  base: Choose which ringer modes to cycle with the gesture [1/2]  [Ido Ben-Hur]
+dec1082  SystemUI: Use Settings.Panel intent for Volume Tile  [Joey Huab]
+dd422db  SystemUI: Add tile to show volume panel  [stofstik]
+ae877e5  SystemUI: Limit keyguard charging stats updates  [xNombre]
+53c7d46  [SQUASH] base: Allow choosing a custom vibration pattern [1/3]  [Ido Ben-Hur]
+03d90d4  base: Add vibration patterns from OOS [1/3]  [rituj]
+575b5a6  SystemUI: Add a top margin for the battery bar.  [spezi77]
+5e53d83  SystemUI: Color the battery bar red when the level drops to 15%.  [spezi77]
+10b7d05  SystemUI: Introduce keyguard battery bar settings [1/3].  [maxwen]
+ff68383  SystemUI: Make edit button click ripple effect rounded  [DarkJoker360]
+68cd276  SystemUI: Logo: Avoid NPE  [Leohearts]
+1414579  UI: Adjust default navbar layouts  [Andy CrossGate Yan]
+6151b98  SystemUI: Controllable squiggle animation [1/2]  [ReallySnow]
+477f20b  base: Fallback to double click effect for charging vibration  [jhonboy121]
+3e2acf9  base: Use wireless charging animation for wired charging too  [Anushek Prasal]
+24b0459  SystemUI: Hide oos clear all if reticker enable  [Genkzsz11]
+e20325b  SystemUI: Introduce OOS style notification clear all button [1/2]  [00day0]
+a2e985d  Fix bluetooth tile show blank  [Wanhong Jiang]
+097d5c6  display: Force a reset if brightness adjustment is changed directly  [LibXZR]
+1bebaa7  display: Don't reset brightness adjustment on clearUserDataPoints()  [LibXZR]
+63ac56d  ColorUtils: Prevent crash if alpha component is translucent  [Pranav Vashi]
+494baa6  base: Support muting media volume on silent or vibrate mode  [LibXZR]
+3415883  SystemUI: Allow disabling screenshot shutter sound [2/2]  [Adithya R]
+1f09185  Follow Dark/Light theme for Safe Mode dialog  [Pulkit077]
+ac92b68  Pulse: Implement pulse color based album art [1/2]  [Pranav Vashi]
+ffa4cfa  Pulse: Detach pulse view only when attached  [Pranav Vashi]
+53189b7  Pulse: Solid renderer round lines [1/2]  [TikkiTikki]
+749ad68  Pulse: Set current Refresh rate as FPS animation value  [Stallix]
+45a76a7  Pulse: Add more NPE checks  [DarkJoker360]
+bed410d  Pulse: Extend to Ambient Screen  [spezi77]
+fefb16e  Pulse initial checkin for Android 13 [1/2]  [bigrushdog]
+8c2cc11  fixup! Show the vibrate icon in the Status Bar by default  [Michael Bestas]
+7ef7b2a  Show the vibrate icon in the Status Bar by default  [Chirayu Desai]
+459b4fb  SystemUI: Use same Vibrate icon as that in alert slider  [chandu078]
+97d1da8  SystemUI: Fix toggling lockscreen rotation [1/3]  [Dan Pasanen]
+24b0754  Check ACCELEROMETER_ROTATION_ANGLES for current user  [Tom Pratt]
+2d2f031  Configurable 0, 90, 180 and 270 degree rotation  [Ricardo Cerqueira]
+9141565  LockPatternUtils: Make settings getter and setters protected  [d34d]
+74935de  development: Address NPE when removing preferences out of developer options  [Alex Cruz]
+162fe2b  SystemUI: Allow Statusbarlogo to become visible again  [minaripenguin37]
+9f430a0  base: Custom logo: Cleanup and add more fresh ones [1/2]  [Rizky Benggolo]
+77433bb  base: Clean up Custom logo customizations [1/2]  [minarypenguin]
+a7754d4  [SQUASH] Custom logo customizations [1/2]  [Pranav Vashi]
+4d7a17f  SystemUI: Use lighter material you shades for charging animation  [minarypenguin]
+55f0afc  SystemUI: Use color accent for charging animation  [Genkzsz11]
+67a34c8  Fix exception caused by system app setting wallpaper  [Ge Tianxiong]
+fcefd83  Telephony: Fix the record output  [Zoey Chen]
+0c6b974  SystemUI: NavigationModeController: make sure settings proxy is initialized before initializing length mode  [jhonboy121]
+adea934  SystemUI: CastTile: Open cast settings on long click  [Ido Ben-Hur]
+ac9279b  appop: Save discrete app op history for more permissions  [Danny Lin]
+3c1102b  SystemUI: BatteryMeterView: Set white tint in darkmode  [althafvly]
+9626122  SystemUI: Re-inflate QS and SB when CONFIG_SCREEN_LAYOUT  [althafvly]
+00c0cec  Update notchbarkiller overlays  [minaripenguin]
+ad80313  add missing display cutout overlays  [Daniel Micay]
+4611c66  overlays: Add notchbar killer for left-notch devices  [Jaida Wu]
+3886af3  overlays: Add notch bar killer  [Josh Fox]
+90a6dc4  SystemUI: mark getIcon and mNewIconStyle as static so we can access it  [NurKeinNeid]
+517719b  LyricViewController: Support multiple dark tint areas  [NurKeinNeid]
+494b81e  SystemUI: Fix status bar lyric overlapping with the center clock  [LibXZR]
+497715c  fixup! base: Add status bar lyric [1/3]  [LynnrinChan]
+951318e  base: Settings: add Secure.STATUS_BAR_SHOW_LYRIC to System.MOVED_TO_SECURE for compatibility  [cjybyjk]
+c40da21  SystemUI: always call startLyric if notification has lyric data  [cjybyjk]
+420ead7  base: Add status bar lyric [1/3]  [cjybyjk]
+50098c1  base: Allow toggling floating rotation button [1/2]  [Ido Ben-Hur]
+fec1508  base: Reduce horizontal spacing around location icon  [Adithya R]
+e66fc24  InternetDialog: Launch mobile network settings on long press  [Adithya R]
+4245c55  InternetDialog: Require unlocking to turn on hotspot  [Adithya R]
+6c4ce43  SystemUI: Fix summary of hotspot toggle dialog  [lindwurm]
+9577e66  SystemUI: Add hotspot toggle in QS internet dialog  [Adithya R]
+ca3cb65  SystemUI: Require unlocking to use USB Tether QS tile  [inthewaves]
+9808da3  SystemUI: QSCustomizer: Fix QS tile reset text color  [althafvly]
+4240fd8  UI: Follow Monet and light/dark theme in user 1 icon  [Andy CrossGate Yan]
+9bf9b19  base: Add support for window ignore secure  [LibXZR]
+ba189b0  QSPanel: Fix NPE in updateViewPositions()  [Pranav Vashi]
+d924984  Fix action bar font family on material themes  [Henrique Silva]
+d846c51  StrictStandby: Offload force stop onto lock-free context  [LibXZR]
+9f4781d  am: Block MEDIA_MOUNTED broadcast for restricted apps  [LibXZR]
+6196972  base: Add support for strict standby policy  [LibXZR]
+e3b8475  SystemUI: Refactor colored statusbar icons  [Pranav Vashi]
+0e585ee  Make colored Statusbar Icons optional [1/2]  [spkal01]
+f2389a9  StatusBarIconView: use app icons instead of provided notif one  [Dil3mm4]
+bf8ba9c  NavigationBarEdgePanel: Make the gesture duration always valid  [LibXZR]
+6b6a0e76  RingtoneManager: Set an default ringtone for the SIM 2  [micky387]
+f16401c  base: Phone ringtone setting for Multi SIM device [1/3]  [Ting Yu]
+dda92dc  EdgeBackGestureHandler: Change back gesture height intervals  [Anushek Prasal]
+8da7c82  base: navigation mode settings [1/2]  [maxwen]
+288ad3a  SystemUI: Allow Configuring Navbar Radius [1/2]  [spkal01]
+e80b073  NotificationPanelViewController: Only set keyguard indication visibility  [Ido Ben-Hur]
+b1618d3  SystemUI: Fixup edge lightning when AOD is off  [Ido Ben-Hur]
+a67ada5  NotificationLightsView: Fix color mode  [cjh1249131356]
+00b935c  Ambient Pulse Lights: add layout style for top n bottom [1/2]  [SuperDroidBond]
+46030ab  Ambient Pulse Lights: Add light width [1/2]  [Michele Bono]
+ddc565a  SystemUI: Ambient Edge Pulse style [1/2]  [AnkitGourav]
+fd16680  NotificationLights: add reverse animation direction  [Ali B]
+cddd5d7  SystemUI: Edge lighting code improvements  [Anushek Prasal]
+d6db3da  SystemUI: Pulse edge light for all doze triggers [1/2]  [Ido Ben-Hur]
+59be9f4  base: Fix edge lights when sensitive notification content is hidden on keyguard  [Ido Ben-Hur]
+f3e2bd6  base: Only allow edge lights on AOD when AOD is enabled [1/2]  [Ido Ben-Hur]
+a97107a  base: Ensure edge lightning is off when we are done with repeats  [Ido Ben-Hur]
+af34433  base: Allow using wallpaper color for notification pulse  [Ido Ben-Hur]
+6e62956  base: Add animation duration & repeat count for notification pulse  [Ido Ben-Hur]
+c1db8db  base: Reorginize light pulse color options in one setting  [Ido Ben-Hur]
+2aed0fd  SystemUI: fix notification light pulse for repeating notifications  [maxwen]
+9888f6e  base: Support using notification color for pulse light  [maxwen]
+4d72195  SystemUI: day 0 notification light pulse fixes  [Marko Man]
+78a28b1  base: Add custom color to ambient pulse notification lights  [Marko Man]
+07292cf  SystemUI: Add Ambient Lights always on hide aod content option  [Marko Man]
+a17934098  base: Cleanup notification pulse values  [maxwen]
+8c53bcc  SystemUI: replace pulse light drawable with our own vector  [Marko Man]
+70925df  SystemUI: kill any leftover notification pulse on new pulse start  [maxwen]
+0e898fb  base: Pulse light accent color option  [Marko Man]
+1f4f4e4  base: Trigger pulse light only for notifications  [maxwen]
+0815db1  base: add Pulse and Ambient notification bars  [kldoc]
+6d21c7b  AudioService: Fix issue with linked notification volume  [Pranav Vashi]
+5fde8e1  base: AudioService: bail out if ringer mode is not recognized  [jhonboy121]
+6c96387  SystemUI: Fix crash in cast tile for non-carrier wifi  [Chris Crump]
+eaad68b  CastTile: Fix availability of Cast Quick Setting Tile  [Indranil]
+975db92  Make sensor block package list configurable [1/2]  [Hikari-no-Tenshi]
+2e8f0dc  base: Add Accelerometer and Linear Acceleration sensors in blocking list  [HolyAngel]
+d40334e  Settings: make SensorBlock readable by non-system apps  [Ali B]
+6bcc843  FWB: Sensor block per-package switch (1/2)  [LorDClockaN]
+3a5a98a  SystemSensorManager: sensor block per-package  [Simao Gomes Viana]
+9298308  Add DerpSpace CategoryKey  [XlxFoXxlX]
+8a63d65  Privacy Indicators: Follow light/dark theme settings  [minarypenguin]
+2da99ce  Avoid Settings app NPE on broken packages  [t-m-w]
+33e828f  core: Fix menu popup ripple  [timjosten]
+5a7ee33  SystemUI: Fix QS tile view active tint  [str143]
+0a66b4e  [SQUASH] SystemUI: Forward-port notification counters [1/2]  [Steve Kondik]
+5453d41  base: wm: Follow rounded corners by split divider corner size  [ReallySnow]
+dac921c  SystemUI: Fix QS header clock color  [Danny Baumann]
+f27e33a  ThemeOverlayApplier: Apply wifi and signal icon styles last  [Pranav Vashi]
+9983ddb  ThemeOverlayApplier: Catch a potential NPE  [spezi77]
+ab7febe  Bring back ThemeUtils for Theming  [sb6596]
+b7a8929  SystemUI: Allow customizing footer text [1/2]  [Ido Ben-Hur]
+fc1a5ad  base: Allow toggling QS footer text [1/2]  [Ido Ben-Hur]
+9e7fd0b  QuickSettings: Allow changing vibration duration [1/2]  [Jason Edson]
+c79fb35  Add interpolators to qs tiles animation [1/2]  [Nico60]
+04e95ee  Add animations to quick settings tiles [1/2]  [Nico60]
+f9bfbe2  QuickSettings: Add Haptic Feedback to tiles [1/2]  [Evisceration]
+e52c0bc  SystemUI: Re-evaluate system theme on QS brightness slider position change  [SamarV-121]
+d1c5b83  SystemUI: Change brightness slider position defaults  [Tim Zimmermann]
+f6d6ac3  BrightnessController: Don't update slider from DisplayManager callback if user is changing brightness  [jhonboy121]
+ef7d1ed  Port brightness slider changes [1/2]  [Alberto97]
+43857de  core: Declare default display light sensor  [AmeChanRain]
+6100096  [SQUASH] Revert GLES v2 implementation  [NurKeinNeid]
+6d4ffcf5  always auto-grant permissions that have "normal" protectionLevel  [Dmitry Muhomor]
+55ed154  SystemUI: Fix reticker's notification background color  [str143]
+693bc95  Skip less boring notification check when reTicker mode is active  [Pranav Vashi]
+510f645  reTicker: Do not jump to app when clicked in games  [cjh1249131356]
+878d89b  reTicker: Cleanup  [cjh1249131356]
+b0d7e9a  reTicker: Do not show when content/icon is null  [cjh1249131356]
+34c3aaa  reTicker: Allow to only show in Landscape mode [1/2]  [cjh1249131356]
+d70645b  Properly update view for reTicker  [Pranav Vashi]
+ade7a81  Feature: reticker [1/2]  [Dil3mm4]
+1e73372  Allow to hide arrow for back gesture [1/2]  [Ali B]
+3e09f94  TwilightService: Save and use last fetched location  [Ido Ben-Hur]
+a4208aa  TwilightService: Use temporary TwilightState when location is not available  [rituj]
+2edb802  SystemUI: Switch notification background to monet on heads up  [DillerOFire]
+0214d29  AutoBrightnessTile: Properly redirect longpress to adaptive brightess settings  [Mocarafee]
+d5875cf  SystemUI: Add Autobrightness tile  [Dil3mm4]
+c81a527  SystemUI: Switch to config for Refresh Rate QS tile  [cjh1249131356]
+ed00a8a  RefreshRateTile: Improve logic  [cjh1249131356]
+a23ae0c  base: added refresh rate tile  [jhonboy121]
+935c1b9  SystemUI: VPN tile: Collapse panel when opening app  [George Zacharia]
+5f1d5c4  QS: Add Sound tile  [Yoshinori Hirano]
+fd164bc  SystemUI: Fix QS compass tile spam & instability  [timjosten]
+0bdd2dc  SystemUI: CompassTile: Add a device supports compass check  [PMS22]
+fc0d46d  SystemUI: QS: Add Compass tile  [romanbb]
+167e069  SoundSearchTile: Extend the use  [El Dainosor]
+3f3c85c  Add Google Sound Search tile  [ezio84]
+2f55185  SystemUI: Fix double unlock sound issue  [timjosten]
+8d04a03  Fix screen flickering when using one handed mode  [timjosten]
+9d7709c  SystemUI: Hide call strength icons  [SagarMakhar]
+1fc7384  base: Option to Display Data Disabled Indicator Icon [1/2]  [varund7726]
+4590f2f  Allow using 4G icon instead LTE [1/2]  [Pranav Vashi]
+9a06e08  Fix VPN icon failed reloading after disabling  [Pranav Vashi]
+093a545  SystemUI: Introduce dynamic VoLTE & VoWiFi icons  [SagarMakhar]
+
+
+* frameworks/native
+3efe5d9  Revert "REThreaded: convert gen- and delete-Textures to no-ops"  [DarkJoker360]
+
+
+* frameworks/opt/telephony
+7fe25ce  Merge pull request #3 from Klozz/13  [Alexander Brunswig]
+2f366b5  Restore support with RadioConfig@1.0 dsds clients.  [Quallenauge]
+
+
+* packages/apps/DerpLauncher
+e214a2c  DerpLauncher: Migrate deprecated getColor to one with Theme  [minaripenguin]
+c1a6d79  DerpLauncher: Tone down scrim background to N1 for vibrance  [minaripenguin]
+
+
+* packages/apps/DerpSpace
+f8badc6  DerpSpace: Pulse: Increase solid fudge factor values  [NurKeinNeid]
+
+
+* packages/apps/FaceUnlockService
+b7fabd8  Merge branch 'thirteen' of https://github.com/PixelExperience/packages_apps_FaceUnlockService into HEAD  [NurKeinNeid]
+
+
+* packages/apps/Settings
+8f4521b  Settings: Fix wrong capitalization in pulse light strings  [NurKeinNeid]
+
+
+* packages/apps/ThemePicker
+c73e6f1  ThemePicker: Remove beta tag for themed icons  [Pranav Vashi]
+f30be14  Automatic translation import  [Michael Bestas]
+f62fbd6  Remove custom themes stub from package query allowlist  [Michael Bestas]
+
+
+* vendor/derp
+9300169  [DO NOT MERGE] stub: use our stub instead of the aosp one  [El Dainosor]
+262f606  overlay: Disable immersive mode confirmation  [Arian]
+be5b90c  apn: update for T Star, Vibo and AURORA  [frost]
+aa5e92e  config: Inherit window_extensions.mk  [Tim Zimmermann]
+bbe4ce1  config: Include androidx.window.extensions in tablet builds  [Tim Zimmermann]
+e960edf  config: Create makefiles for tablets with telephony support  [Bruno Martins]
+
+
+* vendor/overlay
+3cdaf16  NexodusTheme: Remove brightness progress drawable  [NurKeinNeid]
+f9b4c6e  overlay: Add riceball icon shape  [minaripenguin37]
+
+
+* vendor/qcom/opensource/usb
+0202ec5  USB: Advertise as sink when audio accessory is connected  [Adithya R]
