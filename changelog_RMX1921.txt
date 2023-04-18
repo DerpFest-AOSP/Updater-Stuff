@@ -1,27 +1,37 @@
 Device Changelog:
 
 * Latest Derpfest source upstream
-* Fixed proximity in call
-* Fixed Screen off fod
+* Merged March(QPR2), April security patches
+* Fixed Fod in AOD
 * Fixed AOD & Aod brightness
-* Added motion sensor support in ambient display gestures(it will pulse instead of fod icon glow like stock one)
-* Reworked on overlays
-* Removed deprecated overlays
-* Removed all previous fod, aod, proximity hacks
-* Moved to qti vibrator aidl hal & added vibration patterns
-* Added power button location for screen off animation
-* Idle drain improved much with screen off fod
+* Updated system blobs from LA.QSSI.13.0.r1-09400.01-qssi.0
+* Disabled blur
+* Idle drain improved much even with screen off fod
 * SafetyNet pass without root as usual
 * More improvements & bug fixes!
 
 Rom Changelog:
 
-- Add toggle to switch between AOSP/Google battery graphs
-- Block OTA downloading from GMS
-- Udfps: Forward port Boost framework hook
-- Restore AOSP auth ripple animation duration value
-- Fix initial switch state for heads up notifications
-- DerpSpace: Add more random summaries
-- DerpLauncher: Switch to AppLock API for protected apps
-- DerpLauncher: Fix sorting in zh-Hans-CN
+- Merge March & April security patches
+- Rebase sources on Android QPR2 release
+- Move ambient edge lightning settings to display settings
+- Remove Google TV remote controls keyguard affordance
+- Remove recently added battery styles and customizations for battery icon in QS
+- Remove QS tiles count & vertical layout settings
+- Remove footer text customizations
+- Remove QS footer warning toggle
+- Remove togge for wallpaper zooming
+- Allow forcing a single bottom keyguard shortcut
+- LockscreenShortcuts: Add DND to the defaults
+- Reimplement brightness slider customizations
+- Allow to choose lockscreen or Ambient on wake gestures
+- DerpLauncher: Add Shake to clear all tasks switch
+- GameSpace: Reduce branding font size
+- GameSpace: Use relative-location on landscape
+- GameSpace: Trim expand button width
+- GameSpace: Update gradle config and dependencies
+- GameSpace: Update deprecated API usages
+- GameSpace: Fix layout jumps after dragging the bar
+- GameSpace: Remove duplicate drawables
+- GameSpace: Safely update rootBarView's LayoutParam
 - Some more things maybe I can't remember more :P
