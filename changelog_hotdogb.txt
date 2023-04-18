@@ -1,32 +1,28 @@
-- Merge February security patch (aka r30)
-- Switch to Lineage device settings for all devices
-- Complete HW key customizations
-- Move Parallel space to Apps category in aosp settings
-- Add more customization options to pulse edge light settings
-- Import new fonts from Bootleggers
-- Update Glide library used in some theming preferences in DerpSpace
-- Update smartspace to 13-QPR1
-- Allow disabling color inversion support for maintainers
-- Allow to set left volume panel and qs transparency defaults for maintainers
-- Add blur switch (affects qs and power menu)
-- Allow to disable blur support for maintainers
-- Add Google TV remote controls keyguard affordance
-- Allow disabling qs on secure lockscreen
-- Add icon shape option to themepicker
-- Add back app volume toggle 
-- Add heads up switch to AOSP notification settings
-- Add pocket mode
-- Extend Sleep mode with extra dark, wake and alarm blocker
-- GameSpace: Remove dim layer from the panel view (as seen on OEMs)
-- DerpLauncher: Match dimens with Pixel Launcher
-- DerpLauncher: Allow widgets to have 1 row as minimum size
-- DerpLauncher: Port multiple work profile badge colors
-- DerpLauncher: Show work apps unless all work profiles are turned off
-- Translation import from Lineage
-- Automatic translation import for DerpSpace
-- Updated manual German translation
-- Sync Aperture with Lineage 
+ROM:
+- Merge April security patch
+- Rebase sources on Android QPR2 release
+- Move ambient edge lightning settings to display settings
+- Remove Google TV remote controls keyguard affordance
+- Remove recently added battery styles and customizations for battery icon in QS
+- Remove QS tiles count & vertical layout settings
+- Remove footer text customizations
+- Remove QS footer warning toggle
+- Remove togge for wallpaper zooming
+- Allow forcing a single bottom keyguard shortcut
+- LockscreenShortcuts: Add DND to the defaults
+- Reimplement brightness slider customizations
+- Allow to choose lockscreen or Ambient on wake gestures
+- DerpLauncher: Add Shake to clear all tasks switch 
+- GameSpace: Reduce branding font size
+- GameSpace: Use relative-location on landscape
+- GameSpace: Trim expand button width
+- GameSpace: Update gradle config and dependencies
+- GameSpace: Update deprecated API usages
+- GameSpace: Fix layout jumps after dragging the bar
+- GameSpace: Remove duplicate drawables
+- GameSpace: Safely update rootBarView's LayoutParam
 - Some more things maybe I can't remember more :P
 
-DEVICE
-- Switch to legacy bootanimation
+DEVICE:
+- Upstreamed kernel to 4.14.312
+- Some more that I can´t remember now
