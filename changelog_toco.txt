@@ -1,56 +1,58 @@
 Device Changes:
 
-- audio: Fix 24bit audio playback
-- Build trust hal
-- dolby: Drop AC4 codec support
-- hidl: Add xiaomi framework compatibility matrix
-- Import vendor.xiaomi.hardware.campostproc@1.0.so
-- Include qcom and lineage framework compatibility matrix
-- Move qti_whitelist.xml to /system_ext
-- overlay: Allow camera to skip high frame rate checks
-- overlay: Disable UI touch sounds by default
-- overlay: Use AOSP default ripple animation duration
-- powerhint: Don't mess with CPU FREQ
-- powerhint: Set GPU idle timeout to 80 ms
-- prop: Disable SF composition prediction model
-- prop: Force device to treat 170M as sRGB in SF
-- prop: Remove unused persist.bluetooth.a2dp_offload.cap
-- Remove remnant APM flag
-- sepolicy: Allow parts to get SettingsLib prop
-- sepolicy: Allow system_server to set tethering properties
-- sepolicy: Move vold_prepare_subdirs to system
-- sepolicy: Switch to vendor_fingerprint_data_file
-- Update blobs from sweet V13.0.16.0.SKFMIXM
-- Update system from LA.QSSI.13.0.r1-08600-qssi.0
-- Update system from LA.QSSI.13.0.r1-09000.01-qssi.0
+- audio: Use 24bit as primary output
+- Import vendor task_profiles.json from stock
+- Import Xiaomi TouchFeature service
+- overlay: Disable lock screen rotation
+- overlay: Disable Pocket Lock
+- overlay: Fix hyper orange night light
+- overlay: Remove udfps leftover
+- overlay: Update battery info every second when charging
+- parts: Remove Dirac logo
+- parts: Update from sdm845-common
+- prop: Enable ro.hwui.render_ahead
+- prop: Redefine bluetooth a2dp offload capabilities
+- Restore QCOM wfd HDCP support
+- rootdir: Remove deprecated max comp streams
+- sepolicy: Address location denials
+- sepolicy: Label read_ahead_kb
+- sepolicy: Label UFS discard_max_bytes
+- sepolicy: Update fast charging perms
+- sepolicy: Update some Dolby sepolicy
+- Set display mode to DCI-P3
+- Update adreno stack from LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0
+- Update ADSP from LA.UM.9.1.r1-12900-SMxxx0.0
+- Update blobs from sweet V13.0.18.0.SKFMIXM
+- Update blobs from sweet V14.0.1.0.TKFMIXM
+- Update gps configs from LA.UM.9.1.r1-12900-SMxxx0.0
+- Update keymaster from LA.UM.9.1.r1-12900-SMxxx0.0
+- Update perf HAL to 2.3
+- Update some blobs from msmnile LA.UM.9.1.r1-12900-SMxxx0.0
+- Update system blobs from LA.QSSI.13.0.r1-09200-qssi.0
+- Update system from LA.QSSI.13.0.r1-09400.01-qssi.0
+- Update ueventd from LA.UM.9.1.r1-12900-SMxxx0.0
 
 ROM:
-- Merge February security patch (aka r30)
-- Switch to Lineage device settings for all devices
-- Complete HW key customizations
-- Move Parallel space to Apps category in aosp settings
-- Add more customization options to pulse edge light settings
-- Import new fonts from Bootleggers
-- Update Glide library used in some theming preferences in DerpSpace
-- Update smartspace to 13-QPR1
-- Allow disabling color inversion support for maintainers
-- Allow to set left volume panel and qs transparency defaults for maintainers
-- Add blur switch (affects qs and power menu)
-- Allow to disable blur support for maintainers
-- Add Google TV remote controls keyguard affordance
-- Allow disabling qs on secure lockscreen
-- Add icon shape option to themepicker
-- Add back app volume toggle 
-- Add heads up switch to AOSP notification settings
-- Add pocket mode
-- Extend Sleep mode with extra dark, wake and alarm blocker
-- GameSpace: Remove dim layer from the panel view (as seen on OEMs)
-- DerpLauncher: Match dimens with Pixel Launcher
-- DerpLauncher: Allow widgets to have 1 row as minimum size
-- DerpLauncher: Port multiple work profile badge colors
-- DerpLauncher: Show work apps unless all work profiles are turned off
-- Translation import from Lineage
-- Automatic translation import for DerpSpace
-- Updated manual German translation
-- Sync Aperture with Lineage 
+- Merge April security patch (aka android-13.0.0_r41)
+- Rebase sources on Android QPR2 release
+- Move ambient edge lightning settings to display settings
+- Remove Google TV remote controls keyguard affordance
+- Remove recently added battery styles and customizations for battery icon in QS
+- Remove QS tiles count & vertical layout settings
+- Remove footer text customizations
+- Remove QS footer warning toggle
+- Remove togge for wallpaper zooming
+- Allow forcing a single bottom keyguard shortcut
+- LockscreenShortcuts: Add DND to the defaults
+- Reimplement brightness slider customizations
+- Allow to choose lockscreen or Ambient on wake gestures
+- DerpLauncher: Add Shake to clear all tasks switch
+- GameSpace: Reduce branding font size
+- GameSpace: Use relative-location on landscape
+- GameSpace: Trim expand button width
+- GameSpace: Update gradle config and dependencies
+- GameSpace: Update deprecated API usages
+- GameSpace: Fix layout jumps after dragging the bar
+- GameSpace: Remove duplicate drawables
+- GameSpace: Safely update rootBarView's LayoutParam
 - Some more things maybe I can't remember more :P
