@@ -1,34 +1,28 @@
 Device Changelog:
-- Merged 4.14.312 upstream into kernel
-- Merged LA.UM.9.1.r1-13400-SMxxx0.QSSI12.0 caf tag into kernel
-- Updated most vendor blobs from LA.UM.9.1.r1-12900-SMxxx0.0
-- Updated system blobs from LA.QSSI.13.0.r1-09200-qssi.0
-- Dropped useless now aptx blobs
-- Address some sepolicy denials
-- Update ueventd from LA.UM.9.1.r1-12900-SMxxx0.0
-- Drop some duplicated props
+- Merged 4.14.313 upstream into kernel
+- Updated adreno from LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0 (V530.47, date: 10/27/2022)
+- Updated system blobs from LA.QSSI.13.0.r1-09400-qssi.0
+- Set frame render ahead to 3 frames to reduce some lags with new QS
+- Fixed and enabled by default 24bit audio
 
 Rom changelog:
-- Merge March security patch (aka android-13.0.0_r35)
-- Rebase sources on Android QPR2 release
-- Move ambient edge lightning settings to display settings
-- Remove Google TV remote controls keyguard affordance
-- Remove recently added battery styles and customizations for battery icon in QS
-- Remove QS tiles count & vertical layout settings
-- Remove footer text customizations
-- Remove QS footer warning toggle
-- Remove togge for wallpaper zooming
-- Allow forcing a single bottom keyguard shortcut
-- LockscreenShortcuts: Add DND to the defaults
-- Reimplement brightness slider customizations
-- Allow to choose lockscreen or Ambient on wake gestures
-- DerpLauncher: Add Shake to clear all tasks switch
-- GameSpace: Reduce branding font size
-- GameSpace: Use relative-location on landscape
-- GameSpace: Trim expand button width
-- GameSpace: Update gradle config and dependencies
-- GameSpace: Update deprecated API usages
-- GameSpace: Fix layout jumps after dragging the bar
-- GameSpace: Remove duplicate drawables
-- GameSpace: Safely update rootBarView's LayoutParam
+- Merge April security patch
+- Bring back vibrate icon on statusbar
+- Update 5G+ icon to Silk design
+- Improve statusbar mobile type icons padding
+- Scale mobile data type icon with font size
+- Allow toggling privacy indicators (needs SysUI restart)
+- StatusbarTuner: Combine mute/vibrate into volume toggle
+- Update Nexodus theme from bootleggers
+- Settings: Make incall vibration options dependant on touch feedback
+- DerpLauncher: Drop overview scrolling scale animation because of visual bugs
+- Attempt to fix Personal/Work profile tab colors in All Apps after QPR2
+- Aperture: Add toggle for FFC horizontal flip
+- Bring back QS footer background
+- Skip screenrecord dialog when long pressing the QS tile
+- Make google's battery widget work
+- Misc improvements to Sound QS tile
+- Enable the user switcher on the keyguard for large screen
+- DerpLauncher: Enable showing dot pagination in workspace
+- DerpLauncher: Skip glitchy search animation
 - Some more things maybe I can't remember more :P
