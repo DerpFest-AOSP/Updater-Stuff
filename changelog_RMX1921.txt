@@ -2,11 +2,11 @@ Device Changelog:
 
 * Latest Derpfest source upstream
 * Merged March(QPR2), April security patches
+* An attempt to fix qs panel lag(No lags for me, other users test & report)
 * Fixed Fod in AOD
-* Fixed AOD & Aod brightness
-* Updated system blobs from LA.QSSI.13.0.r1-09400.01-qssi.0
-* Disabled blur
-* Idle drain improved much even with screen off fod
+* Fixed fod issues
+* Removed pocket detection
+* Lowered AOD brightness(it will improve idle drain on Aod)
 * SafetyNet pass without root as usual
 * More improvements & bug fixes!
 
