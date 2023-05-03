@@ -1,37 +1,22 @@
 Device Changelog:
 
+
+
 * Latest Derpfest source upstream
-* Merged March(QPR2), April security patches
-* An attempt to fix qs panel lag(No lags for me, other users test & report)
-* Fixed Fod in AOD
-* Fixed fod issues
-* Removed pocket detection
-* Lowered AOD brightness(it will improve idle drain on Aod)
+* Merged May security patches
+* Disabled combined qs header in status bar to fix qs panel lagging
+* Disable Skia tracing by default
+* Updated system blobs from LA.QSSI.13.0.r1-09700-qssi.0
+* Updated CarrierConfig from LA.QSSI.13.0.r1-09700-qssi.0
 * SafetyNet pass without root as usual
 * More improvements & bug fixes!
 
 Rom Changelog:
 
-- Merge March & April security patches
-- Rebase sources on Android QPR2 release
-- Move ambient edge lightning settings to display settings
-- Remove Google TV remote controls keyguard affordance
-- Remove recently added battery styles and customizations for battery icon in QS
-- Remove QS tiles count & vertical layout settings
-- Remove footer text customizations
-- Remove QS footer warning toggle
-- Remove togge for wallpaper zooming
-- Allow forcing a single bottom keyguard shortcut
-- LockscreenShortcuts: Add DND to the defaults
-- Reimplement brightness slider customizations
-- Allow to choose lockscreen or Ambient on wake gestures
-- DerpLauncher: Add Shake to clear all tasks switch
-- GameSpace: Reduce branding font size
-- GameSpace: Use relative-location on landscape
-- GameSpace: Trim expand button width
-- GameSpace: Update gradle config and dependencies
-- GameSpace: Update deprecated API usages
-- GameSpace: Fix layout jumps after dragging the bar
-- GameSpace: Remove duplicate drawables
-- GameSpace: Safely update rootBarView's LayoutParam
-- Some more things maybe I can't remember more :P
+- Merge May Security patch (android-13.0.0_r43)
+- Add brightness slider styles
+- QRCodeScanner: Use Lens as fallback activity
+- UIStyles: Shishu Themes 1.2
+- UIStyles: Small changes for Optronic
+- UIStyles: Add brightness gradient for pacleggers
+- DerpSpace: Update German translations
