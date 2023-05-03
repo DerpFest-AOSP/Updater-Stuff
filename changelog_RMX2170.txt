@@ -1,74 +1,77 @@
 [DEVICE]
-- Enforcing
-- kernel: merged latest linux patch v4.14.304
-- Switch to AutoSingleLayer Android 13 Setting
-- Disable vsync for CPU rendered Apps
-- Fixup sb/qs height paddings
-- Set block_binder_thread_on_incoming_calls prop
-- Disable phantom process monitoring
-- Configured and increased volume steps for more precision
-    Media: 30
-    System: 20
-    Voice call: 15
-    Alarm: 15
+- kernel: merge latest linux patch v4.14.305
+- build GCamGo
+- Disable LMKD log stats
+- Remove resource cache too on early boot
+- Disable intrusive gms components
+- Enable BT low power adaptive control feature
+- Enable status burnin protection
+- Inherit several Android Go configurations (for good optimization)
+- Increase volume steps further for more precision
+    Alarm: 20
+    Voice call: 20
+    System: 30
+
 
 [#MelloLab]
-- Screenshot: Speed up actions expansion animation
-- Improved collapsing toolbar scrim color
-- Improved collapsing toolbar scrim animation
-- Increased collapsing toolbar height for better one hand management
-- Revamped power menu
-- Added systemui reboot
-- Redesigned, revamped like OOS13 and animated progress bar for battery and storage based on monet
-- Made the background in powermenu blur
-- CachedAppOptimizer : Fix cached & persistent apps compaction
-- Introduce AOSP boost and memory optimization framework API
-- ripple: Replace with Fluent Design-inspired animation
-- SystemUI: Fix black screen after DOZE
-- Guard in short-circuit evaluations for stringSplit methods
-- Sync anim durations with Nothing Phone 1
-- JobScheduler: Stop leaking user information
-- SystemUI: properly align Notification Icons
-- SystemUI: Optimize system statusbar icons
-- android: responsiveness optimizations
-- Removed QS footer text customisation
-- Added daily data usage toggle to QS footer
-- Fixed the UDFPS icon not aligned properly for some apps (gpay, hide apps, etc)
-- Allow double tap to wake on ambient display
-- SystemUI: Improve vertical QS tile layout & animation
-- SystemUI: Make lockscreen keyguard elements follow clock font
-- Added uninstall button to DerpLauncher shortcuts
-- Add background chip to memory info in recents view
-- Rework memory info
-- Enabled the live tile in recents view
+- Added support for GMS switch
+- Seperate fling velocity configuration for gesture recognition
+- tweak navigation bar handle to be semi-transparent (inspired by realmeUI)
+- DerpLauncher: Open running services activity when clicking meminfo view
+- Allow making Navigation Pill thinner
+- Fix clock text color on combined qs header
+- Allow locking tasks to recents
+- Add QS Page Custom Transition Animations
+- Introduce Dynamic System Bars (DSB) 13
+- Add Ambient Customizations
+- Add circle thumb at the end of seekbar
+- Fix seekbar when disabled
+- Open mobile data usage from qsfooter
+- Replace lockscreen icons with two-tone icons
+- Add status bar new user switcher chip toggle
+- tweak with incall chip flag
+- Polish volume app icon paddings
+- HWUI: Use kMirror instead of kClamp
+- Make other lockscreen elements follow clock font
+- Add optional haptic feedback to volume panel
+- Add optional haptic feedback to brightness slider
+- Add optional haptic feedback to scroll fling hit
+- Added ockscreen clock format settings
+- Added combined QS headers toggle
+- Fixed small keyguard clock text alignment
+- Add toggle to switch between AOSP/Google battery graphs
+- Utilize a Different Preference for Storage
+- PermissionController dialog: Apply google material you palette
 - So many fixes, improvements for daily usage and under-the-hood changes I cannot mention all (kindly check changelog section in rom)
 
+
 [SOURCE]
-- Merge January security patch (android-13.0.0_r23)
-- Add support for Lockscreen clock fonts (DerpSpace > Lockscreen UI)
-- Add Advanced Monet settings from Yaap
-- Add back toggle for quick qs pull down
-- Add Colored statusbar icons switch
-- Allow to show Wi-Fi standard icon next to WiFi signal indicator
-- Add custom screen resolution setting for supported devices
-- Switch to Lineage impl for notification and battery light settings 
-- Fix VoLTE/VoWifi not showing on sim2
-- Shorten auth ripple animation duration by 50% by default and make it overlayable for maintainers
-- Add haptic feedback to long press power button torch option
-- Fix layout of old style mobile indicator
-- Fix launch of permision revoke activity from playstore
-- Fix battery graph disappearing when reaching 100%
-- telephony: Use case insensitive check for plmn-spn to avoid showing "JIO - Jio" or "O2 -o2" for example 
-- device_config: Update AiAi configs for captions and translation
-- device_config: Globally enable the new photo picker
-- device_config: Enable smart actions in the clipboard overlay
-- device_config: Force enable one-search bar on Pixel Launcher
-- DerpLauncher: Keep hotseat bottom spacing for taskbar devices
-- DerpLauncher: Fix recents crash with parallel space
-- Enable new qpr2 combined QS header layout
-- Add back separate signal icons switch
-- Add Transparent QS customization
-- Allow setting bottom keyguard shortcuts
-- Add restart systemui shortcut to power menu
-- Don't force small clock when media isn't allowed on keyguard
-- Sync Aperture with Lineage
+- Merge February security patch (aka r30)
+- Switch to Lineage device settings for all devices
+- Complete HW key customizations
+- Move Parallel space to Apps category in aosp settings
+- Add more customization options to pulse edge light settings
+- Import new fonts from Bootleggers
+- Update Glide library used in some theming preferences in DerpSpace
+- Update smartspace to 13-QPR1
+- Allow disabling color inversion support for maintainers
+- Allow to set left volume panel and qs transparency defaults for maintainers
+- Add blur switch (affects qs and power menu)
+- Allow to disable blur support for maintainers
+- Add Google TV remote controls keyguard affordance
+- Allow disabling qs on secure lockscreen
+- Add icon shape option to themepicker
+- Add back app volume toggle 
+- Add heads up switch to AOSP notification settings
+- Add pocket mode
+- Extend Sleep mode with extra dark, wake and alarm blocker
+- GameSpace: Remove dim layer from the panel view (as seen on OEMs)
+- DerpLauncher: Match dimens with Pixel Launcher
+- DerpLauncher: Allow widgets to have 1 row as minimum size
+- DerpLauncher: Port multiple work profile badge colors
+- DerpLauncher: Show work apps unless all work profiles are turned off
+- Translation import from Lineage
+- Automatic translation import for DerpSpace
+- Updated manual German translation
+- Sync Aperture with Lineage 
+- Some more things maybe I can't remember more :P
