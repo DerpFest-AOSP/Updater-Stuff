@@ -1,28 +1,16 @@
 Device Changelog:
-- Merged 4.14.313 upstream into kernel
-- Updated adreno from LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0 (V530.47, date: 10/27/2022)
-- Updated system blobs from LA.QSSI.13.0.r1-09400-qssi.0
-- Set frame render ahead to 3 frames to reduce some lags with new QS
-- Fixed and enabled by default 24bit audio
+- Merged 4.14.314 upstream into kernel
+- Merged LA.UM.9.1.r1-13500-SMxxx0.QSSI13.0 upstream into kernel
+- Fixed some issue with quiet mic after enabling 24bit audio
+- Updated system blobs from LA.QSSI.13.0.r1-09700-qssi.0
+- Disable Skia tracing by default
+- Update CarrierConfig from LA.QSSI.13.0.r1-09700-qssi.0
 
 Rom changelog:
-- Merge April security patch
-- Bring back vibrate icon on statusbar
-- Update 5G+ icon to Silk design
-- Improve statusbar mobile type icons padding
-- Scale mobile data type icon with font size
-- Allow toggling privacy indicators (needs SysUI restart)
-- StatusbarTuner: Combine mute/vibrate into volume toggle
-- Update Nexodus theme from bootleggers
-- Settings: Make incall vibration options dependant on touch feedback
-- DerpLauncher: Drop overview scrolling scale animation because of visual bugs
-- Attempt to fix Personal/Work profile tab colors in All Apps after QPR2
-- Aperture: Add toggle for FFC horizontal flip
-- Bring back QS footer background
-- Skip screenrecord dialog when long pressing the QS tile
-- Make google's battery widget work
-- Misc improvements to Sound QS tile
-- Enable the user switcher on the keyguard for large screen
-- DerpLauncher: Enable showing dot pagination in workspace
-- DerpLauncher: Skip glitchy search animation
-- Some more things maybe I can't remember more :P
+- Merge May Security patch (android-13.0.0_r43)
+- Add brightness slider styles
+- QRCodeScanner: Use Lens as fallback activity
+- UIStyles: Shishu Themes 1.2
+- UIStyles: Small changes for Optronic
+- UIStyles: Add brightness gradient for pacleggers
+- DerpSpace: Update German translations
