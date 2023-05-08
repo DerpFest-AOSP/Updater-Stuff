@@ -5,6 +5,7 @@ Device Changelog:
 - Updated system blobs from LA.QSSI.13.0.r1-09700-qssi.0
 - Disable Skia tracing by default
 - Update CarrierConfig from LA.QSSI.13.0.r1-09700-qssi.0
+- Fixed ok google issue which happend since 07.05.2023 build
 
 Rom changelog:
 - Merge May Security patch (android-13.0.0_r43)
@@ -14,3 +15,4 @@ Rom changelog:
 - UIStyles: Small changes for Optronic
 - UIStyles: Add brightness gradient for pacleggers
 - DerpSpace: Update German translations
+- Update qcom repos from lineage
