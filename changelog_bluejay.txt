@@ -1,0 +1,13 @@
+Device Changelog:
+
+- Initial Official Build
+
+Rom Changelog:
+
+- Merge May Security patch (android-13.0.0_r43)
+- Add brightness slider styles
+- QRCodeScanner: Use Lens as fallback activity
+- UIStyles: Shishu Themes 1.2
+- UIStyles: Small changes for Optronic
+- UIStyles: Add brightness gradient for pacleggers
+- DerpSpace: Update German translations
