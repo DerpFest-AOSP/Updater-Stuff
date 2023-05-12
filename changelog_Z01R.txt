@@ -1,4 +1,0 @@
-- Switched to kernel 227
-- Merge May Security Patch
-- Display Data Usage Summary in QS
-- use system color accent for privacy indicators
