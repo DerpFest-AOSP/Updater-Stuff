@@ -1,12 +1,4 @@
 Device:
-- Upstream Kernel
-- Disable Skia tracing by default
-
-ROM:
-- Merge May Security patch (android-13.0.0_r43)
-- Add brightness slider styles
-- QRCodeScanner: Use Lens as fallback activity
-- UIStyles: Shishu Themes 1.2
-- UIStyles: Small changes for Optronic
-- UIStyles: Add brightness gradient for pacleggers
-- DerpSpace: Update German translations
+- Update adreno stack from LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0
+- Update IMS stack from LA.QSSI.13.0.r1-09700-qssi.0
+- Update CarrierConfig from LA.QSSI.13.0.r1-09700-qssi.0
