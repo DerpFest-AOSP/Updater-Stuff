@@ -1,28 +1,24 @@
-ROM:
-- Merge April security patch
-- Rebase sources on Android QPR2 release
-- Move ambient edge lightning settings to display settings
-- Remove Google TV remote controls keyguard affordance
-- Remove recently added battery styles and customizations for battery icon in QS
-- Remove QS tiles count & vertical layout settings
-- Remove footer text customizations
-- Remove QS footer warning toggle
-- Remove togge for wallpaper zooming
-- Allow forcing a single bottom keyguard shortcut
-- LockscreenShortcuts: Add DND to the defaults
-- Reimplement brightness slider customizations
-- Allow to choose lockscreen or Ambient on wake gestures
-- DerpLauncher: Add Shake to clear all tasks switch 
-- GameSpace: Reduce branding font size
-- GameSpace: Use relative-location on landscape
-- GameSpace: Trim expand button width
-- GameSpace: Update gradle config and dependencies
-- GameSpace: Update deprecated API usages
-- GameSpace: Fix layout jumps after dragging the bar
-- GameSpace: Remove duplicate drawables
-- GameSpace: Safely update rootBarView's LayoutParam
-- Some more things maybe I can't remember more :P
+ROM
+- Merge May Security patch (android-13.0.0_r43)
+- Add brightness slider styles
+- QRCodeScanner: Use Lens as fallback activity
+- UIStyles: Shishu Themes 1.2
+- UIStyles: Small changes for Optronic
+- UIStyles: Add brightness gradient for pacleggers
+- DerpSpace: Update German translations
+- Add more clock bg chip styles
+- Align keyguard carrier text with status bar
+- Add Gradicons and NothingDot signal & wifi icons
+- Sync DesktopMode with Lmodroid upstream
+- Settings: Hide navbar tuner if gesture nav enabled
+- DerpLauncher: Animate workspace on pages without smartpace visible
+- DerpLauncher: Prevent adb installed apps from showing up as system app
+- DerpLauncher: Add back support for multiple work profile badge colors
+- DerpLauncher: Code improvements for icon pack implementation
+- DerpLauncher: Allow to open the icon pack's app by clicking the gear icon
+- WallpaperPicker: Add fit strategy chooser (incl. high quality)
+- Sync Aperture with Lineage upstream
 
-DEVICE:
-- Upstreamed kernel to 4.14.312
-- Some more that I can´t remember now
+Device:
+- Upstream Kernel to 4.14.314
+- Dropped non functional Soundtrigger
