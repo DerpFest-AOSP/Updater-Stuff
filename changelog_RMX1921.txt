@@ -1,22 +1,27 @@
+
+
+
+
+
 Device Changelog:
-
-
 
 * Latest Derpfest source upstream
 * Merged May security patches
-* Disabled combined qs header in status bar to fix qs panel lagging
-* Disable Skia tracing by default
-* Updated system blobs from LA.QSSI.13.0.r1-09700-qssi.0
-* Updated CarrierConfig from LA.QSSI.13.0.r1-09700-qssi.0
+* Fixed ok google & voice match
 * SafetyNet pass without root as usual
 * More improvements & bug fixes!
 
 Rom Changelog:
 
-- Merge May Security patch (android-13.0.0_r43)
-- Add brightness slider styles
-- QRCodeScanner: Use Lens as fallback activity
-- UIStyles: Shishu Themes 1.2
-- UIStyles: Small changes for Optronic
-- UIStyles: Add brightness gradient for pacleggers
-- DerpSpace: Update German translations
+- Add more clock bg chip styles
+- Align keyguard carrier text with status bar
+- Add Gradicons and NothingDot signal & wifi icons
+- Sync DesktopMode with Lmodroid upstream
+- Settings: Hide navbar tuner if gesture nav enabled
+- DerpLauncher: Animate workspace on pages without smartpace visible
+- DerpLauncher: Prevent adb installed apps from showing up as system app
+- DerpLauncher: Add back support for multiple work profile badge colors
+- DerpLauncher: Code improvements for icon pack implementation
+- DerpLauncher: Allow to open the icon pack's app by clicking the gear icon
+- WallpaperPicker: Add fit strategy chooser (incl. high quality)
+- Sync Aperture with Lineage upstream
