@@ -1,77 +1,54 @@
 [DEVICE]
-- kernel: merge latest linux patch v4.14.305
-- build GCamGo
-- Disable LMKD log stats
-- Remove resource cache too on early boot
-- Disable intrusive gms components
-- Enable BT low power adaptive control feature
-- Enable status burnin protection
-- Inherit several Android Go configurations (for good optimization)
-- Increase volume steps further for more precision
-    Alarm: 20
-    Voice call: 20
-    System: 30
-
+- kernel: merge latest linux patch v4.14.314
+- Optimize native executables for Cortex-A76 CPU
+- Fixup audio io policy voip_rx flags
+- Make Biometric dialog corner radius rounded
+- Update vibration intesity config according to A13 changes
+- Add flags for HDR and wide color gamut
+- Compile systemui for speed
+- Fixed some apps detecting root, even though we're not
+- Show memory usage in app info
+- Enable suspend to RAM
+- Avoid migrating foreground tasks to prime
+- High volume in calls should be fixed
+- Many more under-the-hood changes
 
 [#MelloLab]
-- Added support for GMS switch
-- Seperate fling velocity configuration for gesture recognition
-- tweak navigation bar handle to be semi-transparent (inspired by realmeUI)
-- DerpLauncher: Open running services activity when clicking meminfo view
-- Allow making Navigation Pill thinner
-- Fix clock text color on combined qs header
-- Allow locking tasks to recents
-- Add QS Page Custom Transition Animations
-- Introduce Dynamic System Bars (DSB) 13
-- Add Ambient Customizations
-- Add circle thumb at the end of seekbar
-- Fix seekbar when disabled
-- Open mobile data usage from qsfooter
-- Replace lockscreen icons with two-tone icons
-- Add status bar new user switcher chip toggle
-- tweak with incall chip flag
-- Polish volume app icon paddings
-- HWUI: Use kMirror instead of kClamp
-- Make other lockscreen elements follow clock font
-- Add optional haptic feedback to volume panel
-- Add optional haptic feedback to brightness slider
-- Add optional haptic feedback to scroll fling hit
-- Added ockscreen clock format settings
-- Added combined QS headers toggle
-- Fixed small keyguard clock text alignment
-- Add toggle to switch between AOSP/Google battery graphs
-- Utilize a Different Preference for Storage
-- PermissionController dialog: Apply google material you palette
+- Blur full power menu style
+- Fix suspicious spaces around mobile icons
+- Redesigned the switches inspired by realmeUI/OOS
+- Unify keyguard font style
+- pocket mode: Update style to latest OOS specs
+- Optimize notification scaling/rendering
+- libhwui: compile for performance
+- libhwui: enable O3 when compiling for perf
+- Fix quickstep live tile implementation
+- Added vibrate effect for clear all button
+- Added aperture cam back
 - So many fixes, improvements for daily usage and under-the-hood changes I cannot mention all (kindly check changelog section in rom)
 
-
 [SOURCE]
-- Merge February security patch (aka r30)
-- Switch to Lineage device settings for all devices
-- Complete HW key customizations
-- Move Parallel space to Apps category in aosp settings
-- Add more customization options to pulse edge light settings
-- Import new fonts from Bootleggers
-- Update Glide library used in some theming preferences in DerpSpace
-- Update smartspace to 13-QPR1
-- Allow disabling color inversion support for maintainers
-- Allow to set left volume panel and qs transparency defaults for maintainers
-- Add blur switch (affects qs and power menu)
-- Allow to disable blur support for maintainers
-- Add Google TV remote controls keyguard affordance
-- Allow disabling qs on secure lockscreen
-- Add icon shape option to themepicker
-- Add back app volume toggle 
-- Add heads up switch to AOSP notification settings
-- Add pocket mode
-- Extend Sleep mode with extra dark, wake and alarm blocker
-- GameSpace: Remove dim layer from the panel view (as seen on OEMs)
-- DerpLauncher: Match dimens with Pixel Launcher
-- DerpLauncher: Allow widgets to have 1 row as minimum size
-- DerpLauncher: Port multiple work profile badge colors
-- DerpLauncher: Show work apps unless all work profiles are turned off
-- Translation import from Lineage
-- Automatic translation import for DerpSpace
-- Updated manual German translation
-- Sync Aperture with Lineage 
+- Merge March security patch (aka android-13.0.0_r35)
+- Rebase sources on Android QPR2 release
+- Added clock chip customisation
+- Added brightness slider customisation
+- Add gradient OOS style notification clear all button
+- Move ambient edge lightning settings to display settings
+- Remove Google TV remote controls keyguard affordance
+- Remove recently added battery styles and customizations for battery icon in QS
+- Remove QS tiles count & vertical layout settings
+- Remove QS footer warning toggle
+- Allow forcing a single bottom keyguard shortcut
+- LockscreenShortcuts: Add DND to the defaults
+- Reimplement brightness slider customizations
+- Allow to choose lockscreen or Ambient on wake gestures
+- DerpLauncher: Add Shake to clear all tasks switch 
+- GameSpace: Reduce branding font size
+- GameSpace: Use relative-location on landscape
+- GameSpace: Trim expand button width
+- GameSpace: Update gradle config and dependencies
+- GameSpace: Update deprecated API usages
+- GameSpace: Fix layout jumps after dragging the bar
+- GameSpace: Remove duplicate drawables
+- GameSpace: Safely update rootBarView's LayoutParam
 - Some more things maybe I can't remember more :P
