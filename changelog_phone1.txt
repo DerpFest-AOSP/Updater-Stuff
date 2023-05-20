@@ -1,6 +1,31 @@
 Device Changelog:
-- Fixed video recording 
-- Updated blobs from 1.5.3 
-- Added glyph from aospa 
-- Fixed native video calling 
-- Enabled volte and vowifi by default 
+- Enabled CLO'S Framework 
+- Improved Perfomace / Idle drain 
+- Glyph :Fixup Acquire wakelock if flip is detected
+- Glyph: Add Glyph Interface Header Image
+- Glyph : added a seperate qs tile
+- Glyph : Add animations from 1.5 
+- Glyph : Customisable notification and call patterns
+- Glyph : Added music visualizer
+- Glyph : show battery level in motion detedcted events
+
+Source Changelog: 
+- Merge May Security patch (android-13.0.0_r43)
+- Add brightness slider styles
+- QRCodeScanner: Use Lens as fallback activity
+- UIStyles: Shishu Themes 1.2
+- UIStyles: Small changes for Optronic
+- UIStyles: Add brightness gradient for pacleggers
+- DerpSpace: Update German translations
+- Add more clock bg chip styles
+- Align keyguard carrier text with status bar
+- Add Gradicons and NothingDot signal & wifi icons
+- Sync DesktopMode with Lmodroid upstream
+- Settings: Hide navbar tuner if gesture nav enabled
+- DerpLauncher: Animate workspace on pages without smartpace visible
+- DerpLauncher: Prevent adb installed apps from showing up as system app
+- DerpLauncher: Add back support for multiple work profile badge colors
+- DerpLauncher: Code improvements for icon pack implementation
+- DerpLauncher: Allow to open the icon pack's app by clicking the gear icon
+- WallpaperPicker: Add fit strategy chooser (incl. high quality)
+- Sync Aperture with Lineage upstream
