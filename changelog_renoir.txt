@@ -1,9 +1,26 @@
-====================
-    05-01-2023     
-====================
+[Device SIDE]:
+- Fixed boot issue on global variant
+- Bump up kernel to tailwind v1.1 rc3
+- Bump up kernel su to 10902
+- Disable more debug related configs
+- File system and IO Scheduler improvements
+- More power save optimizations
+- Bring back DC Dimming
+- Switch to Pixel PowerHAL and tuned
+- Provide more stable auto brightness
 
- - Initial Official build.
- - Fixed Status bar lyric (Like Netease Cloud Music)
- - Battery Backup improvements
- - Fixed boot issue on some devices
- - Fixed fastboot flash error
+
+[ROM SIDE]:
+- Sync latest code
+- Add more clock bg chip styles
+- Align keyguard carrier text with status bar
+- Add Gradicons and NothingDot signal & wifi icons
+- Sync DesktopMode with Lmodroid upstream
+- Settings: Hide navbar tuner if gesture nav enabled
+- DerpLauncher: Animate workspace on pages without smartpace visible
+- DerpLauncher: Prevent adb installed apps from showing up as system app
+- DerpLauncher: Add back support for multiple work profile badge colors
+- DerpLauncher: Code improvements for icon pack implementation
+- DerpLauncher: Allow to open the icon pack's app by clicking the gear icon
+- WallpaperPicker: Add fit strategy chooser (incl. high quality)
+- Sync Aperture with Lineage upstream
