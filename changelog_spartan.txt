@@ -1,9 +1,7 @@
-Initian Official Build
+# Source
+- Synced with latest source
 
-- May security patch
-- Switched to Minazuki Kernel: 4.19.272
-- Adjusted FP dimensions (now works better)
-- Enabled Refresh Rate Selection under Display Section & Quick Tiles
-- Fixed Brightness (before increasing after 50%)
-- Fix some log spams
-and much more...
+# Device
+- Fixed Dt2w
+- implement simple low memory kiler (slmk)
+- implement KernelSU
