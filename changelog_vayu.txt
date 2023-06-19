@@ -1,4 +1,8 @@
 Device:
-- Update adreno stack from LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0
-- Update IMS stack from LA.QSSI.13.0.r1-09700-qssi.0
-- Update CarrierConfig from LA.QSSI.13.0.r1-09700-qssi.0
+- include Leica camera
+- fix incall audio
+- Disable zram writeback
+
+Kernel:
+- Upstreamed to .318
+- Clang 17.0.2
