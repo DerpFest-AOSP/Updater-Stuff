@@ -1,26 +1,41 @@
-[Device SIDE]:
-- Fixed boot issue on global variant
-- Bump up kernel to tailwind v1.1 rc3
-- Bump up kernel su to 10902
-- Disable more debug related configs
-- File system and IO Scheduler improvements
-- More power save optimizations
-- Bring back DC Dimming
-- Switch to Pixel PowerHAL and tuned
-- Provide more stable auto brightness
+EN release note
 
+For DerpFest ( renoir )
+ |- Optimize auto brightness smoothness
+ |- Switch to hw composer for auto brightness control
+ |- Optimize device round corner
+ |- Tweak poerhint for balancing performance and battery usage
+ |- Fix fingerprint weakup delay
+ |- Build kernel with hana clang
+ |- Disable some useless props
 
-[ROM SIDE]:
-- Sync latest code
-- Add more clock bg chip styles
-- Align keyguard carrier text with status bar
-- Add Gradicons and NothingDot signal & wifi icons
-- Sync DesktopMode with Lmodroid upstream
-- Settings: Hide navbar tuner if gesture nav enabled
-- DerpLauncher: Animate workspace on pages without smartpace visible
-- DerpLauncher: Prevent adb installed apps from showing up as system app
-- DerpLauncher: Add back support for multiple work profile badge colors
-- DerpLauncher: Code improvements for icon pack implementation
-- DerpLauncher: Allow to open the icon pack's app by clicking the gear icon
-- WallpaperPicker: Add fit strategy chooser (incl. high quality)
-- Sync Aperture with Lineage upstream
+For Tailwind kernel ( Used in DerpFest and ArrowOS )
+ |- Tailwind kernel v1.2
+ |- Merge June 05 kernel security patch
+ |- Sync erofs backport with linux-6.3.4
+ |- Switch default zram algorithm to zstd
+ |- Make some module loaded asyncly
+ |- schedutil schedular tweaks
+ |- Power Model driver backport from mainline
+ |- Fetch latest kernel su driver
+
+中文发行注记
+
+适用于 DerpFest ( renoir )
+ |- 自动亮度，纵享新丝滑
+ |- 由 hw composer 接管自动亮度控制
+ |- 设备边框抗锯齿
+ |- 均衡的 powerhint 调整，基本达成续航与性能的均衡
+ |- 修复指纹解锁时的延迟
+ |- 使用 Hana Clang 编译内核
+ |- 关掉了一些没用的属性
+
+适用于 Tailwind 内核 ( 内置于 DerpFest 和 ArrowOS )
+ |- Tailwind kernel v1.2
+ |- 合并六月内核安全补丁
+ |- erofs 特性与 linux-6.3.4 同步
+ |- 将默认 zram 压缩算法改为 zstd
+ |- 异步加载一些模块
+ |- schedutil 调度器微调
+ |- 从 Linux 主线移植能效模型驱动
+ |- 更新 kernel su 驱动
