@@ -1,41 +1,31 @@
 EN release note
 
 For DerpFest ( renoir )
- |- Optimize auto brightness smoothness
- |- Switch to hw composer for auto brightness control
- |- Optimize device round corner
- |- Tweak poerhint for balancing performance and battery usage
- |- Fix fingerprint weakup delay
- |- Build kernel with hana clang
- |- Disable some useless props
+ |- Sync latest source code ( QPR3 Merged )
+ |- Android June Security patch
+ |- Fix auto brightness goes upside down over and over
+ |- Fix proximity sensor problem ( This should soon be available in PixelExperience too )
+ |- Switch to light HAL for brightness control
+ |- Switch to common xiaomi light hal
+ |- Tune refreshrate props from coral
+ |- Update blobs from renoir MIUI CN v14.0.9.0
 
 For Tailwind kernel ( Used in DerpFest and ArrowOS )
- |- Tailwind kernel v1.2
- |- Merge June 05 kernel security patch
- |- Sync erofs backport with linux-6.3.4
- |- Switch default zram algorithm to zstd
- |- Make some module loaded asyncly
- |- schedutil schedular tweaks
- |- Power Model driver backport from mainline
- |- Fetch latest kernel su driver
+ |- Added back samsung rmnet argos extension
+ |- Add some missing dts entry by reverse engineering from MIUI CN V14.0.9.0
 
 中文发行注记
 
 适用于 DerpFest ( renoir )
- |- 自动亮度，纵享新丝滑
- |- 由 hw composer 接管自动亮度控制
- |- 设备边框抗锯齿
- |- 均衡的 powerhint 调整，基本达成续航与性能的均衡
- |- 修复指纹解锁时的延迟
- |- 使用 Hana Clang 编译内核
- |- 关掉了一些没用的属性
+ |- 同步最新源代码编译 ( QPR3 合并完成 )
+ |- 六月安全补丁
+ |- 修复自动亮度过山车
+ |- 修复接近传感器工作不正常
+ |- light HAL 接管自动亮度控制
+ |- 切换至 common xiaomi light hal
+ |- 借鉴 coral 的刷新率配置
+ |- 从 MIUI CN v14.0.9.0 更新私有驱动
 
 适用于 Tailwind 内核 ( 内置于 DerpFest 和 ArrowOS )
- |- Tailwind kernel v1.2
- |- 合并六月内核安全补丁
- |- erofs 特性与 linux-6.3.4 同步
- |- 将默认 zram 压缩算法改为 zstd
- |- 异步加载一些模块
- |- schedutil 调度器微调
- |- 从 Linux 主线移植能效模型驱动
- |- 更新 kernel su 驱动
+ |- 重新加入 rmnet argos extension
+ |- 添加了一些通过逆向 MIUI V14.0.9.0 得到的 dts 条目
