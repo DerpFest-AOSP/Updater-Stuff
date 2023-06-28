@@ -1,13 +1,14 @@
-Device Changelog:
-
-* Initial Official Build
-
 Rom Changelog:
 
-- Merge May Security patch (android-13.0.0_r43)
-- Add brightness slider styles
-- QRCodeScanner: Use Lens as fallback activity
-- UIStyles: Shishu Themes 1.2
-- UIStyles: Small changes for Optronic
-- UIStyles: Add brightness gradient for pacleggers
-- DerpSpace: Update German translations
+* June QPR3 merged (Fully rebased source, so few features may be missing and some added)
+
+Device Changelog:
+
+* Switched to new Moto Dolby Implementation
+* Tuned Dolby values from Oneplus 9R for Improved sound quality 
+* Disabled volume leveler by default in Dolby (Fixes volume Automatically goes up and down) 
+* Enabled post process for voice call 
+* Enabled Surface Flinger Cache by default (fixes flickering issues ) 
+* Disabled Nearby Messaging & Discovery services
+* Updated Dolby Blobs
+* Silenced dmesg spam from kernel side
