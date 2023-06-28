@@ -1,14 +1,12 @@
 Device Changes:
 
-- Update blobs from LA.QSSI.13.0.r1-09700-qssi.0
-- Update CarrierConfig from LA.QSSI.13.0.r1-09700-qssi.0
-- Update common blobs from sweet MIUI V14.0.2.0.TKFMIXM
+- Drop QCOM wfd HDCP support
+- Fix libGLESv2_adreno.so symlink
+- Make trust use dwc3 usb_data_enabled
+- media: Add Vorbis Decoder
+- prop: Disable sdm rotator downscaler
+- Ship VantomKernel v4.14.318
+- Switch to common Xiaomi 1.0 sensors implementation
 
 ROM:
-- Merge May Security patch (android-13.0.0_r43)
-- Add brightness slider styles
-- QRCodeScanner: Use Lens as fallback activity
-- UIStyles: Shishu Themes 1.2
-- UIStyles: Small changes for Optronic
-- UIStyles: Add brightness gradient for pacleggers
-- DerpSpace: Update German translations
+- Merge June Security patch (android-13.0.0_r52)
