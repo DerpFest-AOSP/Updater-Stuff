@@ -1,38 +1,9 @@
 Device Changelog:
 
-* Switched to TRB Clang 17
-* Kernel upstream to v4.14.305
-* Wifi Drivers upstream to LA.UM.9.1.c11-48400-SMxxx0.QSSI13.0
+* Kernel upstream to v4.14.320 linux-stable
+* Kernel upstream to caf tag LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 * Fixed some bugs and added new bugs
 
 Rom Changelog:
 
-- Merge February security patch (aka r30)
-- Switch to Lineage device settings for all devices
-- Complete HW key customizations
-- Move Parallel space to Apps category in aosp settings
-- Add more customization options to pulse edge light settings
-- Import new fonts from Bootleggers
-- Update Glide library used in some theming preferences in DerpSpace
-- Update smartspace to 13-QPR1
-- Allow disabling color inversion support for maintainers
-- Allow to set left volume panel and qs transparency defaults for maintainers
-- Add blur switch (affects qs and power menu)
-- Allow to disable blur support for maintainers
-- Add Google TV remote controls keyguard affordance
-- Allow disabling qs on secure lockscreen
-- Add icon shape option to themepicker
-- Add back app volume toggle 
-- Add heads up switch to AOSP notification settings
-- Add pocket mode
-- Extend Sleep mode with extra dark, wake and alarm blocker
-- GameSpace: Remove dim layer from the panel view (as seen on OEMs)
-- DerpLauncher: Match dimens with Pixel Launcher
-- DerpLauncher: Allow widgets to have 1 row as minimum size
-- DerpLauncher: Port multiple work profile badge colors
-- DerpLauncher: Show work apps unless all work profiles are turned off
-- Translation import from Lineage
-- Automatic translation import for DerpSpace
-- Updated manual German translation
-- Sync Aperture with Lineage 
-- Some more things maybe I can't remember more :P
+* QPR3 June merged
