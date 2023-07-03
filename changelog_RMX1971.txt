@@ -1,14 +1,17 @@
 Rom Changelog:
 
-* June QPR3 merged (Fully rebased source, so few features may be missing and some added)
+- Make New Boot Animation work for all devices
+- Add back QS Layout customizations
+- Added custom qs panel types
+- Added version name to app info header
+- Updated Symphonica prebuilt with upstream changes
+- DerpLauncher: Switched to Lawnicons 
+- DerpLauncher: Adjusted QsbLayout width
+- ThemePicker: Fixed crash while choosing Live Wallpapers
 
 Device Changelog:
 
-* Switched to new Moto Dolby Implementation
-* Tuned Dolby values from Oneplus 9R for Improved sound quality 
-* Disabled volume leveler by default in Dolby (Fixes volume Automatically goes up and down) 
-* Enabled post process for voice call 
-* Enabled Surface Flinger Cache by default (fixes flickering issues ) 
-* Disabled Nearby Messaging & Discovery services
-* Updated Dolby Blobs
-* Silenced dmesg spam from kernel side
+- OTA update enabled
+- Ships with new boot animation instead of Legacy boot animation
+- Enabled apk fs-verity (avoids root detection by some apps)
+- Enabled LTE_CA workaround
