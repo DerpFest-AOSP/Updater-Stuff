@@ -1,20 +1,33 @@
-Device Changes:
+Source
 
-- Fixed corners cutting
-- Fixed delay in fingerprint scanning
-- Fixed aod blinking
+- Rebase to QPR3 with June security patch 
+- Remove QS Header images for now due to incompatibility with qpr3
+- Remove DesktopMode to avoid drama
+- Remove old style mobile data indicator switch due to preparation for future changes
+- Remove squiggle animation switch for now
+- Remove unlinked ringer volume switch for now
+- Move privacy indicator toggles to privacy settings
+- Move brightness slider styles to theme settings
+- Move show Ambient instead of Lockscreen switch to display settings
+- Extend showing Ambient instead of fully waking to single tap
+- Allow setting wake for notification separately from doze
+- Allow user configurable fingerprint wake-and-unlock again
+- Add three-button-navbar styles
+- Add monochromatic monet theme
+- Move Black theme to UI styles
+- Add back status bar brightness control
+- Add version name to app info header
+- Update Symphonica prebuilt with upstream changes
+- ThemePicker: Fix crash choosing Live Wallpapers
+- DerpLauncher: Switch to Lawnicons due to high demand in maintainer chat
+- DerpLauncher: Adjust QsbLayout width
+- Sync Aperture with
 
-ROM Changes:
+Device
 
-- Add back Columbus (quick tap)
-- Add back additional Brightness Slider options
-- Applock: intercept activity in a better way
-- Fix circle battery QS tinting
-- Battery: Add option for coloring circle battery styles
-- Add Mono audio tile (aka headphone in one ear only)
-- Make IME button space optional
-- Remove night light toggle and disable night light when fod kicks in
-- Improve screenshot window dismiss behavior
-- Settings: Add high touch sensitivity and touchscreen hovering toggles for supported devices
-- Settings: Display: Add High Touch Polling Rate Support
-- DerpLauncher: Add themed icons switch for app drawer
+- Initial public official release
+- MiuiCamera v4.5.002680.0 is included
+- Oneplus Dolby Included
+- Update blobs V14.0.2.0.TKFMIXM
+- Switch 4.14.319 Aghisna-RX
+- Merge tag 'LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0'
