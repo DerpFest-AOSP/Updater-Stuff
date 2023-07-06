@@ -6,4 +6,4 @@ Device Changelog:
 
 Rom Changelog:
 
-* QPR3 June merged
+* July Patch merged
