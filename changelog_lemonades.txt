@@ -1,55 +1,36 @@
 Device Changelog:
 
-* We've shifted to OOS 13.1 based Firmware now (F.26 Recommended)
-
-* Performing a Clean Flash is MANDATORY! DO NOT DO A DIRTY FLASH! Update Firmware to F.26 on both slots first then just run the `adb sideload` command!
-
-* NO OTA WILL BE PUSHED FOR THIS UPDATE TO AVOID ANY BOOT ISSUES!
-
-- Sync KernelSU with the latest changes
-- Enable `dex2oat64` to do dexopt
-- Enable `Qualcomm TrueWireless™ Stereo`
-- Import `LDAC` Blobs from OPlus QSSI13
-- Powerhint tunings
-- Ship with `Aperture Camera`
-- Disable Kernel Boosts
-- WireGuard: Merge tag `v1.0.20220627`
-- Disable unwanted Kernel Logging
+- Update Blobs from `OOS 13.1.0.580 (EX01)`
 
 Source Changelog:
 
-- Initial QPR3 (June 2023) Update!
-- Ships with Lawnicons
+- July 2023 Update!
 
 ====================
-    07-02-2023     
+    07-07-2023     
 ====================
-\n* frameworks/base\nb76d868  SystemUI: Restore try-finally condition when reinflating QS panel  [minaripenguin]\n
-\n* packages/apps/DerpSpace\n7fa7880  DerpSpace: Rework QS styles implementation  [Rizky Benggolo]\n
-\n* packages/apps/Settings\n99019c0  Revert "Settings: Custom carrier label & Carrier label placement [2/2]"  [NurKeinNeid]\n
-\n* vendor/derp\n446a0d4  prebuilt: Update Symphonica  [NurKeinNeid]\n
-\n* vendor/gms\nd24e1cb  Update from cheetah TQ3A.230605.012  [Aman Singh]\n
-\n* vendor/overlay\n80e5e8b  overlays: Custom QS panel styles [2/3]  [Trishiraj]\n
+\n* vendor/derp\necdc558  Merge pull request #42 from CrisBalGreece/13  [Alexander Brunswig]\n
 
 ====================
-    07-01-2023     
+    07-06-2023     
 ====================
-\n* device/derp/sepolicy\n951b171  Label xtra-daemon control property  [Michael Bestas]\n
-\n* packages/apps/DerpLauncher\n0a76724  DerpLauncher: Display themed app icon all the time  [SakuraiLH]\n
+\n* build/make\ndab591f  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/build into HEAD  [NurKeinNeid]\n
+\n* frameworks/av\ne456144  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/frameworks/av into HEAD  [NurKeinNeid]\n
+\n* frameworks/base\na512475  PixelPropsUtils: Update for July 2023 security patch  [NurKeinNeid]\n
+\n* manifest\n2ad27ed  manifest: July 2023 Security update  [Michael Bestas]\n
+\n* packages/apps/Settings\naf951d2  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD  [NurKeinNeid]\n
+\n* packages/modules/Wifi\n1607baa  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/packages/modules/Wifi into HEAD  [NurKeinNeid]\n
 
 ====================
-    06-30-2023     
+    07-05-2023     
 ====================
-\n* frameworks/native\n673311a  Merge pull request #2 from Klozz/13  [Alexander Brunswig]\n
+\n* packages/modules/Bluetooth\nb9c5c6a  Merge pull request #1 from Klozz/13  [Alexander Brunswig]\n
 
 ====================
-    06-29-2023     
+    07-04-2023     
 ====================
+\n* packages/apps/Aperture\ned10abf  Merge pull request #1 from amanrajOO7/13  [Alexander Brunswig]\n
 
 ====================
-    06-28-2023     
+    07-03-2023     
 ====================
-\n* hardware/interfaces\n9393c1a  Merge tag 'android-13.0.0_r52' of https://android.googlesource.com/platform/hardware/interfaces into HEAD  [NurKeinNeid]\n
-\n* manifest\na8a9f15  manifest: Track Lawnicons  [NurKeinNeid]\n
-\n* vendor/lawnicons\nb79f073  lawnicons: generate overlay resources  [Nauval Rizky]\n
-
