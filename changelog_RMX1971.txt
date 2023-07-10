@@ -1,17 +1,18 @@
-Rom Changelog:
+Rom Changelog 
 
-- Make New Boot Animation work for all devices
-- Add back QS Layout customizations
-- Added custom qs panel types
-- Added version name to app info header
-- Updated Symphonica prebuilt with upstream changes
-- DerpLauncher: Switched to Lawnicons 
-- DerpLauncher: Adjusted QsbLayout width
-- ThemePicker: Fixed crash while choosing Live Wallpapers
+- July 2023 Security update
+- Split Notification shade is back
+- Added many battery styles 
+- Allow setting battery percent view on left
+- Allow changing max lines for app label in Derpfest Launcher 
+- Follow status bar battery style in QS
+- Show a bolt ⚡ when charging
+- Update Symphonica App
 
-Device Changelog:
 
-- OTA update enabled
-- Ships with new boot animation instead of Legacy boot animation
-- Enabled apk fs-verity (avoids root detection by some apps)
-- Enabled LTE_CA workaround
+Device Changelog
+
+- Fixed flickering issues completely 
+- Ships with new default wallpaper
+- Updated CarrierConfig from LA.QSSI.13.0.r1-10000.02-qssi.0
+- Updated system blobs from LA.QSSI.13.0.r1-10000.02-qssi.0
