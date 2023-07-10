@@ -1,5 +1,7 @@
 Source  
 
+- July Security Patch merged
+- Fixup doze on charge switch
 - Rebase to QPR3 with June security patch 
 - Remove QS Header images for now due to incompatibility with qpr3 
 - Remove DesktopMode to avoid drama
@@ -25,4 +27,4 @@ Source
 
 Device
 
-- Initial public official release
+- Enable burning protection
