@@ -1,0 +1,171 @@
+====================
+    07-11-2023     
+====================
+
+* frameworks/base
+35b8968  PixelPropsUtils: Don't set custom model/product/device for gms  [someone5678]
+1fd17a5  PixelPropsUtils: Spoof user build  [jhenrique09]
+1e066ac23  KeyguardBouncer: Don't delay showing if face auth running  [jhenrique09]
+a979248  SystemUI: Re-tune split shade for QPR3  [minaripenguin]
+
+
+* packages/apps/DerpSpace
+7060024  fixup! Revert "DerpSpace: Allow disabling QS battery estimates [2/2]"  [NurKeinNeid]
+
+
+* packages/apps/Settings
+73ad475  Merge pull request #9 from DF-Whyred/13  [Alexander Brunswig]
+
+
+* system/sepolicy
+48d37d6  sepolicy: Allow recovery to alter /  [Gabriele M]
+6a5b432  sepolicy: whitelist recovery from node creation neverallow  [Alessandro Astone]
+af44751  allow neverallows on user builds  [klozz]
+3ebd4ca  allow to build permissive recovery  [klozz]
+
+
+* vendor/derp
+b97a9c8  Merge pull request #44 from kaderbava/13  [Alexander Brunswig]
+c1ed505  Merge pull request #46 from DF-Whyred/13  [Alexander Brunswig]
+
+
+====================
+    07-10-2023     
+====================
+
+* bionic
+4f33958  Merge pull request #1 from mizdrake7/13  [Alexander Brunswig]
+
+
+* frameworks/base
+7616764  core: Remove default aspect ratio limit for old apps  [Danny Lin]
+90e51d1  base: Show USB icon in ADB notification  [Danny Lin]
+cb75ef5  SystemUI: Match the hide animation duration with show duration  [minaripenguin]
+b0d5254  AlarmManager: Handle google and system apps alarm denials  [minaripenguin]
+b6dbf83  AlarmManager: Handle all gms exact alarm denials  [Danny Lin]
+396e58d  PhoneWindowManager: only handle long press on back key if using it  [nift4]
+b00b723  SystemUI: NavigationHandle: Don't show on keyguard or doze  [Ido Ben-Hur]
+8037293  SystemUI: quickfix unneccessary permission  [nift4]
+beb7b5c  AuthRippleController: Always finish the LightRevealScrim  [Chenyang Zhong]
+691a937  base: Fix QS panel Header glitch  [Pranav Vashi]
+c6c8de8  SystemUI: Remove brightness slider top margin  [minaripenguin]
+2a66b02  SystemUI: Follow status bar battery style in QS  [Pranav Vashi]
+eb0732e  SystemUI: Clean up battery callback in CollapsedStatusBar  [Pranav Vashi]
+9ee727f  SettingsLib: Use WHITE color instead MAGENTA for Battery Drawables  [elizabethangelalorenza]
+5922885  Battery: Don't check cutout for qs battery  [xyyx]
+8ba2909  Battery Styles: Add MIUI pill battery icon  [DrDisagree]
+2053ca7  Battery styles: add Origami battery icon  [DrDisagree]
+75104d5  BatteryMeterView: simplify scale logic  [elpaablo]
+230efaa  Battery Styles: Add Landscape iOS battery styles from Iconify [1/2]  [helliscloser]
+8d875f4  Battery Styles: Added 9 more battery styles [1/2]  [R15Hi]
+7ee67d2  Battery: make fill path rounded  [Evillium]
+ca60c52  BatteryMeterView: Move null check to the beginning of the method.  [spezi77]
+f4f0864  Battery Styles: Allow setting percent view on left [1/2]  [703joko]
+3f83413  Battery Styles: Introduce Battery Landscape [1/2]  [703joko]
+f77fec1  Battery Styles: More clean up  [Pranav Vashi]
+e25a18e  Battery Styles: Fix signal icon padding with Hidden style  [Ezio Lacandia Bijelkic]
+fbf2dd6  Battery Styles: Show a bolt ⚡ when charging  [ezio84]
+e201fd7  Battery Styles: Introduce full circle battery style  [Christian Oder]
+c795d95  Battery Styles: Readd dotted Circle to Kotlin impl  [Christian Oder]
+c31c886  Battery Styles: Clean up for more customizations  [Pranav Vashi]
+02f1e15  SystemUI: Bring back good ol' circle battery style  [Bruno Martins]
+f38119e  Revert "BatteryMeterView: Allow disabling QS battery estimates [1/2]"  [NurKeinNeid]
+ceead27  Revert "SystemUI: Bring back good ol' circle battery style"  [NurKeinNeid]
+
+
+* packages/apps/DerpLauncher
+9f3abbb  DerpLauncher: Allow changing max lines for app label  [Pranav Vashi]
+
+
+* packages/apps/DerpSpace
+7b42f9d  DerpSpace: Battery styles: add some extra validation  [elpaablo]
+89ace7b  DerpSpace: Battery Styles: Add MIUI pill battery icon [2/2]  [NurKeinNeid]
+ff01c2b  DerpSpace: Battery styles: add Landscape Origami  [elpaablo]
+1067265  DerpSpace: Battery Styles: Add Landscape iOS battery styles [2/2]  [helliscloser]
+4011b94  DerpSpace: Battery Styles: Added 9 more battery styles [2/2]  [helliscloser]
+8650dd0  DerpSpace: Allow setting battery percent view on left [2/2]  [703joko]
+9f237e1  DerpSpace: Battery Styles: Introduce Battery Landscape [2/2]  [703joko]
+9931812  DerpSpace: Battery Styles: Add customizations for Android 13  [Parth Bhatia]
+d5e5b03  Revert "DerpSpace: Battery Customizations"  [NurKeinNeid]
+8fb39ab  Revert "DerpSpace: Allow choosing whether to show % inside battery icon [2/2]"  [NurKeinNeid]
+79f0733  Revert "DerpSpace: Allow controlling statusbar battery % display when charging [2/2]"  [NurKeinNeid]
+99ea7fd  Revert "DerpSpace: Allow disabling QS battery estimates [2/2]"  [NurKeinNeid]
+
+
+* packages/apps/FMRadio
+3c18789  fmradio: Set targetSdkVersion to 31  [Erfan Abdi]
+c3f3d38  fixup! FMRadio: fix listen to recordings  [nift4]
+
+
+* packages/apps/GameSpace
+9817ff6  Revert "GameSpace: Remove unimplemented method from Danmaku service"  [NurKeinNeid]
+
+
+* packages/apps/Settings
+b0e585a  Settings: Allow separating ringer & notification sound streams  [Ido Ben-Hur]
+494780d  Settings: Update Android Beam switch title  [someone5678]
+213097a  Settings: Allow to skip confirmation in biometric auth dialog [3/2]  [someone5678]
+
+
+* packages/apps/TouchGestures
+600810c  TouchGesture: Set targetSdkVersion to 31  [Erfan Abdi]
+3274123  TouchGesture: AndroidManifest: Upgrade targetSdkVersion to 30  [Mohammad Hasan Keramat J]
+
+
+* system/vold
+337c2c0  vold: fix failing to format zero-ed out SD card  [nift4]
+
+
+* vendor/derp
+c28c5d4  fixup! overlay: SystemUI: Offload WM shell to another thread  [Pranav Vashi]
+f15d215  UdfpsResources: Add more udfps icons  [kaderbava]
+15e4e2a  overlay: config_plugin{Whitelist -> Allowlist}  [Adithya R]
+22645cb  prebuilt: Update Symphonica  [NurKeinNeid]
+
+
+====================
+    07-09-2023     
+====================
+
+* bootable/recovery
+4abfb5c  recovery: Add support for touch rotation  [LuK1337]
+
+
+* build/make
+257460a  Add TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION flag  [LuK1337]
+
+
+* device/derp/sepolicy
+6255bd5  common: Label ro.minui.default_touch_rotation  [LuK1337]
+
+
+* packages/apps/DerpSpace
+432b30c  Merge pull request #11 from DF-Whyred/13  [Alexander Brunswig]
+
+
+* packages/apps/Settings
+226d976  Settings: Fixup doze on charge switch  [Ido Ben-Hur]
+
+
+====================
+    07-08-2023     
+====================
+
+* packages/apps/DerpSpace
+d9a3394  DerpSpace: Reduce default landscape QS column amount  [Mocarafee]
+
+
+====================
+    07-07-2023     
+====================
+
+* bionic
+d26a4a3  Fix mte build breakage.  [Christopher Ferris]
+fd6c73c  Fix stack use-after-scope in async_safe_log.  [Peter Collingbourne]
+cb395dd  Make tmpfile() respect $TMPDIR.  [Elliott Hughes]
+
+
+* vendor/derp
+ecdc558  Merge pull request #42 from CrisBalGreece/13  [Alexander Brunswig]
+
+
