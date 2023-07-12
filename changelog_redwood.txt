@@ -1,8 +1,11 @@
 Device changelog:
-- Initial build
+- Enforcing build
+- Enable Wide Color Gamut support
+- Build only required dtb's
+- lahaina: cleanup defconfig
 
 Rom changelog:
-- Rebase to QPR3 with July security patch 
+- Merge July Security patch (android-13.0.0_r61)
 - Remove QS Header images for now due to incompatibility with qpr3 
 - Remove DesktopMode to avoid drama
 - Remove old style mobile data indicator switch due to preparation for future changes
@@ -24,3 +27,10 @@ Rom changelog:
 - DerpLauncher: Switch to Lawnicons due to high demand in maintainer chat 
 - DerpLauncher: Adjust QsbLayout width
 - Sync Aperture with Lineage
+- Bring back Battery icon styles
+- Fix QS panel Header glitch
+- Fixup doze on charge switch
+- Only handle long press on back key if using it
+- Don't show navigation handle on keyguard or doze
+- Show USB icon in ADB notification
+- DerpLauncher: Allow changing max lines for app label again
