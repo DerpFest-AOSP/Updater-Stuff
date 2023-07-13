@@ -23,3 +23,9 @@ April 22nd update:
 May 15th update:
 - Rebase device trees forom Nippon
 - Include MIUI Camera instead of Aperture
+
+July 13th update:
+- Updated kernel and vendor from latest MIUI v14.0.2.0 TKCMIXM.
+- Updated arm cpu config to cortex-a76.
+- 3GB zram used by default.
+- Improvements regarding lmkd.
