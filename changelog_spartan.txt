@@ -1,13 +1,26 @@
 # Source
-- July Security Patch merged
-- Fixup doze on charge switch
-- Switch to New Bootanimation
+- Uptodate
 
 # Device
-- Better audio experience (shifted to 24-bit from 16)
-- Delete YouTube package from system apps
-- disable autobrightness for in low power mode (AOD)
-- 
+- Improved Audio Experience
+- Changed kernel ~Minazuki
+
+# Some Features
+- Battery Styles
+- Brightness slider Styles
+- Status Bar icons
+- Navbar Styles
+- UDFPS icons and Animations
+- Battery charging limit warning
+- Notification Panel transparency
+- Screen-Off Getures
+- DT2S and DT2W
+- Screen-Off UDFPS
+- Notification re-ticker
+- Landscape Split-Notification
+- Live-Display
+- High Polling Touch Rate
+etc...
 
 Build-Info
 - Enforcing
