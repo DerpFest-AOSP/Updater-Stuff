@@ -1,4 +1,41 @@
+Device Changelog:
 ====================
-    01-02-2023     
+    17-07-2023     
 ====================
-- Rebase trees
+- Initial official build
+- Silenced some logspam
+- Improved signal reception
+- Change perms to hide Magisk in banking apps
+- Added fast charge implementation
+- Updated dirac logo and some drawables
+
+Rom Changelog:
+- Merge July Security patch (android-13.0.0_r61)
+- Remove QS Header images for now due to incompatibility with qpr3
+- Remove DesktopMode to avoid drama
+- Remove old style mobile data indicator switch due to preparation for future changes
+- Remove squiggle animation switch for now
+- Remove unlinked ringer volume switch for now
+- Move privacy indicator toggles to privacy settings
+- Move brightness slider styles to theme settings
+- Move show Ambient instead of Lockscreen switch to display settings
+- Extend showing Ambient instead of fully waking to single tap
+- Allow setting wake for notification separately from doze
+- Allow user configurable fingerprint wake-and-unlock again
+- Add three-button-navbar styles
+- Add monochromatic monet theme
+- Move Black theme to UI styles
+- Add back status bar brightness control
+- Add version name to app info header
+- Update Symphonica prebuilt with upstream changes
+- ThemePicker: Fix crash choosing Live Wallpapers
+- DerpLauncher: Switch to Lawnicons due to high demand in maintainer chat
+- DerpLauncher: Adjust QsbLayout width
+- Sync Aperture with Lineage
+- Bring back Battery icon styles
+- Fix QS panel Header glitch
+- Fixup doze on charge switch
+- Only handle long press on back key if using it
+- Don't show navigation handle on keyguard or doze
+- Show USB icon in ADB notification
+- DerpLauncher: Allow changing max lines for app label again
