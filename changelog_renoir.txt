@@ -2,30 +2,42 @@ EN release note
 
 For DerpFest ( renoir )
  |- Sync latest source code ( QPR3 Merged )
- |- Android June Security patch
- |- Fix auto brightness goes upside down over and over
- |- Fix proximity sensor problem ( This should soon be available in PixelExperience too )
- |- Switch to light HAL for brightness control
- |- Switch to common xiaomi light hal
- |- Tune refreshrate props from coral
- |- Update blobs from renoir MIUI CN v14.0.9.0
+ |- Android July Security patch
+ |- Update display blobs from 'LA.UM.9.14.1.r1-09400-QCM6490.QSSI13.0'
+ |- Update Adreno Blobs from 'LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0'
+ |- Patch display blobs to use default graphic mapper API
+ |- Add radio props to improve battery life
+ |- Fixed video freezing issue in some cases
+ |- Grant missing permissions to GMS
 
-For Tailwind kernel ( Used in DerpFest and ArrowOS )
- |- Added back samsung rmnet argos extension
- |- Add some missing dts entry by reverse engineering from MIUI CN V14.0.9.0
+For Paranoid Android ( renoir )
+ |- Initial build ( personal ) for Paranoid Android
+ |- Switch all components to common ( except vibrator )
+
+For Tailwind kernel ( Used in DerpFest and HavocOS )
+ |- Merge latest CLO tag 'LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0'
+ |- Merge July kernel security patch
+ |- Upstream kernel su driver
+ |- Fixed random restarts in some cases.
 
 中文发行注记
 
 适用于 DerpFest ( renoir )
  |- 同步最新源代码编译 ( QPR3 合并完成 )
- |- 六月安全补丁
- |- 修复自动亮度过山车
- |- 修复接近传感器工作不正常
- |- light HAL 接管自动亮度控制
- |- 切换至 common xiaomi light hal
- |- 借鉴 coral 的刷新率配置
- |- 从 MIUI CN v14.0.9.0 更新私有驱动
+ |- 七月安全补丁
+ |- 从 'LA.UM.9.14.1.r1-09400-QCM6490.QSSI13.0' 更新显示驱动
+ |- 从 'LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0' 更新 Adreno 驱动
+ |- 将显示驱动切回默认 graphic mapper API
+ |- 添加一些射频属性以节省电量
+ |- 修复一些情况下的视频冻结问题
+ |- 为 GMS 授予丢失的权限
 
-适用于 Tailwind 内核 ( 内置于 DerpFest 和 ArrowOS )
- |- 重新加入 rmnet argos extension
- |- 添加了一些通过逆向 MIUI V14.0.9.0 得到的 dts 条目
+适用于 Paranoid Android ( renoir )
+ |- Paranoid Android 的个人初始构建
+ |- 除振动器外所有组件均切换至 common 
+
+适用于 Tailwind 内核 ( 内置于 DerpFest 和 HavocOS )
+ |- 合并至最新 CLO tag 'LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0'
+ |- 合并七月安全补丁
+ |- 更新 kernel su 驱动
+ |- 修复一些情况下的随机重启
