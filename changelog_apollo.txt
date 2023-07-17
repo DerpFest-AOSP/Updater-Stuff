@@ -1,12 +1,15 @@
 Device Changes:
-- kernel arrowmix_r12
-- required to flash firmware V13.0.8.0.SJDMIXM
+- kernel +Oxygen
+- FW MIUI 14 Global is required
 
 ROM :
-- Merge May Security patch (android-13.0.0_r43)
-- Add brightness slider styles
-- QRCodeScanner: Use Lens as fallback activity
-- UIStyles: Shishu Themes 1.2
-- UIStyles: Small changes for Optronic
-- UIStyles: Add brightness gradient for pacleggers
-- DerpSpace: Update German translations
+- Merge July security patch
+- Bring back Battery icon styles
+- Fix QS panel Header glitch
+- Fixup doze on charge switch
+- Only handle long press on back key if using it
+- Don't show navigation handle on keyguard or doze
+- Show USB icon in ADB notification
+- DerpLauncher: Allow changing max lines for app label again 
+- Update Symphonica to 0.57b
+- Sync Aperture with Lineage 
