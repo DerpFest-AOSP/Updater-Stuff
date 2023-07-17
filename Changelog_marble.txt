@@ -1,0 +1,26 @@
+Source Changelog
+
+* packages/apps/Aperture
+21ece78  Merge pull request #2 from amanrajOO7/13  [Alexander Brunswig]
+
+* vendor/derp
+e350a04  Merge pull request #47 from hac4us06/13  [Alexander Brunswig]
+
+* frameworks/base
+262a68a  Merge pull request #18 from Codecity001/13  [Alexander Brunswig]
+
+* packages/apps/Aperture
+033c7c2  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_packages_apps_Aperture into HEAD  [Aman Singh]
+c1472a0  Aperture: Simplify flash mode handling  [Sebastiano Barezzi]
+9e0a3f7  Aperture: CameraActivity: Get rid of update{PrimaryBar,CameraMode}Buttons()  [Sebastiano Barezzi]
+a1cad08  Aperture: Use the view model for views' rotation  [Sebastiano Barezzi]
+1a512eb  Aperture: Introduce CameraViewModel  [Sebastiano Barezzi]
+
+* frameworks/base
+ea7d4bd  libhwui: Enable O3 when compiling with LTO  [Vaisakh Murali]
+
+Device Changelog
+
+Force copy prebuilt kernel modules into vendor boot ramdisk
+Reorganize props 
+Enabled ambient display options
