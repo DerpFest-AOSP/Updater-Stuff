@@ -1,77 +1,50 @@
 [DEVICE]
-- Updated dolby blobs (now is Moto Audio; has better sound effects)
-- Addresed more dolby denials
-- Unlocked gc5035 camera (to use all aux cams properly; you can now use it from aperture)
-- Avoid migrating foreground tasks to prime
-- audio: Enable 24-bit for deep buffer
-- Apply aggressive write caching
-- Import Vibrator Effects for QTI Effects Hal
-- Enable ro.hwui.render_ahead and set it to 20 frames to fix qs panel lag
-- Enable smoother scrolling and better responsiveness
-- Enable pre-rendering
-- Remove triple frame buffers
-- Set lmk to kill heaviest task
-- Properly enable wide color gamut
-- Disable zram writeback
-- Store Socket ID for drivers
-- Allow vendor init to set SSR property
-- Enable aptX(HD) offload
-- audio: Use qcom implementation for sw effects (thick and sick bass and sound)
-- Added device info HW app to aux packagelist to view the camera ids
-- Many more under-the-hood changes
+- kernel: Merged latest linux patch v4.14.320
+- dirac: Fix scenes
+- dirac: modify app display name and summary
+- dirac: Use vector drawable for Dirac™ logo
+- Increase auto brightness levels
+- Load libstagefrightdolby for dolby codecs
+- Add dolby prop and enable ds2 hard bypass
+- Kill IMS logspam with fire
+- Adjust audio class for in call noise cancellation
+- WifiOverlay: rro: set proper default hotspot ssid
+- More here-and-there under-the-hood changes
 
 [#MelloLab]
-- Added Live Volume Steps
-- Update reticker specs to latest OneUI brief pop up style
-- RetickerAnimations: Improve circle reveal animation
-- RetickerAnimations: Improve and fix reticker animation
-- Prettify notification toast format
-- Optimize notification scaling/rendering
-- Settings: PowerUsageSummary: open advanced usage on header click
-- Settings: Use seekbar to allow setting arbitrary animation values (0.5x, 1x, etc)
-- Introduce PowerOffAlarmService
-- PowerOffAlarmService: Add a notification
-- AuthRippleView: Less Boring Dwell Ripple
-- Round-ify volume app icon
-- VolumeDialogImpl: Reconfigure handling of animation/jank listeners
-- Hide notification icon area if headsup is visible
-- SystemUI: Import more QS Header resources (around 64)
-- Optimize writeEventArray for performance
-- Enable and tune new keyguard user switcher
-- SystemService: Optimize getSystemService
-- Optimize pushStaging() performance and memory usage
-- Introduce optimized glass lur effect
-- Seperate fling velocity configuration for gesture recognition and Views
-- Optimize writeToParcel performance
-- Remove logspam cause by early animation handle check
-- Fix a race condition that causes pocket mode to be stucked
-- Use a different system icons layout for keyguard
-- Launcher3: Properly end recents animation views
-- Launcher3: Fix smartspace visibility on higher grids
-- Launcher3: Expose force monochrome themed icon flag as a user preference
-- Import Dolby Effects initialization
-- OMXStore: Import loading libstagefrightdolby
-- Set volume for playback over voice call when btsco connected
-- Update AudioEffect callers to new interface
-- Propagate createEffect return status safely to caller
-- Effects: add a method to retrieve audio configuration
-- VolumeShaper: Update Direct/Offload to use media time
-- Settings: Update configs for SettingsIntelligenceGoogle
+- Added new boot animation
+- Added power (watt) indication for charging on lockscreen
+- Fixup wattage and voltage calculation for realme 7 Pro (now should be more accurate)
+- Settings Homepage Redesign
+- Improve settings panel UX/UI
+- Adapt card layout font to be system's
+- Optimized bitmap resources
+- Minor improvement to the PowerOffAlarmService body string
+- Catch OOB when returning pooled string
+- Optimize hwui for performance and memory usage
+- Add support for application downgrade
+- BatteryHealth: Add Battery Capacity info
+- Batteryhealth overhaul for realme 7 Pro with additional features
+- fixup! screenshot ui sound not playing after updating
+- Make seekbar sax and fix it when disabled
+- Make Oxygen icon pack override for sound tile
+- Enable new Velvet Weather UI
+- Added and fixed old style mobile data indicators after A13 QPR3 merge
+- Match systemui dialogs background with power menu
+- Use config_dialogCornerRadius for power menu
+- Open battery settings on long press battery saver tile rather than opening battery saver page
+- Added and fixed pure black vivid theme after A13 QPR3 merge
+- Launcher3: Add uninstall button to system shortcuts after A13 QPR3 merge
+- Launcher3: make recents more rounded
+- Launcher3: Add kill action to app shortcuts popup after A13 QPR3 merge
+- Launcher3: Vibrate on double tap to sleep
+- Launcher3: Add an option to customize blur radius
 - So many fixes, improvements for daily usage and under-the-hood changes I cannot mention all (kindly check changelog section in rom)
 
 [SOURCE]
-- Add more clock bg chip styles
-- Add custom QS panel styles
-- Add customization for QS
-- Align keyguard carrier text with status bar
-- Add Gradicons and NothingDot signal & wifi icons
-- Sync DesktopMode with Lmodroid upstream
-- Settings: Hide navbar tuner if gesture nav enabled
-- DerpLauncher: Animate workspace on pages without smartpace visible
-- DerpLauncher: Prevent adb installed apps from showing up as system app
-- DerpLauncher: Add back support for multiple work profile badge colors
-- DerpLauncher: Code improvements for icon pack implementation
-- DerpLauncher: Allow to open the icon pack's app by clicking the gear icon
-- WallpaperPicker: Add fit strategy chooser (incl. high quality)
-- Sync Aperture with Lineage upstream
+- Merged June A13 QPR3 patch
+- Enable charger plug-in statusbar chip
+- Enable explicit media indicator
+- Enable and tune Split notification shade
+- Added lawnicons for beautiful themed icons
 - Some more things maybe I can't remember more :P
