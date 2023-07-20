@@ -1,31 +1,34 @@
 Device Changelog:
-- Enabled CLO'S Framework 
-- Improved Perfomace / Idle drain 
-- Glyph :Fixup Acquire wakelock if flip is detected
-- Glyph: Add Glyph Interface Header Image
-- Glyph : added a seperate qs tile
-- Glyph : Add animations from 1.5 
-- Glyph : Customisable notification and call patterns
-- Glyph : Added music visualizer
-- Glyph : show battery level in motion detedcted events
+- Switched to stock vibrator hal 
+- Added richtap
 
 Source Changelog: 
-- Merge May Security patch (android-13.0.0_r43)
-- Add brightness slider styles
-- QRCodeScanner: Use Lens as fallback activity
-- UIStyles: Shishu Themes 1.2
-- UIStyles: Small changes for Optronic
-- UIStyles: Add brightness gradient for pacleggers
-- DerpSpace: Update German translations
-- Add more clock bg chip styles
-- Align keyguard carrier text with status bar
-- Add Gradicons and NothingDot signal & wifi icons
-- Sync DesktopMode with Lmodroid upstream
-- Settings: Hide navbar tuner if gesture nav enabled
-- DerpLauncher: Animate workspace on pages without smartpace visible
-- DerpLauncher: Prevent adb installed apps from showing up as system app
-- DerpLauncher: Add back support for multiple work profile badge colors
-- DerpLauncher: Code improvements for icon pack implementation
-- DerpLauncher: Allow to open the icon pack's app by clicking the gear icon
-- WallpaperPicker: Add fit strategy chooser (incl. high quality)
-- Sync Aperture with Lineage upstream
+- Merge July Security patch (android-13.0.0_r61)
+- Remove QS Header images for now due to incompatibility with qpr3
+- Remove DesktopMode to avoid drama
+- Remove old style mobile data indicator switch due to preparation for future changes
+- Remove squiggle animation switch for now
+- Remove unlinked ringer volume switch for now
+- Move privacy indicator toggles to privacy settings
+- Move brightness slider styles to theme settings
+- Move show Ambient instead of Lockscreen switch to display settings
+- Extend showing Ambient instead of fully waking to single tap
+- Allow setting wake for notification separately from doze
+- Allow user configurable fingerprint wake-and-unlock again
+- Add three-button-navbar styles
+- Add monochromatic monet theme
+- Move Black theme to UI styles
+- Add back status bar brightness control
+- Add version name to app info header
+- Update Symphonica prebuilt with upstream changes
+- ThemePicker: Fix crash choosing Live Wallpapers
+- DerpLauncher: Switch to Lawnicons due to high demand in maintainer chat
+- DerpLauncher: Adjust QsbLayout width
+- Sync Aperture with Lineage
+- Bring back Battery icon styles
+- Fix QS panel Header glitch
+- Fixup doze on charge switch
+- Only handle long press on back key if using it
+- Don't show navigation handle on keyguard or doze
+- Show USB icon in ADB notification
+- DerpLauncher: Allow changing max lines for app label again
