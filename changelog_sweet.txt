@@ -1,13 +1,12 @@
 Source
 
-- Rebase to QPR3 with June security patch 
+- Rebase to QPR3 with July security patch
 - Remove QS Header images for now due to incompatibility with qpr3
 - Remove DesktopMode to avoid drama
 - Remove old style mobile data indicator switch due to preparation for future changes
 - Remove squiggle animation switch for now
 - Remove unlinked ringer volume switch for now
 - Move privacy indicator toggles to privacy settings
-- Move brightness slider styles to theme settings
 - Move show Ambient instead of Lockscreen switch to display settings
 - Extend showing Ambient instead of fully waking to single tap
 - Allow setting wake for notification separately from doze
@@ -21,13 +20,15 @@ Source
 - ThemePicker: Fix crash choosing Live Wallpapers
 - DerpLauncher: Switch to Lawnicons due to high demand in maintainer chat
 - DerpLauncher: Adjust QsbLayout width
-- Sync Aperture with
+- Sync Aperture with Lineage
 
 Device
 
-- Initial public official release
-- MiuiCamera v4.5.002680.0 is included
-- Oneplus Dolby Included
+- MiuiCamera v4.5.002680.0 is default
+- Oneplus Dolby default
 - Update blobs V14.0.2.0.TKFMIXM
-- Switch 4.14.319 Aghisna-RX
-- Merge tag 'LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0'
+- Switch to VantomKernel
+- Update Adreno to LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0
+- Switched to Playground-clang
+- Imported missing audio and sensor libraries
+- Drop Devicesetting. It will be added again in the next update.
