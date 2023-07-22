@@ -1,6 +1,6 @@
 Device Changelog:
-- Switched to stock vibrator hal 
-- Added richtap
+- Fixed vibration motor strength 
+- Enabled vibration intensity options in settings
 
 Source Changelog: 
 - Merge July Security patch (android-13.0.0_r61)
