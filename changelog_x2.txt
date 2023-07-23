@@ -1,5 +1,6 @@
 # DerpFest platforme Source Changelog
 - July Security Patch merged
+- Platform patches - r63 tag
 - Fixup doze on charge switch
 - Rebase to QPR3 with June security patch 
 - Remove QS Header images for now due to incompatibility with qpr3 
@@ -25,15 +26,14 @@
 - Sync Aperture with Lineage
 
 # Device LeEco LeMax2 Changelog
-Initial Official Release
-Uprev device manifests
-Removed mounting DebugFS
-Updated CarrierConfigOverlay config
-Added and enabled zram writeback for kernel
-Added and enabled zram job shceduler for device/system
-Pinned surfaceflinger
-Our Fingerprint IS BACK without idle issues
-Removed Set combined QS to false flag
-Reorginized system/vendor overlays
-Replace BOARD_CHARGER_DISABLE_INIT_BLANK
+- 23.07.2023 -
+Reorginize our fstab
+Nuke prebuilt_app-replace with remove_packages
+Nuke prebuilt hw@fm1.0
+Build FM interface libs from source
+Adjust thermal_configs
+Nuke quota is deprecated
+More derp-fy additions
+Disable blur because we are Legacy
+Added Greek translations 99%
 More system fixes here and there...
