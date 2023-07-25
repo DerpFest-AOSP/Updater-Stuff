@@ -1,39 +1,15 @@
 EN Release Note:
 - For DerpFest && LineageOS （ picasso ）
  |- Fetch latest source
- |- July security patch
+ |- Drop Aperture
  |- Label more selinux denieds
- |- Disable the usage of ConfigStore
- |- Update telephony package list to LA.QSSI.12.0.r1-05600-qssi.0
- |- Update display blobs from LA.UM.9.12.r1-15100-SMxx50.QSSI13.0 
- |- Update Adreno Blobs from LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0 
- |- Update CarrierConfig overlay from LA.QSSI.13.0.r1-10000.02-qssi.0
- |- Switch to common xiaomi { fingerprint | power } hal
- |- Correct some values in power profile
- |- Support thermal mode
+ |- Build common xiaomi light HAL
 
-- For Driftwood kernel
- |- Merge tag 'LA.UM.9.12.r1-15500-SMxx50.QSSI12.0'
- |- Fetch latest kernel su driver
- |- Devfreq improvements
- |- Fix some random reboot
+---------------
 
 中文发行注记:
 - 对于 DerpFest 和 LineageOS ( picasso )
  |- 拉取最新源代码编译
- |- 七月安全更新
  |- 修复一些 selinux 拒绝事件
- |- 停用 configstore
- |- 更新 telephony 包列表至 'LA.QSSI.12.0.r1-05600-qssi.0'
- |- 更新 display 驱动至 'LA.UM.9.12.r1-15100-SMxx50.QSSI13.0'
- |- 更新 Adreno 驱动至 'LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0'
- |- 切换至小米 { fingerprint | power } HAL
- |- 更新运营商信息至 'LA.QSSI.13.0.r1-10000.02-qssi.0'
- |- 更新一些功耗配置文件中弃用的值
- |- 支持温控调节
-
-- 对于 Driftwood kernel
- |- 合并 tag 'LA.UM.9.12.r1-15500-SMxx50.QSSI12.0'
- |- 更新 Kernel SU
- |- Devfreq 性能提升
- |- 修复某些情况下出现的随机重启
+ |- 干翻 Aperture
+ |- 使用小米 Light HAL
