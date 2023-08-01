@@ -1,8 +1,12 @@
 Device changelog:
-- Enforcing build
-- Enable Wide Color Gamut support
-- Build only required dtb's
-- lahaina: cleanup defconfig
+- Add codec2 libs to PRODUCT_PACKAGES
+- Define AAPT configuration
+- Use Vulkan for UI rendering
+- Add custom init to set proper variants
+- Build android.hardware.drm@1.4.vendor
+- Migrate to AIDL ClearKey DRM HAL
+- set defaut RR 120Hz
+- Extend audio offload buffer size to 256kb
 
 Rom changelog:
 - Merge July Security patch (android-13.0.0_r61)
