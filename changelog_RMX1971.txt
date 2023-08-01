@@ -1,18 +1,30 @@
 Rom Changelog 
 
-- July 2023 Security update
-- Split Notification shade is back
-- Added many battery styles 
-- Allow setting battery percent view on left
-- Allow changing max lines for app label in Derpfest Launcher 
-- Follow status bar battery style in QS
-- Show a bolt ⚡ when charging
-- Update Symphonica App
+- Include PE's Pixel framework (Enjoy Quick Tap feature 😍) 
+- Bring back QS Header Images
+- Add QS battery customizations
+- Enable new back gesture affordance
+- Tell user when face unlock detection is running
+- Improve switch to unlink ringtone and notifications volume
+- Improve power menu drawables and strings
+- Rebrand Aperture to Flash
+- Replace configurable fingerprint wake-and-unlock by a much simpler implementation from ArrowOS
+- AirPod support changes has been revised on top of new changes based on OpenPods source
+- Settings: Re-order SELinux status on About Phone
+- Settings: Allow toggling in-call notifications
+- Settings: Show single-touch wakeup setting on rear & front fps devices
+- DerpSpace: Use click effect toggle instead of duration for haptic feedback for QSTile
+- Various fixes for FMRadio
+- recovery: Ask to reboot before installing anything after A/B update
+- Relax few restrictions for builds with prebuilt vendor
+- Update Symphonica to 0.6.0
+- Add Hellenic translations
+- Import more Chinese (Simpified) translations
+- Update Russian translations
 
 
 Device Changelog
 
-- Fixed flickering issues completely 
-- Ships with new default wallpaper
-- Updated CarrierConfig from LA.QSSI.13.0.r1-10000.02-qssi.0
-- Updated system blobs from LA.QSSI.13.0.r1-10000.02-qssi.0
+- Disable continuous transaction tracing on all build types
+- Enable VoLTE and VoWIFI for all
+- Enable VoLTE support for Telkomsel, Indosat and XLAxiata, Three, Globe, Smart, Dito, Banglalink, GrameenPhone, Aritel, Robi, Teletalk and Citycell
