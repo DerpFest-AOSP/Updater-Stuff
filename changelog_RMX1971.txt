@@ -1,30 +1,17 @@
 Rom Changelog 
 
-- Include PE's Pixel framework (Enjoy Quick Tap feature 😍) 
-- Bring back QS Header Images
-- Add QS battery customizations
-- Enable new back gesture affordance
-- Tell user when face unlock detection is running
-- Improve switch to unlink ringtone and notifications volume
-- Improve power menu drawables and strings
-- Rebrand Aperture to Flash
-- Replace configurable fingerprint wake-and-unlock by a much simpler implementation from ArrowOS
-- AirPod support changes has been revised on top of new changes based on OpenPods source
-- Settings: Re-order SELinux status on About Phone
-- Settings: Allow toggling in-call notifications
-- Settings: Show single-touch wakeup setting on rear & front fps devices
-- DerpSpace: Use click effect toggle instead of duration for haptic feedback for QSTile
-- Various fixes for FMRadio
-- recovery: Ask to reboot before installing anything after A/B update
-- Relax few restrictions for builds with prebuilt vendor
-- Update Symphonica to 0.6.0
-- Add Hellenic translations
-- Import more Chinese (Simpified) translations
-- Update Russian translations
+* Merged August security patch (r67) 
+* Make cardview rounded
+* libhwui: enable O3 when compiling for perf (reduces jitters) 
+* Fix pip error, from split-screen to pip in landscape
+* Fix some memory leakage
+* SystemUI: Enable cast tile without Wi-Fi connection
+* SystemUI: Fix Biometric dialog corner radius
+* Miscellaneous other Fixes and improvements
 
 
 Device Changelog
 
-- Disable continuous transaction tracing on all build types
-- Enable VoLTE and VoWIFI for all
-- Enable VoLTE support for Telkomsel, Indosat and XLAxiata, Three, Globe, Smart, Dito, Banglalink, GrameenPhone, Aritel, Robi, Teletalk and Citycell
+* Decouplep interactive state from display (Maximises power saving)
+* Dolby: Update dax-default profiles
+
