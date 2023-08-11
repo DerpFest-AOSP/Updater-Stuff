@@ -6,20 +6,33 @@
 Device Changelog:
 
 * Latest Derpfest source upstream
-* Added coloros & realmeUI fod icons
+* Merged August Security Patch
+* Fixed Google Fast Pair
 * SafetyNet pass without root as usual
 * More improvements & bug fixes!
 
 Rom Changelog:
 
-- Merge July security patch
-- Bring back Battery icon styles
-- Fix QS panel Header glitch
-- Fixup doze on charge switch
-- Only handle long press on back key if using it
-- Don't show navigation handle on keyguard or doze
-- Show USB icon in ADB notification
-- DerpLauncher: Allow changing max lines for app label again
-- Update Symphonica to 0.57b
-- Sync Aperture with Lineage
+- Merge August security patch
+- Include PE's Pixel framework
+- Bring back QS Header Images
+- Add QS battery customizations
+- Enable new back gesture affordance
+- Tell user when face unlock detection is running
+- Improve switch to unlink ringtone and notifications volume
+- Improve power menu drawables and strings
+- Rebrand Aperture to Flash
+- Replace configurable fingerprint wake-and-unlock by a much simpler implementation from ArrowOS
+- AirPod support changes has been revised on top of new changes based on OpenPods source
+- Settings: Re-order SELinux status on About Phone
+- Settings: Allow toggling in-call notifications
+- Settings: Show single-touch wakeup setting on rear & front fps devices
+- DerpSpace: Use click effect toggle instead of duration for haptic feedback for QSTile
+- Various fixes for FMRadio
+- recovery: Ask to reboot before installing anything after A/B update
+- Relax few restrictions for builds with prebuilt vendor
+- Update Symphonica to 0.6.0
+- Add Hellenic translations
+- Import more Chinese (Simpified) translations
+- Update Russian translations
 - Some more things maybe I can't remember  :P
