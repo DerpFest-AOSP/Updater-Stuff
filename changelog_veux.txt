@@ -29,3 +29,11 @@ July 13th update:
 - Updated arm cpu config to cortex-a76.
 - 3GB zram used by default.
 - Improvements regarding lmkd.
+
+August 11th update:
+- Base v14.0.2.0.TKCMIXM.
+- Merged latest oneplus sm8350 kernel for headers.
+- Treewide fixes for stability.
+- Use SF MIUI props again for 120Hz.
+- Fix Wi-Fi drop while screen is in idle or not used.
+- Sepolicy: fixup most of denial spam.
