@@ -1,9 +1,10 @@
 # Source
 - Uptodate
+- August SP
 
 # Device
-- Improved Audio Experience
-- Changed kernel ~Minazuki
+- Improved rw speed {thanx to Amack}
+- fix accidental wakeup
 
 # Some Features
 - Battery Styles
@@ -23,6 +24,7 @@
 etc...
 
 Build-Info
+- KernelSU included
 - Enforcing
 - Gapps included
 - safetynet passes
