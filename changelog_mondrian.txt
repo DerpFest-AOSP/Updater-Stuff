@@ -22,13 +22,9 @@
 - Update Russian translations
 
 Device:
-- Optimize for spatial audio
-- audio HAL: Enable RT priority inheritance
-- Don't add recovery image on A/B Ota
-- Import dolby atmos from lisa commits
-- sepolicy: Address init denials 
-- Adjust color modes and names
-- props: Set max active modem count
-- Fix hotwordenrollment
-- Add perf hals
-- Bug fixes
+- FOD Fixed
+- Configure brightness thresholds for VRR
+- Fix aux lens on Flash camera
+- Move lockscreen bottom text above FOD icon
+- Update kernel , odm and vendor to miui_MONDRIANGlobal_V14.0.5.0.TMNMIXM_d270bb06b0_13.0
+- few optimizations
