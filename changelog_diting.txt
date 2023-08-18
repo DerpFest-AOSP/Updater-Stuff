@@ -24,6 +24,4 @@
 Device:
 - FOD Fixed
 - Configure brightness thresholds for VRR
-- Fix aux lens on Flash camera
-- Move lockscreen bottom text above FOD icon
 - few optimizations
