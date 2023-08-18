@@ -1,30 +1,13 @@
-- Merge August security patch
-- Include PE's Pixel framework 
-- Bring back QS Header Images
-- Add QS battery customizations
-- Enable new back gesture affordance
-- Tell user when face unlock detection is running
-- Improve switch to unlink ringtone and notifications volume
-- Improve power menu drawables and strings
-- Rebrand Aperture to Flash
-- Replace configurable fingerprint wake-and-unlock by a much simpler implementation from ArrowOS
-- AirPod support changes has been revised on top of new changes based on OpenPods source
-- Settings: Re-order SELinux status on About Phone
-- Settings: Allow toggling in-call notifications
-- Settings: Show single-touch wakeup setting on rear & front fps devices
-- DerpSpace: Use click effect toggle instead of duration for haptic feedback for QSTile
-- Various fixes for FMRadio
-- recovery: Ask to reboot before installing anything after A/B update
-- Relax few restrictions for builds with prebuilt vendor
-- Update Symphonica to 0.6.0
-- Add Hellenic translations
-- Import more Chinese (Simpified) translations
-- Update Russian translations
+* frameworks/base
+f4b113b  core: legacy toasts deserve rounded corners too  [nift4]
+
+* vendor/derp
+6384b86  config: Dexpreopt DerpLauncher  [NurKeinNeid]
+8f8f9e7  config: Dexpreopt SystemUIGoogle  [Immanuel Raj]
+
+* packages/apps/Settings
+e6a9a66  Settings: LTE Only Mode  [Pratyush]
 
 Device:
 - FOD Fixed
-- Configure brightness thresholds for VRR
-- Fix aux lens on Flash camera
-- Move lockscreen bottom text above FOD icon
-- Update kernel , odm and vendor to miui_MONDRIANGlobal_V14.0.5.0.TMNMIXM_d270bb06b0_13.0
-- few optimizations
+- revert "Move lockscreen bottom text above FOD icon" (This breaks the fod)
