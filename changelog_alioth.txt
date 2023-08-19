@@ -1,11 +1,13 @@
 Device Changelog:
 ====================
-  09-08-2023     
+  19-08-2023     
 ====================
-- Removed audio hints
-- Enabled performant auth feature
-- Used speed tuning for performance critical applications
-- Enabled suspend to RAM
+- Fixed the issue where audio volume goes low and High
+- Fixed Delay in FP
+- Disabled SDM rotator downscaler
+- Enabled Optimized Power Management
+- Droped slim_daemon
+- Switched to NoKernel
 
 Rom Changelog:
 - August sp
