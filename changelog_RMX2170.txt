@@ -1,50 +1,76 @@
 [DEVICE]
-- kernel: Merged latest linux patch v4.14.320
-- dirac: Fix scenes
-- dirac: modify app display name and summary
-- dirac: Use vector drawable for Dirac™ logo
-- Increase auto brightness levels
-- Load libstagefrightdolby for dolby codecs
-- Add dolby prop and enable ds2 hard bypass
-- Kill IMS logspam with fire
-- Adjust audio class for in call noise cancellation
-- WifiOverlay: rro: set proper default hotspot ssid
+- Removed A2DP AOSP implementation and added Realme implementation for better bluetooth audio
+- Added supported audio formats in A2DP realme implementation 
+- Enabled a2dp offload props
+- Enable avrcp controller bluetooth profile
+- Restore vendor bluetooth props
+- Show "SuperDart Charging" for italian translation
+- powerhint: Add Top App Uclamp boosting
+- fingerprint: Use foreground cpuset/uclamp
+- fingerprint: Set thread to high CFS priority
+- Speed up auto-brightness ramp up
+- Made the overall system vibrations better
+- Do not allow backup of overlays
+- Add Fastcharge implementation
+- realme Lab: add disable fast charge toggle
+- realme lab: add sections in misc and a warning for beta
+- realme lab: add italian translation
 - More here-and-there under-the-hood changes
 
 [#MelloLab]
-- Added new boot animation
-- Added power (watt) indication for charging on lockscreen
-- Fixup wattage and voltage calculation for realme 7 Pro (now should be more accurate)
-- Settings Homepage Redesign
-- Improve settings panel UX/UI
-- Adapt card layout font to be system's
-- Optimized bitmap resources
-- Minor improvement to the PowerOffAlarmService body string
-- Catch OOB when returning pooled string
-- Optimize hwui for performance and memory usage
-- Add support for application downgrade
-- BatteryHealth: Add Battery Capacity info
-- Batteryhealth overhaul for realme 7 Pro with additional features
-- fixup! screenshot ui sound not playing after updating
-- Make seekbar sax and fix it when disabled
-- Make Oxygen icon pack override for sound tile
-- Enable new Velvet Weather UI
-- Added and fixed old style mobile data indicators after A13 QPR3 merge
-- Match systemui dialogs background with power menu
-- Use config_dialogCornerRadius for power menu
-- Open battery settings on long press battery saver tile rather than opening battery saver page
-- Added and fixed pure black vivid theme after A13 QPR3 merge
-- Launcher3: Add uninstall button to system shortcuts after A13 QPR3 merge
-- Launcher3: make recents more rounded
-- Launcher3: Add kill action to app shortcuts popup after A13 QPR3 merge
-- Launcher3: Vibrate on double tap to sleep
-- Launcher3: Add an option to customize blur radius
+- Setting: Added lottie illustrations to the preferences
+- Added Smartpixels for better battery saving in battery saver
+- Added Smartpixels qs tile
+- Screen flickers might be fixed now (still need more testing)
+- Added liblhdac support for bluetooth (more better and hd bluetooth audio)
+- Camera: Prevent crash with prebuilt camera metadata
+- Use proper Resolver background color
+- NotificationMenuRow: fix logspam
+- VolumePanel: Add long click for expand icon
+- Fixed the clear all icon being shown even on notification heads-up
+- Rework dismiss all view in QS
+- Implement background process killer
+- IdleManager: update packagelist for moar battery
+- Fixed integrity and google play services
+- tools: -O3 everywhere
+- Added QS fling animation boost for smoothness in QS panel
+- services: Gracefully kill parent processes
+- Fixed white qs header icons tint issue on light theme
+- Imported breathing UDFPS animation from nothingOS
+- Implemented system vibration haptics settings a different way
+- PackageInfo: Optimize AppInfo parsing
+- Avoid using accelerated graphics by default
+- Enable limited alpha composting by default
+- Match the UDFPS ripple animation color with lockscreen clock color
+- Reduce the alpha of color accent alpha drawable
+- Optimized hwui
+- Update some icons to MD2
+- Recheck the condition before really killing
+- Use selector drawables for translucent qs themes
+- Fix systemui crash when clicking data usage info
+- Update the SQLite version table
+- Convert mBroadcastCode to correct value
+- Launcher3: Add UNINSTALL shortcut to QuickstepLauncher
+- Fix launcher ui interface overlap and frozen problem
+- Launcher3: Increment max number of saved recent apps thumbnails
+- QsStyles: fixup brightness/autobrightness icon visuals
+- systemwide: overlays: do not allow backups for overlay
 - So many fixes, improvements for daily usage and under-the-hood changes I cannot mention all (kindly check changelog section in rom)
 
 [SOURCE]
-- Merged June A13 QPR3 patch
-- Enable charger plug-in statusbar chip
-- Enable explicit media indicator
+- Merged july security patch
+- Add brightness slider styles
+- Enable monochromatic monet bundle
+- Improve QS notification expansion animation
+- Added QS tile layout settings
+- Allow to change QS tile label text size
+- Update and fix QS tile layout settings
+- Added Custom QS panel styles
 - Enable and tune Split notification shade
-- Added lawnicons for beautiful themed icons
+- Do not reset keyguard going away state
+- Statusbar settings: Integrate battery customization
+- NavigationHandle: Don't show on keyguard or doze
+- Re-tune split shade for QPR3
+- Fix battery color on QS for circle battery styles
+- Fixed the themed icons not getting applied in drawer
 - Some more things maybe I can't remember more :P
