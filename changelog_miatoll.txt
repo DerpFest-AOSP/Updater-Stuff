@@ -1,92 +1,36 @@
 ====================
-    07-09-2023     
+    08-25-2023     
 ====================
 
-* bootable/recovery
-4abfb5c  recovery: Add support for touch rotation  [LuK1337]
-
-
-* build/make
-257460a  Add TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION flag  [LuK1337]
-
-
-* device/derp/sepolicy
-6255bd5  common: Label ro.minui.default_touch_rotation  [LuK1337]
-
-
-* packages/apps/DerpSpace
-432b30c  Merge pull request #11 from DF-Whyred/13  [Alexander Brunswig]
-
-
-* packages/apps/Settings
-226d976  Settings: Fixup doze on charge switch  [Ido Ben-Hur]
-
-
 ====================
-    07-08-2023     
+    08-24-2023     
 ====================
 
-* packages/apps/DerpSpace
-d9a3394  DerpSpace: Reduce default landscape QS column amount  [Mocarafee]
-
-
 ====================
-    07-07-2023     
+    08-23-2023     
 ====================
 
-* vendor/derp
-ecdc558  Merge pull request #42 from CrisBalGreece/13  [Alexander Brunswig]
-
-
 ====================
-    07-06-2023     
+    08-22-2023     
 ====================
 
-* build/make
-dab591f  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/build into HEAD  [NurKeinNeid]
-
-
-* frameworks/av
-e456144  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/frameworks/av into HEAD  [NurKeinNeid]
-d057293  Merge pull request #4 from Klozz/13  [Alexander Brunswig]
-
-
-* frameworks/base
-a512475  PixelPropsUtils: Update for July 2023 security patch  [NurKeinNeid]
-666a626  base: Do not reset keyguard going away state  [minarypenguin]
-865b96f  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/frameworks/base into HEAD  [NurKeinNeid]
-9a18614  Merge pull request #15 from DF-Whyred/13  [Alexander Brunswig]
-6cea036  SystemUI: Enable and tune Split notification shade  [minaripenguin]
-
-
-* manifest
-2ad27ed  manifest: July 2023 Security update  [Michael Bestas]
-3edf666  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/manifest into HEAD  [NurKeinNeid]
-63b96c6  Manifest for Android 13.0.0 Release 61  [The Android Open Source Project]
-
-
-* packages/apps/Settings
-af951d2  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD  [NurKeinNeid]
-
-
-* packages/modules/Bluetooth
-b9c5c6a  Merge pull request #1 from Klozz/13  [Alexander Brunswig]
-
-
-* packages/modules/Wifi
-1607baa  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/packages/modules/Wifi into HEAD  [NurKeinNeid]
-
-
-* vendor/derp
-da841c4  Merge pull request #41 from TheStrechh/13  [Alexander Brunswig]
-b363870  devices: Add le_x2 (LeEco LeMax2)  [CrisBal]
-
-
 ====================
-    07-05-2023     
+    08-21-2023     
 ====================
 
-* vendor/derp
-fdaa5b0  devices: Add Poco X5 Pro 5G (redwood)  [Carlos Arriaga]
+* packages/apps/DerpLauncher
+0df63b6  DerpLauncher: Import improvements from motorola  [minaripenguin]
+
+
+* system/sepolicy
+3f68e06  Allow otapreopt_chroot to use stdin and stdout pipes.  [Martin Stjernholm]
+c896353  Allow media server configurable flags to be read from anywhere  [Brian Lindahl]
+a3a8b99  Allow ueventd to read apexd property  [Suchang Woo]
+429aa84  sepolicy: Allow fd propagation from camera to display  [Syed Haq]
+066eb61  sepolicy: allow system app to access sysfs_leds  [Marko Man]
+
+
+* vendor/pixel-framework
+8ae39bc  SystemUIGoogle: Dont override biometric dialog corner radius  [NurKeinNeid]
 
 
