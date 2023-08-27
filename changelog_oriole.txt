@@ -1,4 +1,4 @@
-   August 13th Update
+   August 27th Update
 
    Source Changes
 
@@ -24,13 +24,16 @@
 - Add Hellenic translations
 - Import more Chinese (Simpified) translations
 - Update Russian translations
+- Update lawnicons
+- Add Smart 5G service
+- Add Data icons
 
    Device Changes
 
-- Initial Official build
-- Added SingularityBeard Kernel
-- Added Refresh Rate controls
-- Added Pixel Tensor Audio Decompressor tunings
-- Update blobs to TQ3A.230805.001
-- Only Gcam by default
-- Improvments in fingerprint sensor
+- Removed Pixel Tensor Audio Decompressor tunings
+- Fixed ColorModes
+- Fixed Unlimited Gphotos
+- Add Lineage overlays
+- Switch to zstd zram Compression
+- Switch to scudo-free-32-bit libc variant
+- Kernel Updated
