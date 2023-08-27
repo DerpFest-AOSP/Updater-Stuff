@@ -2,20 +2,26 @@ EN release note
 
 For DerpFest ( renoir )
  |- Sync latest source code
- |- Android July Security patch
- |- Update unpinned blobs from MIUI CN V14.0.10.0
- |- Fix recovery install
- |- Boost little cluster while interacting
- |- Disable all core control for shima
- |- Decrease swappiness to 60 
- |- Update post boot script from LA.VENDOR.1.0.r1-17700-WAIPIO.QSSI13.0
- |- Switch to xiaomi libperfmgr
+ |- Android August Security patch
+ |- Pull unpinned common blobs from haydn MIUI Global V14.0.3.0
+ |- Switch back to QTI Power HAL
+ |- Enable FUSE passthrough by default
+ |- Fix autobrightness bouncing
+ |- Enable zram writeback
+ |- Rebased tree to drop some useless commits
 
 For Tailwind kernel ( Used in DerpFest and HavocOS )
+ |- Upstream kernel to 5.4.249
+ |- Merge ACK tag ASB-2023-08-05_11-5.4
+ |- Merge f2fs-stable
+ |- Enable f2fs unfair rwsem by default
+ |- Port UFS high performance boost from oneplus oss release
+ |- Port file system high performance boost from oneplus oss release
+ |- Block && Memory Management && QTI Display subsystem improvements
+ |- Disable SSG by default
+ |- Enable userfaultfd by default
+ |- Thermal improvements
  |- Upstream kernel su driver
- |- Relax alarmtimer wakelock 
- |- disable watermark boost
- |- Disable config cleancache
 
 ---------------
 
@@ -23,16 +29,23 @@ For Tailwind kernel ( Used in DerpFest and HavocOS )
 
 适用于 DerpFest ( renoir )
  |- 同步最新源代码编译
- |- 从 MIUI CN V14.0.10.0 更新私有组件
- |- 修复 recovery 模式安装
- |- 当用户与设备交互时为小簇升频
- |- 为 shima 关闭所有核心控制
- |- 修复一些情况下的视频冻结问题
- |- 从 "LA.VENDOR.1.0.r1-17700-WAIPIO.QSSI13.0" 更新后启动阶段脚本
- |- 切换至小米 perfmgr 
+ |- 更新 Google 八月安全补丁
+ |- 从 haydn MIUI Global V14.0.3.0 拉取通用组件
+ |- 切换回 QTI Power HAL
+ |- 默认启用 FUSE 透传
+ |- 修复自动亮度过山车
+ |- 启用 zram 回写
+ |- 变基设备树以干掉一堆没用的提交
 
 适用于 Tailwind 内核 ( 内置于 DerpFest 和 HavocOS )
- |- 更新 kernel su 驱动
- |- 使用更加宽松的唤醒锁
- |- 关闭水位升频
- |- 关闭 cleancache
+ |- 内核更新至 5.4.249
+ |- 合并 AOSP 通用内核八月安全补丁
+ |- 合并上游 f2fs 更改
+ |- 默认启用 f2fs 不公平的读写信号量特性
+ |- 加入移植自 OnePlus 设备的 UFS 性能提升驱动
+ |- 加入移植自 OnePlus 设备的文件系统性能提升驱动
+ |- 块设备 && 内存管理 && 显示子系统改进
+ |- 默认关闭 SSG IO 调度器
+ |- 默认启用 userfaultfd
+ |- 一些温控改进
+ |- 同步上游 Kernel SU 驱动
