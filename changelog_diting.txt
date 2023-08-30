@@ -1,27 +1,34 @@
-- Merge August security patch
-- Include PE's Pixel framework 
-- Bring back QS Header Images
-- Add QS battery customizations
-- Enable new back gesture affordance
-- Tell user when face unlock detection is running
-- Improve switch to unlink ringtone and notifications volume
-- Improve power menu drawables and strings
-- Rebrand Aperture to Flash
-- Replace configurable fingerprint wake-and-unlock by a much simpler implementation from ArrowOS
-- AirPod support changes has been revised on top of new changes based on OpenPods source
-- Settings: Re-order SELinux status on About Phone
-- Settings: Allow toggling in-call notifications
-- Settings: Show single-touch wakeup setting on rear & front fps devices
-- DerpSpace: Use click effect toggle instead of duration for haptic feedback for QSTile
-- Various fixes for FMRadio
-- recovery: Ask to reboot before installing anything after A/B update
-- Relax few restrictions for builds with prebuilt vendor
-- Update Symphonica to 0.6.0
-- Add Hellenic translations
-- Import more Chinese (Simpified) translations
-- Update Russian translations
+* frameworks/base
+- DisplayModeDirector: Allow to enforce user selected  resolution  [cjh1249131356]
+* packages/apps/DerpSpace
+- Automatic translation import  [klozz (TeamMEX)]
+
+- hwui: Add NULL pointer check in AnimatorManager::pushStaging  [Phạm Tiên Sinh]
+- Pulse: Fix orientation checks  [minaripenguin]
+- Pulse: Prevent systemui-related crashes  [minaripenguin]
+- SystemUI: power menu styles refresh  [nift4]
+- Revert "Revert "keyguard: Do not trigger a wake up when hiding lockscreen""  [Dhina17]
+- services: fix quickswitch with gesture pill disabled  [nift4]
+- SystemUI: improve blur handling in respect to app launch animations  [nift4]
+- SidefpsController: Apply ScaleFactor to sensorLocationY  [Luofan Chen]
+- DisplayUtils: Introduce getScaleFactor  [AnierinB]
+- base: Introduce Smart 5G service [1/2]  [Adithya R]
+- base: Data icon style [1/3]  [rezaadi0105]
+- Unmount unusable partition instead of putting device into crashloop.  [Alex Buynytskyy]
+- Fix invalid code link, update exception message  [Peter Kalauskas]
+- Camera: Fix typos in CameraExtensionSessionImpl  [Euisang Lim]
+- Usb: Fix incorrect mapping of port mode constants  [Badhri Jagan Sridharan]
+- audio: Don't play sound effects if stream is muted  [Steve Kondik]
+- AudioService: focus listener: enable it when using external AudioFocus  [Francois Gaffie]
+- SettingsProvider: Fix for google backup and restore  [PlayfulGod]
+- Enable backup service by default for all users  [Oliver Scott]
+- Toast: Perform text scrolling for long toast texts  [minaripenguin]
+- core: legacy toasts deserve rounded corners too  [nift4]
+- core: Improve notification toast format and fix for apps < sdk 29  [minaripenguin]
+- fixup! Match legacy toast view with SystemUI  [SagarMakhar]
 
 Device:
-- FOD Fixed
-- Configure brightness thresholds for VRR
-- few optimizations
+ - Fix ScreenOFF Fod
+ - A little fod optimization
+ - Update translations (thanks to all who helped)
+ - Fix pickup and more doze stuff
