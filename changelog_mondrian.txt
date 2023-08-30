@@ -1,13 +1,34 @@
 * frameworks/base
-f4b113b  core: legacy toasts deserve rounded corners too  [nift4]
+- DisplayModeDirector: Allow to enforce user selected  resolution  [cjh1249131356]
+* packages/apps/DerpSpace
+- Automatic translation import  [klozz (TeamMEX)]
 
-* vendor/derp
-6384b86  config: Dexpreopt DerpLauncher  [NurKeinNeid]
-8f8f9e7  config: Dexpreopt SystemUIGoogle  [Immanuel Raj]
-
-* packages/apps/Settings
-e6a9a66  Settings: LTE Only Mode  [Pratyush]
+- hwui: Add NULL pointer check in AnimatorManager::pushStaging  [Phạm Tiên Sinh]
+- Pulse: Fix orientation checks  [minaripenguin]
+- Pulse: Prevent systemui-related crashes  [minaripenguin]
+- SystemUI: power menu styles refresh  [nift4]
+- Revert "Revert "keyguard: Do not trigger a wake up when hiding lockscreen""  [Dhina17]
+- services: fix quickswitch with gesture pill disabled  [nift4]
+- SystemUI: improve blur handling in respect to app launch animations  [nift4]
+- SidefpsController: Apply ScaleFactor to sensorLocationY  [Luofan Chen]
+- DisplayUtils: Introduce getScaleFactor  [AnierinB]
+- base: Introduce Smart 5G service [1/2]  [Adithya R]
+- base: Data icon style [1/3]  [rezaadi0105]
+- Unmount unusable partition instead of putting device into crashloop.  [Alex Buynytskyy]
+- Fix invalid code link, update exception message  [Peter Kalauskas]
+- Camera: Fix typos in CameraExtensionSessionImpl  [Euisang Lim]
+- Usb: Fix incorrect mapping of port mode constants  [Badhri Jagan Sridharan]
+- audio: Don't play sound effects if stream is muted  [Steve Kondik]
+- AudioService: focus listener: enable it when using external AudioFocus  [Francois Gaffie]
+- SettingsProvider: Fix for google backup and restore  [PlayfulGod]
+- Enable backup service by default for all users  [Oliver Scott]
+- Toast: Perform text scrolling for long toast texts  [minaripenguin]
+- core: legacy toasts deserve rounded corners too  [nift4]
+- core: Improve notification toast format and fix for apps < sdk 29  [minaripenguin]
+- fixup! Match legacy toast view with SystemUI  [SagarMakhar]
 
 Device:
-- FOD Fixed
-- revert "Move lockscreen bottom text above FOD icon" (This breaks the fod)
+ - Fix ScreenOFF Fod (a little buggy on mondrian just tap the sensor and put your finger)
+ - A little fod optimization
+ - Update translations (thanks to all who helped)
+ - Fix pickup and more doze stuff
