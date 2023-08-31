@@ -1,32 +1,89 @@
-Source Changelog 
+DEVICE:
 
-- Include PE's Pixel framework 
-- Bring back QS Header Images
-- Add QS battery customizations
-- Enable new back gesture affordance
-- Tell user when face unlock detection is running
-- Improve switch to unlink ringtone and notifications volume
-- Improve power menu drawables and strings
-- Rebrand Aperture to Flash
-- Replace configurable fingerprint wake-and-unlock by a much simpler implementation from ArrowOS
-- AirPod support changes has been revised on top of new changes based on OpenPods source
-- Settings: Re-order SELinux status on About Phone
-- Settings: Allow toggling in-call notifications
-- Settings: Show single-touch wakeup setting on rear & front fps devices
-- DerpSpace: Use click effect toggle instead of duration for haptic feedback for QSTile
-- Various fixes for FMRadio
-- recovery: Ask to reboot before installing anything after A/B update
-- Relax few restrictions for builds with prebuilt vendor
-- Update Symphonica to 0.6.0
-- Add Hellenic translations
-- Import more Chinese (Simpified) translations
-- Update Russian translations
+Initial oss user build
 
-Device Changelog
 
-- Implement Pocket Detection service 
-- Add refresh rate controls
-- Change to prebuilt Yuki Kernel GKI by Klozz 
-- Fix OK Google
-- Auto brightness improvements
-- Fixed the battery drain percentage bug
+
+
+
+
+
+SOURCE:
+
+====================
+    08-31-2023     
+====================
+
+====================
+    08-30-2023     
+====================
+
+* manifest
+4d6f893  Merge pull request #18 from Klozz/13  [Alexander Brunswig]
+146999f  manifest:qcom: Add taro HALs  [Bruno Martins]
+
+
+====================
+    08-29-2023     
+====================
+
+* frameworks/base
+48a8a66  base: PreferredNetworkTile: Disable tile on Wi-Fi tablets  [roynatech2544]
+b7a5f31  hwui: Add NULL pointer check in AnimatorManager::pushStaging  [Phạm Tiên Sinh]
+fb37d9e  Pulse: Fix orientation checks  [minaripenguin]
+a007912  Pulse: Prevent systemui-related crashes  [minaripenguin]
+621d191  SystemUI: power menu styles refresh  [nift4]
+bf5bb5e  Revert "Revert "keyguard: Do not trigger a wake up when hiding lockscreen""  [Dhina17]
+07737a5  services: fix quickswitch with gesture pill disabled  [nift4]
+d75f694b  SystemUI: improve blur handling in respect to app launch animations  [nift4]
+d2e225f  SidefpsController: Apply ScaleFactor to sensorLocationY  [Luofan Chen]
+e418fcf  DisplayUtils: Introduce getScaleFactor  [AnierinB]
+
+
+* packages/apps/Settings
+331c3be  Security: Move applock and usb restriction to advanced section  [Dhina17]
+0bed013  Settings: Update Glide library to 4.16.0  [someone5678]
+db27ee6  Settings: Update German translations  [NurKeinNeid]
+
+
+====================
+    08-28-2023     
+====================
+
+====================
+    08-27-2023     
+====================
+
+* build/soong
+414730a  soong: Whitelist yes  [NurKeinNeid]
+
+
+* frameworks/base
+cb2cea5  base: Data icon style [1/3]  [rezaadi0105]
+4c2e21d  Unmount unusable partition instead of putting device into crashloop.  [Alex Buynytskyy]
+051201f  Fix invalid code link, update exception message  [Peter Kalauskas]
+3f43d50  Camera: Fix typos in CameraExtensionSessionImpl  [Euisang Lim]
+1a47a5b  Usb: Fix incorrect mapping of port mode constants  [Badhri Jagan Sridharan]
+34ec9ed  audio: Don't play sound effects if stream is muted  [Steve Kondik]
+cbf18f9  AudioService: focus listener: enable it when using external AudioFocus  [Francois Gaffie]
+a15f414  SettingsProvider: Fix for google backup and restore  [PlayfulGod]
+98f1686  Enable backup service by default for all users  [Oliver Scott]
+c58809c  Toast: Perform text scrolling for long toast texts  [minaripenguin]
+4a9f5cc  core: legacy toasts deserve rounded corners too  [nift4]
+49ca71b  core: Improve notification toast format and fix for apps < sdk 29  [minaripenguin]
+7c78586  fixup! Match legacy toast view with SystemUI  [SagarMakhar]
+
+
+* packages/apps/DerpLauncher
+20771e0  DerpLauncher: remove weird brown tint from tablet task menu  [nift4]
+a36fe5d  fixup! DerpLauncher: Allow changing max lines for app label  [nift4]
+9b8e5f4  DerpLauncher: ensure to update cached thumbnail if we take new one  [nift4]
+4704c9e  fixup! DerpLauncher: Add recents and app drawer opacity customization  [nift4]
+
+
+* vendor/derp
+d3fbcfb  kernel: Don't try to do math on empty kernel version  [LuK1337]
+a13a191  config: Build WarpShare  [NurKeinNeid]
+1da54c0  config: Optimize DerpLauncher and Settings for speed  [Andrzej Perczak]
+
+
