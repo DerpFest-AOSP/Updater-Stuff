@@ -1,186 +1,169 @@
 ====================
-    07-10-2023     
+    09-04-2023     
 ====================
 
-* bionic
-4f33958  Merge pull request #1 from mizdrake7/13  [Alexander Brunswig]
+* packages/apps/DerpSpace
+d77456b  Merge pull request #19 from mondrian-development/13  [Alexander Brunswig]
 
 
-* frameworks/base
-7616764  core: Remove default aspect ratio limit for old apps  [Danny Lin]
-90e51d1  base: Show USB icon in ADB notification  [Danny Lin]
-
-
-* packages/apps/Settings
-73ad475  Merge pull request #9 from DF-Whyred/13  [Alexander Brunswig]
-b0e585a  Settings: Allow separating ringer & notification sound streams  [Ido Ben-Hur]
+* packages/apps/Nfc
+0a6051d  Fix Android Beam  [nift4]
 
 
 * vendor/derp
-b97a9c8  Merge pull request #44 from kaderbava/13  [Alexander Brunswig]
-c1ed505  Merge pull request #46 from DF-Whyred/13  [Alexander Brunswig]
-c28c5d4  fixup! overlay: SystemUI: Offload WM shell to another thread  [Pranav Vashi]
+5fb1a5b  common: Bring back Android Beam  [LuK1337]
 
 
 ====================
-    07-09-2023     
+    09-03-2023     
 ====================
 
 * bootable/recovery
-4abfb5c  recovery: Add support for touch rotation  [LuK1337]
-
-
-* build/make
-257460a  Add TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION flag  [LuK1337]
+9641def  recovery: Bypass reboot prompt for sideload-auto-reboot  [Joseph Annareddy]
+82318d6  fixup! recovery: Disable `ask_to_ab_reboot` in user build  [Mohammad Hasan Keramat J]
+75028b1  recovery: Disable `ask_to_ab_reboot` in user build  [Mohammad Hasan Keramat J]
 
 
 * device/derp/sepolicy
-6255bd5  common: Label ro.minui.default_touch_rotation  [LuK1337]
+89d1d66  common: Add sepolicy rules for Lineage Health HAL and service  [Luofan Chen]
 
 
 * frameworks/base
-cb75ef5  SystemUI: Match the hide animation duration with show duration  [minaripenguin]
-b0d5254  AlarmManager: Handle google and system apps alarm denials  [minaripenguin]
-b6dbf83  AlarmManager: Handle all gms exact alarm denials  [Danny Lin]
-396e58d  PhoneWindowManager: only handle long press on back key if using it  [nift4]
-b00b723  SystemUI: NavigationHandle: Don't show on keyguard or doze  [Ido Ben-Hur]
-8037293  SystemUI: quickfix unneccessary permission  [nift4]
-beb7b5c  AuthRippleController: Always finish the LightRevealScrim  [Chenyang Zhong]
-691a937  base: Fix QS panel Header glitch  [Pranav Vashi]
-c6c8de8  SystemUI: Remove brightness slider top margin  [minaripenguin]
-2a66b02  SystemUI: Follow status bar battery style in QS  [Pranav Vashi]
-eb0732e  SystemUI: Clean up battery callback in CollapsedStatusBar  [Pranav Vashi]
-9ee727f  SettingsLib: Use WHITE color instead MAGENTA for Battery Drawables  [elizabethangelalorenza]
-5922885  Battery: Don't check cutout for qs battery  [xyyx]
-8ba2909  Battery Styles: Add MIUI pill battery icon  [DrDisagree]
-2053ca7  Battery styles: add Origami battery icon  [DrDisagree]
-75104d5  BatteryMeterView: simplify scale logic  [elpaablo]
-230efaa  Battery Styles: Add Landscape iOS battery styles from Iconify [1/2]  [helliscloser]
-8d875f4  Battery Styles: Added 9 more battery styles [1/2]  [R15Hi]
-7ee67d2  Battery: make fill path rounded  [Evillium]
-ca60c52  BatteryMeterView: Move null check to the beginning of the method.  [spezi77]
-f4f0864  Battery Styles: Allow setting percent view on left [1/2]  [703joko]
-3f83413  Battery Styles: Introduce Battery Landscape [1/2]  [703joko]
-f77fec1  Battery Styles: More clean up  [Pranav Vashi]
-e25a18e  Battery Styles: Fix signal icon padding with Hidden style  [Ezio Lacandia Bijelkic]
-fbf2dd6  Battery Styles: Show a bolt ⚡ when charging  [ezio84]
-e201fd7  Battery Styles: Introduce full circle battery style  [Christian Oder]
-c795d95  Battery Styles: Readd dotted Circle to Kotlin impl  [Christian Oder]
-c31c886  Battery Styles: Clean up for more customizations  [Pranav Vashi]
-02f1e15  SystemUI: Bring back good ol' circle battery style  [Bruno Martins]
-f38119e  Revert "BatteryMeterView: Allow disabling QS battery estimates [1/2]"  [NurKeinNeid]
-ceead27  Revert "SystemUI: Bring back good ol' circle battery style"  [NurKeinNeid]
+84af6b0  Add support for allowing/disallowing apps on Bluetooth Internet and Ethernet  [hmtheboy154]
+f1edee9  SystemUI: Bring in drawable for statusbar firewall toggle  [Michael Bestas]
+6c96da1  fixup! Implement firewall status bar indicator  [Oliver Scott]
+1a0bf66  Implement firewall status bar indicator  [Oliver Scott]
+0f95ac5  Support per-UID VPN lockdown policy  [Tommy Webb]
+75158ef  Skip firewall rules for stopped users  [Tommy Webb]
+f1372f9  Use POLICY_REJECT_ALL instead of allowlist  [Tommy Webb]
+a72409f  NPMS: Check if UID is disallowed by transports  [Tommy Webb]
+03a6948  Track and send allowed transports to Connectivity  [Tommy Webb]
+1ba2edb  Do not consider transports for restricted mode  [Tommy Webb]
+2ec8de3  NetworkPolicyManager: Add POLICY_REJECT_ALL constant  [Chirayu Desai]
+f64dbc1  settings: Enable RestrictedNetworkingMode  [Erfan Abdi]
+b3f8661  NetworkPolicyManagerService: Avoid OOB in addSdkSandboxUidsIfNeeded  [Adithya R]
+087177b  fixup! fw/b: Add support for allowing/disallowing apps on cellular, vpn and wifi networks  [Oliver Scott]
+93a8831b  Add custom handling for backup/restore of UIDS_ALLOWED_ON_RESTRICTED_NETWORKS  [Oliver Scott]
+687e340  Migrate from network isolation to restricted networking mode  [Oliver Scott]
+1bcc0fb  Clear calling identity when setting restricted networking mode UID firewall rules  [Oliver Scott]
+0788947  Implement backup/restore for network policy  [Oliver Scott]
+ca04d84  Split network policy XML parsing into read/write helper functions  [Oliver Scott]
+150d6f4  fw/b: Add support for allowing/disallowing apps on cellular, vpn and wifi networks  [Oliver Scott]
+85e871b  Restricted Networking Mode fixes  [Oliver Scott]
+fd0da53  Remove removed package uids from Restricted Mode's uid allowlist  [Oliver Scott]
+abfbf21  Add Restricted Mode uid allowlist setting observer to NetworkPolicyManagerService  [Oliver Scott]
+2e37a98  Sync hasRestrictedModeAccess with PermissionMonitor in NetworkPolicyManagerService  [Oliver Scott]
+557e815  Fix the memory leak during high speed recording  [Hiroki Mine]
+9b2c6e8  ChargingControl: Additional log lines for deadline  [Tommy Webb]
+a636483  ChargingControl: Retry setting deadline if it fails  [Tommy Webb]
+f166afe  ChargingControl: Drop default values for initially zero variables  [Mohammad Hasan Keramat J]
+c931f5a  ChargingControl: Return early if lineage health HAL is not found  [Luofan Chen]
+4718578  ChargingControl: Don't set deadline if charging control is not enabled  [Luofan Chen]
+7191720  ChargingControl: Use ServiceManager.waitForDeclaredService()  [LuK1337]
+c857700  ChargingControl: No need to log a crash when not supported  [Michael W]
+adfd5a9  ChargingControl: Handle cancel toggle correctly if bypass is not supported  [Luofan Chen]
+105e120  ChargingControl: Add cancel toggle for limit done notification  [Luofan Chen]
+4747e81  ChargingControl: Reset internal states on settings change  [Luofan Chen]
+240ad08  ChargingControl: Set a small margin for devices with bypass support  [Luofan Chen]
+c566d98  base: Add static isChargingControlSupported(ctx) method  [LuK1337]
+350647c  base: Implement Lineage health service  [Luofan Chen]
+11547d3  base: Extract base class for lineage base feature  [Luofan Chen]
+00d77ff  base: Settings: Add settings for charging control  [Danny Trunk]
+68b6b5c  Revert "Release SCREENSHOT_WORK_PROFILE_POLICY"  [alk3pInjection]
+2a6ff39  SystemUI: Respect the old good "Show passwords" preference  [alk3pInjection]
+f303114  apex: Prevent illegal state exception caused by GMS concurrent alarms  [minaripenguin]
+dfeeac1  graphics: override more system fonts  [minaripenguin]
+6f4f024  services: Bypass security check when checking provider permissions for google apps  [minaripenguin]
+f5a57e0  base: Double tap to trigger doze [1/2]  [SKULSHADY]
+0af3737  BoostFramework: Guard it with overlay  [jhenrique09]
+d2d6a80  SystemUI: Add SCREEN_GESTURE as a CameraLaunchSourceModel  [resist15]
+be4c871  SystemUI: fix missing rotate suggestion in 2 button nav mode  [nift4]
 
 
-* packages/apps/DerpLauncher
-9f3abbb  DerpLauncher: Allow changing max lines for app label  [Pranav Vashi]
+* hardware/lineage/interfaces
+5e1646b  health: Only dump charging enabled status if toggle is supported  [Luofan Chen]
+15f6fb1  fixup! health: Wait for required paths indefinitely  [Luofan Chen]
+71198f7  health: Only select node with RW permission  [Luofan Chen]
+4a2a10c  health: Check access() return value  [LuK1337]
+0dedea2  health: Wait for required paths indefinitely  [LuK1337]
+d56f0e2  health: Add default implementation  [Luofan Chen]
+fe40e09  health: Initial Lineage Health AIDL interface  [Luofan Chen]
 
 
-* packages/apps/DerpSpace
-7b42f9d  DerpSpace: Battery styles: add some extra validation  [elpaablo]
-89ace7b  DerpSpace: Battery Styles: Add MIUI pill battery icon [2/2]  [NurKeinNeid]
-ff01c2b  DerpSpace: Battery styles: add Landscape Origami  [elpaablo]
-1067265  DerpSpace: Battery Styles: Add Landscape iOS battery styles [2/2]  [helliscloser]
-4011b94  DerpSpace: Battery Styles: Added 9 more battery styles [2/2]  [helliscloser]
-8650dd0  DerpSpace: Allow setting battery percent view on left [2/2]  [703joko]
-9f237e1  DerpSpace: Battery Styles: Introduce Battery Landscape [2/2]  [703joko]
-9931812  DerpSpace: Battery Styles: Add customizations for Android 13  [Parth Bhatia]
-d5e5b03  Revert "DerpSpace: Battery Customizations"  [NurKeinNeid]
-8fb39ab  Revert "DerpSpace: Allow choosing whether to show % inside battery icon [2/2]"  [NurKeinNeid]
-79f0733  Revert "DerpSpace: Allow controlling statusbar battery % display when charging [2/2]"  [NurKeinNeid]
-99ea7fd  Revert "DerpSpace: Allow disabling QS battery estimates [2/2]"  [NurKeinNeid]
-432b30c  Merge pull request #11 from DF-Whyred/13  [Alexander Brunswig]
-
-
-* packages/apps/FMRadio
-3c18789  fmradio: Set targetSdkVersion to 31  [Erfan Abdi]
-c3f3d38  fixup! FMRadio: fix listen to recordings  [nift4]
-
-
-* packages/apps/GameSpace
-9817ff6  Revert "GameSpace: Remove unimplemented method from Danmaku service"  [NurKeinNeid]
-
-
-* packages/apps/Settings
-494780d  Settings: Update Android Beam switch title  [someone5678]
-213097a  Settings: Allow to skip confirmation in biometric auth dialog [3/2]  [someone5678]
-
-
-* packages/apps/TouchGestures
-600810c  TouchGesture: Set targetSdkVersion to 31  [Erfan Abdi]
-3274123  TouchGesture: AndroidManifest: Upgrade targetSdkVersion to 30  [Mohammad Hasan Keramat J]
-
-
-* system/vold
-337c2c0  vold: fix failing to format zero-ed out SD card  [nift4]
-
-
-* vendor/derp
-f15d215  UdfpsResources: Add more udfps icons  [kaderbava]
-15e4e2a  overlay: config_plugin{Whitelist -> Allowlist}  [Adithya R]
-22645cb  prebuilt: Update Symphonica  [NurKeinNeid]
-
-
-====================
-    07-08-2023     
-====================
-
-* packages/apps/DerpSpace
-d9a3394  DerpSpace: Reduce default landscape QS column amount  [Mocarafee]
+* hardware/qcom-caf/thermal
+3f8700e  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_hardware_qcom_thermal into HEAD  [NurKeinNeid]
 
 
 * packages/apps/Settings
-226d976  Settings: Fixup doze on charge switch  [Ido Ben-Hur]
-
-
-====================
-    07-07-2023     
-====================
-
-* bionic
-d26a4a3  Fix mte build breakage.  [Christopher Ferris]
-fd6c73c  Fix stack use-after-scope in async_safe_log.  [Peter Collingbourne]
-cb395dd  Make tmpfile() respect $TMPDIR.  [Elliott Hughes]
-
-
-* vendor/derp
-ecdc558  Merge pull request #42 from CrisBalGreece/13  [Alexander Brunswig]
-
-
-====================
-    07-06-2023     
-====================
-
-* build/make
-dab591f  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/build into HEAD  [NurKeinNeid]
-
-
-* frameworks/av
-e456144  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/frameworks/av into HEAD  [NurKeinNeid]
-
-
-* frameworks/base
-a512475  PixelPropsUtils: Update for July 2023 security patch  [NurKeinNeid]
-666a626  base: Do not reset keyguard going away state  [minarypenguin]
-865b96f  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/frameworks/base into HEAD  [NurKeinNeid]
-9a18614  Merge pull request #15 from DF-Whyred/13  [Alexander Brunswig]
-
-
-* manifest
-2ad27ed  manifest: July 2023 Security update  [Michael Bestas]
-3edf666  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/manifest into HEAD  [NurKeinNeid]
-63b96c6  Manifest for Android 13.0.0 Release 61  [The Android Open Source Project]
-
-
-* packages/apps/Settings
-af951d2  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD  [NurKeinNeid]
-
-
-* packages/modules/Wifi
-1607baa  Merge tag 'android-13.0.0_r61' of https://android.googlesource.com/platform/packages/modules/Wifi into HEAD  [NurKeinNeid]
+72703ae  ChargingControl: Add missing summary  [NurKeinNeid]
+d34a9c8  Fix BatteryChartView show levels in future time  [quyenvsp]
+930da82  Settings: Move flash alert prefs to own fragment  [Anushek Prasal]
+a25d73b  Add support for allowing/disallowing apps on Bluetooth Internet and Ethernet [2/2]  [hmtheboy154]
+62fc010  Use our string for restrict_background  [Chirayu Desai]
+11a5e23  AppDataUsage: Update "Background network access" toggle logic  [Chirayu Desai]
+bd6043f  POLICY_REJECT_ALL restricts all network access  [Tommy Webb]
+84c1c47  AppDataUsage: Handle apps without INTERNET permission  [Oliver Scott]
+94dc7a1  Settings: Add support for allowing/disallowing apps on cellular, vpn and wifi networks  [Oliver Scott]
+175450c  Settings: Add support for allowing/disallowing apps on restricted networks  [Sam Mortimer]
+880f9d9  ChargingControl: Don't index settings if it is not supported  [Luofan Chen]
+f87de90  Settings: Add charging control preferences  [Danny Trunk]
+f3280a1  Settings: Double tap to trigger doze [2/2]  [SKULSHADY]
 
 
 * vendor/derp
-da841c4  Merge pull request #41 from TheStrechh/13  [Alexander Brunswig]
+8e032ce  overlay: Treat org.lineageos.settings.device as privileged  [Bruno Martins]
+3199197  soong: Add TARGET_HEALTH_CHARGING_CONTROL related configs  [Luofan Chen]
+b72d051  config: device_framework_matrix: Add vendor.lineage.health  [Michael Bestas]
+951e5c6  charger: Update from cheetah TQ3A.230705.001  [Arseniy Graur]
+b4d6ac2  charger: Import latest offline charging animation  [Dyneteve]
+6c80612  kernel: Support copying modules to recovery  [Aaron Kling]
+aa18f86  kernel: Support Qualcomm merge_dtbs script  [Aaron Kling]
 
+
+* vendor/pixel-framework
+208974b  SettingsGoogle: Sync with latest DerpFest changes  [NurKeinNeid]
+7f08e12  SystemUIGoogle: Add ims-common lib to support VOLTE & VOWIFI icons  [Hưng Phan]
+e6b60a2  fixup! pixel-framework: Adapt to DerpFest  [NurKeinNeid]
+8fba932  SystemUIGoogle: googlebattery: rework system feature check sequence  [Alcatraz323]
+
+
+* vendor/qcom/opensource/commonsys-intf/display
+398c1a8  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf into HEAD  [NurKeinNeid]
+
+
+* vendor/qcom/opensource/power
+86a552f  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_vendor_qcom_opensource_power into HEAD  [NurKeinNeid]
+
+
+* vendor/support
+051d350  support: Add requiresService attribute  [Luofan Chen]
+
+
+====================
+    09-02-2023     
+====================
+
+* packages/modules/Connectivity
+881fc2e  Expose new isUidCurrentlyDisallowedByPolicy  [Tommy Webb]
+d689efb  Set allowed UIDs for networks based on policies  [Tommy Webb]
+4b9ebc3  Allow VPN lockdown UID ranges to stack properly  [Tommy Webb]
+e22012c  Always drop non-VPN ingress in lockdown mode  [Oliver Scott]
+13429d4  Stop reading UIDS_ALLOWED_ON_RESTRICTED_NETWORKS setting in PermissionMonitor  [Oliver Scott]
+926bc5d  setUidsAllowedOnRestrictedNetworks: Modify UID enforcement to check app id  [Oliver Scott]
+
+
+* system/netd
+9edde29  Adjust IP rules to accommodate UID-based firewall  [Tommy Webb]
+100ca23  Stop setting netId for bypassable VPNs  [Tommy Webb]
+c4d65cc  Do not add VPN local exclusion rules  [Tommy Webb]
+3c4707d  bw: Make background data work as background network access instead  [Chirayu Desai]
+
+
+====================
+    09-01-2023     
+====================
+
+====================
+    08-31-2023     
+====================
 
