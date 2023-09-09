@@ -1,2 +1,2 @@
-- Source upstream
-- device tree change
+-* merged september security update
+-* improved performance
