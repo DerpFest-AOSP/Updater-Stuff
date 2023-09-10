@@ -1,26 +1,43 @@
 Rom:
-- Merge August security patch
-- Include PE's Pixel framework
-- Bring back QS Header Images
-- Add QS battery customizations
-- Enable new back gesture affordance
-- Tell user when face unlock detection is running
-- Improve switch to unlink ringtone and notifications volume
-- Improve power menu drawables and strings
-- Rebrand Aperture to Flash
-- Replace configurable fingerprint wake-and-unlock by a much simpler implementation from ArrowOS
-- AirPod support changes has been revised on top of new changes based on OpenPods source
-- Settings: Re-order SELinux status on About Phone
-- Settings: Allow toggling in-call notifications
-- Settings: Show single-touch wakeup setting on rear & front fps devices
-- DerpSpace: Use click effect toggle instead of duration for haptic feedback for QSTile
-- Various fixes for FMRadio
-- recovery: Ask to reboot before installing anything after A/B update
-- Relax few restrictions for builds with prebuilt vendor
-- Update Symphonica to 0.6.0
-- Add Hellenic translations
-- Import more Chinese (Simpified) translations
-- Update Russian translations
+- Merge September security patch
+- GlobalActionsDialog: Enable blur behind via window flags
+- Settings: storage: Do not skip primary user when listing non-logged in users
+- Add Lineage charging control
+- Add Network restrictions settings 
+- Introduce Data icon styles
+- Add Double tap to trigger doze switch 
+- Fix quickswitch with gesture pill disabled
+- Improve blur handling in respect to app launch animations
+- Fix device wakeup loop when ambient display is enabled without lockscreen
+- Fix missing rotate suggestion in 2 button nav mode
+- Override more system fonts (Gboard for example)
+- Power menu styles refresh:
+   - Fix grid layout being below navbar in portrait due to AOSP copypasta mistake
+   - Enable blur for A11 style
+   - Fix A8 style jumping around when opening
+   - Unify/fix inset handling and display cutout support for all styles
+- Pulse: Prevent systemui-related crashes
+- Pulse: Fix orientation checks
+- Prevent illegal state exception caused by GMS concurrent alarms
+- Respect the old good "Show passwords" preference
+- Fix NPE when taking a screenshot in work profile
+- Settings: Move flash alert prefs to its own fragment
+- Security: Move applock and usb restriction to advanced section
+- DerpLauncher: Make two-line labels more visually pleasing
+- DerpLauncher: Apply recents opacity to more places
+- DerpLauncher: Ensure to update cached thumbnail if we take new one
+- DerpLauncher: Remove weird brown tint from tablet task menu
+- DerpLauncher: Animation improvements
+- DerpLauncher: Hide "all apps" view when search starts
+- Import latest offline charging animation from Pixel 7 Pro
+- Some more things maybe I can't remember  :P
 
 Device:
-- Fixed Leica camera
+- parts: update ru and ua translation (Thanks to @K0rtus)
+- Unblock madvise syscall for dspservice 
+- Correct SystemUI apk name and path for pinner service
+- Allow system_server to get app_zygote pgid
+- Enable charging control hal
+
+Kernel:
+- Upstream to 4.14.325
