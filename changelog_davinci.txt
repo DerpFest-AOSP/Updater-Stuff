@@ -1,10 +1,6 @@
-Device changelog:
-- Updated blobs from Redmi Note 12 Pro 4G (sweet_k6a)
-- Upstreamed kernel to 4.14.325 and 13900 caf tag
-- Renabled aux cameras for Flash(rebranded Aperture)
-- Pinned up google's systemui
-- Enable charging control hal
+Device Changelog:
+- No changes from previous version
 
 Rom changelog:
 - Sync derpfest sources
-- Add support for charging control hal
+- Merge September security patch 
