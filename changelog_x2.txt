@@ -1,11 +1,11 @@
 ====================
-    20-08-2023     
+    12-09-2023     
 ====================
 
 # DerpFest Platform | Source Changelog
 
-- August 2023 Security Ptches
-- Merge tag 'android-13.0.0_r72'
+- September 2023 Security Ptches
+- Merge tag 'android-13.0.0_r9'
 - Include PE's Pixel framework 
 - Bring back QS Header Images
 - Add QS battery customizations
@@ -30,9 +30,11 @@
 
 ----------------------------------------------------------------------
 
-# Device Changelog | Fixes
+# Device LeMax2 Changelog | Fixes
 
-- Import platform patches - 'android-13.0.0_r72'
+- Import platform patches - 'android-13.0.0_r9'
+- Specify our kernel target level in manifest
+- Build vendor.lineage.livedisplay
 - Drop unneeded stuff/configs
 - ueventd.rc: Remove all permissions from /sys/devices/soc0/serial_number
 - Build Lineage Health HAL
