@@ -1,76 +1,51 @@
 [DEVICE]
-- Removed A2DP AOSP implementation and added Realme implementation for better bluetooth audio
-- Added supported audio formats in A2DP realme implementation 
-- Enabled a2dp offload props
-- Enable avrcp controller bluetooth profile
-- Restore vendor bluetooth props
-- Show "SuperDart Charging" for italian translation
-- powerhint: Add Top App Uclamp boosting
-- fingerprint: Use foreground cpuset/uclamp
-- fingerprint: Set thread to high CFS priority
-- Speed up auto-brightness ramp up
-- Made the overall system vibrations better
-- Do not allow backup of overlays
-- Add Fastcharge implementation
-- realme Lab: add disable fast charge toggle
-- realme lab: add sections in misc and a warning for beta
-- realme lab: add italian translation
+- kernel: Merged latest linux patch v4.14.323
+- Adapt aux cameras for source built new camera Flash
+- Added russian translation to the realme Lab
+- Enabled pocket mode
 - More here-and-there under-the-hood changes
 
 [#MelloLab]
-- Setting: Added lottie illustrations to the preferences
-- Added Smartpixels for better battery saving in battery saver
-- Added Smartpixels qs tile
-- Screen flickers might be fixed now (still need more testing)
-- Added liblhdac support for bluetooth (more better and hd bluetooth audio)
-- Camera: Prevent crash with prebuilt camera metadata
-- Use proper Resolver background color
-- NotificationMenuRow: fix logspam
-- VolumePanel: Add long click for expand icon
-- Fixed the clear all icon being shown even on notification heads-up
-- Rework dismiss all view in QS
-- Implement background process killer
-- IdleManager: update packagelist for moar battery
-- Fixed integrity and google play services
-- tools: -O3 everywhere
-- Added QS fling animation boost for smoothness in QS panel
-- services: Gracefully kill parent processes
-- Fixed white qs header icons tint issue on light theme
-- Imported breathing UDFPS animation from nothingOS
-- Implemented system vibration haptics settings a different way
-- PackageInfo: Optimize AppInfo parsing
-- Avoid using accelerated graphics by default
-- Enable limited alpha composting by default
-- Match the UDFPS ripple animation color with lockscreen clock color
-- Reduce the alpha of color accent alpha drawable
-- Optimized hwui
-- Update some icons to MD2
-- Recheck the condition before really killing
-- Use selector drawables for translucent qs themes
-- Fix systemui crash when clicking data usage info
-- Update the SQLite version table
-- Convert mBroadcastCode to correct value
-- Launcher3: Add UNINSTALL shortcut to QuickstepLauncher
-- Fix launcher ui interface overlap and frozen problem
-- Launcher3: Increment max number of saved recent apps thumbnails
-- QsStyles: fixup brightness/autobrightness icon visuals
-- systemwide: overlays: do not allow backups for overlay
+- Fixup all source pixel-framework bugs and errors conflicting with our #MelloLab changes
+- Added and updated A11 QS UI Style
+- Add total 75 qs header images
+- Fix bluetooth dialog accessiblity icons tint
+- core: touch response optimizations
+- add VSYNC scheduled flag and avoid two doFrame calls in one period
+- make ui touch optimization work normally.
+- monet: Fix overly low chroma for tones below 90
+- Make new back affordance follow our system haptics settings
+- Optimize IncallUI delay for voice calls
+- Improve notification toast format and fix for apps < sdk 29
+- Enable pro-active kills
+- Optimize maximum cached/phantom processes
+- Scale udfps keyfuard view
+- Optimize storage manager service
+- Move freezer thread group to system background
+- Fix flicker issue when turn on/off screen with color inversion
 - So many fixes, improvements for daily usage and under-the-hood changes I cannot mention all (kindly check changelog section in rom)
 
 [SOURCE]
-- Merged july security patch
-- Add brightness slider styles
-- Enable monochromatic monet bundle
-- Improve QS notification expansion animation
-- Added QS tile layout settings
-- Allow to change QS tile label text size
-- Update and fix QS tile layout settings
-- Added Custom QS panel styles
-- Enable and tune Split notification shade
-- Do not reset keyguard going away state
-- Statusbar settings: Integrate battery customization
-- NavigationHandle: Don't show on keyguard or doze
-- Re-tune split shade for QPR3
-- Fix battery color on QS for circle battery styles
-- Fixed the themed icons not getting applied in drawer
+- Merged august security patch
+- Include PE's Pixel framework 
+- Bring back QS Header Images
+- Add QS battery customizations
+- Enable new back gesture affordance
+- Tell user when face unlock detection is running
+- Improve switch to unlink ringtone and notifications volume
+- Improve power menu drawables and strings
+- Rebrand Aperture to Flash
+- Replace configurable fingerprint wake-and-unlock by a much simpler implementation from ArrowOS
+- AirPod support changes has been revised on top of new changes based on OpenPods source
+- Settings: Re-order SELinux status on About Phone
+- Settings: Allow toggling in-call notifications
+- Settings: Show single-touch wakeup setting on rear & front fps devices
+- DerpSpace: Use click effect toggle instead of duration for haptic feedback for QSTile
+- Various fixes for FMRadio
+- recovery: Ask to reboot before installing anything after A/B update
+- Relax few restrictions for builds with prebuilt vendor
+- Update Symphonica to 0.6.0
+- Add Hellenic translations
+- Import more Chinese (Simpified) translations
+- Update Russian translations
 - Some more things maybe I can't remember more :P
