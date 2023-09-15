@@ -37,3 +37,10 @@ August 11th update:
 - Use SF MIUI props again for 120Hz.
 - Fix Wi-Fi drop while screen is in idle or not used.
 - Sepolicy: fixup most of denial spam.
+
+September 15th update:
+- Updated to 14.0.3.0.TKCMIXM Kernel & Vendor blobs.
+- Fixed LiveWallpaper lags.
+- Disable CamX log spam and some other stuff.
+- Use FrameworkOverlay to set default volume slider steps.
+- Enable saturated color mode.
