@@ -1,21 +1,14 @@
 Device Changes:
-- Build vendor.xiaomi.hardware.touchfeature from source
-- configs: Update dax-default profiles
-- Disable continuous transaction tracing on all build types
-- Disable per-cgroup PSI accounting
-- Drop unused RIL properties
-- Enable casefolding support on userdata
-- Exclude some packages at build time
-- Explicitly disable serial console
-- Fix IMS symlink as per dynamic partitions
-- parts: Disable doze_status on screen off
-- prop: Default to boosted color mode
-- prop: Disable debug.sf.latch_unsignaled
-- rootdir: Don't specify fstab path unnecessarily
-- sepolicy: Label fpc wakeup node
-- Support call recording on Google Dialer
-- Switch to Moto Dolby
-- Update common blobs from sweet MIUI V14.0.4.0.TKFMIXM
+- Add fastcharge implementation
+- Add keylayout mapping for Xbox360 compatible controllers
+- Build FM interface libs from source
+- Build Lineage Health HAL
+- Import Qualcomm CameraX Vendor Extensions
+- keylayout: Import joystick keylayouts from 1Controller v1.5.2
+- Restore soundtrigger
+- sepolicy: Label more wakeup nodes
+- Ship VantomKernel v4.14.325
+- wifi: Enable Optimized Power Management
 
 ROM:
 - Merge August Security patch
