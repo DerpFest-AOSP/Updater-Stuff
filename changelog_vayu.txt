@@ -1,43 +1,25 @@
 Rom:
-- Merge September security patch
-- GlobalActionsDialog: Enable blur behind via window flags
-- Settings: storage: Do not skip primary user when listing non-logged in users
-- Add Lineage charging control
-- Add Network restrictions settings 
-- Introduce Data icon styles
-- Add Double tap to trigger doze switch 
-- Fix quickswitch with gesture pill disabled
-- Improve blur handling in respect to app launch animations
-- Fix device wakeup loop when ambient display is enabled without lockscreen
-- Fix missing rotate suggestion in 2 button nav mode
-- Override more system fonts (Gboard for example)
-- Power menu styles refresh:
-   - Fix grid layout being below navbar in portrait due to AOSP copypasta mistake
-   - Enable blur for A11 style
-   - Fix A8 style jumping around when opening
-   - Unify/fix inset handling and display cutout support for all styles
-- Pulse: Prevent systemui-related crashes
-- Pulse: Fix orientation checks
-- Prevent illegal state exception caused by GMS concurrent alarms
-- Respect the old good "Show passwords" preference
-- Fix NPE when taking a screenshot in work profile
-- Settings: Move flash alert prefs to its own fragment
-- Security: Move applock and usb restriction to advanced section
-- DerpLauncher: Make two-line labels more visually pleasing
-- DerpLauncher: Apply recents opacity to more places
-- DerpLauncher: Ensure to update cached thumbnail if we take new one
-- DerpLauncher: Remove weird brown tint from tablet task menu
-- DerpLauncher: Animation improvements
-- DerpLauncher: Hide "all apps" view when search starts
-- Import latest offline charging animation from Pixel 7 Pro
-- Some more things maybe I can't remember  :P
+- Allow to hide arrow for back gesture
+- Add toggle for google photos spoof
+- Add Wi-Fi timeout feature
+- Add Bluetooth timeout feature
+- Hide ADB and developer setting enable status
+- Allow "Panic" to silently uninstall packages
+- Fix toggle for secure tiles on keyguard
+- GlobalActions: Fix visibility issue on A11 submenu
+- Make isLargeScreen() use correct API for getting window metrics
+- Fix zen mode dialog bugs
+- BatteryStatsImpl: Fix divide by zero error
+- BatteryStatsImpl: Avoid dividing by 0.0 in updateWifiState
+- Move DT2S from PulsingGestureListener
+- Fix a runtime exception cause by wrong retrieval of drawable
+- Fix a crash if an application is using root permission when calling package manager api
+- Allow wildcard in RRO system property value checks
+- GameSpace: Update priv-app permissions whitelist
+- GameSpace: Add missing permission usage for Danmaku service
+- Update Ripple from Calyx upstream 
+- Update German translations
 
 Device:
-- parts: update ru and ua translation (Thanks to @K0rtus)
-- Unblock madvise syscall for dspservice 
-- Correct SystemUI apk name and path for pinner service
-- Allow system_server to get app_zygote pgid
-- Enable charging control hal
+- Update Adreno stack from Moto G84 (V@0530.50)
 
-Kernel:
-- Upstream to 4.14.325
