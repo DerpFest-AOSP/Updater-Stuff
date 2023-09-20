@@ -1,10 +1,29 @@
-# Source
-- Uptodate
-- August SP
+- Enable small/old data style by default
+- Enable superdart charging status on lockscreen
+- Import/Improve Haptics (from OP)
+- Fix low mic input for recordings
 
-# Device
-- Improved rw speed {thanx to Amack}
-- fix accidental wakeup
+- Allow to hide arrow for back gesture
+- Add toggle for google photos spoof
+- Add Wi-Fi timeout feature
+- Add Bluetooth timeout feature
+- Hide ADB and developer setting enable status
+- Allow "Panic" to silently uninstall packages
+- Fix toggle for secure tiles on keyguard
+- GlobalActions: Fix visibility issue on A11 submenu
+- Make isLargeScreen() use correct API for getting window metrics
+- Fix zen mode dialog bugs
+- BatteryStatsImpl: Fix divide by zero error
+- BatteryStatsImpl: Avoid dividing by 0.0 in updateWifiState
+- Move DT2S from PulsingGestureListener
+- Fix a runtime exception cause by wrong retrieval of drawable
+- Fix a crash if an application is using root permission when calling package manager api
+- Allow wildcard in RRO system property value checks
+- GameSpace: Update priv-app permissions whitelist
+- GameSpace: Add missing permission usage for Danmaku service
+- Update Ripple from Calyx upstream 
+- Update German translations
+and much more
 
 # Some Features
 - Battery Styles
@@ -24,7 +43,7 @@
 etc...
 
 Build-Info
-- KernelSU included
+- KernelSU included (v4.19.288)
 - Enforcing
 - Gapps included
 - safetynet passes
