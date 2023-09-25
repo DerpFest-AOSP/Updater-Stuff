@@ -1,11 +1,38 @@
 Rom Changelog 
 
-- Based on September Security Patch
-- GlobalActionsDialog: Enable blur behind via window flags
-- Settings: storage: Do not skip primary user when listing non-logged in users
-- overlay: Do not overwrite default config_plugin Allowlist
+- Allow to hide arrow for back gesture
+- Add toggle for google photos spoof
+- Add Wi-Fi timeout feature
+- Add Bluetooth timeout feature
+- DerpSpace: bring back old style mobile data indicators
+- DerpSpace: Update secure tiles on keyguard
+- Improvements to our Flash Camera App
+- SystemUI: improve mobile data style switch logic
+- GameSpace: Don't set device_config property directly
+- GameManagerService: Set device_config property on behalf of GameSpace 
+- Hide ADB and developer setting enable status
+- Allow "Panic" to silently uninstall packages
+- Fix toggle for secure tiles on keyguard
+- GlobalActions: Fix visibility issue on A11 submenu
+- Make isLargeScreen() use correct API for getting window metrics
+- Fix zen mode dialog bugs
+- BatteryStatsImpl: Fix divide by zero error
+- BatteryStatsImpl: Avoid dividing by 0.0 in updateWifiState
+- Move DT2S from PulsingGestureListener
+- Fix a runtime exception cause by wrong retrieval of drawable
+- Fix a crash if an application is using root permission when calling package manager api
+- Allow wildcard in RRO system property value checks
+- GameSpace: Update priv-app permissions whitelist
+- GameSpace: Add missing permission usage for Danmaku service
+- Update Ripple from Calyx upstream 
+- Update German translations
+- Some more things maybe I can't remember
 
 
 Device Changelog
 
-- Implemented Lineage charging control (aka new smart charging implementation)
+- Enabled Optimized Power Management
+- Removed obsolete gFixedRate
+- Removed obsolete gEnableBypass11d config
+- Removed obsolete SapSccChanAvoidance config
+- Disabled surfaceflinger prime shader cache (removes the cache and saves memory in the surfaceflinger process)
