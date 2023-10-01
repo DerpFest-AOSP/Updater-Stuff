@@ -1,11 +1,11 @@
 Rom Changelog:
 
-- Based on September Security Patch
-- GlobalActionsDialog: Enable blur behind via window flags
-- Settings: storage: Do not skip primary user when listing non-logged in users
-- overlay: Do not overwrite default config_plugin Allowlist
+- Source upstream(android-13.0.0_r75) 
+- PixelPropsUtils FP changed
+- Added more clock fonts
+- Fixed some bugs & added more bugs
 
 Device Changelog:
 
-- Added Lineage Health HAL - Charging Control
-- Added Google Camera as default camera app
+- Merged android-13.0.0_r75 tag
+- Update fingerprint/build description from TQ3A.230901.001
