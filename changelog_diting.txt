@@ -1,34 +1,249 @@
+====================
+    10-02-2023     
+====================
+
+* build/make
+38a7bef  Bump Security String to 2023-10-05  [NurKeinNeid]
+
+
+* device/qcom/sepolicy
+868bfe6  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_device_qcom_sepolicy into HEAD  [NurKeinNeid]
+
+
+* device/qcom/sepolicy_vndr
+bffe8ac  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_device_qcom_sepolicy_vndr into HEAD  [NurKeinNeid]
+
+
+* device/qcom/sepolicy_vndr-legacy-um
+63186c3  Merge branch 'lineage-20.0-legacy-um' of https://github.com/LineageOS/android_device_qcom_sepolicy_vndr into HEAD  [NurKeinNeid]
+
+
+* external/libvpx
+bbf5242  VP8: disallow thread count changes  [James Zern]
+
+
+* external/libxml2
+7c1d6a6  Merge tag 'android-security-13.0.0_r10' of https://android.googlesource.com/platform/external/libxml2 into 13  [NurKeinNeid]
+
+
 * frameworks/base
-- DisplayModeDirector: Allow to enforce user selected  resolution  [cjh1249131356]
-* packages/apps/DerpSpace
-- Automatic translation import  [klozz (TeamMEX)]
+a6c4919  fwb: fix biometrics on screenoff for new xiaomi fod  [klozz]
+d053786  FWB: fix biometrics on New xiaomi devices  [klozz]
+90179ec  Revert "base: Settings: Add settings for charging control"  [klozz]
+cb8d2ca  Revert "base: Extract base class for lineage base feature"  [klozz]
+ef46892  Revert "base: Implement Lineage health service"  [klozz]
+d58be0a  Revert "base: Add static isChargingControlSupported(ctx) method"  [klozz]
+51df4de  Revert "ChargingControl: Set a small margin for devices with bypass support"  [klozz]
+0b20a6a  Revert "ChargingControl: Reset internal states on settings change"  [klozz]
+3c93a67  Revert "ChargingControl: Add cancel toggle for limit done notification"  [klozz]
+f93892b  Revert "ChargingControl: Handle cancel toggle correctly if bypass is not supported"  [klozz]
+429f16e6  Revert "ChargingControl: No need to log a crash when not supported"  [klozz]
+05baf6c  Revert "ChargingControl: Use ServiceManager.waitForDeclaredService()"  [klozz]
+41b8f33  Revert "ChargingControl: Don't set deadline if charging control is not enabled"  [klozz]
+ae7a1fa  Revert "ChargingControl: Return early if lineage health HAL is not found"  [klozz]
+742abdb  Revert "ChargingControl: Drop default values for initially zero variables"  [klozz]
+11df672  Revert "ChargingControl: Retry setting deadline if it fails"  [klozz]
+d5be9d5  Revert "ChargingControl: Additional log lines for deadline"  [klozz]
+bd9a4d0  Merge tag 'android-security-13.0.0_r10' of https://android.googlesource.com/platform/frameworks/base into HEAD  [NurKeinNeid]
+d16724e  base: Whitelist parallel space permission for needed apps  [Erfan Abdi]
+94463e3  pm: Restore the default behavior of `pm install`  [Adithya R]
+fe6f303  Report success on every fingerprint removal  [Kishan Dudhatra]
+1763937  SystemUI: Fix xmlns:systemui declaration in status_bar.xml  [LuK1337]
 
-- hwui: Add NULL pointer check in AnimatorManager::pushStaging  [Phạm Tiên Sinh]
-- Pulse: Fix orientation checks  [minaripenguin]
-- Pulse: Prevent systemui-related crashes  [minaripenguin]
-- SystemUI: power menu styles refresh  [nift4]
-- Revert "Revert "keyguard: Do not trigger a wake up when hiding lockscreen""  [Dhina17]
-- services: fix quickswitch with gesture pill disabled  [nift4]
-- SystemUI: improve blur handling in respect to app launch animations  [nift4]
-- SidefpsController: Apply ScaleFactor to sensorLocationY  [Luofan Chen]
-- DisplayUtils: Introduce getScaleFactor  [AnierinB]
-- base: Introduce Smart 5G service [1/2]  [Adithya R]
-- base: Data icon style [1/3]  [rezaadi0105]
-- Unmount unusable partition instead of putting device into crashloop.  [Alex Buynytskyy]
-- Fix invalid code link, update exception message  [Peter Kalauskas]
-- Camera: Fix typos in CameraExtensionSessionImpl  [Euisang Lim]
-- Usb: Fix incorrect mapping of port mode constants  [Badhri Jagan Sridharan]
-- audio: Don't play sound effects if stream is muted  [Steve Kondik]
-- AudioService: focus listener: enable it when using external AudioFocus  [Francois Gaffie]
-- SettingsProvider: Fix for google backup and restore  [PlayfulGod]
-- Enable backup service by default for all users  [Oliver Scott]
-- Toast: Perform text scrolling for long toast texts  [minaripenguin]
-- core: legacy toasts deserve rounded corners too  [nift4]
-- core: Improve notification toast format and fix for apps < sdk 29  [minaripenguin]
-- fixup! Match legacy toast view with SystemUI  [SagarMakhar]
 
-Device:
- - Fix ScreenOFF Fod
- - A little fod optimization
- - Update translations (thanks to all who helped)
- - Fix pickup and more doze stuff
+* frameworks/native
+4b10e43  Merge tag 'android-security-13.0.0_r10' of https://android.googlesource.com/platform/frameworks/native into 13-diff  [NurKeinNeid]
+
+
+* hardware/lineage/interfaces
+f9c1227  interfaces: hash current interfaces  [Alexander Martinz]
+
+
+* hardware/qcom-caf/thermal
+a325dd0  thermal: Add support for sdm660/636  [Edwin Moquete]
+48423a8  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_hardware_qcom_thermal into HEAD  [NurKeinNeid]
+3e27340  Merge tag 'LA.VENDOR.1.0.r1-23000-WAIPIO.QSSI13.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-23000-WAIPIO.QSSI13.0  [Michael Bestas]
+
+
+* manifest
+1e73510  [REVERTME] manifest: Track our fork of external/libvpx  [NurKeinNeid]
+2b5932b  manifest: October 2023 Security update  [NurKeinNeid]
+
+
+* packages/apps/Settings
+dde2169  Revert "Settings: Add charging control preferences"  [klozz]
+79f71fe  Revert "ChargingControl: Don't index settings if it is not supported"  [klozz]
+cb0d0ce  Revert "ChargingControl: Add missing summary"  [klozz]
+c9b6a8f  Merge tag 'android-security-13.0.0_r10' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD  [NurKeinNeid]
+bbe2337  Settings: Use peak refresh rate when default is zero  [Adithya R]
+fc13993  Settings: Tie wake on plug with some form of battery presence  [Bruno Martins]
+7a647e0  Settings: Add config to change AGPS switch availability  [Dhina17]
+
+
+* packages/apps/ThemePicker
+5f36b6c  Automatic translation import  [LineageOS Infra]
+5a43d73  Automatic translation import  [LineageOS Infra]
+0bc0a8e  Automatic translation import  [LineageOS Infra]
+
+
+* packages/modules/Bluetooth
+3eb00d9  Merge tag 'android-security-13.0.0_r10' of https://android.googlesource.com/platform/packages/modules/Bluetooth into HEAD  [NurKeinNeid]
+
+
+* packages/modules/Wifi
+6188454  Merge tag 'android-security-13.0.0_r10' of https://android.googlesource.com/platform/packages/modules/Wifi into HEAD  [NurKeinNeid]
+
+
+* packages/providers/MediaProvider
+d68e1f8  Merge tag 'android-security-13.0.0_r10' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD  [NurKeinNeid]
+
+
+* packages/services/Telecomm
+57fdcba  Merge tag 'android-security-13.0.0_r10' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD  [NurKeinNeid]
+
+
+* tools/apksig
+a9aa7d2  Merge tag 'android-security-13.0.0_r10' of https://android.googlesource.com/platform/tools/apksig into 13  [NurKeinNeid]
+
+
+* vendor/derp
+5a4429c  derp: Update CUSTOM_SECURITY_PATCH for October 2023 Security update  [NurKeinNeid]
+7fd6941  overlay: Remove obsolete overlays  [Bruno Martins]
+
+
+* vendor/pixel-framework
+9cd59c7  revert charging control  [klozz]
+
+
+* vendor/qcom/opensource/commonsys-intf/display
+c5e3a69  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf into HEAD  [NurKeinNeid]
+
+
+* vendor/qcom/opensource/commonsys/display
+d3e7077  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys into HEAD  [NurKeinNeid]
+
+
+* vendor/qcom/opensource/interfaces
+ee4276a  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces into HEAD  [NurKeinNeid]
+
+
+* vendor/qcom/opensource/usb
+c85906c  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_vendor_qcom_opensource_usb into HEAD  [NurKeinNeid]
+
+
+* vendor/support
+b2b7792  support: Fix clipping in app list layout  [Pranav Vashi]
+
+
+====================
+    10-01-2023     
+====================
+
+* hardware/lineage/interfaces
+270a3fe  health: Add battery_charging_enabled node to ChargingControl node list  [me-cafebabe]
+
+
+* packages/apps/Flash
+23f3933  Flash: Import German translations  [NurKeinNeid]
+bfc7d0a  Automatic translation import  [LineageOS Infra]
+
+
+* vendor/fontage
+83e2de0  fontage: clockfonts: Add more ios clock fonts  [minaripenguin]
+ea2daad  fontage: clockfonts: Add more IOS 16 fonts  [YangJiiii]
+5e893f2  fontage: clockfonts: Import more clock styles  [rdx420]
+
+
+====================
+    09-30-2023     
+====================
+
+* build/make
+c8c29fe  Merge tag 'android-13.0.0_r75' of https://android.googlesource.com/platform/build into HEAD  [NurKeinNeid]
+
+
+* device/qcom/sepolicy-legacy-um
+0573993  Merge branch 'lineage-20.0-legacy-um' of https://github.com/LineageOS/android_device_qcom_sepolicy into HEAD  [NurKeinNeid]
+
+
+* frameworks/base
+7c608c9  SystemUI: Fade the QS footer background early when split shade is translucent  [minaripenguin]
+7917f34  AuthRippleController: Always make sure LightRevealScrim finishes regardless of the progress  [minaripenguin]
+465762f  SystemUI: Fix scrim transparency for split shade  [minaripenguin]
+2c42192  SystemUI: Less boring headsup enhancements and fixes  [minaripenguin]
+5f5d806  SystemUI: Fix exception when retrieving signal strength drawable  [minaripenguin]
+12b38e7  PixelPropsUtils: Update fingerprints for September  [NurKeinNeid]
+
+
+* hardware/qcom-caf/thermal
+d30c553  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_hardware_qcom_thermal into HEAD  [NurKeinNeid]
+
+
+* manifest
+f9dc5df  manifest: Track our own fork for CVE-2023-5217  [Luca Stefani]
+
+
+* vendor/derp
+0d75539  overlay: Enforce smartspace configs  [jhenrique09]
+508c069  config: Exclude window_extensions addon on mini_tablet  [Bruno Martins]
+9cd7c65  qcom: Add parrot platform  [HeroBuxx]
+
+
+* vendor/qcom/opensource/data-ipa-cfg-mgr
+93932d2  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr into HEAD  [NurKeinNeid]
+
+
+====================
+    09-29-2023     
+====================
+
+* hardware/qcom-caf/thermal
+23baaf1  thermal-hal: Add HAL v2 support for sdm632  [Ankit Siddhapura]
+
+
+* vendor/qcom/opensource/data-ipa-cfg-mgr
+3c0a7c4  ipacm: Address ipacm start failure  [dianlujitao]
+
+
+====================
+    09-28-2023     
+====================
+
+* device/qcom/sepolicy-legacy-um
+9f61741  sepolicy: Label QTI Thermal HAL 2.0  [Bharath]
+
+
+* vendor/qcom/opensource/interfaces
+7e41eeb  interfaces: hash missing current interfaces  [Alexander Martinz]
+
+
+- Allow to hide arrow for back gesture
+- Add toggle for google photos spoof
+- Add Wi-Fi timeout feature
+- Add Bluetooth timeout feature
+- Hide ADB and developer setting enable status
+- Allow "Panic" to silently uninstall packages
+- Fix toggle for secure tiles on keyguard
+- GlobalActions: Fix visibility issue on A11 submenu
+- Make isLargeScreen() use correct API for getting window metrics
+- Fix zen mode dialog bugs
+- BatteryStatsImpl: Fix divide by zero error
+- BatteryStatsImpl: Avoid dividing by 0.0 in updateWifiState
+- Move DT2S from PulsingGestureListener
+- Fix a runtime exception cause by wrong retrieval of drawable
+- Fix a crash if an application is using root permission when calling package manager api
+- Allow wildcard in RRO system property value checks
+- GameSpace: Update priv-app permissions whitelist
+- GameSpace: Add missing permission usage for Danmaku service
+- Update Ripple from Calyx upstream 
+- Update German translations
+
+# Device 
+ - Power profile audio & video support
+ - Power profile:Update deprecated screen power items
+ - remove udfps animation size (this breaks animations)
+ - Enable secure NFC functionality 
+ - WFD fixed
+ - parts: Introduce Dolby Atmos Override MusicFX and handle EQ intent
+ - Implement Pocket Detection service
+ - Oct SLP
