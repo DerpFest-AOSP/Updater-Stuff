@@ -1,28 +1,28 @@
-Device Changes:
-- surya: pixel-thermal: revise thermal config
-- surya: fstab: Specify LZ4 as F2FS Compression algorithm
-- surya: fstab: Support F2FS compressions and garbage collector
-- surya: parts: Switch to Mi Sound effect
-- surya: parts: Add support for hifi
-- surya: parts: Set default refresh rate to 120Hz
-- surya: Disable updatable apex
-- surya: kang ims.apk from LA.UM.9.12.r1-13300-SMxx50.QSSI12.0
-- surya: Update blobs from miui V12.5.8.0.RJGMIXM
-- Etc
+Rom Changelog
 
-Kernel Changes:
-- msm: vidc: use kmem_cache pool for struct msm_vidc_buffer
-- msm: cam_sensor: Add I2C settings for camera sensor read/write registers
-- msm: camera: cam_isp: csid: Disable Interrupts while resetting CSID
-- Merge 4.14.287 into android-4.14-stable
-- Etc
+- Merge October security patch
+- Settings: Tie wake on plug with some form of battery presence
+- Settings: Fix clipping in app list layout
+- Update translations for Flash
+- Fix CVE-2023-5217 (https://github.com/advisories/GHSA-qqvq-6xgj-jw8g for more info)
+- Add 12 new Lockscreen clock fonts
+- Enforce smartspace configs
+- Improve custom seekbars in DerpSpace
+- Fix exception when retrieving signal strength drawable
+- Less boring headsup enhancements and fixes
+- Fix scrim transparency for split shade
+- Fade the QS footer background early when split shade is translucent
+- Hide notification scrim background when entering split shade
+- Always make sure LightRevealScrim finishes regardless of the progress
+- Update Flash with Lineage Aperture upstream changes
+- Fix CVE-2023-4863 (https://t.me/MishaalAndroidNews/1024 for more info)
+- Pass correct invocation type for assistant launch on home long press
+- Fix an issue where all HDMI displays avoided content in upper 1/8 of screen because the primary display cutout overlay was applied to the external HDMI TV
+- GameManagerService: Set device_config property on behalf of GameSpace
+- DerpLauncher: Improve code for allow hiding top shadow on statusbar switch 
+- charger: Support charger on vendor
 
-ROM Changelog:
-- Merge July Security patch (android-12.1.0_r10)
-- Fix screen not turning off on some devices 
-- Settings: Add preference for resetting auto brightness adjustment
-- Bluetooth: Add support for showing battery level for AirPods series
-- Settings: DevicePicker: Adapt to S style
-- Update QCOM HALs to latest CAF tag
-- DerpSpace: Update Italian translations
-- Update German translations
+Device Changelog
+
+- Sync with latest source
+- Update clang DeathRhythm 18.0.0
