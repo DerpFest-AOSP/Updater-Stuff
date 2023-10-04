@@ -1,22 +1,28 @@
+Device
 
-Changelog
-PriQue
+DT updated according to the latest version of YuKongA
 
-September 15, 2023
 
-    Add support LTE CA
+Source
 
-    Fix Bluetooth LDAC 
-
-    Add Dolby Vision
-
-    Fix thermal profile
-
-    Remove duplicate Perf  
-
-    Various vibration improvements
-
-    Various sound improvements
-
-    Update blobs to V14.0.6.0.TMRMIXM
-
+- October Security Patch
+- Allow to hide arrow for back gesture
+- Add toggle for google photos spoof
+- Add Wi-Fi timeout feature
+- Add Bluetooth timeout feature
+- Hide ADB and developer setting enable status
+- Allow "Panic" to silently uninstall packages
+- Fix toggle for secure tiles on keyguard
+- GlobalActions: Fix visibility issue on A11 submenu
+- Make isLargeScreen() use correct API for getting window metrics
+- Fix zen mode dialog bugs
+- BatteryStatsImpl: Fix divide by zero error
+- BatteryStatsImpl: Avoid dividing by 0.0 in updateWifiState
+- Move DT2S from PulsingGestureListener
+- Fix a runtime exception cause by wrong retrieval of drawable
+- Fix a crash if an application is using root permission when calling package manager api
+- Allow wildcard in RRO system property value checks
+- GameSpace: Update priv-app permissions whitelist
+- GameSpace: Add missing permission usage for Danmaku service
+- Update Ripple from Calyx upstream 
+- Update German translations
