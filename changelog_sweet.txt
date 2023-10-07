@@ -1,35 +1,56 @@
 Source
 
-- Include PE's Pixel framework 
-- Bring back QS Header Images
-- Add QS battery customizations
-- Enable new back gesture affordance
-- Tell user when face unlock detection is running
-- Improve switch to unlink ringtone and notifications volume
-- Improve power menu drawables and strings
-- Rebrand Aperture to Flash
-- Replace configurable fingerprint wake-and-unlock by a much simpler implementation from ArrowOS
-- AirPod support changes has been revised on top of new changes based on OpenPods source
-- Settings: Re-order SELinux status on About Phone
-- Settings: Allow toggling in-call notifications
-- Settings: Show single-touch wakeup setting on rear & front fps devices
-- DerpSpace: Use click effect toggle instead of duration for haptic feedback for QSTile
-- Various fixes for FMRadio
-- recovery: Ask to reboot before installing anything after A/B update
-- Relax few restrictions for builds with prebuilt vendor
-- Update Symphonica to 0.6.0
-- Add Hellenic translations
-- Import more Chinese (Simpified) translations
-- Update Russian translations
+- Allow to hide arrow for back gesture
+- Add toggle for google photos spoof
+- Add Wi-Fi timeout feature
+- Add Bluetooth timeout feature
+- Hide ADB and developer setting enable status
+- Allow "Panic" to silently uninstall packages
+- Fix toggle for secure tiles on keyguard
+- GlobalActions: Fix visibility issue on A11 submenu
+- Make isLargeScreen() use correct API for getting window metrics
+- Fix zen mode dialog bugs
+- BatteryStatsImpl: Fix divide by zero error
+- BatteryStatsImpl: Avoid dividing by 0.0 in updateWifiState
+- Move DT2S from PulsingGestureListener
+- Fix a runtime exception cause by wrong retrieval of drawable
+- Fix a crash if an application is using root permission when calling package manager api
+- Allow wildcard in RRO system property value checks
+- GameSpace: Update priv-app permissions whitelist
+- GameSpace: Add missing permission usage for Danmaku service
+- Update Ripple from Calyx upstream 
+- Update German translations
 
 Device
 
-- MiuiCamera drop Leica added.
-- Oneplus Dolby default
-- Switch to Sleepy kernel 4.14.321
-- Update Adreno to LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0
-- Switched to Playground-clang
-- Fixed lag while app opening and Qs lags
-- Spatial audio added from cheetah-tq3a.230605.012.
-- Fixed the Screen Lag during Screen Recording.
-- Fling props added.
+- sweet: audio: Use QCOM implementation for audio effects
+- sweet: Import QCOM audio effects blobs
+- sweet: Update OzoProcessing from MIUI V14.0.5.0.TKFEUXM
+- Revert "sweet: Add headphone button jack keylayout"
+- sweet: sepolicy: Address citsensorservice denials
+- sweet: sepolicy: Allow linkerconfig to kill itself
+- sweet: Build android.frameworks.sensorservice@1.0 HAL
+- sweet: init: Disable adsprpcd
+- sweet: nfc: add nfc entries in manifest
+- sweet: Add missing seccomp policies
+- sweet: Update system blobs from LA.QSSI.13.0.r1-10000.02-qssi.0 
+- sweet: Update CarrierConfig from LA.QSSI.13.0.r1-10000.02-qssi.0
+- sweet: Implement xtra-daemon control via property
+- sweet: Use FUSE passthrough by default
+- sweet: remove unneeded ifdefs
+- sweet: Enable Qualcomm TrueWireless™ Stereo
+- sweet: AAC frame control enabled for hal implementation.
+- sweet: Disable BT A2DP AAC whitelist.
+- sweet: Add support for low power adaptive control feature 
+- sweet: Disable camera perflock
+- sweet: Disable per-cgroup PSI accounting
+- sweet: Enable the pre-rendering feature
+- sweet: Relax timers for automatic refresh rate switching
+- sweet: overlay: add missing power profile 300MHz CPU Frequency
+- sweet: overlay: Update power profile
+- sweet: Enable Optimized Power Management
+- sweet: Enable automatic channel selection 
+- sweet: Don't write binary XML files
+- sm6150-common: Build Lineage Health HAL
+- sweet: vintf: Add vendor.lineage.health
+- sweet: overlay: build DerpFestOS officially
