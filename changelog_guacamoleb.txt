@@ -1,103 +1,97 @@
 ====================
-    08-25-2023     
+    10-09-2023     
 ====================
 
-* device/oneplus/guacamoleb
-081604f  Revert "overlay: Fix Biometric dialog corner radius"  [Harish]
+* frameworks/base
+0764fd3  display: Add simple RGB color balance transform  [Danny Lin]
 
 
 * kernel/oneplus/sm8150
-4d35c74  display: add aod mode tracking, utilize on lp1 also  [John Galt]
-9dfd08c  display: drop interpolated doze brightness support  [John Galt]
+da0fc28  Conditionally apply GPU OC  [Codecity001]
+32c569b  neptune: Update to V5.2  [Codecity001]
+069d012  sde: tune fod dim + dc dim blue channel  [John Galt]
+7324e94  sched/core: improve uclamp input boost readability  [John Galt]
+8ab8cd9  stockish_defconfig: sync with gulch_defconfig  [John Galt]
+4c38de7  touchscreen/s3706: cleanup + optimize synaptics_trigger_reason  [John Galt]
+fbf7ae5  touchscreen/s6sy761: cleanup + optimize sec_trigger_reason  [John Galt]
+4ec3dc7  gf_spi/irq handler: utilize character literals  [John Galt]
+8bcec82  gf_spi: cleanup goodix_fb_state_chg_callback:  [John Galt]
+b9f1e9b  sde_connector/fod_hbm: small optimization + cleanup  [John Galt]
+10d3e06  gf_spi/sendnlmsg: small optimization of dropping memcpy  [John Galt]
+75959c7  lib/zstd: update to v1.5.5  [John Galt]
+54a2ef3  kernel/sysctl: move some values read only  [John Galt]
+8b995f1  neptune_defconfig: build zstd + use for zram  [Cyber Knight]
+9ba8cab  lib: zstd: Fix a warning in `zstd_reset_dstream()`  [Cyber Knight]
+d11d4d9  lib: zstd: Upgrade to latest upstream zstd version 1.5.4  [Cyber Knight]
+b073736  zstd: Merge optimizations from Samsung  [DevriesL]
+c055522  lib: zstd: Revise the warning fix at zstd_reset_cstream()  [Cyber Knight]
+8c3e85c  lib: zstd: Fix a warning in zstd_reset_cstream()  [Cyber Knight]
+fd0d8a3  lib: zstd: Upgrade to latest upstream zstd version 1.5.2  [Cyber Knight]
+feb0ff4  lib: zstd: Rework Makefile  [Cyber Knight]
+2e05448  lib: decompress_unzstd: Define UINTPTR_MAX  [Cyber Knight]
+f6b3201  lib: zstd: Include a missing header  [Cyber Knight]
+2700dda  lib: zstd: Fix attribute declaration  [Cyber Knight]
+91e5518  BACKPORT: lib: zstd: clean up double word in comment.  [Tom Rix]
+a28aa32  BACKPORT: lib: zstd: Fix unused variable warning  [Nick Terrell]
+6f9c66e  BACKPORT: lib: zstd: Don't inline functions in zstd_opt.c  [Nick Terrell]
+3d57f9f  BACKPORT: lib: zstd: Don't add -O3 to cflags  [Nick Terrell]
+97f2048  BACKPORT: MAINTAINERS: Add maintainer entry for zstd  [Nick Terrell]
+d4d015d  BACKPORT: lib: zstd: Add cast to silence clang's -Wbitwise-instead-of-logical  [Nathan Chancellor]
+54206b2  BACKPORT: lib: zstd: Upgrade to latest upstream zstd version 1.4.10  [Nick Terrell]
+f03d121  BACKPORT: lib: zstd: Add decompress_sources.h for decompress_unzstd  [Nick Terrell]
+9614d79  BACKPORT: lib: zstd: Add kernel-specific API  [Nick Terrell]
+347e44e  BACKPORT: lib/decompressors: fix spelling mistakes  [Zhen Lei]
+35b8d22  BACKPORT: initramfs: Remove redundant dependency of RD_ZSTD on BLK_DEV_INITRD  [Geert Uytterhoeven]
+0a99c16  BACKPORT: lib/zstd: convert constants to defines  [Nikolay Borisov]
+2e4211a  BACKPORT: lib: decompress_unzstd: Limit output size  [Paul Cercueil]
+67a610b  BACKPORT: init: Add support for zstd compressed kernel  [Nick Terrell]
+1c3a11b  BACKPORT: lib: Add zstd support to decompress  [Nick Terrell]
+746bd17  BACKPORT: usr: Add support for zstd compressed initramfs  [Nick Terrell]
+8ba9de5  BACKPORT: lib: Prepare zstd for preboot environment, improve performance  [Nick Terrell]
+749325f  BACKPORT: lib/zstd/mem.h: replace __inline by inline  [Rasmus Villemoes]
+35294ca  BACKPORT: lib: zstd: Mark expected switch fall-throughs  [Gustavo A. R. Silva]
+a3d96f2  BACKPORT: scripts: teach extract-vmlinux about LZ4 and ZSTD  [Adam Borowski]
+2655195  BACKPORT: lib: zstd: clean up Makefile for simpler composite object handling  [Masahiro Yamada]
+
+
+* manifest
+44b3d47  manifest: Update gms path  [NurKeinNeid]
 
 
 ====================
-    08-24-2023     
+    10-08-2023     
 ====================
 
-* kernel/oneplus/sm8150
-5aa775b  Revert "arm64/dts/panel: optimize FHD60 (guacamoleb) HBM on/off"  [John Galt]
-0c957f8  Merge branch 'android-4.14-stable' of https://android.googlesource.com/kernel/common into neptune-g  [Codecity001]
-de118ca  sde_connector/fod_hbm: unconditionally early notify  [John Galt]
-02b999a  arm64/dts/panel: optimize FHD60 (guacamoleb) HBM on/off  [John Galt]
-2256703  sde_connector: stop sending nolp commands on fod  [John Galt]
-30dd6ab  dsi_panel: set aod modes on lp2 and off on nolp  [John Galt]
-7efea5f  sde_connector/fod_hbm: update for hotdogb optimized hbm  [John Galt]
-34b9cb3  arm64/dts/panel: optimize FHD90 (hotdogb) HBM on/off  [John Galt]
-89fb389  drivers: esoc: mdm: Set boot fail action to NOP  [Davide Garberi]
-7893ed7  drivers: esoc: Honor BOOT_FAIL_ACTION_DEF value  [Davide Garberi]
-c88a0fe  display: sde: Fallback to PCC for color invert  [Davide Garberi]
+* frameworks/opt/telephony
+cf26280  Merge pull request #4 from GhostMaster69-dev/13  [Alexander Brunswig]
 
 
 ====================
-    08-23-2023     
-====================
-
-* kernel/oneplus/sm8150
-dbd6fa6  neptune: Regen  [Codecity001]
-c9df633  dsi_display: interpolated doze brightness improvement  [John Galt]
-a17df88  sched/core: min clamp input boost implementation  [John Galt]
-
-
-====================
-    08-22-2023     
+    10-07-2023     
 ====================
 
 ====================
-    08-21-2023     
+    10-06-2023     
 ====================
 
-* device/oneplus/sm8150-common
-a7a1a96  rootdir: add uclamp camera-daemon config  [John Galt]
-5c80950  Revert "rootdir: modify uclamp config for dropped kernel side input boosting"  [Harish]
-500c014  sm8150-common: overlay: Pin SystemUIGoogle  [NurKeinNeid]
-fd9eb86  overlay: commonize + tweak some auto brightness configs:  [John Galt]
-262c40d  sm8150-common: overlay: Optimized auto brightness adjustment  [LiMee233]
-95bc5b2  sm8150-common: overlay: set doze auto brightness scale to 80%  [John Galt]
-c15a008  sm8150-common: Include vendor/debugfs.config  [LuK1337]
-de19b1f  sm8150-common: Set PRODUCT_SET_DEBUGFS_RESTRICTIONS  [Hridya Valsaraju]
+* bionic
+6ca3f36  Merge pull request #2 from mizdrake7/13  [Alexander Brunswig]
 
 
-* kernel/oneplus/sm8150
-064e48f  sched/walt: re tune for efficiency  [John Galt]
-bb47f17  core_ctl: Add check for available cpus before accessing per_cpus  [Avaneesh Kumar Dwivedi]
-7355ee6  sched/walt: Improve the scheduler  [Abhijeet Dharmapurikar]
-23b77b0  sched/walt: Improve the scheduler  [Abhijeet Dharmapurikar]
-03991d8  sched/walt: Check if necessary for sched_boost modify  [Maria Yu]
-213c2d9  sched: walt: Fix stale walt CPU reservation flag  [Pavankumar Kondeti]
-d606329  sched/walt: consider average max_nr when compare max_nr  [Tengfei Fan]
-60598ea  drivers/input: fp_detect: Cleanup and Simplify fp detection logic  [Vaisakh Murali]
-d5369e4  topology: Supress CPU capacity updates for !DEBUG_KERNEL  [Panchajanya1999]
-390f699  qcacld-3.0: Drop mac_phy_cap evaulation as true  [Cyber Knight]
-815868d  techpack/audio/asoc: msm-pcm-routing: Drop cal_data comparison with NULL  [Panchajanya1999]
-b987d76  tri_state_key: Reduce verbosity of logging  [Cyber Knight]
-c3ee2d8  kernel: irq: manage: use a different way of affining perf IRQs  [Yaroslav Furman]
-5bb7c56  kernel: irq: properly disallow userspace from changing IRQs affinity  [Yaroslav Furman]
-ce07234  cpuidle: teo: Increase rating of teo governor to 50  [Kazuki Hashimoto]
-b91843c  neptune_defconfig: Switch to TEO for cpuidle  [Cyber Knight]
-937c461  BACKPORT: cpuidle: teo: Optionally skip polling states in teo_find_shallower_state()  [Kajetan Puchalski]
-60ffbc9  BACKPORT: cpuidle: teo: Rename two local variables in teo_select()  [Rafael J. Wysocki]
-ec2c5e4  BACKPORT: cpuidle: teo: Fix alternative idle state lookup  [Rafael J. Wysocki]
-a8f4447  BACKPORT: cpuidle: teo: remove unneeded semicolon in teo_select()  [Wan Jiabing]
-8c4ea49  BACKPORT: cpuidle: teo: Rework most recent idle duration values treatment  [Rafael J. Wysocki]
-ca9940e  BACKPORT: cpuidle: teo: Change the main idle state selection logic  [Rafael J. Wysocki]
-a1b1bd7  BACKPORT: cpuidle: teo: Cosmetic modification of teo_select()  [Rafael J. Wysocki]
-7d8a643  BACKPORT: cpuidle: teo: Cosmetic modifications of teo_update()  [Rafael J. Wysocki]
-536f056  BACKPORT: cpuidle: teo: Take negative "sleep length" values into account  [Rafael J. Wysocki]
-0b86542  BACKPORT: cpuidle: teo: Adjust handling of very short idle times  [Rafael J. Wysocki]
-197d38c  BACKPORT: cpuidle: teo: Fix intervals[] array indexing bug  [Ikjoon Jang]
-f305741  BACKPORT: cpuidle: teo: Avoid code duplication in conditionals  [Rafael J. Wysocki]
-57546b2  BACKPORT: cpuidle: teo: Avoid using "early hits" incorrectly  [Rafael J. Wysocki]
-cb033d4  BACKPORT: cpuidle: teo: Exclude cpuidle overhead from computations  [Rafael J. Wysocki]
-36ca800  BACKPORT: cpuidle: Consolidate disabled state checks  [Rafael J. Wysocki]
-518c8cc  BACKPORT: cpuidle: teo: Fix "early hits" handling for disabled idle states  [Rafael J. Wysocki]
-a241d25c  BACKPORT: cpuidle: teo: Consider hits and misses metrics of disabled states  [Rafael J. Wysocki]
-129fe4f  BACKPORT: cpuidle: teo: Rename local variable in teo_select()  [Rafael J. Wysocki]
-1c56c80  BACKPORT: cpuidle: teo: Ignore disabled idle states that are too deep  [Rafael J. Wysocki]
-ddda69d  BACKPORT: cpuidle: teo: Get rid of redundant check in teo_update()  [Rafael J. Wysocki]
-5b335f6  BACKPORT: cpuidle: teo: Allow tick to be stopped if PM QoS is used  [Rafael J. Wysocki]
-01aaf6a  BACKPORT: cpuidle: New timer events oriented governor for tickless systems  [Rafael J. Wysocki]
-8ce7e25  BACKPORT: cpuidle: governor: export cpuidle governor functions  [Lina Iyer]
-b9fd13e  BACKPORT: UPSTREAM: cpuidle: governors: Consolidate PM QoS handling  [Rafael J. Wysocki]
-c9ac36d  BACKPORT: UPSTREAM: cpuidle: menu: Fix wakeup statistics updates for polling state  [Rafael J. Wysocki]
+====================
+    10-05-2023     
+====================
 
+* frameworks/base
+85f01f0  SystemUI: Fix Reticker not appearing for some apps  [Pranav Vashi]
+bf5ee64  Rework "SystemUI: Turn less boring headsup whitelist into an overlay"  [Pranav Vashi]
+9b3f606  SystemUI: Turn less boring headsup whitelist into an overlay  [minaripenguin]
+
+
+* packages/modules/Permission
+262d115  PermissionController: Don't redeclare ids  [Michael W]
+
+
+* vendor/derp
+9b64b0c  config: Move DerpLauncherOverlay to common_mobile  [Bruno Martins]
+bf24f41  overlay: Move DerpLauncher overlay to seperate RRO package.  [Alexander Koskovich]
