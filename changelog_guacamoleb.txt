@@ -1,4 +1,33 @@
 ====================
+    10-12-2023     
+====================
+
+* kernel/oneplus/sm8150
+c51dc5d  pack.sh: Use manual method to build KernelSU for now  [Codecity001]
+
+
+====================
+    10-11-2023     
+====================
+
+* device/oneplus/sm8150-common
+7e84adc  Revert "DeviceSettings: Also make touchscreen gestures direct boot aware"  [Harish]
+
+
+* kernel/oneplus/sm8150
+9439235  stockish_defconfig: enable CASS  [John Galt]
+4d4a45f  i2c_geni: set IRQF_NOBALANCING  [John Galt]
+a5019c7  sched/core: decrease top-app input boost  [John Galt]
+3e9d6a2  sched/fair: fix uclamp + schedutil ifdefs  [John Galt]
+8a3f9e8  neptune_defconfig: enable CASS  [Codecity001]
+f2dd202  sched/cass: Introduce the Capacity Aware Superset Scheduler  [Sultan Alsawaf]
+
+
+====================
+    10-10-2023     
+====================
+
+====================
     10-09-2023     
 ====================
 
@@ -64,34 +93,3 @@ a3d96f2  BACKPORT: scripts: teach extract-vmlinux about LZ4 and ZSTD  [Adam Boro
 
 * frameworks/opt/telephony
 cf26280  Merge pull request #4 from GhostMaster69-dev/13  [Alexander Brunswig]
-
-
-====================
-    10-07-2023     
-====================
-
-====================
-    10-06-2023     
-====================
-
-* bionic
-6ca3f36  Merge pull request #2 from mizdrake7/13  [Alexander Brunswig]
-
-
-====================
-    10-05-2023     
-====================
-
-* frameworks/base
-85f01f0  SystemUI: Fix Reticker not appearing for some apps  [Pranav Vashi]
-bf5ee64  Rework "SystemUI: Turn less boring headsup whitelist into an overlay"  [Pranav Vashi]
-9b3f606  SystemUI: Turn less boring headsup whitelist into an overlay  [minaripenguin]
-
-
-* packages/modules/Permission
-262d115  PermissionController: Don't redeclare ids  [Michael W]
-
-
-* vendor/derp
-9b64b0c  config: Move DerpLauncherOverlay to common_mobile  [Bruno Martins]
-bf24f41  overlay: Move DerpLauncher overlay to seperate RRO package.  [Alexander Koskovich]
