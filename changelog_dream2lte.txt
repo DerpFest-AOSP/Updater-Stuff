@@ -1,2 +1,2 @@
--* merged september security update
--* improved performance
+-* merged october security update
+-* fixed call volume bug
