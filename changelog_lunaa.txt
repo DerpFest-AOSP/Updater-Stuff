@@ -1,6 +1,15 @@
+22-10-2023
+
+Device Changes : -
+Updated blobs from f.14
+updated carrier config from f.12
+fixed auto brightness completely
+
+==============================================================
+
 Source Changes :-
 
-- Include PE's Pixel framework 
+- Include PE's Pixel framework
 - Bring back QS Header Images
 - Add QS battery customizations
 - Enable new back gesture affordance
@@ -22,7 +31,7 @@ Source Changes :-
 - Import more Chinese (Simpified) translations
 - Update Russian translations
 
-Device Changes :- 
+Device Changes :-
 
 -	Initial Official build
 - Fixed Slow Charging shown on Lockscreen
