@@ -1,3 +1,8 @@
+===== 2 Novemeber, 2023 =====
+- Fix someshits
+- Sync with last DerpFest changes
+- Update KernelSU
+
 ===== 13 October, 2023 =====
 - Fix fastcharging 67W
 - Fix flicker using 60/90/120Hz
