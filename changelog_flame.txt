@@ -21,7 +21,7 @@ Rom Changelog
 - DerpLauncher: Improve code for allow hiding top shadow on statusbar switch 
 - charger: Support charger on vendor
 - Fix an issue cant lockdown while bluetooth connecting
-
+- Fix display issue for Bouncer User Switcher at the Lockscreen pin display 23/11/07
 
 Kernel Changes:
 Update upsteam to 4.14.328
