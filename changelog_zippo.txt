@@ -1,8 +1,8 @@
 Device Changelog:
 
-* Kernel upstream to v4.14.326 linux-stable
-* Adjusted Flash Camera Package
+* Kernel upstream to v4.14.329 linux-stable
+* Merged latest CAF LA.UM.9.1.r1-14600-SMxxx0.QSSI14.0 into drivers & audiokernel
 
 Rom Changelog:
 
-- Based on October Security Patch
+- Based on November Security Patch(android-14.0.0_r14)
