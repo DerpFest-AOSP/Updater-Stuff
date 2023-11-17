@@ -1,5 +1,6 @@
 Source:
 - Merged November Security Patch
+- PixelPropUtils: Make play integrity pass again
 
 Device:
 - Initial A14 build
