@@ -1,3 +1,31 @@
+                ---------18/11/2023----------
+
+
+Device
+
+-Fixed Statusbar padding
+-Added Dirac
+-Added Clear speaker
+-Added v4a
+-Fixed per app refresh rate
+-Fixed auto brightness
+-Fixed thermal profiles not working
+-Fixed issue where vibrations are soft
+-Limiting Ambient display refresh rate to 60hz
+-Ambient display/AOD improvements
+-Upstreamed kernel to v5.10.200
+-Miscellaneous improvement
+
+
+Source
+
+-Merged November Security Patch
+
+-PixelPropUtils: Make play integrity pass again
+
+
+
+
 Device
 
 DT updated according to the latest version of YuKongA
