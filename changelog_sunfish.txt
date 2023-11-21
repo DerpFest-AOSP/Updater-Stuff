@@ -1,33 +1,29 @@
 Rom Changelog 
-- Merge October security patch
-- Settings: Tie wake on plug with some form of battery presence
-- Settings: Fix clipping in app list layout
-- Update translations for Flash
-- Fix CVE-2023-5217 (https://github.com/advisories/GHSA-qqvq-6xgj-jw8g for more info)
-- Add 12 new Lockscreen clock fonts
-- Enforce smartspace configs
-- Improve custom seekbars in DerpSpace
-- Fix exception when retrieving signal strength drawable
-- Less boring headsup enhancements and fixes
-- Fix scrim transparency for split shade
-- Fade the QS footer background early when split shade is translucent
-- Hide notification scrim background when entering split shade
-- Always make sure LightRevealScrim finishes regardless of the progress
-- Update Flash with Lineage Aperture upstream changes
-- Fix CVE-2023-4863 (https://t.me/MishaalAndroidNews/1024 for more info)
-- Pass correct invocation type for assistant launch on home long press
-- Fix an issue where all HDMI displays avoided content in upper 1/8 of screen because the primary display cutout overlay was applied to the external HDMI TV
-- GameManagerService: Set device_config property on behalf of GameSpace
-- DerpLauncher: Improve code for allow hiding top shadow on statusbar switch 
-- charger: Support charger on vendor
-- Fix an issue cant lockdown while bluetooth connecting
-- Fix display issue for Bouncer User Switcher at the Lockscreen pin display 23/11/07
+
+11-21-2023     
+====================
+\n* frameworks/base\nde88a97  SystemUI: Improve bouncer layout  [Anushek Prasal]\n
+\n* vendor/pixel-framework\n9c0516e  pixel-framework: Remove Google Elmyra  [ExactExampl]\n
+
+====================
+    11-20-2023     
+====================
+
+====================
+    11-19-2023     
+====================
+
+====================
+    11-18-2023     
+====================
+\n* frameworks/base\n86a2cf8  PixelPropUtils: Make play integrity pass again  [saikiran2001]
+81a9466  SystemUI: add wave fade-out animation to qs media player  [nift4]
+6db40c9  Fix scrim inset bug in landscape shade  [Shawn Lee]
+af04243  Revert "SystemUI: Turn less boring headsup whitelist into an overlay"  [NurKeinNeid]
+388ee26  Revert "Rework "SystemUI: Turn less boring headsup whitelist into an overlay""  [NurKeinNeid]\n
 
 Kernel Changes:
-Update upsteam to 4.14.328
-Enable Zram support
-Enable NTFS EFAT support
-Enable HBM support
+Update upsteam to 4.14.330
 
 Device:
 - Do not set forcily set camera sound props on Japan SKU
@@ -37,3 +33,6 @@ Device:
 - props: Fix the Screen Lag during Screen Recording
 - Build Full ElmyraService(Active Edge) instead of Pixel-Framework one
 - Make user build
+
+Please check this before pm 
+http://nohello.net 
