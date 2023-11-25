@@ -1,138 +1,21 @@
-====================
-    10-02-2023     
-====================
+                ---------25/11/2023----------
+Device
 
-* frameworks/base
-4e08d2a  fwb: fix biometrics on screenoff for new xiaomi fod  [klozz]
-4e15623  FWB: fix biometrics on New xiaomi devices  [klozz]
-572ea50  Revert "base: Settings: Add settings for charging control"  [klozz]
-76f8e97  Revert "base: Extract base class for lineage base feature"  [klozz]
-b7a400f  Revert "base: Implement Lineage health service"  [klozz]
-d913cf0  Revert "base: Add static isChargingControlSupported(ctx) method"  [klozz]
-c920672  Revert "ChargingControl: Set a small margin for devices with bypass support"  [klozz]
-ed5d560  Revert "ChargingControl: Reset internal states on settings change"  [klozz]
-7cd2004  Revert "ChargingControl: Add cancel toggle for limit done notification"  [klozz]
-725959b  Revert "ChargingControl: Handle cancel toggle correctly if bypass is not supported"  [klozz]
-56c9489  Revert "ChargingControl: No need to log a crash when not supported"  [klozz]
-5b8d5cd  Revert "ChargingControl: Use ServiceManager.waitForDeclaredService()"  [klozz]
-2a7e483  Revert "ChargingControl: Don't set deadline if charging control is not enabled"  [klozz]
-5028005  Revert "ChargingControl: Return early if lineage health HAL is not found"  [klozz]
-3c82bc0  Revert "ChargingControl: Drop default values for initially zero variables"  [klozz]
-3074abe  Revert "ChargingControl: Retry setting deadline if it fails"  [klozz]
-e9cc9bc  Revert "ChargingControl: Additional log lines for deadline"  [klozz]
+ - Fixed performance degradations
+ - Initial publication on derpfest channel
+ - Fixed low brightness issue 
+ - Fixed dolby atmos issues
+ - Update props from stock
+ - Dont allow to run foreground process con CPU7
+ - Switch to ARMv9
+ 
+Rom source
 
-* packages/apps/Flash
-23f3933  Flash: Import German translations  [NurKeinNeid]
-bfc7d0a  Automatic translation import  [LineageOS Infra]
-
-
-* packages/apps/Settings
-2ab4b66  Revert "Settings: Add charging control preferences"  [klozz]
-87b30eb  Revert "ChargingControl: Don't index settings if it is not supported"  [klozz]
-066a0b6  Revert "ChargingControl: Add missing summary"  [klozz]
-
-
-====================
-    10-01-2023     
-====================
-
-* build/make
-c8c29fe  Merge tag 'android-13.0.0_r75' of https://android.googlesource.com/platform/build into HEAD  [NurKeinNeid]
-
-
-* device/qcom/sepolicy-legacy-um
-0573993  Merge branch 'lineage-20.0-legacy-um' of https://github.com/LineageOS/android_device_qcom_sepolicy into HEAD  [NurKeinNeid]
-
-
-* frameworks/base
-681dec5  SystemUI: Hide notification scrim background when entering split shade  [minaripenguin]
-7c608c9  SystemUI: Fade the QS footer background early when split shade is translucent  [minaripenguin]
-7917f34  AuthRippleController: Always make sure LightRevealScrim finishes regardless of the progress  [minaripenguin]
-465762f  SystemUI: Fix scrim transparency for split shade  [minaripenguin]
-2c42192  SystemUI: Less boring headsup enhancements and fixes  [minaripenguin]
-5f5d806  SystemUI: Fix exception when retrieving signal strength drawable  [minaripenguin]
-12b38e7  PixelPropsUtils: Update fingerprints for September  [NurKeinNeid]
-
-
-* hardware/lineage/interfaces
-270a3fe  health: Add battery_charging_enabled node to ChargingControl node list  [me-cafebabe]
-
-
-* hardware/qcom-caf/thermal
-d30c553  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_hardware_qcom_thermal into HEAD  [NurKeinNeid]
-
-
-* manifest
-f9dc5df  manifest: Track our own fork for CVE-2023-5217  [Luca Stefani]
-
-
-* vendor/derp
-0d75539  overlay: Enforce smartspace configs  [jhenrique09]
-508c069  config: Exclude window_extensions addon on mini_tablet  [Bruno Martins]
-9cd7c65  qcom: Add parrot platform  [HeroBuxx]
-
-
-* vendor/fontage
-83e2de0  fontage: clockfonts: Add more ios clock fonts  [minaripenguin]
-ea2daad  fontage: clockfonts: Add more IOS 16 fonts  [YangJiiii]
-5e893f2  fontage: clockfonts: Import more clock styles  [rdx420]
-
-
-* vendor/qcom/opensource/data-ipa-cfg-mgr
-93932d2  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr into HEAD  [NurKeinNeid]
-
-
-====================
-    09-30-2023     
-====================
-
-* vendor/qcom/opensource/data-ipa-cfg-mgr
-3c0a7c4  ipacm: Address ipacm start failure  [dianlujitao]
-
-
-====================
-    09-29-2023     
-====================
-
-* hardware/qcom-caf/thermal
-23baaf1  thermal-hal: Add HAL v2 support for sdm632  [Ankit Siddhapura]
-
-
-====================
-    09-28-2023     
-====================
-
-* device/qcom/sepolicy-legacy-um
-9f61741  sepolicy: Label QTI Thermal HAL 2.0  [Bharath]
-
-
-- Allow to hide arrow for back gesture
-- Add toggle for google photos spoof
-- Add Wi-Fi timeout feature
-- Add Bluetooth timeout feature
-- Hide ADB and developer setting enable status
-- Allow "Panic" to silently uninstall packages
-- Fix toggle for secure tiles on keyguard
-- GlobalActions: Fix visibility issue on A11 submenu
-- Make isLargeScreen() use correct API for getting window metrics
-- Fix zen mode dialog bugs
-- BatteryStatsImpl: Fix divide by zero error
-- BatteryStatsImpl: Avoid dividing by 0.0 in updateWifiState
-- Move DT2S from PulsingGestureListener
-- Fix a runtime exception cause by wrong retrieval of drawable
-- Fix a crash if an application is using root permission when calling package manager api
-- Allow wildcard in RRO system property value checks
-- GameSpace: Update priv-app permissions whitelist
-- GameSpace: Add missing permission usage for Danmaku service
-- Update Ripple from Calyx upstream 
-- Update German translations
-
-# Device 
- - Power profile audio & video support
- - Power profile:Update deprecated screen power items
- - remove udfps animation size (this breaks animations)
- - Enable secure NFC functionality 
- - WFD fixed
- - parts: Introduce Dolby Atmos Override MusicFX and handle EQ intent
- - Implement Pocket Detection service
- - Sept SLP
+ - Merged November Security Patch
+ - added stuff on derpspace
+ - IDK not official changelog 
+ 
+Bugs:
+ - Screen record
+ - Probably Safetynet
+ - Selinux permissive
