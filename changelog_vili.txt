@@ -1,17 +1,25 @@
 Source:
-- Merged November Security Patch
-- PixelPropUtils: Make play integrity pass again
+-Based on November Security Patch
+-Fixed issues with monet, pure black theme and other settings not working correctly
+-Added more options to DerpSpace
+-Switch to A11 QS style by default
+-Added support for Face Unlock from AOSPA
+-Include Gramophone music player
+
 
 Device:
-- Initial A14 build
-- Dropped Dolby Atmos and Vision for now
-- Added support for latest KernelSU
-- Added Leica Camera
-- Added Viper4Android
-- Included Lineage Health HAL (charging control)
-- Added support for Lineage Fastcharge (120W charging toggle)
-- Added a toggle for High Touch Polling Rate
-- Set Boosted color mode by default
-- Fixed deep sleep while AOD is enabled
-- Fixed crashing in some games (mainly Arena Breakout)
-- Several other improvements...
+-Fixed an issue with display randomly going to max brightness
+-Fixed an issue with Google voice recorder not working
+-Switched to using task_profiles.json from source
+-Label missing wake up nodes
+-Allow system to suspend to RAM
+-Dropped interaction boost for Prime core
+-Updated ViperFX to latest 5.5 version
+-Enabled Multi-Gen LRU
+-Many other changes and stability improvements
+
+
+Kernel:
+-Switched to KangarooX R9 kernel
+-Dropped thermal locking
+-Updated KSU
