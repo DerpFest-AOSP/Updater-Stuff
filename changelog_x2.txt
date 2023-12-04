@@ -1,26 +1,29 @@
 ====================
-    23-10-2023     
+    04-12-2023     
 ====================
 
 # DerpFest Platform | Source Changelog
 
-- Merge tag 'android-13.0.0_r10'
-- Merge October security patch
-- Settings: Tie wake on plug with some form of battery presence
-- Settings: Fix clipping in app list layout
-- Update translations for Flash
+- Merge tag 'android-13.0.0_r83'
+- Merge November security patch
+- Fix GMS drain triggered by an outdated ROM build date
+- Update WI-FI Standard icon from AOSPA
+- Fix QS expand lag when VoLTE/VoWiFi icons are enabled
+- Add tile to show volume panel
+- Make play integrity pass again
+- SystemUI: add wave fade-out animation to qs media player
+- Fix scrim inset bug in landscape shade
+- SystemUI: Turn less boring headsup whitelist into an overlay
 
 ----------------------------------------------------------------------
 
 # Device LeMax2 Changelog | Fixes
 
-- Import platform patches - 'android-13.0.0_r10'
+- Import platform patches - 'android-13.0.0_r83'
 - Specify our kernel target level in manifest
 - Build vendor.lineage.livedisplay
-- Drop unneeded stuff/configs
-- ueventd.rc: Remove all permissions from /sys/devices/soc0/serial_number
-- Build Lineage Health HAL
-- Set PRODUCT_SET_DEBUGFS_RESTRICTIONS
+- Drop unneeded configurations
+- Fix manifest build errors
 * More system fixes here and there...
 
 ====================
