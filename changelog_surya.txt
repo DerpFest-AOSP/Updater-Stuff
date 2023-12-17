@@ -1,18 +1,13 @@
 Rom Changelog
 
-- Merged November Security Patch
-- Added DerpSpace
+- Merged Desember Security Patch
 
 Device Changelog
 
 - Switch to user build
 - Update kernel from @rdxzv (Richard) https://github.com/rd-stuffs/msm-4.14
-- Bringback smooth display
-- Add refresh rate tile
-- Remove some Gapps packages at build
-- Etc
 
 Notes
 - Always Include Google Apps
 - Thanks to @rdxzv for nice kernel
-- 
+
