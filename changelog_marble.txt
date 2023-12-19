@@ -1,4 +1,29 @@
-                ---------18/11/2023----------
+                      ---------18/12/2023----------
+
+Device:
+
+-Added Leica Camera
+-Kernel Melt 2.3.6
+
+
+Sources:
+
+- Merge QPR1 (aka December security patch)
+- Remove OOS style clear all button toggle due to QPR1 conflicts
+- Switch to Yaap's impl for battery icon customizations
+- Switch to AOSP themepicker to fix wallpaper apply button and other small issues
+- Add DerpFest Updater (based on Lineage updater)
+- Fix for Faceunlock needing a reboot to work after registering a face model
+- Add optional bouncer user switcher toggle
+- Add window ignore secure feature
+- Add option to display data disabled indicator icon
+- DerpSpace: Add a secure section to quick settings
+- DerpLauncher: Import Lawnicons
+- Update Gramophone prebuilt
+
+
+
+                      ---------18/11/2023----------
 
 
 Device
