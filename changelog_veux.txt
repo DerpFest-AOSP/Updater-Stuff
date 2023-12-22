@@ -44,3 +44,11 @@ September 15th update:
 - Disable CamX log spam and some other stuff.
 - Use FrameworkOverlay to set default volume slider steps.
 - Enable saturated color mode.
+
+December 22nd update:
+- Update Global fingerprint from veux:V14.0.4.0.TKCMIXM 
+- Kernel: Welcome IoSeKSU kernel. This will be shipped by default on all my roms.
+- KSU only build.
+- Enabled TEO governor by default.
+- Added i/on SSG from G998USQU5CVDB and update it from S908BXXU2AVF1.
+- Fixed splash screen seizures.
