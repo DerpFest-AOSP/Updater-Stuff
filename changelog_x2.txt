@@ -1,27 +1,27 @@
 ====================
-    04-12-2023     
+    02-01-2024     
 ====================
 
 # DerpFest Platform | Source Changelog
 
-- Merge tag 'android-13.0.0_r83'
-- Merge November security patch
-- Fix GMS drain triggered by an outdated ROM build date
-- Update WI-FI Standard icon from AOSPA
-- Fix QS expand lag when VoLTE/VoWiFi icons are enabled
-- Add tile to show volume panel
-- Make play integrity pass again
-- SystemUI: add wave fade-out animation to qs media player
-- Fix scrim inset bug in landscape shade
-- SystemUI: Turn less boring headsup whitelist into an overlay
+- Merge tag 'android-security-13.0.0_r12' 
+- Merge December security patch
+- SystemUI: Always vibrate for screenshots
+- SystemUI: Filter out duplicate notification icons on statusbar
+- display: Handle zero auto brightness adjustment
+- SystemUI: Reset QS header text appearance on theme change
+- ParallelSpaceManager: Add method to get the default cloned apps list
+- SystemUI: BluetoothDialog: Sort devices by last connection time
+- base: BluetoothDialog: Don't ever show non paired devices
+- Settings: make sure Wifi exists before adding controllers
 
 ----------------------------------------------------------------------
 
 # Device LeMax2 Changelog | Fixes
 
-- Import platform patches - 'android-13.0.0_r83'
-- Specify our kernel target level in manifest
-- Build vendor.lineage.livedisplay
+- Import platform patches - 'android-security-13.0.0_r12'
+- Fix screen blur
+- Fix night light flickering
 - Drop unneeded configurations
 - Fix manifest build errors
 * More system fixes here and there...
