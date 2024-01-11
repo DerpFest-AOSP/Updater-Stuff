@@ -1,35 +1,48 @@
 Device Changes:
-- Add fastcharge implementation
-- Add keylayout mapping for Xbox360 compatible controllers
-- Build FM interface libs from source
-- Build Lineage Health HAL
-- Import Qualcomm CameraX Vendor Extensions
-- keylayout: Import joystick keylayouts from 1Controller v1.5.2
-- Restore soundtrigger
-- sepolicy: Label more wakeup nodes
-- Ship VantomKernel v4.14.325
-- wifi: Enable Optimized Power Management
+- Initial A14 BETA build
+- Rebase trees over LineageOS
+- Ship VantomKernel v4.14.334
+- Ship ViPER4Android FX
+- Update blobs from sweet V14.0.9.0.TKFMIXM
 
 ROM:
-- Merge August Security patch
-- Include PE's Pixel framework 
-- Bring back QS Header Images
-- Add QS battery customizations
-- Enable new back gesture affordance
-- Tell user when face unlock detection is running
-- Improve switch to unlink ringtone and notifications volume
-- Improve power menu drawables and strings
-- Rebrand Aperture to Flash
-- Replace configurable fingerprint wake-and-unlock by a much simpler implementation from ArrowOS
-- AirPod support changes has been revised on top of new changes based on OpenPods source
-- Settings: Re-order SELinux status on About Phone
-- Settings: Allow toggling in-call notifications
-- Settings: Show single-touch wakeup setting on rear & front fps devices
-- DerpSpace: Use click effect toggle instead of duration for haptic feedback for QSTile
-- Various fixes for FMRadio
-- recovery: Ask to reboot before installing anything after A/B update
-- Relax few restrictions for builds with prebuilt vendor
-- Update Symphonica to 0.6.0
-- Add Hellenic translations
-- Import more Chinese (Simpified) translations
-- Update Russian translations
+- Merge January security patch
+- Add Quick unlock 
+- Settings: Add a new fragment in system for other options (move few dev options there and add battery stats viewer, sensor tile toggle)
+- Add DerpSpace QS tile
+- Add WiFi standard icon switch
+- Let app lock use face unlock
+- FaceUnlock: Vibrate on successful authentication
+- PixelPropsUtils: Do not spoof ASI
+- Enable new privacy dialogue
+- Hide ADB and developer setting enable status by default
+- Enable freeform/multiple windows feature by default
+- Improve ripple animation color
+- DerpSpace: Fix data icon style default drawables
+- DerpLauncher: Add option to control wallpaper zooming
+- DerpLauncher: Exclude overview lens activity from recents
+- DerpLauncher: Increment max number of saved recent apps thumbnails
+- DerpLauncher: allow copying app version
+- DerpLauncher: Prevent NPE with taskbar drag controller
+- DerpLauncher: UI elements color palette changes
+- DerpLauncher: Don't open PiP when freeform is opened from recent
+- DerpLauncher: Use folder background color for QSB
+- DerpLauncher: Introduce faster status bar expansion
+- Add Pixel framework
+- Add QS header customizations
+- Add AppLock
+- Update PUI icon pack
+- Updater: Enable A/B perf mode by default
+- Recovery: Add support for battery status
+- Add Configurable 0, 90, 180 and 270 degree rotation
+- Add Lockscreen rotation switch
+- Spoof locked bootloader on local attestations
+- Fix Lockscreen media art
+- Add OOS style notification clear all button
+- Add face unlock animation
+- Add Phone ringtone setting for Multi SIM devices
+- WallpaperPicker: Use our custom fonts for lockscreen preview
+- Add support for global cleartext penalties
+- Add back hotspot client manager
+- SettingsGoogle: Remove conflicting find sensor overlays
+- SystemUIGoogle: Update null check for AmbientIndicationContainer
