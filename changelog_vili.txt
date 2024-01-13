@@ -1,25 +1,44 @@
 Source:
--Based on November Security Patch
--Fixed issues with monet, pure black theme and other settings not working correctly
--Added more options to DerpSpace
--Switch to A11 QS style by default
--Added support for Face Unlock from AOSPA
--Include Gramophone music player
+- Merge January security patch
+- Add Pixel framework
+- Add QS header customizations
+- Add AppLock
+- Update PUI icon pack
+- Updater: Enable A/B perf mode by default
+- Recovery: Add support for battery status
+- Add Configurable 0, 90, 180 and 270 degree rotation
+- Add Lockscreen rotation switch
+- Spoof locked bootloader on local attestations
+- Fix Lockscreen media art
+- Add OOS style notification clear all button
+- Add face unlock animation
+- Add Phone ringtone setting for Multi SIM devices
+- WallpaperPicker: Use our custom fonts for lockscreen preview
+- Add support for global cleartext penalties
+- Add back hotspot client manager
+- Add DerpSpace QS tile
+- Add WiFi standard icon switch
+- Let app lock use face unlock
+- FaceUnlock: Vibrate on successful authentication
+- PixelPropsUtils: Do not spoof ASI
+- Enable new privacy dialogue
+- Hide ADB and developer setting enable status by default
+- Enable freeform/multiple windows feature by default
+- Improve ripple animation color
+- DerpSpace: Fix data icon style default drawables
+- DerpLauncher: Add option to control wallpaper zooming
+- DerpLauncher: Exclude overview lens activity from recents
+- DerpLauncher: Increment max number of saved recent apps thumbnails
+- DerpLauncher: allow copying app version
+- DerpLauncher: Prevent NPE with taskbar drag controller
+- DerpLauncher: UI elements color palette changes
+- DerpLauncher: Don't open PiP when freeform is opened from recent
 
 
 Device:
--Fixed an issue with display randomly going to max brightness
--Fixed an issue with Google voice recorder not working
--Switched to using task_profiles.json from source
--Label missing wake up nodes
--Allow system to suspend to RAM
--Dropped interaction boost for Prime core
--Updated ViperFX to latest 5.5 version
--Enabled Multi-Gen LRU
--Many other changes and stability improvements
-
+- Rebased on new LineageOS trees and kernel by TheStrechh
+- Included Leica camera, Miui gallery, Editor and Mi Video
+- Included Dolby Atmos
 
 Kernel:
--Switched to KangarooX R9 kernel
--Dropped thermal locking
--Updated KSU
+- Latest KSU included
