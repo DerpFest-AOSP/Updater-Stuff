@@ -1,29 +1,35 @@
 ====================
-    02-01-2024     
+    19-01-2024     
 ====================
 
 # DerpFest Platform | Source Changelog
 
-- Merge tag 'android-security-13.0.0_r12' 
-- Merge December security patch
-- SystemUI: Always vibrate for screenshots
-- SystemUI: Filter out duplicate notification icons on statusbar
-- display: Handle zero auto brightness adjustment
-- SystemUI: Reset QS header text appearance on theme change
-- ParallelSpaceManager: Add method to get the default cloned apps list
-- SystemUI: BluetoothDialog: Sort devices by last connection time
-- base: BluetoothDialog: Don't ever show non paired devices
-- Settings: make sure Wifi exists before adding controllers
+- Merge tag 'android-security-13.0.0_r13' 
+- Merge January 2024 security patch
+- base: SystemUI: ParallelSpace: Do not show users created by ParallelS
+- Merge tag 'android-security-13.0.0_r13'
+- SettingsLib: Handle WifiService being null
+- Revert "WiredAccessoryManager: Add support for DP audio"
+- Force using WiredAccessoryObserver for DisplayPort
+- Revert "fwb: Update WI-FI Standard icon from AOSPA"
+- PixelPropsUtils: Make play integrity pass again
+- Settings: Hide Flashlight
+- Settings: Rework on navigation bar modes and taskbar
+- DerpSpace: Fix data icon style default drawables
+- DerpSpace: Set some values to untranslatable
+- prebuilt: init: derp-system: hide Magisk better
+- Revert "overlay: Add google OTA to global disabledComponent"
+- overlay: Disable OtaUpdateActivity component
+- overlay: Disable a couple more OTA upgrade components
+- derp: Update CUSTOM_SECURITY_PATCH for January 2024 Security update
 
 ----------------------------------------------------------------------
 
 # Device LeMax2 Changelog | Fixes
 
-- Import platform patches - 'android-security-13.0.0_r12'
-- Fix screen blur
-- Fix night light flickering
-- Drop unneeded configurations
-- Fix manifest build errors
-* More system fixes here and there...
+- Import platform patches - 'android-security-13.0.0_r13'
+- Drop more unneeded configurations
+- Fix new manifest build errors
+* Small system fixes...
 
 ====================
