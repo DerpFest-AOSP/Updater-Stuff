@@ -1,8 +1,24 @@
 Rom Changelog:
 
-- Merge November Security Patch
+- Merge tag 'android-security-13.0.0_r13' 
+- Merge January 2024 security patch
+- base: SystemUI: ParallelSpace: Do not show users created by ParallelS
+- Merge tag 'android-security-13.0.0_r13'
+- SettingsLib: Handle WifiService being null
+- Revert "WiredAccessoryManager: Add support for DP audio"
+- Force using WiredAccessoryObserver for DisplayPort
+- Revert "fwb: Update WI-FI Standard icon from AOSPA"
+- PixelPropsUtils: Make play integrity pass again
+- Settings: Hide Flashlight
+- Settings: Rework on navigation bar modes and taskbar
+- DerpSpace: Fix data icon style default drawables
+- DerpSpace: Set some values to untranslatable
+- prebuilt: init: derp-system: hide Magisk better
+- Revert "overlay: Add google OTA to global disabledComponent"
+- overlay: Disable OtaUpdateActivity component
+- overlay: Disable a couple more OTA upgrade components
+- derp: Update CUSTOM_SECURITY_PATCH for January 2024 Security update
 
 Device Changelog:
 
-- Bump to latest vendor
-- fix statusbar padding
+- fixed some bugs & added more bugs 
