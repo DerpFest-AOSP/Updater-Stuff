@@ -52,3 +52,8 @@ December 22nd update:
 - Enabled TEO governor by default.
 - Added i/on SSG from G998USQU5CVDB and update it from S908BXXU2AVF1.
 - Fixed splash screen seizures.
+
+January 20th update:
+- Remove unused legacy low power states
+- Improve sbalance configs
+- Enable the new GPU frequency table
