@@ -1,56 +1,76 @@
 Source
 
-- Allow to hide arrow for back gesture
-- Add toggle for google photos spoof
-- Add Wi-Fi timeout feature
-- Add Bluetooth timeout feature
-- Hide ADB and developer setting enable status
-- Allow "Panic" to silently uninstall packages
-- Fix toggle for secure tiles on keyguard
-- GlobalActions: Fix visibility issue on A11 submenu
-- Make isLargeScreen() use correct API for getting window metrics
-- Fix zen mode dialog bugs
-- BatteryStatsImpl: Fix divide by zero error
-- BatteryStatsImpl: Avoid dividing by 0.0 in updateWifiState
-- Move DT2S from PulsingGestureListener
-- Fix a runtime exception cause by wrong retrieval of drawable
-- Fix a crash if an application is using root permission when calling package manager api
-- Allow wildcard in RRO system property value checks
-- GameSpace: Update priv-app permissions whitelist
-- GameSpace: Add missing permission usage for Danmaku service
-- Update Ripple from Calyx upstream 
-- Update German translations
+- Add Pixel framework
+- Add QS header customizations
+- Add AppLock
+- Update PUI icon pack
+- Updater: Enable A/B perf mode by default
+- Recovery: Add support for battery status
+- Add Configurable 0, 90, 180 and 270 degree rotation
+- Add Lockscreen rotation switch
+- Spoof locked bootloader on local attestations
+- Fix Lockscreen media art
+- Add OOS style notification clear all button
+- Add face unlock animation
+- Add Phone ringtone setting for Multi SIM devices
+- WallpaperPicker: Use our custom fonts for lockscreen preview
+- Add support for global cleartext penalties
+- Add back hotspot client manager
+- And many more
 
 Device
 
-- sweet: audio: Use QCOM implementation for audio effects
-- sweet: Import QCOM audio effects blobs
-- sweet: Update OzoProcessing from MIUI V14.0.5.0.TKFEUXM
-- Revert "sweet: Add headphone button jack keylayout"
-- sweet: sepolicy: Address citsensorservice denials
-- sweet: sepolicy: Allow linkerconfig to kill itself
-- sweet: Build android.frameworks.sensorservice@1.0 HAL
-- sweet: init: Disable adsprpcd
-- sweet: nfc: add nfc entries in manifest
-- sweet: Add missing seccomp policies
-- sweet: Update system blobs from LA.QSSI.13.0.r1-10000.02-qssi.0 
-- sweet: Update CarrierConfig from LA.QSSI.13.0.r1-10000.02-qssi.0
-- sweet: Implement xtra-daemon control via property
-- sweet: Use FUSE passthrough by default
-- sweet: remove unneeded ifdefs
-- sweet: Enable Qualcomm TrueWireless™ Stereo
-- sweet: AAC frame control enabled for hal implementation.
-- sweet: Disable BT A2DP AAC whitelist.
-- sweet: Add support for low power adaptive control feature 
-- sweet: Disable camera perflock
-- sweet: Disable per-cgroup PSI accounting
-- sweet: Enable the pre-rendering feature
-- sweet: Relax timers for automatic refresh rate switching
-- sweet: overlay: add missing power profile 300MHz CPU Frequency
-- sweet: overlay: Update power profile
-- sweet: Enable Optimized Power Management
+- sweet: Set 120Hz frame rate multiple threshold
+- sweet: init: Dont set build fingerprint
+- sweet: drop override doze mode support
+- sweet: recovery: Make recovery permissive only in non-user builds
+- sweet: overlay: Dont disable DiscoveryService and NearbyMessagingService
+- sweet: sepolicy: Address isolated_app denial
+- sweet: Update dax-default.xml from MIUI
+- sweet: Remove keymap of headset buttons
+- sweet: configs: powerhint: Don't boost top-app when screen is off
+- sweet: configs: powerhint: Don't send QoS request during launch
+- sweet: configs: powerhint: fixup io_percent default value
+- sweet: configs: powerhint: Disable prefer_idle when screen goes off
+- sweet: configs: powerhint.json: add FIXED_PERFORMANCE
+- sweet: configs: powerhint: Fix QoS CPU DMA latency value
+- sweet: Drop duplicate prop
+- sweet: Set the maximum WFD resolution to 720p@30
+- sweet: Enable config_avoidGfxAccel
+- Revert "sm6150-common: wifi: Switch gEnablePowerSaveOffload to 5"
+- sweet: overlay: Disable wifi firmware debugging
+- sweet: overlay: Fix hyper orange night light
+- sweet: set the build fingerprint and description at build time
+- sweet: Disable ART debug and optimize dexpreopt
+- sweet: vendorsetup.sh: switch to sleepy kernel and r487747c clang
+- Revert "sweet: Copy privapp-permissions-parts.xml into (TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions"
+- sm6150-common: gps: Fix unqualified call to std::move
+- sm6150-common: gps: Add NULL check before object access
 - sweet: Enable automatic channel selection 
-- sweet: Don't write binary XML files
-- sm6150-common: Build Lineage Health HAL
-- sweet: vintf: Add vendor.lineage.health
-- sweet: overlay: build DerpFestOS officially
+- sm6150-common: Use the AIDL WiFi service
+- sm6150-common: Import missing deviceInfoServiceModule.so
+- sweet: Enable content detection for refresh rate switching
+- sweet: Build protobuf vendorcompat
+- sweet: Enable Non Flattened APEX
+- sweet: Downgrade Audio HIDL to 7.0
+- sweet: vendorsetup.sh: track derp hals
+- sweet: Import missing wlan_mac from stock
+- sweet: build DRM 1.4 to vendor
+- sweet: Enable AIDL DRM HALs
+- sweet: overlay: Configure Flash camera overlays
+- sweet: Migrate vendor.camera.aux.packagelist to overlay
+- sweet: Migrate to restructured sepolicy_vndr
+- sweet: Drop OnePlus Dolby
+- sweet: Fix flickering on status bar
+- sweet: Add support for ViPER4Android FX Redesign and build it
+- sweet: Update blobs from MIUI V14.0.6.0.TKFEUXM
+- sweet: Enable casefolding support on userdata
+- sweet: Enable camera override format from reserved
+- sweet: Build default health HIDL recovery impl
+- sweet: Move to QTI health AIDL service
+- sweet: Keep building health HIDL interface lib in vendor
+- sweet: overlay: CarrierConfig: Update to LA.QSSI.14.0.r1-10000.01
+- sweet: Import missing blob
+- sweet: Disable unspecialized app process pool
+- [REPICK]sweet: Switch BtAudio to AIDL
+- sweet: Import missing blob
