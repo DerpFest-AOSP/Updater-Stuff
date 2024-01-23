@@ -1,31 +1,13 @@
 Source:
-- Merge January security patch
-- Add Pixel framework
-- Add QS header customizations
-- Add AppLock
-- Update PUI icon pack
-- Updater: Enable A/B perf mode by default
-- Recovery: Add support for battery status
-- Add Configurable 0, 90, 180 and 270 degree rotation
-- Add Lockscreen rotation switch
-- Spoof locked bootloader on local attestations
-- Fix Lockscreen media art
-- Add OOS style notification clear all button
-- Add face unlock animation
-- Add Phone ringtone setting for Multi SIM devices
-- WallpaperPicker: Use our custom fonts for lockscreen preview
-- Add support for global cleartext penalties
-- Add back hotspot client manager
 
 
 Device:
-- Added back Xiaomi parts and Thermal profiles
-- Added fling velocity props for smoother scrolling
-- Added props for improved ART compilation
-- Updated surfaceflinger offset values
-- Switched to lz4 for zram
-- Several other fixes and performance improvements
+- Enabled Full Screen Apps
+- Reduced minimum brightness a bit
+- Switched to pico GApps
+- Dropped Miui Gallery, Editor and MiVideo
+- Updated adreno blobs from mondrian V14.0.5.0.TMNMIXM [Endcredits]
+- Switch to Vulkan UI renderer [kdrag0n]
 
 Kernel:
 - Latest KSU included
-- Support for lz4 zram compression
