@@ -1,0 +1,24 @@
+source:
+- Add Pixel framework
+- Add QS header customizations
+- Add AppLock
+- Update PUI icon pack
+- Updater: Enable A/B perf mode by default
+- Recovery: Add support for battery status
+- Add Configurable 0, 90, 180 and 270 degree rotation
+- Add Lockscreen rotation switch
+- Spoof locked bootloader on local attestations
+- Fix Lockscreen media art
+- Add OOS style notification clear all button
+- Add face unlock animation
+- Add Phone ringtone setting for Multi SIM devices
+- WallpaperPicker: Use our custom fonts for lockscreen preview
+- Add support for global cleartext penalties
+- Add back hotspot client manager
+
+device:
+- Kernel : Upstream to 4.14.336
+- sepolicy: Address isolated_app denial
+- recovery: Make recovery permissive only in non-user builds
+- ShishiroKernel as default Kernel
+- Fix flickering on status bar
