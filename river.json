@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1705590450,
-      "filename": "DerpFest-14-Official-Beta-river-20240118.zip",
-      "id": "cf972cbe9b85248b5156a13d5dce4b8af3ff3c5add6c706631c3f9ae95b0584f",
+      "datetime": 1706473455,
+      "filename": "DerpFest-14-Official-Stable-river-20240128.zip",
+      "id": "d5d0dd126f9748b103698f96f93854777cb0fc2b53bd1d9408bd4c7e6f39b66f",
       "romtype": "Official",
-      "size": 1211522075,
-      "url": "https://sourceforge.net/projects/derpfest/files/river/DerpFest-14-Official-Beta-river-20240118.zip/download",
+      "size": 1354878992,
+      "url": "https://sourceforge.net/projects/derpfest/files/river/DerpFest-14-Official-Stable-river-20240128.zip/download",
       "version": "14"
     }
   ]
