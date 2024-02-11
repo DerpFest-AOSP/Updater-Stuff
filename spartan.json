@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1699157144,
-      "filename": "DerpFest-14-Official-Alpha-spartan-20231106.zip",
-      "id": "2a2173f8df129b78754fb5fc00cb659224e3d470948e6abdfcf6cb9ef9a3b9e9",
+      "datetime": 1707628007,
+      "filename": "DerpFest-14-Official-Stable-spartan-20240211-1041.zip",
+      "id": "3c00436d8a101aa659ed0f067a5403a95621bf9c6be288a09fa942b120fe16cc",
       "romtype": "Official",
-      "size": 2261823323,
-      "url": "https://drive.google.com/file/d/1PqzAg2776BpGWVmFeO8QYImWWUBFJakf/view?usp=drivesdk",
+      "size": 2275890985,
+      "url": "https://sourceforge.net/projects/yograjsingh-cmd/files/spartan/derpfest/DerpFest-14-Official-Stable-spartan-20240211-1041.zip/download",
       "version": "14"
     }
   ]
