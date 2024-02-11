@@ -1,8 +1,7 @@
 Rom Changelog:
 
-- Initial Stable A14 Build
-- Merge January 2024 security patch
-- Fix expanded volume panel on right side
+- Merge February 2024 security patch
+- Fix expanded volume panel on right side 
 - Add Double tap to doze
 - Add Edge Lights for Notifications
 - Add UDFPS framework dimming
@@ -59,4 +58,4 @@ Rom Changelog:
 
 Device Changelog:
 
-- added PixelParts
+- adjusted udfps animation
