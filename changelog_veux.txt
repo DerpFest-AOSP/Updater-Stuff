@@ -57,3 +57,7 @@ January 20th update:
 - Remove unused legacy low power states
 - Improve sbalance configs
 - Enable the new GPU frequency table
+
+February 16th update:
+- Switch to IoSeKSU release 2
+- Include MotoDolby
