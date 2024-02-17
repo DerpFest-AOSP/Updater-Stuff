@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1706152384,
-      "filename": "DerpFest-14-Official-Beta-merlinx-20240125.zip",
-      "id": "5f78e993238509edb17b01c531a211b4fb6730bef8114b84c029df539b161216",
+      "datetime": 1708081224,
+      "filename": "DerpFest-14-Official-Stable-merlinx-20240216.zip",
+      "id": "e69046e60129b494a71f1e14f2f6337119f96a7e4e792a9e33485bca4f7ffed0",
       "romtype": "Official",
-      "size": 1881578894,
-      "url": "https://sourceforge.net/projects/derpfest/files/merlinx/DerpFest-14-Official-Beta-merlinx-20240125.zip/download",
+      "size": 1907954676,
+      "url": "https://sourceforge.net/projects/derpfest/files/merlinx/DerpFest-14-Official-Stable-merlinx-20240216.zip/download",
       "version": "14"
     }
   ]
