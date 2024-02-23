@@ -1056,3 +1056,4 @@ DEVICE LOG:
 - diting: Build some missing LDAC libs
 - diting: adjust vibration
 - diting: upgrade kernel and modules to  OS1.0.2.0.ULFCNXM
+- diting: HOTFIX for IMS Crash
