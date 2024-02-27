@@ -1,44 +1,37 @@
 DerpFest 14 STABLE | OFFICIAL ~ by @selfmuser
-Build Date : 12-02-2024
+Build Date : 27-02-2024
 Device : Redmi Note 7 Pro ( Violet )
 
 Device Changes :
-
-- Added device light capabilities
-- Props : Disable blurs by default 
-- Update notification icons overlay for Android 14
-- Remove Color Modes 
-- Remove Pocket Lock mode ( unavailable in DerpFest )
-- LA.UM.9.1.r1-15800-SMxxx0.QSSI14.0
-- Now Officially #StayDerped 🦉
+- Add smooth display feature in settings 
+- Update system blobs from LA.QSSI.13.0.r1-10000.02-qssi.0
+- Update blobs from LA.QSSI.13.0.r1-09700-qssi.0
+- Update Adreno to LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0
+- Add peak refresh rate toggle in settings
 
 ROM changes:
 - Merge February security patch
+- Reimplement Custom headers feature from bootleggers (brings header packs back and implements automatic fade effect for images)
+- Allow to skip confirmation in biometric auth dialog
+- Fix Udfps animation on resolution change
+- Extend showing Ambient instead of fully waking to single tap gesture
+- Fix wakeup and long-press actions of assistant key
+- Gesture nav: Remove timeout setting and minor improvements
+- Few layout fixes for advanced reboot options
+- DerpSpace: Add faster qs tile animation speeds
+- DerpLauncher: Fix premature short-circuit on end spring anim
+- DerpLauncher: Fix crash on notification icon contrast calculation
+- Implement transient task mode aka "Taki mode"
+- Restore ZenMode setting in dialog like Oreo panel
+- SoundSettings: Add charging vibration settings
+- FingerprintSettings: Add proximity check awareness if supported
+- Settings: Extend Battery info page
+- Add support for disabling fingerprint lockout
+- Don't animate QS tile text when opening activity/dialog from round QS
 - Replace long swipe action impl in favor of Advanced navigation "extended/L" gestures impl from ezio84 (located in system gesture navigation settings)
 - Replace Gallery2 with Lineage's Glimpse
 - Remove face unlock icon
 - Rewrite Edge light customizations
 - Rewrite VoLTE/VoWifi icon implementation
 - Allow toggling netflix spoofing
-- Add Ambient batterybar color options
-- Allow to toggle screen wake up on fod pressed
-- Allow to toggle vertical swipes on Ambient display inspired on OxygenOS
-- Enable fading squiggle animation of qs media player
-- Prevent notification panel from having transparent background
-when expanded immediately after unlocking
-- AlarmManager: Handle google and system apps alarm denials
-- Increase maximum number of notification icons shown on AoD from 3 to 9
-- Rewrite flashlight blink on incoming calls
-- Get rid of deprecation in incall vibrations
-- Apply "Vibrate on connect" for incoming calls as well
-- More misc code improvements for incall vibrations
-- Settings: Hide battery info (cycle count can be misleading or wrong)
-- Settings: Font size in 5% steps from 80% to 130%
-- ThemePicker: Update UI for custom sections
-- Fix a denial when formatting a sdcard as adopted storage
-- Add device codename to DerpFest recovery screen
-- Update to Gramophone-1.0.2.f01579-release
-- Update zh-rTW translations
-- Update Simplified Chinese translations
-
 ..more I propably missed.
