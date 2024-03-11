@@ -1,9 +1,28 @@
+Source:
+- Update fingerprint for play integrity 
+- Introduce optional haptic feedback everywhere
+- Add Custom Carrier Label & Carrier Label Placement
+- Add Screen off animations
+- Add lockscreen charging info switch
+- Fix battery stats not resetting
+- Fixup Screenshot sound
+- Settings: Re-organize sound settings
+- Settings: Add QS tile for refresh rate indicator to dev settings
+- ThemePicker: Add UI Styles
+- DerpSpace: Add missing summaries to listpreferences
+- DerpSpace: Disable settings for gravity and mirroring, when no pulse is enabled
+
+
 Device:
-- Switched back to pico gapps
-- Disable alpha compositing in WM
-- Disable display refresh rate override
-- Fix WFD on some TVs
+- Fixed VoLTE for some carriers
+- Fixed some issues with WFD
+- Optimize native executables for Cortex-A76 CPU
+- Addressed some denials
 
 
 Kernel:
 - Updated to latest KSU
+- Add back multi-gen LRU support
+- Fixed vibration on TWRP
+- Address kernel decompression speed
+- Various performance improvements
