@@ -1,28 +1,38 @@
 ====================
-    09-03-2024     
+    11-04-2024     
 ====================
 
 # DerpFest Platform | Source Changelog
 
-- Merge tag 'android-security-13.0.0_r15' 
-- Merge March 2024 security patch
-- fixup! Forward port CM Screen Security settings
-- Revert " SystemUI: Improve QS notification expansion animation"
-- SystemUI: Hide notifications when quickly expanding QS
-- Fix NPE when fetch shortcut icon uri
-- Applock: Fix an issue where system allowlist is not respected
+- Merge QPR2 and April sec patch
+- Introduce optional haptic feedback everywhere
+- Add Custom Carrier Label & Carrier Label Placement
+- Add Screen off animations
+- Add lockscreen charging info switch
+- Fix battery stats not resetting
 - Fixup Screenshot sound
-- Settings: values-el: Update Greek translation
-- vendor_derp: Update CUSTOM_SECURITY_PATCH for March 2024 Security update
-- Do not grant notification access for work apps.
-- Lot of small things I can't remember anymore
+- Settings: Re-organize sound settings
+- Settings: Add QS tile for refresh rate indicator to dev settings
+- ThemePicker: Add UI Styles
+- DerpSpace: Add missing summaries to listpreferences
+- DerpSpace: Disable settings for gravity and mirroring, when no pulse is enabled
+- Migrate everything to new qpr2 switch style 
+- Reworked whole DerpLauncher
+- Removed lockscreen media art, hide status bar lockscreen, clock background chip, misc haptics and fp vibration switch due to need of rewrite 
+- Replace reticker with Island notifications from Rising
+- DerpSpace: Add support for clock auto-hiding
+- DerpSpace: Add Omni weather
+- Gramophone -> Accord
 
 ----------------------------------------------------------------------
 
-# Device LeMax2 Changelog | Fixes
+# Device LeMax2 | MaxPlus | Changelog | Fixes
 
-- Import platform patches - 'android-security-13.0.0_r15'
-- Adjust core thermals for lower temperatures
-* Small system fixes...
+- MaxPlus Unifications - implements
+- Bring back mock hidl power stats
+- Label perf 2.0
+- Add power.stats to satisfy FCM
+- Kernel changes for MaxPlus Sharp panel
+- Small system fixes...
 
 ====================
