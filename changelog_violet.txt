@@ -1,9 +1,11 @@
 DerpFest 14 STABLE | OFFICIAL
 By ~ @selfmuser
-Build Date : 10-04-2024
+Build Date : 16-04-2024
 Device : Redmi Note 7 Pro ( Violet )
 
 Device Changes :
+- Added Basic Call Recorder 
+- LTS: Update to 4.14.342
 - Fixed Charging Control
 - Build Lineage Health HAL
 - Fixed notification & charging lead ( thanks to @kibria5 )
@@ -28,6 +30,18 @@ Device Changes :
 
 ROM changes:
 - Merge QPR2 and April sec patch
+- Fix status bar clock prefs
+- Fix navbar inversion toggle 
+- Fix flash on call seekbar resetting 
+- Drop duplicated system update shortcut
+- Remove Omni weather in favor of Google Smartspace
+- Make Google search bar monet themable again 
+- Add back Pixel framework
+- Add quick settings pull down with one finger
+- Allow to always show the time in media player
+- Add Pixel Navbar animation toggle
+- DerpLauncher: QuickstepAtomicAnimationFactory: Add null checks to prevent NPE
+- DerpLauncher: quickstep: TouchInteractionService: Do not crash on boot
 - Update fingerprint for play integrity
 - Migrate everything to SwitchPreferenceCompat
 - Reworked whole DerpLauncher
