@@ -1,51 +1,8 @@
-EN release note
-
 For DerpFest ( renoir )
- |- Sync latest source code
- |- Android August Security patch
- |- Pull unpinned common blobs from haydn MIUI Global V14.0.3.0
- |- Switch back to QTI Power HAL
- |- Enable FUSE passthrough by default
- |- Fix autobrightness bouncing
- |- Enable zram writeback
- |- Rebased tree to drop some useless commits
-
-For Tailwind kernel ( Used in DerpFest and HavocOS )
- |- Upstream kernel to 5.4.249
- |- Merge ACK tag ASB-2023-08-05_11-5.4
- |- Merge f2fs-stable
- |- Enable f2fs unfair rwsem by default
- |- Port UFS high performance boost from oneplus oss release
- |- Port file system high performance boost from oneplus oss release
- |- Block && Memory Management && QTI Display subsystem improvements
- |- Disable SSG by default
- |- Enable userfaultfd by default
- |- Thermal improvements
- |- Upstream kernel su driver
-
----------------
-
-中文发行注记
-
-适用于 DerpFest ( renoir )
- |- 同步最新源代码编译
- |- 更新 Google 八月安全补丁
- |- 从 haydn MIUI Global V14.0.3.0 拉取通用组件
- |- 切换回 QTI Power HAL
- |- 默认启用 FUSE 透传
- |- 修复自动亮度过山车
- |- 启用 zram 回写
- |- 变基设备树以干掉一堆没用的提交
-
-适用于 Tailwind 内核 ( 内置于 DerpFest 和 HavocOS )
- |- 内核更新至 5.4.249
- |- 合并 AOSP 通用内核八月安全补丁
- |- 合并上游 f2fs 更改
- |- 默认启用 f2fs 不公平的读写信号量特性
- |- 加入移植自 OnePlus 设备的 UFS 性能提升驱动
- |- 加入移植自 OnePlus 设备的文件系统性能提升驱动
- |- 块设备 && 内存管理 && 显示子系统改进
- |- 默认关闭 SSG IO 调度器
- |- 默认启用 userfaultfd
- |- 一些温控改进
- |- 同步上游 Kernel SU 驱动
+ |- Sync latest source code && upstream latest Kernel SU
+ |- Update display and adreno blobs from CLO
+ |- Disable Vulkan UI renderer
+ |- Fix tiktok flick
+ |- Fix screen recorder && camera recorder
+ |- Label more power HAL related denieds
+ |- Minor powerhal tweaks
