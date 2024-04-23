@@ -1,28 +1,36 @@
 Source:
-- Update fingerprint for play integrity 
-- Introduce optional haptic feedback everywhere
-- Add Custom Carrier Label & Carrier Label Placement
-- Add Screen off animations
-- Add lockscreen charging info switch
-- Fix battery stats not resetting
-- Fixup Screenshot sound
-- Settings: Re-organize sound settings
-- Settings: Add QS tile for refresh rate indicator to dev settings
-- ThemePicker: Add UI Styles
-- DerpSpace: Add missing summaries to listpreferences
-- DerpSpace: Disable settings for gravity and mirroring, when no pulse is enabled
+- Merge QPR2 and April sec patch
+- Migrate everything to new qpr2 switch style 
+- Reworked whole DerpLauncher
+- Removed lockscreen media art, hide status bar lockscreen, clock background chip, misc haptics and fp vibration switch due to need of rewrite 
+- Replace reticker with Island notifications from Rising
+- DerpSpace: Add support for clock auto-hiding
+- DerpSpace: Add Omni weather
+- Gramophone -> Accord
+- Fix status bar clock prefs
+- Fix navbar inversion toggle 
+- Fix flash on call seekbar resetting 
+- Drop duplicated system update shortcut
+- Remove Omni weather in favor of Google Smartspace
+- Make Google search bar monet themable again 
+- Add back Pixel framework
+- Add quick settings pull down with one finger
+- Allow to always show the time in media player
+- Add option to keep the screen awake while screen recording
+- Add Pixel Navbar animation toggle
+- DerpLauncher: QuickstepAtomicAnimationFactory: Add null checks to prevent NPE
+- DerpLauncher: quickstep: TouchInteractionService: Do not crash on boot
 
 
 Device:
-- Fixed VoLTE for some carriers
-- Fixed some issues with WFD
-- Optimize native executables for Cortex-A76 CPU
-- Addressed some denials
+- Rebased and cleaned up device trees
+- Improved Dolby audio
+- Updated Xiaomi parts from Haydn
+- Updated included firmware to V816.0.1.0.UKDEUXM
+- Updated vili specific blobs to V816.0.1.0.UKDEUXM (credits to TheStrechh)
+- Updated common blobs from Haydn V816.0.1.0.UKKCNXM
 
 
 Kernel:
-- Updated to latest KSU
-- Add back multi-gen LRU support
-- Fixed vibration on TWRP
-- Address kernel decompression speed
-- Various performance improvements
+- Updated KSU to the latest version
+- Rebased to include latest changes from lineageOS
