@@ -1,81 +1,40 @@
-                      ---------18/12/2023----------
+# 23-April-2024
 
-Device:
+Device Changelog
+- Switched to Los based trees
+- Switched to OSS kernel and ships with 5.10.209 based on latest April tag ASB-2024-04-05
+- Ships with BCR app v1.61
+- Ships with Parts Dolby, ViperFX 6.2 for sound and Widevine is L1
+- Ships with Minimal Pico Gapps (Unlike usual Full Gapps)
+- Auto Brightness works like one shot Brightness (The moment u unlock phone, brightness adapts to surrounding light)
+- Nuked Brightness Slider Curve Implementation (No more higher Brightness at lower slider positions)
+- Update blobs from V816.0.4.0.ULLMIXM
+- Nuked Thermal profiles as they were causing performance drop (Strange but true)
 
--Added Leica Camera
--Kernel Melt 2.3.6
+Known Bugs with LoS Based Trees:
+- Auto Brightness just works like One Shot Auto Brightness
+- Dolby Vision wont work
+- Vibrations might be slightly weak
 
-
-Sources:
-
-- Merge QPR1 (aka December security patch)
-- Remove OOS style clear all button toggle due to QPR1 conflicts
-- Switch to Yaap's impl for battery icon customizations
-- Switch to AOSP themepicker to fix wallpaper apply button and other small issues
-- Add DerpFest Updater (based on Lineage updater)
-- Fix for Faceunlock needing a reboot to work after registering a face model
-- Add optional bouncer user switcher toggle
-- Add window ignore secure feature
-- Add option to display data disabled indicator icon
-- DerpSpace: Add a secure section to quick settings
-- DerpLauncher: Import Lawnicons
-- Update Gramophone prebuilt
-
-
-
-                      ---------18/11/2023----------
-
-
-Device
-
--Fixed Statusbar padding
--Added Dirac
--Added Clear speaker
--Added v4a
--Fixed per app refresh rate
--Fixed auto brightness
--Fixed thermal profiles not working
--Fixed issue where vibrations are soft
--Limiting Ambient display refresh rate to 60hz
--Ambient display/AOD improvements
--Upstreamed kernel to v5.10.200
--Miscellaneous improvement
-
-
-Source
-
--Merged November Security Patch
-
--PixelPropUtils: Make play integrity pass again
-
-
-
-
-Device
-
-DT updated according to the latest version of YuKongA
-
-
-Source
-
-- October Security Patch
-- Allow to hide arrow for back gesture
-- Add toggle for google photos spoof
-- Add Wi-Fi timeout feature
-- Add Bluetooth timeout feature
-- Hide ADB and developer setting enable status
-- Allow "Panic" to silently uninstall packages
-- Fix toggle for secure tiles on keyguard
-- GlobalActions: Fix visibility issue on A11 submenu
-- Make isLargeScreen() use correct API for getting window metrics
-- Fix zen mode dialog bugs
-- BatteryStatsImpl: Fix divide by zero error
-- BatteryStatsImpl: Avoid dividing by 0.0 in updateWifiState
-- Move DT2S from PulsingGestureListener
-- Fix a runtime exception cause by wrong retrieval of drawable
-- Fix a crash if an application is using root permission when calling package manager api
-- Allow wildcard in RRO system property value checks
-- GameSpace: Update priv-app permissions whitelist
-- GameSpace: Add missing permission usage for Danmaku service
-- Update Ripple from Calyx upstream 
-- Update German translations
+Source Changelog
+- Merge QPR2 and April sec patch
+- Migrate everything to new qpr2 switch style 
+- Reworked whole DerpLauncher
+- Removed lockscreen media art, hide status bar lockscreen, clock background chip, misc haptics and fp vibration switch due to need of rewrite 
+- Replace reticker with Island notifications from Rising
+- DerpSpace: Add support for clock auto-hiding
+- DerpSpace: Add Omni weather
+- Gramophone -> Accord
+- Fix status bar clock prefs
+- Fix navbar inversion toggle 
+- Fix flash on call seekbar resetting 
+- Drop duplicated system update shortcut
+- Remove Omni weather in favor of Google Smartspace
+- Make Google search bar monet themable again 
+- Add back Pixel framework
+- Add quick settings pull down with one finger
+- Allow to always show the time in media player
+- Add option to keep the screen awake while screen recording
+- Add Pixel Navbar animation toggle
+- DerpLauncher: QuickstepAtomicAnimationFactory: Add null checks to prevent NPE
+- DerpLauncher: quickstep: TouchInteractionService: Do not crash on boot
