@@ -1,23 +1,33 @@
-Rom Changelog
+Source Changelog: 
+- Fix status bar clock prefs
+- Fix navbar inversion toggle 
+- Fix flash on call seekbar resetting 
+- Drop duplicated system update shortcut
+- Remove Omni weather in favor of Google Smartspace
+- Make Google search bar monet themable again 
+- Add back Pixel framework
+- Add quick settings pull down with one finger
+- Allow to always show the time in media player
+- Add option to keep the screen awake while screen recording
+- Add Pixel Navbar animation toggle
+- DerpLauncher: QuickstepAtomicAnimationFactory: Add null checks to prevent NPE
+- DerpLauncher: quickstep: TouchInteractionService: Do not crash on boot
 
-- Merge QPR1 (aka December security patch)
-- Remove OOS style clear all button toggle due to QPR1 conflicts
-- Switch to Yaap's impl for battery icon customizations
-- Switch to AOSP themepicker to fix wallpaper apply button and other small issues
-- Add DerpFest Updater (based on Lineage updater)
-- Fix for Faceunlock needing a reboot to work after registering a face model
-- Add optional bouncer user switcher toggle
-- Add window ignore secure feature
-- Add option to display data disabled indicator icon
-- DerpSpace: Add a secure section to quick settings
-- DerpLauncher: Import Lawnicons
-- Update Gramophone prebuilt
+Device changelog 
+- user build
+- Surya: props: Fixup FUSE passthrough location
+- Surya: props: Optimize package manager dexopt
 
-Device Changelog
+Kernel changelog :
+- upstream kernel to 343 
+- Update Kernelsu
 
-- Update kernel from @rdxzv (Richard) https://github.com/rd-stuffs/msm-4.14
+notes : 
+- FW, Gapps Always Include
+- Clean flash always recommended, but you can dirty from previous
 
-Notes
-- Always Include Google Apps
-- Thanks to @rdxzv for nice kernel
-
+Credits : 
+- thanks @azrim89 for kernel (based Silont richelieu)
+- thanks to rd and Muichiro for fix error
+- thanks for all dev Surya
+- and thanks for all support donation
