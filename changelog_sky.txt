@@ -1,17 +1,20 @@
 Device Changes:
-- Enable SVELTE memory configuration
-- Improved battery backup
-- Fix 3rd party cam crash
+- Update blobs from V816.0.5.0.UMWEUXM
+- Add support for NFC devices
+- Switch to source built USB hal
+- Fix Goodix fingerprint
 
 ROM:
-- Reimplement Custom headers feature from Bootleggers (brings header packs back and implements automatic fade effect for images)
-- Allow to skip confirmation in biometric auth dialog
-- Tint app name in notifications with app icon color
-- Fix Udfps animation on resolution change
-- Extend showing Ambient instead of fully waking to single tap gesture
-- Fix wakeup and long-press actions of assistant key
-- Gesture nav: Remove timeout setting and minor improvements
-- Few layout fixes for advanced reboot options
-- DerpSpace: Add faster qs tile animation speeds
-- DerpLauncher: Fix premature short-circuit on end spring anim
-- DerpLauncher: Fix crash on notification icon contrast calculation
+- Fix status bar clock prefs
+- Fix navbar inversion toggle 
+- Fix flash on call seekbar resetting 
+- Drop duplicated system update shortcut
+- Remove Omni weather in favor of Google Smartspace
+- Make Google search bar monet themable again 
+- Add back Pixel framework
+- Add quick settings pull down with one finger
+- Allow to always show the time in media player
+- Add option to keep the screen awake while screen recording
+- Add Pixel Navbar animation toggle
+- DerpLauncher: QuickstepAtomicAnimationFactory: Add null checks to prevent NPE
+- DerpLauncher: quickstep: TouchInteractionService: Do not crash on boot
