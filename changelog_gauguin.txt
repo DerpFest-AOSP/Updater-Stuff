@@ -1,5 +1,5 @@
 DerpFest 14 STABLE | OFFICIAL ~ by @ZabukaZuzu
-Build Date : 29-04-2024
+Build Date : 03-05-2024
 Device : Gauguin
 
 Rom:
@@ -17,3 +17,4 @@ Rom:
 - Add Pixel Navbar animation toggle
 - DerpLauncher: QuickstepAtomicAnimationFactory: Add null checks to prevent NPE
 - DerpLauncher: quickstep: TouchInteractionService: Do not crash on boot
+
