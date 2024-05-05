@@ -1,3 +1,44 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi Note 10 Pro (sweet)
+Device maintainer: JYR_RC
+
+--------------05/05/24----------------
+
+Device Changelog:
+
+    Pico Gapps Build
+    Miuicamera Included Default
+    Added OnePlus Dolby parts
+    Kprofiles
+    App Refresh Rate
+    Refresh Rate ins settings
+    Added refresh rate toggle
+    Added ambient display
+    Haptick Feedback Settings
+
+
+Rom Changelog:
+
+    April Security Patch QPR2
+    Fix status bar clock prefs
+    Fix navbar inversion toggle
+    Fix flash on call seekbar resetting 
+    Drop duplicated system update shortcut
+    Remove Omni weather in favor of Google Smartspace
+    Make Google search bar monet themable again 
+    Add back Pixel framework
+    Add quick settings pull down with one finger
+    Allow to always show the time in media player
+    Add option to keep the screen awake while screen recording
+    Add Pixel Navbar animation toggle
+    DerpLauncher: QuickstepAtomicAnimationFactory: Add null checks to prevent NPE
+    DerpLauncher: quickstep: TouchInteractionService: Do not crash on boot
+
+
+
+
+
 Source
 
 - Add Pixel framework
