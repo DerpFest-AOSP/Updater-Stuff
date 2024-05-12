@@ -1,20 +1,6 @@
 Derp source changelog:
-- Fix status bar clock prefs
-- Fix navbar inversion toggle
-- Fix flash on call seekbar resetting
-- Drop duplicated system update shortcut
-- Remove Omni weather in favor of Google Smartspace
-- Make Google search bar monet themable again
-- Add back Pixel framework
-- Add quick settings pull down with one finger
-- Allow to always show the time in media player
-- Add option to keep the screen awake while screen recording
-- Add Pixel Navbar animation toggle
-- DerpLauncher: QuickstepAtomicAnimationFactory: Add null checks to prevent NPE
-- DerpLauncher: quickstep: TouchInteractionService: Do not crash on boot
-- Update various qcom hals from lineage
+- Merged May Security Patch
+- Changed gapps source
 
 Device changelog:
-- Upstreamed kernel to 4.14.343 from openela
-- Updated system blobs to LA.QSSI.14.0.r1-13500-qssi.0
-- Fixed notification LED
+- Upstreamed kernel to 4.14.344 from openela
