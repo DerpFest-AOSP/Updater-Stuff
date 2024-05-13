@@ -1,40 +1,60 @@
-# 23-April-2024
+# 13-May-2024
 
-Device Changelog
-- Switched to Los based trees
-- Switched to OSS kernel and ships with 5.10.209 based on latest April tag ASB-2024-04-05
-- Ships with BCR app v1.61
-- Ships with Parts Dolby, ViperFX 6.2 for sound and Widevine is L1
-- Ships with Minimal Pico Gapps (Unlike usual Full Gapps)
-- Auto Brightness works like one shot Brightness (The moment u unlock phone, brightness adapts to surrounding light)
-- Nuked Brightness Slider Curve Implementation (No more higher Brightness at lower slider positions)
-- Update blobs from V816.0.4.0.ULLMIXM
-- Nuked Thermal profiles as they were causing performance drop (Strange but true)
+Device Changelog:
+- Update hyperos cam from 1.0.5.0.UMRMIXM
+- Bring back Thermal Profiles
+- Fixed an issue where links were not opening from Google feed
+- OTA enabled 
+
+Source Changelog:
+- Merged May security patch
+- Fix QS tile shape style options
+- Fix more scrim issues regarding transparency
+- Fix inconsistent default values for heads-up set by AOSP
+- Fix phantom spaces with center clock
+- Nuke oriented navbar handle to fix navbar pill being stuck at landscape 
+- Add back Custom long swipe gesture actions
+- Import more lockscreen clock fonts
+- Add iOS system icon shape
+- Let more system switches be affected by the vibration toggle
+- Enabled application downgrade by default 
+- Add vibration when long pressing QS footer settings button
+- Match background for brightness slider with volume panel changes from AOSP
+- Launch hotspot settings on long click instead of click
+- Bring back Cutout force full screen settings
+- Settings: Add missing icon for Adaptive connectivity 
+- Settings: Add preference for resetting auto brightness adjustment
+- DerpLauncher: Add custom double tap actions 
+- DerpLauncher: Let the launcher settings switches be affected by the vibration toggle
+- DerpLauncher: Add Kill App button to selectable recents overview actions 
+- DerpLauncher: Improve summaries
+- DerpLauncher: Make freeforms launched from shortcut always on top
+- DerpLauncher: Round up total memory to known size
+- TouchGestures: Adapt preferences to material design 
+- Introduce misc haptic settings 
+- Allow turning on Bluetooth when pressing the tile
+- Bring back screenshot sound effect from nos
+- Improvements for island notifications
+- Add switch for colored notification icons in QS
+- Fingerprint authentication vibration
+- Add settings for pulse light face down
+- Allow disabling privacy indicators
+- Make QS footer transparent again
+- Add support for multi-language carrier name override
+- GameSpace: Rework and fix FPS count
+- GameSpace: Migrate to Material3 Switch
+- ParallelSpace: Add basic space settings for each space
+- ParallelSpace: Create space with default name if no name is entered
+- ParallelSpace: Update dependencies
+- ParallelSpace: Migrate to SwitchPreferenceCompat and Material3 Switch
+- OmniStyle: Make header container more big & round
+- OmniStyle: Add GMLRv2 Collection
+- OmniStyle: Add One-piece Anime pack
+- OmniStyle: Add Kimetsu no Yaiba Headers
+
 
 Known Bugs with LoS Based Trees:
-- Auto Brightness just works like One Shot Auto Brightness
+- Auto Brightness works like One Shot Auto Brightness
 - Dolby Vision wont work
-- Vibrations might be slightly weak
-
-Source Changelog
-- Merge QPR2 and April sec patch
-- Migrate everything to new qpr2 switch style 
-- Reworked whole DerpLauncher
-- Removed lockscreen media art, hide status bar lockscreen, clock background chip, misc haptics and fp vibration switch due to need of rewrite 
-- Replace reticker with Island notifications from Rising
-- DerpSpace: Add support for clock auto-hiding
-- DerpSpace: Add Omni weather
-- Gramophone -> Accord
-- Fix status bar clock prefs
-- Fix navbar inversion toggle 
-- Fix flash on call seekbar resetting 
-- Drop duplicated system update shortcut
-- Remove Omni weather in favor of Google Smartspace
-- Make Google search bar monet themable again 
-- Add back Pixel framework
-- Add quick settings pull down with one finger
-- Allow to always show the time in media player
-- Add option to keep the screen awake while screen recording
-- Add Pixel Navbar animation toggle
-- DerpLauncher: QuickstepAtomicAnimationFactory: Add null checks to prevent NPE
-- DerpLauncher: quickstep: TouchInteractionService: Do not crash on boot
+- If u feel Vibrations are weak, use melt kernel
+- If u face flickering issue at low brightness, either use 120Hz option or just turn ON the toggle "Disable HW overlays" from developer options
