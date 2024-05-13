@@ -1,33 +1,27 @@
 Source Changelog: 
-- Fix status bar clock prefs
-- Fix navbar inversion toggle 
-- Fix flash on call seekbar resetting 
-- Drop duplicated system update shortcut
-- Remove Omni weather in favor of Google Smartspace
-- Make Google search bar monet themable again 
-- Add back Pixel framework
-- Add quick settings pull down with one finger
-- Allow to always show the time in media player
-- Add option to keep the screen awake while screen recording
-- Add Pixel Navbar animation toggle
-- DerpLauncher: QuickstepAtomicAnimationFactory: Add null checks to prevent NPE
-- DerpLauncher: quickstep: TouchInteractionService: Do not crash on boot
+- Merged May Security Patch
+- Changed gapps source
 
 Device changelog 
 - user build
-- Surya: props: Fixup FUSE passthrough location
-- Surya: props: Optimize package manager dexopt
+- Rebase Devive Tree
+- surya: props: Prefer 'cache' backing storage
+- surya: Build android.media.audio.common.types-V2-cpp
+- Revert "surya: power: Import powerhint from Pixel 4A"
+- Revert "surya: power: Remove Google-specific camera hints"
+- Revert "surya: power: Decrease launch boost to 3sec"
+- Revert "surya: power: Change default GPU idle timeout to 60ms"
+- surya: overlay: Fine-tune statusbar paddings & hights
 
 Kernel changelog :
-- upstream kernel to 343 
+- upstream kernel to 344 openela 
 - Update Kernelsu
 
 notes : 
 - FW, Gapps Always Include
-- Clean flash always recommended, but you can dirty from previous
+- clean flash from previous build, don't dirty flash
 
 Credits : 
 - thanks @azrim89 for kernel (based Silont richelieu)
-- thanks to rd and Muichiro for fix error
 - thanks for all dev Surya
 - and thanks for all support donation
