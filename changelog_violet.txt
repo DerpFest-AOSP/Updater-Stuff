@@ -1,13 +1,16 @@
 DerpFest 14 STABLE | OFFICIAL
 By ~ @selfmuser
-Build Date : 01-05-2024
+Build Date : 17-05-2024
 Device : Redmi Note 7 Pro ( Violet )
 
 Device Changes :
+- config: DEXPREOPT DerpLauncherQuickStep, SettingsGoogle and SystemUIGoogle
+- Dropped selinux neverallow flag
+- sepolicy: Remove app_data_file
+- Patch lib-imsvideocodec.so to Fix carrier video calls 
 - Added Basic Call Recorder v1.62
 - Added support MIUI CAM 
 - Upstream kernel to v4.14.343-openela
-- Added SystemUI-Weather clock from lynx-ap1a.240405.002
 - rootdir: Boost performance during bootup
 - Parts: Play Clear Speaker Audio upto 60s
 - Increase 5 GHz network signal tolerance
@@ -17,6 +20,31 @@ Device Changes :
 - Enable WPA2 to WPA3 auto-upgrade
 
 ROM changes:
+
+- Merged May security patch
+- Fix QS tile shape style options
+- Fix more scrim issues regarding transparency
+- Fix inconsistent default values for heads-up set by AOSP
+- Fix phantom spaces with center clock
+- Nuke oriented navbar handle to fix navbar pill being stuck at landscape 
+- Add back Custom long swipe gesture actions
+- Import more lockscreen clock fonts
+- Add iOS system icon shape
+- Let more system switches be affected by the vibration toggle
+- Allow application downgrade
+- Add vibration when long pressing QS footer settings button
+- Match background for brightness slider with volume panel changes from AOSP
+- Launch hotspot settings on long click instead of click
+- Bring back Cutout force full screen settings
+- Settings: Add missing icon for Adaptive connectivity 
+- Settings: Add preference for resetting auto brightness adjustment
+- DerpLauncher: Add custom double tap actions 
+- DerpLauncher: Let the launcher settings switches be affected by the vibration toggle
+- DerpLauncher: Add Kill App button to selectable recents overview actions 
+- DerpLauncher: Improve summaries
+- DerpLauncher: Make freeforms launched from shortcut always on top
+- DerpLauncher: Round up total memory to known size
+- TouchGestures: Adapt preferences to material design
 - Introduce misc haptic settings 
 - Allow turning on Bluetooth when pressing the tile
 - Bring back screenshot sound effect from nos
@@ -33,31 +61,12 @@ ROM changes:
 - ParallelSpace: Create space with default name if no name is entered
 - ParallelSpace: Update dependencies
 - ParallelSpace: Migrate to SwitchPreferenceCompat and Material3 Switch
-- OmniStyle: Make header container more big & round
-- Fix status bar clock prefs
-- Fix navbar inversion toggle 
-- Fix flash on call seekbar resetting 
-- Drop duplicated system update shortcut
-- Remove Omni weather in favor of Google Smartspace
-- Make Google search bar monet themable again 
 - Add back Pixel framework
 - Add quick settings pull down with one finger
 - Allow to always show the time in media player
 - Add Pixel Navbar animation toggle
 - DerpLauncher: QuickstepAtomicAnimationFactory: Add null checks to prevent NPE
 - DerpLauncher: quickstep: TouchInteractionService: Do not crash on boot
-- Update fingerprint for play integrity
-- Migrate everything to SwitchPreferenceCompat
-- Reworked whole DerpLauncher
-- Removed lockscreen media art, hide status bar lockscreen, clock background chip and fp vibration switch due to need of rewrite 
-- Replace reticker with Island notifications from Rising
-- Add Custom carrier label & carrier label placement
-- Add Screen off animations
-- Add lockscreen charging info switch
-- BatteryMeterViewController: register settings observer for all users and reload settings on user change
-- Compress custom file headers properly
-- Settings: Re-organize sound settings
-- Fix custom seekbar pref disabled color views
-- DerpSpace: Add support for clock auto-hiding
+- Update fingerprint for play integrity 
 - ...more I propably missed.
 
