@@ -1,38 +1,41 @@
 ====================
-    11-04-2024     
+    18-05-2024     
 ====================
 
 # DerpFest Platform | Source Changelog
 
-- Merge QPR2 and April sec patch
-- Introduce optional haptic feedback everywhere
-- Add Custom Carrier Label & Carrier Label Placement
-- Add Screen off animations
-- Add lockscreen charging info switch
-- Fix battery stats not resetting
-- Fixup Screenshot sound
-- Settings: Re-organize sound settings
-- Settings: Add QS tile for refresh rate indicator to dev settings
-- ThemePicker: Add UI Styles
-- DerpSpace: Add missing summaries to listpreferences
-- DerpSpace: Disable settings for gravity and mirroring, when no pulse is enabled
-- Migrate everything to new qpr2 switch style 
-- Reworked whole DerpLauncher
-- Removed lockscreen media art, hide status bar lockscreen, clock background chip, misc haptics and fp vibration switch due to need of rewrite 
-- Replace reticker with Island notifications from Rising
-- DerpSpace: Add support for clock auto-hiding
-- DerpSpace: Add Omni weather
-- Gramophone -> Accord
+- Merge May security patch
+- Fix QS tile shape style options
+- Fix more scrim issues regarding transparency
+- Fix inconsistent default values for heads-up set by AOSP
+- Fix phantom spaces with center clock
+- Nuke oriented navbar handle to fix navbar pill being stuck at landscape 
+- Add back Custom long swipe gesture actions
+- Import more lockscreen clock fonts
+- Add iOS system icon shape
+- Let more system switches be affected by the vibration toggle
+- Allow application downgrade
+- Add vibration when long pressing QS footer settings button
+- Match background for brightness slider with volume panel changes from AOSP
+- Launch hotspot settings on long click instead of click
+- Bring back Cutout force full screen settings
+- Settings: Add missing icon for Adaptive connectivity 
+- Settings: Add preference for resetting auto brightness adjustment
+- DerpLauncher: Add custom double tap actions 
+- DerpLauncher: Let the launcher settings switches be affected by the vibration toggle
+- DerpLauncher: Add Kill App button to selectable recents overview actions 
+- DerpLauncher: Improve summaries
+- DerpLauncher: Make freeforms launched from shortcut always on top
+- DerpLauncher: Round up total memory to known size
 
 ----------------------------------------------------------------------
 
 # Device LeMax2 | MaxPlus | Changelog | Fixes
 
-- MaxPlus Unifications - implements
-- Bring back mock hidl power stats
-- Label perf 2.0
-- Add power.stats to satisfy FCM
+- MaxPlus fixes - implements
+- Fix duplicate sysprop error
 - Kernel changes for MaxPlus Sharp panel
+- Performance thermal as default
 - Small system fixes...
 
 ====================
