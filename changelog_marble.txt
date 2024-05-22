@@ -1,60 +1,15 @@
-# 13-May-2024
+# 22-May-2024
 
 Device Changelog:
-- Update hyperos cam from 1.0.5.0.UMRMIXM
-- Bring back Thermal Profiles
-- Fixed an issue where links were not opening from Google feed
-- OTA enabled 
+- Fixed Auto Brightness issue
+- Haptics improved
+- Screen flickering at low brightness is addressed to some extent (very less flickers now)
 
-Source Changelog:
-- Merged May security patch
-- Fix QS tile shape style options
-- Fix more scrim issues regarding transparency
-- Fix inconsistent default values for heads-up set by AOSP
-- Fix phantom spaces with center clock
-- Nuke oriented navbar handle to fix navbar pill being stuck at landscape 
-- Add back Custom long swipe gesture actions
-- Import more lockscreen clock fonts
-- Add iOS system icon shape
-- Let more system switches be affected by the vibration toggle
-- Enabled application downgrade by default 
-- Add vibration when long pressing QS footer settings button
-- Match background for brightness slider with volume panel changes from AOSP
-- Launch hotspot settings on long click instead of click
-- Bring back Cutout force full screen settings
-- Settings: Add missing icon for Adaptive connectivity 
-- Settings: Add preference for resetting auto brightness adjustment
-- DerpLauncher: Add custom double tap actions 
-- DerpLauncher: Let the launcher settings switches be affected by the vibration toggle
-- DerpLauncher: Add Kill App button to selectable recents overview actions 
-- DerpLauncher: Improve summaries
-- DerpLauncher: Make freeforms launched from shortcut always on top
-- DerpLauncher: Round up total memory to known size
-- TouchGestures: Adapt preferences to material design 
-- Introduce misc haptic settings 
-- Allow turning on Bluetooth when pressing the tile
-- Bring back screenshot sound effect from nos
-- Improvements for island notifications
-- Add switch for colored notification icons in QS
-- Fingerprint authentication vibration
-- Add settings for pulse light face down
-- Allow disabling privacy indicators
-- Make QS footer transparent again
-- Add support for multi-language carrier name override
-- GameSpace: Rework and fix FPS count
-- GameSpace: Migrate to Material3 Switch
-- ParallelSpace: Add basic space settings for each space
-- ParallelSpace: Create space with default name if no name is entered
-- ParallelSpace: Update dependencies
-- ParallelSpace: Migrate to SwitchPreferenceCompat and Material3 Switch
-- OmniStyle: Make header container more big & round
-- OmniStyle: Add GMLRv2 Collection
-- OmniStyle: Add One-piece Anime pack
-- OmniStyle: Add Kimetsu no Yaiba Headers
-
-
-Known Bugs with LoS Based Trees:
-- Auto Brightness works like One Shot Auto Brightness
-- Dolby Vision wont work
-- If u feel Vibrations are weak, use melt kernel
-- If u face flickering issue at low brightness, either use 120Hz option or just turn ON the toggle "Disable HW overlays" from developer options
+Source changelog:
+- Update fingerprint for play integrity
+- Add per-app Firewall from Calyx
+- Bring back tuner navbar editor from Android 7
+- Add toggle for squiggle animation
+- DerpLauncher: Fix kill app button drawable for regular design
+- DerpLauncher: Gestures: Set sleep as default
+- DerpLauncher: Move shake gesture pref up
