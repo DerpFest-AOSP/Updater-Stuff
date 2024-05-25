@@ -1,6 +1,12 @@
 Derp source changelog:
-- Merged May Security Patch
-- Changed gapps source
+- Changes in pixelproputils
+- Device integrity passes again
+- Added firewall
+- Probably some another changes as well :P
 
 Device changelog:
-- Upstreamed kernel to 4.14.344 from openela
+- Remove megvii shim, build stub packages instead
+- Switch to lineage common power-libperfmgr && qcom-caf/common dummy libqti-perfd-client
+- Address some sepolicy denials
+
+NOTE: Due to this build is signed with keys, Updater will refuse to update build via OTA, flash it manually using adb sideload (dirty flash works), as well if any issue will happen when flashing new build update derp's recovery(https://sourceforge.net/projects/derpfest/files/davinci/recovery.img/download)
