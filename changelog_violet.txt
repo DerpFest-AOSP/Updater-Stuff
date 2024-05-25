@@ -1,72 +1,41 @@
 DerpFest 14 STABLE | OFFICIAL
 By ~ @selfmuser
-Build Date : 17-05-2024
+Build Date : 26-05-2024
 Device : Redmi Note 7 Pro ( Violet )
 
 Device Changes :
+- Removed SystemUIClocks-NumOverlap to prevent soft brick due to custom clocks 
+- Added ViPER4AndroidFXRepackaged v2.7.2.1-v87 as a prebuilt app
+- Added BCR v1.63 update
+- Remove selinux neverallow flag in favour of user build
+- sepolicy: Don't audit more diag denials
+- Finetune performance xml
+- media: Update max correct resolution for hevc encoder in xml
+- media: Update max resolution from True4k to UHD.
+- media: Remove VP9 secure decoder configs
+- Update BUILD_FINGERPRINT from MIUI Global
 - config: DEXPREOPT DerpLauncherQuickStep, SettingsGoogle and SystemUIGoogle
-- Dropped selinux neverallow flag
-- sepolicy: Remove app_data_file
 - Patch lib-imsvideocodec.so to Fix carrier video calls 
-- Added Basic Call Recorder v1.62
 - Added support MIUI CAM 
 - Upstream kernel to v4.14.343-openela
-- rootdir: Boost performance during bootup
-- Parts: Play Clear Speaker Audio upto 60s
-- Increase 5 GHz network signal tolerance
-- Opt for SCUDO and bypass jemalloc
-- CarrierConfig: Update to LA.QSSI.14.0.r1-12000-qssi.0
-- Update system blobs
-- Enable WPA2 to WPA3 auto-upgrade
+
 
 ROM changes:
 
-- Merged May security patch
-- Fix QS tile shape style options
-- Fix more scrim issues regarding transparency
-- Fix inconsistent default values for heads-up set by AOSP
-- Fix phantom spaces with center clock
-- Nuke oriented navbar handle to fix navbar pill being stuck at landscape 
-- Add back Custom long swipe gesture actions
-- Import more lockscreen clock fonts
-- Add iOS system icon shape
-- Let more system switches be affected by the vibration toggle
-- Allow application downgrade
-- Add vibration when long pressing QS footer settings button
-- Match background for brightness slider with volume panel changes from AOSP
-- Launch hotspot settings on long click instead of click
-- Bring back Cutout force full screen settings
-- Settings: Add missing icon for Adaptive connectivity 
-- Settings: Add preference for resetting auto brightness adjustment
-- DerpLauncher: Add custom double tap actions 
-- DerpLauncher: Let the launcher settings switches be affected by the vibration toggle
-- DerpLauncher: Add Kill App button to selectable recents overview actions 
-- DerpLauncher: Improve summaries
-- DerpLauncher: Make freeforms launched from shortcut always on top
-- DerpLauncher: Round up total memory to known size
-- TouchGestures: Adapt preferences to material design
-- Introduce misc haptic settings 
-- Allow turning on Bluetooth when pressing the tile
-- Bring back screenshot sound effect from nos
-- Improvements for island notifications
-- Add switch for colored notification icons in QS
-- Fingerprint authentication vibration
-- Add settings for pulse light face down
-- Allow disabling privacy indicators
-- Make QS footer transparent again
-- Add support for multi-language carrier name override
-- GameSpace: Rework and fix FPS count
-- GameSpace: Migrate to Material3 Switch
-- ParallelSpace: Add basic space settings for each space
-- ParallelSpace: Create space with default name if no name is entered
-- ParallelSpace: Update dependencies
-- ParallelSpace: Migrate to SwitchPreferenceCompat and Material3 Switch
-- Add back Pixel framework
-- Add quick settings pull down with one finger
-- Allow to always show the time in media player
-- Add Pixel Navbar animation toggle
-- DerpLauncher: QuickstepAtomicAnimationFactory: Add null checks to prevent NPE
-- DerpLauncher: quickstep: TouchInteractionService: Do not crash on boot
-- Update fingerprint for play integrity 
-- ...more I propably missed.
+- Changes in pixelproputils
+- Device integrity passes by default 
+- Signed user build rom ( to fix play integrity )
+- Introduce Depthwallpaper Feature
+- Added Custom Lockscreen Clocks 
+- Added Firewall from CalyxOS
+- Derplauncher: Redesign Settings homepage 
+- services: Don't enable user switcher when creating parallel space
+- Implement firewall status bar indicator
+- SystemUI: Controllable squiggle animation [1/2]
+- Porting menu button from pie to new pipeline
+- Added Power menu extra styles 
+- Probably some another changes & fixes as well..... 
+( Read changelogs from Settings>About>Android Version>Changelogs )
 
+
+NOTE For Encrypted Users : Due to this build is signed with keys, Updater will refuse to update build via OTA, flash it manually using adb sideload (dirty flash works), as well if any issue will happen when flashing new build update derp's recovery (https://sourceforge.net/projects/derpfest/files/violet/recovery-derp/recovery-derp-20240525.img/download)
