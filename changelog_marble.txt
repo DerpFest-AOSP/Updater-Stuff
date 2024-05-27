@@ -1,15 +1,14 @@
-# 22-May-2024
+# 27-May-2024
 
 Device Changelog:
-- Fixed Auto Brightness issue
-- Haptics improved
-- Screen flickering at low brightness is addressed to some extent (very less flickers now)
+- Signed build to pass Play Integrity again
+- Updated BCR App to latest 1.63
+- Added support for Google Dialer call recording 
 
-Source changelog:
-- Update fingerprint for play integrity
-- Add per-app Firewall from Calyx
-- Bring back tuner navbar editor from Android 7
-- Add toggle for squiggle animation
-- DerpLauncher: Fix kill app button drawable for regular design
-- DerpLauncher: Gestures: Set sleep as default
-- DerpLauncher: Move shake gesture pref up
+Source Changelog:
+- Update spoofing method and fp for play integrity
+- NavBarTuner: Disable unsupported preferences on gesture nav
+- NavBarEditor: Use HOME_HANDLE as home for gesture nav
+- Update QS carrier text color on theme change
+- SettingsLib: Improve segmented buttons UI
+- Add back quick tap feature
