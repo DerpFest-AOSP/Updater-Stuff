@@ -3,19 +3,16 @@ Build type: Monthly
 Device: Redmi Note 10 Pro (sweet)
 Device maintainer: JYR_RC
 
---------------12/05/24----------------
+
+--------------27/05/24----------------
 
 Device Changelog:
 
-    Fixed infrared remote
-    Fixed Cast
+    Integrity pass defaul (signed build)
     Erofs Build
-
-
-Rom Changelog:
-
-    Merged May Security Patch
-    Changed gapps source
+    Sync Sources 26/05/2024
+    Build Gapps
+    INSTALL CLEAN MANDATORY
 
 
 --------------05/05/24----------------
