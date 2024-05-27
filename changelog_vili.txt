@@ -1,74 +1,24 @@
 DerpFest 14 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 22-05-2024
+Build Date : 26-05-2024
 Device : Xiaomi 11T Pro ( vili )
 
 
 Source:
-- Merge May security patch
-- Fix QS tile shape style options
-- Fix more scrim issues regarding transparency
-- Fix inconsistent default values for heads-up set by AOSP
-- Fix phantom spaces with center clock
-- Nuke oriented navbar handle to fix navbar pill being stuck at landscape 
-- Add back Custom long swipe gesture actions
-- Import more lockscreen clock fonts
-- Add iOS system icon shape
-- Let more system switches be affected by the vibration toggle
-- Allow application downgrade
-- Add vibration when long pressing QS footer settings button
-- Match background for brightness slider with volume panel changes from AOSP
-- Launch hotspot settings on long click instead of click
-- Bring back Cutout force full screen settings
-- Settings: Add missing icon for Adaptive connectivity 
-- Settings: Add preference for resetting auto brightness adjustment
-- DerpLauncher: Add custom double tap actions 
-- DerpLauncher: Let the launcher settings switches be affected by the vibration toggle
-- DerpLauncher: Add Kill App button to selectable recents overview actions 
-- DerpLauncher: Improve summaries
-- DerpLauncher: Make freeforms launched from shortcut always on top
-- DerpLauncher: Round up total memory to known size
-- Update fingerprint for play integrity
-- Add per-app Firewall from Calyx
-- Bring back tuner navbar editor from Android 7
-- Add toggle for squiggle animation
-- DerpLauncher: Fix kill app button drawable for regular design
-- DerpLauncher: Gestures: Set sleep as default
-- DerpLauncher: Move shake gesture pref up
+- Update spoofing method and fp for play integrity
+- NavBarTuner: Disable unsupported preferences on gesture nav
+- NavBarEditor: Use HOME_HANDLE as home for gesture nav
+- Update QS carrier text color on theme change
+- SettingsLib: Improve segmented buttons UI
+- PixelPropUtils: Fix unlimited photos again
+- PixelPropUtils: Do not spoof unspecified packages as barbet
+- Add back quick tap
 
 Personal source changes:
-- Added Depth Wallpapers and lockscreen clocks (credits to yograjfire18)
-- Fixed crashes for several apps caused by ART
-- Enabled expensive rendering hints for lahaina
-- Added a toggle for LTE_CA
-- Attempted to fix random reboots and soft reboots
+- Removed custom lockscreen clocks for now (caused systemUI crashes)
 
 Device:
-- Updated vili specific blobs to V816.0.2.0.UKDMIXM (credits to TheStrechh)
-- Updated included firmware to V816.0.2.0.UKDMIXM
-- Updated common blobs from Haydn V816.0.2.0.UKKMIXM
-- Added some missing dolby atmos props
-- Added props for better RAM management
-- Set thread count for dex2oat
-- Dropped QTI thermal HAL service
-- Dropped livedisplay leftovers and switched to simple RGB adjustments (can be found in display color settings)
-- Adjust cpu sets for background tasks
-- Now it should show "Turbo charging" instead of "charging rapidly"
-- Downgraded netmgrd to LAHAINA-19300 (should fix VoWifi)
-- Updated CarrierConfig from Nothing phone (2) and LA.QSSI.14.0.r1-12000-qssi.0
-- Disabled unsupported perf resources
-- Enabled 'core' config for Multi-Gen LRU
+- Signed user build to pass play integrity
+- Label missing wakeup nodes
 
-Kernel:
-- Updated KSU to the latest version
-- Rebased to latest LineageOS kernel
-- Upstreamed to 5.4.276
-- Added support for Lazy RCU
-- Re-enabled Multi-Gen LRU
-- Added support teo idle scheduler
-- Added support EEVDF cpu scheduler
-- Improvements for CPU input boosts
-- Dropped unnecessary debug configs
-- Switched to step-wise thermal governor
-- Derped it, cause why not
-- Various other performance improvements
+IMPORTANT NOTE: Due to this build being signed with new keys, updater will refuse to update via OTA. Flash it manually by updating your derp recovery with the new files and using adb sideload, or just flash with twrp.
