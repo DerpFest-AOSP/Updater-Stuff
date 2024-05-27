@@ -1,28 +1,17 @@
 Device Changes:
-- FM Radio support
-- Post boot optimization
+- Signed build to pass Play Integrity again
+- Thermal optimizations
 
 ROM:
-- Merge May security patch
-- Fix QS tile shape style options
-- Fix more scrim issues regarding transparency
-- Fix inconsistent default values for heads-up set by AOSP
-- Fix phantom spaces with center clock
-- Nuke oriented navbar handle to fix navbar pill being stuck at landscape
-- Add back Custom long swipe gesture actions
-- Import more lockscreen clock fonts
-- Add iOS system icon shape
-- Let more system switches be affected by the vibration toggle
-- Allow application downgrade
-- Add vibration when long pressing QS footer settings button
-- Match background for brightness slider with volume panel changes from AOSP
-- Launch hotspot settings on long click instead of click
-- Bring back Cutout force full screen settings
-- Settings: Add missing icon for Adaptive connectivity
-- Settings: Add preference for resetting auto brightness adjustment
-- DerpLauncher: Add custom double tap actions
-- DerpLauncher: Let the launcher settings switches be affected by the vibration toggle
-- DerpLauncher: Add Kill App button to selectable recents overview actions
-- DerpLauncher: Improve summaries
-- DerpLauncher: Make freeforms launched from shortcut always on top
-- DerpLauncher: Round up total memory to known size
+- Update spoofing method and fp for play integrity
+- NavBarTuner: Disable unsupported preferences on gesture nav
+- NavBarEditor: Use HOME_HANDLE as home for gesture nav
+- Update QS carrier text color on theme change
+- SettingsLib: Improve segmented buttons UI
+- Add back quick tap feature
+- Add per-app Firewall from Calyx
+- Bring back tuner navbar editor from Android 7
+- Add toggle for squiggle animation
+- DerpLauncher: Fix kill app button drawable for regular design
+- DerpLauncher: Gestures: Set sleep as default
+- DerpLauncher: Move shake gesture pref up
