@@ -1,5 +1,5 @@
 Device Changes:
-- Initial QPR2 build
+- Hotfix build: Resolve BT Audio issues
 
 DerpFest Source Changes:
 - Merged May Security Patch
