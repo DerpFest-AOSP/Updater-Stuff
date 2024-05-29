@@ -1,0 +1,9 @@
+Device Changes:
+Remove zen-io
+
+DerpFest Source Changes:
+- Merged May Security Patch
+- Changed gapps source
+- Changes in pixelproputils
+- Device integrity passes again
+- Added firewall
