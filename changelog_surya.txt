@@ -1,25 +1,33 @@
 Source Changelog: 
 - Merged May Security Patch
-- Changed gapps source
+- Update spoofing method and fp for play integrity
+- NavBarTuner: Disable unsupported preferences on gesture nav
+- NavBarEditor: Use HOME_HANDLE as home for gesture nav
+- Update QS carrier text color on theme change
+- SettingsLib: Improve segmented buttons UI
+- Add back quick tap feature
+- Add per-app Firewall from Calyx
+- Bring back tuner navbar editor from Android 7
+- Add toggle for squiggle animation
+- DerpLauncher: Fix kill app button drawable for regular design
+- DerpLauncher: Gestures: Set sleep as default
+- DerpLauncher: Move shake gesture pref up
 
 Device changelog 
 - user build
-- Rebase Devive Tree
-- surya: props: Prefer 'cache' backing storage
-- surya: Build android.media.audio.common.types-V2-cpp
-- Revert "surya: power: Import powerhint from Pixel 4A"
-- Revert "surya: power: Remove Google-specific camera hints"
-- Revert "surya: power: Decrease launch boost to 3sec"
-- Revert "surya: power: Change default GPU idle timeout to 60ms"
-- surya: overlay: Fine-tune statusbar paddings & hights
+- switch powerhint to sunfish
+- Boost I/O performance during bootup
+- perf:Enable sustained performance mode
 
 Kernel changelog :
 - upstream kernel to 344 openela 
 - Update Kernelsu
 
-notes : 
+Notes :
 - FW, Gapps Always Include
-- clean flash from previous build, don't dirty flash
+- Signed Build
+- Cts passed by default 
+- clean flash from previous build, don't try dirty flash
 
 Credits : 
 - thanks @azrim89 for kernel (based Silont richelieu)
