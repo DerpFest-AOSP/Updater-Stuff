@@ -1,24 +1,15 @@
 DerpFest 14 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 26-05-2024
+Build Date : 01-06-2024
 Device : Xiaomi 11T Pro ( vili )
 
 
-Source:
-- Update spoofing method and fp for play integrity
-- NavBarTuner: Disable unsupported preferences on gesture nav
-- NavBarEditor: Use HOME_HANDLE as home for gesture nav
-- Update QS carrier text color on theme change
-- SettingsLib: Improve segmented buttons UI
-- PixelPropUtils: Fix unlimited photos again
-- PixelPropUtils: Do not spoof unspecified packages as barbet
-- Add back quick tap
-
 Personal source changes:
-- Removed custom lockscreen clocks for now (caused systemUI crashes)
+- Dropped depth wallpapers for now
 
 Device:
-- Signed user build to pass play integrity
-- Label missing wakeup nodes
-
-IMPORTANT NOTE: Due to this build being signed with new keys, updater will refuse to update via OTA. Flash it manually by updating your derp recovery with the new files and using adb sideload, or just flash with twrp.
+- Synced latest source changes
+- Switched to mini gapps
+- Props: Disable redir_party_num
+- Restore QTI thermal service
+- Improved surfaceflinger offsets
