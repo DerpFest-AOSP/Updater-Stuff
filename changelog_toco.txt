@@ -1,5 +1,12 @@
 Device Changes:
-- Hotfix build: Resolve BT Audio issues
+- Bring back ViPER4Android FX
+- Implement and switch to using the double_tap node for DT2W
+- Powerhint improvements
+- Remove zram writeback leftovers
+- Ship updated VantomKernel v4.14.345
+- Switch to AIDL NXP NFC HAL
+- Switch to newer Leica Camera 5.0 by ItzDFPlayer
+- Switch to the pixel power-libperfmgr
 
 DerpFest Source Changes:
 - Merged May Security Patch
