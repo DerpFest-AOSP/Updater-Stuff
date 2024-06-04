@@ -1,17 +1,17 @@
 Device Changes:
-- Bring back ViPER4Android FX
-- Implement and switch to using the double_tap node for DT2W
-- Powerhint improvements
-- Remove zram writeback leftovers
-- Ship updated VantomKernel v4.14.345
-- Switch to AIDL NXP NFC HAL
-- Switch to newer Leica Camera 5.0 by ItzDFPlayer
-- Switch to the pixel power-libperfmgr
+- Restore zram writeback
+- Ship updated VantomKernel v4.14.348
 
 DerpFest Source Changes:
-- Merged May Security Patch
-- Changed gapps source
-- Changes in pixelproputils
-- Device integrity passes again
-- Added firewall
-- Probably some other changes as well :P
+- Merge June security patches 
+- Add back Quick tap
+- Update Smartspace code
+- Fix main switch bar preference switches
+- Allowe to disable colored lockscreen clock 
+- WindowDecor: Pass correct displayId for back key event
+- Update QS header fields text appearance on theme change
+- Match keyguard carrier text font with system
+- Wifi Standard: Optimize handling for flooding network requests
+- Improve QS data usage info
+- Replace Glimpse with FossifyGallery
+- Update translations
