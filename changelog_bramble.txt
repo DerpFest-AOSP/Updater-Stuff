@@ -1,9 +1,20 @@
 Device Changes:
-Remove zen-io
 
 DerpFest Source Changes:
-- Merged May Security Patch
-- Changed gapps source
-- Changes in pixelproputils
-- Device integrity passes again
-- Added firewall
+- Merge June security patches 
+- Add back Quick tap
+- Update Smartspace code
+- Fix main switch bar preference switches
+- Allowe to disable colored lockscreen clock 
+- WindowDecor: Pass correct displayId for back key event
+- Update QS header fields text appearance on theme change
+- Match keyguard carrier text font with system
+- Wifi Standard: Optimize handling for flooding network requests
+- Improve QS data usage info
+- Replace Glimpse with FossifyGallery
+- Update translations
+
+Tips:
+There is a known issus about clash, If you using clash to use Telegram and it cant use Telegram normally 
+Plz turn off Setting => Network => Allow ByPass in clash client
+如果你使用clash 類VPN 訪問Telegram 客戶端，請關閉clash  客戶端裡面的 Allow ByPass, 路徑 Setting => Network => Allow ByPass 
