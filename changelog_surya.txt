@@ -1,33 +1,34 @@
 Source Changelog: 
-- Merged May Security Patch
-- Update spoofing method and fp for play integrity
-- NavBarTuner: Disable unsupported preferences on gesture nav
-- NavBarEditor: Use HOME_HANDLE as home for gesture nav
-- Update QS carrier text color on theme change
-- SettingsLib: Improve segmented buttons UI
-- Add back quick tap feature
-- Add per-app Firewall from Calyx
-- Bring back tuner navbar editor from Android 7
-- Add toggle for squiggle animation
-- DerpLauncher: Fix kill app button drawable for regular design
-- DerpLauncher: Gestures: Set sleep as default
-- DerpLauncher: Move shake gesture pref up
+- Merge June security patches 
+- Add back Quick tap
+- Update Smartspace code
+- Fix main switch bar preference switches
+- Allowe to disable colored lockscreen clock 
+- WindowDecor: Pass correct displayId for back key event
+- Update QS header fields text appearance on theme change
+- Match keyguard carrier text font with system
+- Wifi Standard: Optimize handling for flooding network requests
+- Improve QS data usage info
+- Replace Glimpse with FossifyGallery
+- Update translations
 
 Device changelog 
 - user build
-- switch powerhint to sunfish
-- Boost I/O performance during bootup
-- perf:Enable sustained performance mode
+- switch powerhint to default
+- fix Dt2w
+- Switch to AOSP WFD
+- surya: Use common libqti-perfd-client and power-libperfmgr
+
 
 Kernel changelog :
-- upstream kernel to 344 openela 
+- upstream kernel to 348 LTS
 - Update Kernelsu
 
 Notes :
 - FW, Gapps Always Include
 - Signed Build
 - Cts passed by default 
-- clean flash from previous build, don't try dirty flash
+- clean flash always recomended, but you can try dirty flash
 
 Credits : 
 - thanks @azrim89 for kernel (based Silont richelieu)
