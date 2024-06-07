@@ -1,48 +1,46 @@
 DerpFest 14 STABLE | OFFICIAL
-Build Date : 28-05-2024 ( HOTFIX UPDATE )
+Build Date : 07-06-2024 
 Device : Redmi Note 7 Pro 
 By ~ @selfmuser
 
 Device Changes :
 
-- Upstream kernel to v4.14.344-openela 
-- Added BCR v1.63
-- Added ViPER4AndroidFXRepackaged v2.7.2.1-v87
-- Drop "SystemUIClocks-NumOverlap" to prevent soft brick due to custom clocks
-- Fix Carrier Video calling
+- Upstream kernel to v4.14.348-openela 
+- Add Force LTE_CA toggle in network settings
+- Explicitly disable "Enable GL comp backpressure"
+- Bring back support for disabling backpressure propagation
+- Add Fastcharge toggle in battery settings
+- Add Livedisplay v2.1 support
+- Disabled Nightdisplay in favour of Livedisplay
+- Move to common power-libperfmgr
+- Use common libqti-perfd-client and power-libperfmgr
+- Provide a static lib for power mode extension
 - MIUI CAM Included by default
-- Remove selinux neverallow flag in favour of user build
-- sepolicy: Don't audit more diag denials
-- Finetune performance xml
-- media: Update max correct resolution for hevc encoder in xml
-- media: Update max resolution from True4k to UHD.
-- media: Remove VP9 secure decoder configs
- 
+- Fixed root detection for some banking apps ( Apps like Kotak 811 detecting root even without magisk or KSU )
+
 
 ROM changes:
 
 - Device integrity passes by default 
 - Signed user build rom ( to fix play integrity )
-- PixelPropUtils: Fix unlimited photos again
-- PixelPropUtils: Do not spoof unspecified packages as barbet
-- Add back quick tap 
+- Merge June security patches 
+- Add back Quick tap
+- Update Smartspace code
+- Fix main switch bar preference switches
+- Allowe to disable colored lockscreen clock 
+- WindowDecor: Pass correct displayId for back key event
+- Update QS header fields text appearance on theme change
+- Match keyguard carrier text font with system
+- Wifi Standard: Optimize handling for flooding network requests
+- Improve QS data usage info
+- Replace Glimpse with FossifyGallery
+- Update translations
 - Introduce Depthwallpaper Feature
 - Added Custom Lockscreen Clocks 
 - Added Firewall from CalyxOS
-- Update spoofing method and fp for play integrity
-- NavBarTuner: Disable unsupported preferences on gesture nav
-- NavBarEditor: Use HOME_HANDLE as home for gesture nav
-- Update QS carrier text color on theme change
-- SettingsLib: Improve segmented buttons UI
-- Derplauncher: Redesign Settings homepage 
-- services: Don't enable user switcher when creating parallel space
-- Implement firewall status bar indicator
-- SystemUI: Controllable squiggle animation [1/2]
-- Porting menu button from pie to new pipeline
-- Added Power menu extra styles 
 - Probably some another changes & fixes as well..... 
 
 [ Detailed changelogs : Settings>About>Android Version>Changelogs ]
 
 
-NOTE For Encrypted Users : Due to this build is signed with keys, Updater may refuse to update build via OTA, flash it manually using adb sideload (dirty flash works), as well if any issue will happen when flashing new build update derp's recovery ( https://sourceforge.net/projects/derpfest/files/violet/recovery-derp )
+NOTE For Encrypted Users : If Updater won't allow OTA update then you can manually update the rom from any recommended recovery!!
