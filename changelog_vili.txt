@@ -1,28 +1,8 @@
 DerpFest 14 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 07-06-2024
+Build Date : 09-06-2024
 Device : Xiaomi 11T Pro ( vili )
-
-Source:
-- Merge June security patches 
-- Add back Quick tap
-- Update Smartspace code
-- Fix main switch bar preference switches
-- Allow to disable colored lockscreen clock 
-- WindowDecor: Pass correct displayId for back key event
-- Update QS header fields text appearance on theme change
-- Match keyguard carrier text font with system
-- Wifi Standard: Optimize handling for flooding network requests
-- Improve QS data usage info
-- Replace Glimpse with FossifyGallery
-- Update translations
-
-Personal source changes:
-- Fixed FPS counter in Game Space
-- display: Merge tag 'LA.UM.9.14.r1-24700-LAHAINA.QSSI15.0'
-- audio: Merge tag 'LA.UM.9.14.r1-24700-LAHAINA.QSSI15.0'
-- media: Merge tag 'LA.UM.9.14.r1-24700-LAHAINA.QSSI15.0'
 
 Kernel:
 - Dropped KernelSU support. Use APatch or Magisk instead
-- Upstreamed LOS kernel to 5.4.277
+- Switched back to stock LOS kernel
