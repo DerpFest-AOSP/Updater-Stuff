@@ -1,16 +1,10 @@
 Device Changelog
 
-September update 29/09/2023
+June Update
 
-Update blobs from MIUI v14.0.2.0.SJFMIXM
-Update adreno stack
-Added support for Wifi Display (wfd finally fixed!)
-Update gps blobs from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
-* keep few xtra-daemon deps from stock as seems be still use in different section for avoid issues in extracting blobs
-Add back vendor perf stack into tree and break -perf vendor tree dependency
-Add missing perf blob
-Fixed Xiaomi parts
-* now you can find dirac sound enhancer in Sound and Vibration setting 
-Fixed audio distortion in some games like Call Of Duty after updating blobs
-Add missing prop for FM radio
-Add prebuilt textclassifier
+Drop adreno blobs from bangkk
+update blobs from devon
+Moved to libpermgr 
+Update WFD blobs to U
+Fixed lags in qs and homescreen with blur 
+Shipping Non ksu varient of electro kernel
