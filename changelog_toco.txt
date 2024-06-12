@@ -1,17 +1,5 @@
 Device Changes:
-- Restore zram writeback
-- Ship updated VantomKernel v4.14.348
+- Update to ViPER4Android FX Redesign 6.3
 
 DerpFest Source Changes:
-- Merge June security patches 
-- Add back Quick tap
-- Update Smartspace code
-- Fix main switch bar preference switches
-- Allowe to disable colored lockscreen clock 
-- WindowDecor: Pass correct displayId for back key event
-- Update QS header fields text appearance on theme change
-- Match keyguard carrier text font with system
-- Wifi Standard: Optimize handling for flooding network requests
-- Improve QS data usage info
-- Replace Glimpse with FossifyGallery
-- Update translations
+- Source upstream
