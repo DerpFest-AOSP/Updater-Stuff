@@ -1,29 +1,12 @@
 Rom Changelog 
 
-11-21-2023     
+06-18-2024     
 ====================
-\n* frameworks/base\nde88a97  SystemUI: Improve bouncer layout  [Anushek Prasal]\n
-\n* vendor/pixel-framework\n9c0516e  pixel-framework: Remove Google Elmyra  [ExactExampl]\n
-
-====================
-    11-20-2023     
-====================
-
-====================
-    11-19-2023     
-====================
-
-====================
-    11-18-2023     
-====================
-\n* frameworks/base\n86a2cf8  PixelPropUtils: Make play integrity pass again  [saikiran2001]
-81a9466  SystemUI: add wave fade-out animation to qs media player  [nift4]
-6db40c9  Fix scrim inset bug in landscape shade  [Shawn Lee]
-af04243  Revert "SystemUI: Turn less boring headsup whitelist into an overlay"  [NurKeinNeid]
-388ee26  Revert "Rework "SystemUI: Turn less boring headsup whitelist into an overlay""  [NurKeinNeid]\n
+Add rom signed
+June patch 
 
 Kernel Changes:
-Update upsteam to 4.14.330
+Update upsteam to 4.14.348
 
 Device:
 - Do not set forcily set camera sound props on Japan SKU
@@ -34,5 +17,16 @@ Device:
 - Build Full ElmyraService(Active Edge) instead of Pixel-Framework one
 - Make user build
 
+Kernel:
+Remove KSU according to somebodu request,i would provide ksu one later	
+bpf fake uname to 5.4, you could use this boot.img boot google gsi in dsu
+or flash it on a14 rom to boot
+
+TODAY IS MY FRIEND'S BIRTHDAY, HAPPY BIRTHDAY TO HIM(Me?)
 Please check this before pm 
 http://nohello.net 
+
+Tips:
+There is a known issus about clash, If you using clash to use Telegram and it cant use Telegram normally 
+Plz turn off Setting => Network => Allow ByPass in clash client
+如果你使用clash 類VPN 訪問Telegram 客戶端，請關閉clash  客戶端裡面的 Allow ByPass, 路徑 Setting => Network => Allow ByPass 
