@@ -19,10 +19,9 @@ Device:
 
 Kernel:
 Remove KSU according to somebodu request,i would provide ksu one later	
-bpf fake uname to 5.4, you could use this boot.img boot google gsi in dsu
-or flash it on a14 rom to boot
+bpf fake uname to 5.4, you could bypass bpf limit of some gsi such google's 
+Update Simplelink
 
-TODAY IS MY FRIEND'S BIRTHDAY, HAPPY BIRTHDAY TO HIM(Me?)
 Please check this before pm 
 http://nohello.net 
 
