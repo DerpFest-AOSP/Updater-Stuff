@@ -1,41 +1,33 @@
 ====================
-    18-05-2024     
+    21-06-2024     
 ====================
 
-# DerpFest Platform | Source Changelog
+# DerpFest Platform | A13 Source Changelog
 
-- Merge May security patch
-- Fix QS tile shape style options
-- Fix more scrim issues regarding transparency
-- Fix inconsistent default values for heads-up set by AOSP
-- Fix phantom spaces with center clock
-- Nuke oriented navbar handle to fix navbar pill being stuck at landscape 
-- Add back Custom long swipe gesture actions
-- Import more lockscreen clock fonts
-- Add iOS system icon shape
-- Let more system switches be affected by the vibration toggle
-- Allow application downgrade
-- Add vibration when long pressing QS footer settings button
-- Match background for brightness slider with volume panel changes from AOSP
-- Launch hotspot settings on long click instead of click
-- Bring back Cutout force full screen settings
-- Settings: Add missing icon for Adaptive connectivity 
-- Settings: Add preference for resetting auto brightness adjustment
-- DerpLauncher: Add custom double tap actions 
-- DerpLauncher: Let the launcher settings switches be affected by the vibration toggle
-- DerpLauncher: Add Kill App button to selectable recents overview actions 
-- DerpLauncher: Improve summaries
-- DerpLauncher: Make freeforms launched from shortcut always on top
-- DerpLauncher: Round up total memory to known size
+- Merge June 2024 security patches
+- Bump Security String to 2024-06-05 
+- core: Switch to mkrbin for copying crash logs
+- WiredAccessoryManager: replace every non digit character
+- SystemUI: Add Switch Styles from Iconify [1/3]
+- DerpSpace: Add Switch Styles from Iconify [2/3]
+- derp: Update CUSTOM_SECURITY_PATCH for June 2024 Security update
+- config: Conditionally enable dev keys signing
+- config/version: PRODUCT_VERITY_SIGNING_KEY is deprecated
+- signing: support inline signing for U [2/2]
+- version: Sign every build variant but eng
+- manifest: Track fontage from U
+- Update translations
 
 ----------------------------------------------------------------------
 
 # Device LeMax2 | MaxPlus | Changelog | Fixes
 
-- MaxPlus fixes - implements
-- Fix duplicate sysprop error
-- Kernel changes for MaxPlus Sharp panel
-- Performance thermal as default
+- Removed some Gapps to make it lighter and faster
+- x2: Return back to our FP
+- Update changelog and configs
+- Small Kernel changes
+- Small thermal fixes
 - Small system fixes...
 
 ====================
+
