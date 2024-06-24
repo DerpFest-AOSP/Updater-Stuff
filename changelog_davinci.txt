@@ -1,21 +1,14 @@
 Derp source changelog:
-- Merged June Security Patch
-- Add back Quick tap
-- Update Smartspace code
-- Fix main switch bar preference switches
-- Allowe to disable colored lockscreen clock 
-- WindowDecor: Pass correct displayId for back key event
-- Update QS header fields text appearance on theme change
-- Match keyguard carrier text font with system
-- Wifi Standard: Optimize handling for flooding network requests
-- Improve QS data usage info
-- Replace Glimpse with FossifyGallery
-- Update translations
+- Merged Android 14 QPR3
 
 Device changelog:
-- Update kernel to openela lts 4.14.348
-- Update GPS blobs and hal to LA.UM.9.15.2.r1-09400-KAMORTA.QSSI14.0
-- Update system blobs from LA.QSSI.14.0.r1-14100-qssi.0
+- Add missing EGL symlinks
+- Some init script cleanup
+- RAM management should be improved
+- Update system blobs from LA.QSSI.14.0.r1-15100-qssi.0
 - Update unpinned blobs from Redmi Note 12 Pro 4G latest hyperOS release
-- Remove dead props
-- Use proper fix for too dim lowest brightness
+- Fix MTE disable prop
+- Switched back to QCOM wrappedkey encryption (format data is NEEDED)
+
+Info: DON'T try updating to that build from old one without formatting data, it won't work and most likely you will lose your data!!!
+Updating derp recovery to newer is recommended if there is any problem with flashing.
