@@ -1,19 +1,14 @@
-# 05-June-2024
+# 25-June-2024
 
 Device Changelog:
-- Switch back to Pico Gapps in tune with source side changes 
-- Updated Build Fingerprint  
-- Updated ViperFX to latest 6.3
-- Fixed Maintainer Telegram link throwing error from about phone 
+- Fixed flickering issues at Low Brightness & AoD
+- Silenced some spammy logging 
+- Updated Adreno blobs from chenfeng V816.0.5.0.UNJCNXM
+- Added back support for Dolby spatial audio 
+- Refactored Clear Speaker Fragment code 
+- Import missing media codecs from stock 
+- Updated BCR App to v1.64
+- Shipped with DerpFest's Flash camera instead of Hypercam (Hypercam broken after QPR3, Hotfix once Hypercam is Ready)
 
 Source Changelog: 
-- Merge June security patches 
-- Update Smartspace code
-- Fix main switch bar preference switches
-- Allow to disable colored lockscreen clock 
-- WindowDecor: Pass correct displayId for back key event
-- Update QS header fields text appearance on theme change
-- Match keyguard carrier text font with system
-- Wifi Standard: Optimize handling for flooding network requests
-- Improve QS data usage info
-- Update translations
+- Merge QPR3 based on June security patches 
