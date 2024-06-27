@@ -1,46 +1,60 @@
 DerpFest 14 STABLE | OFFICIAL
-Build Date : 07-06-2024 
+Build Date : 27-06-2024 
 Device : Redmi Note 7 Pro 
 By ~ @selfmuser
 
-Device Changes :
+Rom Changes :
+- June SP QPR3 merged (AP2A.240605.024)
+- Signed build ( CTS pass by default )
+- Only screen off animations & bouncer switcher toggle removed .
+( But will be added back soon )
+For detailed rom changelogs : Settings>About>Android Version>Changelogs 
 
+NOTE: Notification LED partially dead in QPR3 source, it may only work sometimes.
+- Charging LED still works fine 😁🔥
+
+Device Changes :
 - Upstream kernel to v4.14.348-openela 
 - Add Force LTE_CA toggle in network settings
-- Explicitly disable "Enable GL comp backpressure"
+- MIUI Cam and Moto Dolby 3.7 included
+- Added back FM Radio app
+- BCR updated to v1.65
+- Removed addon.d due to root detection & also added prop to fake encryption 
+- Removed Custom Lockscreen Clocks & DepthWallpaper due to some bugs - USE ICONIFY !!!
+- Using common aidl/light from hardware_xiaomi
+- props: Rename property to disable MTE in system_server
+- lmkd: kill heaviest task instead of any eligible task
+- Add prebuilt protobuf 3.9.1 to vendor partition.
+- Use ext4 cacheimage filesystem type
+- Inherit from common Xiaomi FCM
+- Inherit from QTI FCM
+- Update target level to 5 for QPR3
+- Add updated vendor.qti.gnss version to device framework manifest
+- Add necessary packages & HAL for Dolby in FCM
+- Add device framework compatibility matrix
+- Use the common device compatibility matrix from QCOM
+- Build missing libraries for 14 QPR3
+- power: Don't restrict CPU idle levels
+- gps: data-items: Fix snprintf usage
+- gps: Revert aidl health support in battery_listener
+- light: Bump light aidl to v2
+- gps: Resolve more unused parameter warnings
+- Merge tag 'LA.UM.9.15.2.r1-09400-KAMORTA.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/gps into fourteen
+- Update gps.conf for SUPL
+- Update gps configs from LA.UM.9.15.2.r1-09400-KAMORTA.QSSI14.0
+- Update gps blobs from LA.UM.9.15.2.r1-09400-KAMORTA.QSSI14.0
+- gps: Implement list empty error code for msg_q
+- gps: Address logical-op-parentheses warning
+- gps: Add NULL check before object access
+- Enable HWUI adpf
+- Update remove_packages ( removed unnecessary gapps and added back FM2 )
+- Nuke ViPER4AndroidFXRepackaged for Dolby
+- Set hardcode zram size to 3GB * (For Both 4GB and 6GB varient)
+- Update system from LA.QSSI.14.0.r1-15100-qssi.0
+- Update adreno stack to 530.54
+- Remove persist.demo.hdmirotationlock 
 - Bring back support for disabling backpressure propagation
-- Add Fastcharge toggle in battery settings
-- Add Livedisplay v2.1 support
-- Disabled Nightdisplay in favour of Livedisplay
-- Move to common power-libperfmgr
-- Use common libqti-perfd-client and power-libperfmgr
-- Provide a static lib for power mode extension
-- MIUI CAM Included by default
-- Fixed root detection for some banking apps ( Apps like Kotak 811 detecting root even without magisk or KSU )
+- Explicitly disable "Enable GL comp backpressure"
 
 
-ROM changes:
-
-- Device integrity passes by default 
-- Signed user build rom ( to fix play integrity )
-- Merge June security patches 
-- Add back Quick tap
-- Update Smartspace code
-- Fix main switch bar preference switches
-- Allowe to disable colored lockscreen clock 
-- WindowDecor: Pass correct displayId for back key event
-- Update QS header fields text appearance on theme change
-- Match keyguard carrier text font with system
-- Wifi Standard: Optimize handling for flooding network requests
-- Improve QS data usage info
-- Replace Glimpse with FossifyGallery
-- Update translations
-- Introduce Depthwallpaper Feature
-- Added Custom Lockscreen Clocks 
-- Added Firewall from CalyxOS
-- Probably some another changes & fixes as well..... 
-
-[ Detailed changelogs : Settings>About>Android Version>Changelogs ]
-
-
-NOTE For Encrypted Users : If Updater won't allow OTA update then you can manually update the rom from any recommended recovery!!
+For Encrypted Users : You may have to clean flash , if OTA update gets failed or if you'll get ce any bootloops after flashing the new update. 
