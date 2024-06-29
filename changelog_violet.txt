@@ -1,5 +1,5 @@
 DerpFest 14 STABLE | OFFICIAL
-Build Date : 27-06-2024 
+Build Date : 29-06-2024 
 Device : Redmi Note 7 Pro 
 By ~ @selfmuser
 
@@ -10,10 +10,8 @@ Rom Changes :
 ( But will be added back soon )
 For detailed rom changelogs : Settings>About>Android Version>Changelogs 
 
-NOTE: Notification LED partially dead in QPR3 source, it may only work sometimes.
-- Charging LED still works fine 😁🔥
-
 Device Changes :
+- Fixed bootloop issue for encrypted users
 - Upstream kernel to v4.14.348-openela 
 - Add Force LTE_CA toggle in network settings
 - MIUI Cam and Moto Dolby 3.7 included
@@ -21,6 +19,9 @@ Device Changes :
 - BCR updated to v1.65
 - Removed addon.d due to root detection & also added prop to fake encryption 
 - Removed Custom Lockscreen Clocks & DepthWallpaper due to some bugs - USE ICONIFY !!!
+- Remove wait_for_keymaster and all references
+- rootdir: Don't specify fstab path unnecessarily
+- Update GPS blobs to LA.UM.9.15.2.r1-09800-KAMORTA.QSSI14.0
 - Using common aidl/light from hardware_xiaomi
 - props: Rename property to disable MTE in system_server
 - lmkd: kill heaviest task instead of any eligible task
@@ -56,5 +57,8 @@ Device Changes :
 - Bring back support for disabling backpressure propagation
 - Explicitly disable "Enable GL comp backpressure"
 
+NOTE: Notification LED partially dead in QPR3 source, it may only work sometimes.
+- Charging LED still works fine 😁🔥
 
-For Encrypted Users : You may have to clean flash , if OTA update gets failed or if you'll get ce any bootloops after flashing the new update. 
+
+For Encrypted Users : You can directly install OTA through Updater app , manually install the update from recommended dynamic recovery, if Updater app show any errors.
