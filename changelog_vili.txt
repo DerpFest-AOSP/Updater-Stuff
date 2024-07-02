@@ -1,8 +1,19 @@
 DerpFest 14 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 09-06-2024
+Build Date : 02-07-2024
 Device : Xiaomi 11T Pro ( vili )
+
+Source:
+- Merged June SP and QPR3 updates
+For detailed changelogs go to: Settings>About>Android Version>Changelog
+
+Device:
+- Improved dolby audio config
+- Lower minimum clocks for little cluster
+- Fixed thermal config path and permission for Xiaomi parts
 
 Kernel:
 - Dropped KernelSU support. Use APatch or Magisk instead
-- Switched back to stock LOS kernel
+- Upstreamed void kernel to 5.4.278
+- Undervolt gpu
+- Add support for init brightness level
