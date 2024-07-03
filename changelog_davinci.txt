@@ -1,14 +1,8 @@
 Derp source changelog:
-- Merged Android 14 QPR3
+- Merged July Security Patch
 
 Device changelog:
-- Add missing EGL symlinks
-- Some init script cleanup
-- RAM management should be improved
-- Update system blobs from LA.QSSI.14.0.r1-15100-qssi.0
-- Update unpinned blobs from Redmi Note 12 Pro 4G latest hyperOS release
-- Fix MTE disable prop
-- Switched back to QCOM wrappedkey encryption (format data is NEEDED)
-
-Info: DON'T try updating to that build from old one without formatting data, it won't work and most likely you will lose your data!!!
-Updating derp recovery to newer is recommended if there is any problem with flashing.
+- Included DeviceAsWebcam(you can use phone as usb webcam without any extra apps)
+- Switched to common usb scripts
+- Updated GPS blobs
+- Switch from OMX software codecs to C2
