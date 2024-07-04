@@ -1,19 +1,30 @@
 DerpFest 14 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 02-07-2024
+Build Date : 04-07-2024
 Device : Xiaomi 11T Pro ( vili )
 
 Source:
-- Merged June SP and QPR3 updates
+- Merge July security patches 
+- Add back screen off animations 
+- Avoid some banking apps giving false positive of root
+- Disable FaceUnlock Lockouts
+- Check camera availability on camera key long press
+- Fix per-app volume on secondary users
+- Gamespace: Properly fix fps counter
+- GameSpace: Fix stopping session service in secondary users
+- GameManagerService: Fix NPE
+- Fix GameSpace on secondary users
+- LensScreenshotReceiver: Return when failed to start activity
+- Update prebuilt Flipendo
+- Update our prebuilt libraries
+- Fix logspam in NotificationMenuRow
+- Prevent OOB when reinflating QS panel with notifications
+
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
-- Improved dolby audio config
-- Lower minimum clocks for little cluster
-- Fixed thermal config path and permission for Xiaomi parts
+- Some minor fixes and improvements
 
 Kernel:
 - Dropped KernelSU support. Use APatch or Magisk instead
-- Upstreamed void kernel to 5.4.278
-- Undervolt gpu
-- Add support for init brightness level
+- Dropped some more useless debugging configs
