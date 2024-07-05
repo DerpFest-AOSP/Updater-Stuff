@@ -1,6 +1,6 @@
 DerpFest 14 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 04-07-2024
+Build Date : 05-07-2024 [Hotfix]
 Device : Xiaomi 11T Pro ( vili )
 
 Source:
@@ -24,6 +24,8 @@ For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
 - Some minor fixes and improvements
+- Fixed an issue with leica cam not processing photos correctly
+- Adjusted statusbar padding
 
 Kernel:
 - Dropped KernelSU support. Use APatch or Magisk instead
