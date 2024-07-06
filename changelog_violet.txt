@@ -1,64 +1,42 @@
 DerpFest 14 STABLE | OFFICIAL
-Build Date : 29-06-2024 
+Build Date : 04-07-2024 
 Device : Redmi Note 7 Pro 
 By ~ @selfmuser
 
 Rom Changes :
-- June SP QPR3 merged (AP2A.240605.024)
-- Signed build ( CTS pass by default )
-- Only screen off animations & bouncer switcher toggle removed .
-( But will be added back soon )
+- July SP QPR3 merged (AP2A.240705.005)
+- Add back screen off animations 
+- Avoid some banking apps giving false positive of root
+- Disable FaceUnlock Lockouts
+- Check camera availability on camera key long press
+- Fix per-app volume on secondary users
+- Gamespace: Properly fix fps counter
+- GameSpace: Fix stopping session service in secondary users
+- GameManagerService: Fix NPE
+- Fix GameSpace on secondary users
+- LensScreenshotReceiver: Return when failed to start activity
+- Update prebuilt Flipendo
+- Update our prebuilt libraries
+
 For detailed rom changelogs : Settings>About>Android Version>Changelogs 
 
 Device Changes :
-- Fixed bootloop issue for encrypted users
-- Upstream kernel to v4.14.348-openela 
-- Add Force LTE_CA toggle in network settings
-- MIUI Cam and Moto Dolby 3.7 included
-- Added back FM Radio app
-- BCR updated to v1.65
+- - Set zram back to 50%
+- Remove software omx codec references
+- Switch to common QTI USB init scripts
+- Added DeviceAsWebcam service 
+- Migrate to QTI USB Gadget 1.2 HIDL
+- dsp: audio_notifier: Defer external notifier registration if not inited
+- usb: gadget: function: Import uvc from android13-5.10
+- BACKPORT: media: uvcvideo: move uvc_format_desc to common header
+- BACKPORT: media: v4l: move helper functions for fractions from uvc to v4l2-common
 - Removed addon.d due to root detection & also added prop to fake encryption 
-- Removed Custom Lockscreen Clocks & DepthWallpaper due to some bugs - USE ICONIFY !!!
 - Remove wait_for_keymaster and all references
 - rootdir: Don't specify fstab path unnecessarily
-- Update GPS blobs to LA.UM.9.15.2.r1-09800-KAMORTA.QSSI14.0
-- Using common aidl/light from hardware_xiaomi
-- props: Rename property to disable MTE in system_server
-- lmkd: kill heaviest task instead of any eligible task
-- Add prebuilt protobuf 3.9.1 to vendor partition.
-- Use ext4 cacheimage filesystem type
-- Inherit from common Xiaomi FCM
-- Inherit from QTI FCM
-- Update target level to 5 for QPR3
-- Add updated vendor.qti.gnss version to device framework manifest
-- Add necessary packages & HAL for Dolby in FCM
-- Add device framework compatibility matrix
-- Use the common device compatibility matrix from QCOM
-- Build missing libraries for 14 QPR3
-- power: Don't restrict CPU idle levels
-- gps: data-items: Fix snprintf usage
-- gps: Revert aidl health support in battery_listener
-- light: Bump light aidl to v2
-- gps: Resolve more unused parameter warnings
-- Merge tag 'LA.UM.9.15.2.r1-09400-KAMORTA.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/gps into fourteen
-- Update gps.conf for SUPL
-- Update gps configs from LA.UM.9.15.2.r1-09400-KAMORTA.QSSI14.0
-- Update gps blobs from LA.UM.9.15.2.r1-09400-KAMORTA.QSSI14.0
-- gps: Implement list empty error code for msg_q
-- gps: Address logical-op-parentheses warning
-- gps: Add NULL check before object access
-- Enable HWUI adpf
-- Update remove_packages ( removed unnecessary gapps and added back FM2 )
-- Nuke ViPER4AndroidFXRepackaged for Dolby
-- Set hardcode zram size to 3GB * (For Both 4GB and 6GB varient)
-- Update system from LA.QSSI.14.0.r1-15100-qssi.0
-- Update adreno stack to 530.54
-- Remove persist.demo.hdmirotationlock 
-- Bring back support for disabling backpressure propagation
-- Explicitly disable "Enable GL comp backpressure"
 
 NOTE: Notification LED partially dead in QPR3 source, it may only work sometimes.
 - Charging LED still works fine 😁🔥
 
 
-For Encrypted Users : You can directly install OTA through Updater app , manually install the update from recommended dynamic recovery, if Updater app show any errors.
+For Encrypted Users : You can directly install OTA through Updater app !
+In case of any errors : manually install the update from recommended dynamic recovery.
