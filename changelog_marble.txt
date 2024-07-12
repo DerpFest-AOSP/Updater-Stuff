@@ -1,17 +1,16 @@
-# 4-July-2024
+# 12-July-2024
 
 Source Changelog:
-- Merged July Security Patch
-- Added back Screen off animation feature 
-- GameSpace: Update fps once menu switcher attached to window
-- GameSpace: Fix stopping session service in secondary users
-- GameManagerService: Fix NPE
-- Updated prebuilt libraries
-- VolumeDialog: Fix per-app volume on secondary users
-- SystemUI: Fix Internet Tile showing no service
-- codec2: a workaround to solve backward compatibility issue
-- Miscellaneous other fixes and improvements
+- Fixed an issue where keyboard doesn't pop up in the parallel space after QPR3
+- clocks: Bring back weather clock
+- BluetoothDialog: Fix theme context
+- Select the proper request list size
+- Set lower hotspotY for handwriting icon
 
 Device Changelog:
-- Added back HyperOS Camera
-- Updated BCR App to latest 1.65
+- Fixed OIS 
+- Updated ViperFX to latest 6.6
+- Switched to mini gapps from pico gapps to include basic apps like Files and Google apps
+- Fixed Document mode in hyper cam crashing
+- Reverted to stock Adreno blobs to fix gameplay issues
+- Updated some system blobs
