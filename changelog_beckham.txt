@@ -6,4 +6,4 @@ Device Changelog:
 - KernelSU Included
 
 Rom Changelog:
-- June Patch Security
+- July Patch Security
