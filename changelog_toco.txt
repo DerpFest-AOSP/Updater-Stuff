@@ -1,5 +1,19 @@
 Device Changes:
-- Update to ViPER4Android FX Redesign 6.3
+- Ship updated VantomKernel v4.14.348
+- Switch to AIDL NXP NFC HAL
+- Update common blobs from sweet_k6a OS1.0.5.0.THGMIXM
 
 DerpFest Source Changes:
-- Source upstream
+- Merge QPR3 July security patches 
+- Add back screen off animations 
+- Avoid some banking apps giving false positive of root
+- Disable FaceUnlock Lockouts
+- Check camera availability on camera key long press
+- Fix per-app volume on secondary users
+- Gamespace: Properly fix fps counter
+- GameSpace: Fix stopping session service in secondary users
+- GameManagerService: Fix NPE
+- Fix GameSpace on secondary users
+- LensScreenshotReceiver: Return when failed to start activity
+- Update prebuilt Flipendo
+- Update our prebuilt libraries
