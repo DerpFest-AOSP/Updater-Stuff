@@ -1,29 +1,24 @@
 ====================
-    21-06-2024     
+    18-07-2024     
 ====================
 
 # DerpFest Platform | A13 Source Changelog
 
-- Merge June 2024 security patches
-- Bump Security String to 2024-06-05 
-- core: Switch to mkrbin for copying crash logs
-- WiredAccessoryManager: replace every non digit character
-- SystemUI: Add Switch Styles from Iconify [1/3]
-- DerpSpace: Add Switch Styles from Iconify [2/3]
-- derp: Update CUSTOM_SECURITY_PATCH for June 2024 Security update
-- config: Conditionally enable dev keys signing
-- config/version: PRODUCT_VERITY_SIGNING_KEY is deprecated
-- signing: support inline signing for U [2/2]
-- version: Sign every build variant but eng
-- manifest: Track fontage from U
+- Merge July 2024 security patches
+- Bump Security String to 2024-07-05 
+- keylayouts: Nintendo ProCon: Map it like stock does
+- Merge tag 'android-security-13.0.0_r19'
+- PixelPropsUtils: Update fingerprint to husky beta
+- Settings: Add pt-rBR translations
+- config: Update TARGET_NOT_USES_BLUR
+- derp: Update CUSTOM_SECURITY_PATCH for July 2024 Security update
+- fontage: Add new lockscreen clock fonts
 - Update translations
 
 ----------------------------------------------------------------------
 
 # Device LeMax2 | MaxPlus | Changelog | Fixes
 
-- Removed some Gapps to make it lighter and faster
-- x2: Return back to our FP
 - Update changelog and configs
 - Small Kernel changes
 - Small thermal fixes
