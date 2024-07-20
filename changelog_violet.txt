@@ -1,38 +1,48 @@
 DerpFest 14 STABLE | OFFICIAL
-Build Date : 04-07-2024 
+Build Date : 20-07-2024 
 Device : Redmi Note 7 Pro 
 By ~ @selfmuser
 
 Rom Changes :
 - July SP QPR3 merged (AP2A.240705.005)
+- ChooseLockPatternSize: Remove header start padding in SuW
+- GameSpace: Add material icon
+- Gamespace: Disable in-game statusbar DT2S
+- Fix choose pattern size activity theme issues
+- Fix the issue where the input method cannot pop up in the parallel space after QPR3
+- Fix Bluetooth timeout feature after QPR3
+- Fix Lens activity on work profile after QPR3
+- Allow skipping mirroring confirmation dialog
+- Switch to mkrbin for copying crash logs
+- Hide HEVC screen recording when no HW codec is available
+- Update freeze IDs for UDC QPR3 used by HbmSvManager on Pixels
+- Fix square shape button in Bluetooth QS dialog 
+- Fix availability of battery/notification light settings
+- Fix Internet Tile showing no service
+- Fix Hotspot toggle in QS internet dialog
+- Intent firewall enhancement
 - Add back screen off animations 
 - Avoid some banking apps giving false positive of root
 - Disable FaceUnlock Lockouts
-- Check camera availability on camera key long press
-- Fix per-app volume on secondary users
-- Gamespace: Properly fix fps counter
-- GameSpace: Fix stopping session service in secondary users
-- GameManagerService: Fix NPE
-- Fix GameSpace on secondary users
-- LensScreenshotReceiver: Return when failed to start activity
-- Update prebuilt Flipendo
-- Update our prebuilt libraries
 
-For detailed rom changelogs : Settings>About>Android Version>Changelogs 
 
 Device Changes :
-- - Set zram back to 50%
-- Remove software omx codec references
-- Switch to common QTI USB init scripts
-- Added DeviceAsWebcam service 
-- Migrate to QTI USB Gadget 1.2 HIDL
-- dsp: audio_notifier: Defer external notifier registration if not inited
-- usb: gadget: function: Import uvc from android13-5.10
-- BACKPORT: media: uvcvideo: move uvc_format_desc to common header
-- BACKPORT: media: v4l: move helper functions for fractions from uvc to v4l2-common
-- Removed addon.d due to root detection & also added prop to fake encryption 
-- Remove wait_for_keymaster and all references
-- rootdir: Don't specify fstab path unnecessarily
+- Upstream Perf Kernel to v4.14.349-openela  & Many more kernel side changes 
+- Bump BCR to v1.66
+- Remove unused persist.bluetooth.a2dp_offload.cap property
+- Add new QCRIL database
+- Disable thermal throttling and set LMKD props
+- Enable camera override format from reserved
+- Disable unwanted services
+- Set zramswap for performance 
+- Update system blobs
+- violet:overlay: Increase max fling velocity
+- violet: rootdir: Fix the battery drain due to statsd
+- violet: overlay: fix status bar height & side padding
+- violet: Enable frame pacing for smoother visual performance
+- Add Miscellaneous tweaks to improve touch response and performance 
+- violet: Enable aptX(HD) offload
+
 
 NOTE: Notification LED partially dead in QPR3 source, it may only work sometimes.
 - Charging LED still works fine 😁🔥
