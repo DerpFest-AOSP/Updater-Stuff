@@ -1,14 +1,19 @@
 ROM CHANGELOG:
 
-- Merge June security patches 
-- Add back Quick tap
-- Update Smartspace code
-- Fix main switch bar preference switches
-- Allowe to disable colored lockscreen clock 
-- WindowDecor: Pass correct displayId for back key event
-- Update QS header fields text appearance on theme change
-- Match keyguard carrier text font with system
-- Wifi Standard: Optimize handling for flooding network requests
-- Improve QS data usage info
-- Replace Glimpse with FossifyGallery
-- Update translations
+- Merge July security patches 
+- Add back screen off animations 
+- Avoid some banking apps giving false positive of root
+- Disable FaceUnlock Lockouts
+- Check camera availability on camera key long press
+- Fix per-app volume on secondary users
+- Gamespace: Properly fix fps counter
+- GameSpace: Fix stopping session service in secondary users
+- GameManagerService: Fix NPE
+- Fix GameSpace on secondary users
+- LensScreenshotReceiver: Return when failed to start activity
+- Update prebuilt Flipendo
+- Update our prebuilt libraries
+
+DEVICE CHANGELOG:
+
+- July Update
