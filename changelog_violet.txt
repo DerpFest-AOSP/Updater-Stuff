@@ -1,10 +1,14 @@
 DerpFest 14 STABLE | OFFICIAL
-Build Date : 20-07-2024 
+Build Date : 22-07-2024 
 Device : Redmi Note 7 Pro 
 By ~ @selfmuser
 
 Rom Changes :
 - July SP QPR3 merged (AP2A.240705.005)
+- sepolicy: Commonize some wakeup nodes
+- SystemUI: Send display update boost on fingerdown
+- PointerIcon: Add leniency to hotspot validation for scaled icons
+- Fix pipe fds leak in copyInternalSpliceSocket
 - ChooseLockPatternSize: Remove header start padding in SuW
 - GameSpace: Add material icon
 - Gamespace: Disable in-game statusbar DT2S
@@ -27,10 +31,12 @@ Rom Changes :
 
 
 Device Changes :
+- sepolicy: Move common wakeup nodes to qcom sepolicy
+- Drop new QCRIL Database ( casing sim detection issue for some users 🤔 )
 - Upstream Perf Kernel to v4.14.349-openela  & Many more kernel side changes 
+- Disable FRP ( unnecessary after unlocking bootloader )
 - Bump BCR to v1.66
 - Remove unused persist.bluetooth.a2dp_offload.cap property
-- Add new QCRIL database
 - Disable thermal throttling and set LMKD props
 - Enable camera override format from reserved
 - Disable unwanted services
@@ -43,10 +49,17 @@ Device Changes :
 - Add Miscellaneous tweaks to improve touch response and performance 
 - violet: Enable aptX(HD) offload
 
-
-NOTE: Notification LED partially dead in QPR3 source, it may only work sometimes.
-- Charging LED still works fine 😁🔥
-
-
 For Encrypted Users : You can directly install OTA through Updater app !
 In case of any errors : manually install the update from recommended dynamic recovery.
+
+
+
+NOTE: Notification LED partially dead in QPR3 source, it may only work sometimes.
+
+- Charging LED still works fine 😁🔥
+
+- I'm not really sure but from now on I'll only provide updates once or twice in a month & those updates will be only posted at @DerpFest_Violet ( https://t.me/derpfest_violet ) 
+
+- Make sure to join DerpFest Violet chat instead of spamming your skill issues at violet global chat :)
+
+# Thank you so much to everyone who always supported me and my work 🫶
