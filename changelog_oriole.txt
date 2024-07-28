@@ -1,19 +1,11 @@
 ROM CHANGELOG:
 
-- Merge July security patches 
-- Add back screen off animations 
-- Avoid some banking apps giving false positive of root
-- Disable FaceUnlock Lockouts
-- Check camera availability on camera key long press
-- Fix per-app volume on secondary users
-- Gamespace: Properly fix fps counter
-- GameSpace: Fix stopping session service in secondary users
-- GameManagerService: Fix NPE
-- Fix GameSpace on secondary users
-- LensScreenshotReceiver: Return when failed to start activity
-- Update prebuilt Flipendo
-- Update our prebuilt libraries
-
-DEVICE CHANGELOG:
-
-- July Update
+- Remove notifications sound if screen on switch
+- PixelPropsUtils: Update fingerprint to fix play integrity and RCS again
+- Add landscape battery style
+- DerpLauncher: Always hide the keyboard when the app drawer is minimized
+- GameSpace: Don't add floating action if game closed too quickly
+- GameSpace: Show correct default settings
+- GameSpace: Enable DT2S by default
+- GameSpace: Add Disable Fastcharge switch
+- Sync prebuilt APN's with Lineage
