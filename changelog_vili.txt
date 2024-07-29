@@ -1,32 +1,31 @@
 DerpFest 14 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 05-07-2024 [Hotfix]
+Build Date : 29-07-2024
 Device : Xiaomi 11T Pro ( vili )
 
 Source:
-- Merge July security patches 
-- Add back screen off animations 
-- Avoid some banking apps giving false positive of root
-- Disable FaceUnlock Lockouts
-- Check camera availability on camera key long press
-- Fix per-app volume on secondary users
-- Gamespace: Properly fix fps counter
-- GameSpace: Fix stopping session service in secondary users
-- GameManagerService: Fix NPE
-- Fix GameSpace on secondary users
-- LensScreenshotReceiver: Return when failed to start activity
-- Update prebuilt Flipendo
-- Update our prebuilt libraries
-- Fix logspam in NotificationMenuRow
-- Prevent OOB when reinflating QS panel with notifications
+- Remove notifications sound if screen on switch 
+- PixelPropsUtils: Update fingerprint to fix play integrity and RCS again
+- Add landscape battery style
+- DerpLauncher: Always hide the keyboard when the app drawer is minimized
+- GameSpace: Don't add floating action if game closed too quickly
+- GameSpace: Show correct default settings
+- GameSpace: Enable DT2S by default
+- GameSpace: Add Disable Fastcharge switch 
+- Sync prebuilt APN's with Lineage
 
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
 - Some minor fixes and improvements
-- Fixed an issue with leica cam not processing photos correctly
-- Adjusted statusbar padding
+- Switched to stock Miui camera
+- Speed up auto brightness ramp up
+- Added Notch Bar Killer overlay
+- Bump little cluster input boost frequency
+- Set swappiness to a lower value of 60
+- Switched back to Qcom WFD
 
 Kernel:
-- Dropped KernelSU support. Use APatch or Magisk instead
-- Dropped some more useless debugging configs
+- Improved scheduler for better performance
+- Improved idle drain
+- Locked thermal profile to 'Game' by default
