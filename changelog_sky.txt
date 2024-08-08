@@ -1,25 +1,12 @@
 Device Changes:
-- Display and sound improvements (wired earphones)
-- Fix Adaptive refresh rate
-- Support for XIG03 Model
-- Fix Offline charging
-- Switched to OSS libperfmgr
-- Updated Blobs & Carrier config from V816.0.5.0.UMWINXM HyperOS
-- Lift to wake
-- Misc Improvements
+- Drop MiSound and Dirac
+- Battery optimizations
 
-
-ROM:
-- Merge QPR3 July security patches 
-- Add back screen off animations 
-- Avoid some banking apps giving false positive of root
-- Disable FaceUnlock Lockouts
-- Check camera availability on camera key long press
-- Fix per-app volume on secondary users
-- Gamespace: Properly fix fps counter
-- GameSpace: Fix stopping session service in secondary users
-- GameManagerService: Fix NPE
-- Fix GameSpace on secondary users
-- LensScreenshotReceiver: Return when failed to start activity
-- Update prebuilt Flipendo
-- Update our prebuilt libraries
+ROM Changes:
+- Merge August security patches (android-14.0.0_r56)
+- Yaap quote: "Refactored the hell out of battery styles code"
+- PixelPropsUtils: Updates from Rising OS
+- DerpLauncher: Integrate themed icons into the recents
+- DerpLauncher: Update themed icons 
+- Flash: change to FlashMode.OFF before switching usecases
+- Update few translations
