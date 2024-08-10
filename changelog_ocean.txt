@@ -5,5 +5,5 @@ Device Changelog:
 - KernelSU Included
 
 Rom Changelog:
-- July merged Security patch (QPR3)
+- August merged Security patch (QPR3)
 - Last source changes
