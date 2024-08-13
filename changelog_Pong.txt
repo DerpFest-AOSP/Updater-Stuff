@@ -1,2 +1,12 @@
 Device Changes:
-- initial official release.
+- Added Viper.
+- Switched to user build.
+
+Source Changes:
+- Merge August security patches (android-14.0.0_r56)
+- Yaap quote: "Refactored the hell out of battery styles code"
+- PixelPropsUtils: Updates from Rising OS
+- DerpLauncher: Integrate themed icons into the recents
+- DerpLauncher: Update themed icons 
+- Flash: change to FlashMode.OFF before switching usecases
+- Update few translations
