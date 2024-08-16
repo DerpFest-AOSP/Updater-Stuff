@@ -1,19 +1,24 @@
 ====================
-    18-07-2024     
+    16-08-2024     
 ====================
 
 # DerpFest Platform | A13 Source Changelog
 
-- Merge July 2024 security patches
-- Bump Security String to 2024-07-05 
-- keylayouts: Nintendo ProCon: Map it like stock does
-- Merge tag 'android-security-13.0.0_r19'
-- PixelPropsUtils: Update fingerprint to husky beta
-- Settings: Add pt-rBR translations
-- config: Update TARGET_NOT_USES_BLUR
-- derp: Update CUSTOM_SECURITY_PATCH for July 2024 Security update
-- fontage: Add new lockscreen clock fonts
-- Update translations
+- Merge August 2024 security patches
+- Bump Security String to 2024-08-05
+- derp: Update CUSTOM_SECURITY_PATCH for August 2024 Security update 
+- PixelPropsUtils: Update fingerprint to cheetah beta
+- SystemUI: Fix QS tile dialog background color
+- SystemUI: Resolve regressions caused by continuous updating of notification icons
+- FlashlightStrengthTile: Run google-java-format with the AOSP format
+- soong: Add libcameraservice extension config
+- kernel: Allow to override toolchain prefix used for vDSO32 building
+- DerpLauncher: Add pt-rBR translations
+- camera: Add extension to control torch light strength
+- Merge tag 'android-security-13.0.0_r20' of frameworks/av into HEAD
+- Merge tag 'android-security-13.0.0_r20' into HEAD for Bluetooth
+- Merge tag 'android-security-13.0.0_r20' into HEAD for hardware/interaces
+- DerpLauncher: Add pt-rBR translations
 
 ----------------------------------------------------------------------
 
