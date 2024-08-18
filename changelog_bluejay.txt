@@ -1,12 +1,14 @@
 ROM CHANGELOG:
 
-- Merge August security patches (android-14.0.0_r56)
-- Yaap quote: "Refactored the hell out of battery styles code"
-- PixelPropsUtils: Updates from Rising OS
-- DerpLauncher: Integrate themed icons into the recents
-- DerpLauncher: Update themed icons 
-- Flash: change to FlashMode.OFF before switching usecases
-- Update few translations
-- PixelPropsUtils: Update fingerprint to fix play integrity and RCS again
+- Add option to toggle Google Play Integrity spoofing
+- PixelPropsUtils: Move to Pixel 9 Pro
+- IslandView: Add pop-in animation on appearance
+- core: Fix uninitialized settings in NotificationAttentionHelper
+- core: Move notification timeout code to NotificationAttentionHelper
+- Automatic translation import
+- SystemUI: Don't enforce Island notif on landscape
+- Revert "SystemUI: Animate StatusBarState doze transition using DarkAnimator"
+- fixup! Settings: Add setup UI for minimum delay between an app's notification sounds
+- Settings: battery_info: Add a disclaimer FooterPreference
 
 
