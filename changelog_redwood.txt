@@ -1,6 +1,6 @@
 Device Changelog
 
-- Updated Adreno Drivers
-- Fixed Audio on external Devices
+- Updated to August Patch
+- Added Leica Camera
+- Kernel Upstreamed to .280
 - Updated Firmware
-- Removed Smooth Display / Causes Flickering
