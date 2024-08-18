@@ -1,43 +1,46 @@
 DerpFest 14 STABLE | OFFICIAL
-Build Date : 08-08-2024 
+Build Date : 18-08-2024 
 Device : Redmi Note 7 Pro 
 By ~ @selfmuser
 
 Rom Changes :
-- Merge August security patches (android-14.0.0_r56)
-- Yaap quote: "Refactored the hell out of battery styles code"
-- PixelPropsUtils: Updates from Rising OS
-- DerpLauncher: Integrate themed icons into the recents
-- DerpLauncher: Update themed icons 
-- Update few translations 
-- Add landscape battery style
-- DerpLauncher: Always hide the keyboard when the app drawer is minimized
-- GameSpace: Don't add floating action if game closed too quickly
-- GameSpace: Show correct default settings
-- GameSpace: Enable DT2S by default
-- GameSpace: Add Disable Fastcharge switch
-- Sync prebuilt APN's with Lineage
-- GameSpace: Add material icon
-- Gamespace: Disable in-game statusbar DT2S
-- Fix choose pattern size activity theme issues
-- Fix the issue where the input method cannot pop up in the parallel space after QPR3
-- Fix Bluetooth timeout feature after QPR3
-- Fix Lens activity on work profile after QPR3
-- Allow skipping mirroring confirmation dialog
-- Switch to mkrbin for copying crash logs
-- Fix square shape button in Bluetooth QS dialog 
-- Fix Internet Tile showing no service
-- Fix Hotspot toggle in QS internet dialog
-- Intent firewall enhancement
-- Add back screen off animations 
+- PixelPropsUtils: Update fingerprint to latest caiman (P9Pro)  ( Basic and Device integrity passing again 😎 )
+- core: Introduce VibrationUtils 
+- Revert "Revert "Use HwLight.type as the key of mLightsByType"" 
+- Add option to toggle Google Play Integrity spoofing
+- Fix Quick Tap open apps apps list crashing
+- PixelPropsUtils: Move to Pixel 9 Pro
+- IslandView: Add pop-in animation on appearance
+- core: Fix uninitialized settings in NotificationAttentionHelper
+- core: Move notification timeout code to NotificationAttentionHelper
+- Automatic translation import
+- SystemUI: Don't enforce Island notif on landscape
+- Revert "SystemUI: Animate StatusBarState doze transition using DarkAnimator"
+- fixup! Settings: Add setup UI for minimum delay between an app's notification sounds
+- Settings: battery_info: Add a disclaimer FooterPreference
+- thermal-hal: Update skin temperature threshold for yupik
+- DerpLauncher: Redesign settings homepage
+- DerpLauncher: Implement long press nav bar to search gesture
+- DerpLauncher: freeform: Launch tasks as tasks overlays
+- DerpLauncher: Enable freeform shortcut by default
+- DerpLauncher: Launch apps in freeform mode system shortcut
+- DerpLauncher: Copy 4x5 grid size from Pixel
+- DerpLauncher: allapps: Make google search of the query
+- DerpLauncher: allapps: Do not hide keyboard when query is empty
+- GameSpace: Import qs_tile_background ripple resource for tile
+- GameSpace: Migrate MainSwitchBar and Switch to Material3
+- GameSpace: Enable enableOnBackInvokedCallback
+
 
 Device Changes :
+- Upstream Perf Kernel to v4.14.350-openela  & Many more kernel side changes
+- Kernel: Revert "ALSA: jack: Access input_dev under mutex"
+- Kernel: PM / freezer: Reduce freeze timeout to 1 second for Android
+- Kernel: power: Increase task freezing timeout
+- Build xiaomi-telephony-stub
 - Bump BCR to v1.69
 - rootdir: Add missing 'vendor.' prefix to cnss-daemon
 - Fix thermal throttling and improve LMKD props for better ram management 
-- Removed props which were causing idle drain & breaking deep sleep
-- Set init props to better hide bootloader status
-- Upstream Perf Kernel to v4.14.349-openela  & Many more kernel side changes 
 - Upstreamed to 16300 msmnile caf kernel tags for kernel, wifi drivers and audio(techpack)
 - sepolicy: Move common wakeup nodes to qcom sepolicy
 
