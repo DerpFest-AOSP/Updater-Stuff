@@ -1,28 +1,25 @@
 DerpFest 14 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 17-08-2024
+Build Date : 25-08-2024
 Device : Xiaomi 11T Pro ( vili )
 
 Source:
-- Merge August security patches (android-14.0.0_r56)
-- Yaap quote: "Refactored the hell out of battery styles code"
-- PixelPropsUtils: Updates from Rising OS
-- DerpLauncher: Integrate themed icons into the recents
-- DerpLauncher: Update themed icons 
-- Flash: change to FlashMode.OFF before switching usecases
-- Update few translations
-- PixelPropsUtils: Update fingerprint to latest caiman (P9Pro)
+- Add option to toggle Google Play Integrity spoofing
+- IslandView: Add pop-in animation on appearance
+- SystemUI: Don't enforce Island notif on landscape
+- Fixed SystemUI crash when an alarm notification came in with the display on (Credits to Ido Ben-Hur)
 
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
 - Some minor fixes and improvements
-- Updated device blobs and firmware from HyperOS 1.0.3.0.UKDMIXM
-- Switched back to AOSP WFD
-- Include new graphic equalizer for dolby
-- Fixed dolby settings resetting after a reboot
-- Allow all filesystems for USB-OTG
+- Updated device blobs and firmware from HyperOS 1.0.4.0.UKDEUXM
+- Build missing libs for Dolby Atmos
 
 Kernel:
 - Added KSU support again
-- Dropped thermal locking mechanism
+- Lock thermal profile to 'Game' again. I like it, idc :)
+
+Memecam:
+- Update app from HyperOS 1.0.4.0.UKDEUXM
+- Patch to match camera icon based on monet and other improvements (It's recommended to clear cache & data of camera app)
