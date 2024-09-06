@@ -1,31 +1,47 @@
 Rom Changelog 
 
-06-18-2024     
+09-06-2024     
 ====================
-Add rom signed
-June patch 
+
+- Merge August security patches (android-14.0.0_r56)
+- Yaap quote: "Refactored the hell out of battery styles code"
+- PixelPropsUtils: Updates from Rising OS
+- DerpLauncher: Integrate themed icons into the recents
+- DerpLauncher: Update themed icons 
+- Flash: change to FlashMode.OFF before switching usecases
+- Update few translations
 
 Kernel Changes:
-Update upsteam to 4.14.348
+Update upsteam to v4.14.352-openela
 
 Device:
-- Do not set forcily set camera sound props on Japan SKU
-- Update Clang version to r487747c
-- overlay: Enable Bouncer User Switcher
-- overlay: Set AVC 3.1 profile level for builtin Screen Recorder
-- props: Fix the Screen Lag during Screen Recording
-- Build Full ElmyraService(Active Edge) instead of Pixel-Framework one
-- Make user build
+R.I.P 3D face unlock, we switch to 2d faceunlock 
+Import Motion sensor from pixyOS
 
 Kernel:
-Remove KSU according to somebodu request,i would provide ksu one later	
-bpf fake uname to 5.4, you could bypass bpf limit of some gsi such google's 
 Update Simplelink
 
 Please check this before pm 
 http://nohello.net 
 
+Bug: 
+Auto reboot after connect DAC
+
 Tips:
 There is a known issus about clash, If you using clash to use Telegram and it cant use Telegram normally 
 Plz turn off Setting => Network => Allow ByPass in clash client
-如果你使用clash 類VPN 訪問Telegram 客戶端，請關閉clash  客戶端裡面的 Allow ByPass, 路徑 Setting => Network => Allow ByPass 
+如果你使用clash 類VPN 訪問Telegram 客戶端，請關閉clash  客戶端裡面的 Allow ByPass, 路徑 Setting => Network => Allow ByPass
+
+Installation
+
+fastboot flash boot boot.img
+adb sideload Rom.zip
+
+If you want root with kernel_ksu, plz flash boot_kus.img to boot partition 
+ps: fastboot flash boot boot_ksu.img
+
+If you meet QPR update you have better wipe your data , and Android version must wipe data, also don't forget to backup your data
+
+If you flash this rom from derp-13, plz wipe your data after sideloading, and dont froget to backuo your data
+https://databackupofficial.github.io/
+
