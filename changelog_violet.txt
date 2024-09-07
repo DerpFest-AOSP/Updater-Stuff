@@ -1,52 +1,43 @@
 DerpFest 14 STABLE | OFFICIAL
-Build Date : 18-08-2024 
+Build Date : 07-09-2024 
 Device : Redmi Note 7 Pro 
 By ~ @selfmuser
 
 Rom Changes :
-- PixelPropsUtils: Update fingerprint to latest caiman (P9Pro)  ( Basic and Device integrity passing again 😎 )
-- core: Introduce VibrationUtils 
-- Revert "Revert "Use HwLight.type as the key of mLightsByType"" 
+- PixelPropsUtils: Update fingerprints for September
+- Merge tag 'android-14.0.0_r67' - September 2024 Security update
+- Revert "SystemUI: Switch notification background to monet on heads up" ( causing SystemUI crashes while the alarm rings, if headups are enabled )
+- apn: Set correct apn for `Grameenphone` 
+- SystemUI: Fix Custom QS Header not working [1/2]
+- Island: Remove notification when swiped dismiss
+- Island: Implement Swipe to left/right to dismiss gesture
+- base: Add a toggle for long press on navbar to search [1/3]
+- base: Introduce PowerOffAlarmService
+- base: PowerOffAlarmService: Add a notification
+- Fix screen can not be switched issue
 - Add option to toggle Google Play Integrity spoofing
 - Fix Quick Tap open apps apps list crashing
-- PixelPropsUtils: Move to Pixel 9 Pro
-- IslandView: Add pop-in animation on appearance
-- core: Fix uninitialized settings in NotificationAttentionHelper
-- core: Move notification timeout code to NotificationAttentionHelper
-- Automatic translation import
-- SystemUI: Don't enforce Island notif on landscape
-- Revert "SystemUI: Animate StatusBarState doze transition using DarkAnimator"
-- fixup! Settings: Add setup UI for minimum delay between an app's notification sounds
-- Settings: battery_info: Add a disclaimer FooterPreference
-- thermal-hal: Update skin temperature threshold for yupik
+- PixelPropsUtils: Move to Pixel 9 Pro XL ( komodo )
 - DerpLauncher: Redesign settings homepage
 - DerpLauncher: Implement long press nav bar to search gesture
 - DerpLauncher: freeform: Launch tasks as tasks overlays
 - DerpLauncher: Enable freeform shortcut by default
 - DerpLauncher: Launch apps in freeform mode system shortcut
 - DerpLauncher: Copy 4x5 grid size from Pixel
-- DerpLauncher: allapps: Make google search of the query
-- DerpLauncher: allapps: Do not hide keyboard when query is empty
-- GameSpace: Import qs_tile_background ripple resource for tile
-- GameSpace: Migrate MainSwitchBar and Switch to Material3
-- GameSpace: Enable enableOnBackInvokedCallback
-
+- Notification and Charging LED have been fixed
 
 Device Changes :
-- Upstream Perf Kernel to v4.14.350-openela  & Many more kernel side changes
-- Kernel: Revert "ALSA: jack: Access input_dev under mutex"
-- Kernel: PM / freezer: Reduce freeze timeout to 1 second for Android
-- Kernel: power: Increase task freezing timeout
-- Build xiaomi-telephony-stub
-- Bump BCR to v1.69
-- rootdir: Add missing 'vendor.' prefix to cnss-daemon
-- Fix thermal throttling and improve LMKD props for better ram management 
-- Upstreamed to 16300 msmnile caf kernel tags for kernel, wifi drivers and audio(techpack)
-- sepolicy: Move common wakeup nodes to qcom sepolicy
+- Upstream Perf Kernel to v4.14.352-openela
+- Upstream mm/remap & sync linux/mman.h with the kernel
+- Update dependency for clang-r522817
+- Switch to QTI Memtrack AIDL HAL
+- overlay: Force enable PowerOffAlarmService
+- Revert "rootdir: Boost performance during bootup" ( causing battery drain )
+- [UPSTREAM] media: rc: ir-spi
+- Revert "lowmemorykiller: Introduce sysfs node for ALMK and PPR adj threshold"
+- syscall: Increase fake uname to 6.6.40
 
-NOTE: Notification LED partially dead in QPR3 source, it may only work sometimes.
-- Charging LED still works fine 😁🔥
-- I'm not really sure but from now on I'll only provide updates once or twice in a month & those updates will be only posted at @DerpFest_Violet ( https://t.me/derpfest_violet ) 
-- Make sure to join DerpFest Violet chat instead of spamming your skill issues at violet global chat :)
+
+NOTE : Make sure to join DerpFest Violet chat instead of spamming your skill issues at violet global chat :)
 
 # Thank you so much to everyone who always supported me and my work 🫶
