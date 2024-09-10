@@ -1,3 +1,9 @@
+10/09/2024 - Changelog
+
+- September Patch Security
+- Kernel improvements
+- Last source changes
+
 12/08/2024 - Changelog
 
 - August Patch Security
