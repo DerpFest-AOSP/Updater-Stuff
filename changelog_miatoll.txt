@@ -1,202 +1,67 @@
 ====================
-    07-04-2024     
+    09-12-2024     
 ====================
 
-* bootable/recovery
-a35ac2b  updater: Support loading dynamic partition metadata from OTA  [Yumi Yukimura]
+* frameworks/base
+dc99314  core: camera2: StreamConfigurationMap: add constructor for MIUI camera  [Pulkit077]
+1a23ed9  camera: Add backwards-compatible CaptureResultExtras constructor  [Adithya R]
 
 
-* build/make
-a30e979  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/build into 14  [NurKeinNeid]
-5a6256c  releasetools: Pass non-sparse super_empty.img to update_dynamic_partitions()  [Yumi Yukimura]
-6aeea58  releasetools: build_super_image: Do not set readonly attr  [Yumi Yukimura]
-1f22c4a  build: Enable super image build rules depending on single super block device  [Yumi Yukimura]
+* frameworks/native
+07fc9a5  Native: ProducerListener: Import ON_BUFFER_DETACHED Changes  [johnmart19]
+fa0b5c9  Revert "IProducerListener: Add a listener for consumer detach"  [clarencelol]
 
+
+====================
+    09-11-2024     
+====================
+
+====================
+    09-10-2024     
+====================
+
+* tools/extract-utils
+2e47015  extract_utils: Fix package generation for x86/x86_64  [LuK1337]
+dd283e9  extract_utils: Remove useless DISABLE_DEPS declaration  [Cosmin Tanislav]
+fa5a421  extract_utils: Remove second parameter of write_makefiles from templates  [Cosmin Tanislav]
+90b34e8  extract_utils: Add FIX_{SONAME,XML} helper functions  [Michael Bestas]
+9c657f5  extract_utils: Implement DISABLE_DEPS  [Michael Bestas]
+4c30806  extract_utils: Add MODULE_SUFFIX support  [LuK1337]
+17465ca  extract_utils: Fix multiple args parsing for automatic fixup  [LuK1337]
+
+
+====================
+    09-09-2024     
+====================
 
 * build/release
-9e8ff7d  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/build/release into 14  [NurKeinNeid]
+41fb8c7  Revert "ap2a flags: re enable fast unlock animation"  [John Galt]
 
 
-* frameworks/av
-54bfc2b  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/frameworks/av into 14  [NurKeinNeid]
-e60dd26  codec2: a workaround to solve backward compatibility issue  [Jiajia Cong]
+* tools/extract-utils
+637e366  extract_utils: Support XML fixing by an argument  [Bruno Martins]
+073096f  extract_utils: Implement fixing lib's soname  [Bruno Martins]
+
+
+====================
+    09-08-2024     
+====================
+
+* art
+b5a1af0  runtime: do not crash pre-U apps if deleting global ref as local  [nift4]
+
+
+* device/google/gs-common
+811212e  fixup! Disable userdebug diagnostics  [Michael Bestas]
 
 
 * frameworks/base
-118a658  Intent firewall enhancement  [nift4]
-86c6afe  SystemUI: Fix Internet Tile showing no service  [Tommy Webb]
-2bb8438  Fix default values for 5G Ultra Wideband icon carrier config keys  [Vala Zadeh]
-1bde470  Add 5G Ultra Wideband icon carrier config keys  [Vala Zadeh]
-44bbaaf  PixelPropsUtils: Update from husky july release  [NurKeinNeid]
-c9ec58b  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/frameworks/base into 14  [NurKeinNeid]
+cb66f9f  SystemUI: Fix notification count not working after a reboot  [minaripenguin]
+2800a58  IslandView: Fix dismissal and cleanup resources when not needed  [minaripenguin]
 
 
-* hardware/interfaces
-5868a2d  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/hardware/interfaces into 14  [NurKeinNeid]
-
-
-* manifest
-74503f9  pixel: July 2024 Security update  [Chirayu Desai]
-46e1059  manifest: Add aosp-akita remote  [Michael Bestas]
-13f16f6  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/manifest into 14  [NurKeinNeid]
-
-
-* packages/apps/DerpLauncher
-615e14f  DerpLauncher: Bump version to AP2A.240705.005  [NurKeinNeid]
-
-
-* packages/apps/Flash
-362114e  Automatic translation import  [LineageOS Infra]
-
-
-* packages/apps/FlipFlap
-3b20ffc  Automatic translation import  [LineageOS Infra]
-
-
-* packages/apps/Settings
-861add6  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/packages/apps/Settings into 14  [NurKeinNeid]
-
-
-* packages/modules/common
-bf3780f  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/packages/modules/common into 14  [NurKeinNeid]
-
-
-* packages/providers/MediaProvider
-1d94b68  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/packages/providers/MediaProvider into 14  [NurKeinNeid]
-
-
-* packages/resources/devicesettings
-cb71c22  Automatic translation import  [LineageOS Infra]
-
-
-* system/core
-599d7ba  init: devices: Add option to accept any device as boot device  [Yumi Yukimura]
-e5f609c  fixup! liblp: Allow to flash on bigger block device  [me-cafebabe]
-
-
-* system/media
-0022368  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/system/media into 14  [NurKeinNeid]
-
-
-====================
-    07-03-2024     
-====================
-
-* hardware/google/graphics/common
-a4c7d42  Merge tag 'android-14.0.0_r53' into staging/lineage-21.0_merge-android-14.0.0_r53  [Michael Bestas]
-
-
-* manifest
-b01c28a  Manifest for Android 14.0.0 Release 53  [The Android Open Source Project]
-9cb5b5e  Manifest for Android 14.0.0 Release 52  [The Android Open Source Project]
-
-
-====================
-    07-02-2024     
-====================
-
-====================
-    07-01-2024     
-====================
-
-* bionic
-7c91e99  Ensure prop has zero padding  [canyie]
-da61d46  Prevent serial of ro props from self increment  [LoveSy]
-
-
-* packages/modules/Connectivity
-01b5254  Merge tag 'android-14.0.0_r50' of https://android.googlesource.com/platform/packages/modules/Connectivity into 14  [NurKeinNeid]
-
-
-* prebuilts/derp
-939743d  Update prebuilt libraries  [Dhina17]
-
-
-* vendor/gms
-de0c14b  gms: Update Flipendo  [NurKeinNeid]
-ca0b96a  gms: Update PixelSetupWizard  [NurKeinNeid]
-ae855b0  gms: Update TurboAdapter  [NurKeinNeid]
-
-
-====================
-    06-30-2024     
-====================
-
-* bootable/recovery
-6b811b1  Revert "recovery: init.rc: add missing fscklogs permissions"  [NurKeinNeid]
-
-
-* frameworks/base
-e588cfa  Fix crash with protected content with ElectronBeam/Scale screen-off animation  [Matt Filetto]
-873140e  fwb: Screen off animations [1/2]  [Kshitij Gupta]
-7092225  Revert "base: Allow disabling refresh rate lowering in battery saver"  [NurKeinNeid]
-0819d0c  LensScreenshotReceiver: Return when failed to start activity  [someone5678]
-8e74261  RuntimeInit: Prevent bootloop trying to handle app crash of null service  [Pranav Vashi]
-4baff54  SystemUI: Disable FaceUnlock Lockouts  [minaripenguin]
-2a9448d0  fixup! SystemUI: Restore 14 QPR1 FingerprintInteractiveToAuth handling  [Oliver Scott]
-888ea0d  VolumeDialog: Fix per-app volume on secondary users  [Dhina17]
-9e20a77  fwb: Fix gamespace on secondary users  [Dhina17]
-b2c1a51  GameManagerService: Fix NPE  [Dhina17]
-243c437  fixup! base: Add support for app lock  [Dhina17]
-d772886  fixup! fwb: Add support for GameSpace  [Dhina17]
-fddd36b  Re-introduce LiveDisplay from Lineage  [Henrique Silva]
-df8ab3b  utils: Introduce FileUtils class  [Michael Bestas]
-9213e4c  PhoneWindowManager: Check camera availability on camera key long press  [dantmnf]
-
-
-* hardware/qcom-caf/common
-cc5b678  Update entry for ILocAidlGnss in FCM  [yingjiew]
-a93044f  fcm: VST AIDL frame work compatibility matrix changes  [Naga Dhanunjay Sunkara]
-bdf2793  fcm: Remove improveTouch HAL entries  [Alex Sarraf]
-
-
-* manifest
-890bb46  manifest: Track DeviceAsWebcam  [NurKeinNeid]
-
-
-* packages/apps/DerpSpace
-9eb9809  Revert "Revert "DerpSpace: Screen off animations [2/2]""  [NurKeinNeid]
-
-
-* packages/apps/Flash
-f0544f7  Flash: Address missing ExperimentalCamera2Interop annotations  [LuK1337]
-da4d6b8  Flash: Suppress unimportant lint warnings with config  [Aayush Gupta]
-bdf1568  Flash: Update Gradle to 8.8  [LuK1337]
-b473b55  Flash: Update AGP to 8.5.0  [Alexander Medvedev]
-9589942  Flash: Set initial package stopped state  [Michael Bestas]
-16f923f  Flash: Include as a preinstalled package  [Tommy Webb]
-
-
-* packages/apps/GameSpace
-01735d5  GameSpace: Fix stopping session service in secondary users  [Dhina17]
-b62406b  GameSpace: Update fps once menu switcher attached to window  [Dhina17]
-894b162  Revert "GameSpace: Rework and fix FPS count"  [NurKeinNeid]
-4bcc936  Revert "GameSpace: Rework fps meter"  [NurKeinNeid]
-
-
-* packages/apps/Settings
-95d03e5  Revert "Settings: Add toggle for 60Hz refresh rate on battery saver"  [NurKeinNeid]
-99eade2  Settings: Add dialog handling for BrightnessPreference and ButtonBacklightBrightness  [ShirokaneShizuku]
-67d03dd  Partially revert "Remove feedback and bug report stuff"  [NurKeinNeid]
-ae6b416  Revert "[Sim UI enhancement] remove the "Tap to show info""  [althafvly]
-
-
-* packages/apps/Updater
-9f48d55  Updater: Round dialogs  [Michael W]
-d497ea6  Revert "Updater: Apply rounded edges to all AlertDialogs"  [NurKeinNeid]
-
-
-* packages/services/DeviceAsWebcam
-a40da1b  Allow setting HQ mode as default  [John Galt]
-43e6a39  Allow disabling USAGE_VIDEO_ENCODE ImageReader flag  [Cyber Knight]
-
-
-* system/core
-4d290b2  core: Disable fscklogs for recovery  [LuK1337]
-
-
-* vendor/qcom/opensource/usb
-8a17275  USBGadgetHAL: Add support for UVC function  [Yumi Yukimura]
-28b61fb  init.qcom.usb.rc: Add support for DeviceAsWebcam feature  [Yumi Yukimura]
+* tools/extract-utils
+b2c09dd  extract_utils: Add xml suffix to prebuilt_etc_xml modules  [Michael Bestas]
+bccc230  extract-utils: Also support rfsa package targets on odm  [Bruno Martins]
 
 
