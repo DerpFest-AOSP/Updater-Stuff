@@ -1,28 +1,9 @@
-Device changelog:
-- Initial build
-- Added support Dolby, Dolby Vision, HDR
-- Sign build, integrity pass by default
-- MiuiCamera already included
-- Import missing Screen calibration blobs (The camera interface and screen resolution problem of the newly released screen panels has been fixed.)
-- Added support for garnet JP devices
-- Use Adreno Driver V@0762.18
-- Update C2 Dolby audio blobs from nuwa OS1.0.6.7.UMBMIXM
-- Add missing Dolby Vision Blobs V816.0.9.0.UNRMIXM
-- Import stock audio policy engine configs
-- Update Blobs to V816.0.9.0.UNRMIXM
+DerpFest Garnet
+
+Device
+
+- Initial Official build by me
 
 
-Rom changelog:
-- Merge July security patches 
-- Add back screen off animations 
-- Avoid some banking apps giving false positive of root
-- Disable FaceUnlock Lockouts
-- Check camera availability on camera key long press
-- Fix per-app volume on secondary users
-- Gamespace: Properly fix fps counter
-- GameSpace: Fix stopping session service in secondary users
-- GameManagerService: Fix NPE
-- Fix GameSpace on secondary users
-- LensScreenshotReceiver: Return when failed to start activity
-- Update prebuilt Flipendo
-- Update our prebuilt libraries
+
+
