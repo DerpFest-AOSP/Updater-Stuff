@@ -1,25 +1,43 @@
 DerpFest 14 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 25-08-2024
+Build Date : 17-09-2024
 Device : Xiaomi 11T Pro ( vili )
 
 Source:
-- Add option to toggle Google Play Integrity spoofing
-- IslandView: Add pop-in animation on appearance
-- SystemUI: Don't enforce Island notif on landscape
-- Fixed SystemUI crash when an alarm notification came in with the display on (Credits to Ido Ben-Hur)
+- PixelPropsUtils: Update fingerprints for September
+- Merge tag 'android-14.0.0_r67' - September 2024 Security update
+- Revert "SystemUI: Switch notification background to monet on heads up" ( causing SystemUI crashes while the alarm rings, if headups are enabled )
+- apn: Set correct apn for `Grameenphone` 
+- SystemUI: Fix Custom QS Header not working [1/2]
+- Island: Remove notification when swiped dismiss
+- Island: Implement Swipe to left/right to dismiss gesture
+- base: Add a toggle for long press on navbar to search [1/3]
+- base: Introduce PowerOffAlarmService
+- base: PowerOffAlarmService: Add a notification
+- Fix screen can not be switched issue
+- Fix Quick Tap open apps apps list crashing
+- PixelPropsUtils: Move to Pixel 9 Pro XL ( komodo )
+- DerpLauncher: Redesign settings homepage
+- DerpLauncher: Implement long press nav bar to search gesture
+- DerpLauncher: freeform: Launch tasks as tasks overlays
+- DerpLauncher: Enable freeform shortcut by default
+- DerpLauncher: Launch apps in freeform mode system shortcut
+- DerpLauncher: Copy 4x5 grid size from Pixel
 
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
-- Some minor fixes and improvements
-- Updated device blobs and firmware from HyperOS 1.0.4.0.UKDEUXM
-- Build missing libs for Dolby Atmos
+- Added support for Dolby Vision
+- Updated device blobs and firmware from HyperOS 1.0.5.0.UKDMIXM
+- Updated media codec configs from HyperOS 1.0.5.0.UKDMIXM
+- Updated display blobs from AOSPA
+- Updated adreno blobs from Nothing Phone (1)
+- Switched to Lineage common power-libperfmgr and powerhint
+- Added hints to limit cpu and gpu max clocks when battery saver is enabled
+- Added hints to disable Prime core when battery saver is enabled
+- Enabled GAME power mode in powerhint
+- Added intelligent equalizer setting for Dolby Atmos
+- Some other minor fixes and improvements
 
 Kernel:
-- Added KSU support again
-- Lock thermal profile to 'Game' again. I like it, idc :)
-
-Memecam:
-- Update app from HyperOS 1.0.4.0.UKDEUXM
-- Patch to match camera icon based on monet and other improvements (It's recommended to clear cache & data of camera app)
+- KernelSU support by default
