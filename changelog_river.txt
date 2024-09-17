@@ -1,9 +1,8 @@
 Device Changelog:
-- New trees and adjustments on kernel
 - Switch filesystem to erofs
 - Builds signed release-keys
 - KernelSU Included
 
 Rom Changelog:
-- August merged Security patch (QPR3)
+- September merged Security patch (QPR3)
 - Last source changes
