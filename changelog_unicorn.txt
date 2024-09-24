@@ -10,6 +10,9 @@ Device Changes:
 * Import XiaomiParts from sdm845-common
 * Adapt overlay to DerpFest
 * Add support for DeviceAsWebcam
+* Performance improve
+* Screen off fod broken for now
 
 Source Changes:
 * September ASB
+* Add more simplified chinese translations
