@@ -1,20 +1,14 @@
 Device changelog:
 - Upstreamed kernel to latest openela release
-- Upstreamed to 16300 msmnile caf kernel tags for kernel, wifi drivers and audio(techpack)
-- Disabled zram writeback for reduce sluggish effect if phone isn't rebooted for few days
-- Fixed telegram camview
-- Updated system blobs to LA.QSSI.14.0.r1-15800-qssi.0
-- Device as Webcam has now proper fix for wrong colors(acceleration is enabled back)
+- Remove software OMX blobs
 
 
 Rom changelog:
-- Remove notifications sound if screen on switch
-- PixelPropsUtils: Update fingerprint to fix play integrity and RCS again
-- Add landscape battery style
-- DerpLauncher: Always hide the keyboard when the app drawer is minimized
-- GameSpace: Don't add floating action if game closed too quickly
-- GameSpace: Show correct default settings
-- GameSpace: Enable DT2S by default
-- GameSpace: Add Disable Fastcharge switch
-- Sync prebuilt APN's with Lineage
+- Merge september security patch
+- Yaap quote: "Refactored the hell out of battery styles code"
+- PixelPropsUtils: Updates from Rising OS
+- DerpLauncher: Integrate themed icons into the recents
+- DerpLauncher: Update themed icons
+- Flash: change to FlashMode.OFF before switching usecases
+- Update few translations
 
