@@ -1,6 +1,22 @@
 DerpFest for unicorn:
 
-2024-9-24:
+2024-10-03:
+
+Device Changes:
+* Bump up kernel to Nekko-RC2(5.10.223),Merge ack and clo tags,and sync changes from pa-gr
+* Fixup screen off fod / DT2W
+* Drop QCOM WFD
+* Update blobs from diting V816.0.7.0.ULFMIXM
+* Set volume steps to 50
+* Rollback android.hardware.audio@7.0-impl
+* Performance improvement
+* Drop mgame mi_thermald mode
+* Drop wfdhdcp
+
+Source changes: 
+* Introduce new refresh rate selector page
+
+2024-9-24: 
 This is an Intial Android 14 Build.User build with release keys.
 
 Device Changes:
