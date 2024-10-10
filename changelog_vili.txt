@@ -1,14 +1,15 @@
-DerpFest 14 STABLE | OFFICIAL
+DerpFest 14 STABLE [EOL] | OFFICIAL
 By ~ @0mar99
-Build Date : 27-09-2024
+Build Date : 10-10-2024
 Device : Xiaomi 11T Pro ( vili )
 
 
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
-- Fixed screen casting (Wifi display) for LG TVs and Miracast devices
-- Patched Miui cam to use Google photos as the default gallery
+- Fixed Miui gallery crash when viewing pictures directly from the camera app
+- Add back LTE CA toggle
 
 Kernel:
 - KernelSU support by default
+- Dropped thermal locking
