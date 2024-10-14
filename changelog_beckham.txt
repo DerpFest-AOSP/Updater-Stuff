@@ -1,3 +1,9 @@
+14/10/24 - Changelog
+
+- October security patch
+- Last source changes
+- SafetyPass by default
+
 10/09/2024 - Changelog
 
 - September Patch Security
