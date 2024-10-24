@@ -1,67 +1,60 @@
 ====================
-    09-12-2024     
+    10-23-2024     
 ====================
 
 * frameworks/base
-dc99314  core: camera2: StreamConfigurationMap: add constructor for MIUI camera  [Pulkit077]
-1a23ed9  camera: Add backwards-compatible CaptureResultExtras constructor  [Adithya R]
+6b403e6  core: camera2: StreamConfigurationMap: add constructor for MIUI camera  [Pulkit077]
+bb6170d  camera: Add backwards-compatible CaptureResultExtras constructor  [Adithya R]
 
 
 * frameworks/native
-07fc9a5  Native: ProducerListener: Import ON_BUFFER_DETACHED Changes  [johnmart19]
-fa0b5c9  Revert "IProducerListener: Add a listener for consumer detach"  [clarencelol]
+9923497  Native: ProducerListener: Import ON_BUFFER_DETACHED Changes  [johnmart19]
+628e966  Revert "IProducerListener: Add a listener for consumer detach"  [clarencelol]
 
 
 ====================
-    09-11-2024     
+    10-22-2024     
 ====================
 
 ====================
-    09-10-2024     
+    10-21-2024     
 ====================
 
-* tools/extract-utils
-2e47015  extract_utils: Fix package generation for x86/x86_64  [LuK1337]
-dd283e9  extract_utils: Remove useless DISABLE_DEPS declaration  [Cosmin Tanislav]
-fa5a421  extract_utils: Remove second parameter of write_makefiles from templates  [Cosmin Tanislav]
-90b34e8  extract_utils: Add FIX_{SONAME,XML} helper functions  [Michael Bestas]
-9c657f5  extract_utils: Implement DISABLE_DEPS  [Michael Bestas]
-4c30806  extract_utils: Add MODULE_SUFFIX support  [LuK1337]
-17465ca  extract_utils: Fix multiple args parsing for automatic fixup  [LuK1337]
-
-
 ====================
-    09-09-2024     
+    10-20-2024     
 ====================
 
-* build/release
-41fb8c7  Revert "ap2a flags: re enable fast unlock animation"  [John Galt]
-
-
-* tools/extract-utils
-637e366  extract_utils: Support XML fixing by an argument  [Bruno Martins]
-073096f  extract_utils: Implement fixing lib's soname  [Bruno Martins]
-
-
 ====================
-    09-08-2024     
+    10-19-2024     
 ====================
-
-* art
-b5a1af0  runtime: do not crash pre-U apps if deleting global ref as local  [nift4]
-
-
-* device/google/gs-common
-811212e  fixup! Disable userdebug diagnostics  [Michael Bestas]
-
 
 * frameworks/base
-cb66f9f  SystemUI: Fix notification count not working after a reboot  [minaripenguin]
-2800a58  IslandView: Fix dismissal and cleanup resources when not needed  [minaripenguin]
+65f3433  base: Allow disabling turbulence noise after clicking the play button  [Ido Ben-Hur]
+22c2679  Pulse: Make view linkages more robust  [Pranav Vashi]
+f6592b9  aapt2: add freeze IDs for ContextualSearch  [Matt Filetto]
+a6e9001  SystemUI: Set initial usage text view as invisible  [Pranav Vashi]
+494cbfe  fixup! Implement backup/restore for network policy  [Oliver Scott]
+52dbda0  Restrict apps without INTERNET permission  [Tommy Webb]
+910fb1b  fixup! Firewall: Network access toggle support  [Oliver Scott]
 
 
-* tools/extract-utils
-b2c09dd  extract_utils: Add xml suffix to prebuilt_etc_xml modules  [Michael Bestas]
-bccc230  extract-utils: Also support rfsa package targets on odm  [Bruno Martins]
+* packages/apps/Settings
+eae7964  Setings: AppLock: Hide debugging in user product  [Mohammad Hasan Keramat J]
+
+
+* vendor/derp
+85af8b0  apns: Update Brazil carriers to 2024  [Caio Oliveira]
+e199f1e  kernel: Add `{recovery}kernelconfig`  [Sebastiano Barezzi]
+b55a2d3  kernel: Clean headers installed in uapi/asm as well  [khalvat-M]
+84db968  apn: Add Congstar (Telekom)  [Christian Oder]
+7946824  apn: Add Truphone (Saily)  [Christian Oder]
+4abed0d  config: tablet: Enable freeform and large screen support for all targets  [Sebastiano Barezzi]
+d93117c  config: tablet: Enable freeform windows by default  [Davide Garberi]
+2f9acdf  config: tablet: Deduplicate full tablet configuration  [Sebastiano Barezzi]
+8890656  config: Move LatinIME stuff to common_mobile*.mk  [Sebastiano Barezzi]
+9902d32  config: Rename mobile-specific configs  [Sebastiano Barezzi]
+f1125b0  overlay: wifionly: Specify that we don't have SIM support  [Davide Garberi]
+3d0e550  overlay: wifionly: Mark as WiFi-only  [Tim Zimmermann]
+f13ca50  overlay: wifionly: Set network and radio attributes  [Bruno Martins]
 
 
