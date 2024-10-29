@@ -1,15 +1,29 @@
-DerpFest 14 STABLE [EOL] | OFFICIAL
+DerpFest 15 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 10-10-2024
+Build Date : 29-10-2024
 Device : Xiaomi 11T Pro ( vili )
 
+Source: 
+- Initial A15 release. Clean flash required!!
 
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
-- Fixed Miui gallery crash when viewing pictures directly from the camera app
-- Add back LTE CA toggle
+- Rebased trees with latest changes from lineage
+- Migrate sensor HAL to AIDL interface
+- Switch to QTI Memtrack AIDL HAL
+- Switch to AIDL USB HALs
+- Update common blobs from haydn V816.0.6.0.UKKMIXM
+- Update vili blobs, firmware and MIUI camera app from V816.0.6.0.UKDMIXM
+- Dolby: Import russian translations
+- Import modified audio_policy_volumes.xml from stock, credits to @Exmane
+- Improved overall dolby vision and dolby atmos audio quality
+- Dropped CAF input boost
+- Tuned powerhint for better performance, credits to @tanzilw for helping
+- Modified thermal-normal.conf for balanced performance and less thermal throttling, credits to @tanzilw
+- Some other changes and improvements
 
 Kernel:
 - KernelSU support by default
-- Dropped thermal locking
+- Add idle state sysfs node
+- Set idle state correctly
