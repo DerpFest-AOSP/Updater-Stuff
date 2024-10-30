@@ -1,7 +1,6 @@
 Device Changes:
-- Disabled turbulence noise after clicking the play button on the quick settings media player (should fix a few frame drops while swiping down in the quick settings after using the media player)
-- Move to Xiaomi IR AIDL
-- Ship updated VantomKernel v4.14.353
+- Initial Android 15 build (CLEAN FLASH IS MANDATORY)
 
 DerpFest Source Changes:
+- Initial DerpFest 15
 - Merge October security patches
