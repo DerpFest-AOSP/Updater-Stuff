@@ -1,12 +1,17 @@
-DerpFest 14 STABLE | OFFICIAL ~ by @einargednochsson
-Build Date : 18-10-2024
+DerpFest 15 STABLE | OFFICIAL ~ by @einargednochsson
+Build Date : 30-10-2024
 Device : Lenovo Z6 Pro ( zippo )
+
+Credits:
+
+@chematelegram for A15 bringup - great job buddy!
 
 Device Changelog:
 
-- Kernel upstream to v4.14.353 openela LTS
-- Kernel upstream to LA.UM.9.1.r1-16300-SMxxx0.QSSI14.0
+- Kernel upstream to v4.14.354 openela LTS
+- Kernel upstream to LA.UM.9.1.r1-16400-SMxxx0.QSSI14.0
 
 Source Changelog:
 
+- Initial A15 Release
 - Merge October '24 security patch
