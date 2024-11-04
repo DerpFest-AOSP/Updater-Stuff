@@ -1,6 +1,6 @@
 DerpFest 15 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 30-10-2024
+Build Date : 04-11-2024
 Device : Xiaomi 11T Pro ( vili )
 
 Source: 
@@ -8,8 +8,9 @@ Source:
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
-- Disabled default 60Hz framerate cap for games (Thanks, Google)
-- Fixed some perf regressions in powerhint
+- Fixed an issue where booting to twrp would result in a black screen
+- Modified powerhint and thermal-normal.conf by @tanzilw with better thermal thresholds
+- Updated common blobs from haydn V816.0.9.0.UKKMIXM
 
 Kernel:
 - KernelSU support by default
