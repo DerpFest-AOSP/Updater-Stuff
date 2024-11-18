@@ -1,14 +1,17 @@
 DerpFest 15 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 14-11-2024
+Build Date : 18-11-2024
 Device : Xiaomi 11T Pro ( vili )
 
 Source: 
-- Merged November security patch
 
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
+- Update vili blobs and firmware from HyperOS V816.0.7.0.UKDMIXM
+- Switched to AIDL thermal HAL
+- Set up/down rate limits for each cpu cluster
+- Tune powerhint for efficiency
 
 Kernel:
 - KernelSU support by default
