@@ -1,8 +1,0 @@
-Device Changelog:
-- Switch filesystem to erofs
-- Builds signed release-keys
-- KernelSU Included
-
-Rom Changelog:
-- September merged Security patch (QPR3)
-- Last source changes

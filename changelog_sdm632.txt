@@ -1,8 +1,10 @@
 Device Changelog:
-- Switch filesystem to erofs
+- Last LineageOS trees changes
+- Dolby Atmos
 - Builds signed release-keys
 - KernelSU Included
+- Optimizations
 
 Rom Changelog:
-- September merged Security patch (QPR3)
+- November merged Security patch
 - Last source changes
