@@ -1,3 +1,1 @@
-- Import KernelSU v0.9.5
-- Minor fixes and improvements before android 15
-
+- fully functional start of work on the a15!
