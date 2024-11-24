@@ -1,33 +1,30 @@
 DerpFest 14 STABLE | OFFICIAL
-Build Date : 15-10-2024 
+Build Date : 24-11-2024 
 Device : Redmi Note 7 Pro 
 By ~ @selfmuser
 
 Rom Changes :
-- Merge October security patch (android-security-14.0.0_r13)
-- PixelPropsUtils: Update fingerprint for play integrity
-- VolumeDialog: Update rows when adding one while the panel is showing
-- Prevent some possible memory leaks
-- Improvements for custom headers
-- Fix navbar tint when QS expanded
-- DerpLauncher: Update settings header
-- Update few translations
+- Merge November security patch (android-security-14.0.0_r14)
+- Bump Security String to 2024-11-01
+- PixelPropsUtils: Update fingerprint to latest akita_beta for spoofing GMS
+- BACKPORT: Clear icons for app/ime keyboard shortcuts in shortcut helper.
+- fixup! Implement firewall status bar indicator
+- Correction in logic of roundend size calculation of SD card
+- VolumeDialog: Bail out if app volume view is null
+- SenseProvider: Allow our face unlock to be used on third-party apps
+- SystemUI: Fix fontinterpolator unable to interpolate due to unknown default axes value
+- Settings: Update wallpaper dashboard summary to be inline with Pixels
+- Update translations
 
 Device Changes :
-- Upstream Perf Kernel to v4.14.352-openela
+- Upstream Perf Kernel to v4.14.355-openela
 - Implemented Xiaomi Dolby Atmos into settings 
-- Nuked Dirac & Moto Dolby stuff ( for Xiaomi Dolby )
-- Night light in QS tile is back
-- Improved Bootime 
-- Switch to QTI Memtrack AIDL HAL
-- BCR v1.72 included
-- Updated uneventd scripts
-- Updated GPU drivers
-- Set system graphics to power control node
-- Declared OpenGL ES level and updated GPU drivers
+- Update BCR v1.74
 - Improved Meme Cam related stuff ( Causing MIUI detection on some apps )
 
 
 NOTE : Make sure to join DerpFest Violet chat instead of spamming your skill issues at violet global chat :)
 
 # Thank you so much to everyone who always supported me and my work 🫶
+
+• Special thanks to @Rkriyon1 for the server 😎
