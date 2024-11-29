@@ -1,14 +1,9 @@
 Device changelog:
-- Upstreamed kernel to latest openela release
-- Remove software OMX blobs
+- Initial 15 build
 
 
 Rom changelog:
-- Merge september security patch
-- Yaap quote: "Refactored the hell out of battery styles code"
-- PixelPropsUtils: Updates from Rising OS
-- DerpLauncher: Integrate themed icons into the recents
-- DerpLauncher: Update themed icons
-- Flash: change to FlashMode.OFF before switching usecases
-- Update few translations
+- Merge november security patch
+- Synced derpfest sources
+
 
