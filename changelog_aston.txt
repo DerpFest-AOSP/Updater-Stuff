@@ -1,0 +1,42 @@
+DerpFest 15 STABLE | OFFICIAL
+By ~ @LucasBlackLu
+Build Date : 2024 Dec 02
+Device : OnePlus 12R | ACE3 ( aston )
+
+Source: 
+- Add Pixel framework (quick tap, clear calling, etc)
+- Add Omni weather settings
+- Improvements and bugfixes for Mi Freeform
+- Statusbar lyric supports all music apps now
+- Add Pixel Navbar animation toggle for 2/3 button navigation
+- Button settings: Bring back Navbar editor from Nougat
+- Exempt some system packages from location indicator by default
+- Fix edge long swipe gesture on apps which do not support predictive back gesture
+- DerpLauncher: Fix broken icon shape on some third party icon packs
+- DerpLauncher: Add an option to open the keyboard with the drawer
+- DerpLauncher: Fix apps list for hidden/protected apps
+- GameSpace: Add lock gesture feature
+
+For detailed changelogs go to: Settings>About>Android Version>Changelog
+
+Device:
+
+Kernel:
+- KernelSU support by default
+
+Install instruction
+# Reboot to bootloader
+adb reboot bootloader 
+fastboot flash boot boot.img
+fastboot flash vendor_boot vendor_boot.img
+fastboot reboot recovery
+# click Install Update > ADB sideload
+adb sideload rom.zip
+# Factory wipe is require for first install
+# Click back to recovery menu > Factory rest > Format data/Factory reset
+
+Tips:
+There is a known issus about clash, If you using clash to use Telegram and it cant use Telegram normally 
+Plz turn off Setting => Network => Allow ByPass in clash client
+如果你使用clash 類VPN 訪問Telegram 客戶端，請關閉clash  客戶端裡面的 Allow ByPass, 路徑 Setting => Network => Allow ByPass 
+Pixel IMS could help you enable volte and so on
