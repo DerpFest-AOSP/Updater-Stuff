@@ -1,19 +1,14 @@
 DerpFest 14 STABLE | OFFICIAL
-Build Date : 24-11-2024 
+Build Date : 08-12-2024 
 Device : Redmi Note 7 Pro 
 By ~ @selfmuser
 
 Rom Changes :
-- Merge November security patch (android-security-14.0.0_r14)
-- Bump Security String to 2024-11-01
-- PixelPropsUtils: Update fingerprint to latest akita_beta for spoofing GMS
-- BACKPORT: Clear icons for app/ime keyboard shortcuts in shortcut helper.
-- fixup! Implement firewall status bar indicator
-- Correction in logic of roundend size calculation of SD card
-- VolumeDialog: Bail out if app volume view is null
-- SenseProvider: Allow our face unlock to be used on third-party apps
-- SystemUI: Fix fontinterpolator unable to interpolate due to unknown default axes value
-- Settings: Update wallpaper dashboard summary to be inline with Pixels
+- Merge December security patch (android-security-14.0.0_r15)
+- Bump Security String to 2024-12-01
+- PixelPropsUtils: Update fingerprint to latest felix_beta for spoofing GMS
+-  Fix Dynamic Permission group auto grant behaivor
+- Fix an issue with FM Radio app ( Nuked extra FM app )
 - Update translations
 
 Device Changes :
