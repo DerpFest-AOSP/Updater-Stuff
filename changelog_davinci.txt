@@ -1,9 +1,17 @@
 Device changelog:
-- Initial 15 build
+- Fixed WiFi Display(miracast)
 
-
-Rom changelog:
-- Merge november security patch
-- Synced derpfest sources
-
+ROM changes:
+- Merge December security patches
+- Remove Omni weather in favor of updated Smartspace
+- Fix scrim issues regarding transparency
+- Settings: Use the same color we use for background for statusbar
+- Settings: Move applock to apps section
+- MiFreeform:
+- Fix height/width being too big on landscape mode
+- Allow adding more than one freeform windows
+- Rework freeform window design to match desktop mode specs
+- Implement material you color scheme
+- Implement veil resize effect
+- DerpLauncher: Exclude overview lens activity from recents
 
