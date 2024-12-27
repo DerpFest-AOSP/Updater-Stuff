@@ -1,0 +1,334 @@
+====================
+    12-24-2024     
+====================
+
+* device/motorola/rtwo
+d6d4d52  go official  [syrkles217]
+faea0cf  derp time  [syrkles217]
+e2a0ead  rtwo: Update audio configs from 14 U1TRS34.8-30-13-2-2-4 68e97-f9a887  [Marc Bourgoin]
+
+
+* device/motorola/sm8550-common
+fdabbc6  add disable flag  [syrkles217]
+06e90cb  Add maintainer overlay  [syrkles]
+545aa3b  (TMP) set  clang to 17 for now  [syrkles217]
+6e61cc2  derp time  [syrkles217]
+056ad50  sm8550-common: Add vendor.audioadsprpcd_audiopd service  [Marc Bourgoin]
+
+
+* vendor/motorola/sm8550-common
+2d117e2  Revert "sm8550-common: Bump libwfdservice to android.media.audio.common.types-V4"  [syrkles217]
+7a55413  Revert "sm8550-common: Address missing libbinder symbols in libwfdnative"  [syrkles217]
+
+
+====================
+    12-23-2024     
+====================
+
+* device/motorola/sm8550-common
+8b66e91  sm8550-common: Address missing libbinder symbols in libwfdnative  [Nick Reuter]
+c99bc21  sm8550-common: Bump libwfdservice to android.media.audio.common.types-V4  [Nick Reuter]
+
+
+* kernel/motorola/sm8550-modules
+f921489  Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550-modules into HEAD  [Marc Bourgoin]
+
+
+* vendor/motorola/sm8550-common
+30a3bd7  sm8550-common: Address missing libbinder symbols in libwfdnative  [Nick Reuter]
+b608a79  sm8550-common: Bump libwfdservice to android.media.audio.common.types-V4  [Nick Reuter]
+
+
+====================
+    12-22-2024     
+====================
+
+* device/motorola/rtwo
+d83ab8e  rtwo: Commonize VPU firmware  [Marc Bourgoin]
+5c21e6d  rtwo: add speaker protection parameters  [Cosmin Tanislav]
+c934e4b  rtwo: remove config_udfpsColor  [Cosmin Tanislav]
+f14ace7  rtwo: remove config_deviceHardwareKeys  [Cosmin Tanislav]
+710ec98  rtwo: move ro.vendor.radio.imei.sv to device  [Cosmin Tanislav]
+841e444  rtwo: remove bluetooth.device.default_name  [Cosmin Tanislav]
+c000a5a  rtwo: remove def_device_name_simple overlay  [Cosmin Tanislav]
+38d718d  rtwo: fix indentation  [Cosmin Tanislav]
+9dafda6  rtwo: move motorola desktop camera to common  [Cosmin Tanislav]
+0070e23  rtwo: move camera firmware to common  [Cosmin Tanislav]
+6f3eb79  rtwo: move common sensors libraries to common  [Cosmin Tanislav]
+fdf516a  rtwo: move vhw.xml to common  [Cosmin Tanislav]
+b164f1f  rtwo: move livedisplay manifest to common  [Cosmin Tanislav]
+be29f23  eqs: resource-overlay: remove unused Android.mk  [Cosmin Tanislav]
+3fa2c1e  rtwo: move common media configs to common  [Cosmin Tanislav]
+e390abf  rtwo: move common audio configs to common  [Cosmin Tanislav]
+e55e5a4  rtwo: move kernel modules loading to common  [Cosmin Tanislav]
+26b9a1a  rtwo: move TARGET_KERNEL_EXT_MODULES to common  [Cosmin Tanislav]
+c767e67  rtwo: overlay: Update pixel pitch  [Beverly]
+8da50e9  rtwo: Rework MotCamera4 patch  [Marc Bourgoin]
+6c04fa2  rtwo: ruff format --config  [Michael Bestas]
+e4a5f08  rtwo: Use common lib_fixups  [LuK1337]
+9bb7c96  rtwo: Switch to python extract-utils  [Michael Bestas]
+3712107  rtwo: Adjust override prop key names  [Michael Bestas]
+79a562e  rtwo: Remove duplicate entry  [Marc Bourgoin]
+184409f  rtwo: Fix sonames  [Marc Bourgoin]
+4221108  rtwo: Drop se_nq_extn_client blob  [Marc Bourgoin]
+3848e4c  rtwo: Drop prebuilt libdng_sdk  [Marc Bourgoin]
+6ea7381  rtwo: Commonize libar-acdb  [Marc Bourgoin]
+0a6d5d5  rtwo: Decommonize rest of the camera blobs  [Marc Bourgoin]
+a529a58  rtwo: Switch to 64 bit only builds  [chandu078]
+dc7e025  rtwo: Moving core 64 bit only makefile  [Shashank Sivakumar]
+729b399  rtwo: audio: remove direct flag for VOIP RX  [Kumar Anurag Singh]
+
+
+* device/motorola/sm8550-common
+d5f44b0  sm8550-common: Add VPU firmware  [Marc Bourgoin]
+b998d20  sm8550-common: Drop modemmanager  [Marc Bourgoin]
+3cc9951  sm8550-common: Drop qsap  [Marc Bourgoin]
+3776eee  sm8550-common: fix reverse application of IMS patch  [Cosmin Tanislav]
+5af660c  sm8550-common: Remove vendor RenderScript implementation.  [Alexander Koskovich]
+f62d4cb  sm8550-common: Disable OMX  [Sungtak Lee]
+98cdbc3  sm8550-common: remove QVR ADSP blobs  [Cosmin Tanislav]
+9a4954c  sm8550-common: let secure element hal access vendor.ese.status  [Cosmin Tanislav]
+3ad7b6c  sm8550-common: Remove omx libraries  [Aaron Kling]
+b22fe30  sm8550-common: add back IComponentStore VINTF  [Cosmin Tanislav]
+8c43592  sm8550-common: remove ANT+ blobs  [Cosmin Tanislav]
+89d5a5a  sm8550-common: remove Dolby effects and codecs  [Cosmin Tanislav]
+404a3e5  sm8550-common: remove libril dependency from libmotext_inf  [Cosmin Tanislav]
+6ae4807  sm8550-common: use prebuilt libcodec2_soft_common.so for Dolby  [Cosmin Tanislav]
+e73b35d  sm8550-common: Drop qvr/qxr  [Aaron Kling]
+8b97bc1  sm8550-common: sepolicy: Address more Dolby audio denials  [Yuan Si]
+8765cd3  sm8550-common: sepolicy: Address mediacodec denials  [YuKongA]
+5130f53  sm8550-common: remove dolby line removal  [Cosmin Tanislav]
+5fdcc4f  sm8550-common: Move media local copies back to vendor  [Marc Bourgoin]
+3923169  sm8550-common: Load adsp_loader_dlkm for battery status in recovery  [pjgowtham]
+9c91665  sm8550-common: overlay-lineage: Declare support for wireless charging  [Bruno Martins]
+79a2045  sm8550-common: remove Telecomm overlays  [Cosmin Tanislav]
+d838031  sm8550-common: remove QCOM bluetooth board flags  [Cosmin Tanislav]
+424885e  sm8550-common: remove persist.vendor.radio.rat_on  [Cosmin Tanislav]
+0358517  sm8550-common: remove vendor.ims.modem.multisub.cap  [Cosmin Tanislav]
+206404e  sm8550-common: decommonize speaker protection parameters  [Cosmin Tanislav]
+6ef68be  sm8550-common: remove vendor.audio.hdr.record.enable  [Cosmin Tanislav]
+1dd1a62  sm8550-common: remove obsolete vendor_sysfs_dt2w type  [Cosmin Tanislav]
+e0cbd58  sm8550-common: remove CellBroadcastReceiver overlay  [Cosmin Tanislav]
+2c0bd65  sm8550-common: move ro.vendor.radio.imei.sv to device  [Cosmin Tanislav]
+e4e43c8  sm8550-common: add common motorola camera  [Cosmin Tanislav]
+03b5196  sm8550-common: add common camera firmware  [Cosmin Tanislav]
+b17842c  sm8550-common: add common sensors libraries  [Cosmin Tanislav]
+8dbfaac  sm8550-common: add vhw.xml to common  [Cosmin Tanislav]
+23dc6b6  sm8550-common: livedisplay: use VINTF fragment  [Cosmin Tanislav]
+3af315c  sm8550-common: import common media configs  [Cosmin Tanislav]
+7ca76f8  sm8550-common: import common audio configs  [Cosmin Tanislav]
+ad10f57  sm8550-common: load modules for rtwo  [Cosmin Tanislav]
+3889657  sm8550-common: add external modules for rtwo  [Cosmin Tanislav]
+2a7a953  sm8550-common: automatically patch ims  [Cosmin Tanislav]
+108db8d  sm8550-common: Switch to stock IMS system blobs  [Marc Bourgoin]
+71b2007  sm8550-common: Create rfs fsg symlink  [Michael Bestas]
+edba4ee  sm8550-common: let kernel read fsg_file  [Cosmin Tanislav]
+fcff975  sm8550-common: let vendor_init set vendor_ssr_prop  [Cosmin Tanislav]
+6aacc94  sm8550-common: fix denials for init.mmi.touch.sh  [Cosmin Tanislav]
+9ad260d  sm8550-common: label panelDeclare  [Cosmin Tanislav]
+12f2116  sm8550-common: let NFC HAL access NFC props for writing and radio props  [Cosmin Tanislav]
+4c366d2  sm8550-common: remove duplicate context for /sys/devices/virtual/fastrpc/adsprpc-smd  [Cosmin Tanislav]
+5d38b7d  sm8550-common: let hal_fingerprint access hal_health  [Cosmin Tanislav]
+f06d484  sm8550-common: address vendor_rmt_storage denials  [Cosmin Tanislav]
+1d64363  sm8550-common: build libstagefright_softomx_plugin  [Cosmin Tanislav]
+5488caf  sm8550-common: remove conflicting overlays  [Cosmin Tanislav]
+ce4bdb2  sm8550-common: Drop unnecessary BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE flag  [basamaryan]
+964712a  sm8550-common: overlay: Remove config_cellBroadcastAppLinks  [x0x00044]
+4b13153  sm8550-common: Set BOARD_WPA_SUPPLICANT_PRIVATE_LIB_EVENT  [Michael Bestas]
+24f4da7  sm8550-common: Drop atrace HAL  [danascape]
+9ef05f5  sm8550-common: Declare WiFi Aware support to WiFi HAL  [Etan Cohen]
+5d49c30  sm8550-common: Remove TARGET_ENABLE_MEDIADRM_64  [Sebastiano Barezzi]
+b09150a  sm8550-common: Drop unused WIFI_DRIVER_DEFAULT flag  [Michael Bestas]
+7cd2683  sm8550-common: Inherit common partition reserved sizes  [Michael Bestas]
+44e33c9  sm8550-common: Resolve missing symbols on libqcodec2_core  [Bruno Martins]
+f9fd028  sm8550-common: Adjust module suffix for elf checks  [Marc Bourgoin]
+fa0529b  sm8550-common: Use common lib_fixups  [LuK1337]
+41f391f  sm8550-common: Switch to python extract-utils  [Michael Bestas]
+a11dd30  sm8550-common: Shim WFD with libgui_shim/libinput_shim  [LuK1337]
+1ad744a  sm8550-common: Drop local media_codecs_c2_audio  [Marc Bourgoin]
+6f069b4  sm8550-common: Address seccomp filter failures  [Bruno Martins]
+81dc94b  sm8550-common: Use libhidlbase_shim for vendor.libdpmframework  [Arian]
+e48b07f  sm8550-common: Remove duplicate entries  [Marc Bourgoin]
+261926e  sm8550-common: Switch to AIDL USB HALs  [Michael Bestas]
+dea86ae  sm8550-common: Switch to AIDL thermal HAL  [Michael Bestas]
+94a2fb3  sm8550-common: Fix sonames  [Marc Bourgoin]
+da348be  sm8550-common: Resolve missing symbols on libqtikeymint  [Bruno Martins]
+60b4894  sm8550-common: Drop more duplicate blobs  [Marc Bourgoin]
+4a29e3e  sm8550-common: Drop manual copy of libstagefright_foundation-v33  [Marc Bourgoin]
+40dcc68  sm8550-common: Re-enable broken dup rules check  [Aaron Kling]
+b104f80  sm8550-common: usb_compositions: Move config to odm  [Bruno Martins]
+4182aad  sm8550-common: Setup TARGET_COPY_OUT_ODM  [Marc Bourgoin]
+47d1425  sm8550-common: Kang dolbycodec2 blob from ctwo  [Marc Bourgoin]
+98b85a1  sm8550-common: Drop more duplicate blobs  [Marc Bourgoin]
+11e7a44  sm8550-common: Libraries are now automatically added to PRODUCT_PACKAGES  [Michael Bestas]
+1e9cae2  sm8550-common: Do not manually build dependencies  [Cosmin Tanislav]
+5fbb664  sm8550-common: Disable elf check on libmotext_inf  [Marc Bourgoin]
+7fd7686  sm8550-common: Remove prebuilt duplicate libqsap_sdk  [Marc Bourgoin]
+7a0bda3  sm8550-common: Drop a few prebuilt audio blobs  [Marc Bourgoin]
+05bda29  sm8550-common: Move to OSS FM and HFP libs  [Bruno Martins]
+64bae68  sm8550-common: Work around using prebuilt audio primary HAL  [Bruno Martins]
+c588791  sm8550-common: Work around using prebuilt HWC  [Michael Bestas]
+02d71e0  sm8550-common: Patch libwfdservice to resolve duplicate dependencies  [Michael Bestas]
+f5f6ea2  sm8550-common: Drop prebuilt libcodec2_soft_common blob  [Marc Bourgoin]
+3dfa755  sm8550-common: Adjust CPU Architecture  [Marc Bourgoin]
+3cdc55d  sm8550-common: Drop prebuilt libkeymaster_messages  [Marc Bourgoin]
+040d8b7  sm8550-common: disable some ELF checks  [Marc Bourgoin]
+6e2fd1f  sm8550-common: Remove elf files in copy files check  [Aaron Kling]
+83bd97c  sm8550-common: Commonize libar-acdb  [Marc Bourgoin]
+2196427  sm8550-common: Decommonize rest of the camera blobs  [Marc Bourgoin]
+3a4fd9b  sm8550-common: Add missing libhidltcmd & motorola.hardware.tcmd@1.0  [Marc Bourgoin]
+0dc4813  sm8550-common: Fix a few more ELF checks  [Marc Bourgoin]
+a0e0d8a  sm8550-common: skip dependencies which aren't defined in .bp  [Cosmin Tanislav]
+5de610e  sm8550-common: Build libhapticgenerator from source  [Marc Bourgoin]
+1063b44  sm8550-common: fix vendor.qti.imsrtpservice@3.0 ELF checks  [Cosmin Tanislav]
+77828e0  sm8550-common: fix vendor.qti.hardware.fm@1.0 ELF checks  [Michael Bestas]
+c4ed18b  sm8550-common: fix com.qualcomm.qti.dpm.api@1.0 ELF checks  [Cosmin Tanislav]
+f1f698a  sm8550-common: Add vendor soong imports to extract  [Aaron Kling]
+f718d99  sm8550-common: Enable elf checks  [Aaron Kling]
+89656d2  sm8550-common: Sort blob list  [Marc Bourgoin]
+fa3b45b  sm8550-common: Update blob fixup for dolby c2 with a wildcard  [Marc Bourgoin]
+3e90696  sm8550-common: Drop soong configs for audio service  [Bruno Martins]
+8a5fa5c  sm8550-common: Switch to 64 bit only builds  [chandu078]
+1f70e7c  sm8550-common: Add missing vendor.qti.hardware.dpmaidlservice-V1-ndk.so  [Marc Bourgoin]
+24574bd  sm8550-common: Drop 32-bit audio HAL and its dependencies  [Bruno Martins]
+a92bcaf  sm8550-common: Remove media_codecs_google_c2*  [Michael Bestas]
+dcece27  sm8550-common: Use AOSP default Codec2/OMX ranks  [Michael Bestas]
+36bfee5  sm8550-common: Remove software omx codec references  [Aaron Kling]
+
+
+* vendor/motorola/rtwo
+022f52e  rtwo: Commonize VPU firmware  [Marc Bourgoin]
+0c93588  rtwo: move motorola desktop camera to common  [Cosmin Tanislav]
+12b01b8  rtwo: move camera firmware to common  [Cosmin Tanislav]
+30bec27  rtwo: move common sensors libraries to common  [Cosmin Tanislav]
+7cc5497  rtwo: move vhw.xml to common  [Cosmin Tanislav]
+deb605f  rtwo: Regenerate vendor after switching to py extract-utils  [Marc Bourgoin]
+d1793f9  rtwo: Fix sonames  [Marc Bourgoin]
+e0f5973  rtwo: Drop se_nq_extn_client blob  [Marc Bourgoin]
+5d9fb6d  rtwo: Drop prebuilt libdng_sdk  [Marc Bourgoin]
+7f65fe4  rtwo: Commonize libar-acdb  [Marc Bourgoin]
+5708345  rtwo: Decommonize rest of the camera blobs  [Marc Bourgoin]
+e9e3213  rtwo: Switch to 64 bit only builds  [chandu078]
+
+
+* vendor/motorola/sm8550-common
+c69ecfd  sm8550-common: Add VPU firmware  [Marc Bourgoin]
+fd4f99e  sm8550-common: Drop modemmanager  [Marc Bourgoin]
+1b20009  sm8550-common: Drop qsap  [Marc Bourgoin]
+be24932  sm8550-common: fix reverse application of IMS patch  [Cosmin Tanislav]
+94d471b  sm8550-common: remove QVR ADSP blobs  [Cosmin Tanislav]
+55fda08  sm8550-common: remove ANT+ blobs  [Cosmin Tanislav]
+e4d0b87  sm8550-common: remove Dolby effects and codecs  [Cosmin Tanislav]
+2b597d3  sm8550-common: remove libril dependency from libmotext_inf  [Cosmin Tanislav]
+ae34334  sm8550-common: use prebuilt libcodec2_soft_common.so for Dolby  [Cosmin Tanislav]
+bc8c4e5  sm8550-common: Drop qvr/qxr  [Aaron Kling]
+aee6517  sm8550-common: Move media local copies back to vendor  [Marc Bourgoin]
+2a0de6b  sm8550-common: add common motorola camera  [Cosmin Tanislav]
+c8ba08f  sm8550-common: add common camera firmware  [Cosmin Tanislav]
+03f7f78  sm8550-common: add common sensors libraries  [Cosmin Tanislav]
+b18c11c  sm8550-common: add vhw.xml to common  [Cosmin Tanislav]
+2a1c281  sm8550-common: automatically patch ims  [Cosmin Tanislav]
+5fa2448  sm8550-common: Switch to stock IMS system blobs  [Marc Bourgoin]
+247b423  sm8550-common: Resolve missing symbols on libqcodec2_core  [Bruno Martins]
+4a403d2  sm8550-common: Regenerate vendor after switching to py extract-utils  [Marc Bourgoin]
+d78f6f5  sm8550-common: Shim WFD with libgui_shim/libinput_shim  [LuK1337]
+1042ad9  sm8550-common: Address seccomp filter failures  [Bruno Martins]
+99b94b2  sm8550-common: Resolve missing symbols on libqcodec2_core  [Bruno Martins]
+24d063b  sm8550-common: Use libhidlbase_shim for vendor.libdpmframework  [Arian]
+dc7da9c  sm8550-common: Fix sonames  [Marc Bourgoin]
+e82cda6  sm8550-common: Resolve missing symbols on libqtikeymint  [Bruno Martins]
+9d94c36  sm8550-common: Drop more duplicate blobs  [Marc Bourgoin]
+2fb1e6e  sm8550-common: Kang dolbycodec2 blob from ctwo  [Marc Bourgoin]
+095c826  sm8550-common: Drop more duplicate blobs  [Marc Bourgoin]
+6ba2028  sm8550-common: Disable elf check on libmotext_inf  [Marc Bourgoin]
+d8595d4  sm8550-common: Remove prebuilt duplicate libqsap_sdk  [Marc Bourgoin]
+1717c52  sm8550-common: Drop a few prebuilt audio blobs  [Marc Bourgoin]
+74fbef3  sm8550-common: Move to OSS FM and HFP libs  [Bruno Martins]
+9a1eed4  sm8550-common: Patch libwfdservice to resolve duplicate dependencies  [Michael Bestas]
+5248669  sm8550-common: Drop prebuilt libcodec2_soft_common blob  [Marc Bourgoin]
+76f1d09  sm8550-common: Drop prebuilt libkeymaster_messages  [Marc Bourgoin]
+421e6e4  sm8550-common: disable some ELF checks  [Marc Bourgoin]
+9240839  sm8550-common: Commonize libar-acdb  [Marc Bourgoin]
+1357aee  sm8550-common: Decommonize rest of the camera blobs  [Marc Bourgoin]
+f48b7d2  sm8550-common: Add missing libhidltcmd & motorola.hardware.tcmd@1.0  [Marc Bourgoin]
+7590484  sm8550-common: Fix a few more ELF checks  [Marc Bourgoin]
+8588338  sm8550-common: Build libhapticgenerator from source  [Marc Bourgoin]
+52d3658  sm8550-common: fix vendor.qti.imsrtpservice@3.0 ELF checks  [Cosmin Tanislav]
+582987f  sm8550-common: fix vendor.qti.hardware.fm@1.0 ELF checks  [Michael Bestas]
+726cfd8  sm8550-common: fix com.qualcomm.qti.dpm.api@1.0 ELF checks  [Cosmin Tanislav]
+9baf914  sm8550-common: Enable elf checks  [Aaron Kling]
+ca1bd46  sm8550-common: Update blob fixup for dolby c2 with a wildcard  [Marc Bourgoin]
+0092684  sm8550-common: Switch to 64 bit only builds  [chandu078]
+a8e4ea5  sm8550-common: Add missing vendor.qti.hardware.dpmaidlservice-V1-ndk.so  [Marc Bourgoin]
+da328ac  sm8550-common: Drop 32-bit audio HAL and its dependencies  [Bruno Martins]
+
+
+====================
+    12-21-2024     
+====================
+
+* device/motorola/rtwo
+073f83a  rtwo: Update from rtwo_g-user 14 U1TRS34.8-30-13-2-2-4 68e97-f9a887 release-keys  [Marc Bourgoin]
+
+
+* device/motorola/sm8550-common
+9f6cf32  sm8550-common: Update from rtwo_g-user 14 U1TRS34.8-30-13-2-2-4 68e97-f9a887 release-keys  [Marc Bourgoin]
+
+
+* frameworks/base
+d5bbc0e  SystemUI: Import smartspace proto  [NurKeinNeid]
+
+
+* kernel/motorola/sm8550-modules
+137ee74  qcacld-3.0: Fix enum conversion errors  [kyasu]
+42c5969  Merge tag 'LA.VENDOR.13.2.0.r1-25900-KAILUA.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into HEAD  [Bruno Martins]
+f8eb8d7  Merge tag 'LA.VENDOR.13.2.0.r1-25900-KAILUA.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into HEAD  [Bruno Martins]
+3689fde  Merge tag 'LA.VENDOR.13.2.0.r1-25900-KAILUA.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/platform into HEAD  [Bruno Martins]
+f23abd7  Merge tag 'LA.VENDOR.13.2.0.r1-25900-KAILUA.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api into HEAD  [Bruno Martins]
+9f27d99  Merge tag 'LA.VENDOR.13.2.0.r1-25900-KAILUA.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/securemsm-kernel into HEAD  [Bruno Martins]
+75afde2  Merge tag 'GRAPHICS.LA.1.0.r1-09300-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/graphics-kernel into HEAD  [Bruno Martins]
+d2b8ba1  Merge tag 'CV.LA.1.0.r1-05300-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/eva-kernel into HEAD  [Bruno Martins]
+75837df  Merge tag 'DISPLAY.LA.3.0.r1-12700-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-drivers into HEAD  [Bruno Martins]
+f92a364  Merge tag 'LA.VENDOR.13.2.0.r1-25900-KAILUA.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/datarmnet into HEAD  [Bruno Martins]
+e724bff  Merge tag 'LA.VENDOR.13.2.0.r1-25900-KAILUA.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/dataipa into HEAD  [Bruno Martins]
+b19ee8c  Merge tag 'CAMERA.LA.3.0.r1-10400-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/camera-kernel into HEAD  [Bruno Martins]
+ab49334  Merge tag 'LA.VENDOR.13.2.0.r1-25900-KAILUA.QSSI15.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/bt-kernel into HEAD  [Bruno Martins]
+452c20d  Merge tag 'AUDIO.LA.8.0.r1-12100-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/audio-kernel-ar into HEAD  [Bruno Martins]
+
+
+* vendor/derp
+bbe4f10  Revert "config: Add weather config"  [NurKeinNeid]
+c1ef852  overlay: Enable circle to search  [Ido Ben-Hur]
+
+
+* vendor/fontage
+ebd86ef  fontage: Drop FontGoogleSans  [NurKeinNeid]
+
+
+* vendor/motorola/rtwo
+01b3b08  rtwo: Update from rtwo_g-user 14 U1TRS34.8-30-13-2-2-4 68e97-f9a887 release-keys  [Marc Bourgoin]
+
+
+* vendor/motorola/sm8550-common
+a838214  sm8550-common: Update from rtwo_g-user 14 U1TRS34.8-30-13-2-2-4 68e97-f9a887 release-keys  [Marc Bourgoin]
+
+
+====================
+    12-20-2024     
+====================
+
+* packages/apps/DerpLauncher
+c532481  DerpLauncher: Updates from Pixel Launcher  [SakuraiLH]
+4bd270a  DerpLauncher: Add missing permission  [jhenrique09]
+aa0c9de  DerpLauncher: Update smartspace to 14  [xyyx]
+0411241  DerpLauncher: Open google weather on tapping smartspace  [Adithya R]
+a21f1e6  DerpLauncher: bcsmartspace: Import translations  [jhenrique09]
+b32c560  DerpLauncher: Import bcsmartspace lib  [jhenrique09]
+edae919  DerpLauncher: Add Circle To Search  [Abhay Singh Gill]
+f614323  Revert "DerpLauncher: Implement long press nav bar to search gesture"  [NurKeinNeid]
+f952e67  Revert "DerpLauncher: Add a toggle for long press on navbar to search [2/3]"  [NurKeinNeid]
+
+
+* packages/apps/Settings
+14d4e5e  Revert "Settings: Add a toggle for long press on navbar to search [3/3]"  [NurKeinNeid]
+
