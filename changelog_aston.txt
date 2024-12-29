@@ -32,6 +32,7 @@ Device:
 - Rebase the tree to fix Gyroscope
 - if you're ace3 user and meet sim card manager fc/crash/force stop, just
 ignore it
+- Prebuilt dtbo.img to fux front cam
 
 Kernel:
 - KernelSU support by default
