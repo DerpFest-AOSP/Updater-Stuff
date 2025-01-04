@@ -1,0 +1,29 @@
+DerpFest 15 for Nothing Phone (1) (Spacewar)
+
+December Security & Bug Fix Update - HOTFIX
+-----------------------------------------------------------
+This hotfix improves the fingerprint sensor accuracy by temporarily switching back from AIDL to HIDL hardware abstraction layer until AIDL is fixed.
+
+Changelog from the previous (20241226-2207) update follows:
+Bug fixes:
+
+    Local updater should be working properly again
+    Fixed landscape QS tiles layout (2x4 -> 2x2)
+    Fixed a bug where the USB mode notification would open an unusable menu
+
+Features & Customization:
+
+    December 5th 2024 security patch
+    Circle to search on DerpLauncher!
+    Freeform windows improved further
+
+Others:
+
+    Pixel-Framework is temporarily removed to avoid a severe issue
+    Due to removal some settings entries are disfunctional, although nothing that breaks normal use.
+    Adaptive charging is not working for now, but charging control works fine.
+-------------------------------------------------------------------------------
+Special Thanks:
+
+    All my testers (especially Justin and Mr Dot for the hotfix release!)
+    The P.A.N.Z. core team - guys, you are truly the best!
