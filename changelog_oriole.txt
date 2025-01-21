@@ -1,4 +1,2 @@
-Update 13 October 2024
-- October Security Patch
-- Freeze Vendor SPL
-- Updated Translation
+Changelog for oriole's update 20/01/2025 
+-->Settings-->About Phone-->Changelog
