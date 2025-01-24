@@ -1,31 +1,59 @@
-DerpFest 15 STABLE | OFFICIAL
+DerpFest 15.1 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 01-12-2024
+Build Date : 24-01-2025
 Device : Xiaomi 11T Pro ( vili )
 
 Source: 
-- Add Pixel framework (quick tap, clear calling, etc)
-- Add Omni weather settings
-- Improvements and bugfixes for Mi Freeform
-- Statusbar lyric supports all music apps now
-- Add Pixel Navbar animation toggle for 2/3 button navigation
-- Button settings: Bring back Navbar editor from Nougat
-- Exempt some system packages from location indicator by default
-- Fix edge long swipe gesture on apps which do not support predictive back gesture
-- DerpLauncher: Fix broken icon shape on some third party icon packs
-- DerpLauncher: Add an option to open the keyboard with the drawer
-- DerpLauncher: Fix apps list for hidden/protected apps
-- GameSpace: Add lock gesture feature
+- Merge Android 15 QPR1 and January security patch
+- Drop Pixel framework 
+- Make DerpFest boot logo mask colorful 
+- Make Circle to Search independent of Launcher
+- Add QS Header Image customization
+- Add Compass, DNS, Locale, Sound and Volume QS tiles
+- Allow long pressing screen record timer chips to directly stop the action
+- Migrate screen record options to Material3
+- Update PUI icon pack to affect more elements 
+- Add toggle for window secure flag
+- Add toggle for application downgrade restriction
+- Add Corner swipe action settings
+- Screenrecord: Remove blinking stop dot because there's a chip now
+- Tune new biometric dialog UI again 
+- Prevent indicator text cutting off in biometric prompt
+- Avoid a NPE in QSAnimator
+- Fix constraints for keyguard slice view
+- Constrain keyguard indication area burn-in offset
+- accessibility: Use default shortcuts service if the setting is empty
+- Settings: Improve udfps enroll introduction layout
+- Settings: Use internal display brightness in overlay displays
+- Settings: Fixup fingerprint enroll finish layout
+- Settings: Retain udfps overlay shown state on restoring activity
+- Applock: Do not show unlock prompt when keyguard is locked
+- DerpLauncher: Restore 4x4 workspace
+- DerpLauncher: Update grid sizes from Pixel launcher
+- DerpLauncher: Ditch workspace top/bottom padding for 6*5 grid
+- DerpLauncher: Improve QSB layout
+- DerpLauncher: Use some all apps dimens from Pixel launcher
+- DerpLauncher: Fix search bar top margin on tablets
+- DerpLauncher: Remove all_apps_search_bar_content_overlap on tablets
+- DerpLauncher: Improve persistent taskbar corner radius
+- DerpLauncher: Fix black theme for all apps
+- DerpLauncher: Make themed app icon distinguishable from folder background in black theme
+- DerpLauncher: Fix all apps icon size for tablets
+- DerpLauncher: Fix NPE in createSmartspaceSession being null
+- DerpLauncher: Fixup lens intent in QSB
+- DerpLauncher: Restart launcher on overlay changes
+- DerpLauncher: Dismiss the task menu when launching app info
+- DerpLauncher: Allow private space shortcut to be pinned on homescreen
+- DerpLauncher: Fix crashes when navigating from launcher settings to home screen 
 
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
-- Fixed gpu boosting for blurs
-- Updated memecam blobs and app from vili V816.0.7.0.UKDMIXM
-- Updated Dolby Atmos blobs and configs from vili V816.0.7.0.UKDMIXM
-- Optimized auto brightness adjustments on dim environments (less jittering)
-- Improved performance through thermal and powerhint optimizations. Credits to @tanzilw
+- Merged the latest tree and vendor changes from LineageOS
+- Switched to new Xiaomi parts. Featuring: Thermal profiles, high touch sampling rate, HBM and DC dimming
+- Improved thermal thresholds. Credits to @tanzilw
+- Switched back to Qcom WFD
 
 Kernel:
-- KernelSU support by default
-- Added module unmount feature for KSU. Credits to @misakazip for the PR
+- Dropped KernelSU support by default, use the root solution of your choice. You can also find a boot.img with KernelSU support in the download folder
+- Upstreamed the kernel with the latest changes from LineageOS
