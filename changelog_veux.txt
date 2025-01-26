@@ -61,3 +61,7 @@ January 20th update:
 February 16th update:
 - Switch to IoSeKSU release 2
 - Include MotoDolby
+
+January 26th 2025 update:
+- Sync with the latest changes
+- Move to Paimon kernel
