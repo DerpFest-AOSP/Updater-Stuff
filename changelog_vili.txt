@@ -1,6 +1,6 @@
 DerpFest 15.1 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 24-01-2025
+Build Date : 26-01-2025 [Hotfix]
 Device : Xiaomi 11T Pro ( vili )
 
 Source: 
@@ -45,6 +45,8 @@ Source:
 - DerpLauncher: Dismiss the task menu when launching app info
 - DerpLauncher: Allow private space shortcut to be pinned on homescreen
 - DerpLauncher: Fix crashes when navigating from launcher settings to home screen 
+* Fixed some SystemUI crashes when sharing or using biometric authentication
+* Added unlimited google photos spoof
 
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
