@@ -1,31 +1,76 @@
 Rom Changelog 
 
-09-06-2024     
 ====================
+    01-27-2025     
+====================
+\n* hardware/qcom-caf/common\n3451154  qcom: add soong config for RAW10 buffer fix  [Skyblueborb]
+aabcb15  common: Enable master side content protection with soong  [Giovanni Ricca]\n
+\n* packages/apps/GameSpace\na8c4848  GameSpace: Improve service lifecycle and error handling  [NurKeinNeid]\n
 
-- Merge August security patches (android-14.0.0_r56)
-- Yaap quote: "Refactored the hell out of battery styles code"
-- PixelPropsUtils: Updates from Rising OS
-- DerpLauncher: Integrate themed icons into the recents
-- DerpLauncher: Update themed icons 
-- Flash: change to FlashMode.OFF before switching usecases
-- Update few translations
+====================
+    01-26-2025     
+====================
+\n* frameworks/base\naaa7ce7  CarrierConfigManager: Enable inflate signal strength by default  [Cyber Knight]
+8ca0543  Finish battery stats viewer trampoline activity before onResume()  [Oliver Scott]
+7859fae  Move AOSP BatteryStatsViewer developer IA entry to other options  [Oliver Scott]
+7469cb8  core: Expose method to toggle recent apps through Binder  [someone5678]
+be04da6  SystemUI: LyricViewController: Partially fix white-on-white issue  [someone5678]
+c2fc33f  SystemUI: Use colorAccentPrimary for monetized privacy indicators  [someone5678]
+d16d918  SystemUI: Use privacy_chip_background for charger indicator bg  [someone5678]
+211ba2c  SystemUI: Fix burn-in translations not applying to keyguard slices  [Andy CrossGate Yan]
+f762cc4  Print original error in case of failure in uncaughtException  [Luca Stefani]
+abc2a58  Cancel long swipe for cancelBack in navigation gesture  [someone5678]
+dc6d4e6  fixup! Screenshot: Append app name to filename  [someone5678]
+fd72438  SystemUI: Nuke oriented navbar handle  [Ido Ben-Hur]
+8008574  SystemUI: Whitelist SystemUI Clocks from privilege checks  [minaripenguin]
+ded5956  ServiceManager: Handle all types of exceptions  [minaripenguin]
+130c2ef  base: PhantomProcessList: Correctly handle orphan procs  [Ido Ben-Hur]
+4939785  SettingsLib: Fix crash when checking emergency gesture state  [minaripenguin]
+ff51581  Automatic translation import  [LineageOS Infra]
+b98d4ac  PowerOffAlarmService: Guard until we boot, just incase  [Ido Ben-Hur]
+c6677df  Do not undo Dark Theme schedule override so often  [Tommy Webb]
+ecd65e2  display: Consider peak refresh rate in BrightnessObserver  [Adithya R]
+63abf42  fixup! SystemUI: Fix constraints for keyguard slice view  [LuK1337]
+3a40156  SystemUI: Don't remove keyguard slice view  [LuK1337]
+5a31097  SystemUI: Fix constraints for keyguard slice view  [LuK1337]
+36124d2  SystemUI: screenrecord: Remove blinking stop dot  [Ido Ben-Hur]
+14220d8  ThemedResourceCache: Remove lambda and optimize map pruning iteration  [minaripenguin]
+9095777  ThemedResourceCache: Replace ArrayMap with HashMap for performance  [Danny Lin]
+fde0352  SystemUI: Fixup cast chip long press when not showing a timer  [Ido Ben-Hur]
+3ce6244  SystemUI: Allow long pressing timer chips to directly stop the action  [Ido Ben-Hur]
+3e4b2ab  fixup! Implement edge long swipe gesture  [OnlyTomInSecond]
+310f710  base: Declare a gradient end color  [ElDainosor]
+dfa2af3  KeyguardClockSwitchController: Prevent an NPE on early boot  [Ido Ben-Hur]
+0318e9f  StatusBarIconController: Don't crash at boot  [Ido Ben-Hur]
+ee08b06  Revert^2 "SystemUI: Remove nav bar background in QS customizer"  [althafvly]
+476b6b4  SystemUI: Fix navbar tint when QS expanded  [althafvly]
+7b2e468  base: Add isPackageInstalled boolean  [Roman Birg]
+40093f7  SystemUI: Add QS Header Image customization [1/2]  [Marko Man]
+9ffa748  Cover more cases when ignoring secure window flags  [minaripenguin]
+e1c0e28  base: Add support for window ignore secure [1/2]  [LibXZR]
+ebd6b23  base: Add support for application downgrade [1/2]  [LibXZR]
+9ef2170  SystemUI: tuner: Enable enableOnBackInvokedCallback  [someone5678]
 
 Kernel Changes:
-Update upsteam to v4.14.352-openela
+Update upsteam to v4.14.355-openela
+Add CPU and GPU ajustment from sultan kernel
+Add tcp buic
+Add tcp BBR2
+Add net-tcp_bbr
+Add KLAPSE
+Add LRNG
 
 Device:
 R.I.P 3D face unlock, we switch to 2d faceunlock 
-Import Motion sensor from pixyOS
-
-Kernel:
-Update Simplelink
+Dtop Motion sensor from pixyOS
+Competley fix auto reboot after connect DAC by switch to los base kernel, my
+skill prpblem of merging upsteam 
 
 Please check this before pm 
 http://nohello.net 
 
 Bug: 
-Auto reboot after connect DAC
+Active edge will crash, i will drop or switch to 15-pixel rom source later
 
 Tips:
 There is a known issus about clash, If you using clash to use Telegram and it cant use Telegram normally 
@@ -37,8 +82,10 @@ Installation
 fastboot flash boot boot.img
 adb sideload Rom.zip
 
-If you want root with kernel_ksu, plz flash boot_kus.img to boot partition 
-ps: fastboot flash boot boot_ksu.img
+kernelsu include this time
+
+#If you want root with kernel_ksu, plz flash boot_kus.img to boot partition 
+#ps: fastboot flash boot boot_ksu.img
 
 If you meet QPR update you have better wipe your data , and Android version must wipe data, also don't forget to backup your data
 
