@@ -65,12 +65,12 @@ R.I.P 3D face unlock, we switch to 2d faceunlock
 Dtop Motion sensor from pixyOS
 Competley fix auto reboot after connect DAC by switch to los base kernel, my
 skill prpblem of merging upsteam 
+Drop Active edge
 
 Please check this before pm 
 http://nohello.net 
 
 Bug: 
-Active edge will crash, i will drop or switch to 15-pixel rom source later
 
 Tips:
 There is a known issus about clash, If you using clash to use Telegram and it cant use Telegram normally 
