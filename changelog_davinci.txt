@@ -1,18 +1,6 @@
 Device changelog:
-- Remove OMX audio codecs
-- Set default pin amount for home app
-- Fix call distortion when a notification arrives
+- Fixed night light
+- Fixed notification LED
 
-ROM changes:
-- Move AOSP BatteryStatsViewer back to battery settings
-- Add switch for compact heads up notifications
-- Update PUI settings overlays
-- Tune Scrim in QS again
-- Settings: Update switch theme for PreventRingingGesturePreference
-- QuickTap: Add haptic feedback intensity option
-- QuickTap: Correct audio stream for haptic feedback
-- QuickTap: Many other code improvements
-- GameSpace: Improve service lifecycle and error handling
-- ParallelSpace: Improve bottom sheet theming (fixes night mode)
-- DerpLauncher: Disable recents blur and opacity settings by default
-
+Rom Changelog:
+- Fixed GameSpace
