@@ -1,6 +1,19 @@
 Device Changes:
-- Initial Android 15 build (CLEAN FLASH IS MANDATORY)
+- Bring back QCOM WFD
+- Move to Xiaomi fingerprint AIDL HAL
+- Remove OMX
+- Ship updated VantomKernel v4.14.355
+- Update common blobs from sweet_k6a OS1.0.10.0.THGMIXM
 
 DerpFest Source Changes:
-- Initial DerpFest 15
-- Merge October security patches
+- Move AOSP BatteryStatsViewer back to battery settings
+- Add switch for compact heads up notifications
+- Update PUI settings overlays
+- Tune Scrim in QS again
+- Settings: Update switch theme for PreventRingingGesturePreference
+- QuickTap: Add haptic feedback intensity option
+- QuickTap: Correct audio stream for haptic feedback
+- QuickTap: Many other code improvements
+- GameSpace: Improve service lifecycle and error handling
+- ParallelSpace: Improve bottom sheet theming (fixes night mode)
+- DerpLauncher: Disable recents blur and opacity settings by default
