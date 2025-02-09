@@ -1,2 +1,14 @@
-Changelog for bluejay's update 20/01/2025 
--->Settings-->About Phone-->Changelog
+Changelog 09/02/2025
+
+- February Security Patch
+- Move AOSP BatteryStatsViewer back to battery settings
+- Add switch for compact heads up notifications
+- Update PUI settings overlays
+- Tune Scrim in QS again 
+- Settings: Update switch theme for PreventRingingGesturePreference
+- QuickTap: Add haptic feedback intensity option
+- QuickTap: Correct audio stream for haptic feedback
+- QuickTap: Many other code improvements
+- GameSpace: Improve service lifecycle and error handling
+- ParallelSpace: Improve bottom sheet theming (fixes night mode)
+- DerpLauncher: Disable recents blur and opacity settings by default
