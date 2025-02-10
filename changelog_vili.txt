@@ -1,61 +1,41 @@
 DerpFest 15.1 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 26-01-2025 [Hotfix]
+Build Date : 10-02-2025
 Device : Xiaomi 11T Pro ( vili )
 
 Source: 
-- Merge Android 15 QPR1 and January security patch
-- Drop Pixel framework 
-- Make DerpFest boot logo mask colorful 
-- Make Circle to Search independent of Launcher
-- Add QS Header Image customization
-- Add Compass, DNS, Locale, Sound and Volume QS tiles
-- Allow long pressing screen record timer chips to directly stop the action
-- Migrate screen record options to Material3
-- Update PUI icon pack to affect more elements 
-- Add toggle for window secure flag
-- Add toggle for application downgrade restriction
-- Add Corner swipe action settings
-- Screenrecord: Remove blinking stop dot because there's a chip now
-- Tune new biometric dialog UI again 
-- Prevent indicator text cutting off in biometric prompt
-- Avoid a NPE in QSAnimator
-- Fix constraints for keyguard slice view
-- Constrain keyguard indication area burn-in offset
-- accessibility: Use default shortcuts service if the setting is empty
-- Settings: Improve udfps enroll introduction layout
-- Settings: Use internal display brightness in overlay displays
-- Settings: Fixup fingerprint enroll finish layout
-- Settings: Retain udfps overlay shown state on restoring activity
-- Applock: Do not show unlock prompt when keyguard is locked
-- DerpLauncher: Restore 4x4 workspace
-- DerpLauncher: Update grid sizes from Pixel launcher
-- DerpLauncher: Ditch workspace top/bottom padding for 6*5 grid
-- DerpLauncher: Improve QSB layout
-- DerpLauncher: Use some all apps dimens from Pixel launcher
-- DerpLauncher: Fix search bar top margin on tablets
-- DerpLauncher: Remove all_apps_search_bar_content_overlap on tablets
-- DerpLauncher: Improve persistent taskbar corner radius
-- DerpLauncher: Fix black theme for all apps
-- DerpLauncher: Make themed app icon distinguishable from folder background in black theme
-- DerpLauncher: Fix all apps icon size for tablets
-- DerpLauncher: Fix NPE in createSmartspaceSession being null
-- DerpLauncher: Fixup lens intent in QSB
-- DerpLauncher: Restart launcher on overlay changes
-- DerpLauncher: Dismiss the task menu when launching app info
-- DerpLauncher: Allow private space shortcut to be pinned on homescreen
-- DerpLauncher: Fix crashes when navigating from launcher settings to home screen 
-* Fixed some SystemUI crashes when sharing or using biometric authentication
-* Added unlimited google photos spoof
+- Merge February security patch
+- Implement Android 16 seekbars (https://m3.material.io/components/sliders/overview)
+- Fix headline font being stuck to roboto in Security & Privacy settings
+- LongSwipe: Add show volume panel action
+- QSHeader: Fix memory leaks
+- QuickTap: Many code improvements
+- DerpLauncher: Improve restart logic
+- device_config: Add values required for Speech Recognition
+- textclassifier: Set manifests + needed options
+- Add haptic feedback to auto brightness icon
+- Add click actions to QS header elements
+- Bring back animated volume icon in volume panel when playing media
+- Prevent OOB when reinflating QS panel with notifications
+- Code improvements for FlashlightStrengthTile
+- Code improvements for VolumeControlTile
+- Optimize connected battery level scanning
+- Fix custom image provider for header image
+- Settings: Bring back Custom Statusbar Signal & Wi-Fi icons
+- GameSpace: Add game optimization settings
+- GameSpace: Enhance in-game call handling
+- GameSpace: Improve seekbars
+- QuickTap: Improve haptic intensity preference behavior
+- QuickTap: Import German translations
 
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
-- Merged the latest tree and vendor changes from LineageOS
-- Switched to new Xiaomi parts. Featuring: Thermal profiles, high touch sampling rate, HBM and DC dimming
-- Improved thermal thresholds. Credits to @tanzilw
-- Switched back to Qcom WFD
+- Updated common blobs from haydn V816.0.14.0.UKKMIXM
+- Updated CarrierConfig from munch V816.0.2.0.ULMMIXM
+- Tweaked dolby audio config
+- Switched to common QTI vibrator HAL
 
 Kernel:
-- Dropped KernelSU support by default, use the root solution of your choice. You can also find a boot.img with KernelSU support in the download folder
-- Upstreamed the kernel with the latest changes from LineageOS
+* Added KSU-Next and susfs support, credits to @kknixx. You can find this as a separate boot.img in the "KSU boot" folder. There is NO root by default
+- Upstreamed the kernel to 5.4.289 and merged the latest changes from LineageOS
