@@ -1,19 +1,29 @@
-Device Changes:
-- First A15 Stable Release
-- Switched to AIDL thermal HAL
-- Switched to AIDL USB HALs
-- Switched to source built agm and pal
-- Migrate sensor HAL to AIDL interface
-- Build GNSS HAL from source
-- Enabled Fuse Passthrough Android Property
-- Removed eng props
-- Dropped prebuilt nxp nfc interface
-- Enabled libperfmgr and fixed some libperf nodes
-- Added LCD features
-
 ROM Changes:
-- Latest DerpFest A15 source upstream
-- November security patch
-- DerpSpace getting new revamped design. So it will be added later.
-- Many more customizations added back but it's not at one place. So find out.
-- Adapted to derp new gms
+- Merge February security patch
+- Implement Android 16 seekbars (https://m3.material.io/components/sliders/overview)
+- Fix headline font being stuck to roboto in Security & Privacy settings
+- LongSwipe: Add show volume panel action
+- QSHeader: Fix memory leaks
+- QuickTap: Many code improvements
+- DerpLauncher: Improve restart logic
+- device_config: Add values required for Speech Recognition
+- textclassifier: Set manifests + needed options
+- Add haptic feedback to auto brightness icon
+- Add click actions to QS header elements
+- Bring back animated volume icon in volume panel when playing media
+- Prevent OOB when reinflating QS panel with notifications
+- Code improvements for FlashlightStrengthTile
+- Code improvements for VolumeControlTile
+- Optimize connected battery level scanning
+- Fix custom image provider for header image
+- Settings: Bring back Custom Statusbar Signal & Wi-Fi icons
+- GameSpace: Add game optimization settings
+- GameSpace: Enhance in-game call handling
+- GameSpace: Improve seekbars
+- QuickTap: Improve haptic intensity preference behavior
+- QuickTap: Import German translations
+- Ongoing action chip implementation
+
+Device Changes:
+- Blobs update to Hyperos v2
+- Misc optimizations
