@@ -1,17 +1,22 @@
-DerpFest 15 STABLE | OFFICIAL ~ by @einargednochsson
-Build Date : 30-10-2024
+DerpFest 15.1 STABLE | OFFICIAL ~ by @einargednochsson
+Build Date : 07-03-2025
 Device : Lenovo Z6 Pro ( zippo )
 
-Credits:
+ROM Changes:
+- March Security Patch
+- Hide ongoing action progress chip on lockscreen
+- OnGoingActionProgressController: Few code improvements
+- Fix battery estimates in QS not appearing
+- Import BT Slice intent resources from SettingsGoogle
+- ChargingControl: Catch all setCharging*() exceptions
+- ChargingControl: Prevent crash against very frequent power toggle
+- ThemePicker: Add QS tiles gradient option
+- QuickTap: Kotlin code style and minor improvements
+- Updater: Update welcome message strings
+- Support generating JSON for community builds
+- Enhance script robustness and error handling for JSON generator
+- Update Accord prebuilt
+- Update some translations 
 
-@chematelegram for A15 bringup - great job buddy!
-
-Device Changelog:
-
-- Kernel upstream to v4.14.354 openela LTS
-- Kernel upstream to LA.UM.9.1.r1-16400-SMxxx0.QSSI14.0
-
-Source Changelog:
-
-- Initial A15 Release
-- Merge October '24 security patch
+DEVICE Changes:
+- Updated Kernel with openela-lts 4.14.356 rc1
