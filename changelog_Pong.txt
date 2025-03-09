@@ -10,3 +10,14 @@ Source Changes:
 - DerpLauncher: Update themed icons 
 - Flash: change to FlashMode.OFF before switching usecases
 - Update few translations
+
+# March 9th 2025 Update:
+- Switch to oss audio HAL
+- Unset scheduler ratelimits
+- Adjust LAUNCH duration to 1200ms for better balance
+- Set swappiness value to 60
+- Improvements to performance and system stability.
+- Build GlyphAdapter
+- Implement torch light control
+- Improve volume glyph
+
