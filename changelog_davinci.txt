@@ -1,37 +1,18 @@
 Device changelog:
-- Switch to codec2 from deprecated OMX
-- Update GPS from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
-- Update system from qssi 15
-- Update adreno to 530.55
-- Add back deviceaswebcam
-- Upstream kernel to 4.14.356 openela
-- Upsteam kernel to latest caf tag
-- Setup ELF checks
-- Remove moto dolby as it is using OMX
-- Update carrierconfig from qssi
-- Migrate to lineage common light hal
+- Update tetheroffload to 1.1
 
 Rom Changelog:
-- Merge February security patch
-- Implement Android 16 seekbars (https://m3.material.io/components/sliders/overview)
-- Fix headline font being stuck to roboto in Security & Privacy settings
-- LongSwipe: Add show volume panel action
-- QSHeader: Fix memory leaks
-- QuickTap: Many code improvements
-- DerpLauncher: Improve restart logic
-- device_config: Add values required for Speech Recognition
-- textclassifier: Set manifests + needed options
-- Add haptic feedback to auto brightness icon
-- Add click actions to QS header elements
-- Bring back animated volume icon in volume panel when playing media
-- Prevent OOB when reinflating QS panel with notifications
-- Code improvements for FlashlightStrengthTile
-- Code improvements for VolumeControlTile
-- Optimize connected battery level scanning
-- Fix custom image provider for header image
-- Settings: Bring back Custom Statusbar Signal & Wi-Fi icons
-- GameSpace: Add game optimization settings
-- GameSpace: Enhance in-game call handling
-- GameSpace: Improve seekbars
-- QuickTap: Improve haptic intensity preference behavior
-- QuickTap: Import German translations
+- Merge March security patch
+- Hide ongoing action progress chip on lockscreen
+- OnGoingActionProgressController: Few code improvements
+- Fix battery estimates in QS not appearing
+- Import BT Slice intent resources from SettingsGoogle
+- ChargingControl: Catch all setCharging*() exceptions
+- ChargingControl: Prevent crash against very frequent power toggle
+- ThemePicker: Add QS tiles gradient option
+- QuickTap: Kotlin code style and minor improvements
+- Updater: Update welcome message strings
+- Support generating JSON for community builds
+- Enhance script robustness and error handling for JSON generator
+- Update Accord prebuilt
+- Update some translations 
