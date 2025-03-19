@@ -1,19 +1,25 @@
 Device Changes:
-- Bring back QCOM WFD
-- Move to Xiaomi fingerprint AIDL HAL
-- Remove OMX
-- Ship updated VantomKernel v4.14.355
-- Update common blobs from sweet_k6a OS1.0.10.0.THGMIXM
+- Disable Adaptive Connectivity preference
+- Drop soundtrigger HIDL impl
+- Ship updated VantomKernel v4.14.356
+- Uprev audio HAL to V7
 
 DerpFest Source Changes:
-- Move AOSP BatteryStatsViewer back to battery settings
-- Add switch for compact heads up notifications
-- Update PUI settings overlays
-- Tune Scrim in QS again
-- Settings: Update switch theme for PreventRingingGesturePreference
-- QuickTap: Add haptic feedback intensity option
-- QuickTap: Correct audio stream for haptic feedback
-- QuickTap: Many other code improvements
-- GameSpace: Improve service lifecycle and error handling
-- ParallelSpace: Improve bottom sheet theming (fixes night mode)
-- DerpLauncher: Disable recents blur and opacity settings by default
+- Merge March ASB (doesn't include kernel and vendor patches)
+- Don't block QS tiles in keyguard that's not secure i.e Swipe
+- QSGradient: Import ShishuAmalgamationTheme resources from Bootleggers
+- Fix potential race conditions with FlashlightStrength and Volume control QS tiles
+- FlashlightStrengthTile: Update bg color only if flash strength control is supported
+- Remove Navbar tuner from N (it broke compact notifications toggle)
+- ThemePicker: Add QS gradient dark theme restriction
+- Updater: Update dependencies
+- Fix button settings force close
+- Implement charging control for tensor Pixels
+- Give status bar some time to reinflate before animating in the battery chip to ensure that system icons are animated out properly
+- Fix keyboard issues with parallel space
+- Fix overriding charging limit message
+- Only show battery shield on default icon
+- Fix empty version in DerpFest recovery Info header
+- Bluetooth: Fix crash on some devices
+- sidebar: Add a shortcut to open sidebar settings
+- sidebar: Add a settings toggle for predicted apps
