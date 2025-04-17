@@ -1,6 +1,6 @@
 DerpFest 15.1 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 14-04-2025
+Build Date : 17-04-2025
 Device : Xiaomi 11T Pro ( vili )
 
 Source:
@@ -8,13 +8,7 @@ Source:
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
-- Updated device blobs and firmware from vili V816.0.11.0.UKDMIXM
-- Updated common blobs from haydn V816.0.18.0.UKKMIXM
-- Added support for Spatial Audio on supported content
-- Added Qcom audio effects from Oneplus 9R
-- Added media codecs support for apps that utilize them (ex: Apple music)
-- Improved handling of Dolby profiles
+- Switched back to Xiaomi dolby
 
 Kernel:
 * KSU-Next and susfs are supported, credits to @kknixx. You can find this as a separate boot.img inside the "KSU" folder in the download link. There is NO root by default
-- Merged the latest changes from lineageOS
