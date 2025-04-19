@@ -1,6 +1,6 @@
 DerpFest 15.1 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 17-04-2025
+Build Date : 19-04-2025
 Device : Xiaomi 11T Pro ( vili )
 
 Source:
@@ -8,7 +8,8 @@ Source:
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
-- Switched back to Xiaomi dolby
+- Fixed muted audio when you switched to speaker while on a VOIP call (Credits to @kknixx for making the fix)
+- Added torch light control
 
 Kernel:
 * KSU-Next and susfs are supported, credits to @kknixx. You can find this as a separate boot.img inside the "KSU" folder in the download link. There is NO root by default
