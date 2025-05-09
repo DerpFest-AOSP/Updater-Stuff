@@ -1,18 +1,8 @@
 Device changelog:
-- Update tetheroffload to 1.1
+- Force enable poweroffalarm for all clock apps
+- Update system and vendor blobs
+- Fix any LED issues
+- Few more which i don't remember now :P
 
 Rom Changelog:
-- Merge March security patch
-- Hide ongoing action progress chip on lockscreen
-- OnGoingActionProgressController: Few code improvements
-- Fix battery estimates in QS not appearing
-- Import BT Slice intent resources from SettingsGoogle
-- ChargingControl: Catch all setCharging*() exceptions
-- ChargingControl: Prevent crash against very frequent power toggle
-- ThemePicker: Add QS tiles gradient option
-- QuickTap: Kotlin code style and minor improvements
-- Updater: Update welcome message strings
-- Support generating JSON for community builds
-- Enhance script robustness and error handling for JSON generator
-- Update Accord prebuilt
-- Update some translations 
+- BIG Rebase over Lineage and merge QPR2 
