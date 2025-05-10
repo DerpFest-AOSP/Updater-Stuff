@@ -1,14 +1,6 @@
-Changelog 09/02/2025
+Changelog 10/05/2025
 
-- February Security Patch
-- Move AOSP BatteryStatsViewer back to battery settings
-- Add switch for compact heads up notifications
-- Update PUI settings overlays
-- Tune Scrim in QS again 
-- Settings: Update switch theme for PreventRingingGesturePreference
-- QuickTap: Add haptic feedback intensity option
-- QuickTap: Correct audio stream for haptic feedback
-- QuickTap: Many other code improvements
-- GameSpace: Improve service lifecycle and error handling
-- ParallelSpace: Improve bottom sheet theming (fixes night mode)
-- DerpLauncher: Disable recents blur and opacity settings by default
+- May Security Patch
+- Derpfest QPR2 & Lineage Rebase
+- added ViperFX(THX Axion)
+- added GoogleCamera
