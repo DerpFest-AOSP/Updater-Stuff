@@ -1,15 +1,25 @@
 Device Changes:
-- Added Viper.
-- Switched to user build.
 
-Source Changes:
-- Merge August security patches (android-14.0.0_r56)
-- Yaap quote: "Refactored the hell out of battery styles code"
-- PixelPropsUtils: Updates from Rising OS
-- DerpLauncher: Integrate themed icons into the recents
-- DerpLauncher: Update themed icons 
-- Flash: change to FlashMode.OFF before switching usecases
-- Update few translations
+# May 14th 2025 Update:
+- May Security Patch
+- Derpfest QPR2 & Lineage Rebase
+- Switch back to prebuild audio blobs
+- Fix low mic sound
+- Switch to PowerShare AIDL
+- Set zram size to 40%
+- Checkout fstab from NOS 3.0
+- Add dlb_music_listener in music postprocess
+- Configure max values for background and dex2oat groups
+- Unset scheduler ratelimits
+- Switch BtAudio to AIDL
+- switch to common QCOM AIDL bootctrl HAL
+- Drop cpu interection changes
+- Tune uclamp values for efficiency
+- Tune down cpu launch duration value
+- Set volume steps to 15
+- Disable speaker audio spatializer by default
+- Tweak dolby dax config
+- Improvements to performance and system stability
 
 # March 9th 2025 Update:
 - Switch to oss audio HAL
