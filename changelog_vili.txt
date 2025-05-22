@@ -1,21 +1,18 @@
 DerpFest 15.2 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 19-05-2025
+Build Date : 22-05-2025
 Device : Xiaomi 11T Pro ( vili )
 
 Source:
-- May Security Patch
-- Rebased source over Lineage
 
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
-- Fixed all voip and voice message audio issues
-- Switched to Lineage libperfmgr and tuned powerhint for efficiency
-- Switched to Sony Dolby
-- Updated thermal. Unlocks 2.84 GHz on prime core and better thresholds, credits to @tanzilw
-- Added support for bypass charging
+- Solved some heating and draining issues
+- powerhint: Automatically disable prime core in battery saver mode
+- powerhint: Limit cpu and gpu frequencies on battery saver mode
+- Enabled PowerOffAlarm 
 
 Kernel:
 * KSU-Next and susfs are supported, credits to @kknixx. You can find this as a separate boot.img inside the "KSU" folder in the download link. There is NO root by default
-- Upstreamed the kernel to 5.4.290 with the latest changes from Lineage
+- Fixed vowifi on kernel 5.4.290
