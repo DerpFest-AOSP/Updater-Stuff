@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1747904451,
-      "filename": "DerpFest-v15.2-20250522-panther-Official-Stable.zip",
-      "id": "56840bbae0ddc289837abcf0dcfd37b798bea3c42e5e8ac6384772ce8a1e0b2e",
+      "datetime": 1748083769,
+      "filename": "DerpFest-15.2-Official-Stable-panther-20250524.zip",
+      "id": "c595418c6cf502c754e5450ee28a64ccac4f67cb88fb8926b7f661f9d8dabaf2",
       "romtype": "Official",
-      "size": 2416960739,
-      "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-panther/15.2-QPR2/20250522/DerpFest-v15.2-20250522-panther-Official-Stable.zip/download",
-      "version": "v15.2"
+      "size": 2425607068,
+      "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-panther/15.2-QPR2/20250524/DerpFest-15.2-Official-Stable-panther-20250524.zip/download",
+      "version": "15.2"
     }
   ]
 }
