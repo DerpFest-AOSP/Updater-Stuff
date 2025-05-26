@@ -1,25 +1,17 @@
 Device Changes:
-- Disable Adaptive Connectivity preference
-- Drop soundtrigger HIDL impl
-- Ship updated VantomKernel v4.14.356
-- Uprev audio HAL to V7
+- Adopt common QTI USB init scripts
+- Bring back Leica MiuiCamera
+- Bring back NFC support in kernel
+- Bring back QCOM WFD
+- Enable userfaultfd garbage collection (UFFD GC)
+- Implement QTI Thermal AIDL HAL
+- Import RIL stack from mojito V14.0.8.0 SKGMIXM
+- Lower vm.swappiness to 60
+- Migrate to QTI USB Gadget AIDL HAL
+- Remove OMX stack and migrate fully to C2 components
+- Resolve some more SELinux denials
+- Update common proprietary blobs
+- Upstream kernel
 
 DerpFest Source Changes:
-- Merge March ASB (doesn't include kernel and vendor patches)
-- Don't block QS tiles in keyguard that's not secure i.e Swipe
-- QSGradient: Import ShishuAmalgamationTheme resources from Bootleggers
-- Fix potential race conditions with FlashlightStrength and Volume control QS tiles
-- FlashlightStrengthTile: Update bg color only if flash strength control is supported
-- Remove Navbar tuner from N (it broke compact notifications toggle)
-- ThemePicker: Add QS gradient dark theme restriction
-- Updater: Update dependencies
-- Fix button settings force close
-- Implement charging control for tensor Pixels
-- Give status bar some time to reinflate before animating in the battery chip to ensure that system icons are animated out properly
-- Fix keyboard issues with parallel space
-- Fix overriding charging limit message
-- Only show battery shield on default icon
-- Fix empty version in DerpFest recovery Info header
-- Bluetooth: Fix crash on some devices
-- sidebar: Add a shortcut to open sidebar settings
-- sidebar: Add a settings toggle for predicted apps
+- Rebase over LineageOS and merge QPR2
