@@ -1,6 +1,6 @@
 DerpFest 15.2 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 01-06-2025
+Build Date : 02-06-2025 [HOTFIX]
 Device : Xiaomi 11T Pro ( vili )
 
 Source:
@@ -8,11 +8,7 @@ Source:
 For detailed changelogs go to: Settings>About>Android Version>Changelog
 
 Device:
-- Switched back to QTI perf stack
-- Enabled VoLTE and VoWifi by default for every carrier
-- Added Wifi-Only option to VoWifi preferences
-- Downgraded blobs and firmware to V816.0.11.0.UKDMIXM
+- Fixed OTG detection in TWRP
 
 Kernel:
 * KSU-Next and susfs are supported, credits to @kknixx. You can find this as a separate boot.img inside the "KSU" folder in the download link. There is NO root by default
-- Upstreamed the kernel to 5.4.292 with the latest changes from Lineage
