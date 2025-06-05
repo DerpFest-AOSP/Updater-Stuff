@@ -1,1 +1,3 @@
-- Initial build
+🦉 ROM changes:
+- Merge June 2025 security patches
+- Import Italian translations

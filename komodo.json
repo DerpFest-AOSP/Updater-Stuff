@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1732468800,
-      "filename": "DerpFest-15-Official-Stable-komodo-20241124.zip",
-      "id": "c756353cd00058ca08e1e6fe4476dd137f95784d4dd0668743a9c75b057d9ffa",
+      "datetime": 1749148088,
+      "filename": "DerpFest-v15.2-20250605-komodo-Official-Stable.zip",
+      "id": "ade72bd2611b4b92c7777b81e916d0be3a5ad9cffff12d3a1ce5a5ac605b54e1",
       "romtype": "Official",
-      "size": 2773806370,
-      "url": "https://sourceforge.net/projects/derpfest/files/komodo/DerpFest-15-Official-Stable-komodo-20241124.zip/download",
-      "version": "15"
+      "size": 2982559772,
+      "url": "https://derpfest.rom.lol/?file=komodo/DerpFest-v15.2-20250605-komodo-Official-Stable.zip",
+      "version": "v15.2"
     }
   ]
 }
