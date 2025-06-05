@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1742849268,
-      "filename": "DerpFest-15.1-Official-Stable-caiman-20250324-1648.zip",
-      "id": "e4b6e093f9082986cf4a0387ceb863eefefbcf487cc68c0c054df3762d3e9be6",
+      "datetime": 1749154597,
+      "filename": "DerpFest-v15.2-20250605-caiman-Official-Stable.zip",
+      "id": "fa98f7d011a9c85042f9338b700dc4267d059ad84822cee38bd2657e7b2a6472",
       "romtype": "Official",
-      "size": 2766160484,
-      "url": "https://sourceforge.net/projects/derpfest/files/caiman/DerpFest-15.1-Official-Stable-caiman-20250324-1648.zip/download",
-      "version": "15.1"
+      "size": 2981728578,
+      "url": "https://derpfest.rom.lol/?file=caiman/DerpFest-v15.2-20250605-caiman-Official-Stable.zip",
+      "version": "v15.2"
     }
   ]
 }
