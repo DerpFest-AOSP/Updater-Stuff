@@ -1,0 +1,28 @@
+Rom Changelog
+June patch
+
+Kernel Changes:
+SukiSU built in
+Add tcp BBR
+build for armv9-a and O3
+enable RCU lazy by default
+disable UBSAN
+
+Device:
+
+Please check this before pm 
+http://nohello.net 
+
+Bug: 
+corlor mode 
+
+Tips:
+There is a known issus about clash, If you using clash to use Telegram and it cant use Telegram normally 
+Plz turn off Setting => Network => Allow ByPass in clash client
+如果你使用clash 類VPN 訪問Telegram 客戶端，請關閉clash  客戶端裡面的 Allow ByPass, 路徑 Setting => Network => Allow ByPass
+
+If you meet QPR update you have better wipe your data , and Android version must wipe data, also don't forget to backup your data
+
+If you flash this rom from derp-13, plz wipe your data after sideloading, and dont froget to backuo your data
+https://databackupofficial.github.io/
+
