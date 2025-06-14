@@ -1,8 +1,4 @@
-Device changelog:
-- Force enable poweroffalarm for all clock apps
-- Update system and vendor blobs
-- Fix any LED issues
-- Few more which i don't remember now :P
-
 Rom Changelog:
-- BIG Rebase over Lineage and merge QPR2 
+- June Security Patch
+- Lineage Upstream
+- Miscellaneous changes for spoofing
