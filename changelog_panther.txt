@@ -1,17 +1,35 @@
 
 ====================
-    05-06-2025
+    06-14-2025
 ====================
 
-- June Security Patch
-- Removed Viper4Android
+Source:
+    - Per-app refresh rate config
+    - Select keybox XML to spoof
+    - Notification ticker
+
+Device:
+    - overlay: Use split notification shade in landscape
+
+====================
+    06-05-2025
+====================
+
+Source:
+    - June Security Patch
+
+Device:
+    - Removed Viper4Android
 
 ====================
     05-25-2025
 ====================
 
-- Derpfest QPR2 (Based on Lineage)
-- Included Google Camera, Google Face Unlock
-- Included Quick Tap
-- Derpfest Customizations is back
-- OTA Updates fixed
+Source:
+    - Derpfest QPR2 (Based on Lineage)
+    - Derpfest Customizations is back
+    - OTA Updates fixed
+
+Device:
+    - Included Google Camera, Google Face Unlock
+    - Included Quick Tap
