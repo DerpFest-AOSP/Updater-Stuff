@@ -1,5 +1,13 @@
 Device Changes:
 
+# June 22nd 2025 Update:
+- Add initial nothing camera support
+- Set fixed size to 3GB instead of 40% of RAM
+- Update from NOS V3.0-250506-1805
+- Drop qvr/qxr
+- Declare WiFi Aware support to WiFi HAL
+- Slightly improvements in powerhint
+
 # May 14th 2025 Update:
 - May Security Patch
 - Derpfest QPR2 & Lineage Rebase
