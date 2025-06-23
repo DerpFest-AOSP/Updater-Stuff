@@ -1,19 +1,22 @@
 DerpFest 15.2 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 16-06-2025
+Build Date : 23-06-2025
 Device : Xiaomi 11T Pro ( vili )
 
 Source:
-- Lineage upstream
-- Miscellaneous changes for spoofing play integrity
+- Fixup for banking apps when using keybox spoofing
+- Allow to toggle Bluetooth battery level
+- ThemePicker: Add DerpFest colors tabAdd commentMore actions
+- ThemePicker: Add wifi icon section for testing
+- Enable m3 expressive design for testing
 
 Device:
-- Updated device blobs and firmware from vili HyperOS 1.0.14.0.UKDMIXM
-- Added a custom gaming thermal. Can be enabled by setting 'gaming' profile for the individual app in battery>thermal profiles. Credits to @tanzilw
-- Enabled bass enhancer by default for headphones on 'music' and 'custom' dolby profiles
-- Removed dolby postprocessing effects for notifications and ringtone
+- Merged the latest changes from LineageOS
+- Fixed charging control
+- Added kernel manager (go to settings>system and scroll down)
+- Added gpu manager
+- Adjusted LMKD values
+- Enabled volume leveler by default in 'Movie' dolby profile
 
 Kernel:
-* KSU-Next and susfs are supported, credits to @kknixx. You can find this as a separate boot.img inside the "KSU" folder in the download link. There is NO root by default
-- Added GPU undervolt
-- Improved memory management
+* KSU Next and susfs are supported as a separate KSUboot.img, credits to @kknixx. This is available in the downloads folder along with flashing instructions
