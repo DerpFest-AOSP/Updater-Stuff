@@ -1,3 +1,23 @@
+====================
+    06-24-2025
+====================
+
+Source:
+    - base: Allow to disable bluetooth battery level
+    - SystemUI: Improve ticker visibility handling
+    - PixelPropsUtils: Update fingerprints
+    - DerpFestCustomizations: Add keybox data summary and parsing functionality
+
+Device:
+    - lynx: Disable early thermal throttling
+    - lynx: Boost min freq when GAME mode is active
+    - lynx: Backport display update powerhints from tokay
+    - lynx: powerhint: Set default down_rate_limit_us value to 2000
+    - lynx: backport GAME powerhints from upstream
+    - lynx: use efficient CPU frequencies for FIXED_PERFORMANCE hint
+    - gs201: affine kswapd/kcompact to little cores
+    - gs201: set default irqaffinity to little cluster
+    - gs201: backport 6.1 kernel tunings from upstream
 
 ====================
     06-14-2025
