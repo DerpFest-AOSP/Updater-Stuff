@@ -1,0 +1,7 @@
+Device:
+Implemented angle detection for the official Xiaomi keyboard: When the keyboard is folded behind the device it will disable input (sadly this does not work when the keyboard enters sleep, as it does not report any events until woken up by a keypress, nothing I can do about that)
+Implemented toggles for Keyboard Angle detection and Smart Lid (Settings -> Connected Devices)
+Updated blobs from HOS 2.0.9.0 CN
+
+ROM:
+- Initial A15 QPR2 build
