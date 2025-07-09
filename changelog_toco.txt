@@ -1,17 +1,10 @@
 Device Changes:
-- Adopt common QTI USB init scripts
-- Bring back Leica MiuiCamera
-- Bring back NFC support in kernel
-- Bring back QCOM WFD
-- Enable userfaultfd garbage collection (UFFD GC)
-- Implement QTI Thermal AIDL HAL
-- Import RIL stack from mojito V14.0.8.0 SKGMIXM
-- Lower vm.swappiness to 60
-- Migrate to QTI USB Gadget AIDL HAL
-- Remove OMX stack and migrate fully to C2 components
-- Resolve some more SELinux denials
-- Update common proprietary blobs
-- Upstream kernel
+- Drop duplicate IR HAL SEPolicy
+- Switch to common AIDL IR service
 
 DerpFest Source Changes:
-- Rebase over LineageOS and merge QPR2
+- Fixup for banking apps when using keybox spoofing
+- Allow to toggle Bluetooth battery level
+- ThemePicker: Add DerpFest colors tab
+- ThemePicker: Add wifi icon section for testing
+- Enable m3 expressive design for testing
