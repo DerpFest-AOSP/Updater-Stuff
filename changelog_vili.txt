@@ -1,16 +1,10 @@
-DerpFest 15.2 STABLE | OFFICIAL
+DerpFest 16 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date : 30-06-2025
-Device : Xiaomi 11T Pro ( vili )
-
-Source:
+Build Date: 21-07-2025
+Device: Xiaomi 11T Pro [vili]
 
 Device:
-- Merged the latest changes from LineageOS
-- Switched to common QCOM AIDL bootctrl HAL
-- Migrate to QTI USB Gadget AIDL HAL
-- Adjust the paddings of Status Bar in landscape
-- Fixed battery percentage reading in recovery
+- Initial Android 16 release
 
 Kernel:
-* KSU Next and susfs are supported as a separate KSUboot.img, credits to @kknixx. This is available in the downloads folder along with flashing instructions
+* KSU Next and susfs are supported by default
