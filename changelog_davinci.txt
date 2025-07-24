@@ -1,4 +1,2 @@
-Rom Changelog:
-- June Security Patch
-- Lineage Upstream
-- Miscellaneous changes for spoofing
+Changelog:
+- 1st Android 16 release for public
