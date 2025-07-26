@@ -1,55 +1,8 @@
-====================
-    06-24-2025
-====================
-
-Source:
-    - base: Allow to disable bluetooth battery level
-    - SystemUI: Improve ticker visibility handling
-    - PixelPropsUtils: Update fingerprints
-    - DerpFestCustomizations: Add keybox data summary and parsing functionality
-
-Device:
-    - lynx: Disable early thermal throttling
-    - lynx: Boost min freq when GAME mode is active
-    - lynx: Backport display update powerhints from tokay
-    - lynx: powerhint: Set default down_rate_limit_us value to 2000
-    - lynx: backport GAME powerhints from upstream
-    - lynx: use efficient CPU frequencies for FIXED_PERFORMANCE hint
-    - gs201: affine kswapd/kcompact to little cores
-    - gs201: set default irqaffinity to little cluster
-    - gs201: backport 6.1 kernel tunings from upstream
+Changelog:
 
 ====================
-    06-14-2025
+    06-26-2025
 ====================
 
 Source:
-    - Per-app refresh rate config
-    - Select keybox XML to spoof
-    - Notification ticker
-
-Device:
-    - overlay: Use split notification shade in landscape
-
-====================
-    06-05-2025
-====================
-
-Source:
-    - June Security Patch
-
-Device:
-    - Removed Viper4Android
-
-====================
-    05-25-2025
-====================
-
-Source:
-    - Derpfest QPR2 (Based on Lineage)
-    - Derpfest Customizations is back
-    - OTA Updates fixed
-
-Device:
-    - Included Google Camera, Google Face Unlock
-    - Included Quick Tap
+    - Initiate public release for Android 16

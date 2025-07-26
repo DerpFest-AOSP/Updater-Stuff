@@ -1,59 +1,8 @@
-====================
-    06-24-2025
-====================
-
-Source:
-    - base: Allow to disable bluetooth battery level
-    - SystemUI: Improve ticker visibility handling
-    - PixelPropsUtils: Update fingerprints
-    - DerpFestCustomizations: Add keybox data summary and parsing functionality
-
-Device:
-    - pantah: Disable early thermal throttling
-    - pantah: Boost min freq when GAME mode is active
-    - pantah: Backport display update powerhints from tokay
-    - pantah: powerhint: Set default down_rate_limit_us value to 2000
-    - pantah: backport game powerhints from upstream
-    - pantah: backport CPU response time hints
-    - pantah: backport PerTaskMaxIowaitBoost hints
-    - pantah: use efficient CPU frequencies for FIXED_PERFORMANCE_HINT
-    - pantah: reduce dex2oat cpu usage
-    - pantah: relax mid/big cpu boosts
-    - gs201: affine kswapd/kcompact to little cores
-    - gs201: set default irqaffinity to little cluster
-    - gs201: backport 6.1 kernel tunings from upstream
+Changelog:
 
 ====================
-    06-14-2025
+    06-26-2025
 ====================
 
 Source:
-    - Per-app refresh rate config
-    - Select keybox XML to spoof
-    - Notification ticker
-
-Device:
-    - overlay: Use split notification shade in landscape
-
-====================
-    06-05-2025
-====================
-
-Source:
-    - June Security Patch
-
-Device:
-    - Removed Viper4Android
-
-====================
-    05-25-2025
-====================
-
-Source:
-    - Derpfest QPR2 (Based on Lineage)
-    - Derpfest Customizations is back
-    - OTA Updates fixed
-
-Device:
-    - Included Google Camera, Google Face Unlock
-    - Included Quick Tap
+    - Initiate public release for Android 16
