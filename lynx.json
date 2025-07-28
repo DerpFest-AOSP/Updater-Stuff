@@ -7,7 +7,8 @@
       "romtype": "Official",
       "size": 2334638096,
       "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-lynx/16/20250726/DerpFest-v16.0-20250726-lynx-Official-Stable.zip/download",
-      "version": "v16.0"
+      "version": "v16.0",
+      "maintainer": "Yaznas"
     }
   ]
 }

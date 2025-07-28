@@ -7,7 +7,8 @@
       "romtype": "Official",
       "size": 2336290184,
       "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-cheetah/16/20250726/DerpFest-v16.0-20250726-cheetah-Official-Stable.zip/download",
-      "version": "v16.0"
+      "version": "v16.0",
+      "maintainer": "Yaznas"
     }
   ]
 }
