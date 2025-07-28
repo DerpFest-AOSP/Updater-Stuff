@@ -1,10 +1,13 @@
 DerpFest 16 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date: 21-07-2025
+Build Date: 28-07-2025
 Device: Xiaomi 11T Pro [vili]
 
 Device:
-- Initial Android 16 release
+- Fixed Tap to Wake
+- Fixed Charging Control
+- Switched back to Dolby Manager
 
 Kernel:
 * KSU Next and susfs are supported by default
+- Updated KSU Next and susfs patches
