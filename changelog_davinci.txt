@@ -1,2 +1,5 @@
 Changelog:
-- 1st Android 16 release for public
+- Synced derpfest sources
+- Fixed wireless display(for now with AOSP impl which kind of sucks, but atleast works)
+- Fixed notification sounds
+
