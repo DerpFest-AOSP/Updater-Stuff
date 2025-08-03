@@ -1,0 +1,102 @@
+DERPFEST 16.0 Official | Samsung Galaxy A52s 5G
+Maintainer: Genoxci
+
+
+Latest Changelog:
+
+08-04-2025
+- External testing by: Mikolaj, qveezz, Patrick
+
+- Initial release for DerpFest 16
+- Please clean flash ... just do it
+- Migrated touch(sm7325) to aidl
+- Dropped ViPER4AndroidFX
+- Rootless by default now, root can be added back 
+  by flashing .img (in support group) via TWRP 
+  Install > Image [9]
+- Note: Still missing some features from a15
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  - Special thanks to the following:
+    [1] P.A.N.Z. Core Team       [6] Kenway214
+    [2] Simon1511                [7] T1330
+    [3] Arslan140                [8] Identifier
+    [4] P.A.N.Z.                 [9] alex_gailt
+    [5] DaviDev985
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+Previous Changelogs:
+
+06-22-2025
+- External testing by: ded
+
+- Rooted build release
+- KSUN 1.0.8, now with manual hooks
+- Dropped lineage health in preference of a
+  custom Charging Control, v3
+- Changed target node to ensure charging bypass 
+  works [8]
+- Introduced a camera overlay to reduce white
+  vignette when using front camera
+- Introduced k**box loading, will still need PIF
+- and more ..
+
+06-12-2025
+- Merge June security patch
+- KSUN 1.0.7 + SuSFS 1.5.5
+- Introduced Compact progress indicator style 
+- Introduced Charging info QS tile
+- Refresh rate service now based from source
+- Fixed LiveDisplay, High touch sensitivity, and
+  Touchscreen gestures functionality
+- Added support for latest bootloaders [2]
+- OTA and local update not usable for this release,
+  please flash manually using TWRP
+
+05-17-2025 
+- External testing by: nowawas
+
+- Merge QPR2 and May security patch
+- DerpFest Customizations added to Settings main
+  page
+- Can be dirty flashed from QPR1
+- OTA and local update not usable for this release,
+  please flash manually using TWRP
+
+04-09-2025 
+- External testing by: T1330, Mikolaj, nowawas, and 
+  NgocTramm
+
+- New ota branch with KernelSU Next + SuSFS
+- Reenabled GameSpace
+- Adjusted statusbar paddings to match camera
+- New torch implementation [5]
+- New refresh rate tile and per-app refresh rate [6]
+- New gamebar tile and gamebar overlay settings [6]
+- Readjusted fingerprint animation timings [7]
+- Reduced fingerprint border radius [7]
+
+03-13-2025 Hotfix
+- External testing by: Witr and Mikolaj
+
+- Fixed heads-up notifications
+- Fixed hotspot functionality [4]
+
+03-09-2025
+- Bug: 
+  Notifications only compact or island
+
+- Merged March security patch
+- Introduced ViPER4AndroidFX [1]
+- Introduced Island notifications
+- Introduced Ongoing action chip
+- Adjusted statusbar paddings
+- Fixed adaptive refresh rate
+- Fixed volume and brightness slider vibrations [5]
+
+Others:
+- Building knowledge and development support [1]
+- Tree sources [2]
+- a52sxq manifest [3]
