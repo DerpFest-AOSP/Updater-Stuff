@@ -1,13 +1,10 @@
 DerpFest 16 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date: 28-07-2025
+Build Date: 03-08-2025
 Device: Xiaomi 11T Pro [vili]
 
 Device:
-- Fixed Tap to Wake
-- Fixed Charging Control
-- Switched back to Dolby Manager
+- Dropped torch light control (doesn't work with A16 QS tiles)
 
 Kernel:
 * KSU Next and susfs are supported by default
-- Updated KSU Next and susfs patches
