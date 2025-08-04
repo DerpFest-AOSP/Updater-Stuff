@@ -1,10 +1,19 @@
 DerpFest 16 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date: 03-08-2025
+Build Date: 04-08-2025
 Device: Xiaomi 11T Pro [vili]
 
+Source Additions:
+- Island notifications
+- QS header customizations
+- Launcher icon packs
+- Volume dialogue timeout slider
+- Pulse for navbar/ambient
+- Screen off animations
+
 Device:
-- Dropped torch light control (doesn't work with A16 QS tiles)
+- Switched to AOSP WFD for now
+- Fixed connecting some BLE devices
 
 Kernel:
 * KSU Next and susfs are supported by default
