@@ -1,6 +1,6 @@
 DerpFest 16 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date: 04-08-2025
+Build Date: 05-08-2025 [Hotfix]
 Device: Xiaomi 11T Pro [vili]
 
 Source Additions:
@@ -10,10 +10,13 @@ Source Additions:
 - Volume dialogue timeout slider
 - Pulse for navbar/ambient
 - Screen off animations
+- Cloned apps
 
 Device:
 - Switched to AOSP WFD for now
 - Fixed connecting some BLE devices
+- Updated blobs from taoyao V816.0.21.0.ULIMIXM
+- Fixed issues with sending and watching videos
 
 Kernel:
 * KSU Next and susfs are supported by default
