@@ -65,3 +65,9 @@ February 16th update:
 January 26th 2025 update:
 - Sync with the latest changes
 - Move to Paimon kernel
+
+August 11th 2025 update:
+- Initial Android 16 build
+- Add Ambient AOD
+- Switch to Nebula Kernel
+- Sync with the latest tree changes
