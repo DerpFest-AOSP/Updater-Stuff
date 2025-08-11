@@ -3,6 +3,22 @@ Changelog:
 ====================
     07-26-2025
 ====================
+Source:
+    - Quick Settings: Transparent notifications
+    - Quick Settings: Bluetooth tile behavior
+    - Brightness slider: Hide or Show in QS Panel or Show in QS and Quick QS Panel
+    - Brighness slider: Toggle to move slider in the bottom of QS panel
+    - QS header image
+    - Small landscape notification
+    - Screen off animation: Default or CRT or Scale
+    - Hide Statubar toggle
+    - Pulse Audio Visualizer for navbar, lockscreen or ambient screen
+    - Toggle to select PIF Json file
+
+
+====================
+    07-26-2025
+====================
 
 Source:
     - Initiate public release for Android 16
