@@ -1,25 +1,38 @@
-DerpFest 14 STABLE | OFFICIAL
-Build Date : 08-12-2024 
-Device : Redmi Note 7 Pro 
+DerpFest 16.0 STABLE | OFFICIAL
+Build Date : 12-08-2025 
+Device : Redmi Note 7 Pro [ violet ]
 By ~ @selfmuser
 
-Rom Changes :
-- Merge December security patch (android-security-14.0.0_r15)
-- Bump Security String to 2024-12-01
-- PixelPropsUtils: Update fingerprint to latest felix_beta for spoofing GMS
--  Fix Dynamic Permission group auto grant behaivor
-- Fix an issue with FM Radio app ( Nuked extra FM app )
-- Update translations
+Rom Changes : 
+[ 11-08-2025 ]
+- Merge July Security Patch
+- Initial Android 16 build
+- New Material Expressive UI
+- Local implementation to import keybox.xml and pif.json
+- Island notifications
+- QS header customizations
+- Launcher icon packs
+- Volume dialogue timeout slider
+- Pulse for navbar/ambient
+- Screen off animations
+- Cloned apps
+- Fix root detection on VN apps like VNeID , TechComBank , etc.
+- A lot of other changes as well , can't list everything.. ( Flash ROM & Find Out !! ) 
 
 Device Changes :
-- Upstream Perf Kernel to v4.14.355-openela
-- Implemented Xiaomi Dolby Atmos into settings 
-- Update BCR v1.74
-- Improved Meme Cam related stuff ( Causing MIUI detection on some apps )
+- Upstream kernel with 4.14.356+8-perf brickports
+- Merge BPF commits for A16
+- Fixed bootloop due to MTP
+- Enabled UFFD GC (https://www.kernel.org/doc/html/next/admin-guide/mm/userfaultfd.html)
+- Update BCR v1.79
+- Override kernel BPF version
+- Enable blurs ( You can disable it from display settings )
+- Remove deprecated config_mobile_tcp_buffers/networkAttributes
+- Avoid access of deprecated LocUnorderedSetMap entry
 
 
 NOTE : Make sure to join DerpFest Violet chat instead of spamming your skill issues at violet global chat :)
 
 # Thank you so much to everyone who always supported me and my work 🫶
 
-• Special thanks to @Rkriyon1 for the server 😎
+• Special thanks to @Joker-V2 for everything 😎🔥
