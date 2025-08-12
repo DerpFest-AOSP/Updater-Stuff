@@ -4,7 +4,7 @@
       "datetime": 1754675869,
       "filename": "Derpfest-16_GSI_treble_arm64-ab_GAPPS-Official-20250808.img.xz",
       "id": "14d81121ea255a9416705275055e3e803543437a3516c87e84470b1114053c0d",
-      "romtype": "gsi_gapps",
+      "romtype": "Gapps",
       "size": 1174066240,
       "url": "https://github.com/Doze-off/Derpfest_treble/releases/download/2025-08-08/Derpfest-16_GSI_treble_arm64-ab_GAPPS-Official-20250808.img.xz",
       "version": "v16.0"
