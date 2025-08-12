@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": 1754675869,
+      "filename": "Derpfest-16_GSI_treble_arm64-ab_VANILLA-Official-20250808.img.xz",
+      "id": "4d80ff53fe4b7c135a52e6ba3f4ae4eb569e3401405a3d5d4903c1eece75e825",
+      "romtype": "gsi_vanilla",
+      "size": 1017343444,
+      "url": "https://github.com/Doze-off/Derpfest_treble/releases/download/2025-08-08/Derpfest-16_GSI_treble_arm64-ab_VANILLA-Official-20250808.img.xz",
+      "version": "v16.0"
+    }
+  ]
+}
