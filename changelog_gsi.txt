@@ -1,0 +1,20 @@
+**Changelog:**
+  
+  - August security patch
+  - OTA implemented
+  - Performance adjustments, smoother system, and touch improvement to 240Hz
+  - Fixed blur
+  - More fixes for RIL
+  - 4G+ enabled by default (it wasn't working in the previous version)
+  - A few more fixes for DerpFest launcher + more freatures
+  - Aperture camera with more native features enabled by default
+  - Automatic brightness button in the new qs Android 16 + Feature to move the brightness bar up and down
+  - QS header image
+  - Update overlay for s22 ultra
+  - **Added** Overlay for Tecno Spark 8 Pro
+  - **Added** Overlay for Redmi Note 13 5G
+  - Adjust the status bar in the treble app
+
+**Note**
+  - circle to search works depending on your device as the feature has not been fully implemented
+  - You have an option to update via manual OTA in the Treble app, just by downloading the img.xz file and selecting it manually. (But the OTA breaks the DSU sideloader whenever you install an image it restarts on the same system, be aware of this when updating via OTA)
