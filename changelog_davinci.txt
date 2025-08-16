@@ -1,5 +1,8 @@
 Changelog:
-- Synced derpfest sources
-- Fixed wireless display(for now with AOSP impl which kind of sucks, but atleast works)
-- Fixed notification sounds
+- Synced derpfest sources("August Security Patch" amd more)
+- Update blobs from sweet_k6a latest release
+- Some updates to powerhint, phone should work a bit of smoother
+- Cleanup vendor
+- Switch to audio hidl hal 7.0
+- Remove some logspam
 
