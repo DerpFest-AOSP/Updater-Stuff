@@ -1,0 +1,5 @@
+Changelog:
+- Synced derpfest sources
+- Switched to prebuilt A16 kernel
+- Enabled aosp wfd (miracast)
+- Update proprietary blobs into August release
