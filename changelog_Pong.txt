@@ -1,5 +1,11 @@
 Device Changes:
 
+# August 17th 2025 Update:
+- Add Simulated Nothing Charging service
+- Enable AIDL Fastboot HAL
+- Enable Ambient AOD
+- Sync props from stock
+
 # June 22nd 2025 Update:
 - Add initial nothing camera support
 - Set fixed size to 3GB instead of 40% of RAM
