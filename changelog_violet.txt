@@ -1,11 +1,18 @@
 DerpFest 16.0 STABLE | OFFICIAL
-Build Date : 12-08-2025 
+Build Date : 20-08-2025 
 Device : Redmi Note 7 Pro [ violet ]
 By ~ @selfmuser
 
 Rom Changes : 
-[ 11-08-2025 ]
-- Merge July Security Patch
+[ 20-08-2025 ]
+- Merge August Security Patch
+- Add more settings for brightness slider
+- Add auto brightness toggle
+- Allow editing footer icons in QS Panel
+- Add toggles to adjust QS tile shapes
+- Add data usage in QS panel
+- Fix ANR caused by DrawableFactory init blocking model executor on DerpLauncher
+- Cancel ongoing animations before entering allapps on DerpLauncher
 - Initial Android 16 build
 - New Material Expressive UI
 - Local implementation to import keybox.xml and pif.json
