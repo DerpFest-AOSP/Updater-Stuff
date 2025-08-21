@@ -4,6 +4,30 @@ Maintainer: Genoxci
 
 Latest Changelog:
 
+08-21-2025
+- August Security Patch
+- Reintroduced PIF loading
+- A bunch of QS customizations
+- Switched FastCharge implementation
+- Enabled AOD wallpaper on doze [10]
+- Added touch sampling tile [4,11-idea]
+- Adjusted rounded corner radius
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  - Special thanks to the following:
+    [1] P.A.N.Z. Core Team       [9] alex_gailt
+    [2] Simon1511                [10] NeiKos4962
+    [3] Arslan140                [11] NguyenPhong
+    [4] P.A.N.Z.                 
+    [5] DaviDev985               
+    [6] Kenway214
+    [7] T1330
+    [8] Identifier
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+Previous Changelogs:
+
 08-04-2025
 - External testing by: Mikolaj, qveezz, Patrick
 
@@ -13,21 +37,8 @@ Latest Changelog:
 - Dropped ViPER4AndroidFX
 - Rootless by default now, root can be added back 
   by flashing .img (in support group) via TWRP 
-  Install > Image [9]
+  Install > Image [9-idea]
 - Note: Still missing some features from a15
-
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-  - Special thanks to the following:
-    [1] P.A.N.Z. Core Team       [6] Kenway214
-    [2] Simon1511                [7] T1330
-    [3] Arslan140                [8] Identifier
-    [4] P.A.N.Z.                 [9] alex_gailt
-    [5] DaviDev985
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-
-Previous Changelogs:
 
 06-22-2025
 - External testing by: ded
