@@ -1,3 +1,10 @@
+• 21 August 2025
+- Device now remembers last orientation after locking too, thanks @jakobBokaj1
+- Updated Graphics Blobs.
+- Added firmware in rom.
+- Rotated Recovery to landscape.
+- Try magictime kernel for better experience for now, will look into kernel later.
+
 • 04 August 2025
 - Initial A16 Release.
 - Switched to XiaomiDolby.
@@ -9,4 +16,4 @@
 
 
 • Check trees commits if you want to know all changes.
-- https://github.com/glitch-wraith
+- https://github.com/SheoranPranshu
