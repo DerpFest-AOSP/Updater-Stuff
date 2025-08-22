@@ -1,8 +1,29 @@
 Changelog:
 
 ====================
-    07-26-2025
+    08-22-2025
 ====================
+
+Source:
+    - Bump security string to August
+    - Add more settings for brightness slider
+    - Add auto brightness toggle
+    - Allow editing footer icons in QS Panel
+    - Add toggles to adjust QS tile shapes
+    - Add data usage in QS panel
+    - Fix ANR caused by DrawableFactory init blocking model executor on DerpLauncher
+    - Cancel ongoing animations before entering allapps on DerpLauncher
+
+Device:
+    - Update fingerprint/build description from BP2A.250805.005
+    - Revert "pantah: Add V4A"
+    - pantah: We don't support udfps touch handler
+
+
+====================
+    08-11-2025
+====================
+
 Source:
     - Quick Settings: Transparent notifications
     - Quick Settings: Bluetooth tile behavior
