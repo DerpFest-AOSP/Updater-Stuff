@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1750613590,
-      "filename": "DerpFest-v15.2-20250622-tokay-Official-Stable.zip",
-      "id": "9eea869c831acb243377fecb623f5bdefcd16fea6650fc191a821cf4b01c33df",
+      "datetime": 1756072015,
+      "filename": "DerpFest-v16.0-20250824-tokay-Official-Stable.zip",
+      "id": "fc0280c75f463e0b1e045538c48c9972240e2ea32c4514943092036aaec3c560",
       "romtype": "Official",
-      "size": 2974202249,
-      "url": "https://derpfest.rom.lol/?file=tokay/DerpFest-v15.2-20250622-tokay-Official-Stable.zip",
-      "version": "v15.2"
+      "size": 3045089819,
+      "url": "https://derpfest.rom.lol/?file=tokay/DerpFest-v16.0-20250824-tokay-Official-Stable.zip",
+      "version": "v16.0"
     }
   ]
 }

@@ -1,6 +1,2 @@
 🦉 ROM changes:
-- Fixup for banking apps when using keybox spoofing
-- Allow to toggle Bluetooth battery level
-- ThemePicker: Add DerpFest colors tab
-- ThemePicker: Add wifi icon section for testing
-- Enable m3 expressive design for testing
+- Initial A16 release
