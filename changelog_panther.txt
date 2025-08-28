@@ -1,6 +1,26 @@
 Changelog:
 
 ====================
+    08-28-2025
+====================
+
+Source:
+    - LineageOS Upstream Changes
+    - DerpLauncher: Update hotseat searchbar to Android 16 QPR1 Pixel Launcher design
+    - DerpLauncher: Add option to force all apps on bottom sheet
+    - DerpLauncher: Reduce all apps scrim alpha from 0.8 to 0.7
+    - DerpLauncher: Handle SecurityExceptions in AiModeButtonView
+    - DerpLauncher: Fix split selection logic in RecentsView
+    - SystemUI: Screenrecord: Add delete action to the notification
+    - SystemUI: CompatText: Fixup marquee text blur in landscape while scrolling
+    - SystemUI: Recreate media player on theme change
+    - core: Allow to toggle data usage cycle type
+    - Add Chinese/Ukranian Translations
+    - DerpFestCustomizations: Add data usage cycle type option
+    - DerpFestCustomizations: Make data usage summary dynamic
+
+
+====================
     08-22-2025
 ====================
 
