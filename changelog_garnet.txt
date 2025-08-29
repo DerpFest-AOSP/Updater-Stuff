@@ -1,9 +1,6 @@
-DerpFest Garnet
+Changelog:
 
-Device
-
-- Initial Official build by me
-
-
-
-
+====================
+    08-29-2025
+====================
+- Initial Official A16 Build
