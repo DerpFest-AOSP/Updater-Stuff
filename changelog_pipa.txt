@@ -1,3 +1,6 @@
+• From now changelog will be present here
+https://t.me/changelog_glitch
+
 • 21 August 2025
 - Device now remembers last orientation after locking too, thanks @jakobBokaj1
 - Updated Graphics Blobs.
