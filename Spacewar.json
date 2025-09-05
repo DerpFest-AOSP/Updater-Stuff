@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1751628844,
-      "filename": "DerpFest-v15.2-20250704-Spacewar-Official-Stable.zip",
-      "id": "dae9068335299242d60008c119277bed121394505f609038971ba52c576b237d",
+      "datetime": 1757010320,
+      "filename": "DerpFest-v16.0-20250904-Spacewar-Official-Stable.zip",
+      "id": "57e8612a064f600da3cd60ddfd85330f06311ad2dfd9a160e8e1f962d939bcb6",
       "romtype": "Official",
-      "size": 2219245944,
-      "url": "https://sourceforge.net/projects/derpfest/files/Spacewar/20250704/DerpFest-v15.2-20250704-Spacewar-Official-Stable.zip/download",
-      "version": "v15.2"
+      "size": 2226072423,
+      "url": "https://sourceforge.net/projects/derpfest/files/Spacewar/20250904/DerpFest-v16.0-20250904-Spacewar-Official-Stable.zip/download",
+      "version": "v16.0"
     }
   ]
 }

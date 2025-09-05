@@ -1,11 +1,26 @@
-DerpFest 15.2 (QPR2) for Nothing Phone (1) (Spacewar)
-2025-07-04 June Patch Update
+DerpFest v16.0 for Nothing Phone (1) (Spacewar)
+20250904 Update: Initial A16 Release & Nothing Camera Hotfix
 
-Changelog
-- Included June 2025 security patch
-- MASSIVELY improved UI performance by switching over to QTI power service
-- Updated kernel. The new KSU-Next zip doesn't support SuSFS. I'll try readding it soon.
-- New per-app refresh rate setting
-- Built-in no-root keybox spoofing (bring your own keybox, only achieves device integrity. Install PIF for strong)
-- Notification ticker
-and probably more i haven't noticed...
+Release Notes:
+- Included August 2025 security patch
+- Included the newest NP1 Camera version (from firmware V3.2-250804-2110)
+- In-built integrity and PIF spoof
+- KernelSU-Next (v1.0.9) is now included! No more need to flash an extra ZIP.
+- Material 3 Expressive UI, with blurs supported.
+
+If you experience some lag disable blur in Display settings for smoothness.
+
+Bug fixes (Nothing Camera Hotfix):
+- Video is now working again in Nothing Camera!
+- 2x (and greater) photo zoom is now working again in Nothing Camera!
+- Fixed an issue where media previews would take forever to load in Telegram, WhatsApp, Google Photos and third-party apps
+
+Credits:
+- LineageOS and BrainKub for their trees.
+- Alexander Brunswig and Erkan for their prop suggestions
+- Everyone who tested.
+- The P.A.N.Z. core team - guys, you are truly the best!
+
+Special thanks (for the hotfix):
+- Aditya, for brainstorming with me throughout the way
+- Willay24, for giving me material to work on for possible future fixes for portrait
