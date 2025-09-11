@@ -1,6 +1,30 @@
 Changelog:
 
 ====================
+    09-11-2025
+====================
+- Remove PowerProfile.POWER_NONE
+- Update deprecated screen power items
+- Enable suspend to RAM
+- Configure zram
+- Increase ZRAM size to 60% of Ram size
+- configure SQLite to operate in MEMORY mode
+- Compact cached app heaps in the background
+- Allow more cached apps in the background
+- Set default pin amount for home app
+- Don't pin camera app in memory
+- Allow VoLTE and VoWiFi by default
+- Globally enable LTE+ icon
+- Set LTE+ threshold bandwidth to 0
+- Set 5G threshold bandwidth to 0
+- Increase 5 GHz network signal tolerance
+- set default wifi country code to '00'
+- Kernel Upstreamed
+- KernelSU version Updated
+- Misc Chnages and Improvement
+
+
+====================
     08-29-2025
 ====================
 - Initial Official A16 Build
