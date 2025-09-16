@@ -1,8 +1,5 @@
 Changelog:
-- Synced derpfest sources("August Security Patch" amd more)
-- Update blobs from sweet_k6a latest release
-- Some updates to powerhint, phone should work a bit of smoother
-- Cleanup vendor
-- Switch to audio hidl hal 7.0
-- Remove some logspam
-
+- Synced derpfest sources(September security patch and more)
+- Include miuicamera
+- Include sony dolby atmos
+- Add torch strength support
