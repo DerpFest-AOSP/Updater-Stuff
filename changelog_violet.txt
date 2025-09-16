@@ -1,11 +1,31 @@
 DerpFest 16.0 STABLE | OFFICIAL
-Build Date : 20-08-2025 
+Build Date : 16-09-2025 
 Device : Redmi Note 7 Pro [ violet ]
 By ~ @selfmuser
 
 Rom Changes : 
-[ 20-08-2025 ]
-- Merge August Security Patch
+[ 16-09-2025 ]
+- Merge September Security Patch (android16-security-release)
+- Enabled Gphotos Unlimited Spoofing by default
+- Fingerprint: Update to the latest A16 beta BP41.250725.006
+- Add QS panel layout settings
+- Add QS tile shape mode
+- Add Data usage in QS Panel
+- audio: Import Android 16 QPR1 Beta sounds
+- core: PackageManager: Allow installation with partial ABI support
+- Screenrecord: Fix notifications not being dismissed after deleting 
+- SystemUI: Screenrecord: Add delete action to the notification
+- Add toggle for Media-respect halving
+- DerpLauncher: Update hotseat searchbar to Android 16 QPR1 Pixel Launcher design
+- DerpLauncher: Add option to force all apps on bottom sheet
+- DerpLauncher: Allow to tweak blur radius on all apps
+- Derplauncher: Add independent gesture settings page
+- DerpLauncher: Fix app hide toggle not working 
+- DerpLauncher: Allow to change QSB outer shape's transparency
+- DerpLauncher: Optional music search toggle for QSB
+- DerpLauncher: Add 6*7 & 4*6 app grids
+- DerpLauncher: Rework all apps search bar
+- DerpLauncher: Add app protection check when launching from recents and taskbar
 - Add more settings for brightness slider
 - Add auto brightness toggle
 - Allow editing footer icons in QS Panel
@@ -29,6 +49,12 @@ Rom Changes :
 Device Changes :
 - Upstream kernel with 4.14.356+8-perf brickports
 - Merge BPF commits for A16
+- powerhint: Remove EnergyAware node
+- health: Implement IFastCharge interface
+- livedisplay: Strip Out Picture Adjustment & AntiFlicker
+- livedisplay: Migrate to AIDL
+- Remove duplicated IR sepolicy
+- Fix issues with IR sensor
 - Fixed bootloop due to MTP
 - Enabled UFFD GC (https://www.kernel.org/doc/html/next/admin-guide/mm/userfaultfd.html)
 - Update BCR v1.79
