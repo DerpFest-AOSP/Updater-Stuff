@@ -1,5 +1,6 @@
-Changelog 14/06/2025
+Changelog 17/09/2025
 
-- June Security Patch
+- September Security Patch
 - Lineage Upstream 
-- Spoofing Options added
+- ViperFX included
+- Gcam Included
