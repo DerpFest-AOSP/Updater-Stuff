@@ -1,5 +1,13 @@
 Device Changes:
 
+# September 18th 2025 Update:
+- Update from NOS V3.2-250828-1921
+- Adjust statusbar padding
+- Remove audio EQ config
+- Make haptics a bit tighter
+- Enable hardware rounded corner feature
+- dolby: Settings refactor and enhancements
+
 # August 17th 2025 Update:
 - Add Simulated Nothing Charging service
 - Enable AIDL Fastboot HAL
