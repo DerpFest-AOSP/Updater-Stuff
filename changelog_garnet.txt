@@ -1,6 +1,16 @@
 Changelog:
 
 ====================
+    09-21-2025
+====================
+- Extend audio offload buffer size to 256kb
+- Revert Configure zram
+- Revert Increase ZRAM size to 60% of Ram size
+- Revert configure SQLite to operate in MEMORY mode
+- Revert Compact cached app heaps in the background
+- Revert Allow more cached apps in the background
+
+====================
     09-11-2025
 ====================
 - Remove PowerProfile.POWER_NONE
