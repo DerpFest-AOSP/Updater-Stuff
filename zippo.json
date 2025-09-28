@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1749146962,
-      "filename": "DerpFest-v15.2-20250605-zippo-Official-Stable.zip",
-      "id": "6e8316442291652eb6a156a3bb6dbfbf7544685497bde2a42050c68e090bc661",
+      "datetime": 1759072559,
+      "filename": "DerpFest-v16.0-20250928-zippo-Official-Stable.zip",
+      "id": "7b6f05c927447af05018fe043ecc782965e2209ab2bc50a8a9b5829b0eb0ae0c",
       "romtype": "Official",
-      "size": 2174011920,
-      "url": "https://sourceforge.net/projects/derpfest/files/zippo/DerpFest-v15.2-20250605-zippo-Official-Stable.zip/download",
-      "version": "v15.2"
+      "size": 2191234602,
+      "url": "https://sourceforge.net/projects/derpfest/files/zippo/DerpFest-v16.0-20250928-zippo-Official-Stable.zip/download",
+      "version": "v16.0"
     }
   ]
 }
