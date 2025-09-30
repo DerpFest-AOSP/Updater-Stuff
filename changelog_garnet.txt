@@ -1,6 +1,14 @@
 Changelog:
 
 ====================
+    09-29-2025
+====================
+- Improve performance
+- Optimize Battery backup
+- Removed KernelSU
+- Misc Chnages and Improvement
+
+====================
     09-21-2025
 ====================
 - Extend audio offload buffer size to 256kb
