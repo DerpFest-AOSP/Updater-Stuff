@@ -1,22 +1,22 @@
-• From now changelog will be present here
+Xiaomi Pad 6 (pipa)
+===================
+
+Check changelogs:
 https://t.me/changelog_glitch
 
-• 21 August 2025
-- Device now remembers last orientation after locking too, thanks @jakobBokaj1
-- Updated Graphics Blobs.
-- Added firmware in rom.
-- Rotated Recovery to landscape.
+Official Builds
+----------------
+05 October 2025   - Android 16 (QPR0)
+25 September 2025 - Android 15 (QPR2)
+22 September 2025 - Android 16 (QPR0)
+10 September 2025 - Android 16 (QPR0)
+30 August 2025    - Android 16 (QPR0)
+21 August 2025    - Android 16 (QPR0)
+04 August 2025    - Android 16 (QPR0)
+09 July 2025      - Android 15 (QPR2)
 
-• 04 August 2025
-- Initial A16 Release.
-- Switched to XiaomiDolby.
-- Added parts.
+Device Trees
+-------------
+https://github.com/SheoranPranshu
+https://github.com/Xiaomi-Pad6
 
-
-• 09 July 2025:
-- Initial A15 QPR2 official release .
-
-
-• Check trees commits if you want to know all changes.
-- https://github.com/SheoranPranshu
-- https://github.com/Xiaomi-Pad6
