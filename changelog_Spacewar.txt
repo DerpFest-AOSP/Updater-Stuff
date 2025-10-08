@@ -1,26 +1,23 @@
 DerpFest v16.0 for Nothing Phone (1) (Spacewar)
-20250904 Update: Initial A16 Release & Nothing Camera Hotfix
+20251006 Update
 
 Release Notes:
-- Included August 2025 security patch
-- Included the newest NP1 Camera version (from firmware V3.2-250804-2110)
-- In-built integrity and PIF spoof
-- KernelSU-Next (v1.0.9) is now included! No more need to flash an extra ZIP.
-- Material 3 Expressive UI, with blurs supported.
+September Update
+KernelSU-Next is included.
 
-If you experience some lag disable blur in Display settings for smoothness.
+New features and bugfixes:
+- Integrity now passes strong by default!
+- Added back GPhotos Unlimited Storage!
+- Added a feature that fixes Google Wallet (requires a non-revoked keybox)
+- Notifications now have transparency (optional)!
+- Added Flashlight Control!
+and much more...
 
-Bug fixes (Nothing Camera Hotfix):
-- Video is now working again in Nothing Camera!
-- 2x (and greater) photo zoom is now working again in Nothing Camera!
-- Fixed an issue where media previews would take forever to load in Telegram, WhatsApp, Google Photos and third-party apps
+Known bugs:
+- I recommend using Google Camera for photos and NOS Camera for videos, which work perfectly after the last hotfix.
+- The ringtone doesn't play through bluetooth headsets.
+- When using flashlight control, the light turns itself off sometimes. I might decide to exclude it in the future.
 
-Credits:
+Special thanks:
 - LineageOS and BrainKub for their trees.
-- Alexander Brunswig and Erkan for their prop suggestions
-- Everyone who tested.
 - The P.A.N.Z. core team - guys, you are truly the best!
-
-Special thanks (for the hotfix):
-- Aditya, for brainstorming with me throughout the way
-- Willay24, for giving me material to work on for possible future fixes for portrait
