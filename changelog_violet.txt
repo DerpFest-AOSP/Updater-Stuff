@@ -1,13 +1,35 @@
 DerpFest 16.0 STABLE | OFFICIAL
-Build Date : 16-09-2025 
+Build Date : 12-10-2025 
 Device : Redmi Note 7 Pro [ violet ]
 By ~ @selfmuser
 
 Rom Changes : 
-[ 16-09-2025 ]
-- Merge September Security Patch (android16-security-release)
-- Enabled Gphotos Unlimited Spoofing by default
-- Fingerprint: Update to the latest A16 beta BP41.250725.006
+[ 12-10-2025 ]
+- Merge October Security Patch
+- Fingerprint: Update to the latest A16 beta BP41.250822.010
+- Add spoofing section on DerpCustomisations
+- DerpCustomisations; Unlimited Photos Storage toggle, Keybox Attestation override toggle
+- Add transparency level adjustment settings for notifications and headups
+- Allow changing settings dashboard icon theme
+- Add customized headups notifications settings 
+- Show notifications ticker-style in status bar
+- Add new actions on Edge long swipe settings 
+- Add Ambient AOD toggle
+- Bring Back Media cover art
+- Fix Extreme Battery saver settings preference
+- Allow to set ambient notification timeout
+- Update inter font to v4.1
+- Add GoogleSans Flex fonts
+- Add Roboto Flex fonts
+- Add hide developer status settings
+- Add tint status bar icons to system accent color toggle
+- DerpLauncher: update icons on dynamic color changes
+- DerpLauncher: Handle missing corner radius resource gracefully
+- DerpLauncher: SysUiScrim: fix memory leak
+- DerpLauncher: Add QuickSpace accent tint feature
+- Bring Back GestureAnywhere settings
+- Enable Tiny Taskbar settings
+- Allow to change system-wide blur intensity
 - Add QS panel layout settings
 - Add QS tile shape mode
 - Add Data usage in QS Panel
@@ -49,6 +71,14 @@ Rom Changes :
 Device Changes :
 - Upstream kernel with 4.14.356+8-perf brickports
 - Merge BPF commits for A16
+- Finally STABLE MEMECAM ( Thanks to Joker sir <3 :)
+- Bump kernel BPF version override to 5.4.299
+- Enable ambient AOD
+- power: Boost GPU when EXPENSIVE_RENDERING hints are parsed
+- powerhint: Drop unused GPUBusMinFreq node
+- Build DSPVolumeSynchronizer
+- Replace libui.so with libui-v34.so
+- Implement torch light control
 - powerhint: Remove EnergyAware node
 - health: Implement IFastCharge interface
 - livedisplay: Strip Out Picture Adjustment & AntiFlicker
@@ -58,7 +88,6 @@ Device Changes :
 - Fixed bootloop due to MTP
 - Enabled UFFD GC (https://www.kernel.org/doc/html/next/admin-guide/mm/userfaultfd.html)
 - Update BCR v1.79
-- Override kernel BPF version
 - Enable blurs ( You can disable it from display settings )
 - Remove deprecated config_mobile_tcp_buffers/networkAttributes
 - Avoid access of deprecated LocUnorderedSetMap entry
