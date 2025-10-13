@@ -1,6 +1,38 @@
 Changelog:
 
 ====================
+    10-13-2025
+====================
+
+Source:
+    - LineageOS Upstream Changes
+    - Fingerprint: Update to the latest A16 beta BP41.250822.010
+    - Add spoofing section on DerpCustomisations
+    - DerpCustomisations; Unlimited Photos Storage toggle, Keybox Attestation override toggle
+    - Add transparency level adjustment settings for notifications and headups
+    - Allow changing settings dashboard icon theme
+    - Add customized headups notifications settings
+    - Show notifications ticker-style in status bar
+    - Add new actions on Edge long swipe settings
+    - Add Ambient AOD toggle
+    - Bring Back Media cover art
+    - Fix Extreme Battery saver settings preference
+    - Allow to set ambient notification timeout
+    - Update inter font to v4.1
+    - Add GoogleSans Flex fonts
+    - Add Roboto Flex fonts
+    - Add hide developer status settings
+    - Add tint status bar icons to system accent color toggle
+    - DerpLauncher: update icons on dynamic color changes
+    - DerpLauncher: Handle missing corner radius resource gracefully
+    - DerpLauncher: SysUiScrim: fix memory leak
+    - DerpLauncher: Add QuickSpace accent tint feature
+    - Bring Back GestureAnywhere settings
+    - Enable Tiny Taskbar settings
+    - Allow to change system-wide blur intensity
+
+
+====================
     08-28-2025
 ====================
 
