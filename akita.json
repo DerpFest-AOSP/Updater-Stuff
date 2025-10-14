@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1758027684,
-      "filename": "DerpFest-v16.0-20250916-akita-Official-Stable.zip",
-      "id": "20efd9ffb713d40346fdb29e2a8400504055c4a24285d6b03439ba8112f821b0",
+      "datetime": 1760359682,
+      "filename": "DerpFest-v16.0-20251013-akita-Official-Stable.zip",
+      "id": "69b66de8c11e3cf593bf5617372df1a8f016daace7df42a172a9e9919b469184",
       "romtype": "Official",
-      "size": 2336755612,
-      "url": "https://sourceforge.net/projects/derpfest/files/akita/DerpFest-v16.0-20250916-akita-Official-Stable.zip/download",
+      "size": 2342100644,
+      "url": "https://sourceforge.net/projects/derpfest/files/akita/DerpFest-v16.0-20251013-akita-Official-Stable.zip/download",
       "version": "v16.0"
     }
   ]

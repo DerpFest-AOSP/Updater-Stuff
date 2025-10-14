@@ -1,5 +1,56 @@
-Changelog:
-- Synced derpfest sources(September security patch and more)
-- Include miuicamera
-- Include sony dolby atmos
-- Add torch strength support
+Rom changelog:
+- Merge October Security Patch
+- Fingerprint: Update to the latest A16 beta BP41.250822.010
+- Add spoofing section on DerpCustomisations
+- DerpCustomisations; Unlimited Photos Storage toggle, Keybox Attestation override toggle
+- Add transparency level adjustment settings for notifications and headups
+- Allow changing settings dashboard icon theme
+- Add customized headups notifications settings
+- Show notifications ticker-style in status bar
+- Add new actions on Edge long swipe settings
+- Add Ambient AOD toggle
+- Bring Back Media cover art
+- Fix Extreme Battery saver settings preference
+- Allow to set ambient notification timeout
+- Update inter font to v4.1
+- Add GoogleSans Flex fonts
+- Add Roboto Flex fonts
+- Add hide developer status settings
+- Add tint status bar icons to system accent color toggle
+- DerpLauncher: update icons on dynamic color changes
+- DerpLauncher: Handle missing corner radius resource gracefully
+- DerpLauncher: SysUiScrim: fix memory leak
+- DerpLauncher: Add QuickSpace accent tint feature
+- Bring Back GestureAnywhere settings
+- Enable Tiny Taskbar settings
+- Allow to change system-wide blur intensity
+- Add QS panel layout settings
+- Add QS tile shape mode
+- Add Data usage in QS Panel
+- audio: Import Android 16 QPR1 Beta sounds
+- core: PackageManager: Allow installation with partial ABI support
+- Screenrecord: Fix notifications not being dismissed after deleting
+- SystemUI: Screenrecord: Add delete action to the notification
+- Add toggle for Media-respect halving
+- DerpLauncher: Update hotseat searchbar to Android 16 QPR1 Pixel Launcher design
+- DerpLauncher: Add option to force all apps on bottom sheet
+- DerpLauncher: Allow to tweak blur radius on all apps
+- Derplauncher: Add independent gesture settings page
+- DerpLauncher: Fix app hide toggle not working
+- DerpLauncher: Allow to change QSB outer shape's transparency
+- DerpLauncher: Optional music search toggle for QSB
+- DerpLauncher: Add 6*7 & 4*6 app grids
+- DerpLauncher: Rework all apps search bar
+- DerpLauncher: Add app protection check when launching from recents and taskbar
+- Add more settings for brightness slider
+- Add auto brightness toggle
+- Allow editing footer icons in QS Panel
+- Add toggles to adjust QS tile shapes
+- Add data usage in QS panel
+- Fix ANR caused by DrawableFactory init blocking model executor on DerpLauncher
+- Cancel ongoing animations before entering allapps on DerpLauncher
+- Fix root detection on VN apps like VNeID , TechComBank , etc.
+- And more which can't find myself :P
+
+Device changelog:
+- Enable AOD wallpaper
