@@ -1,6 +1,15 @@
 Changelog:
 
 ====================
+    10-16-2025
+====================
+- Update from OS2.0.203.0.VNRMIXM
+- Improve HWUI Performance
+- Optimize System stability
+- Fix battery drain issue
+- Misc Chnages and Improvement
+
+====================
     09-29-2025
 ====================
 - Improve performance
