@@ -1,6 +1,5 @@
-Changelog 17/09/2025
+Changelog 17/10/2025
 
-- September Security Patch
+- October Security Patch
 - Lineage Upstream 
-- ViperFX included
-- Gcam Included
+- More Spoofing Options(gpay without root, needs non-revoked valid keybox)
