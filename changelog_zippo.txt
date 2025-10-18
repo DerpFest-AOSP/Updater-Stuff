@@ -1,10 +1,5 @@
-DerpFest 16.0 STABLE | OFFICIAL ~ by @einargednochsson
-Build Date : 28-09-2025
-Device : Lenovo Z6 Pro ( zippo )
+Changelog 17/10/2025
 
-ROM Changes:
-- September Security Patch
-- latest Derpfest Source
-
-DEVICE Changes:
-- Fix DoubleTap2Wake
+- October Security Patch
+- Lineage Upstream 
+- More Spoofing Options(gpay without root, needs non-revoked valid keybox)
