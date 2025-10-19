@@ -1,4 +1,10 @@
 Device Changes:
+# October 19th 2025 Update:
+- Custom Call glyph pattern implementation
+- Add shake to toggle glyph torch
+- Tune powerhint
+- Enable WiFi 6
+- Add configurable ringer mode for flip to glyph
 
 # September 18th 2025 Update:
 - Update from NOS V3.2-250828-1921
