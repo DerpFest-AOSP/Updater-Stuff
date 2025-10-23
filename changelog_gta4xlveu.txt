@@ -1,0 +1,18 @@
+DerpFest v16.0 for Samsung Galaxy Tab S6 Lite 2022 (gta4xlveu)
+20251019 Initial A16 Release
+
+The same zip is compatible with both Wi-Fi and LTE variants.
+Release Notes:
+- Included October 2025 security patch
+- Material 3 Expressive UI, with blurs supported (turning them off is recommended for smoothness)
+- QPR1-style quick settings!
+- Lots of customization options!
+- Included KernelSU-Next v1.1.1!
+- Included ViPER4AndroidFX!
+- In-built integrity and PIF spoof, strong integrity passes by default!
+
+Special Thanks:
+- Daniel, Lineage Maintainer, for his amazing trees and instructions
+- eun0115, for the KernelSU-Next hooks
+- Every amazing tester, especially Ilya!
+- The P. A. N. Z. Core Team, y'all are truly the best!
