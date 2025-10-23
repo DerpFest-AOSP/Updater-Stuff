@@ -1,29 +1,21 @@
-Device Changelog:
+DerpFest v16.0 for Samsung Galaxy S10 Series (beyond0lte/beyond1lte/beyond2lte)
+20251012 October Update
 
-- Upstream kernel to 4.14.320
-- Disable blur to prevent QS lag
-- CTS passes by default (non root)
+WARNING! IF YOU'RE RECEIVING THIS UPDATE ON ANDROID 13: Do NOT update with OTA: you'll need to clean flash. New ROM base, lots of tree changes, new kernel... the list goes on... Please join the new Telegram group for support: https://t.me/+kh4VJeU9EcJhNzJk
 
-Rom Changelog:
+New features and bugfixes:
+- Integrity now passes strong by default!
+- Added back GPhotos Unlimited Storage!
+- Added a feature that fixes Google Wallet (requires a non-revoked keybox)
+- Notifications now have transparency (optional)!
+- Added Flashlight strength control!
+- Added October security patch (string bump)
+and much more...
 
-- Include PE's Pixel framework 
-- Bring back QS Header Images
-- Add QS battery customizations
-- Enable new back gesture affordance
-- Tell user when face unlock detection is running
-- Improve switch to unlink ringtone and notifications volume
-- Improve power menu drawables and strings
-- Rebrand Aperture to Flash
-- Replace configurable fingerprint wake-and-unlock by a much simpler implementation from ArrowOS
-- AirPod support changes has been revised on top of new changes based on OpenPods source
-- Settings: Re-order SELinux status on About Phone
-- Settings: Allow toggling in-call notifications
-- Settings: Show single-touch wakeup setting on rear & front fps devices
-- DerpSpace: Use click effect toggle instead of duration for haptic feedback for QSTile
-- Various fixes for FMRadio
-- recovery: Ask to reboot before installing anything after A/B update
-- Relax few restrictions for builds with prebuilt vendor
-- Update Symphonica to 0.6.0
-- Add Hellenic translations
-- Import more Chinese (Simpified) translations
-- Update Russian translations
+Special Thanks:
+- Linux4, Lineage Maintainer, for his amazing trees
+- FreeRunner4ever for his amazing kernel
+- All my testers, especially Josemar, as always :)
+- The P. A. N. Z. Core Team, y'all are truly the best!
+
+by: @DaViDev985
