@@ -1,6 +1,13 @@
 Changelog:
 
 ====================
+    10-23-2025
+====================
+- Fix Heating while Charging
+- Enable Client Composition Cache
+- Misc Chnages and Improvement
+
+====================
     10-16-2025
 ====================
 - Update from OS2.0.203.0.VNRMIXM

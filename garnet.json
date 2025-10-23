@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1760635116,
-      "filename": "DerpFest-v16.0-20251016-garnet-Official-Stable.zip",
-      "id": "bbb97dd32bc3fccb7f81079e1db06b5af2dc289df57fc65d68edf7bf377ecdda",
+      "datetime": 1761240388,
+      "filename": "DerpFest-v16.0-20251023-garnet-Official-Stable.zip",
+      "id": "fa3d05361be0596a07907d0a14d8637e4cfc35d264cffd257a5d3a475e6837d4",
       "romtype": "Official",
-      "size": 2582131354,
-      "url": "https://sourceforge.net/projects/derpfest/files/garnet/DerpFest-v16.0-20251016-garnet-Official-Stable.zip/download",
+      "size": 2582137896,
+      "url": "https://sourceforge.net/projects/derpfest/files/garnet/DerpFest-v16.0-20251023-garnet-Official-Stable.zip/download",
       "version": "v16.0"
     }
   ]
