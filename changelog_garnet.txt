@@ -1,6 +1,23 @@
 Changelog:
 
 ====================
+    10-30-2025
+====================
+- Update from OS2.0.204.0.VNRMIXM
+- Kernel version 5.10.245
+- KernelSU-Next Included
+- SUSFS Included
+- Link more libs against v33 libstagefright_foundation
+- Fast Charging By default
+- parts: GameBar v4.0
+- parts: Display Satutaion
+- parts: Clear Speaker
+- parts: thermal profiles
+- Add Spatial Audio
+- Increase super partition size
+- Add HWUI properties
+
+====================
     10-23-2025
 ====================
 - Fix Heating while Charging
