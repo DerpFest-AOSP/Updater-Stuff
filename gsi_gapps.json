@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1754675869,
-      "filename": "Derpfest-16_GSI_treble_arm64-ab_GAPPS-Official-20250808.img.xz",
-      "id": "14d81121ea255a9416705275055e3e803543437a3516c87e84470b1114053c0d",
+      "datetime": 1762736362,
+      "filename": "Derpfest-16_GSI_treble_arm64-ab_GAPPS-Official-20251109.img.xz",
+      "id": "f795e46017bec5efcf6c9d432fffd3c4d0f05bfb7c0ca145ff2b2fa42f1a94aa",
       "romtype": "Gapps",
-      "size": 1174066240,
-      "url": "https://github.com/Doze-off/Derpfest_treble/releases/download/2025-08-08/Derpfest-16_GSI_treble_arm64-ab_GAPPS-Official-20250808.img.xz",
+      "size": 1223547820,
+      "url": "https://github.com/Doze-off/Derpfest_treble/releases/download/2025-11-09/Derpfest-16_GSI_treble_arm64-ab_GAPPS-Official-20251109.img.xz",
       "version": "v16.0"
     }
   ]
