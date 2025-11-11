@@ -1,6 +1,18 @@
 Changelog:
 
 ====================
+    11-11-2025
+====================
+- Implement LiveDisplay AIDL HAL
+- Build DSPVolumeSynchronizer
+- Enable Client Composition Cache
+- Improved rendering stability
+- Some kernel Side Optimization
+- Improve ram management
+- Improve Performance
+- Misc Chnages and Improvement
+
+====================
     10-30-2025
 ====================
 - Update from OS2.0.204.0.VNRMIXM
