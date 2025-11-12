@@ -1,16 +1,19 @@
 DerpFest v16.0 for Samsung Galaxy A71 4G (a71naxx)
-20251008 Initial A16 Release
+20251110 update
 
-ANDROID 16 INITIAL RELEASE
-You might need to reregister fingerprints.
+November Update
+KernelSU-Next is included in the build.
+OTA/Local Update is probably still not working, still no idea why... For now, use adb sideload/sd card from recovery.
+
 Release Notes:
-- Included September 2025 security patch!
-- Material 3 Expressive UI, QPR1-style quick settings!
-- Flashlight Control is back!
-- Included KernelSU-Next v1.1.1 & SuSFS directly in the build, flashing an extra zip is no longer needed!
-- Lots of news, like customization of QS rows, album art on lockscreen, and so much more i can't even fit it in here...
+- Included November 2025 security patch!
+- Upstreamed kernel!
+- Fixed an issue where apps would not stay open in the background.
+- Added new customization features, like gradient-color QS and new Pulse visualizers.
+- More stuff that doesn't fit in here :)
 
 Special thanks:
-- All testers, especially Mohammad, as always :)
+- All testers!
 - Haky86, Lineage Maintainer, for the original trees I adapted.
+- eun0115, for his KernelSU-Next + SuSFS implementation
 - The P. A. N. Z. Core Team, y'all are truly the best!
