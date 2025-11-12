@@ -1,22 +1,20 @@
 DerpFest v16.0 for Nothing Phone (1) (Spacewar)
-20251006 Update
+20251111 Update
 
-Release Notes:
-September Update
+November Update
 KernelSU-Next is included.
 
 New features and bugfixes:
-- Integrity now passes strong by default!
-- Added back GPhotos Unlimited Storage!
-- Added a feature that fixes Google Wallet (requires a non-revoked keybox)
-- Notifications now have transparency (optional)!
-- Added Flashlight Control!
-and much more...
+- Included November 2025 security patch!
+- Upstreamed kernel (5.4.300) and updated to KernelSU-Next v1.1.1!
+- Upstreamed trees: fixed Wireless Display (cast), fixed up re-inclusion of QTI perfd!
+- Updated Viper4Android FX!
+- Added new customization, like gradient-color QS, new Pulse visualizers and a notification counter icon!
+- More stuff :)
 
 Known bugs:
 - I recommend using Google Camera for photos and NOS Camera for videos, which work perfectly after the last hotfix.
 - The ringtone doesn't play through bluetooth headsets.
-- When using flashlight control, the light turns itself off sometimes. I might decide to exclude it in the future.
 
 Special thanks:
 - LineageOS and BrainKub for their trees.
