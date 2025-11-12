@@ -1,0 +1,11 @@
+Rom changelog:
+- November Security Patch
+- Spoofing Changes
+- Pulse improvments
+- Gestureanywhere added
+- more fixes & improvements 
+
+Device changelog:
+- Lineage Upstream in dt & kernel
+- fixed bt calling 
+- added BCR
