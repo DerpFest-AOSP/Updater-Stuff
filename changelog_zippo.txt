@@ -1,5 +1,4 @@
-Changelog 17/10/2025
+Changelog 14/11/2025
 
-- October Security Patch
+- November Security Patch
 - Lineage Upstream 
-- More Spoofing Options(gpay without root, needs non-revoked valid keybox)
