@@ -6,6 +6,4 @@ Rom changelog:
 - more fixes & improvements 
 
 Device changelog:
-- Lineage Upstream in dt & kernel
-- fixed bt calling 
-- added BCR
+- Lineage Upstream in dt & kernel (solved blackscreen issue) 
