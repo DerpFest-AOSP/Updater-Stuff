@@ -6,6 +6,7 @@ https://t.me/changelog_glitch
 
 Official Builds
 ----------------
+15 November 2025  - Android 16 (QPR0)
 11 November 2025  - Android 16 (QPR0)
 24 October 2025   - Android 16 (QPR0)
 05 October 2025   - Android 16 (QPR0)
