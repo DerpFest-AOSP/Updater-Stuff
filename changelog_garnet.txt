@@ -1,6 +1,16 @@
 Changelog:
 
 ====================
+    11-28-2025
+====================
+- Sync with Grewal Changes
+- Wifi + Hotspot fixed
+- Update blobs from OS2.0.205.0.VNRMIXM
+- increase TA interaction boosting
+- set surface flinger min uclamp to ~30%
+- Misc fixes and Improvement
+
+====================
     11-11-2025
 ====================
 - Implement LiveDisplay AIDL HAL
