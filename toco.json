@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1751925692,
-      "filename": "DerpFest-v15.2-20250708-toco-Official-Stable.zip",
-      "id": "540087de75c909bc87ef82ca18483d2424240c3427e2a0c9dfed2ec951f504b1",
+      "datetime": 1765016518,
+      "filename": "DerpFest-v16.0-20251206-toco-Official-Stable.zip",
+      "id": "9c183d7ed207bd4e858842e825cf98ef4b6f14c55a60184273aeca016bf70e08",
       "romtype": "Official",
-      "size": 2543162558,
-      "url": "https://sourceforge.net/projects/derpfest/files/toco/DerpFest-v15.2-20250708-toco-Official-Stable.zip/download",
-      "version": "v15.2"
+      "size": 2323182769,
+      "url": "https://sourceforge.net/projects/derpfest/files/toco/DerpFest-v16.0-20251206-toco-Official-Stable.zip/download",
+      "version": "v16.0"
     }
   ]
 }

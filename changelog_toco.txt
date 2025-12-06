@@ -1,10 +1,5 @@
 Device Changes:
-- Drop duplicate IR HAL SEPolicy
-- Switch to common AIDL IR service
+- Initial Android 16 build
 
 DerpFest Source Changes:
-- Fixup for banking apps when using keybox spoofing
-- Allow to toggle Bluetooth battery level
-- ThemePicker: Add DerpFest colors tab
-- ThemePicker: Add wifi icon section for testing
-- Enable m3 expressive design for testing
+- Android 16 November SPL
