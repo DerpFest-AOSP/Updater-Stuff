@@ -1,19 +1,18 @@
 DerpFest 16 STABLE | OFFICIAL
 By ~ @0mar99
-Build Date: 09-11-2025
+Build Date: 16-12-2025
 Device: Xiaomi 11T Pro [vili]
 
 Source
-- November Security Patch
-- Spoofing Improvements 
+- December Security Patch
 
 Device:
-- Added GameBar support (credits to ph12nex)
-- Added back torch control in QS tile
-- Updated vili blobs and firmware from HyperOS 1.0.22.0.UKDMIXM
-- Updated common blobs from Taoyao V816.0.26.0.ULIMIXM
-- Switched to OSS Audio HAL and SoundTrigger HAL
+- Updated common blobs from redwood OS2.0.11.0.UMSMIXM
+- Fixed an issue with device not ringing when headphones were connected
+- Updated thermal by @tanzilw
+- Switched back to Sony Dolby app
 
 Kernel:
 * KSU Next and susfs are supported by default
-- Upstreamed void kernel to 5.4.300 and merged latest LineageOS changes
+- Updated KSU Next support for manager V1.1.1
+- Updated susfs to v1.5.12
