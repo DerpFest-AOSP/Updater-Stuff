@@ -1,14 +1,15 @@
 Changelog:
 
 ====================
-    11-28-2025
+    12-19-2025
 ====================
-- Sync with Grewal Changes
-- Wifi + Hotspot fixed
-- Update blobs from OS2.0.205.0.VNRMIXM
-- increase TA interaction boosting
-- set surface flinger min uclamp to ~30%
-- Misc fixes and Improvement
+- optimize dalvik vm heap parameters
+- Add support for ViPER4Android FX
+- Disable FRP
+- Increases file copying speed
+- Enable Blur by default
+- Improve Touch Response
+- Improve System Stability
 
 ====================
     11-11-2025
