@@ -1,129 +1,45 @@
-Highlights & Device Specific Changes:
-Build type: Monthly
-Device: Redmi Note 10 Pro (sweet)
-Device maintainer: JYR_RC
+Highlights & Device Specific Changes
 
+Build type: Official
+Android version: Android 16 (QPR0)
+Device: Redmi Note 10 Pro & Pro Max (sweet)
+Device maintainer: Danny Soundaraj D
 
---------------27/05/24----------------
+--------------01/01/26----------------
 
-Device Changelog:
+Device Highlights:
+• First OFFICIAL DerpFest 16 release for sweet
+• Clean AOSP based bring-up
+• Stability-focused configuration
+• Stock LineageOS kernel
+• ext4 filesystem
+• SELinux Enforced
+• GApps included
+• AOSP Camera (no MIUI Camera)
 
-    Integrity pass defaul (signed build)
-    Erofs Build
-    Sync Sources 26/05/2024
-    Build Gapps
-    INSTALL CLEAN MANDATORY
+Notes:
+• Clean flash recommended for first install
 
+------------------------------------
 
---------------05/05/24----------------
+ROM Notes:
+• Android 16 initial release (QPR0)
+• Focus on reliability over feature stuffing
+• No pre-root, no bundled mods
+• Long-term maintainability as priority
 
-Device Changelog:
+------------------------------------
 
-    Pico Gapps Build
-    Miuicamera Included Default
-    Added OnePlus Dolby parts
-    Kprofiles
-    App Refresh Rate
-    Refresh Rate ins settings
-    Added refresh rate toggle
-    Added ambient display
-    Haptick Feedback Settings
+Device Notes:
+• Updated device, vendor, and kernel trees
+• Power and performance tuned for daily usage
+• No proprietary audio or camera mods bundled
+• Kept configuration close to upstream for stability
 
+------------------------------------
 
-Rom Changelog:
+Support:
+• Bug reports should include logs and clear steps
+• Feature requests are welcome but not guaranteed
 
-    April Security Patch QPR2
-    Fix status bar clock prefs
-    Fix navbar inversion toggle
-    Fix flash on call seekbar resetting 
-    Drop duplicated system update shortcut
-    Remove Omni weather in favor of Google Smartspace
-    Make Google search bar monet themable again 
-    Add back Pixel framework
-    Add quick settings pull down with one finger
-    Allow to always show the time in media player
-    Add option to keep the screen awake while screen recording
-    Add Pixel Navbar animation toggle
-    DerpLauncher: QuickstepAtomicAnimationFactory: Add null checks to prevent NPE
-    DerpLauncher: quickstep: TouchInteractionService: Do not crash on boot
-
-
-
-
-
-Source
-
-- Add Pixel framework
-- Add QS header customizations
-- Add AppLock
-- Update PUI icon pack
-- Updater: Enable A/B perf mode by default
-- Recovery: Add support for battery status
-- Add Configurable 0, 90, 180 and 270 degree rotation
-- Add Lockscreen rotation switch
-- Spoof locked bootloader on local attestations
-- Fix Lockscreen media art
-- Add OOS style notification clear all button
-- Add face unlock animation
-- Add Phone ringtone setting for Multi SIM devices
-- WallpaperPicker: Use our custom fonts for lockscreen preview
-- Add support for global cleartext penalties
-- Add back hotspot client manager
-- And many more
-
-Device
-
-- sweet: Set 120Hz frame rate multiple threshold
-- sweet: init: Dont set build fingerprint
-- sweet: drop override doze mode support
-- sweet: recovery: Make recovery permissive only in non-user builds
-- sweet: overlay: Dont disable DiscoveryService and NearbyMessagingService
-- sweet: sepolicy: Address isolated_app denial
-- sweet: Update dax-default.xml from MIUI
-- sweet: Remove keymap of headset buttons
-- sweet: configs: powerhint: Don't boost top-app when screen is off
-- sweet: configs: powerhint: Don't send QoS request during launch
-- sweet: configs: powerhint: fixup io_percent default value
-- sweet: configs: powerhint: Disable prefer_idle when screen goes off
-- sweet: configs: powerhint.json: add FIXED_PERFORMANCE
-- sweet: configs: powerhint: Fix QoS CPU DMA latency value
-- sweet: Drop duplicate prop
-- sweet: Set the maximum WFD resolution to 720p@30
-- sweet: Enable config_avoidGfxAccel
-- Revert "sm6150-common: wifi: Switch gEnablePowerSaveOffload to 5"
-- sweet: overlay: Disable wifi firmware debugging
-- sweet: overlay: Fix hyper orange night light
-- sweet: set the build fingerprint and description at build time
-- sweet: Disable ART debug and optimize dexpreopt
-- sweet: vendorsetup.sh: switch to sleepy kernel and r487747c clang
-- Revert "sweet: Copy privapp-permissions-parts.xml into (TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions"
-- sm6150-common: gps: Fix unqualified call to std::move
-- sm6150-common: gps: Add NULL check before object access
-- sweet: Enable automatic channel selection 
-- sm6150-common: Use the AIDL WiFi service
-- sm6150-common: Import missing deviceInfoServiceModule.so
-- sweet: Enable content detection for refresh rate switching
-- sweet: Build protobuf vendorcompat
-- sweet: Enable Non Flattened APEX
-- sweet: Downgrade Audio HIDL to 7.0
-- sweet: vendorsetup.sh: track derp hals
-- sweet: Import missing wlan_mac from stock
-- sweet: build DRM 1.4 to vendor
-- sweet: Enable AIDL DRM HALs
-- sweet: overlay: Configure Flash camera overlays
-- sweet: Migrate vendor.camera.aux.packagelist to overlay
-- sweet: Migrate to restructured sepolicy_vndr
-- sweet: Drop OnePlus Dolby
-- sweet: Fix flickering on status bar
-- sweet: Add support for ViPER4Android FX Redesign and build it
-- sweet: Update blobs from MIUI V14.0.6.0.TKFEUXM
-- sweet: Enable casefolding support on userdata
-- sweet: Enable camera override format from reserved
-- sweet: Build default health HIDL recovery impl
-- sweet: Move to QTI health AIDL service
-- sweet: Keep building health HIDL interface lib in vendor
-- sweet: overlay: CarrierConfig: Update to LA.QSSI.14.0.r1-10000.01
-- sweet: Import missing blob
-- sweet: Disable unspecialized app process pool
-- [REPICK]sweet: Switch BtAudio to AIDL
-- sweet: Import missing blob
+#StayDerped 🦉
