@@ -6,17 +6,18 @@ https://t.me/changelog_glitch
 
 Official Builds
 ----------------
-15 November 2025  - Android 16 (QPR0)
-11 November 2025  - Android 16 (QPR0)
-24 October 2025   - Android 16 (QPR0)
-05 October 2025   - Android 16 (QPR0)
-25 September 2025 - Android 15 (QPR2)
-22 September 2025 - Android 16 (QPR0)
-10 September 2025 - Android 16 (QPR0)
-30 August 2025    - Android 16 (QPR0)
-21 August 2025    - Android 16 (QPR0)
-04 August 2025    - Android 16 (QPR0)
-09 July 2025      - Android 15 (QPR2)
+02 January 2026   - Android 16 (QPR0) Ksu 0.9.5
+15 November 2025  - Android 16 (QPR0) Ksu-next 1.0.9 (susFs 1.5.5)
+11 November 2025  - Android 16 (QPR0) Ksu-next 1.0.9 (susFs 1.5.5)
+24 October 2025   - Android 16 (QPR0) Ksu-next 1.0.9 (susFs 1.5.5)
+05 October 2025   - Android 16 (QPR0) Ksu-next 1.0.9 (susFs 1.5.5)
+25 September 2025 - Android 15 (QPR2) Ksu-next 1.0.9 (susFs 1.5.5)
+22 September 2025 - Android 16 (QPR0) Ksu-next 1.0.9 (susFs 1.5.5)
+10 September 2025 - Android 16 (QPR0) Ksu-next 1.0.9 (susFs 1.5.5)
+30 August 2025    - Android 16 (QPR0) Ksu-next 1.0.8 (susFs 1.5.5)
+21 August 2025    - Android 16 (QPR0) Ksu-next 1.0.8 (susFs 1.5.5)
+04 August 2025    - Android 16 (QPR0) Ksu-next 1.0.8 (susFs 1.5.5)
+09 July 2025      - Android 15 (QPR2) Ksu-next 1.0.8 (susFs 1.5.5)
 
 Device Trees
 -------------
