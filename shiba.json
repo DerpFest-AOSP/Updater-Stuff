@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1762606457,
-      "filename": "DerpFest-v16.0-20251108-shiba-Official-Stable.zip",
-      "id": "ded4f27a3b1c822f13bc4be7c588bbad8b0c8cd0157e385c9869c825e11f8ed2",
+      "datetime": 1770227613,
+      "filename": "DerpFest-v16.2-20260204-shiba-Official-Beta.zip",
+      "id": "4aed11ab2f31731f0cd9e0ead3f7eda4af5f7563180b54dd5baa3a26447c99af",
       "romtype": "Official",
-      "size": 2356359462,
-      "url": "https://sourceforge.net/projects/derpfest/files/shiba/DerpFest-v16.0-20251108-shiba-Official-Stable.zip/download",
-      "version": "v16.0"
+      "size": 2648134296,
+      "url": "https://sourceforge.net/projects/derpfest/files/shiba/DerpFest-v16.2-20260204-shiba-Official-Beta.zip/download",
+      "version": "v16.2"
     }
   ]
 }

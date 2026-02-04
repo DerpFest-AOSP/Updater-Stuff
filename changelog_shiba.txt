@@ -1,10 +1,8 @@
 Rom changelog:
-- Merge November Security Patch
-- Pulse changes
-- Change pif props to again pass integrity by default
-- Gestureanywhere added
-- And more which can't find myself :P
+- Merged QPR2
+- Updated security patch into febuary 2026
 
 Device changelog:
-- Update BCR app
-- switch to lineage kernel building (however it still builds from Google sources so kernel doesn't change)
+- Updated blobs, props and vendor security patch level from febuary stock
+- Enabled Screen off udfps
+
