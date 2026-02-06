@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1769284659,
-      "filename": "DerpFest-v16.0-20260124-giulia-Official-Stable.zip",
-      "id": "aad097f030ed2bc434768261714266f93901a17c8208a76a427562156ebe8c64",
+      "datetime": 1770401827,
+      "filename": "DerpFest-v16.2-20260207-giulia-Official-Beta.zip",
+      "id": "07ea926382b46960dc558b5a7eada2a1c52f78f55a1fb43b8823a90dc178cd05",
       "romtype": "Official",
-      "size": 3826009246,
-      "url": "https://sourceforge.net/projects/derpfest/files/giulia/DerpFest-v16.0-20260124-giulia-Official-Stable.zip/download",
-      "version": "v16.0"
+      "size": 4048368037,
+      "url": "https://sourceforge.net/projects/derpfest/files/giulia/DerpFest-v16.2-20260207-giulia-Official-Beta.zip/download",
+      "version": "v16.2"
     }
   ]
 }

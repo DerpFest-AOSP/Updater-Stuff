@@ -1,0 +1,14 @@
+DerpFest v16.2 | OFFICIAL
+By ~ @0mar99
+Build Date: 02-6-2026
+Device: OnePlus Ace 5 [giuliac]
+
+Source:
+- Android 16 QPR2 update
+- February Security Patch
+
+Device:
+- Switched to custom lift to wake sensors
+
+Kernel:
+- Upstreamed to 6.1.161 and merged latest LineageOS changes

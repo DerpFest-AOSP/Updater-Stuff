@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1769287221,
-      "filename": "DerpFest-v16.0-20260124-giuliac-Official-Stable.zip",
-      "id": "4bdb1d4ba6988fbd826ba8dc3b74b212c84b273f17a980fef34c3741d25c444f",
+      "datetime": 1770407817,
+      "filename": "DerpFest-v16.2-20260207-giuliac-Official-Beta.zip",
+      "id": "6d9083b92011f16ae395c4aa00ca9376047c4c39dbf05d5391704a94253c8129",
       "romtype": "Official",
-      "size": 3856475373,
-      "url": "https://sourceforge.net/projects/derpfest/files/giuliac/DerpFest-v16.0-20260124-giuliac-Official-Stable.zip/download",
-      "version": "v16.0"
+      "size": 4076765616,
+      "url": "https://sourceforge.net/projects/derpfest/files/giuliac/DerpFest-v16.2-20260207-giuliac-Official-Beta.zip/download",
+      "version": "v16.2"
     }
   ]
 }
