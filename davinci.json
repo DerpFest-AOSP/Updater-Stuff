@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1762608799,
-      "filename": "DerpFest-v16.0-20251108-davinci-Official-Stable.zip",
-      "id": "0599a81f1a869e7ea8aa684eb9fc7bf81d56c905d3b247424b5b9290312bf50b",
+      "datetime": 1770413731,
+      "filename": "DerpFest-v16.2-20260206-davinci-Official-Beta.zip",
+      "id": "8f34cccf2575267989ab2b6fd25dfdedb513d1a2dbbbc4d45f22d9c3fa4f6529",
       "romtype": "Official",
-      "size": 2424412465,
-      "url": "https://sourceforge.net/projects/derpfest/files/davinci/DerpFest-v16.0-20251108-davinci-Official-Stable.zip/download",
-      "version": "v16.0"
+      "size": 2660092805,
+      "url": "https://sourceforge.net/projects/derpfest/files/davinci/DerpFest-v16.2-20260206-davinci-Official-Beta.zip/download",
+      "version": "v16.2"
     }
   ]
 }

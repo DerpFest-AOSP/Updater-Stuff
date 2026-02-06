@@ -1,9 +1,8 @@
 Rom changelog:
-- Merge November Security Patch
-- Changes to spoofing
-- Pulse improvments
-- Gestureanywhere added
-- And more which can't find myself :P
+- Merged QPR2
+- Updated security patch into febuary 2026
 
-Device changelog:
-- Rebase over lineage trees
+Device Changelog:
+- Update kernel bpf backport into 5.10
+- Update vendor spl and unpinned blobs from 1.0.33 sweet_k6a release
+
