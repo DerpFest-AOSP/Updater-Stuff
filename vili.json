@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1765931068,
-      "filename": "DerpFest-v16.0-20251217-vili-Official-Stable.zip",
-      "id": "7ee51e8479c510331f96542e1d81cc01e220bababc9584e554cdfb0aa34904ad",
+      "datetime": 1770438039,
+      "filename": "DerpFest-v16.2-20260207-vili-Official-Beta.zip",
+      "id": "8aa3c9e2905717e101055220a93af42bc53a946db38a7c921a3b12d1c15c94af",
       "romtype": "Official",
-      "size": 2738447309,
-      "url": "https://sourceforge.net/projects/derpfest/files/vili/DerpFest-v16.0-20251217-vili-Official-Stable.zip/download",
-      "version": "v16.0"
+      "size": 3009238604,
+      "url": "https://sourceforge.net/projects/derpfest/files/vili/DerpFest-v16.2-20260207-vili-Official-Beta.zip/download",
+      "version": "v16.2"
     }
   ]
 }

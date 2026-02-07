@@ -1,18 +1,20 @@
-DerpFest 16 STABLE | OFFICIAL
+DerpFest v16.2 | OFFICIAL
 By ~ @0mar99
-Build Date: 16-12-2025
+Build Date: 02-07-2026
 Device: Xiaomi 11T Pro [vili]
 
-Source
-- December Security Patch
+Source:
+- Android 16 QPR2 update
+- February Security Patch
 
 Device:
-- Updated common blobs from redwood OS2.0.11.0.UMSMIXM
-- Fixed an issue with device not ringing when headphones were connected
-- Updated thermal by @tanzilw
-- Switched back to Sony Dolby app
+- Updated Dolby Atmos interface
+- Updated Dolby dax config
+- Updated memecam from HyperOS 1.0.22.0.UKDMIXM
+- Fixed offline charging animation
 
 Kernel:
 * KSU Next and susfs are supported by default
-- Updated KSU Next support for manager V1.1.1
-- Updated susfs to v1.5.12
+- Upstreamed void kernel to 5.4.302 and merged latest LineageOS changes
+- Updated KSU-Next to V3.0.0
+- Updated susfs to v2.0.0
