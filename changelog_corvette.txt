@@ -1,9 +1,8 @@
 Rom Changelog
-2025 Nov patch
-QPR1 is coming soon
+2026 Feb patch
+QPR2
 
 Kernel Changes:
-SukiSU built in
 You need to update sukisu manager 
 
 Device:
