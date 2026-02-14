@@ -1,14 +1,10 @@
 DerpFest v16.2 | OFFICIAL
 By ~ @0mar99
-Build Date: 02-6-2026
+Build Date: 02-14-2026
 Device: OnePlus 13R [giulia]
 
-Source:
-- Android 16 QPR2 update
-- February Security Patch
-
 Device:
-- Switched to custom lift to wake sensors
-
-Kernel:
-- Upstreamed to 6.1.161 and merged latest LineageOS changes
+- Imported vibration effects from OOS
+- Switched back to Oplus doze
+- Added alert slider animations
+- Dropped Accord and backup tool prebuilts
