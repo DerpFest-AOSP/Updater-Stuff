@@ -1,0 +1,6 @@
+DerpFest v16.2 | OFFICIAL
+By @franlop77
+Build Date: 02-15-2026
+Device: Poco F7 [Onyx]
+
+- Initial Official Release
