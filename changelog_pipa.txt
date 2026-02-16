@@ -9,6 +9,7 @@ https://t.me/the_usual_suspects_777
 
 Official Builds
 ----------------
+16 February 2026  - Android 16 (QPR2) Rksu 3.0.0 - legacy
 01 February 2026  - Android 16 (QPR2) Rksu 3.0.0 - legacy
 26 January 2026   - Android 16 (QPR2) Rksu 3.0.0 - legacy
 02 January 2026   - Android 16 (QPR0) Ksu 0.9.5
@@ -28,4 +29,3 @@ Device Trees
 -------------
 https://github.com/nullpointer1101
 https://github.com/Xiaomi-Pad6
-
