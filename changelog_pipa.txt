@@ -9,6 +9,7 @@ https://t.me/the_usual_suspects_777
 
 Official Builds
 ----------------
+19 February 2026  - Android 16 (QPR2) Rksu 3.0.0 - legacy
 16 February 2026  - Android 16 (QPR2) Rksu 3.0.0 - legacy
 01 February 2026  - Android 16 (QPR2) Rksu 3.0.0 - legacy
 26 January 2026   - Android 16 (QPR2) Rksu 3.0.0 - legacy
