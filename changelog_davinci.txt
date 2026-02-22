@@ -1,8 +1,3 @@
-Rom changelog:
-- Merged QPR2
-- Updated security patch into febuary 2026
-
-Device Changelog:
-- Update kernel bpf backport into 5.10
-- Update vendor spl and unpinned blobs from 1.0.33 sweet_k6a release
-
+Changelog:
+- Synced derp sources
+- Fixed xiaomidoze layout bugs
