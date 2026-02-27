@@ -1,10 +1,12 @@
 DerpFest v16.2 | OFFICIAL
 By ~ @0mar99
-Build Date: 02-14-2026
+Build Date: 02-27-2026
 Device: OnePlus Ace 5 [giuliac]
 
 Device:
-- Imported vibration effects from OOS
-- Switched back to Oplus doze
-- Added alert slider animations
-- Dropped Accord and backup tool prebuilts
+- Fixed touchscreen gestures
+- Fixed audio issues with wired headphones
+- Fixed cut off recovery UI
+- Added HDR brightness settings to display config
+- Updated auto brightness configs
+- Switched to Sony dolby blobs in favor of ac4 decoders
