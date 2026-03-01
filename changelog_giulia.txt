@@ -1,6 +1,6 @@
 DerpFest v16.2 | OFFICIAL
 By ~ @0mar99
-Build Date: 02-27-2026
+Build Date: 03-01-2026 [Hotfix]
 Device: OnePlus 13R [giulia]
 
 Device:
@@ -10,3 +10,5 @@ Device:
 - Added HDR brightness settings to display config
 - Updated auto brightness configs
 - Switched to Sony dolby blobs in favor of ac4 decoders
+* Fixed delay with entering password after rebooting. This also fixes issues with signing in to Reddit and possibly other apps (credits to @binbin323)
+* Fixed Dolby AC4 codecs not loading properly
