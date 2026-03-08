@@ -1,3 +1,11 @@
-Changelog:
-- Synced derp sources
-- Fixed xiaomidoze layout bugs
+Device Changelog:
+- Updated dolby atmos blobs
+- Fixed google photos crashing while using magic eraser
+- Fixed misaligned udfps animations
+
+Source Changelog:
+- March security patch merged
+- Fixed some bugs
+- Added applock
+- Added few extra udfps icons
+- Maybe more
