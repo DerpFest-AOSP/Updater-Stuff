@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1766383308,
-      "filename": "DerpFest-v16.0-20251222-comet-Official-Stable.zip",
-      "id": "0bf1af5cfef6e86cb51936df624ca634fd841f4defd69bfc07db6f9625ab9556",
+      "datetime": 1773413783,
+      "filename": "DerpFest-v16.2-20260313-comet-Official-Beta.zip",
+      "id": "a06fb891e45f3bbe8839ff1799deab668a1b6c5b6fae5406f0acd6ae68f58df8",
       "romtype": "Official",
-      "size": 2513632957,
-      "url": "https://sourceforge.net/projects/derpfest/files/comet/DerpFest-v16.0-20251222-comet-Official-Stable.zip/download",
-      "version": "v16.0"
+      "size": 2540256550,
+      "url": "https://sourceforge.net/projects/derpfest/files/comet/DerpFest-v16.2-20260313-comet-Official-Beta.zip/download",
+      "version": "v16.2"
     }
   ]
 }
