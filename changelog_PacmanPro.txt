@@ -1,0 +1,3 @@
+Device Changes:
+# March 15th 2026 Update:
+- Initial release, support for Nothing Phone (2a) / (2a) Plus [Pacman / PacmanPro]
