@@ -1,9 +1,0 @@
-Device Changelog
-
-June Update
-
-Drop adreno blobs from bangkk
-update blobs from devon
-Moved to Libperegr Update WFD blobs to U
-Fixed logs in qs and homescreen with blur
-Shipping Non ksu varlent of electro kernel

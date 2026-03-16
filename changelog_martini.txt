@@ -1,7 +1,0 @@
-# Source
-- July Security Patch merged
-- Fixup doze on charge switch
-
-# Device
-- Switched and updated audio hal to 7.1
-- Enabled spatial audio, all thanks to inferno

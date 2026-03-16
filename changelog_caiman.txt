@@ -1,2 +1,0 @@
-🦉 ROM changes:
-- Initial A16 release

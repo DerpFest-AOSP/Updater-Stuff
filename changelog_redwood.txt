@@ -1,6 +1,0 @@
-Device Changelog
-
-- Updated to August Patch
-- Added Leica Camera
-- Kernel Upstreamed to .280
-- Updated Firmware

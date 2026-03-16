@@ -1,6 +1,0 @@
-Changelog 10/11/2025
-
-- November Security Patch
-- Lineage Upstream 
-- added BCR
-- removed many Google Apps for better choice

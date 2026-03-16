@@ -1,8 +1,0 @@
-For DerpFest ( renoir )
- |- Sync latest source code && upstream latest Kernel SU
- |- Update display and adreno blobs from CLO
- |- Disable Vulkan UI renderer
- |- Fix tiktok flick
- |- Fix screen recorder && camera recorder
- |- Label more power HAL related denieds
- |- Minor powerhal tweaks

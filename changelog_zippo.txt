@@ -1,4 +1,0 @@
-Changelog 14/11/2025
-
-- November Security Patch
-- Lineage Upstream 

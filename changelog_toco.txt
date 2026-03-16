@@ -1,5 +1,0 @@
-Device Changes:
-- Initial Android 16 build
-
-DerpFest Source Changes:
-- Android 16 November SPL

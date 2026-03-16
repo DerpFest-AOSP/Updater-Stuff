@@ -1,6 +1,0 @@
-- Source upstream for March
-
-May 5th Update
-- Enabled Dolby by default with Profil 8
-- Minor fix in SamsungParts (d2tw toggle)
-- Kernel: upstream from linux 4.4 extra patches staging repo (R11.5)

@@ -1,3 +1,0 @@
--* merged october security update
--* added phase offset
--* fixed call volume bug

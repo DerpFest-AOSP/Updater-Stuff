@@ -1,5 +1,0 @@
-=================
--     INFO      -
-=================
-
-Initial build with OTA support !

@@ -1,2 +1,0 @@
--* merged october security update
--* fixed call volume bug
