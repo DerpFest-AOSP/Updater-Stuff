@@ -1076,9 +1076,9 @@
       "codename": "violet",
       "device_name": "Redmi Note 7 Pro",
       "oem": "Xiaomi",
-      "maintainer": "Selfmuser (@selfmuser)",
-      "support_group": null,
-      "status": "Discontinued"
+      "maintainer": "Selfmuser",
+      "support_group": "https://t.me/derp_violet",
+      "status": "Active"
     },
     {
       "codename": "waffle",
