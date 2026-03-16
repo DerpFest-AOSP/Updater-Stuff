@@ -1,12 +1,47 @@
-DerpFest 16.0 STABLE | OFFICIAL
-Build Date : 12-10-2025 
+DerpFest 16.2 BETA | OFFICIAL
+Build Date : 16-03-2026
 Device : Redmi Note 7 Pro [ violet ]
 By ~ @selfmuser
 
+---CLEAN FLASH RECOMMENDED, IF USING DECEMBER OR JANUARY BUILDS---
+
 Rom Changes : 
-[ 12-10-2025 ]
-- Merge October Security Patch
-- Fingerprint: Update to the latest A16 beta BP41.250822.010
+[ 16-03-2026 ]
+- Welcome to A16 QPR2 😈🔥
+- Merge March 2026 security patches (android-security-16.0.0_r4)
+- App locker is back
+- Added New sysui icon packs
+- Gradient settings for qs panel and status bar
+- Improved ongoing notification panel
+- Sidebar and Floating windows
+- New settings for lockscreen & fingerprint vibration
+- Background chip for clock
+- Add combined notification count feature
+- Show Chinese lunar calendar in QS
+- Add gradient qs tiles switch
+- Add gradient brightness slider switch
+- PropImitationHooks: Allow per App Pixel-spoofing
+- StatusbarTuner: Convert for Material3 Expressive support
+- DerpFestCustomizations: Statusbar/Buttons: Convert for Material3 Expressive support
+- Fix navbar button inversion feature
+- OnGoingActionProgressController: Fix stuck progress bar after upload/download completion
+- DerpLauncher: Add wallpaper pop-up carousel
+- DerpLauncher: RecentsView: Abort scroller when cancelling pending animation
+- DerpLauncher: update icons on dynamic color changes
+- DerpLauncher: Add wallpaper pop-up carousel
+- Add Gradicon, Lorn and Plumpy icon support
+- DerpFestCustomizations: Update Pulse settings to include navigation bar visualizer
+- DerpFestCustomizations: Add About section with team and project information
+- DerpFestCustomizations: Add a name fitting easter egg ;)
+- DerpFestCustomizations: Add neon glow pulse style
+- DerpFestCustomizations: Add new tile and brightness slider shape options
+- DerpFestCustomizations: Show Chinese lunar calendar in QS 
+- DerpFestCustomizations: Remove unused brightness slider shape options
+- DerpFestCustomizations: Add gradient tile background option to Quick Settings
+- SystemUI: Add navbar button inversion feature
+- SystemUI: Add accent color tinting support to combined counter
+- SystemUI: Add combined notification count feature
+- KeyboxImitationHooks: A lot of things improved, now it verifies correct boot hash value from system properties
 - Add spoofing section on DerpCustomisations
 - DerpCustomisations; Unlimited Photos Storage toggle, Keybox Attestation override toggle
 - Add transparency level adjustment settings for notifications and headups
@@ -14,7 +49,6 @@ Rom Changes :
 - Add customized headups notifications settings 
 - Show notifications ticker-style in status bar
 - Add new actions on Edge long swipe settings 
-- Add Ambient AOD toggle
 - Bring Back Media cover art
 - Fix Extreme Battery saver settings preference
 - Allow to set ambient notification timeout
@@ -22,44 +56,14 @@ Rom Changes :
 - Add GoogleSans Flex fonts
 - Add Roboto Flex fonts
 - Add hide developer status settings
-- Add tint status bar icons to system accent color toggle
 - DerpLauncher: update icons on dynamic color changes
 - DerpLauncher: Handle missing corner radius resource gracefully
-- DerpLauncher: SysUiScrim: fix memory leak
-- DerpLauncher: Add QuickSpace accent tint feature
-- Bring Back GestureAnywhere settings
-- Enable Tiny Taskbar settings
 - Allow to change system-wide blur intensity
-- Add QS panel layout settings
-- Add QS tile shape mode
 - Add Data usage in QS Panel
-- audio: Import Android 16 QPR1 Beta sounds
-- core: PackageManager: Allow installation with partial ABI support
 - Screenrecord: Fix notifications not being dismissed after deleting 
 - SystemUI: Screenrecord: Add delete action to the notification
 - Add toggle for Media-respect halving
-- DerpLauncher: Update hotseat searchbar to Android 16 QPR1 Pixel Launcher design
-- DerpLauncher: Add option to force all apps on bottom sheet
-- DerpLauncher: Allow to tweak blur radius on all apps
-- Derplauncher: Add independent gesture settings page
-- DerpLauncher: Fix app hide toggle not working 
-- DerpLauncher: Allow to change QSB outer shape's transparency
-- DerpLauncher: Optional music search toggle for QSB
-- DerpLauncher: Add 6*7 & 4*6 app grids
-- DerpLauncher: Rework all apps search bar
-- DerpLauncher: Add app protection check when launching from recents and taskbar
-- Add more settings for brightness slider
-- Add auto brightness toggle
-- Allow editing footer icons in QS Panel
-- Add toggles to adjust QS tile shapes
-- Add data usage in QS panel
-- Fix ANR caused by DrawableFactory init blocking model executor on DerpLauncher
-- Cancel ongoing animations before entering allapps on DerpLauncher
-- Initial Android 16 build
 - New Material Expressive UI
-- Local implementation to import keybox.xml and pif.json
-- Island notifications
-- QS header customizations
 - Launcher icon packs
 - Volume dialogue timeout slider
 - Pulse for navbar/ambient
@@ -69,11 +73,22 @@ Rom Changes :
 - A lot of other changes as well , can't list everything.. ( Flash ROM & Find Out !! ) 
 
 Device Changes :
-- Upstream kernel with 4.14.356+8-perf brickports
-- Merge BPF commits for A16
-- Finally STABLE MEMECAM ( Thanks to Joker sir <3 :)
-- Bump kernel BPF version override to 5.4.299
-- Enable ambient AOD
+- Shift to Xcalibur kernel ( Thanks to @Joker-V2 )
+- Update to Lunaris-Dolby UI
+- Dropped Memecam, Usinv Aperture from now on
+- Dropped BCR for security reasons
+- Bump kernel BPF version override to 5.10.247
+- Moved Carrierconfig to RRO
+- parts: convert for M3E support
+- Disable high performance transitions
+- Update work durations from taro
+- Patch some blobs to depend on libtinyxml2-v34.so
+- Enable USB and skin temperature warnings
+- Drop debug.sf.disable_client_composition_cache
+- Remove obsolete debug.sf.disable_backpressure
+- Enable smooth motion property 
+- Apply dex2oat optimizations
+- Revert "violet: keylayout: Remap FP keycode to WAKEUP" ( Fixes Fingerprint shutter )
 - power: Boost GPU when EXPENSIVE_RENDERING hints are parsed
 - powerhint: Drop unused GPUBusMinFreq node
 - Build DSPVolumeSynchronizer
@@ -87,8 +102,7 @@ Device Changes :
 - Fix issues with IR sensor
 - Fixed bootloop due to MTP
 - Enabled UFFD GC (https://www.kernel.org/doc/html/next/admin-guide/mm/userfaultfd.html)
-- Update BCR v1.79
-- Enable blurs ( You can disable it from display settings )
+- Enable blurs ( You can disable it from accessibility settings )
 - Remove deprecated config_mobile_tcp_buffers/networkAttributes
 - Avoid access of deprecated LocUnorderedSetMap entry
 
@@ -97,4 +111,5 @@ NOTE : Make sure to join DerpFest Violet chat instead of spamming your skill iss
 
 # Thank you so much to everyone who always supported me and my work 🫶
 
+• Thank you very much @adi8900 for making this update possible 🫡❤️‍🔥
 • Special thanks to @Joker-V2 for everything 😎🔥
