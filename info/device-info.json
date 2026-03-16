@@ -723,10 +723,10 @@
     {
       "codename": "pipa",
       "device_name": "Xiaomi Pad 6",
-      "oem": "",
-      "maintainer": "",
-      "support_group": null,
-      "status": "Discontinued"
+      "oem": "Xiaomi",
+      "maintainer": "nullpointer1101",
+      "support_group": "https://t.me/the_usual_suspects_777",
+      "status": "Active"
     },
     {
       "codename": "platina",
