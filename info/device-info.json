@@ -4,7 +4,7 @@
       "codename": "a10",
       "device_name": "Samsung Galaxy A10",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "AlexandruSemina(semialex16)",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -12,7 +12,7 @@
       "codename": "a20",
       "device_name": "Samsung Galaxy A20",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "AlexandruSemina(semialex16)",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -20,7 +20,7 @@
       "codename": "a20e",
       "device_name": "Samsung Galaxy A20e",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "AlexandruSemina(semialex16)",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -28,7 +28,7 @@
       "codename": "a30",
       "device_name": "Samsung Galaxy A30",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "AlexandruSemina(semialex16)",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -36,7 +36,7 @@
       "codename": "a40",
       "device_name": "Samsung Galaxy A40",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "AlexandruSemina(semialex16)",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -44,7 +44,7 @@
       "codename": "a505fn",
       "device_name": "Samsung Galaxy A50",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "A50-Victor",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -60,7 +60,7 @@
       "codename": "a71",
       "device_name": "Samsung Galaxy A71",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "DaViDev (@davidev985)",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -78,21 +78,21 @@
       "oem": "Google",
       "maintainer": "Adrian Szymański (@Adi20_01)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "alioth",
       "device_name": "POCO F3 / Redmi K40 / Xiaomi MI 11X",
-      "oem": "Xiaomi",
-      "maintainer": "",
+      "oem": "POCO/Redmi/Xiaomi",
+      "maintainer": "prique",
       "support_group": null,
       "status": "Discontinued"
     },
     {
       "codename": "apollo",
       "device_name": "Xiaomi Mi 10T / Xiaomi MI 10T Pro / Redmi K30S Ultra",
-      "oem": "Xiaomi",
-      "maintainer": "",
+      "oem": "Xiaomi/Redmi",
+      "maintainer": "goodmeow",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -100,7 +100,7 @@
       "codename": "aston",
       "device_name": "OnePlus 12R / OnePlus Ace 3 5G",
       "oem": "OnePlus",
-      "maintainer": "",
+      "maintainer": "LucasBlackLu",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -110,7 +110,7 @@
       "oem": "OnePlus",
       "maintainer": "Aman Singh (@iamansingh)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "beckham",
@@ -156,7 +156,7 @@
       "codename": "beyondx",
       "device_name": "Samsung Galaxy S10 5G",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "Mgm2023",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -180,7 +180,7 @@
       "codename": "bramble",
       "device_name": "Google Pixel 4a 5G",
       "oem": "Google",
-      "maintainer": "",
+      "maintainer": "Black Lu (@BlackLu_Me)",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -188,7 +188,7 @@
       "codename": "caiman",
       "device_name": "Google Pixel 9 Pro",
       "oem": "Google",
-      "maintainer": "",
+      "maintainer": "NurKeinNeid",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -196,7 +196,7 @@
       "codename": "cheeseburger",
       "device_name": "OnePlus 5",
       "oem": "OnePlus",
-      "maintainer": "",
+      "maintainer": "NurKeinNeid",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -206,13 +206,13 @@
       "oem": "Google",
       "maintainer": "Sean Dabes (@seandabes)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "citrus",
       "device_name": "POCO M3 / Redmi 9T / Redmi 9 Power",
-      "oem": "Xiaomi",
-      "maintainer": "",
+      "oem": "POCO/Redmi",
+      "maintainer": "hac4us06",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -222,7 +222,7 @@
       "oem": "Google",
       "maintainer": "Cody Smith",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "coral",
@@ -236,15 +236,15 @@
       "codename": "corvette",
       "device_name": "OnePlus Nord 2T",
       "oem": "OnePlus",
-      "maintainer": "",
+      "maintainer": "LucasBlackLu",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "crownlte",
       "device_name": "Samsung Galaxy Note 9",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "Cyderxxv",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -254,13 +254,13 @@
       "oem": "Xiaomi",
       "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "d1",
       "device_name": "Samsung Galaxy S8",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "Mgm2023",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -268,7 +268,7 @@
       "codename": "d2s",
       "device_name": "Samsung Galaxy S9",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "Mgm2023",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -276,7 +276,7 @@
       "codename": "d2x",
       "device_name": "Samsung Galaxy S9+",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "Mgm2023",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -284,39 +284,39 @@
       "codename": "daisy",
       "device_name": "Xiaomi Mi A2 Lite",
       "oem": "Xiaomi",
-      "maintainer": "",
+      "maintainer": "ZunayedDihan",
       "support_group": null,
       "status": "Discontinued"
     },
     {
       "codename": "davinci",
       "device_name": "Xiaomi Mi 9T / Redmi K20",
-      "oem": "Xiaomi",
+      "oem": "Xiaomi/Redmi",
       "maintainer": "Adrian Szymański (@Adi20_01)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "devon",
       "device_name": "Motorola Moto G32",
       "oem": "Motorola",
-      "maintainer": "",
+      "maintainer": "FPSensor",
       "support_group": null,
       "status": "Discontinued"
     },
     {
       "codename": "diting",
       "device_name": "Xiaomi 12T Pro / Redmi K50 Ultra",
-      "oem": "Xiaomi",
+      "oem": "Xiaomi/Redmi",
       "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "dodge",
       "device_name": "OnePlus 13",
       "oem": "OnePlus",
-      "maintainer": "",
+      "maintainer": "Einar Gednochsson (@kanstmablason)",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -324,7 +324,7 @@
       "codename": "dream2lte",
       "device_name": "Samsung Galaxy S8+",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "n0201",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -332,7 +332,7 @@
       "codename": "dreamlte",
       "device_name": "Samsung Galaxy S8",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "n0201",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -350,7 +350,7 @@
       "oem": "OnePlus",
       "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "evert",
@@ -366,7 +366,7 @@
       "oem": "OnePlus",
       "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "flame",
@@ -379,15 +379,15 @@
     {
       "codename": "fleur",
       "device_name": "Redmi Note 11S / POCO M4 Pro 4G",
-      "oem": "Xiaomi",
-      "maintainer": "",
+      "oem": "Redmi/POCO",
+      "maintainer": "shazu-xd",
       "support_group": null,
       "status": "Discontinued"
     },
     {
       "codename": "garnet",
       "device_name": "Redmi Note 13 Pro 5G / POCO X6 5G",
-      "oem": "Xiaomi",
+      "oem": "Redmi/POCO",
       "maintainer": "UnmoveD (@unmoved21)",
       "support_group": null,
       "status": "Discontinued"
@@ -395,16 +395,16 @@
     {
       "codename": "gauguin",
       "device_name": "Xiaomi Mi 10T Lite / Redmi Note 9 Pro 5G",
-      "oem": "Xiaomi",
-      "maintainer": "",
+      "oem": "Xiaomi/Redmi",
+      "maintainer": "Zabuka_zuzu",
       "support_group": null,
       "status": "Discontinued"
     },
     {
       "codename": "ginkgo",
       "device_name": "Redmi Note 8 / Redmi Note 8T",
-      "oem": "Xiaomi",
-      "maintainer": "",
+      "oem": "Redmi",
+      "maintainer": "Endi Priyatna",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -412,23 +412,23 @@
       "codename": "giulia",
       "device_name": "OnePlus 13R",
       "oem": "OnePlus",
-      "maintainer": "",
+      "maintainer": "0mar99",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "giuliac",
       "device_name": "OnePlus Ace 5",
       "oem": "OnePlus",
-      "maintainer": "",
+      "maintainer": "0mar99",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "greatlte",
       "device_name": "Samsung Galaxy Note 8",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "n0201",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -436,7 +436,7 @@
       "codename": "gsi_gapps",
       "device_name": "GSI Gapps",
       "oem": "GSI",
-      "maintainer": "",
+      "maintainer": "Doze-off",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -444,7 +444,7 @@
       "codename": "gsi_vanilla",
       "device_name": "GSI Vanilla",
       "oem": "GSI",
-      "maintainer": "",
+      "maintainer": "SheoranPranshu",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -454,7 +454,7 @@
       "oem": "Samsung",
       "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "gta4xlveu",
@@ -470,7 +470,7 @@
       "oem": "Samsung",
       "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "guacamole",
@@ -478,21 +478,21 @@
       "oem": "OnePlus",
       "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "guacamoleb",
       "device_name": "OnePlus 7",
       "oem": "OnePlus",
-      "maintainer": "",
+      "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "hawao",
       "device_name": "Motorola Moto G (2022) / Motorola G Power (2022)",
       "oem": "Motorola",
-      "maintainer": "",
+      "maintainer": "FPSensor",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -502,7 +502,7 @@
       "oem": "OnePlus",
       "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "hotdogb",
@@ -510,7 +510,7 @@
       "oem": "OnePlus",
       "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "husky",
@@ -518,7 +518,7 @@
       "oem": "Google",
       "maintainer": "Adrian Szymański (@Adi20_01)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "instantnoodle",
@@ -526,7 +526,7 @@
       "oem": "OnePlus",
       "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "instantnoodlep",
@@ -534,7 +534,7 @@
       "oem": "OnePlus",
       "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "jasmine_sprout",
@@ -579,8 +579,8 @@
     {
       "codename": "lancelot",
       "device_name": "Redmi 9 / Redmi 9 Prime",
-      "oem": "Xiaomi",
-      "maintainer": "",
+      "oem": "Redmi",
+      "maintainer": "Orkun Ergün",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -588,7 +588,7 @@
       "codename": "lavender",
       "device_name": "Redmi Note 7",
       "oem": "Xiaomi",
-      "maintainer": "",
+      "maintainer": "Mizushudesuyo",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -596,7 +596,7 @@
       "codename": "lemonade",
       "device_name": "OnePlus 9",
       "oem": "OnePlus",
-      "maintainer": "",
+      "maintainer": "karthik990",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -604,7 +604,7 @@
       "codename": "lemonadep",
       "device_name": "OnePlus 9 Pro",
       "oem": "OnePlus",
-      "maintainer": "",
+      "maintainer": "karthik990",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -612,7 +612,7 @@
       "codename": "lemonades",
       "device_name": "OnePlus 9R",
       "oem": "OnePlus",
-      "maintainer": "",
+      "maintainer": "Devang Chaudhary",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -620,22 +620,22 @@
       "codename": "lemonkebab",
       "device_name": "OnePlus 8T",
       "oem": "OnePlus",
-      "maintainer": "",
+      "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "lexus",
       "device_name": "OnePlus Nord 5",
       "oem": "OnePlus",
-      "maintainer": "",
+      "maintainer": "Yaznas",
       "support_group": null,
       "status": "Discontinued"
     },
     {
       "codename": "lime",
       "device_name": "Redmi 9T / Redmi Note 9 4G / POCO M3",
-      "oem": "Xiaomi",
+      "oem": "Redmi/POCO",
       "maintainer": "Ash (@hac4us)",
       "support_group": null,
       "status": "Discontinued"
@@ -644,7 +644,7 @@
       "codename": "lunaa",
       "device_name": "Motorola Moto G9 / Motorola G9 Play",
       "oem": "Motorola",
-      "maintainer": "",
+      "maintainer": "Bunny",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -654,12 +654,12 @@
       "oem": "Google",
       "maintainer": "Sean Dabes (@seandabes)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "marble",
       "device_name": "POCO F5 / Redmi Note 12 Turbo",
-      "oem": "Xiaomi",
+      "oem": "POCO/Redmi",
       "maintainer": "Samba Siva Rao K (@kssrao13882)",
       "support_group": null,
       "status": "Discontinued"
@@ -668,22 +668,22 @@
       "codename": "martini",
       "device_name": "OnePlus Nord 2 5G",
       "oem": "OnePlus",
-      "maintainer": "",
+      "maintainer": "anuragbhaumik",
       "support_group": null,
       "status": "Discontinued"
     },
     {
       "codename": "merlinx",
       "device_name": "Redmi Note 9 (Global) / Redmi 10X 4G",
-      "oem": "Xiaomi",
-      "maintainer": "",
+      "oem": "Redmi",
+      "maintainer": "nadinsylaa",
       "support_group": null,
       "status": "Discontinued"
     },
     {
       "codename": "miatoll",
       "device_name": "Redmi Note 9S & Pro & Pro Max / POCO M2 Pro",
-      "oem": "Xiaomi",
+      "oem": "Redmi/POCO",
       "maintainer": "Arpon Sarkar (@FireFly09)",
       "support_group": null,
       "status": "Discontinued"
@@ -691,7 +691,7 @@
     {
       "codename": "mondorian",
       "device_name": "Xiaomi Poco F5 Pro / Redmi K60",
-      "oem": "Xiaomi",
+      "oem": "Xiaomi/Redmi",
       "maintainer": "Carlos 'Klozz' Jesus (@TeamMEX_XDA)",
       "support_group": null,
       "status": "Discontinued"
@@ -710,13 +710,13 @@
       "oem": "Xiaomi",
       "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "nio",
       "device_name": "Motorola Edge S / Motorola Moto G100",
       "oem": "Motorola",
-      "maintainer": "",
+      "maintainer": "Vulkan (@vullk4n)",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -732,7 +732,7 @@
       "codename": "olivewood",
       "device_name": "Redmi 8A Dual",
       "oem": "Xiaomi",
-      "maintainer": "",
+      "maintainer": "shield44",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -740,7 +740,7 @@
       "codename": "onclite",
       "device_name": "Redmi 7",
       "oem": "Xiaomi",
-      "maintainer": "",
+      "maintainer": "mrun1corn",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -748,9 +748,9 @@
       "codename": "onyx",
       "device_name": "Poco F7",
       "oem": "Xiaomi",
-      "maintainer": "",
+      "maintainer": "chuspita",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "oriole",
@@ -764,17 +764,17 @@
       "codename": "Pacman",
       "device_name": "Nothing Phone (2a)",
       "oem": "Nothing",
-      "maintainer": "EdwardWu (@edwardwu0223)",
+      "maintainer": "EdwardWu",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "PacmanPro",
       "device_name": "Nothing Phone (2a) Plus",
       "oem": "Nothing",
-      "maintainer": "EdwardWu (@edwardwu0223)",
+      "maintainer": "EdwardWu",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "panther",
@@ -782,13 +782,13 @@
       "oem": "Google",
       "maintainer": "Sean Dabes (@seandabes)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "phoenix",
       "device_name": "POCO X2 / Redmi K30",
-      "oem": "Xiaomi",
-      "maintainer": "",
+      "oem": "POCO/Redmi",
+      "maintainer": "FireFly009",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -796,7 +796,7 @@
       "codename": "phone1",
       "device_name": "Unknown",
       "oem": "",
-      "maintainer": "",
+      "maintainer": "dhrvesh16",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -804,7 +804,7 @@
       "codename": "picasso",
       "device_name": "Redmi K30 5G",
       "oem": "Xiaomi",
-      "maintainer": "",
+      "maintainer": "EndCredits",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -820,7 +820,7 @@
       "codename": "platina",
       "device_name": "Xiaomi Mi 8 Lite",
       "oem": "Xiaomi",
-      "maintainer": "",
+      "maintainer": "Hanif Ardhani",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -843,7 +843,7 @@
     {
       "codename": "raphael",
       "device_name": "Redmi K20 Pro / Xiaomi Mi 9T Pro",
-      "oem": "Xiaomi",
+      "oem": "Redmi/Xiaomi",
       "maintainer": "Arghaya Mondal (@ergdev)",
       "support_group": null,
       "status": "Discontinued"
@@ -867,7 +867,7 @@
     {
       "codename": "redwood",
       "device_name": "POCO X5 Pro / Redmi Note 12 Pro",
-      "oem": "Xiaomi",
+      "oem": "POCO/Redmi",
       "maintainer": "Joboy Jhem Francisco (@mofieee)",
       "support_group": null,
       "status": "Discontinued"
@@ -884,7 +884,7 @@
       "codename": "rhode",
       "device_name": "Motorola Moto G52 & G42 & G82",
       "oem": "Motorola",
-      "maintainer": "",
+      "maintainer": "FPSensor",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -916,7 +916,7 @@
       "codename": "RMX2061",
       "device_name": "Realme 6",
       "oem": "Realme",
-      "maintainer": "MeowDroider (@MuhammadIJC)",
+      "maintainer": "pri0818",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -924,7 +924,7 @@
       "codename": "RMX2170",
       "device_name": "Realme 7 Pro",
       "oem": "Realme",
-      "maintainer": "MeowDroider (@MuhammadIJC)",
+      "maintainer": "Mayur",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -940,7 +940,7 @@
       "codename": "sakura",
       "device_name": "Redmi 6 Pro",
       "oem": "Xiaomi",
-      "maintainer": "",
+      "maintainer": "FrosT2k5",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -950,12 +950,12 @@
       "oem": "Google",
       "maintainer": "Adrian Szymański (@Adi20_01)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "sky",
       "device_name": "POCO M6 Pro 5G / Redmi Note 12R / Redmi 12 5G",
-      "oem": "Xiaomi",
+      "oem": "POCO/Redmi",
       "maintainer": "Allan D'Souza (@alanpdk)",
       "support_group": null,
       "status": "Discontinued"
@@ -980,7 +980,7 @@
       "codename": "spes",
       "device_name": "Redmi Note 11",
       "oem": "Xiaomi",
-      "maintainer": "",
+      "maintainer": "Joboy Jhem Francisco (@mofieee)",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -988,7 +988,7 @@
       "codename": "star2lte",
       "device_name": "Samsung Galaxy S9+",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "Cyderxxv",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -996,14 +996,14 @@
       "codename": "starlte",
       "device_name": "Samsung Galaxy S9",
       "oem": "Samsung",
-      "maintainer": "",
+      "maintainer": "Cyderxxv",
       "support_group": null,
       "status": "Discontinued"
     },
     {
       "codename": "stone",
       "device_name": "Xiaomi Poco X5 5G / Redmi Note 12 5G / Redmi Note 12R Pro",
-      "oem": "Xiaomi",
+      "oem": "Xiaomi/Redmi",
       "maintainer": "REDGROUL (@REDGROULMAN)",
       "support_group": null,
       "status": "Discontinued"
@@ -1044,7 +1044,7 @@
       "codename": "tokay",
       "device_name": "Google Pixel 9",
       "oem": "Google",
-      "maintainer": "",
+      "maintainer": "NurKeinNeid",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -1059,8 +1059,8 @@
     {
       "codename": "veux",
       "device_name": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G / Redmi Note 11 Pro+ 5G (India) / Redmi Note 11e Pro (China)",
-      "oem": "Xiaomi",
-      "maintainer": "",
+      "oem": "Redmi/POCO",
+      "maintainer": "alexandrusemina",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -1070,7 +1070,7 @@
       "oem": "Xiaomi",
       "maintainer": "Omar Aguilar (@Omar99A)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "violet",
@@ -1086,7 +1086,7 @@
       "oem": "OnePlus",
       "maintainer": "P. A. N. Z. (@jakobBokaj1)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "whyred",
@@ -1100,7 +1100,7 @@
       "codename": "X00TD",
       "device_name": "Asus Zenfone Max Pro M1",
       "oem": "Asus",
-      "maintainer": "",
+      "maintainer": "RONIN",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -1108,7 +1108,7 @@
       "codename": "X01BD",
       "device_name": "Asus Zenfone Max Pro M2",
       "oem": "Asus",
-      "maintainer": "",
+      "maintainer": "Luckvoltia",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -1123,8 +1123,8 @@
     {
       "codename": "ysl",
       "device_name": "Redmi S2 / Redmi Y2",
-      "oem": "Xiaomi",
-      "maintainer": "",
+      "oem": "Redmi",
+      "maintainer": "DhruvChhura",
       "support_group": null,
       "status": "Discontinued"
     },
@@ -1132,7 +1132,7 @@
       "codename": "Z01R",
       "device_name": "Asus Zenfone 5Z",
       "oem": "Asus",
-      "maintainer": "",
+      "maintainer": "Yograj Singh (@yograjfire18)",
       "support_group": null,
       "status": "Discontinued"
     },
