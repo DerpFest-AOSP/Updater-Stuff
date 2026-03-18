@@ -764,7 +764,7 @@
       "codename": "Pacman",
       "device_name": "Nothing Phone (2a)",
       "oem": "Nothing",
-      "maintainer": "EdwardWu",
+      "maintainer": "EdwardWu (@edwardwu0223)",
       "support_group": null,
       "status": "Active"
     },
@@ -772,7 +772,7 @@
       "codename": "PacmanPro",
       "device_name": "Nothing Phone (2a) Plus",
       "oem": "Nothing",
-      "maintainer": "EdwardWu",
+      "maintainer": "EdwardWu (@edwardwu0223)",
       "support_group": null,
       "status": "Active"
     },
