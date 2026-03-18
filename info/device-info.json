@@ -412,16 +412,16 @@
       "codename": "giulia",
       "device_name": "OnePlus 13R",
       "oem": "OnePlus",
-      "maintainer": "0mar99",
-      "support_group": null,
+      "maintainer": "Omar Aguilar (@Omar99A)",
+      "support_group": "https://t.me/Derp13R",
       "status": "Active"
     },
     {
       "codename": "giuliac",
       "device_name": "OnePlus Ace 5",
       "oem": "OnePlus",
-      "maintainer": "0mar99",
-      "support_group": null,
+      "maintainer": "Omar Aguilar (@Omar99A)",
+      "support_group": "https://t.me/Derp13R",
       "status": "Active"
     },
     {
@@ -1069,7 +1069,7 @@
       "device_name": "Xiaomi 11T Pro",
       "oem": "Xiaomi",
       "maintainer": "Omar Aguilar (@Omar99A)",
-      "support_group": null,
+      "support_group": "https://t.me/ViliSupport",
       "status": "Active"
     },
     {
