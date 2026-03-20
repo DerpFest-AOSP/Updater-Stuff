@@ -1,13 +1,12 @@
 DerpFest v16.2 | OFFICIAL
 By ~ @0mar99
-Build Date: 03-05-2026
+Build Date: 03-20-2026
 Device: Xiaomi 11T Pro [vili]
 
 Source:
+- March security patch
 
 Device:
-- Enabled Dolby AC4 decoder
 
 Kernel:
 * KSU Next and susfs are supported by default
-- Updated KSU-Next to V3.1.0
