@@ -1,8 +1,8 @@
 Rom changelog:
-- Merged QPR2
-- Updated security patch into febuary 2026
+- Updated security patch into March 2026
+- Sync sources
 
 Device changelog:
-- Updated blobs, props and vendor security patch level from febuary stock
-- Enabled Screen off udfps
-
+- Update overlays from lineage and move them to rro
+- Add Viper4FX
+- Fixup debloat so targeted google apps are actually removed now
