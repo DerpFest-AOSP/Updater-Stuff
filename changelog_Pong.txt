@@ -1,4 +1,10 @@
 Device Changes:
+
+#March 26th 2026 Update:
+- Fix UDFPS animation vertical offset
+- Fix Glyph torch turning off shortly after screen turns off
+- Switch to LineageOS Kernel
+
 # October 19th 2025 Update:
 - Custom Call glyph pattern implementation
 - Add shake to toggle glyph torch
