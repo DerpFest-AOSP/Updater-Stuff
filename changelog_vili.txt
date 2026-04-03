@@ -1,12 +1,13 @@
 DerpFest v16.2 | OFFICIAL
 By ~ @0mar99
-Build Date: 03-20-2026
+Build Date: 04-03-2026
 Device: Xiaomi 11T Pro [vili]
 
 Source:
-- March security patch
 
 Device:
+- Updated GameBar
+- Switched to TouchServices for high touch sampling rate
 
 Kernel:
 * KSU Next and susfs are supported by default
