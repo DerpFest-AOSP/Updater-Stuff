@@ -1,11 +1,14 @@
 DerpFest v16.2 | OFFICIAL
 By ~ @0mar99
-Build Date: 03-21-2026
+Build Date: 04-03-2026
 Device: OnePlus 13R [giulia]
 
 Source:
 
 Device:
+- Added support for YAAP's vibrator profiles and effects (Settings > sound & vibrations > vibration & haptics)
+- Properly configured cpusets
+- Added back alert slider animations
+- Updated GameBar
 
 Kernel:
-- Added kernel support for high touch polling rate
