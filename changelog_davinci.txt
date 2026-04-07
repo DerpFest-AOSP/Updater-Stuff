@@ -1,11 +1,3 @@
-Device Changelog:
-- Updated dolby atmos blobs
-- Fixed google photos crashing while using magic eraser
-- Fixed misaligned udfps animations
-
-Source Changelog:
-- March security patch merged
-- Fixed some bugs
-- Added applock
-- Added few extra udfps icons
-- Maybe more
+Rom changelog:
+- Updated security patch into April 2026
+- Sync sources
