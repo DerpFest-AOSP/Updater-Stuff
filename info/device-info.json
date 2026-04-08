@@ -220,8 +220,16 @@
       "codename": "comet",
       "device_name": "Google Pixel 9 Pro Fold",
       "oem": "Google",
-      "maintainer": "Cody Smith",
+      "maintainer": "Unmaintained",
       "support_group": null,
+      "status": "Inactive"
+    },
+        {
+      "codename": "rango",
+      "device_name": "Google Pixel 10 Pro Fold",
+      "oem": "Google",
+      "maintainer": "Cody Smith",
+      "support_group": "https://t.me/+R2JofWfo_6RjODE7",
       "status": "Active"
     },
     {
