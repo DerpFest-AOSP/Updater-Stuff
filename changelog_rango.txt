@@ -2,3 +2,4 @@
 - Initial Rango release
 - QPR2
 - LOS device repos with few changes
+- Fixed build type (is now Official Stable)
