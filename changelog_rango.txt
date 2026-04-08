@@ -3,3 +3,6 @@
 - QPR2
 - LOS device repos with few changes
 - Fixed build type (is now Official Stable)
+
+04.08.26
+- Fix maintainer name in the system settings
