@@ -1,0 +1,4 @@
+04.07.26
+- Initial Rango release
+- QPR2
+- LOS device repos with few changes
