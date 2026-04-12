@@ -1,3 +1,9 @@
 Device Changes:
+# April 12th 2026 Update:
+- Update blobs from Pacman-B4.0-260225-1817 and PacmanPro-B4.0-260225-2039
+- Add NothingDirac
+- Update Kernel to 5.15.189 w/ latest kernel modules
+- Sync latest ROM changes, and Update to April 1st 2026 Security Patch
+
 # March 15th 2026 Update:
 - Initial release, support for Nothing Phone (2a) / (2a) Plus [Pacman / PacmanPro]
