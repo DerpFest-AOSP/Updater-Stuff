@@ -1,1 +1,5 @@
-- latest tweaks for android 16
+Device Changes:
+# April 19th 2026 Update:
+- Updates and minor fixes in device tree
+- Update Kernel to 4.19.325 w/ latest kernel modules
+- Sync latest ROM changes, and Update to April 2026 Security Patch
