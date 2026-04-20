@@ -23,6 +23,7 @@ Officially Released Builds
 --------------------------
 
 Android 16 - QPR2 (Rksu 3.0.0 - legacy)
+    19 April 2026
     18 March 2026
     19 February 2026
     16 February 2026
