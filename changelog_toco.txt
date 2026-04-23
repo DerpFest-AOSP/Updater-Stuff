@@ -1,5 +1,7 @@
 Device Changes:
-- Initial Android 16 build
+- Enabled LTE+ icon
+- Introduce Dolby Atmos
+- Introduced torch strength control
 
 DerpFest Source Changes:
-- Android 16 November SPL
+- Android 16.2 April SPL
