@@ -1,14 +1,19 @@
 DerpFest v16.2 | OFFICIAL
 By ~ @0mar99
-Build Date: 04-03-2026
+Build Date: 04-27-2026
 Device: OnePlus Ace 5 [giuliac]
 
 Source:
+- Synced with latest source
 
 Device:
-- Added support for YAAP's vibrator profiles and effects (Settings > sound & vibrations > vibration & haptics)
-- Properly configured cpusets
-- Added back alert slider animations
-- Updated GameBar
+- Updated blobs and firmware from OOS 16.0.5.701
+- Switched to Lineage power-libperfmgr
+- Powerhint: Added hint to disable cpu7 automatically in battery saver mode
+- Set dex2oat thread count and cpuset
+- dolby: Add per-device Dolby state memory
+- dolby: Add Traditional Chinese translations
+- dolby: Add Turkish translation
 
 Kernel:
+- Upstreamed the kernel to 6.1.166
