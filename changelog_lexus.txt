@@ -1,16 +1,19 @@
-Changelog:
+DerpFest 16.2 Stable OFFICIAL | Android 16
+Device: OnePlus Nord 5 (lexus)
+Security Patch: April 2026
+Date: 2026-04-27
 
-====================
-    04-08-2026
-====================
+INITIAL RELEASE
 
-Source:
-    - Initial DerpFest Android 16 QPR2 Release
+Release Notes:
+- Included KernelSU-Next v3.0.0
+- Partial Gapps debloat to save system storage
+- Included Viper4Android FX
+- Includes recently added features such as Dynamic Bar, app bubbles...
 
-
-====================
-    01-10-2026
-====================
-
-Source:
-    - Initial DerpFest Android 16 QPR0 Release
+Special thanks:
+- Yaznas and his defunct lexus (rest in edl)
+- grepfox (LineageOS maintainer) for the amazing trees
+- chandu for all of his work on OnePlus devices
+- The P. A. N. Z. Core Team, y'all are truly the best!
+by: @davidev985
