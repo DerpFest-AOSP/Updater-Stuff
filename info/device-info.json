@@ -726,7 +726,7 @@
       "oem": "Motorola",
       "maintainer": "Vulkan (@vullk4n)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "ocean",
@@ -846,7 +846,7 @@
       "oem": "Motorola",
       "maintainer": "Vulkan (@vullk4n)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "raphael",
