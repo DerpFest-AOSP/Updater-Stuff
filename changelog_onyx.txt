@@ -1,6 +1,39 @@
 DerpFest v16.2 | OFFICIAL
 By @franlop77
-Build Date: 02-15-2026
 Device: Poco F7 [Onyx]
 
-- Initial Official Release
+====================
+    01-05-2026
+====================
+
+- Sync with the latest Sources
+
+- Included LunarisDolby
+
+- Add GoogleCamera MGC Lite
+
+- Add BCR
+
+- Enable Optimized Power Management
+
+- Adjust cpu frequency
+
+- Smoother visual performance
+
+- Optimize powerhints for Snapdragon 8s Gen 4
+
+- Adjust DMA latency to allow CPU idle states
+
+- Add LMKD properties
+
+- Enable auxiliary camera access for supported app
+
+- Disable ambient light sensor during doze state
+
+- Enable R8 optimizations for system_server and SystemUI
+
+- Silence some spammy logging
+
+- Increase more minimum brightness level
+
+- Adjust buffering and refresh logic to prevent playback freezes
