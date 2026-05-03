@@ -49,14 +49,6 @@
       "status": "Discontinued"
     },
     {
-      "codename": "a52sxq",
-      "device_name": "Samsung Galaxy A52s 5G",
-      "oem": "Samsung",
-      "maintainer": "Genoxci (@genoxci)",
-      "support_group": null,
-      "status": "Discontinued"
-    },
-    {
       "codename": "a71",
       "device_name": "Samsung Galaxy A71",
       "oem": "Samsung",
