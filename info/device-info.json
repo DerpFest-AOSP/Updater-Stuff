@@ -201,12 +201,12 @@
       "status": "Active"
     },
     {
-      "codename": "citrus",
+      "codename": "chime",
       "device_name": "POCO M3 / Redmi 9T / Redmi 9 Power",
       "oem": "POCO/Redmi",
       "maintainer": "hac4us06",
-      "support_group": null,
-      "status": "Discontinued"
+      "support_group": "t.me/ashhcafe",
+      "status": "Active"
     },
     {
       "codename": "comet",
