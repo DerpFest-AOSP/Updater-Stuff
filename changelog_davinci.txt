@@ -1,3 +1,7 @@
 Rom changelog:
-- Updated security patch into April 2026
+- Updated security patch into May 2026
 - Sync sources
+
+Device Changelog:
+- Update kernel with latest lineage merges
+- Update dolby implemention and fixup spatializer
