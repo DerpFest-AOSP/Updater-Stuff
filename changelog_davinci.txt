@@ -3,5 +3,5 @@ Rom changelog:
 - Sync sources
 
 Device Changelog:
-- Update kernel with latest lineage merges
-- Update dolby implemention and fixup spatializer
+- Fixup wired headphones
+- Same as previous
