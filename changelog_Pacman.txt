@@ -1,4 +1,8 @@
 Device Changes:
+# May 18th 2026 Update:
+- Nothing changes, but switch to DerpFest's Private manifest for all features.
+- Sync latest ROM changes, and Update to May 1st 2026 Security Patch
+
 # April 12th 2026 Update:
 - Update blobs from Pacman-B4.0-260225-1817 and PacmanPro-B4.0-260225-2039
 - Add NothingDirac
