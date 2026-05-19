@@ -1,6 +1,6 @@
 DerpFest v16.2 | OFFICIAL
 By ~ @0mar99
-Build Date: 04-22-2026
+Build Date: 05-19-2026
 Device: Xiaomi 11T Pro [vili]
 
 Source:
@@ -10,4 +10,3 @@ Device:
 
 Kernel:
 * KSU Next and susfs are supported by default
-- Updated KernelSU Next to v3.2.0 and susfs to v2.1.0
