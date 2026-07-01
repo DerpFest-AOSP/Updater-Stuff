@@ -168,6 +168,14 @@
       "support_group": null,
       "status": "Discontinued"
     },
+	{
+      "codename": "blazer",
+      "device_name": "Pixel 10 Pro",
+      "oem": "Google",
+      "maintainer": "Wang Daning (@wangdaning)",
+      "support_group": "https://t.me/DerpP10",
+      "status": "Active"
+    },
     {
       "codename": "bramble",
       "device_name": "Google Pixel 4a 5G",
@@ -383,6 +391,14 @@
       "maintainer": "shazu-xd",
       "support_group": null,
       "status": "Discontinued"
+    },
+	{
+      "codename": "frankel",
+      "device_name": "Pixel 10",
+      "oem": "Google",
+      "maintainer": "Wang Daning (@wangdaning)",
+      "support_group": "https://t.me/DerpP10",
+      "status": "Active"
     },
     {
       "codename": "garnet",
@@ -703,6 +719,14 @@
       "maintainer": "Carlos 'Klozz' Jesus (@TeamMEX_XDA)",
       "support_group": null,
       "status": "Discontinued"
+    },
+	{
+      "codename": "mustang",
+      "device_name": "Pixel 10 Pro XL",
+      "oem": "Google",
+      "maintainer": "Wang Daning (@wangdaning)",
+      "support_group": "https://t.me/DerpP10",
+      "status": "Active"
     },
     {
       "codename": "nabu",
