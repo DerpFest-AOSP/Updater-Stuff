@@ -1,4 +1,15 @@
 Device Changes:
+# July 10th 2026 Update:
+- Sync FanDeMaraiste92's LineageOS changes:
+ • Enabled LE Audio support
+ • Fixed NothingDirac toggle being ineffective sometimes
+ • Increased maximum brightness slider range to match with NothingOS
+ • Revamped NothingDirac UI to Jetpack Compose
+ • Switched back to NothingOS wifi HAL
+ • Updated common proprietary blobs to Pacman-B4.1-260609-1925
+ • Allowed the Super CPU cores to make use of the extra 0.2GHz of Dimensity 7350 Pro in powerhint
+ • Updated device proprietary blobs and firmware to PacmanPro-B4.1-260609-1926
+
 # May 18th 2026 Update:
 - Nothing changes, but switch to DerpFest's Private manifest for all features.
 - Sync latest ROM changes, and Update to May 1st 2026 Security Patch
