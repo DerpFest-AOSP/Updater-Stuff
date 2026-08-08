@@ -1,4 +1,6 @@
-Hotfix build: Sign build again
 Rom changelog:
-- Updated security patch into June 2026
+- Updated security patch into July 2026
 - Sync sources
+
+Device changelog:
+- Improve battery backup by reducing back gpu clock in expensive_rendering scenarious
