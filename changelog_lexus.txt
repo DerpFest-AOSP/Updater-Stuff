@@ -1,8 +1,22 @@
-Changelog:
+DerpFest 16.2 Stable OFFICIAL | Android 16
+Device: OnePlus Nord 5 (lexus)
+Security Patch: June 2026
+Date: 2026-07-07
 
-====================
-    01-10-2026
-====================
+✨ June Update ✨
+📸 NOW INCLUDES OxygenOS Camera!
 
-Source:
-    - Initial DerpFest Android 16 QPR0 Release
+Release Notes:
+- Ported the latest OxygenOS Camera app, with fully working video, photo, hi-res mode...
+- Upstreamed kernel source and trees
+- Added Android 17 blurs (to volume panel and homescreen), and wallpaper effects
+and more stuff! :)
+Known bugs:
+Clicking on the pics in bottom left does nothing, and sometimes the app crashes when you switch modes. If you reopen the app though, said mode will work fine! I'm currently trying to figure both these problems out.
+
+Special thanks:
+- Yaznas
+- grepfox (LineageOS maintainer)
+- realahnet for his help with OOS camera, and the guys over at the Dodge-Camera-Port
+- chandu for all of his work on OnePlus devices
+- The P. A. N. Z. Core Team

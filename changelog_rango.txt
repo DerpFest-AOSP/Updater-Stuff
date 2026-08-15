@@ -1,0 +1,13 @@
+04.07.26
+- Initial Rango release
+- QPR2
+- LOS device repos with few changes
+- Fixed build type (is now Official Stable)
+
+04.08.26
+- Fix maintainer name in the system settings
+
+08.07.26
+- New keys used to sign, clean flash will be needed (lost old build setup to a dead drive while getting my device repaired)
+- New security patch
+- excluded bl and related firmware images from being pulled when pulling vendor firmware, should work with May 2026 ARB without bricking the device

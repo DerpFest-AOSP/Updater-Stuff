@@ -1,0 +1,7 @@
+
+07-05-2026
+
+- Initial A16 QPR2 build
+- Clean flash is mandatory
+• Use Latest FW to avoid bootloop
+• Valeryn kernel as based

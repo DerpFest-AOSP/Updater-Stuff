@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1774208011,
-      "filename": "DerpFest-v16.2-20260322-husky-Official-Beta.zip",
-      "id": "5b49d590a68798cd7f9e23c4ee673997b3556842ab2052df8f210810cfd7f373",
+      "datetime": 1781226724,
+      "filename": "DerpFest-v16.2-20260612-husky-Official-Stable.zip",
+      "id": "08950977a982f80a42b66950a578b1a57fa40c51a9549e25c93700a1b60a0513",
       "romtype": "Official",
-      "size": 2645186847,
-      "url": "https://sourceforge.net/projects/derpfest/files/husky/DerpFest-v16.2-20260322-husky-Official-Beta.zip/download",
+      "size": 2657092328,
+      "url": "https://sourceforge.net/projects/derpfest/files/husky/DerpFest-v16.2-20260612-husky-Official-Stable.zip/download",
       "version": "v16.2"
     }
   ]

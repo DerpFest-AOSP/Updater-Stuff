@@ -1,5 +1,8 @@
 Device Changes:
 
+#July 9th 2026 Update:
+- Updated to July SPL
+
 #March 26th 2026 Update:
 - Fix UDFPS animation vertical offset
 - Fix Glyph torch turning off shortly after screen turns off

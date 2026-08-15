@@ -1,0 +1,9 @@
+Changelog:
+- Initial 16.2 release
+- Updated security patch into June 2026
+- Sync sources
+- Fix Recovery touch
+- Add ViperFX
+- Debloat Google/Lineage APKS
+- Add GoogleFiles as uninstallable. Installs after first reboot. Setup other file manager and uninstall. 
+- Override 5g for unknown SIMs and for Chinese carriers (helps avoid google refusing 5g in unsupported countries, more carriers can be added if you tell me)

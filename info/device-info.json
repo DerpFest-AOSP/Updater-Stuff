@@ -49,14 +49,6 @@
       "status": "Discontinued"
     },
     {
-      "codename": "a52sxq",
-      "device_name": "Samsung Galaxy A52s 5G",
-      "oem": "Samsung",
-      "maintainer": "Genoxci (@genoxci)",
-      "support_group": null,
-      "status": "Discontinued"
-    },
-    {
       "codename": "a71",
       "device_name": "Samsung Galaxy A71",
       "oem": "Samsung",
@@ -176,6 +168,14 @@
       "support_group": null,
       "status": "Discontinued"
     },
+	{
+      "codename": "blazer",
+      "device_name": "Pixel 10 Pro",
+      "oem": "Google",
+      "maintainer": "Wang Daning (@wangdaning)",
+      "support_group": "https://t.me/DerpP10",
+      "status": "Active"
+    },
     {
       "codename": "bramble",
       "device_name": "Google Pixel 4a 5G",
@@ -209,19 +209,27 @@
       "status": "Active"
     },
     {
-      "codename": "citrus",
+      "codename": "chime",
       "device_name": "POCO M3 / Redmi 9T / Redmi 9 Power",
       "oem": "POCO/Redmi",
       "maintainer": "hac4us06",
-      "support_group": null,
-      "status": "Discontinued"
+      "support_group": "t.me/ashhcafe",
+      "status": "Active"
     },
     {
       "codename": "comet",
       "device_name": "Google Pixel 9 Pro Fold",
       "oem": "Google",
-      "maintainer": "Cody Smith",
+      "maintainer": "Unmaintained",
       "support_group": null,
+      "status": "Inactive"
+    },
+        {
+      "codename": "rango",
+      "device_name": "Google Pixel 10 Pro Fold",
+      "oem": "Google",
+      "maintainer": "Cody Smith",
+      "support_group": "https://t.me/+R2JofWfo_6RjODE7",
       "status": "Active"
     },
     {
@@ -383,6 +391,14 @@
       "maintainer": "shazu-xd",
       "support_group": null,
       "status": "Discontinued"
+    },
+	{
+      "codename": "frankel",
+      "device_name": "Pixel 10",
+      "oem": "Google",
+      "maintainer": "Wang Daning (@wangdaning)",
+      "support_group": "https://t.me/DerpP10",
+      "status": "Active"
     },
     {
       "codename": "garnet",
@@ -628,9 +644,9 @@
       "codename": "lexus",
       "device_name": "OnePlus Nord 5",
       "oem": "OnePlus",
-      "maintainer": "Yaznas",
+      "maintainer": "DaViDev985",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "lime",
@@ -704,6 +720,14 @@
       "support_group": null,
       "status": "Discontinued"
     },
+	{
+      "codename": "mustang",
+      "device_name": "Pixel 10 Pro XL",
+      "oem": "Google",
+      "maintainer": "Wang Daning (@wangdaning)",
+      "support_group": "https://t.me/DerpP10",
+      "status": "Active"
+    },
     {
       "codename": "nabu",
       "device_name": "Xiaomi Pad 5",
@@ -718,7 +742,7 @@
       "oem": "Motorola",
       "maintainer": "Vulkan (@vullk4n)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "ocean",
@@ -838,7 +862,7 @@
       "oem": "Motorola",
       "maintainer": "Vulkan (@vullk4n)",
       "support_group": null,
-      "status": "Discontinued"
+      "status": "Active"
     },
     {
       "codename": "raphael",
