@@ -1,12 +1,13 @@
 DerpFest v16.2 | OFFICIAL
 By ~ @0mar99
-Build Date: 05-19-2026
+Build Date: 09-06-2026
 Device: Xiaomi 11T Pro [vili]
 
 Source:
-Synced with latest source changes
+- Synced with latest source changes
 
 Device:
+- Merged the latest LineageOS changes
 
 Kernel:
-* KSU Next and susfs are supported by default
+- KSU Next and susfs support is avaliable as a separate boot.img now
