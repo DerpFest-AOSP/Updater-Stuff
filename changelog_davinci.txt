@@ -1,3 +1,2 @@
-Rom changelog:
-- Updated security patch into August 2026
-- Sync sources
+Changelog:
+- First public release of Derp 17
