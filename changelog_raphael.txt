@@ -26,5 +26,6 @@ Audio
 
 Kernel
 - The ROM kernel is no longer rooted by default. For root, flash the separate KernelSU-Next (v3.4.0-legacy) or KernelSU-Next + Droidspaces kernel zip.
+- The ROM ships with the non-root kernel by default. If you need the KernelSU-Next kernel, flash it from: https://github.com/erg-raphael-5-4/android_kernel_xiaomi_sm8150/releases
 - Built with clang r596125.
 - Storage hang fix, plus less log spam from the charger and KernelSU-Next.
