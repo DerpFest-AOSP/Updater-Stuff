@@ -1,31 +1,25 @@
-Changelog (29/09/2026):
+Changelog (01/10/2026):
 
-Display
-- Extra Dim and Night Light work again.
-- The default colour mode is now Saturated (vivid, native gamut) instead of the washed-out sRGB profile.
-- The LiveDisplay colour profiles are removed. Settings now shows only the standard Natural / Boosted / Saturated modes, which fixes the mismatch where it showed one mode outside and another inside.
+Camera
+- MIUI Camera (Leica 5.0 port) is now the camera app: photo with 0.6x / 1x / 2x lens switching, portrait, panorama, night, pro, documents, video, and slow motion at 120 and 240 fps.
+- Known issue: the 1080p slow motion preview can stutter.
 
-Fingerprint
-- Fixed the fingerprint sensor sometimes not responding when unlocking from screen-off right after locking.
+Calls
+- WhatsApp, Telegram and other VoIP call audio no longer drops out for 5-10 seconds when a notification sound plays.
 
-NFC
-- NFC now works on global units. Older SN100 firmware rejected some settings and the NFC stack kept restarting in a loop.
+Updates
+- OTA updates from the built-in Updater install again.
 
-Games
-- Fixed the pink screen in games. Games are no longer forced onto ANGLE.
+Performance
+- Snapdragon 855+ units are no longer capped at 585 MHz on the GPU.
+- Updated task profiles and display idle settings.
 
-Performance and battery
-- Power profile reworked for efficiency: better idle and scrolling power use, and ADPF support for smoother frame pacing.
-- New lean CPU and memory tuning at boot, written for this chip only.
-- Fixed a storage hang that could freeze the phone.
-- Fixed a bootloop that could happen after Play system updates (APEX).
+Apps
+- Maps, Photos and Gmail are no longer preinstalled; install them from the Play Store if you need them.
+- Accord is removed.
 
-Audio
-- Fixed speaker amplifier feedback.
-- Disabled an unused audio plugin.
+SystemUI
+- SystemUI's new scene container is turned off.
 
 Kernel
-- The ROM kernel is no longer rooted by default. For root, flash the separate KernelSU-Next (v3.4.0-legacy) or KernelSU-Next + Droidspaces kernel zip.
 - The ROM ships with the non-root kernel by default. If you need the KernelSU-Next kernel, flash it from: https://github.com/erg-raphael-5-4/android_kernel_xiaomi_sm8150/releases
-- Built with clang r596125.
-- Storage hang fix, plus less log spam from the charger and KernelSU-Next.
