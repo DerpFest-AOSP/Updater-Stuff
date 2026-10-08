@@ -1,9 +1,129 @@
-Highlights & Device Specific Changes
+Highlights & Device Specific Changes:
+Build type: Monthly
+Build variants: Gapps
+Device: Xiaomi Redmi Note 10 Pro (sweet)
+Device maintainer: stahed
 
-Build type: Official
-Android version: Android 16 (QPR0)
-Device: Redmi Note 10 Pro & Pro Max (sweet)
-Device maintainer: Danny Soundaraj D
+====================
+     08-10-2026
+====================
+
+# DerpFest Android 17 Version 17.0
+
+## 🔐 October 2026 Security Patch
+
+* Updated to the **October 2026 Android Security Patch**.
+* Integrated the latest Android security fixes and platform security improvements.
+* Updated the device configuration for the latest Android 17 base.
+
+## 📱 DerpFest Android 17
+
+* Updated the Redmi Note 10 Pro (sweet) device tree for **DerpFest Android 17**.
+* Adapted the device configuration to DerpFest.
+* Updated device-specific dependencies and configuration.
+* Improved Android 17 compatibility.
+* Improved overall system stability and responsiveness.
+
+## 📷 Camera & Multimedia
+
+* Added **Leica Camera** support.
+* Integrated the required Leica Camera components and dependencies.
+* Updated camera configuration for Android 17.
+* Improved camera compatibility and stability.
+* Updated multimedia configuration for sweet.
+
+## 🔊 Audio & Dolby
+
+* Added **Dolby Atmos** support.
+* Integrated **Sony audio blobs**.
+* Updated Dolby vendor configuration.
+* Improved device-specific audio configuration.
+* Updated required audio dependencies.
+* Improved audio processing and overall audio stability.
+
+## ⚡ Performance & Responsiveness
+
+* Updated device-specific performance configuration.
+* Improved power and thermal management.
+* Updated memory and performance configuration.
+* Improved display and refresh-rate handling.
+* Updated performance-related overlays.
+* Improved overall system responsiveness and smoothness.
+
+## 🔦 Device Features
+
+* Updated torch and flashlight configuration.
+* Improved charging and power configuration.
+* Updated device-specific hardware configuration.
+* Improved USB and peripheral compatibility.
+* Updated common SM6150 configuration for Android 17.
+
+## 🧩 SM6150 Common
+
+* Updated the **SM6150 common device tree** for DerpFest Android 17.
+* Updated Android 17 compatibility configuration.
+* Updated device-specific overlays and system properties.
+* Improved power, thermal and performance configuration.
+* Updated SELinux and hardware compatibility configuration.
+* Cleaned obsolete configuration and dependencies.
+* Improved overall stability across the SM6150 platform.
+
+## 🧠 Kernel — ReForge
+
+* Updated to **ReForge Kernel**.
+* Added **KernelSU Next** support.
+* Added **SUSFS** support.
+* Updated KernelSU kernel integration.
+* Updated kernel configuration for the SM6150 platform.
+* Improved Android 17 kernel compatibility.
+* Improved kernel stability and performance.
+* Updated device-specific kernel configuration.
+* Improved memory and power management.
+
+## 🛡️ Root & Advanced Features
+
+* **KernelSU Next support**
+* **SUSFS support**
+* **ReForge Kernel**
+* Updated kernel-side root integration.
+* Improved compatibility with modern KernelSU/SUSFS configurations.
+
+## 🐛 Fixes & Improvements
+
+* Improved overall system stability.
+* Improved camera compatibility.
+* Improved Leica Camera integration.
+* Improved Dolby Atmos compatibility.
+* Improved Sony audio blob integration.
+* Improved display and refresh-rate behavior.
+* Improved thermal and power management.
+* Improved Android 17 hardware compatibility.
+* Updated SM6150 common configuration.
+* Updated ReForge kernel integration.
+* General cleanup and optimization across the device tree.
+
+## 📦 Build
+
+* Official **GApps build**.
+* Google applications and services are pre-integrated.
+* **No Vanilla build for this release.**
+
+## 📱 Overall
+
+This update brings **DerpFest Android 17 Version 17.0** to the Xiaomi Redmi Note 10 Pro (sweet), featuring the **October 2026 Security Patch** and an updated device stack.
+
+This release includes **ReForge Kernel**, **KernelSU Next**, **SUSFS**, **Leica Camera**, **Dolby Atmos** and **Sony audio blobs**, together with improvements to performance, camera, audio, power, thermal management and overall Android 17 stability.
+
+### Credits
+
+* DerpFest Team
+* 6150-lab
+* ReForge Kernel contributors
+* Xiaomi SM6150 common contributors
+* Redmi Note 10 Pro device tree contributors
+* @Georgeramzy01 For fantastic banner
+* All contributors to the included camera and audio components
+
 
 --------------01/01/26----------------
 

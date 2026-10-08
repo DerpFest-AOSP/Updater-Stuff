@@ -1052,9 +1052,9 @@
       "codename": "sweet",
       "device_name": "Redmi Note 10 Pro & Pro Max",
       "oem": "Xiaomi",
-      "maintainer": "Danny Soundaraj D (@DannySoundarajD)",
-      "support_group": null,
-      "status": "Discontinued"
+      "maintainer": "stahed",
+      "support_group":"https://t.me/RedmiNote10ProCHAT" ,
+      "status": "Active"
     },
     {
       "codename": "toco",
