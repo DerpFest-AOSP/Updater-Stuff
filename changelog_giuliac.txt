@@ -1,15 +1,14 @@
-DerpFest v16.2 | OFFICIAL
+DerpFest v17 | OFFICIAL
 By ~ @0mar99
-Build Date: 07-22-2026
+Build Date: 10-10-2026
 Device: OnePlus Ace 5 [giuliac]
 
 Source:
-- Synced with latest source
+- Initial A17 release
 
 Device:
-- Fixed some Oplus Camera crashes
-- Fixed Oplus Gallery sharing feature
-- Updated common blobs from waffle OOS 16.0.9.400
-- Switched back to QTI perf HAL
-- Disabled all CLO-specific perf features
-- Allow surfaceflinger to use the big cluster
+- Added support for Dolby Vision
+- Updated blobs and firmware from OOS 16.0.10.600 (13R only)
+- Improved Oplus Camera reliability on 13R
+- Switched to ALS correction for auto brightness (still needs tuning)
+- Enabled VoNR for supported carriers
