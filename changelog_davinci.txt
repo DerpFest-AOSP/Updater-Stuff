@@ -1,2 +1,5 @@
-Changelog:
-- First public release of Derp 17
+Device Changelog:
+- Updated kernel from qcom sm8150 lineage repo
+
+Rom Changelog:
+- Merged October 2026 security patch
