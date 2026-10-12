@@ -825,6 +825,14 @@
       "status": "Discontinued"
     },
     {
+      "codename": "picasso",
+      "device_name": "Asus Snapdragon Insiders Phone",
+      "oem": "Asus",
+      "maintainer": "EdwardWu (@bluehomewu)",
+      "support_group": null,
+      "status": "Active"
+    },
+    {
       "codename": "picasso_xiaomi",
       "device_name": "Redmi K30 5G",
       "oem": "Xiaomi",
