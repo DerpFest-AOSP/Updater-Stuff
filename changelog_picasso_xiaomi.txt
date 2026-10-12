@@ -1,5 +1,5 @@
 EN Release Note:
-- For DerpFest && LineageOS （ picasso ）
+- For DerpFest && LineageOS （ picasso_xiaomi ）
  |- Fetch latest source
  |- Drop Aperture
  |- Label more selinux denieds
@@ -8,7 +8,7 @@ EN Release Note:
 ---------------
 
 中文发行注记:
-- 对于 DerpFest 和 LineageOS ( picasso )
+- 对于 DerpFest 和 LineageOS ( picasso_xiaomi )
  |- 拉取最新源代码编译
  |- 修复一些 selinux 拒绝事件
  |- 干翻 Aperture

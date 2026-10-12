@@ -825,7 +825,7 @@
       "status": "Discontinued"
     },
     {
-      "codename": "picasso",
+      "codename": "picasso_xiaomi",
       "device_name": "Redmi K30 5G",
       "oem": "Xiaomi",
       "maintainer": "EndCredits",
