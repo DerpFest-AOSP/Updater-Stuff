@@ -1,25 +1,59 @@
-Changelog (01/10/2026):
+Changelog (13/10/2026):
 
-Camera
-- MIUI Camera (Leica 5.0 port) is now the camera app: photo with 0.6x / 1x / 2x lens switching, portrait, panorama, night, pro, documents, video, and slow motion at 120 and 240 fps.
-- Known issue: the 1080p slow motion preview can stutter.
+=== Device changes ===
 
-Calls
-- WhatsApp, Telegram and other VoIP call audio no longer drops out for 5-10 seconds when a notification sound plays.
-
-Updates
-- OTA updates from the built-in Updater install again.
+Battery & charging
+- Standby drain fixed: an unused Qualcomm video service kept the DSP awake. Screen-off drain is now ~0.6%/h with Wi-Fi and data on.
+- Deeper sleep: fixed a CPU idle-state latency typo and switched off unused PCIe controllers and the NPU bandwidth vote while sleeping (from HeliumStudio-Dev).
+- USB PD / PPS fast charging works on PD chargers (tested: Samsung 25W, Anker 140W). The charge pump now runs on the Qualcomm PSY driver, and the legacy charging attributes are back (from XiaoYeZi / HeliumStudio-Dev).
+- Fast charging no longer drops and reconnects every ~35 seconds on high-wattage PPS chargers: requests are capped at the 9V the input can take.
+- Charge-pump safety: the charge pump stops just below the 4.40V battery limit and the main charger finishes, so an aged battery can't trip the over-voltage cutoff.
+- New: Bypass charging (Settings > Battery > Bypass charging, plus a Quick Settings tile). The charger powers the phone while the battery is left alone, for example while gaming on the charger. It is unavailable while Charging control is on.
+- Charging control (charge limit and scheduled charging) is available in Settings > Battery.
+- Battery percentage on worn batteries: the fuel gauge can now learn the battery's real capacity. After a full, uninterrupted charge that starts at 15% or lower, the percentage tracks the real charge instead of shutting down early at "30%".
+- The fuel gauge no longer reports a bogus battery health at boot.
 
 Performance
-- Snapdragon 855+ units are no longer capped at 585 MHz on the GPU.
-- Updated task profiles and display idle settings.
+- App CPU grouping fixed: all apps were stuck in one CPU group. Top-app, foreground and background placement works again.
+- Touch boost floors restored, and GPU limits now use the GPU driver's own power levels.
+- The display wakes early before a frame and reports when it goes idle, so interaction boosts end on time.
+- Fixed a kernel memory warning from ART's garbage collector.
 
-Apps
-- Maps, Photos and Gmail are no longer preinstalled; install them from the Play Store if you need them.
-- Accord is removed.
+Audio & Bluetooth
+- Bluetooth headphones and earbuds reconnect on their own after being switched off and on.
+- Wired headsets are kept off the raw audio output.
 
-SystemUI
-- SystemUI's new scene container is turned off.
+Device
+- Pop-up camera LED lights up again when the selfie camera pops up.
+- Power-off alarm works with any clock app.
+- Fingerprint: the in-display sensor's pressed layer no longer forces GPU composition.
+
+Logs
+- Much less log spam (telephony satellite checks, Wi-Fi daemon, diag, charging drivers).
 
 Kernel
 - The ROM ships with the non-root kernel by default. If you need the KernelSU-Next kernel, flash it from: https://github.com/erg-raphael-5-4/android_kernel_xiaomi_sm8150/releases
+
+=== Source changes (DerpFest / LineageOS) ===
+
+- October 2026 security patch level.
+- Chromium WebView 155.0.8059.39.
+- Now Playing song recognition on non-Pixel phones, shown on the lockscreen.
+- Lockscreen: reworked ambient card and chip placement, blur fixes, UDFPS icon fixes (rotation, illumination dot, leaks).
+- Dynamic Island / DynamicBar: call timer starts on connect, alert card actions, message notification fixes. Dynamic Island is disabled with an explanation on phones without a display cutout.
+- Volume panel: per-app volume sliders grouped, with percentage announcements.
+- Lyrics: LRCLIB as the default source, character highlighting, colon-separated timestamps.
+- Pulse: custom color and height.
+- Obscura: hide and lock apps, with an app control page.
+- App spoofing: more CPU and GPU models, keybox exclusions per app, Play Integrity toggle fixes.
+- Biometric fallback with a scrambled PIN layout.
+- Boot animation follows Monet colours and the light or dark theme.
+- DerpLauncher: app drawer sorting fixes, custom drawer background, Task Lock in recents, recents blur, private space and work profile fixes.
+- Settings: Simple View accessibility option, single-band hotspot choices, configurable dual shade gesture split, wallpaper behind the About phone logo.
+- Canvas replaces Gallery2 as the photo editor; it gets filters and tooltips.
+- Updater: stale updates are cleared before checking, and major upgrades are offered as manual installs.
+- Setup wizard uses the new expressive theme. Accessibility gains Vision Settings.
+- Face unlock: enrolment shows a progress ring and handles rotation better.
+- Recovery: menu redrawn as a rounded group.
+- Fixes for MMS PDU parsing, remote WAP PDU denial of service, and power HAL session crashes.
+- APN updates and other LineageOS upstream fixes.
