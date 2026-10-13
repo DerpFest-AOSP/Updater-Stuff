@@ -57,3 +57,6 @@ Kernel
 - Recovery: menu redrawn as a rounded group.
 - Fixes for MMS PDU parsing, remote WAP PDU denial of service, and power HAL session crashes.
 - APN updates and other LineageOS upstream fixes.
+- Wallpaper picker: no longer crashes when a live wallpaper fails to load, and Pixel live wallpapers (Earth Orbit, Mars, the dioramas) now download their content on first use and apply normally.
+
+MD5: a4c94aded473f1aa06f22cc4d82e3729
