@@ -1,4 +1,11 @@
 Device Changes:
+# October 16th 2026 Update:
+- Sync FanDeMaraiste92's LineageOS changes:
+ • Updated proprietary blobs to Pacman-B4.1-260813-0941 / PacmanPro-B4.1-260813-0941
+ • Update Kernel to 5.15.197 w/ latest kernel modules
+- Upgrade to Android 17, DerpFest-17
+- Import Chinese Traditional translations from DerpFest-17
+
 # July 10th 2026 Update:
 - Sync FanDeMaraiste92's LineageOS changes:
  • Enabled LE Audio support
