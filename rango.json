@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1786140001,
-      "filename": "DerpFest-v16.2-20260807-rango-Official-Stable.zip",
-      "id": "e3c5474ec726ea92f02495603a4165beaa886d5b9c6168e6a32364c04b0e4ef6",
+      "datetime": 1792205251,
+      "filename": "DerpFest-v17-20261017-rango-Official-Beta.zip",
+      "id": "ec65af1e07b565c38a0a9b3a17028062292876e2652fb9b691785d4fa945743b",
       "romtype": "Official",
-      "size": 2470150244,
-      "url": "https://sourceforge.net/projects/derpfest/files/rango/DerpFest-v16.2-20260807-rango-Official-Stable.zip/download",
-      "version": "v16.2"
+      "size": 3123189732,
+      "url": "https://sourceforge.net/projects/derpfest/files/rango/DerpFest-v17-20261017-rango-Official-Beta.zip/download",
+      "version": "v17"
     }
   ]
 }
