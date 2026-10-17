@@ -11,3 +11,7 @@
 - New keys used to sign, clean flash will be needed (lost old build setup to a dead drive while getting my device repaired)
 - New security patch
 - excluded bl and related firmware images from being pulled when pulling vendor firmware, should work with May 2026 ARB without bricking the device
+
+10.16.26
+ - Initial A17 release
+ - New keys used, and new base, clean flash required
