@@ -5,6 +5,39 @@ Device: Xiaomi Redmi Note 10 Pro (sweet)
 Device maintainer: stahed
 
 ====================
+     18-10-2026
+====================
+
+# DerpFest Android 17 — October Security Patch
+
+## Sync sources, October 18, 2026
+
+## Audio & Dolby
+- Switch to XiaomiDolby.
+- Add Sony audio blobs.
+- Add Dolby media codecs support.
+
+## Camera & Multimedia
+- Switch to Miuicamera.
+- Update camera-related device configuration.
+
+## Kernel
+- Switch to Spiteful Kernel.
+
+## Security
+- October 2026 Security Patch.
+
+Credits:
+- DerpFest Team
+- Spiteful Kernel contributors
+- Xiaomi SM6150 common contributors
+- Redmi Note 10 Pro device tree contributors
+- @Georgeramzy01 For fantastic banner
+- All contributors to the included camera and audio components
+
+
+
+====================
      08-10-2026
 ====================
 
