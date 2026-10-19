@@ -97,6 +97,14 @@
       "status": "Discontinued"
     },
     {
+      "codename": "Aura_A1",
+      "device_name": "Bluefox Aura A1",
+      "oem": "Bluefox",
+      "maintainer": "EdwardWu (@bluehomewu)",
+      "support_group": null,
+      "status": "Active"
+    },
+    {
       "codename": "avalon",
       "device_name": "OnePlus Nord 4",
       "oem": "OnePlus",

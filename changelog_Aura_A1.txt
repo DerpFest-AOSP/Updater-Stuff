@@ -1,0 +1,4 @@
+Device Changes:
+# October 19th 2026 Update:
+- Initial release, support for Bluefox Aura A1 [Aura_A1, BF00A]
+- Required firmware base: BLUEFOX_J583_A8_Aura_A1_EN_V1.0.1_20260924_09241748
