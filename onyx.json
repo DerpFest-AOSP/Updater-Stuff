@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1777627135,
-      "filename": "DerpFest-v16.2-20260501-onyx-Official-Stable.zip",
-      "id": "40d7c786b6a48aa89bda5f8cfb1ca3db752f097ab84a608f63aa6275cf842417",
+      "datetime": 1792495803,
+      "filename": "DerpFest-v17-20261020-onyx-Official-Stable.zip",
+      "id": "b49ae94c911dda1e4112992c5ddc7ef70e5acb206e7160ffdaee61c35d270cb3",
       "romtype": "Official",
-      "size": 4519200412,
-      "url": "https://sourceforge.net/projects/derpfest/files/onyx/DerpFest-v16.2-20260501-onyx-Official-Stable.zip/download",
-      "version": "v16.2"
+      "size": 5013264646,
+      "url": "https://sourceforge.net/projects/derpfest/files/onyx/DerpFest-v17-20261020-onyx-Official-Stable.zip/download",
+      "version": "v17"
     }
   ]
 }

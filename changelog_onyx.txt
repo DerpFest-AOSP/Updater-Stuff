@@ -1,39 +1,36 @@
-DerpFest v16.2 | OFFICIAL
-By @franlop77
+DerpFest v17.0 | OFFICIAL
+By @unmoved21
 Device: Poco F7 [Onyx]
 
 ====================
-    01-05-2026
+    20-10-2026
 ====================
 
-- Sync with the latest Sources
+- Enabled adaptive bitrate on the AAC offload encoder
+- Imported Xiaomi SeaAudio AIDL service and model configs
+- Built QTI audio AIDL types
+- Added libion dependency to the ANC HAL
+- Brought back Dolby audio (reverted prebuilt soundfx blobs)
+- VoIP playback: bumped active count to 2, added DIRECT flag and MONO layout
+- Wired up per-fps SurfaceFlinger durations
+- Reverted vsync work duration sync with gs201
+- Override HDR types for Dolby Vision (parts: updated overrideHdrTypes API for U)
+- Added 202504 displayfeature compat mapping
+- SELinux: allowed lseek syscall for qesdk-secmanager
+- SELinux: labeled codec2 vendor0_software service
+- SELinux: labeled /dev/miev and allowed camera HAL access
+- SELinux: labeled authsecret to fine suspend service
+- SELinux: associated XiaomiParts to coredomain
+- Switched to our own kernel source
+- Dropped mem-offline module
+- Explicitly build wcn7750 qcacld module
+- Updated blobs from OS3.0.302.0.WOLMIXM
+- Updated WFD system blobs from marvel_g A171WEH.20
+- Included MiuiCamera
+- Added dummy Keylayout for uinput-xiaomi
+- Remapped some haptics effects
+- Dropped Lineage SDK overlay
+- Updated soong namespaces (power-libperfmgr, NXP keymint3 and weaver HALs)
+- Fixed offline charging while the device is powered off
+- Merge tag KERNEL.PLATFORM.4.0.r1-18500-kernel.0
 
-- Included LunarisDolby
-
-- Add GoogleCamera MGC Lite
-
-- Add BCR
-
-- Enable Optimized Power Management
-
-- Adjust cpu frequency
-
-- Smoother visual performance
-
-- Optimize powerhints for Snapdragon 8s Gen 4
-
-- Adjust DMA latency to allow CPU idle states
-
-- Add LMKD properties
-
-- Enable auxiliary camera access for supported app
-
-- Disable ambient light sensor during doze state
-
-- Enable R8 optimizations for system_server and SystemUI
-
-- Silence some spammy logging
-
-- Increase more minimum brightness level
-
-- Adjust buffering and refresh logic to prevent playback freezes
