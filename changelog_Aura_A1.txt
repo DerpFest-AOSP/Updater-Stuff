@@ -1,4 +1,12 @@
 Device Changes:
+# October 24th 2026 Update:
+- Restore the stock build fingerprint and attestation identity for Google Play compatibility
+- Fix missing short vibration effects
+- Set the default device name to Aura A1
+- Build the MediaTek netdagent HIDL interface from source
+- Enable VoLTE availability for China Unicom and China Telecom
+- Update DerpFest and LineageOS sources
+
 # October 19th 2026 Update:
 - Initial release, support for Bluefox Aura A1 [Aura_A1, BF00A]
 - Required firmware base: BLUEFOX_J583_A8_Aura_A1_EN_V1.0.1_20260924_09241748
