@@ -1,14 +1,12 @@
 DerpFest v17 | OFFICIAL
 By ~ @0mar99
-Build Date: 10-10-2026
+Build Date: 10-23-2026
 Device: OnePlus Ace 5 [giuliac]
 
-Source:
-- Initial A17 release
-
 Device:
-- Added support for Dolby Vision
-- Updated blobs and firmware from OOS 16.0.10.600 (13R only)
-- Improved Oplus Camera reliability on 13R
-- Switched to ALS correction for auto brightness (still needs tuning)
-- Enabled VoNR for supported carriers
+- Merged the latest lineageOS changes
+- Fixed a systemUI freeze that occured when scrolling through Youtube while playing a video in the mini player
+- Introduced OnePlus Settings (settings > system > OnePlus Settings). Added a toggle for dc dimming and migrated haptic profile selection here
+
+Kernel:
+- Upstreamed kernel to 6.1.177 and merged the latest lineageOS changes
