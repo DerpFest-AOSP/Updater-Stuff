@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1723129309,
-      "filename": "DerpFest-14-Official-Stable-redwood-20240819.zip",
-      "id": "d19c8d92c11dfedd9603f2cc0b0c5952f10e8bf072187a33077da8525210f0d0",
+      "datetime": 1792949278,
+      "filename": "DerpFest-v17-20261025-redwood-Official-Stable.zip",
+      "id": "a79b10ff7c8946e8c38b84c6dc3f7e3acbb667bd52835971f2b596be2e34d45e",
       "romtype": "Official",
-      "size": 2823523156,
-      "url": "https://sourceforge.net/projects/derpfest/files/redwood/DerpFest-14-Official-Stable-redwood-20240819.zip/download",
-      "version": "14"
+      "size": 3259011883,
+      "url": "https://dl.ravarage.xyz/redwood/20261025/DerpFest-v17-20261025-redwood-Official-Stable.zip",
+      "version": "v17"
     }
   ]
 }
