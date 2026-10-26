@@ -5,6 +5,60 @@ Device: Xiaomi Redmi Note 10 Pro (sweet)
 Device maintainer: stahed
 
 ====================
+     26-10-2026
+====================
+
+Highlights & Device Specific Changes
+Build type: Official
+Build variants: GApps
+Device: Xiaomi Redmi Note 10 Pro (sweet)
+Android version: DerpFest Android 17
+Filesystem: EROFS
+Kernel: Spiteful Kernel
+DerpFest Android 17 Version 17.0
+🔊 Audio & Dolby
+- Integrated the Qualcomm (QCOM) Audio Effects implementation.
+- Added Dolby media codecs support.
+- Switched to XiaomiDolby.
+- Integrated Sony audio blobs.
+- Updated device-specific audio configuration.
+📷 Camera & Multimedia
+- Switched to MIUICamera.
+- Updated device-specific multimedia configuration.
+- Updated Wi-Fi Display (WFD) system blobs.
+📱 Device Features
+- Added BCR (Basic Call Recorder) support.
+- Updated device-specific configuration for DerpFest Android 17.
+- Included updated SM6150 common components.
+🎨 Apps & User Interface
+- Updated LunarisDolby with redesigned UI and expressive typography.
+⚡ Kernel
+- Switched to Spiteful Kernel.
+📦 Build Information
+- Official GApps build.
+- EROFS filesystem.
+- Based on DerpFest Android 17.
+📱 Overall
+This release brings updated audio components, QCOM Audio Effects, XiaomiDolby, Sony audio blobs, MIUICamera and BCR support to the Redmi Note 10 Pro (sweet), alongside the Spiteful Kernel and an EROFS-based GApps build.
+
+### Credits
+
+* DerpFest Team
+* 6150-lab
+* Spiteful Kernel contributors
+* Xiaomi SM6150 common contributors
+* Redmi Note 10 Pro device tree contributors
+* @Georgeramzy01 For fantastic banner
+* All contributors to the included camera and audio components
+
+🌐 Source Changelog
+For the latest ROM-wide changes, Android platform improvements and upstream features, see the official DerpFest changelog:
+
+https://derpfest.org/changelog
+
+#StayDerped 🦉
+
+====================
      18-10-2026
 ====================
 
