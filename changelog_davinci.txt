@@ -1,5 +1,2 @@
-Device Changelog:
-- Updated kernel from qcom sm8150 lineage repo
-
-Rom Changelog:
-- Merged October 2026 security patch
+Changelog:
+- Synced sources
