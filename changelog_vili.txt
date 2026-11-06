@@ -1,13 +1,12 @@
-DerpFest v16.2 | OFFICIAL
+DerpFest v17 | OFFICIAL
 By ~ @0mar99
-Build Date: 09-06-2026
+Build Date: 11-06-2026
 Device: Xiaomi 11T Pro [vili]
 
 Source:
-- Synced with latest source changes
+- Initial Android 17 release
 
 Device:
-- Merged the latest LineageOS changes
-
-Kernel:
-- KSU Next and susfs support is avaliable as a separate boot.img now
+- Merged the latest device and kernel changes from LineageOS
+- Fixed Kamis Stuff kernel manager issues
+- Added BCR by default
