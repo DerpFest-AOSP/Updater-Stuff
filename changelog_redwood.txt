@@ -1,5 +1,34 @@
 DerpFest redwood (POCO X5 Pro 5G / Redmi Note 12 Pro Speed)
 
+# 13 November 2026 Update:
+
+Source Changes:
+
+- DerpFest 17, based on Android 17 (CP2A.260605.016)
+- Android security patch: 1 November 2026
+- Build type: user, Official, signed with private keys
+- DerpFest changes since 25 October: see the DerpFest source (https://github.com/DerpFest-AOSP)
+
+Device Changes:
+
+Audio
+- Dolby Atmos and Dolby Vision replace ViPER4AndroidFX
+- Fixed Dolby profiles not applying when a cloned-apps profile exists
+
+Camera
+- Master Camera (Universal 5.0 Beta 8.3) replaces MIUI Camera 5.1. Clear the camera's data once
+  after updating
+
+Lockscreen and status bar
+- New switches in Settings → DerpFest → Lockscreen: hide clock, hide date and weather, hide next alarm
+- Network speed indicator mode in the status bar settings: off, hide when idle, always
+
+System
+- Fixed a crash when opening an app locked with App Lock
+
+Kernel
+- Vajra 4.1 (unchanged)
+
 # 25 October 2026 Update:
 
 First official DerpFest build for redwood since DerpFest 14 (19 August 2024). Redwood is
