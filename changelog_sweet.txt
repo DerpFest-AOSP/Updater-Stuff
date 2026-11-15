@@ -5,6 +5,71 @@ Device: Xiaomi Redmi Note 10 Pro (sweet)
 Device maintainer: stahed
 
 ====================
+     15-11-2026
+====================
+
+Highlights & Device Specific Changes
+Build date: 2026-11-15
+Build type: Official
+Build variants: GApps
+Device: Xiaomi Redmi Note 10 Pro (sweet)
+Android version: DerpFest Android 17
+Filesystem: EXT4
+Kernel: Spiteful Kernel
+
+DerpFest Android 17 Version 17.0
+
+🔊 Audio & Dolby
+- Integrated the Qualcomm (QCOM) Audio Effects implementation.
+- Added Dolby media codecs support.
+- Switched to LunarisDolby.
+- Integrated Sony audio blobs.
+- Updated device-specific audio configuration.
+- Added ViPER4Android FX support.
+📷 Camera & Multimedia
+- Switched to Leica Camera.
+- Included patches to hide the 4K/60 FPS recording option.
+- Removed SuperMoon mode.
+- Updated device-specific multimedia configuration.
+- Updated Wi-Fi Display (WFD) system blobs.
+📱 Device Features
+- Added BCR (Basic Call Recorder) support.
+- Updated device-specific configuration for DerpFest Android 17.
+- Included updated SM6150 common components.
+- Migrated to the Xiaomi AIDL Face Unlock HAL.
+🎨 Apps & User Interface
+- Switched to LunarisDolby.
+- Integrated the KawaseDarkmoon blur algorithm.
+⚡ Kernel
+- Updated to Spiteful Kernel.
+📦 Build Information
+- Official GApps build.
+- EXT4 filesystem.
+- Source synced on November 15, 2026.
+- Based on DerpFest Android 17.
+⚠️ Important Notes
+- A clean installation is required.
+- Please do not change the included kernel. Using a different kernel may cause camera malfunctions or ROM instability.
+📱 Overall
+This release brings Leica Camera with updated camera patches, Qualcomm Audio Effects, LunarisDolby, Sony audio blobs, ViPER4Android FX and updated multimedia components to the Redmi Note 10 Pro (sweet). It also includes improvements to the SM6150 common components, Xiaomi AIDL Face Unlock HAL, KawaseDarkmoon blur algorithm and the updated Spiteful Kernel. The source was synced on November 15, 2026, bringing the latest available DerpFest Android 17 changes.
+
+Credits
+- DerpFest Team
+- 6150-lab
+- Spiteful Kernel contributors
+- Xiaomi SM6150 common contributors
+- Redmi Note 10 Pro device tree contributors
+- @therealmharc for the Leica camera patches and related modifications.
+- All contributors to the included camera and audio components.
+
+🌐 Source Changelog
+For the latest ROM-wide changes, Android platform improvements and upstream features, see the official DerpFest changelog:
+
+https://derpfest.org/changelog
+
+#StayDerped 🦉
+
+====================
      26-10-2026
 ====================
 
