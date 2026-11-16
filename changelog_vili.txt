@@ -1,12 +1,12 @@
 DerpFest v17 | OFFICIAL
 By ~ @0mar99
-Build Date: 11-06-2026
+Build Date: 11-16-2026
 Device: Xiaomi 11T Pro [vili]
 
 Source:
-- Initial Android 17 release
+- Synced latest source changes
 
 Device:
-- Merged the latest device and kernel changes from LineageOS
-- Fixed Kamis Stuff kernel manager issues
-- Added BCR by default
+- Added support for DeviceAsWebcam, credits to Mathias-Boulay
+- Adjusted portrait status bar width
+- Fixed audio HAL crash after the device has been idle for an extended period of time
