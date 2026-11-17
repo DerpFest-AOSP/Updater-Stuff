@@ -1,2 +1,3 @@
 Changelog:
-- Synced sources
+- Merged November security patch
+- Changes to spoofing
