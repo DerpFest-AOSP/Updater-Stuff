@@ -1,12 +1,14 @@
 DerpFest v17 | OFFICIAL
 By ~ @0mar99
-Build Date: 10-23-2026
+Build Date: 11-17-2026
 Device: OnePlus Ace 5 [giuliac]
 
 Device:
-- Merged the latest lineageOS changes
-- Fixed a systemUI freeze that occured when scrolling through Youtube while playing a video in the mini player
-- Introduced OnePlus Settings (settings > system > OnePlus Settings). Added a toggle for dc dimming and migrated haptic profile selection here
+- Cap prime cluster at 3.19 GHz under light load
+- Switched to threaded Vulkan RenderEngine
+- Fixed reconnection delay when toggling wifi
+- Updated lunaris dolby UI
+- Improved autobrightess curve
 
 Kernel:
-- Upstreamed kernel to 6.1.177 and merged the latest lineageOS changes
+- Upstreamed kernel to 6.1.182 and merged the latest lineageOS changes
