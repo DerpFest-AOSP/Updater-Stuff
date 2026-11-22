@@ -1,4 +1,14 @@
 Device Changes:
+# November 22nd 2026 Update:
+- Update to the November 2026 Android security patch
+- Add AccessCard for NFC-A UID emulation with a Quick Settings card picker
+- Enable AccessCard from DerpFest Settings > Miscellaneous > Experimental
+- Add swipe-to-switch cards and restore the last card when reopening AccessCard
+- Restore normal NFC behavior when AccessCard leaves the foreground
+- Add encrypted card backups and opt-in NFC diagnostic export
+- Update MediaTek support and SELinux policies
+- Update DerpFest and LineageOS sources
+
 # October 24th 2026 Update:
 - Restore the stock build fingerprint and attestation identity for Google Play compatibility
 - Fix missing short vibration effects
