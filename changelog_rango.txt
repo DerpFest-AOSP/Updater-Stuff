@@ -15,3 +15,7 @@
 10.16.26
  - Initial A17 release
  - New keys used, and new base, clean flash required
+
+11.21.26
+ - November security patch
+ - all other rom updates included
